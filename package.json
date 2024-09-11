@@ -1,10 +1,16 @@
 {
   "type": "module",
   "dependencies": {
-    "@polygon.io/client-js": "^7.3.2",
+    "@alpacahq/alpaca-trade-api": "^3.1.2",
+    "@api/testalpacadocs": "file:.api/apis/testalpacadocs",
+    "axios": "^1.7.7",
     "chalk": "^5.3.0",
     "cli-table3": "^0.6.5",
     "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
     "puppeteer": "^23.3.0"
   }
 }
