@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@polygon.io/client-js": "^7.3.2",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "colors": "^1.4.0",
+    "puppeteer": "^23.3.0"
+  }
+}

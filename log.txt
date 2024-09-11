@@ -1,0 +1,18 @@
+Starting scrape for symbol: blmz
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
+Starting scrape for symbol: BLMZ
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
+Starting scrape for symbol: blmz
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
+Starting scrape for symbol: blmz
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
+Starting scrape for symbol: BLMZ
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
+Starting scrape for symbol: BLMZ
+Error occurred: Waiting for selector `.snapshot-table2` failed: Waiting failed: 30000ms exceeded
+Browser closed.
