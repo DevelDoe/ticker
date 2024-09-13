@@ -1,8 +1,8 @@
-import puppeteer from 'puppeteer';
 import fs from 'fs';
 import path from 'path';
 import chalk from 'chalk';
 import debounce from 'lodash.debounce';
+import puppeteer from 'puppeteer-core';
 
 // Define paths for files
 const tickerFilePath = path.join(process.cwd(), 'ticker.txt');
@@ -24,7 +24,12 @@ const fetchStockData = async (ticker) => {
     try {
         const url = `https://finviz.com/quote.ashx?t=${ticker.toUpperCase()}&ta=1&p=d&ty=si&b=1`;
 
-        const browser = await puppeteer.launch({ headless: true });
+        const browser = await puppeteer.launch({
+            headless: true,
+            executablePath: 'C:\\chrome-win\\chrome.exe',  // Replace this with the actual path to your Chromium/Chrome
+            args: ['--disable-gpu', '--no-sandbox', '--disable-setuid-sandbox']
+        });
+
         const page = await browser.newPage();
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36');
         await page.goto(url, { waitUntil: 'networkidle2' });
@@ -56,7 +61,7 @@ const fetchStockData = async (ticker) => {
         });
 
         console.clear();
-        log(`\nStock Data for ${ticker.toUpperCase()} (from Finviz):\n`);
+        console.log('\n  Short data for ' + chalk.black.bgYellow(`${ticker}`) + '\n');
 
         log(`  Settlement Date: ${chalk.reset(stockData['Settlement Date'] || 'N/A')}`);
         log(`  Short Interest: ${chalk.reset(stockData['Short Interest'] || 'N/A')}`);
@@ -65,6 +70,7 @@ const fetchStockData = async (ticker) => {
         const shortFloatValue = shortFloat && !isNaN(parseFloat(shortFloat.replace('%', '').replace(',', '')))
             ? parseFloat(shortFloat.replace('%', '').replace(',', ''))
             : NaN;
+
         let shortFloatColor = chalk.reset;
         if (!isNaN(shortFloatValue)) {
             if (shortFloatValue > 20) {
@@ -82,6 +88,7 @@ const fetchStockData = async (ticker) => {
         const shortRatioValue = shortRatio && !isNaN(parseFloat(shortRatio))
             ? parseFloat(shortRatio)
             : NaN;
+
         let shortRatioColor = chalk.reset;
         if (!isNaN(shortRatioValue)) {
             if (shortRatioValue > 10) {
@@ -99,16 +106,15 @@ const fetchStockData = async (ticker) => {
             log(`\n`);
 
             if (!isNaN(shortFloatValue)) {
-                log(`  A short float of ${shortFloatColor(shortFloat)} indicates that ${shortFloatValue}% of the company's available shares are being shorted.`);
                 if (shortFloatValue > 20) {
-                    log('  This high short float indicates that a significant portion of the company’s shares are being shorted. For bullish traders, this could suggest a potential opportunity if the stock price rises, as the high short interest might lead to a short squeeze.');
+                    log(`  ${shortFloatColor(shortFloat)} is a high short float that indicates that a significant portion of the company’s shares are being shorted. For bullish traders, this could suggest a potential opportunity if the stock price rises, as the high short interest might lead to a short squeeze.`);
                 } else if (shortFloatValue > 10) {
-                    log('  This moderate short float suggests that a moderate portion of the company’s shares are being shorted. Bullish traders might see this as an opportunity, as a price increase could lead to short covering and drive the stock price higher.');
+                    log(`  ${shortFloatColor(shortFloat)} is a moderate short float that suggests that a moderate portion of the company’s shares are being shorted. Bullish traders might see this as an opportunity, as a price increase could lead to short covering and drive the stock price higher.`);
                 } else {
-                    log('  This low short float shows that a small portion of the company’s shares are being shorted. For bullish traders, this indicates less bearish sentiment and might imply fewer obstacles if the stock price increases.');
+                    log(`  ${shortFloatColor(shortFloat)} is a low short float This shows that a small portion of the company’s shares are being shorted. For bullish traders, this indicates less bearish sentiment and might imply fewer obstacles if the stock price increases.`);
                 }
             } else {
-                
+                log(`  Short Float: Data not available.`);
             }
         } else {
             log(`\n  Short Float Overview`);
@@ -119,19 +125,19 @@ const fetchStockData = async (ticker) => {
             log(`\n  `);
 
             if (!isNaN(shortRatioValue)) {
-                log(`  A short ratio of ${shortRatioColor(shortRatio)} means that it would take ${shortRatioValue} days to cover all short positions based on average daily volume.`);
+                log(`  It would take ${shortRatioColor(shortRatio)} days to cover all short positions based on average daily volume.`);
                 if (shortRatioValue > 10) {
-                    log('  This high short ratio suggests that a significant number of shares are being shorted. For bullish traders, this might present an opportunity as a rise in the stock price could force short sellers to cover their positions, potentially driving the price higher.');
+                    log(`  This high short ratio ${shortRatioColor(shortRatio)} suggests that a significant number of shares are being shorted. For bullish traders, this might present an opportunity as a rise in the stock price could force short sellers to cover their positions, potentially driving the price higher.`);
                 } else if (shortRatioValue > 5) {
-                    log('  This moderate short ratio indicates some short interest. Bullish traders might see this as a potential opportunity, as a price increase could lead to short covering and upward price pressure.');
+                    log(`  This moderate short ratio ${shortRatioColor(shortRatio)} indicates some short interest. Bullish traders might see this as a potential opportunity, as a price increase could lead to short covering and upward price pressure.`);
                 } else {
-                    log('  This low short ratio indicates that fewer shares are being shorted. For bullish traders, this typically signifies lower bearish sentiment and may suggest a smoother path for upward price movements.');
+                    log(`  This low short ratio ${shortRatioColor(shortRatio)} indicates that fewer shares are being shorted. For bullish traders, this typically signifies lower bearish sentiment and may suggest a smoother path for upward price movements.`);
                 }
             } else {
-                
+                log(`  Short Ratio: Data not available.`);
             }
         } else {
-            log(`\nShort Ratio Overview`);
+            log(`\n  Short Ratio Overview`);
             log(`  Short Ratio: Data not available.`);
         }
 
@@ -182,11 +188,11 @@ const monitorTickerFile = async () => {
         const initialTicker = await readTickerFromFile();
         if (initialTicker) {
             lastTicker = initialTicker;
-            log(`Initial ticker symbol: ${initialTicker}`);
+            log(`\n  Loading: ${initialTicker}`);
             await fetchStockData(initialTicker);
         }
     } catch (error) {
-        log('Error reading initial ticker file: ' + error.message);
+        log('  Error reading initial ticker file: ' + error.message);
     }
 };
 

@@ -5,6 +5,8 @@ import dotenv from 'dotenv';
 import fetch from 'node-fetch'; // Ensure you have node-fetch installed
 import debounce from 'lodash.debounce';
 import chalk from 'chalk';
+import readline from 'readline';
+import open from 'open';
 
 // Load environment variables
 dotenv.config({ path: '.env.alpaca' });
@@ -80,21 +82,18 @@ async function getNews(ticker) {
     }
 }
 
-
+// Format and display news
 function formatNewsOutput(ticker, newsData) {
     console.clear(); // Clear the console before outputting new information
 
     // Format the ticker symbol with black text on a yellow background
-    console.log('`News for '+chalk.black.bgYellow(`${ticker}`)+'\n');
+    console.log('\n  News for ' + chalk.black.bgYellow(`${ticker}`) + '\n');
 
     if (newsData.length === 0) {
         console.log('No news found.');
     } else {
         const now = new Date();
         newsData.forEach(newsItem => {
-            // // Debug output to inspect the structure of newsItem
-            // console.log('News Item:', newsItem);
-
             const headline = newsItem.headline || 'No headline available';
             const url = newsItem.url; // Keep the full URL
             const timestamp = newsItem.created_at ? new Date(newsItem.created_at) : null; // Use created_at field
@@ -115,9 +114,32 @@ function formatNewsOutput(ticker, newsData) {
             console.log(`  ${url}`);
             console.log(`  Published: ${timeElapsed}\n`); // Line break between entries
         });
+
+        // Prompt the user to open the latest news
+        promptToOpenLatestNews(newsData);
     }
 }
 
+// Prompt the user to open the latest news
+function promptToOpenLatestNews(newsData) {
+    if (newsData.length > 0) {
+        const latestNews = newsData[0];
+        const rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout
+        });
+
+        console.log();
+        rl.question(`  Read: ${latestNews.headline} (y/n): `, async (answer) => {
+            if (answer.toLowerCase() === 'y') {
+                if (latestNews.url) {
+                    await open(latestNews.url); // Open the URL in the default browser
+                }
+            } 
+            rl.close(); // Close the readline interface
+        });
+    }
+}
 
 // Process the ticker
 async function processTicker() {

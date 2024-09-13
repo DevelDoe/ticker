@@ -16,7 +16,7 @@ const sanitizeTicker = (ticker) => {
 
 // Function to prompt for ticker symbol
 const promptForTicker = () => {
-  rl.question("What's the ticker symbol? ", async (ticker) => {
+  rl.question("ticker: ", async (ticker) => {
     // Sanitize and capitalize the ticker
     const sanitizedTicker = sanitizeTicker(ticker);
 
@@ -26,7 +26,6 @@ const promptForTicker = () => {
     try {
       // Save the sanitized ticker symbol to a file
       await fs.writeFile('ticker.txt', sanitizedTicker);
-      console.log(`Ticker symbol '${sanitizedTicker}' has been saved.`);
     } catch (err) {
       console.error('Error saving ticker symbol:', err);
     }
