@@ -177,7 +177,7 @@ const runContinuous = () => {
         .then(() => setTimeout(runContinuous, 5 * 60 * 1000)) // Run every 5 minutes
         .catch(error => {
             log('An error occurred: ' + error.message);
-            setTimeout(runContinuous, 5 * 60 * 1000); // Run again after 5 minutes if an error occurs
+            setTimeout(runContinuous, 30 * 1000); // Run again after 5 minutes if an error occurs
         });
 };
 

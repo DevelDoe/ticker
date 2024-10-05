@@ -32,14 +32,17 @@ function getPast24HoursDateRange() {
     };
 }
 
-// Read ticker from file
+// Read only the last ticker entry from the file
 function readTickerFromFile() {
     return new Promise((resolve, reject) => {
         fs.readFile(tickerFilePath, 'utf8', (err, data) => {
             if (err) {
                 reject(err);
             } else {
-                resolve(data.trim());
+                // Split the file by lines, filter out empty lines, and get the last line
+                const lines = data.trim().split('\n').filter(line => line.trim() !== '');
+                const lastLine = lines.length > 0 ? lines[lines.length - 1] : null;
+                resolve(lastLine);
             }
         });
     });
@@ -51,7 +54,7 @@ async function getNews(ticker) {
     const end = now.toISOString();
     
     // Calculate start time (16 hours back)
-    const start = new Date(now.getTime() - (16 * 60 * 60 * 1000)).toISOString();
+    const start = new Date(now.getTime() - (72 * 60 * 60 * 1000)).toISOString();
 
     const url = `https://data.alpaca.markets/v1beta1/news?symbols=${ticker}&start=${start}&end=${end}&limit=50&sort=desc`;
 

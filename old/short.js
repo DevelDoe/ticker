@@ -103,7 +103,7 @@ const fetchStockData = async (ticker) => {
         log(`  Short Ratio: ${shortRatioColor(shortRatio || 'N/A')}`);
 
         if (shortFloat && shortFloat !== 'N/A') {
-            log(`\n`);
+            log('\n');
 
             if (!isNaN(shortFloatValue)) {
                 if (shortFloatValue > 20) {
@@ -111,18 +111,18 @@ const fetchStockData = async (ticker) => {
                 } else if (shortFloatValue > 10) {
                     log(`  ${shortFloatColor(shortFloat)} is a moderate short float that suggests that a moderate portion of the company’s shares are being shorted. Bullish traders might see this as an opportunity, as a price increase could lead to short covering and drive the stock price higher.`);
                 } else {
-                    log(`  ${shortFloatColor(shortFloat)} is a low short float This shows that a small portion of the company’s shares are being shorted. For bullish traders, this indicates less bearish sentiment and might imply fewer obstacles if the stock price increases.`);
+                    log(`  ${shortFloatColor(shortFloat)} is a low short float. This shows that a small portion of the company’s shares are being shorted. For bullish traders, this indicates less bearish sentiment and might imply fewer obstacles if the stock price increases.`);
                 }
             } else {
                 log(`  Short Float: Data not available.`);
             }
         } else {
-            log(`\n  Short Float Overview`);
+            log('\n  Short Float Overview');
             log(`  Short Float: Data not available.`);
         }
 
         if (shortRatio && shortRatio !== 'N/A') {
-            log(`\n  `);
+            log('\n');
 
             if (!isNaN(shortRatioValue)) {
                 log(`  It would take ${shortRatioColor(shortRatio)} days to cover all short positions based on average daily volume.`);
@@ -137,7 +137,7 @@ const fetchStockData = async (ticker) => {
                 log(`  Short Ratio: Data not available.`);
             }
         } else {
-            log(`\n  Short Ratio Overview`);
+            log('\n  Short Ratio Overview');
             log(`  Short Ratio: Data not available.`);
         }
 
@@ -147,14 +147,15 @@ const fetchStockData = async (ticker) => {
     }
 };
 
-// Function to read ticker from the file
-const readTickerFromFile = () => {
+// Function to read the last ticker from the file
+const readLastTickerFromFile = () => {
     return new Promise((resolve, reject) => {
         fs.readFile(tickerFilePath, 'utf8', (err, data) => {
             if (err) {
                 reject(err);
             } else {
-                resolve(data.trim());
+                const tickers = data.trim().split('\n').filter(line => line.trim() !== '');
+                resolve(tickers[tickers.length - 1] || '');  // Return the last ticker or an empty string if none
             }
         });
     });
@@ -166,7 +167,7 @@ const monitorTickerFile = async () => {
 
     const debouncedFileChange = debounce(async () => {
         try {
-            const ticker = await readTickerFromFile();
+            const ticker = await readLastTickerFromFile();
             if (ticker !== lastTicker) {
                 console.clear(); // Clears the console
                 log(`Ticker symbol changed to: ${ticker}`);
@@ -185,7 +186,7 @@ const monitorTickerFile = async () => {
     });
 
     try {
-        const initialTicker = await readTickerFromFile();
+        const initialTicker = await readLastTickerFromFile();
         if (initialTicker) {
             lastTicker = initialTicker;
             log(`\n  Loading: ${initialTicker}`);
@@ -198,3 +199,4 @@ const monitorTickerFile = async () => {
 
 // Start monitoring the ticker file
 monitorTickerFile().catch(console.error);
+
