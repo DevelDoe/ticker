@@ -526,7 +526,6 @@ const startListening = () => {
         }
     });
 };
-test
 
 // Watch for changes in tickers.json and trigger display
 const startWatchingFile = () => {
