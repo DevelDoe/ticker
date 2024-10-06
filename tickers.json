@@ -1,54 +1,10 @@
 {
-  "FORD": {
-    "ticker": "FORD",
-    "news": [],
-    "hod": false,
-    "float": "914.30K",
-    "price": "5.75",
-    "time": "01:59:40",
-    "isActive": true,
-    "firstSeen": "2024-10-05T21:01:13.988Z",
-    "lastSeen": "2024-10-05T21:01:13.988Z"
-  },
-  "JBDI": {
-    "ticker": "JBDI",
-    "news": [],
-    "hod": false,
-    "float": "3.66M",
-    "price": "1.2",
-    "time": "01:54:59",
-    "isActive": true,
-    "firstSeen": "2024-10-05T21:01:13.988Z",
-    "lastSeen": "2024-10-05T21:01:13.988Z"
-  },
-  "CHSN": {
-    "ticker": "CHSN",
-    "news": [],
-    "hod": false,
-    "float": "5.49M",
-    "price": "13.48",
-    "time": "00:56:25",
-    "isActive": true,
-    "firstSeen": "2024-10-05T21:01:13.989Z",
-    "lastSeen": "2024-10-05T21:01:13.989Z"
-  },
-  "UXIN": {
-    "ticker": "UXIN",
-    "news": [],
-    "hod": false,
-    "float": "5.49M",
-    "price": "14.48",
-    "time": "00:56:25",
-    "isActive": true,
-    "firstSeen": "2024-10-05T21:01:13.989Z",
-    "lastSeen": "2024-10-05T21:01:13.989Z"
-  },
   "TNON": {
     "ticker": "TNON",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "5.49M",
-    "price": "13.48",
+    "price": "7.48",
     "time": "00:56:25",
     "isActive": true,
     "firstSeen": "2024-10-05T21:01:13.989Z",
@@ -64,19 +20,52 @@
   "MSS": {
     "ticker": "MSS",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "5.49M",
-    "price": "55.48",
+    "price": "4.48",
     "time": "00:56:25",
     "isActive": true,
     "firstSeen": "2024-10-05T21:01:13.989Z",
     "lastSeen": "2024-10-05T21:01:13.989Z",
     "shorts": {
       "Settlement Date": "Sep 13, 2024",
-      "Short Interest": "10.12K",
+      "Short Interest": "105.12K",
       "Avg. Daily Volume": "139.14K",
-      "Short Float": "16.17%",
+      "Short Float": "1.17%",
       "Short Ratio": "0.76"
     }
+  },
+  "FORD": {
+    "ticker": "FORD",
+    "news": [],
+    "hod": false,
+    "float": "914.30K",
+    "price": "5.75",
+    "time": "01:59:40",
+    "isActive": true,
+    "firstSeen": "2024-10-06T17:34:01.132Z",
+    "lastSeen": "2024-10-06T17:34:01.133Z"
+  },
+  "JBDI": {
+    "ticker": "JBDI",
+    "news": [],
+    "hod": false,
+    "float": "3.66M",
+    "price": "1.2",
+    "time": "01:54:59",
+    "isActive": true,
+    "firstSeen": "2024-10-06T17:34:01.133Z",
+    "lastSeen": "2024-10-06T17:34:01.133Z"
+  },
+  "CHSN": {
+    "ticker": "CHSN",
+    "news": [],
+    "hod": false,
+    "float": "5.49M",
+    "price": "13.48",
+    "time": "00:56:25",
+    "isActive": true,
+    "firstSeen": "2024-10-06T17:34:01.133Z",
+    "lastSeen": "2024-10-06T17:34:01.133Z"
   }
 }

@@ -5,20 +5,29 @@ import fetch from 'node-fetch';
 import player from 'node-wav-player';
 import chokidar from 'chokidar'; // Import chokidar
 
-// Load environment variables
-dotenv.config({ path: path.join(process.cwd(), '.env.alpaca') });
+const verbose = process.argv.includes('-v'); // Check for -v flag
+const testServer = process.argv.includes('-t'); // Check for -t flag
 
+dotenv.config({ path: path.join(process.cwd(), '.env.alpaca') }); // Load environment variables
+
+// Define paths 
 const tickerFilePath = path.join(process.cwd(), 'tickers.json'); // Path for the ticker.json
+
+// Variables
 const CHECK_INTERVAL_MS = 60 * 1000; // 1 minute
-const VERBOSE = process.argv.includes('-v');
-const TEST_MODE = process.argv.includes('-t'); // Check for -t flag
+
+// Variables
+let watcher; // Declare watcher globally
+let fileChangeTimeout; // To debounce rapid file changes
+let tickersData = {}; // To store tickers with news
+let lastProcessedTime = 0; // Variable to track the last processed time
 
 const playAlert = debounce(async () => {
     try {
         await player.play({
             path: './sounds/flash.wav', // Path to your audio file
         });
-        if (VERBOSE) console.log('Playing audio alert...');
+        if (verbose) console.log('Playing audio alert...');
     } catch (error) {
         console.error('Error playing audio alert:', error);
     }
@@ -31,9 +40,6 @@ function debounce(func, timeout = 3000) {
         timer = setTimeout(() => { func.apply(this, args); }, timeout);
     };
 }
-
-let watcher; // Declare watcher globally
-let fileChangeTimeout; // To debounce rapid file changes
 
 // Watch for changes in tickers.json
 const startFileWatcher = () => {
@@ -54,12 +60,10 @@ const startFileWatcher = () => {
     watcher.on('error', error => console.error(`Watcher error: ${error}`));
 };
 
-let tickersData = {}; // To store tickers with news
-
 // Read tickers from the JSON file
 const readTickersFromFile = async () => {
     try {
-        if (VERBOSE) console.log(`Reading tickers from JSON file: ${tickerFilePath}`);
+        if (verbose) console.log(`Reading tickers from JSON file: ${tickerFilePath}`);
         const data = await fs.readFile(tickerFilePath, 'utf8');
         const tickers = JSON.parse(data);
         tickersData = tickers; // Store the data for later updates
@@ -79,7 +83,7 @@ const getNewsForTicker = async (ticker) => {
     const last24Hours = new Date(currentTime - 24 * 60 * 60 * 1000); // 24 hours ago
     const formattedDate = last24Hours.toISOString(); // Format to ISO 8601
 
-    if (TEST_MODE) {
+    if (testServer) {
         // Test server mode
         url = `http://localhost:3000/v1beta1/news?symbols=${ticker}&start=${formattedDate}`;
     } else {
@@ -97,12 +101,12 @@ const getNewsForTicker = async (ticker) => {
     };
 
     try {
-        if (VERBOSE) console.log(`Fetching news for ticker: ${ticker} from ${TEST_MODE ? 'test server' : 'live API'}`);
+        if (verbose) console.log(`Fetching news for ticker: ${ticker} from ${testServer ? 'test server' : ''}`);
         const response = await fetch(url, options);
 
         if (response.ok) {
             const news = await response.json();
-            if (VERBOSE) console.log(`Received news for ticker ${ticker}:`, news);
+            if (verbose) console.log(`Received news for ticker ${ticker}:`, news);
             return news.news || [];
         } else {
             const text = await response.text();
@@ -147,7 +151,7 @@ const updateTickersWithNews = (ticker, news) => {
 // Updated write function to close and restart watcher during the write
 const writeTickersToFile = async () => {
     try {
-        if (VERBOSE) console.log('Pausing watcher and checking for changes to write...');
+        if (verbose) console.log('Pausing watcher and checking for changes to write...');
 
         await watcher.close(); // Close the watcher before writing
 
@@ -189,11 +193,9 @@ const processTickers = async () => {
     await collectAllNews(tickersToProcess);
 };
 
-let lastProcessedTime = 0; // Variable to track the last processed time
-
 // Main function to run the script every interval
 const main = async () => {
-    if (VERBOSE) console.log('Starting main function...');
+    if (verbose) console.log('Starting main function...');
     startFileWatcher(); // Start watching the file
     await processTickers(); // Process tickers immediately on start
     lastProcessedTime = Date.now(); // Set initial processed time
@@ -207,7 +209,7 @@ const main = async () => {
             await processTickers(); // Process all tickers regularly at the defined interval
             lastProcessedTime = currentTime; // Update the last processed time
         } else {
-            if (VERBOSE) console.log(`Skipping tickers processing; only ${elapsedTime / 1000}s since last run.`);
+            if (verbose) console.log(`Skipping tickers processing; only ${elapsedTime / 1000}s since last run.`);
         }
     }, CHECK_INTERVAL_MS);
 };

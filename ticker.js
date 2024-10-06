@@ -6,20 +6,23 @@ import notifier from "node-notifier";
 import chalk from "chalk";
 import player from "node-wav-player";
 
-// Check for verbose flag (-v)
-const verbose = process.argv.includes("-v");
+const verbose = process.argv.includes("-v"); // Check for verbose flag (-v)
+
+// Define paths 
+const tickerFilePath = "tickers.json";
+const lastWipeFilePath = "last-wipe.txt";
+const watchlistFilePath = "watchlist.json"; // Path for the watchlist
+
+let filterHeadlinesActive = false; // State for filtering headlines
+const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
+let previousHodStatus = {};  // Stores the previous HOD status of each ticker
+let previousPrices = {}; // Stores the last price for each ticker, declared globally
 
 // Create an interface to ask for input
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
-
-const tickerFilePath = "tickers.json";
-const lastWipeFilePath = "lastWipeTicker.txt";
-const watchlistFilePath = "watchlist.json"; // Path for the watchlist
-
-let filterHeadlinesActive = false; // State for filtering headlines
 
 // Function to play a WAV file
 function playWav(filePath) {
@@ -70,14 +73,14 @@ const checkAndWipeIfNeeded = async () => {
         const lastWipeAtMidnight = setToMidnight(lastWipeDate);
         const currentDateAtMidnight = setToMidnight(new Date());
 
+        console.log("Last wipe date:", lastWipeAtMidnight);
+        console.log("Current date:", currentDateAtMidnight);
+
         if (currentDateAtMidnight > lastWipeAtMidnight) {
             console.log("Wiping ticker files for a new day...");
             await fs.writeFile(tickerFilePath, "{}");
-            await fs.writeFile(legacyTickerFilePath, "");
-            await fs.writeFile(
-                lastWipeFilePath,
-                currentDateAtMidnight.toISOString()
-            );
+            console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
+            await fs.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
             console.log("Ticker files wiped...");
         } else {
             logVerbose("No need to wipe ticker files today.");
@@ -86,11 +89,8 @@ const checkAndWipeIfNeeded = async () => {
         if (err.code === "ENOENT") {
             const currentDateAtMidnight = setToMidnight(new Date());
             await fs.writeFile(tickerFilePath, "{}");
-            await fs.writeFile(legacyTickerFilePath, "");
-            await fs.writeFile(
-                lastWipeFilePath,
-                currentDateAtMidnight.toISOString()
-            );
+            console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
+            await fs.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
             console.log("Ticker files created and wiped. Last wipe date set.");
         } else {
             console.error("Error checking wipe status:", err);
@@ -219,14 +219,6 @@ const colors = {
     reset: "\x1b[0m",
 };
 
-// Initialize an object to keep track of the last displayed headlines
-const lastDisplayedHeadlines = {};
-
-// Function to display the tickers in a table format
-// Keep track of previous prices and HOD statuses for each ticker
-let previousPrices = {};  // Stores the previous prices of each ticker
-let previousHodStatus = {};  // Stores the previous HOD status of each ticker
-
 const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
@@ -301,20 +293,27 @@ const displayTickersTable = async () => {
             }
             
 
-            // Handle price coloring based on the price movement
-            let price = ticker.price;
-            let formattedPrice = price; // Default to uncolored price
+            const currentPrice = ticker.price; // Current price for the ticker
+            let formattedPrice = currentPrice; // Default price format
 
-            const previousPrice = previousPrices[ticker.ticker];
+            if(verbose && currentPrice) logVerbose('New price: ' +  currentPrice)
+
+            // Get the previous price for this specific ticker
+            const previousPrice = previousPrices[ticker.ticker]; // Access last known price
+            if(verbose && previousPrice) logVerbose('Old price: ' + previousPrice)
+
+
+             // Compare the current price with the previous price for the same ticker
             if (previousPrice !== undefined) {
-                if (price > previousPrice) {
-                    // Price went up, color it green
-                    formattedPrice = chalk.green(price);
-                } else if (price < previousPrice) {
-                    // Price went down, color it red
-                    formattedPrice = chalk.red(price);
+                if (currentPrice > previousPrice) {
+                    formattedPrice = chalk.green(currentPrice);  // Price up, color green
+                } else if (currentPrice < previousPrice) {
+                    formattedPrice = chalk.red(currentPrice);    // Price down, color red
                 }
             }
+
+            // After the comparison, update the stored price for this ticker
+            previousPrices[ticker.ticker] = currentPrice; // Update with the latest price for the next comparison
 
             // Get the previous HOD status for this ticker
             const previousHod = previousHodStatus[ticker.ticker];
@@ -351,10 +350,6 @@ const displayTickersTable = async () => {
             // Update the last displayed headlines for this ticker
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
 
-            // Update the previous price and HOD status for this ticker
-            previousPrices[ticker.ticker] = price; // Store the current price for comparison
-            previousHodStatus[ticker.ticker] = ticker.hod; // Store the current HOD status for comparison
-
             // Log the relevant values for debugging
             logVerbose(`Latest News for ${ticker.ticker}: ${latestNews}`);
             logVerbose(`Is new headline? ${isNewHeadline}`);
@@ -376,8 +371,6 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
-
-
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {

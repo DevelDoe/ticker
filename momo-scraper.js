@@ -4,14 +4,12 @@ import puppeteer from "puppeteer";
 
 const verbose = process.argv.includes("-v");
 
-// Set to keep track of seen timestamps
-const seenTimestamps = new Set();
+// Variables
+const seenTimestamps = new Set(); // Set to keep track of seen timestamps
+let totalOccurrences = {}; // Storage for total occurrences of each ticker
+let isRunning = false; // Set an interval to scrape every minute
+let browser; // Function to launch Puppeteer browser
 
-// Storage for total occurrences of each ticker
-let totalOccurrences = {};
-
-// Function to launch Puppeteer browser
-let browser;
 async function launchBrowser() {
     if (verbose) console.log("Launching Puppeteer...");
 
@@ -361,9 +359,6 @@ async function main() {
         if (verbose) console.log("Page closed.");
     }
 }
-
-// Set an interval to scrape every minute
-let isRunning = false;
 
 setInterval(async () => {
     if (isRunning) return; // Skip if the previous scrape is still running
