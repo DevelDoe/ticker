@@ -372,8 +372,6 @@ const displayTickersTable = async () => {
     }
 };
 
-test
-
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
     logVerbose("Clearing all tickers...");
