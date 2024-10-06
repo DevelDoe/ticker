@@ -34,7 +34,7 @@ function playWav(filePath) {
             console.error(`Error playing file: ${filePath}`, error);
         });
 }
-t
+
 // Function to log verbose messages
 const logVerbose = (message) => {
     if (verbose) {
