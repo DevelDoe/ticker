@@ -7,8 +7,8 @@
     "price": "5.75",
     "time": "01:59:40",
     "isActive": true,
-    "firstSeen": "2024-10-05T16:57:33.837Z",
-    "lastSeen": "2024-10-05T17:02:30.922Z"
+    "firstSeen": "2024-10-05T21:01:13.988Z",
+    "lastSeen": "2024-10-05T21:01:13.988Z"
   },
   "JBDI": {
     "ticker": "JBDI",
@@ -18,8 +18,8 @@
     "price": "1.2",
     "time": "01:54:59",
     "isActive": true,
-    "firstSeen": "2024-10-05T16:57:33.838Z",
-    "lastSeen": "2024-10-05T17:02:30.923Z"
+    "firstSeen": "2024-10-05T21:01:13.988Z",
+    "lastSeen": "2024-10-05T21:01:13.988Z"
   },
   "CHSN": {
     "ticker": "CHSN",
@@ -29,7 +29,7 @@
     "price": "13.48",
     "time": "00:56:25",
     "isActive": true,
-    "firstSeen": "2024-10-05T16:57:33.838Z",
-    "lastSeen": "2024-10-05T17:02:30.923Z"
+    "firstSeen": "2024-10-05T21:01:13.989Z",
+    "lastSeen": "2024-10-05T21:01:13.989Z"
   }
 }

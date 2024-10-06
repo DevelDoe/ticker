@@ -143,13 +143,17 @@ function saveToJson(tickersToSave, filteredData) {
             ? symbol.replace(/\s*\(HOD\)\s*$/, "").trim()
             : symbol;
 
+        const newPrice = symbolData?.Price || null;
+        const newFloat = symbolData?.Float || null;
+
         if (!tickersData[sanitizedSymbol]) {
+            // New ticker data, save it
             tickersData[sanitizedSymbol] = {
                 ticker: sanitizedSymbol,
                 news: [],
                 hod: isHOD,
-                float: symbolData?.Float || null,
-                price: symbolData?.Price || null,
+                float: newFloat,
+                price: newPrice,
                 time: symbolData?.Time || null,
                 isActive: true,
                 firstSeen: new Date().toISOString(),
@@ -157,9 +161,26 @@ function saveToJson(tickersToSave, filteredData) {
             };
             newData = true;
         } else {
+            // Check if HOD or price has changed
+            const existingTicker = tickersData[sanitizedSymbol];
+            let tickerUpdated = false;
+
+            if (existingTicker.hod !== isHOD) {
+                existingTicker.hod = isHOD;
+                tickerUpdated = true;
+            }
+
+            if (existingTicker.price !== newPrice) {
+                existingTicker.price = newPrice;
+                tickerUpdated = true;
+            }
+
+            // Update lastSeen and isActive fields
+            existingTicker.lastSeen = new Date().toISOString();
+            existingTicker.isActive = true;
+
             updated = true;
-            tickersData[sanitizedSymbol].lastSeen = new Date().toISOString();
-            tickersData[sanitizedSymbol].isActive = true;
+
         }
     });
 

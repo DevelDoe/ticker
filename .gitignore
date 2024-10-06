@@ -36,6 +36,8 @@ replay_pid*
 # Icon must end with two \r
 Icon
 
+# Dump files
+dumps
 
 # Thumbnails
 ._*
