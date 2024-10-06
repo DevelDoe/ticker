@@ -238,8 +238,8 @@ const displayTickersTable = async () => {
         const watchlist = JSON.parse(watchlistData);
 
         const table = new Table({
-            head: ["Ticker", "Latest News", "Float", "Price"], // Added 'Float' column
-            colWidths: [10, 62, 10, 10], // Adjusted column widths
+            head: ["Ticker", "Latest News", "Short", "Float", "Price"], // Added 'Float' column
+            colWidths: [10, 45, 10, 10, 10], // Adjusted column widths
         });
 
         // Create an array of tickers and sort by the latest news timestamp in descending order
@@ -335,10 +335,15 @@ const displayTickersTable = async () => {
                 playWav('./sounds/ding.wav');  // Plays 'ding.wav' only on price change for HOD tickers
             }
 
+            // Accessing Short Float
+            const shortFloat = ticker.shorts ? ticker.shorts["Short Float"] || "" : ""; // Access Short Float
+
+
             // Add the ticker and its news to the table with colored ticker, formatted news, and colored price
             table.push([
                 coloredTicker,
                 formattedNews,
+                shortFloat,
                 float,
                 formattedPrice // Display the colored price here
             ]);

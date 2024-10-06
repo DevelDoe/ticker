@@ -31,5 +31,52 @@
     "isActive": true,
     "firstSeen": "2024-10-05T21:01:13.989Z",
     "lastSeen": "2024-10-05T21:01:13.989Z"
+  },
+  "UXIN": {
+    "ticker": "UXIN",
+    "news": [],
+    "hod": false,
+    "float": "5.49M",
+    "price": "14.48",
+    "time": "00:56:25",
+    "isActive": true,
+    "firstSeen": "2024-10-05T21:01:13.989Z",
+    "lastSeen": "2024-10-05T21:01:13.989Z"
+  },
+  "TNON": {
+    "ticker": "TNON",
+    "news": [],
+    "hod": true,
+    "float": "5.49M",
+    "price": "13.48",
+    "time": "00:56:25",
+    "isActive": true,
+    "firstSeen": "2024-10-05T21:01:13.989Z",
+    "lastSeen": "2024-10-05T21:01:13.989Z",
+    "shorts": {
+      "Settlement Date": "Sep 13, 2024",
+      "Short Interest": "815.13K",
+      "Avg. Daily Volume": "1.00M",
+      "Short Float": "163.03%",
+      "Short Ratio": "0.81"
+    }
+  },
+  "MSS": {
+    "ticker": "MSS",
+    "news": [],
+    "hod": true,
+    "float": "5.49M",
+    "price": "55.48",
+    "time": "00:56:25",
+    "isActive": true,
+    "firstSeen": "2024-10-05T21:01:13.989Z",
+    "lastSeen": "2024-10-05T21:01:13.989Z",
+    "shorts": {
+      "Settlement Date": "Sep 13, 2024",
+      "Short Interest": "10.12K",
+      "Avg. Daily Volume": "139.14K",
+      "Short Float": "16.17%",
+      "Short Ratio": "0.76"
+    }
   }
 }
