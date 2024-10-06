@@ -38,7 +38,7 @@
   "FORD": {
     "ticker": "FORD",
     "news": [],
-    "hod": false,
+    "hod": true,
     "float": "914.30K",
     "price": "5.75",
     "time": "01:59:40",
