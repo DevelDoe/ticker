@@ -300,7 +300,7 @@ const displayTickersTable = async () => {
 
             // Get the previous price for this specific ticker
             const previousPrice = previousPrices[ticker.ticker]; // Access last known price
-            if(verbose && ) logVerbose('Old price: ' + previousPrice)
+            if(verbose && previousPrice) logVerbose('Old price: ' + previousPrice)
 
 
              // Compare the current price with the previous price for the same ticker
@@ -526,6 +526,7 @@ const startListening = () => {
         }
     });
 };
+
 
 // Watch for changes in tickers.json and trigger display
 const startWatchingFile = () => {
