@@ -37,11 +37,11 @@
     "news": [],
     "hod": false,
     "float": "7.13M",
-    "price": "1.98",
+    "price": "2.05",
     "time": "10:00:45",
-    "isActive": false,
+    "isActive": true,
     "firstSeen": "2024-10-07T08:00:27.160Z",
-    "lastSeen": "2024-10-07T10:32:26.890Z"
+    "lastSeen": "2024-10-07T11:00:27.318Z"
   },
   "DUO": {
     "ticker": "DUO",
@@ -113,5 +113,16 @@
     "ticker": "TGL",
     "news": [],
     "isActive": false
+  },
+  "NAPA": {
+    "ticker": "NAPA",
+    "news": [],
+    "hod": false,
+    "float": "49.40M",
+    "price": "11.03",
+    "time": "13:00:25",
+    "isActive": true,
+    "firstSeen": "2024-10-07T11:00:27.318Z",
+    "lastSeen": "2024-10-07T11:00:27.318Z"
   }
 }
