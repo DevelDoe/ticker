@@ -50,7 +50,7 @@
     "float": "6.01M",
     "price": "2.65",
     "time": "10:01:16",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T08:01:25.646Z",
     "lastSeen": "2024-10-07T08:01:25.646Z"
   },
