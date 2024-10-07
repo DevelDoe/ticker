@@ -6,7 +6,7 @@
     "float": "914.30K",
     "price": "5.75",
     "time": "01:59:40",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T06:08:43.313Z",
     "lastSeen": "2024-10-07T08:00:27.161Z"
   },
@@ -17,7 +17,7 @@
     "float": "3.66M",
     "price": "1.2",
     "time": "01:54:59",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T06:08:43.314Z",
     "lastSeen": "2024-10-07T08:09:25.777Z"
   },
@@ -28,7 +28,7 @@
     "float": "5.49M",
     "price": "17.04",
     "time": "00:56:25",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T06:08:43.314Z",
     "lastSeen": "2024-10-07T08:31:25.666Z"
   },
@@ -39,7 +39,7 @@
     "float": "7.13M",
     "price": "1.98",
     "time": "10:00:45",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T08:00:27.160Z",
     "lastSeen": "2024-10-07T10:32:26.890Z"
   },
@@ -61,7 +61,7 @@
     "float": "134.72K",
     "price": "1.93",
     "time": "10:05:33",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T08:05:25.624Z",
     "lastSeen": "2024-10-07T08:50:25.943Z"
   },
@@ -72,7 +72,7 @@
     "float": "4.63M",
     "price": "2.2",
     "time": "10:09:51",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T08:09:25.777Z",
     "lastSeen": "2024-10-07T08:09:25.777Z"
   },
@@ -94,7 +94,7 @@
     "float": "2.00M",
     "price": "2.13",
     "time": "10:47:29",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T08:47:25.812Z",
     "lastSeen": "2024-10-07T08:47:25.812Z"
   },
@@ -105,13 +105,13 @@
     "float": "36.77M",
     "price": "1.48",
     "time": "12:01:47",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-10-07T10:01:26.709Z",
     "lastSeen": "2024-10-07T10:01:26.709Z"
   },
   "TGL": {
     "ticker": "TGL",
     "news": [],
-    "isActive": true
+    "isActive": false
   }
 }
