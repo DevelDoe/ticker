@@ -1,1 +1,35 @@
-{}
+{
+  "FORD": {
+    "ticker": "FORD",
+    "news": [],
+    "hod": false,
+    "float": "914.30K",
+    "price": "5.75",
+    "time": "01:59:40",
+    "isActive": true,
+    "firstSeen": "2024-10-07T06:08:43.313Z",
+    "lastSeen": "2024-10-07T06:08:43.314Z"
+  },
+  "JBDI": {
+    "ticker": "JBDI",
+    "news": [],
+    "hod": false,
+    "float": "3.66M",
+    "price": "1.2",
+    "time": "01:54:59",
+    "isActive": true,
+    "firstSeen": "2024-10-07T06:08:43.314Z",
+    "lastSeen": "2024-10-07T06:08:43.314Z"
+  },
+  "CHSN": {
+    "ticker": "CHSN",
+    "news": [],
+    "hod": false,
+    "float": "5.49M",
+    "price": "13.48",
+    "time": "00:56:25",
+    "isActive": true,
+    "firstSeen": "2024-10-07T06:08:43.314Z",
+    "lastSeen": "2024-10-07T06:08:43.314Z"
+  }
+}
