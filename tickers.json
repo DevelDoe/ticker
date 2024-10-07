@@ -81,11 +81,11 @@
     "news": [],
     "hod": false,
     "float": "9.73M",
-    "price": "2.37",
+    "price": "2.21",
     "time": "10:14:23",
-    "isActive": false,
+    "isActive": true,
     "firstSeen": "2024-10-07T08:14:25.621Z",
-    "lastSeen": "2024-10-07T08:14:25.621Z"
+    "lastSeen": "2024-10-07T10:59:27.314Z"
   },
   "TWG": {
     "ticker": "TWG",
