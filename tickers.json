@@ -35,7 +35,7 @@
   "PETZ": {
     "ticker": "PETZ",
     "news": [],
-    "hod": false,
+    "hod": true,
     "float": "7.13M",
     "price": "2.05",
     "time": "10:00:45",
