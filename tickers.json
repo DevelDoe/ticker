@@ -75,5 +75,16 @@
     "isActive": true,
     "firstSeen": "2024-10-07T08:09:25.777Z",
     "lastSeen": "2024-10-07T08:09:25.777Z"
+  },
+  "SRFM": {
+    "ticker": "SRFM",
+    "news": [],
+    "hod": false,
+    "float": "9.73M",
+    "price": "2.37",
+    "time": "10:14:23",
+    "isActive": true,
+    "firstSeen": "2024-10-07T08:14:25.621Z",
+    "lastSeen": "2024-10-07T08:14:25.621Z"
   }
 }
