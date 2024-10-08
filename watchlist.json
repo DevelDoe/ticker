@@ -1,5 +1,11 @@
 {
-  "CHSN": {
-    "ticker": "CHSN"
+  "NAPA": {
+    "ticker": "NAPA"
+  },
+  "RIME": {
+    "ticker": "RIME"
+  },
+  "CRNC": {
+    "ticker": "CRNC"
   }
 }

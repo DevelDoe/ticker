@@ -1,1 +1,345 @@
-{}
+{
+  "SOBR": {
+    "ticker": "SOBR",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-07T16:30:49Z",
+        "headline": "12 Information Technology Stocks Moving In Monday's Intraday Session",
+        "id": 41211983,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "API",
+          "AVNW",
+          "CRNC",
+          "OCFT",
+          "SLNHP",
+          "SMTK",
+          "SOBR",
+          "TAOP",
+          "TROO",
+          "WCT",
+          "WETH",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-07T16:30:49Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41211983/12-information-technology-stocks-moving-in-mondays-intraday-session"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-07T15:44:59Z",
+        "headline": "SOBR Safe Shares Halted On Circuit Breaker To The Upside, Stock Now Up 175.3%",
+        "id": 41210841,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SOBR"
+        ],
+        "updated_at": "2024-10-07T15:44:59Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41210841/sobr-safe-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-175-3"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-07T15:21:35Z",
+        "headline": "SOBR Safe Shares Resume Trading",
+        "id": 41210351,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SOBR"
+        ],
+        "updated_at": "2024-10-07T15:21:36Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41210351/sobr-safe-shares-resume-trading"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-07T15:16:58Z",
+        "headline": "SOBR Safe Shares Halted On Circuit Breaker To The Upside, Stock Now Up 73.2%",
+        "id": 41210296,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SOBR"
+        ],
+        "updated_at": "2024-10-07T15:16:59Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41210296/sobr-safe-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-73-2"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-07T13:42:43Z",
+        "headline": "SOBR Safe Shares Resume Trade",
+        "id": 41207772,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SOBR"
+        ],
+        "updated_at": "2024-10-07T13:42:43Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41207772/sobr-safe-shares-resume-trade"
+      }
+    ],
+    "hod": false,
+    "float": "265.68K",
+    "price": "12.04",
+    "time": "21:12:10",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:11:48.146Z",
+    "lastSeen": "2024-10-07T19:36:48.231Z"
+  },
+  "SNAL": {
+    "ticker": "SNAL",
+    "news": [],
+    "hod": false,
+    "float": "35.04M",
+    "price": "1.63",
+    "time": "21:27:38",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:27:48.233Z",
+    "lastSeen": "2024-10-07T19:55:48.543Z"
+  },
+  "OCFT": {
+    "ticker": "OCFT",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-07T16:30:49Z",
+        "headline": "12 Information Technology Stocks Moving In Monday's Intraday Session",
+        "id": 41211983,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "API",
+          "AVNW",
+          "CRNC",
+          "OCFT",
+          "SLNHP",
+          "SMTK",
+          "SOBR",
+          "TAOP",
+          "TROO",
+          "WCT",
+          "WETH",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-07T16:30:49Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41211983/12-information-technology-stocks-moving-in-mondays-intraday-session"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-07T12:08:40Z",
+        "headline": "12 Information Technology Stocks Moving In Monday's Pre-Market Session",
+        "id": 41204956,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ACMR",
+          "AVNW",
+          "CIEN",
+          "CRDO",
+          "CXM",
+          "INSG",
+          "LDTC",
+          "OCFT",
+          "SPI",
+          "TDTH",
+          "TOYO",
+          "WETH"
+        ],
+        "updated_at": "2024-10-07T12:08:41Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41204956/12-information-technology-stocks-moving-in-mondays-pre-market-session"
+      }
+    ],
+    "hod": true,
+    "float": "36.39M",
+    "price": "4.98",
+    "time": "21:50:14",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:49:48.345Z",
+    "lastSeen": "2024-10-07T19:50:48.493Z"
+  },
+  "WCT": {
+    "ticker": "WCT",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-07T16:30:49Z",
+        "headline": "12 Information Technology Stocks Moving In Monday's Intraday Session",
+        "id": 41211983,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "API",
+          "AVNW",
+          "CRNC",
+          "OCFT",
+          "SLNHP",
+          "SMTK",
+          "SOBR",
+          "TAOP",
+          "TROO",
+          "WCT",
+          "WETH",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-07T16:30:49Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41211983/12-information-technology-stocks-moving-in-mondays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "4.86",
+    "time": "21:50:49",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:50:48.493Z",
+    "lastSeen": "2024-10-07T19:50:48.493Z"
+  },
+  "TWG": {
+    "ticker": "TWG",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-07T09:40:15Z",
+        "headline": "Why Arcadium Lithium Shares Are Trading Higher By 28%; Here Are 20 Stocks Moving Premarket",
+        "id": 41202387,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/07/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/07/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/07/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALTM",
+          "BENF",
+          "BLRX",
+          "CETX",
+          "CHSN",
+          "CTNT",
+          "EFSH",
+          "FAAS",
+          "GSIW",
+          "LGMK",
+          "MYNA",
+          "NAPA",
+          "PETZ",
+          "QSG",
+          "SCL",
+          "TIGR",
+          "TRVN",
+          "TWG",
+          "VEV"
+        ],
+        "updated_at": "2024-10-07T09:40:15Z",
+        "url": "https://www.benzinga.com/news/24/10/41202387/why-arcadium-lithium-shares-are-trading-higher-by-28-here-are-20-stocks-moving-premarket"
+      }
+    ],
+    "hod": true,
+    "float": "2.00M",
+    "price": "2.19",
+    "time": "21:50:32",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:50:48.493Z",
+    "lastSeen": "2024-10-07T19:50:48.493Z"
+  },
+  "NA": {
+    "ticker": "NA",
+    "news": [],
+    "hod": true,
+    "float": "15.40M",
+    "price": "1.15",
+    "time": "21:55:05",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:54:48.462Z",
+    "lastSeen": "2024-10-07T19:55:48.543Z"
+  },
+  "LOBO": {
+    "ticker": "LOBO",
+    "news": [],
+    "hod": false,
+    "float": "2.01M",
+    "price": "3.17",
+    "time": "21:55:46",
+    "isActive": true,
+    "firstSeen": "2024-10-07T19:55:48.543Z",
+    "lastSeen": "2024-10-07T19:55:48.543Z"
+  }
+}

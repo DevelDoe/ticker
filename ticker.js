@@ -293,7 +293,7 @@ const displayTickersTable = async () => {
             }
             
 
-            const currentPrice = ticker.price; // Current price for the ticker
+            const currentPrice = ticker.price ? ticker.price : 0 // Current price for the ticker
             let formattedPrice = currentPrice; // Default price format
 
             if(verbose && currentPrice) logVerbose('New price: ' +  currentPrice)
@@ -330,7 +330,7 @@ const displayTickersTable = async () => {
             }
 
             // Only play sound if HOD is true AND price has changed
-            if (ticker.hod && previousPrice !== undefined && previousPrice !== price) {
+            if (ticker.hod && previousPrice !== undefined && previousPrice !== ticker.price) {
                 playWav('./sounds/ding.wav');  // Plays 'ding.wav' only on price change for HOD tickers
             }
 

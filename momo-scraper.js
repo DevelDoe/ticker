@@ -228,7 +228,7 @@ function displayScrapedMomo(
     thirdHighestCount
 ) {
     console.clear();
-    if (sortedSymbols.length > 0) console.log("\nTop Momos:");
+    if (sortedSymbols.length > 0) console.log("Scraped Momos");
     sortedSymbols.forEach(([symbol, count]) => {
         const color = colorCode(
             count,
@@ -247,7 +247,7 @@ function displayTodaysTopMomo(
     secondHighestCountDay,
     thirdHighestCountDay
 ) {
-    if (topOccurrences.length > 0) console.log("\nToday's Top Momos:");
+    if (topOccurrences.length > 0) console.log("\nToday's Top Momos");
     topOccurrences.forEach(([symbol, count]) => {
         const color = colorCode(
             count,
