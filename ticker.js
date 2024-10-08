@@ -35,6 +35,8 @@ function playWav(filePath) {
         });
 }
 
+test
+
 // Function to log verbose messages
 const logVerbose = (message) => {
     if (verbose) {
