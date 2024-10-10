@@ -427,6 +427,9 @@ const appendTicker = async (sanitizedTicker) => {
             }
         }
 
+       
+        playWav('./sounds/addTicker.wav'); 
+
         await fs.writeFile(tickerFilePath, JSON.stringify(tickers, null, 2));
         await displayTickersTable(); // Display the updated tickers table
     } catch (err) {
@@ -488,7 +491,8 @@ const toggleFilterHeadlines = () => {
 // Command line listener
 const startListening = () => {
     rl.on("line", async (line) => {
-        const command = line.trim();
+        const command = line.trim().toLowerCase();
+        
 
         if (command.startsWith("add ")) {
             const ticker = sanitizeTicker(command.split(" ")[1]);

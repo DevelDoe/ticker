@@ -1,6 +1,7 @@
 // Import required modules
 import fs from "fs";
 import puppeteer from "puppeteer";
+import player from "node-wav-player";
 
 const verbose = process.argv.includes("-v");
 
@@ -10,6 +11,16 @@ let totalOccurrences = {}; // Storage for total occurrences of each ticker
 let isRunning = false; // Set an interval to scrape every minute
 let browser; // Function to launch Puppeteer browser
 
+/**
+ * Launch Puppeteer browser.
+ *
+ * This function launches a Puppeteer browser in headless mode with specific
+ * arguments and returns the browser instance. It prints verbose logs if the
+ * `-v` flag is passed.
+ *
+ * @returns {Promise<Object>} - The Puppeteer browser instance.
+ * @throws {Error} - Throws error if browser launch fails.
+ */
 async function launchBrowser() {
     if (verbose) console.log("Launching Puppeteer...");
 
@@ -20,7 +31,36 @@ async function launchBrowser() {
     });
 }
 
-// Function to navigate to the desired page
+/**
+ * Play a WAV file.
+ *
+ * This function uses the node-wav-player module to play a given .wav file.
+ * If any error occurs, it will catch the error and log it.
+ *
+ * @param {string} filePath - The path to the WAV file to play.
+ * @returns {Promise<void>} - A promise that resolves when the sound is played.
+ */
+function playWav(filePath) {
+    return player
+        .play({
+            path: filePath,
+        })
+        .catch((error) => {
+            console.error(`Error playing file: ${filePath}`, error);
+        });
+}
+
+/**
+ * Navigate to the desired page.
+ *
+ * This function navigates to the specified URL using Puppeteer and waits until
+ * the page is fully loaded or a timeout occurs. It also waits for a specific
+ * element to ensure the target table is visible before proceeding.
+ *
+ * @param {Object} page - The Puppeteer page instance.
+ * @returns {Promise<void>} - A promise that resolves when navigation is complete.
+ * @throws {Error} - Throws an error if navigation or element loading fails.
+ */
 async function navigateToPage(page) {
     try {
         if (verbose) console.log("Navigating to the URL...");
@@ -37,7 +77,18 @@ async function navigateToPage(page) {
     }
 }
 
-// Function to scrape symbols and additional data
+/**
+ * Scrape symbols and additional data.
+ *
+ * This function scrapes data from the target page using Puppeteer's `page.evaluate()`
+ * to extract rows from a specific table. Each row contains multiple fields, such as
+ * Symbol, Price, ChangePercent, and more. The function filters out invalid rows and 
+ * returns an array of valid data objects.
+ *
+ * @param {Object} page - The Puppeteer page instance.
+ * @returns {Promise<Array>} - A promise that resolves to an array of scraped data objects.
+ * @throws {Error} - Throws an error if scraping fails.
+ */
 async function scrapeData(page) {
     try {
         if (verbose) console.log("Scraping symbols and additional data...");
@@ -75,7 +126,16 @@ async function scrapeData(page) {
     }
 }
 
-// Function to filter scraped data based on criteria
+/**
+ * Filter scraped data based on specific criteria.
+ *
+ * This function filters the scraped data by ensuring the symbol matches a valid pattern,
+ * the price is between 0.75 and 20, and the float (number of shares) is less than 50 million.
+ * It also checks whether the data has already been processed (using timestamps).
+ *
+ * @param {Array} scrapedData - The array of scraped data objects to filter.
+ * @returns {Array} - An array of filtered data objects that meet the criteria.
+ */
 function filterData(scrapedData) {
     if (verbose) console.log("Filtering data...");
 
@@ -119,7 +179,18 @@ function filterData(scrapedData) {
     return filteredData;
 }
 
-// Function to save filtered symbols to a JSON file
+/**
+ * Save filtered symbols to a JSON file.
+ *
+ * This function saves the filtered ticker data to a JSON file. If the symbol is new,
+ * it will add it to the JSON file. If the symbol is already present, it will update
+ * the ticker's information (e.g., price, HOD status, and time last seen). The function
+ * also plays a sound if new data is added.
+ *
+ * @param {Array} tickersToSave - An array of ticker symbols to save to the JSON file.
+ * @param {Array} filteredData - The filtered data objects to extract additional information from.
+ * @returns {void}
+ */
 function saveToJson(tickersToSave, filteredData) {
     if (verbose) console.log("tickersToSave: ", tickersToSave);
 
@@ -157,6 +228,7 @@ function saveToJson(tickersToSave, filteredData) {
                 firstSeen: new Date().toISOString(),
                 lastSeen: new Date().toISOString(),
             };
+            
             newData = true;
         } else {
             // Check if HOD or price has changed
@@ -186,6 +258,7 @@ function saveToJson(tickersToSave, filteredData) {
     if (verbose) console.log("Saving:", tickersData);
 
     if (newData || updated) {
+        playWav('./sounds/addTicker.wav'); 
         fs.writeFileSync(filePath, JSON.stringify(tickersData, null, 2));
         if (verbose) console.log(`New data saved to ${filePath}`);
     } else {
@@ -193,54 +266,98 @@ function saveToJson(tickersToSave, filteredData) {
     }
 }
 
-// Function to update total occurrences of symbols
+/**
+ * Update total occurrences of symbols
+ * 
+ * Updates the total occurrences for each symbol in the finalSymbols array.
+ * This function increments the occurrence count of each symbol in the totalOccurrences object.
+ * It also handles symbols with "(HOD)" tags, removing the tag before counting occurrences.
+ *
+ * @param {Array} finalSymbols - The array of symbols scraped and filtered from the data.
+ */
 function updateOccurrences(finalSymbols) {
     if (verbose) console.log("Updating total occurrences...");
 
     finalSymbols.forEach((symbol) => {
-        // Check if the symbol has a HOD tag and sanitize it
+        // Check if the symbol has a HOD tag and sanitize it by removing the "(HOD)" text
         const isHOD = symbol.endsWith("(HOD)");
         const sanitizedSymbol = isHOD
-            ? symbol.replace(/\(HOD\)$/, "").trim()
+            ? symbol.replace(/\(HOD\)$/, "").trim() // Remove the HOD tag and trim spaces
             : symbol;
 
-        // Update total occurrences for the sanitized symbol
+        // Increment the count for the sanitized symbol in totalOccurrences
         totalOccurrences[sanitizedSymbol] =
-            (totalOccurrences[sanitizedSymbol] || 0) + 1; // Increment by 1 for each symbol
+            (totalOccurrences[sanitizedSymbol] || 0) + 1;
     });
 
     if (verbose) console.log("Total occurrences updated:", totalOccurrences);
 }
 
-// Function to apply color coding based on rank
+/**
+ * Color coding based on rank
+ * 
+ * Returns a specific terminal color code based on the rank of the symbol count.
+ * Green for the highest count, yellow for the second highest, and salmon for the third highest.
+ * Resets the color for all other ranks.
+ *
+ * @param {number} count - The occurrence count of the symbol.
+ * @param {number} highestCount - The highest occurrence count in the list.
+ * @param {number} secondHighestCount - The second highest occurrence count.
+ * @param {number} thirdHighestCount - The third highest occurrence count.
+ * @returns {string} - The terminal color code.
+ */
 function colorCode(count, highestCount, secondHighestCount, thirdHighestCount) {
-    if (count === highestCount) return "\x1b[32m"; // Green
-    if (count === secondHighestCount) return "\x1b[33m"; // Yellow
-    if (count === thirdHighestCount) return "\x1b[38;5;213m"; // Salmon
-    return "\x1b[0m"; // Reset color
+    if (count === highestCount) return "\x1b[32m"; // Green for highest count
+    if (count === secondHighestCount) return "\x1b[33m"; // Yellow for second highest
+    if (count === thirdHighestCount) return "\x1b[38;5;213m"; // Salmon for third highest
+    return "\x1b[0m"; // Reset to default color for all other counts
 }
 
-// Function to display sorted tickers with their counts for scraped Momo
+
+/**
+ * Display sorted tickers with their counts for scraped Momo
+ * 
+ * Displays the sorted symbols with their occurrence counts in the terminal.
+ * Applies color coding based on symbol rank (highest, second highest, third highest).
+ *
+ * @param {Array} sortedSymbols - Array of symbols and their counts, sorted by count in descending order.
+ * @param {number} highestCount - The highest occurrence count in the list.
+ * @param {number} secondHighestCount - The second highest occurrence count.
+ * @param {number} thirdHighestCount - The third highest occurrence count.
+ */
 function displayScrapedMomo(
     sortedSymbols,
     highestCount,
     secondHighestCount,
     thirdHighestCount
 ) {
-    console.clear();
+    console.clear(); // Clear the terminal screen before displaying
     if (sortedSymbols.length > 0) console.log("Scraped Momos");
+
     sortedSymbols.forEach(([symbol, count]) => {
+        // Apply color coding to the symbol based on its count
         const color = colorCode(
             count,
             highestCount,
             secondHighestCount,
             thirdHighestCount
         );
-        console.log(`${color}${symbol}: ${count}\x1b[0m`); // Reset after printing
+        // Display the symbol and count with the applied color
+        console.log(`${color}${symbol}: ${count}\x1b[0m`); // Reset color after each symbol
     });
 }
 
-// Function to display the top occurrences for Today's Top Momo
+/**
+ * Display the top occurrences for Today's Top Momo
+ * 
+ * Displays the top 10 symbols with the most occurrences for the day.
+ * Applies color coding based on rank (highest, second highest, third highest).
+ *
+ * @param {Array} topOccurrences - Array of symbols and their total counts for the day.
+ * @param {number} highestCountDay - The highest occurrence count for the day.
+ * @param {number} secondHighestCountDay - The second highest occurrence count for the day.
+ * @param {number} thirdHighestCountDay - The third highest occurrence count for the day.
+ */
 function displayTodaysTopMomo(
     topOccurrences,
     highestCountDay,
@@ -248,43 +365,58 @@ function displayTodaysTopMomo(
     thirdHighestCountDay
 ) {
     if (topOccurrences.length > 0) console.log("\nToday's Top Momos");
+
     topOccurrences.forEach(([symbol, count]) => {
+        // Apply day-specific color coding to the symbol
         const color = colorCode(
             count,
             highestCountDay,
             secondHighestCountDay,
             thirdHighestCountDay
-        ); // Use day counts
-        console.log(`${color}${symbol}: ${count}\x1b[0m`); // Display symbol and count with color
+        );
+        // Display the symbol and count with the applied color
+        console.log(`${color}${symbol}: ${count}\x1b[0m`);
     });
 }
 
-// Function to scrape symbols and additional data
+/**
+ * Main scraping function
+ * 
+ * Main function that orchestrates the web scraping process. This includes:
+ * - Navigating to the target page
+ * - Scraping symbol data
+ * - Filtering and processing the data
+ * - Updating the occurrence counts
+ * - Displaying the results
+ * - Running periodically every 60 seconds
+ *
+ * @returns {Promise<void>} - Resolves when the process completes.
+ */
 async function main() {
-    if (!browser) browser = await launchBrowser(); // Launch browser only if it's not already open
-    const page = await browser.newPage(); // Create a new page
-    await page.setUserAgent("Mozilla/5.0"); // Set a custom user agent
+    if (!browser) browser = await launchBrowser(); // Launch browser if it's not already running
+    const page = await browser.newPage(); // Open a new browser tab
+    await page.setUserAgent("Mozilla/5.0"); // Set custom user agent
 
     try {
-        await navigateToPage(page); // Navigate to the page
-        const scrapedData = await scrapeData(page); // Scrape data
-        const filteredData = filterData(scrapedData); // Filter the data
+        await navigateToPage(page); // Navigate to the web page
+        const scrapedData = await scrapeData(page); // Scrape data from the page
+        const filteredData = filterData(scrapedData); // Filter scraped data
 
         // Count occurrences of each symbol
         const symbolCount = filteredData.reduce((acc, data) => {
-            acc[data.Symbol] = (acc[data.Symbol] || 0) + 1; // Accessing Symbol property correctly
+            acc[data.Symbol] = (acc[data.Symbol] || 0) + 1; // Increment occurrence count
             return acc;
         }, {});
 
-        // Extract unique symbols from filtered data
+        // Extract unique symbols from the filtered data
         let finalSymbols = filteredData
             .map((data) => data.Symbol)
-            .filter((symbol, index, self) => self.indexOf(symbol) === index); // Get unique symbols
+            .filter((symbol, index, self) => self.indexOf(symbol) === index); // Ensure uniqueness
 
-        // Filter out symbols that are dates
+        // Get all symbols for the current scrape
         const allSymbols = filteredData.map((data) => data.Symbol);
 
-        // Save to JSON file (only keep symbols that occur more than once)
+        // Save symbols that occur more than once to a JSON file
         const tickersToSave = Object.keys(symbolCount).filter(
             (symbol) => symbolCount[symbol] > 1
         );
@@ -298,25 +430,25 @@ async function main() {
             console.log("filteredData:", JSON.stringify(filteredData, null, 2));
         }
 
-        saveToJson(tickersToSave, filteredData);
+        saveToJson(tickersToSave, filteredData); // Save filtered data to JSON
 
         if (verbose) console.log("Filtered symbols:", finalSymbols);
 
-        // Sort symbols based on their counts from highest to lowest
+        // Sort symbols based on their counts in descending order
         const sortedSymbols = Object.entries(symbolCount).sort(
             (a, b) => b[1] - a[1]
-        ); // Sort in descending order without filtering
+        );
 
-        // Get the top occurrences
+        // Get the top 10 symbols for the day
         const topOccurrences = Object.entries(totalOccurrences)
-            .sort(([, countA], [, countB]) => countB - countA) // Sort by count in descending order
-            .slice(0, 10); // Get the top 10
+            .sort(([, countA], [, countB]) => countB - countA)
+            .slice(0, 10);
 
         // Get counts for color coding
         const counts = sortedSymbols.map(([, count]) => count);
         const countsDay = Object.values(totalOccurrences);
 
-        // Update highest counts for both lists
+        // Determine highest counts for color coding
         const highestCount = counts[0] || 0;
         const secondHighestCount = counts[1] || 0;
         const thirdHighestCount = counts[2] || 0;
@@ -325,16 +457,17 @@ async function main() {
         const secondHighestCountDay = countsDay[1] || 0;
         const thirdHighestCountDay = countsDay[2] || 0;
 
-        // Update total occurrences
+        // Update total occurrences for the scraped symbols
         updateOccurrences(allSymbols);
 
-        // Display results
+        // Display the results in the terminal
         displayScrapedMomo(
             sortedSymbols,
             highestCount,
             secondHighestCount,
             thirdHighestCount
         );
+
         if (Object.keys(totalOccurrences).length > 0) {
             displayTodaysTopMomo(
                 topOccurrences,
@@ -353,9 +486,9 @@ async function main() {
                 totalOccurrences
             );
     } catch (error) {
-        console.error("Error scraping symbols:", error);
+        console.error("Error scraping symbols:", error); // Log any scraping errors
     } finally {
-        await page.close(); // Close the page after scraping
+        await page.close(); // Close the browser tab after the scrape is complete
         if (verbose) console.log("Page closed.");
     }
 }

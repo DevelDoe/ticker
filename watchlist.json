@@ -7,5 +7,29 @@
   },
   "CRNC": {
     "ticker": "CRNC"
+  },
+  "BPTH": {
+    "ticker": "BPTH"
+  },
+  "INKT": {
+    "ticker": "INKT"
+  },
+  "IBG": {
+    "ticker": "IBG"
+  },
+  "ADTX": {
+    "ticker": "ADTX"
+  },
+  "AISP": {
+    "ticker": "AISP"
+  },
+  "RZLV": {
+    "ticker": "RZLV"
+  },
+  "LASE": {
+    "ticker": "LASE"
+  },
+  "BNZI": {
+    "ticker": "BNZI"
   }
 }
