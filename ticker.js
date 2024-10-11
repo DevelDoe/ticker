@@ -224,7 +224,18 @@ const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
         const data = await fs.readFile(tickerFilePath, "utf8");
-        const tickers = JSON.parse(data);
+
+        let tickers = {};
+        try {
+            tickers = JSON.parse(data);
+        } catch (err) {
+            if (err instanceof SyntaxError) {
+                console.warn("Warning: Invalid JSON input - falling back to empty ticker data.");
+                tickers = {}; // Fallback to an empty object if parsing fails
+            } else {
+                throw err; // Re-throw if it's another kind of error
+            }
+        }
 
         // Load watchlist data
         const watchlistData = await fs.readFile(watchlistFilePath, "utf8");

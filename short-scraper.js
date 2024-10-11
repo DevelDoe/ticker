@@ -64,7 +64,7 @@ const fetchStockData = async (ticker) => {
 
         // Wait for a specific element to load (e.g., the first row of the table)
         try {
-            await page.waitForSelector("table.financials-table tbody tr", { timeout: 10000 }); // 10 seconds timeout
+            await page.waitForSelector("table.financials-table tbody tr", { timeout: 20000 }); // 10 seconds timeout
         } catch (error) {
             console.error(`Failed to find selector for ticker: ${ticker}. Error: ${error.message}`);
             retryPool.push(ticker); // Add ticker back to retry pool
@@ -89,11 +89,18 @@ const fetchStockData = async (ticker) => {
                 if (rows.length > 0) {
                     const cells = rows[0].querySelectorAll("td"); // Get the first row
                     if (cells.length >= 5) {
-                        data[labels[0]] = cells[0]?.innerText.trim();
-                        data[labels[1]] = cells[1]?.innerText.trim();
-                        data[labels[2]] = cells[2]?.innerText.trim();
-                        data[labels[3]] = cells[3]?.innerText.trim();
-                        data[labels[4]] = cells[4]?.innerText.trim();
+                        labels.forEach((label, index) => {
+                            let value = cells[index]?.innerText.trim();
+                            // Convert placeholders like "-" to null for easier handling
+                            value = value === "-" ? null : value;
+                            // Parse numeric values with units (e.g., "6.33M")
+                            if (value && value.endsWith("M")) {
+                                value = parseFloat(value) * 1e6;
+                            } else if (value && value.endsWith("K")) {
+                                value = parseFloat(value) * 1e3;
+                            }
+                            data[label] = value;
+                        });
                     }
                 }
             }
@@ -108,6 +115,7 @@ const fetchStockData = async (ticker) => {
         return null;
     }
 };
+
 
 /**
  * Processes new tickers by fetching their stock data and updating the tickers.json file.
@@ -130,29 +138,29 @@ const processNewTickers = async (newTickers) => {
             const stockData = await fetchStockData(ticker);
 
             if (stockData) {
-                const shortFloat = stockData['Short Float'];
-                const shortRatio = stockData['Short Ratio'];
+                // Handle empty or null fields by setting default values
+                Object.keys(stockData).forEach(key => {
+                    if (stockData[key] === "" || stockData[key] === null) {
+                        stockData[key] = "N/A"; // Replace empty strings or null with "N/A"
+                    }
+                });
 
                 await updateTickerInFile(ticker, stockData, tickersJson); // Update tickers.json
             } else {
                 if(verbose) console.log(`No stock data returned for ticker: ${ticker}`);
             }
-            // Delay between requests to avoid overwhelming the server
-            const delay = Math.floor(Math.random() * 30000) + 30000; // Random delay between 30 and 60 seconds
-            if (verbose) console.log(`Waiting for ${delay / 1000} seconds before the next request...`);
-            await new Promise(resolve => setTimeout(resolve, delay)); // Random delay before the next request
-        }
+           // Delay between requests to avoid overwhelming the server
+           const delay = Math.floor(Math.random() * 240000) + 180000; // Random delay between 180 and 420 seconds 
+           if (verbose) console.log(`Delaying next request to avoid server overload for ${delay / 1000} seconds.`);
+           await new Promise(resolve => setTimeout(resolve, delay)); // Delay before the next request
 
-        // Delay between requests to avoid overwhelming the server
-        await new Promise(resolve => {
-            if (verbose) console.log("Delaying next request to avoid server overload...");
-            setTimeout(resolve, 6000); // Wait for 6 seconds before the next request
-        });
+        }
     } catch (error) {
         console.error("Error processing new tickers:", error.message);
         if (verbose) console.log(`Error details: ${error.stack}`);
     }
 };
+
 
 /**
  * Updates the ticker object in the tickers.json file with new stock data.
@@ -218,19 +226,18 @@ const watchFile = () => {
 
     fs.watch(tickerFilePath, async (eventType) => {
         if (eventType === 'change') {
-            console.log('Ticker file changed. Processing new tickers...');
-
             if (fileChangeTimeout) {
                 clearTimeout(fileChangeTimeout);
             }
 
-            if (!processing) { // Only proceed if not currently processing
-                processing = true;
-                fileChangeTimeout = setTimeout(async () => {
+            fileChangeTimeout = setTimeout(async () => {
+                if (!processing) { // Only proceed if not currently processing
+                    processing = true;
+                    console.log('Ticker file changed. Processing new tickers...');
                     await main(); // Call the main function to process tickers
                     processing = false; // Reset the processing flag
-                }, 10000); // Debounce file changes
-            }
+                }
+            }, 1000); // Debounce file changes by 1 second
         }
     });
 

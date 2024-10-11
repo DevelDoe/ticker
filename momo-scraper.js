@@ -21,14 +21,23 @@ let browser; // Function to launch Puppeteer browser
  * @returns {Promise<Object>} - The Puppeteer browser instance.
  * @throws {Error} - Throws error if browser launch fails.
  */
-async function launchBrowser() {
-    if (verbose) console.log("Launching Puppeteer...");
-
-    return await puppeteer.launch({
-        headless: true,
-        executablePath: "C:\\chrome-win\\chrome.exe", // Replace with your actual path
-        args: ["--disable-gpu", "--no-sandbox", "--disable-setuid-sandbox"],
-    });
+async function launchBrowser(retries = 3) {
+    let attempt = 0;
+    while (attempt < retries) {
+        try {
+            if (verbose) console.log("Launching Puppeteer...");
+            return await puppeteer.launch({
+                headless: true,
+                executablePath: "C:\\chrome-win\\chrome.exe", // Replace with your actual path
+                args: ["--disable-gpu", "--no-sandbox", "--disable-setuid-sandbox"],
+            });
+        } catch (error) {
+            attempt++;
+            console.error(`Failed to launch browser (attempt ${attempt}/${retries}):`, error);
+            if (attempt < retries) await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds before retrying
+        }
+    }
+    throw new Error("Failed to launch browser after multiple attempts.");
 }
 
 /**
@@ -126,9 +135,8 @@ async function scrapeData(page) {
     }
 }
 
+// Filter scraped data based on specific criteria.
 /**
- * Filter scraped data based on specific criteria.
- *
  * This function filters the scraped data by ensuring the symbol matches a valid pattern,
  * the price is between 0.75 and 20, and the float (number of shares) is less than 50 million.
  * It also checks whether the data has already been processed (using timestamps).
@@ -167,7 +175,7 @@ function filterData(scrapedData) {
             float = parseFloat(floatString); // Assume it's already in a numeric format
         }
 
-        if (isNaN(float) || float > 50) {
+        if (isNaN(float) || float > 100) {
             // Skip if the float is invalid or greater than 50 million
             return false;
         }
@@ -393,7 +401,9 @@ function displayTodaysTopMomo(
  * @returns {Promise<void>} - Resolves when the process completes.
  */
 async function main() {
-    if (!browser) browser = await launchBrowser(); // Launch browser if it's not already running
+    if (!browser || browser.isConnected() === false) {
+        browser = await launchBrowser(); // Relaunch the browser if it's not running
+    }
     const page = await browser.newPage(); // Open a new browser tab
     await page.setUserAgent("Mozilla/5.0"); // Set custom user agent
 
@@ -493,21 +503,44 @@ async function main() {
     }
 }
 
-setInterval(async () => {
+/**
+ * Randomized delay between 30 and 90 seconds.
+ *
+ * This function generates a random delay time between 30,000 ms (30 seconds)
+ * and 90,000 ms (90 seconds) to help avoid server overload.
+ *
+ * @returns {number} - The randomized delay in milliseconds.
+ */
+function getRandomDelay() {
+    return Math.floor(Math.random() * 60000) + 30000; // Random delay between 30,000 ms (30 sec) and 90,000 ms (90 sec)
+}
+
+/**
+ * Recursive scraping loop
+ *
+ * This function calls the main scraping function, then waits for a random delay
+ * between 30 and 90 seconds before calling itself again.
+ */
+async function startScrapingLoop() {
     if (isRunning) return; // Skip if the previous scrape is still running
     isRunning = true;
 
     try {
-        await main(); // Scrape symbols
+        await main(); // Execute the scraping
     } catch (error) {
         console.error("Error during scrape:", error);
     } finally {
         isRunning = false; // Reset the flag after scraping
+
+        // Wait for a random delay between 30 and 90 seconds before the next scrape
+        const delay = getRandomDelay();
+        if (verbose) console.log(`Waiting for ${delay / 1000} seconds before the next scrape...`);
+        setTimeout(startScrapingLoop, delay);
     }
-}, 60000); // 60000 ms = 1 minute
+}
 
 // Run the first scrape immediately
-main();
+startScrapingLoop();
 
 // Handle graceful shutdown to close the browser
 process.on("exit", async () => {

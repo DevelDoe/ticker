@@ -1,390 +1,943 @@
 {
-  "TOYO": {
-    "ticker": "TOYO",
-    "news": [],
-    "hod": false,
-    "float": "4.57M",
-    "price": "3.03",
-    "time": "10:28:44",
-    "isActive": false,
-    "firstSeen": "2024-10-09T08:28:27.839Z",
-    "lastSeen": "2024-10-09T08:28:27.840Z",
-    "shorts": {
-      "Settlement Date": "Sep 13, 2024",
-      "Short Interest": "43.08K",
-      "Avg. Daily Volume": "1.12M",
-      "Short Float": "0.94%",
-      "Short Ratio": "0.04"
-    }
-  },
-  "LASE": {
-    "ticker": "LASE",
+  "BLMZ": {
+    "ticker": "BLMZ",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-10-08T20:19:33Z",
-        "headline": "Laser Photonics Corp Requests That Their Press Release Issued October 1, 2024 Titled \"laser Photonics To Supply Cleantech Laser Cleaning Technology To Hemlock Semiconductor\" Be Killed; The Release Was Issued In Error By Laser Photonics Corporation. A Replacement Release Will Not Be Issued.",
-        "id": 41239268,
+        "created_at": "2024-10-09T20:07:40Z",
+        "headline": "BloomZ Selected As Primary Animation Production Contractor For Upcoming Project; Acquires Rights To Opening Music, Overseas Distribution, And Commercialization",
+        "id": 41259737,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "LASE"
+          "BLMZ"
         ],
-        "updated_at": "2024-10-08T20:19:34Z",
-        "url": "https://www.benzinga.com/news/24/10/41239268/laser-photonics-corp-requests-that-their-press-release-issued-october-1-2024-titled-laser-photonics"
+        "updated_at": "2024-10-09T20:07:41Z",
+        "url": "https://www.benzinga.com/news/24/10/41259737/bloomz-selected-as-primary-animation-production-contractor-for-upcoming-project-acquires-rights-to-o"
       },
       {
-        "author": "Benzinga Insights",
+        "author": "Avi Kapoor",
         "content": "",
-        "created_at": "2024-10-08T17:35:23Z",
-        "headline": "10 Industrials Stocks Whale Activity In Today's Session",
-        "id": 41236003,
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
         "images": [
           {
             "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/options_image_4.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
           },
           {
             "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/options_image_4.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
           },
           {
             "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/options_image_4.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
           }
         ],
         "source": "benzinga",
         "summary": " ",
         "symbols": [
-          "AXON",
-          "CAT",
-          "DAL",
-          "DE",
-          "EH",
-          "FDX",
-          "KNX",
-          "LASE",
-          "UAL",
-          "UBER"
-        ],
-        "updated_at": "2024-10-08T17:35:24Z",
-        "url": "https://www.benzinga.com/insights/options/24/10/41236003/10-industrials-stocks-whale-activity-in-todays-session"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-08T16:59:55Z",
-        "headline": "Laser Photonics Shares Halted On Circuit Breaker To The Upside, Stock Now Up 81.5%",
-        "id": 41235140,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LASE"
-        ],
-        "updated_at": "2024-10-08T16:59:55Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41235140/laser-photonics-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-81-5"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-10-08T16:31:05Z",
-        "headline": "10 Industrials Stocks Moving In Tuesday's Intraday Session",
-        "id": 41234461,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "AZUL",
-          "BURU",
-          "EH",
-          "LASE",
-          "NMHI",
-          "NNE",
-          "PDYN",
-          "SPAI",
-          "WLGS",
-          "ZJK"
-        ],
-        "updated_at": "2024-10-08T16:31:05Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41234461/10-industrials-stocks-moving-in-tuesdays-intraday-session"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-08T13:48:22Z",
-        "headline": "Laser Photonics Shares Resume Trade",
-        "id": 41229490,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LASE"
-        ],
-        "updated_at": "2024-10-08T13:48:23Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41229490/laser-photonics-shares-resume-trade"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-08T13:45:47Z",
-        "headline": "Laser Photonics Considers Legal Action Over Short Report Alleging Affiliated Individual Misconduct; Says It Commits To Transparency As Short Sellers Attempt Manipulation",
-        "id": 41229436,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LASE"
-        ],
-        "updated_at": "2024-10-08T13:45:48Z",
-        "url": "https://www.benzinga.com/short-sellers/24/10/41229436/laser-photonics-considers-legal-action-over-short-report-alleging-affiliated-individual-misconduct-"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-08T13:43:48Z",
-        "headline": "Laser Photonics Shares Halted On Circuit Breaker To The Upside, Stock Now Up 19.4%",
-        "id": 41229416,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LASE"
-        ],
-        "updated_at": "2024-10-08T13:43:48Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41229416/laser-photonics-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-19-4"
-      }
-    ],
-    "hod": false,
-    "float": "3.86M",
-    "price": "9.05",
-    "time": "10:37:55",
-    "isActive": true,
-    "firstSeen": "2024-10-09T08:37:27.477Z",
-    "lastSeen": "2024-10-09T14:12:30.038Z",
-    "shorts": {
-      "Settlement Date": "Sep 13, 2024",
-      "Short Interest": "902.54K",
-      "Avg. Daily Volume": "649.32K",
-      "Short Float": "18.12%",
-      "Short Ratio": "1.39"
-    }
-  },
-  "RIME": {
-    "ticker": "RIME",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T11:08:58Z",
-        "headline": "Algorhythm Signs New Master Service Agreement With A Mumbai-based Multinational Consumer Goods Company; No Terms Disclosed",
-        "id": 41246777,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "RIME"
-        ],
-        "updated_at": "2024-10-09T11:08:58Z",
-        "url": "https://www.benzinga.com/news/24/10/41246777/algorhythm-signs-new-master-service-agreement-with-a-mumbai-based-multinational-consumer-goods-compa"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-08T12:09:50Z",
-        "headline": "Algorhythm Holdings Announces Termination Of Its At-the-Market Equity Program",
-        "id": 41226251,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "RIME"
-        ],
-        "updated_at": "2024-10-08T12:09:51Z",
-        "url": "https://www.benzinga.com/news/24/10/41226251/algorhythm-holdings-announces-termination-of-its-at-the-market-equity-program"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-10-08T12:08:27Z",
-        "headline": "12 Consumer Discretionary Stocks Moving In Tuesday's Pre-Market Session",
-        "id": 41226217,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "DAO",
-          "FRZA",
-          "KXIN",
-          "LAZR",
-          "MGOL",
-          "MMA",
-          "MYND",
-          "QSG",
-          "RIME",
-          "UCAR",
-          "WAFU",
-          "ZAPP"
-        ],
-        "updated_at": "2024-10-08T12:08:28Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41226217/12-consumer-discretionary-stocks-moving-in-tuesdays-pre-market-session"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-10-09T12:07:20Z",
-        "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Pre-Market Session",
-        "id": 41248054,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "AMBO",
-          "CAAS",
-          "HELE",
-          "KXIN",
-          "MNSO",
-          "PIK",
-          "RIME",
-          "SBET",
-          "SONY",
-          "SPGC",
-          "TCS",
-          "WW"
-        ],
-        "updated_at": "2024-10-09T12:07:20Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41248054/12-consumer-discretionary-stocks-moving-in-wednesdays-pre-market-session"
-      }
-    ],
-    "hod": false,
-    "float": "4.31M",
-    "price": "0.76",
-    "time": "13:47:52",
-    "isActive": true,
-    "firstSeen": "2024-10-09T11:47:28.826Z",
-    "lastSeen": "2024-10-09T11:47:28.826Z"
-  },
-  "NCNA": {
-    "ticker": "NCNA",
-    "news": [],
-    "hod": false,
-    "float": "2.11M",
-    "price": "2.35",
-    "time": "14:00:11",
-    "isActive": false,
-    "firstSeen": "2024-10-09T12:00:28.625Z",
-    "lastSeen": "2024-10-09T12:00:28.625Z"
-  },
-  "WINT": {
-    "ticker": "WINT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T12:06:01Z",
-        "headline": "Windtree Therapeutics Announces Trial Design Of Its Istaroxime Phase 2b Study Has Been Published By The European Society Of Cardiology Heart Failure",
-        "id": 41248008,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "WINT"
-        ],
-        "updated_at": "2024-10-09T12:06:02Z",
-        "url": "https://www.benzinga.com/general/biotech/24/10/41248008/windtree-therapeutics-announces-trial-design-of-its-istaroxime-phase-2b-study-has-been-published-"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-10-09T12:07:14Z",
-        "headline": "12 Health Care Stocks Moving In Wednesday's Pre-Market Session",
-        "id": 41248052,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_1.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_1.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_1.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "AEMD",
-          "BPTH",
-          "CLSD",
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
           "CTCX",
-          "CUE",
-          "KZR",
-          "NIVF",
-          "NXL",
-          "TIVC",
-          "TOI",
-          "WINT",
-          "XCUR"
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
         ],
-        "updated_at": "2024-10-09T12:07:14Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41248052/12-health-care-stocks-moving-in-wednesdays-pre-market-session"
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:16:17Z",
+        "headline": "Market-Moving News for October 10th",
+        "id": 41270150,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BLMZ",
+          "INDV",
+          "TXG"
+        ],
+        "updated_at": "2024-10-10T12:16:18Z",
+        "url": "https://www.benzinga.com/trading-ideas/movers/24/10/41270150/market-moving-news-for-october-10th"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T13:47:52Z",
+        "headline": "Dow Falls Over 100 Points; US Inflation Rate Slows To 2.4% In September",
+        "id": 41272627,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/inflation-shutter7.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/inflation-shutter7.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/inflation-shutter7.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BLMZ",
+          "GRTS",
+          "INHD",
+          "JTAI",
+          "TXG",
+          "XHG"
+        ],
+        "updated_at": "2024-10-10T13:47:53Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41272627/dow-falls-over-100-points-us-inflation-rate-slows-to-2-4-in-september"
+      },
+      {
+        "author": "Lekha Gupta",
+        "content": "",
+        "created_at": "2024-10-10T14:58:28Z",
+        "headline": "Why Is Japanese Anime Production Company BloomZ Stock Jumping On Thursday?",
+        "id": 41274383,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/BLMZ-Logo.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/BLMZ-Logo.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/BLMZ-Logo.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BLMZ"
+        ],
+        "updated_at": "2024-10-10T14:58:28Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41274383/why-is-japanese-anime-production-company-bloomz-stock-jumping-on-thursday"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T16:04:48Z",
+        "headline": "Crude Oil Surges 3%; Delta Air Lines Posts Downbeat Earnings",
+        "id": 41276323,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "BLMZ",
+          "DAL",
+          "GRTS",
+          "INDV",
+          "LXU",
+          "SYM",
+          "TXG"
+        ],
+        "updated_at": "2024-10-10T16:04:49Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41276323/crude-oil-surges-3-delta-air-lines-posts-downbeat-earnings"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:48Z",
+        "headline": "11 Communication Services Stocks Moving In Thursday's Intraday Session",
+        "id": 41276951,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AEHL",
+          "BLMZ",
+          "CURI",
+          "DJT",
+          "DUO",
+          "JFU",
+          "KRKR",
+          "LVO",
+          "MMV",
+          "RDIB",
+          "SIFY"
+        ],
+        "updated_at": "2024-10-10T16:31:48Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276951/11-communication-services-stocks-moving-in-thursdays-intraday-session"
       }
     ],
     "hod": false,
-    "float": "3.19M",
-    "price": "0.97",
-    "time": "14:01:45",
+    "float": "6.33M",
+    "price": "1.21",
+    "time": "01:59:37",
+    "isActive": true,
+    "firstSeen": "2024-10-10T06:29:16.905Z",
+    "lastSeen": "2024-10-10T16:34:39.748Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 56250,
+      "Avg. Daily Volume": 5890000,
+      "Short Float": "N/A",
+      "Short Ratio": "0.01"
+    }
+  },
+  "MNTS": {
+    "ticker": "MNTS",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T20:31:03Z",
+        "headline": "12 Industrials Stocks Moving In Wednesday's After-Market Session",
+        "id": 41260534,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "BURU",
+          "CREG",
+          "HTCO",
+          "KSCP",
+          "LVRO",
+          "MNTS",
+          "MVST",
+          "RAIL",
+          "SMXT",
+          "TPIC",
+          "ZCAR",
+          "ZTO"
+        ],
+        "updated_at": "2024-10-09T20:31:03Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41260534/12-industrials-stocks-moving-in-wednesdays-after-market-session"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T18:36:33Z",
+        "headline": "Dow Surges 350 Points; US Crude Oil Stocks Increase",
+        "id": 41258012,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/wall-street-ai17.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T18:36:33Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41258012/dow-surges-350-points-us-crude-oil-stocks-increase"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:30:58Z",
+        "headline": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255372,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "BTOC",
+          "BURU",
+          "BYRN",
+          "BYU",
+          "JVSAR",
+          "MNTS",
+          "POLA",
+          "RR",
+          "SMXT",
+          "SPAI",
+          "SRFM",
+          "TURB"
+        ],
+        "updated_at": "2024-10-09T16:30:58Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255372/12-industrials-stocks-moving-in-wednesdays-intraday-session"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T16:18:05Z",
+        "headline": "Crude Oil Edges Lower; US Wholesale Inventories Rise 0.1% In August",
+        "id": 41255015,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T16:18:05Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41255015/crude-oil-edges-lower-us-wholesale-inventories-rise-0-1-in-august"
+      },
+      {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-10-09T14:29:33Z",
+        "headline": "What's Going On With Momentus Shares Wednesday?",
+        "id": 41252277,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Momentus shares are moving higher on Wednesday after the company announced it was selected by NASA to provide launch services for future missions.",
+        "symbols": [
+          "MNTS"
+        ],
+        "updated_at": "2024-10-09T14:29:33Z",
+        "url": "https://www.benzinga.com/news/24/10/41252277/whats-going-on-with-momentus-shares-wednesday"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T14:14:20Z",
+        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
+        "id": 41251943,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "BYU",
+          "HELE",
+          "IKT",
+          "MNTS",
+          "SPGC"
+        ],
+        "updated_at": "2024-10-09T14:14:21Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-09T12:32:49Z",
+        "headline": "Momentus Announces NASA Contract To Provide Launch Services For Future Agency Missions Through VADR Contract",
+        "id": 41248754,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MNTS"
+        ],
+        "updated_at": "2024-10-09T12:32:49Z",
+        "url": "https://www.benzinga.com/news/24/10/41248754/momentus-announces-nasa-contract-to-provide-launch-services-for-future-agency-missions-through-vadr"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
+          "CTCX",
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
+        ],
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:10Z",
+        "headline": "12 Industrials Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269752,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AQMS",
+          "BYU",
+          "EFSH",
+          "GXO",
+          "JTAI",
+          "MNTS",
+          "MWG",
+          "NMHI",
+          "PDYN",
+          "SGBX",
+          "SMXT",
+          "TURB"
+        ],
+        "updated_at": "2024-10-10T12:08:11Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269752/12-industrials-stocks-moving-in-thursdays-pre-market-session"
+      },
+      {
+        "author": "Adam Eckert",
+        "content": "",
+        "created_at": "2024-10-10T14:58:41Z",
+        "headline": "Momentus Stock Is Falling Thursday: What's Going On?",
+        "id": 41274389,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/Scrambled-Jets.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/Scrambled-Jets.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/Scrambled-Jets.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MNTS"
+        ],
+        "updated_at": "2024-10-10T14:58:42Z",
+        "url": "https://www.benzinga.com/news/24/10/41274389/momentus-stock-is-falling-thursday-whats-going-on"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:37Z",
+        "headline": "12 Industrials Stocks Moving In Thursday's Intraday Session",
+        "id": 41276945,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "GLXG",
+          "GRFX",
+          "GXO",
+          "JTAI",
+          "JVSAR",
+          "LASE",
+          "MNTS",
+          "NMHI",
+          "SPPL",
+          "SRFM",
+          "SYM",
+          "TURB"
+        ],
+        "updated_at": "2024-10-10T16:31:38Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276945/12-industrials-stocks-moving-in-thursdays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "25.23M",
+    "price": "1.02",
+    "time": "00:52:11",
     "isActive": false,
-    "firstSeen": "2024-10-09T12:01:29.044Z",
-    "lastSeen": "2024-10-09T12:21:28.782Z"
+    "firstSeen": "2024-10-10T06:29:16.906Z",
+    "lastSeen": "2024-10-10T06:48:30.926Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 1420000,
+      "Avg. Daily Volume": 6730000,
+      "Short Float": "5.61%",
+      "Short Ratio": "0.21"
+    }
+  },
+  "DUO": {
+    "ticker": "DUO",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
+          "CTCX",
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
+        ],
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:48Z",
+        "headline": "11 Communication Services Stocks Moving In Thursday's Intraday Session",
+        "id": 41276951,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AEHL",
+          "BLMZ",
+          "CURI",
+          "DJT",
+          "DUO",
+          "JFU",
+          "KRKR",
+          "LVO",
+          "MMV",
+          "RDIB",
+          "SIFY"
+        ],
+        "updated_at": "2024-10-10T16:31:48Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276951/11-communication-services-stocks-moving-in-thursdays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "6.01M",
+    "price": "2.22",
+    "time": "22:22:35",
+    "isActive": false,
+    "firstSeen": "2024-10-10T06:29:16.906Z",
+    "lastSeen": "2024-10-10T08:32:58.012Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 992820,
+      "Avg. Daily Volume": 8890000,
+      "Short Float": "1.11%",
+      "Short Ratio": "0.11"
+    }
   },
   "BNZI": {
     "ticker": "BNZI",
     "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T20:30:57Z",
+        "headline": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
+        "id": 41260528,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ATGL",
+          "BNZI",
+          "CETX",
+          "ETWO",
+          "INTZ",
+          "LIDR",
+          "PRSO",
+          "SOBR",
+          "TOYO",
+          "VUZI",
+          "XTKG",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-09T20:30:58Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41260528/12-information-technology-stocks-moving-in-wednesdays-after-market-session"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T18:36:33Z",
+        "headline": "Dow Surges 350 Points; US Crude Oil Stocks Increase",
+        "id": 41258012,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/wall-street-ai17.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T18:36:33Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41258012/dow-surges-350-points-us-crude-oil-stocks-increase"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:30:52Z",
+        "headline": "12 Information Technology Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255297,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALAB",
+          "ATOM",
+          "BNZI",
+          "CETX",
+          "MYSZ",
+          "NISN",
+          "NVNI",
+          "OCFT",
+          "SOBR",
+          "WCT",
+          "WETH",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-09T16:30:52Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255297/12-information-technology-stocks-moving-in-wednesdays-intraday-session"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T16:18:05Z",
+        "headline": "Crude Oil Edges Lower; US Wholesale Inventories Rise 0.1% In August",
+        "id": 41255015,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T16:18:05Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41255015/crude-oil-edges-lower-us-wholesale-inventories-rise-0-1-in-august"
+      },
+      {
+        "author": "Lekha Gupta",
+        "content": "",
+        "created_at": "2024-10-09T14:36:38Z",
+        "headline": "Banzai's $13.5M Profit Boost Plan: Cost-Cutting, Debt Restructuring, And Automation Power Play",
+        "id": 41252529,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/BNZI.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/BNZI.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/BNZI.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Banzai International announces strategic initiatives to improve net income by $13.5 million annually through cost-cutting measures and debt restructuring.",
+        "symbols": [
+          "BNZI"
+        ],
+        "updated_at": "2024-10-09T14:36:39Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41252529/banzais-13-5m-profit-boost-plan-cost-cutting-debt-restructuring-and-automation-power-play"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T14:14:20Z",
+        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
+        "id": 41251943,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "BYU",
+          "HELE",
+          "IKT",
+          "MNTS",
+          "SPGC"
+        ],
+        "updated_at": "2024-10-09T14:14:21Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-09T12:34:37Z",
+        "headline": "Banzai Announces Strategic Initiatives To Improve Net Income By Up To $13.5M Annually Through $9.9M Reduction In Operational Expenses And $3.6M Reduction In Other Expenses",
+        "id": 41248816,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BNZI"
+        ],
+        "updated_at": "2024-10-09T12:34:38Z",
+        "url": "https://www.benzinga.com/news/24/10/41248816/banzai-announces-strategic-initiatives-to-improve-net-income-by-up-to-13-5m-annually-through-9-9m-re"
+      },
       {
         "author": "Benzinga Insights",
         "content": "",
@@ -425,378 +978,63 @@
         "url": "https://www.benzinga.com/insights/movers/24/10/41248040/12-information-technology-stocks-moving-in-wednesdays-pre-market-session"
       },
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Benzinga Insights",
         "content": "",
-        "created_at": "2024-10-09T12:34:37Z",
-        "headline": "Banzai Announces Strategic Initiatives To Improve Net Income By Up To $13.5M Annually Through $9.9M Reduction In Operational Expenses And $3.6M Reduction In Other Expenses",
-        "id": 41248816,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BNZI"
-        ],
-        "updated_at": "2024-10-09T12:34:38Z",
-        "url": "https://www.benzinga.com/news/24/10/41248816/banzai-announces-strategic-initiatives-to-improve-net-income-by-up-to-13-5m-annually-through-9-9m-re"
-      },
-      {
-        "author": "Avi Kapoor",
-        "content": "",
-        "created_at": "2024-10-09T14:14:20Z",
-        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
-        "id": 41251943,
+        "created_at": "2024-10-10T12:08:05Z",
+        "headline": "12 Information Technology Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269750,
         "images": [
           {
             "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
           },
           {
             "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
           },
           {
             "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
           }
         ],
         "source": "benzinga",
         "summary": " ",
         "symbols": [
-          "ALCE",
+          "API",
+          "ATGL",
           "BNZI",
-          "BYU",
-          "HELE",
-          "IKT",
-          "MNTS",
-          "SPGC"
+          "CETX",
+          "ETWO",
+          "LDTC",
+          "NVX",
+          "NXTT",
+          "SGN",
+          "YXT",
+          "ZENA",
+          "ZPTA"
         ],
-        "updated_at": "2024-10-09T14:14:21Z",
-        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
+        "updated_at": "2024-10-10T12:08:05Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269750/12-information-technology-stocks-moving-in-thursdays-pre-market-session"
       }
     ],
-    "hod": false,
-    "float": "2.64M",
-    "price": "5.19",
-    "time": "14:32:02",
-    "isActive": true,
-    "firstSeen": "2024-10-09T12:31:29.046Z",
-    "lastSeen": "2024-10-09T14:31:30.432Z"
-  },
-  "WSR": {
-    "ticker": "WSR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T13:32:03Z",
-        "headline": "MCB Real Estate Increases Offer To Acquire Whitestone REIT To $15.00 Per Share In Cash; Sends Letter To Whitestone Board Highlighting Certainty Of All-Cash Proposal And Seeks Engagement",
-        "id": 41250893,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "WSR"
-        ],
-        "updated_at": "2024-10-09T13:32:04Z",
-        "url": "https://www.benzinga.com/m-a/24/10/41250893/mcb-real-estate-increases-offer-to-acquire-whitestone-reit-to-15-00-per-share-in-cash-sends-letter-t"
-      }
-    ],
-    "hod": false,
-    "float": "43.41M",
-    "price": "14.29",
-    "time": "14:36:49",
     "isActive": false,
-    "firstSeen": "2024-10-09T12:36:28.830Z",
-    "lastSeen": "2024-10-09T12:36:28.830Z"
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 127140,
+      "Avg. Daily Volume": 2080000,
+      "Short Float": "16.95%",
+      "Short Ratio": "0.06"
+    }
   },
-  "SONN": {
-    "ticker": "SONN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T12:45:52Z",
-        "headline": "Sonnet BioTherapeutics Enters Licensing Agreement With Alkem Laboratories For Development And Commercialization Of SON-080 In India For Diabetic Peripheral Neuropathy",
-        "id": 41249335,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SONN"
-        ],
-        "updated_at": "2024-10-09T12:45:52Z",
-        "url": "https://www.benzinga.com/news/24/10/41249335/sonnet-biotherapeutics-enters-licensing-agreement-with-alkem-laboratories-for-development-and-commer"
-      }
-    ],
-    "hod": false,
-    "float": "614.74K",
-    "price": "5.39",
-    "time": "14:46:39",
-    "isActive": false,
-    "firstSeen": "2024-10-09T12:46:29.281Z",
-    "lastSeen": "2024-10-09T12:59:29.095Z"
-  },
-  "EJH": {
-    "ticker": "EJH",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T13:11:25Z",
-        "headline": "E-Home Household Services Holdings Intends To Merge And Acquire Fuzhou Yunding Mutual Chain Information Technology Company Limited, An AI Access Control System + Smart Community Service Company To Expand The Front-end Industry Chain; Financial Terms Not Disclosed",
-        "id": 41250254,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "EJH"
-        ],
-        "updated_at": "2024-10-09T13:11:26Z",
-        "url": "https://www.benzinga.com/m-a/24/10/41250254/e-home-household-services-holdings-intends-to-merge-and-acquire-fuzhou-yunding-mutual-chain-informat"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T13:11:32Z",
-        "headline": "E-Home Household Services Holdings shares are trading higher after the company announced that it intends to merge and acquire Fuzhou Yunding Mutual Chain Information Technology.",
-        "id": 41250255,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "EJH"
-        ],
-        "updated_at": "2024-10-09T13:14:25Z",
-        "url": "https://www.benzinga.com/wiim/24/10/41250255/e-home-household-services-holdings-shares-are-trading-higher-after-the-company-announced-that-it-int"
-      }
-    ],
-    "hod": false,
-    "float": "8.54M",
-    "price": "1.07",
-    "time": "15:11:10",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:11:29.083Z",
-    "lastSeen": "2024-10-09T13:11:29.083Z"
-  },
-  "DUO": {
-    "ticker": "DUO",
-    "news": [],
-    "hod": true,
-    "float": "6.01M",
-    "price": "1.91",
-    "time": "15:32:56",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:32:29.342Z",
-    "lastSeen": "2024-10-09T13:48:29.797Z"
-  },
-  "PDYN": {
-    "ticker": "PDYN",
+  "RIME": {
+    "ticker": "RIME",
     "news": [
       {
         "author": "Benzinga Insights",
         "content": "",
-        "created_at": "2024-10-08T16:31:05Z",
-        "headline": "10 Industrials Stocks Moving In Tuesday's Intraday Session",
-        "id": 41234461,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "AZUL",
-          "BURU",
-          "EH",
-          "LASE",
-          "NMHI",
-          "NNE",
-          "PDYN",
-          "SPAI",
-          "WLGS",
-          "ZJK"
-        ],
-        "updated_at": "2024-10-08T16:31:05Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41234461/10-industrials-stocks-moving-in-tuesdays-intraday-session"
-      }
-    ],
-    "hod": false,
-    "float": "14.21M",
-    "price": "2.95",
-    "time": "15:33:54",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:33:29.378Z",
-    "lastSeen": "2024-10-09T14:13:29.834Z"
-  },
-  "IKT": {
-    "ticker": "IKT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T13:20:03Z",
-        "headline": "Inhibikase Therapeutics Announces Pricing Of $110M Private Placement To Advance IkT-001Pro, Into A Late-Stage Trial In Pulmonary Arterial Hypertension; Aggregate Investment Of Up To ~$275M By Healthcare-Focused Investment Funds, Led By Soleus Capital",
-        "id": 41250682,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "IKT"
-        ],
-        "updated_at": "2024-10-09T13:20:04Z",
-        "url": "https://www.benzinga.com/news/24/10/41250682/inhibikase-therapeutics-announces-pricing-of-110m-private-placement-to-advance-ikt-001pro-into-a-lat"
-      },
-      {
-        "author": "Avi Kapoor",
-        "content": "",
-        "created_at": "2024-10-09T14:14:20Z",
-        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
-        "id": 41251943,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "ALCE",
-          "BNZI",
-          "BYU",
-          "HELE",
-          "IKT",
-          "MNTS",
-          "SPGC"
-        ],
-        "updated_at": "2024-10-09T14:14:21Z",
-        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
-      }
-    ],
-    "hod": false,
-    "float": "6.57M",
-    "price": "1.67",
-    "time": "15:33:16",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:33:29.378Z",
-    "lastSeen": "2024-10-09T14:23:30.175Z"
-  },
-  "MNTS": {
-    "ticker": "MNTS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-09T12:32:49Z",
-        "headline": "Momentus Announces NASA Contract To Provide Launch Services For Future Agency Missions Through VADR Contract",
-        "id": 41248754,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MNTS"
-        ],
-        "updated_at": "2024-10-09T12:32:49Z",
-        "url": "https://www.benzinga.com/news/24/10/41248754/momentus-announces-nasa-contract-to-provide-launch-services-for-future-agency-missions-through-vadr"
-      },
-      {
-        "author": "Avi Kapoor",
-        "content": "",
-        "created_at": "2024-10-09T14:14:20Z",
-        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
-        "id": 41251943,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "ALCE",
-          "BNZI",
-          "BYU",
-          "HELE",
-          "IKT",
-          "MNTS",
-          "SPGC"
-        ],
-        "updated_at": "2024-10-09T14:14:21Z",
-        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
-      },
-      {
-        "author": "Dylan Berman",
-        "content": "",
-        "created_at": "2024-10-09T14:29:33Z",
-        "headline": "What's Going On With Momentus Shares Wednesday?",
-        "id": 41252277,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/NASA-Astronauts-Stuck-In-Space.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Momentus shares are moving higher on Wednesday after the company announced it was selected by NASA to provide launch services for future missions.",
-        "symbols": [
-          "MNTS"
-        ],
-        "updated_at": "2024-10-09T14:29:33Z",
-        "url": "https://www.benzinga.com/news/24/10/41252277/whats-going-on-with-momentus-shares-wednesday"
-      }
-    ],
-    "hod": false,
-    "float": "25.23M",
-    "price": "0.84",
-    "time": "15:38:15",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:38:29.516Z",
-    "lastSeen": "2024-10-09T14:02:30.473Z"
-  },
-  "SMXT": {
-    "ticker": "SMXT",
-    "news": [
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-10-09T12:07:07Z",
-        "headline": "12 Industrials Stocks Moving In Wednesday's Pre-Market Session",
-        "id": 41248043,
+        "created_at": "2024-10-09T20:31:14Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's After-Market Session",
+        "id": 41260548,
         "images": [
           {
             "size": "large",
@@ -814,40 +1052,43 @@
         "source": "benzinga",
         "summary": " ",
         "symbols": [
-          "ADN",
-          "BURU",
-          "EH",
-          "GRFX",
-          "HOVR",
-          "NCNC",
-          "NMHI",
-          "RMCO",
-          "SMXT",
-          "TISI",
-          "VCIG",
-          "ZJK"
+          "AZI",
+          "FRZA",
+          "KXIN",
+          "LGCB",
+          "LTRY",
+          "MYND",
+          "NIU",
+          "RIME",
+          "SNBR",
+          "TKLF",
+          "TRNR",
+          "WKHS"
         ],
-        "updated_at": "2024-10-09T12:07:08Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41248043/12-industrials-stocks-moving-in-wednesdays-pre-market-session"
-      }
-    ],
-    "hod": false,
-    "float": "27.68M",
-    "price": "1.14",
-    "time": "15:45:06",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:45:29.537Z",
-    "lastSeen": "2024-10-09T13:50:29.442Z"
-  },
-  "WCT": {
-    "ticker": "WCT",
-    "news": [
+        "updated_at": "2024-10-09T20:31:14Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41260548/12-consumer-discretionary-stocks-moving-in-wednesdays-after-market-session"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-09T12:58:48Z",
+        "headline": "Algorhythm shares are trading higher after the company announced it signed a new master service agreement with a Mumbai-based multinational consumer goods company, terms not disclosed.",
+        "id": 41249596,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RIME"
+        ],
+        "updated_at": "2024-10-09T15:02:11Z",
+        "url": "https://www.benzinga.com/wiim/24/10/41249596/algorhythm-shares-are-trading-higher-after-the-company-announced-it-signed-a-new-master-service-agre"
+      },
       {
         "author": "Benzinga Insights",
         "content": "",
-        "created_at": "2024-10-08T16:30:48Z",
-        "headline": "12 Information Technology Stocks Moving In Tuesday's Intraday Session",
-        "id": 41234350,
+        "created_at": "2024-10-09T12:07:20Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Pre-Market Session",
+        "id": 41248054,
         "images": [
           {
             "size": "large",
@@ -865,83 +1106,1775 @@
         "source": "benzinga",
         "summary": " ",
         "symbols": [
-          "AAOI",
-          "AILE",
-          "CETX",
-          "JG",
-          "JKS",
-          "MTC",
-          "OCFT",
-          "RCAT",
-          "SELX",
-          "SOBR",
-          "VERI",
-          "WCT"
+          "AMBO",
+          "CAAS",
+          "HELE",
+          "KXIN",
+          "MNSO",
+          "PIK",
+          "RIME",
+          "SBET",
+          "SONY",
+          "SPGC",
+          "TCS",
+          "WW"
         ],
-        "updated_at": "2024-10-08T16:30:49Z",
-        "url": "https://www.benzinga.com/insights/movers/24/10/41234350/12-information-technology-stocks-moving-in-tuesdays-intraday-session"
-      }
-    ],
-    "hod": false,
-    "float": "0",
-    "price": "5.52",
-    "time": "15:57:36",
-    "isActive": true,
-    "firstSeen": "2024-10-09T13:57:29.541Z",
-    "lastSeen": "2024-10-09T13:58:29.586Z"
-  },
-  "PLL": {
-    "ticker": "PLL",
-    "news": [
+        "updated_at": "2024-10-09T12:07:20Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41248054/12-consumer-discretionary-stocks-moving-in-wednesdays-pre-market-session"
+      },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-10-09T10:55:49Z",
-        "headline": "Piedmont Lithium Announced That The Minerals Commission Of Ghana Has Issued A Mine Operating Permit To The Joint Venture Ewoyaa Lithium Project In Ghana",
-        "id": 41246511,
+        "created_at": "2024-10-09T11:08:58Z",
+        "headline": "Algorhythm Signs New Master Service Agreement With A Mumbai-based Multinational Consumer Goods Company; No Terms Disclosed",
+        "id": 41246777,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PLL"
+          "RIME"
         ],
-        "updated_at": "2024-10-09T10:55:49Z",
-        "url": "https://www.benzinga.com/news/24/10/41246511/piedmont-lithium-announced-that-the-minerals-commission-of-ghana-has-issued-a-mine-operating-permit"
+        "updated_at": "2024-10-09T11:08:58Z",
+        "url": "https://www.benzinga.com/news/24/10/41246777/algorhythm-signs-new-master-service-agreement-with-a-mumbai-based-multinational-consumer-goods-compa"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:22Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269780,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "FFIE",
+          "HTLM",
+          "JDZG",
+          "JFBR",
+          "KXIN",
+          "LOBO",
+          "NXU",
+          "RIME",
+          "SPGC",
+          "TCS",
+          "TRNR",
+          "YYAI"
+        ],
+        "updated_at": "2024-10-10T12:08:23Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269780/12-consumer-discretionary-stocks-moving-in-thursdays-pre-market-session"
+      }
+    ],
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 47350,
+      "Avg. Daily Volume": 520010,
+      "Short Float": "1.10%",
+      "Short Ratio": "0.09"
+    }
+  },
+  "ALTM": {
+    "ticker": "ALTM",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T14:38:19Z",
+        "headline": "Arcadium Lithium, Norwegian Cruise Line, GitLab, Chewy And Other Big Stocks Moving Higher On Wednesday",
+        "id": 41252568,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALAB",
+          "ALTM",
+          "ARRY",
+          "BMEA",
+          "CHWY",
+          "GTLB",
+          "HELE",
+          "HOLO",
+          "IDT",
+          "LAZR",
+          "NCLH",
+          "SGML",
+          "SLI",
+          "SMCI"
+        ],
+        "updated_at": "2024-10-09T14:38:19Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41252568/arcadium-lithium-norwegian-cruise-line-gitlab-chewy-and-other-big-stocks-moving-higher-on-wednesday"
+      },
+      {
+        "author": "Adam Eckert",
+        "content": "",
+        "created_at": "2024-10-09T13:08:40Z",
+        "headline": "Arcadium Lithium Stock Is Soaring Wednesday: What's Behind The Move?",
+        "id": 41250060,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/lithium-mining-ai.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/lithium-mining-ai.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/lithium-mining-ai.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Rio Tinto and Arcadium Lithium entered into a definitive agreement under which Rio Tinto will acquire Arcadium in an all-cash transaction for $5.85 per share, valuing the company at approximately $6.7 billion.",
+        "symbols": [
+          "ALTM"
+        ],
+        "updated_at": "2024-10-09T13:08:41Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41250060/arcadium-lithium-stock-is-soaring-wednesday-whats-behind-the-move"
+      },
+      {
+        "author": "Pooja Rajkumari",
+        "content": "",
+        "created_at": "2024-10-09T10:39:20Z",
+        "headline": "Major Tesla Supplier Arcadium Lithium Jumps Over 30% In Pre-Market After Rio Tinto Agrees To Buy Company For $6.7B",
+        "id": 41246302,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/stock-market-2616931-1280.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/stock-market-2616931-1280.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/stock-market-2616931-1280.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "The transaction will integrate Arcadium&#39;s lithium operations into Rio Tinto&#39;s portfolio, positioning the company as a leader in energy transition commodities. ",
+        "symbols": [
+          "ALTM",
+          "RIO"
+        ],
+        "updated_at": "2024-10-09T11:30:55Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41246302/major-tesla-supplier-arcadium-lithium-jumps-over-30-in-pre-market-after-rio-tinto-acquires-company-f"
+      },
+      {
+        "author": "Shanthi Rexaline",
+        "content": "",
+        "created_at": "2024-10-09T11:29:46Z",
+        "headline": "US Stocks Set To Open Marginally Lower, Nvidia Gains, Traders Eye Fed Minutes: Strategist Predicts Many More Years Of Gains Ahead Of Bull Market's 2nd Anniversary",
+        "id": 41247174,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/New-York-Stock-Exchange.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/New-York-Stock-Exchange.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/New-York-Stock-Exchange.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "See-sawing mood persists on Wall Street as the index futures point to a marginally lower start on Wednesday after the tech-led rebound witnessed in the previous session. Nvidia Corp. (NASDAQ:NVDA) is advancing in premarket and the rest of the big techs were just about higher.",
+        "symbols": [
+          "AFRM",
+          "ALAB",
+          "ALTM",
+          "APLD",
+          "AZZ",
+          "BA",
+          "BTCUSD",
+          "HELE",
+          "HNHPF",
+          "NVDA",
+          "QQQ",
+          "RIO",
+          "SPY"
+        ],
+        "updated_at": "2024-10-09T11:29:47Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41247174/us-stocks-set-to-open-marginally-lower-nvidia-gains-traders-eye-fed-minutes-strategist-predicts-man"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T09:32:11Z",
+        "headline": "Why Saratoga Investment Shares Are Trading Higher By Around 8%; Here Are 20 Stocks Moving Premarket",
+        "id": 41245446,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALTM",
+          "AMBO",
+          "CTCX",
+          "DKL",
+          "ICCT",
+          "INAB",
+          "KZR",
+          "LDTC",
+          "MLEC",
+          "NMHI",
+          "OTRK",
+          "PALT",
+          "PIK",
+          "PLBY",
+          "RIO",
+          "RMCO",
+          "SAR",
+          "SLI",
+          "TIGR",
+          "TOI",
+          "WW"
+        ],
+        "updated_at": "2024-10-09T09:32:12Z",
+        "url": "https://www.benzinga.com/news/24/10/41245446/why-saratoga-investment-shares-are-trading-higher-by-around-8-here-are-20-stocks-moving-premarket"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T09:40:38Z",
+        "headline": "HSBC Downgrades Arcadium Lithium to Hold",
+        "id": 41267050,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALTM"
+        ],
+        "updated_at": "2024-10-10T09:40:38Z",
+        "url": "https://www.benzinga.com/news/24/10/41267050/hsbc-downgrades-arcadium-lithium-to-hold"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:39:39Z",
+        "headline": "Mizuho Maintains Neutral on Arcadium Lithium, Raises Price Target to $5.85",
+        "id": 41270669,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALTM"
+        ],
+        "updated_at": "2024-10-10T12:39:39Z",
+        "url": "https://www.benzinga.com/news/24/10/41270669/mizuho-maintains-neutral-on-arcadium-lithium-raises-price-target-to-5-85"
+      }
+    ],
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 81370000,
+      "Avg. Daily Volume": 10520000,
+      "Short Float": "7.87%",
+      "Short Ratio": "7.74"
+    }
+  },
+  "IKT": {
+    "ticker": "IKT",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T18:36:33Z",
+        "headline": "Dow Surges 350 Points; US Crude Oil Stocks Increase",
+        "id": 41258012,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/wall-street-ai17.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/wall-street-ai17.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T18:36:33Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41258012/dow-surges-350-points-us-crude-oil-stocks-increase"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:31:03Z",
+        "headline": "12 Health Care Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255387,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_1.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_1.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_1.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AEON",
+          "CASI",
+          "IKT",
+          "KZR",
+          "NUWE",
+          "OTRK",
+          "PBM",
+          "RHE",
+          "STRM",
+          "STTK",
+          "TIVC",
+          "WINT"
+        ],
+        "updated_at": "2024-10-09T16:31:04Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255387/12-health-care-stocks-moving-in-wednesdays-intraday-session"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T16:18:05Z",
+        "headline": "Crude Oil Edges Lower; US Wholesale Inventories Rise 0.1% In August",
+        "id": 41255015,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Crude-oil-4-logo.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "IKT",
+          "MNTS",
+          "SPGC",
+          "VERB"
+        ],
+        "updated_at": "2024-10-09T16:18:05Z",
+        "url": "https://www.benzinga.com/markets/equities/24/10/41255015/crude-oil-edges-lower-us-wholesale-inventories-rise-0-1-in-august"
+      },
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-10-09T15:08:18Z",
+        "headline": "Why Inhibikase Therapeutics (IKT) Stock Is Up 50% Today",
+        "id": 41253430,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/woman-6318447.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/woman-6318447.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/woman-6318447.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Inhibikase Therapeutics shares are trading higher by 50% during Wednesday&#39;s session. The company announced the pricing of an approximately $110 million private placement financing.",
+        "symbols": [
+          "IKT"
+        ],
+        "updated_at": "2024-10-09T15:08:19Z",
+        "url": "https://www.benzinga.com/news/24/10/41253430/why-inhibikase-therapeutics-ikt-stock-is-up-50-today"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-09T14:14:20Z",
+        "headline": "Dow Jumps Over 100 Points; Helen Of Troy Posts Upbeat Q2 Results",
+        "id": 41251943,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Forex-Chart-On-Cityscape-With-Tall-Build_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ALCE",
+          "BNZI",
+          "BYU",
+          "HELE",
+          "IKT",
+          "MNTS",
+          "SPGC"
+        ],
+        "updated_at": "2024-10-09T14:14:21Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41251943/dow-jumps-over-100-points-helen-of-troy-posts-upbeat-q2-results"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-09T13:20:03Z",
+        "headline": "Inhibikase Therapeutics Announces Pricing Of $110M Private Placement To Advance IkT-001Pro, Into A Late-Stage Trial In Pulmonary Arterial Hypertension; Aggregate Investment Of Up To ~$275M By Healthcare-Focused Investment Funds, Led By Soleus Capital",
+        "id": 41250682,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "IKT"
+        ],
+        "updated_at": "2024-10-09T13:20:04Z",
+        "url": "https://www.benzinga.com/news/24/10/41250682/inhibikase-therapeutics-announces-pricing-of-110m-private-placement-to-advance-ikt-001pro-into-a-lat"
+      }
+    ],
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 44110,
+      "Avg. Daily Volume": 24360,
+      "Short Float": "0.67%",
+      "Short Ratio": "1.81"
+    }
+  },
+  "CRKN": {
+    "ticker": "CRKN",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
+          "CTCX",
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
+        ],
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 436020,
+      "Avg. Daily Volume": 1040000,
+      "Short Float": "10.02%",
+      "Short Ratio": "0.42"
+    },
+    "hod": false,
+    "price": "1.5",
+    "lastSeen": "2024-10-10T15:11:50.031Z"
+  },
+  "WHLR": {
+    "ticker": "WHLR",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
+          "CTCX",
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
+        ],
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
       }
     ],
     "hod": false,
-    "float": "17.81M",
-    "price": "14.69",
-    "time": "15:59:51",
+    "float": "758.91K",
+    "price": "13.28",
+    "time": "10:14:10",
     "isActive": true,
-    "firstSeen": "2024-10-09T13:59:29.546Z",
-    "lastSeen": "2024-10-09T14:31:30.432Z"
+    "firstSeen": "2024-10-10T08:14:13.107Z",
+    "lastSeen": "2024-10-10T15:45:00.392Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 202280,
+      "Avg. Daily Volume": 1390000,
+      "Short Float": "32.63%",
+      "Short Ratio": "0.15"
+    }
+  },
+  "TEST": {
+    "ticker": "TEST",
+    "news": [],
+    "isActive": false
   },
   "FFIE": {
     "ticker": "FFIE",
     "news": [
       {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-10-09T17:41:26Z",
+        "headline": "What's Going On With Faraday Future Intelligent Electric Shares?",
+        "id": 41256966,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/09/Faraday-Future.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/09/Faraday-Future.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/09/Faraday-Future.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Faraday Future Intelligent Electric stock is trading higher on Wednesday after the company announced it received a 10% stake in Grow Fandor.",
+        "symbols": [
+          "FFIE"
+        ],
+        "updated_at": "2024-10-09T17:41:27Z",
+        "url": "https://www.benzinga.com/news/24/10/41256966/whats-going-on-with-faraday-future-intelligent-electric-shares"
+      },
+      {
+        "author": "Anan Ashraf",
+        "content": "",
+        "created_at": "2024-10-10T10:50:40Z",
+        "headline": "Palantir's Stake In EV Maker Faraday Future Touch Nearly 9% After Converting Receivables Into Equity",
+        "id": 41268146,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/FFIE-stock-Faraday-Future.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/FFIE-stock-Faraday-Future.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/FFIE-stock-Faraday-Future.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Palantir Technologies now has an 8.7% stake in California-based EV maker Faraday Future, according to a filing made by the data analytics company with the SEC.",
+        "symbols": [
+          "FFIE",
+          "PLTR"
+        ],
+        "updated_at": "2024-10-10T10:50:41Z",
+        "url": "https://www.benzinga.com/news/24/10/41268146/palantirs-stake-in-ev-maker-faraday-future-touch-nearly-9-after-converting-receivables-into-equity"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:22Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269780,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "FFIE",
+          "HTLM",
+          "JDZG",
+          "JFBR",
+          "KXIN",
+          "LOBO",
+          "NXU",
+          "RIME",
+          "SPGC",
+          "TCS",
+          "TRNR",
+          "YYAI"
+        ],
+        "updated_at": "2024-10-10T12:08:23Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269780/12-consumer-discretionary-stocks-moving-in-thursdays-pre-market-session"
+      },
+      {
+        "author": "Vaishali Prayag",
+        "content": "",
+        "created_at": "2024-10-10T16:55:05Z",
+        "headline": "What's Going On With Faraday Future Intelligent Electric Shares Today?",
+        "id": 41277331,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "FFIE"
+        ],
+        "updated_at": "2024-10-10T16:55:05Z",
+        "url": "https://www.benzinga.com/news/24/10/41277331/whats-going-on-with-faraday-future-intelligent-electric-shares-today"
+      }
+    ],
+    "hod": false,
+    "float": "12.37M",
+    "price": "2.66",
+    "time": "12:49:31",
+    "isActive": true,
+    "firstSeen": "2024-10-10T10:50:23.654Z",
+    "lastSeen": "2024-10-10T15:52:03.007Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 4370000,
+      "Avg. Daily Volume": 8840000,
+      "Short Float": "N/A",
+      "Short Ratio": "0.49"
+    }
+  },
+  "CNEY": {
+    "ticker": "CNEY",
+    "news": [
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T09:54:30Z",
+        "headline": "Why BloomZ Shares Are Trading Higher By Around 64%; Here Are 20 Stocks Moving Premarket",
+        "id": 41267216,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/movers-image.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/movers-image.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ABR",
+          "AEI",
+          "BLMZ",
+          "CETX",
+          "CNEY",
+          "CRKN",
+          "CTCX",
+          "DUO",
+          "JTAI",
+          "KLTO",
+          "MNTS",
+          "MRSN",
+          "NMHI",
+          "PETZ",
+          "SLI",
+          "SPGC",
+          "TVGN",
+          "TXG",
+          "UVE",
+          "WHLR"
+        ],
+        "updated_at": "2024-10-10T09:54:31Z",
+        "url": "https://www.benzinga.com/24/10/41267216/why-bloomz-shares-are-trading-higher-by-around-64-here-are-20-stocks-moving-premarket"
+      }
+    ],
+    "hod": false,
+    "float": "2.39M",
+    "price": "0.81",
+    "time": "13:01:04",
+    "isActive": false,
+    "firstSeen": "2024-10-10T11:00:37.219Z",
+    "lastSeen": "2024-10-10T12:40:03.032Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 1760000,
+      "Avg. Daily Volume": 12110000,
+      "Short Float": "76.73%",
+      "Short Ratio": "0.15"
+    }
+  },
+  "TPST": {
+    "ticker": "TPST",
+    "news": [
+      {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-10-09T05:50:50Z",
-        "headline": "Faraday Future Receives 10% Stake In Grow Fandor From Founder YT Jia",
-        "id": 41243541,
+        "created_at": "2024-10-10T11:03:24Z",
+        "headline": "Tempest Therapeutics Enters Agreement With Roche To Advance Evaluation Of Amezalpat Combination Therapy",
+        "id": 41268445,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "FFIE"
+          "RHHBY",
+          "TPST"
         ],
-        "updated_at": "2024-10-09T05:50:50Z",
-        "url": "https://www.benzinga.com/news/24/10/41243541/faraday-future-receives-10-stake-in-grow-fandor-from-founder-yt-jia"
+        "updated_at": "2024-10-10T11:03:25Z",
+        "url": "https://www.benzinga.com/news/24/10/41268445/tempest-therapeutics-enters-agreement-with-roche-to-advance-evaluation-of-amezalpat-combination-ther"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T11:06:51Z",
+        "headline": "Tempest Therapeutics Announced That Its Board Of Directors Has Adopted An Amendment To Its Existing Limited Duration Stockholder Rights Plan To Extend The Duration Of The Rights Plan Until The Annual Meeting Of Stockholders",
+        "id": 41268468,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TPST"
+        ],
+        "updated_at": "2024-10-10T11:06:51Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41268468/tempest-therapeutics-announced-that-its-board-of-directors-has-adopted-an-amendment-to-its-existi"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:16Z",
+        "headline": "12 Health Care Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269754,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "CTCX",
+          "GRTS",
+          "IMTX",
+          "INDV",
+          "KLTO",
+          "MBIO",
+          "NVNO",
+          "PRTG",
+          "SHPH",
+          "TPST",
+          "TVGN",
+          "TXG"
+        ],
+        "updated_at": "2024-10-10T12:08:17Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269754/12-health-care-stocks-moving-in-thursdays-pre-market-session"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-10-10T13:06:09Z",
+        "headline": "Why Is Cancer Focused Tempest Therapeutics Stock Trading Higher On Thursday?",
+        "id": 41271516,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/cancer.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/cancer.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/cancer.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Tempest Therapeutics enters a Phase 3 trial for its liver cancer drug amezalpat, in collaboration with Roche. The trial follows positive data from a Phase 2 study showing improved survival in patients with unresectable hepatocellular carcinoma.",
+        "symbols": [
+          "RHHBY",
+          "TPST"
+        ],
+        "updated_at": "2024-10-10T13:06:10Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41271516/why-is-cancer-focused-tempest-therapeutics-stock-trading-higher-on-thursday"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:42Z",
+        "headline": "12 Health Care Stocks Moving In Thursday's Intraday Session",
+        "id": 41276946,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ADMA",
+          "CUE",
+          "GNTA",
+          "GRTS",
+          "HCTI",
+          "INDV",
+          "NXGL",
+          "RGC",
+          "RNAZ",
+          "TPST",
+          "TXG",
+          "VCNX"
+        ],
+        "updated_at": "2024-10-10T16:31:43Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276946/12-health-care-stocks-moving-in-thursdays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "21.19M",
+    "price": "1.76",
+    "time": "13:03:05",
+    "isActive": false,
+    "firstSeen": "2024-10-10T11:02:38.702Z",
+    "lastSeen": "2024-10-10T12:54:33.547Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 1860000,
+      "Avg. Daily Volume": 2340000,
+      "Short Float": "8.79%",
+      "Short Ratio": "0.79"
+    }
+  },
+  "SRFM": {
+    "ticker": "SRFM",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:30:58Z",
+        "headline": "12 Industrials Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255372,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "BTOC",
+          "BURU",
+          "BYRN",
+          "BYU",
+          "JVSAR",
+          "MNTS",
+          "POLA",
+          "RR",
+          "SMXT",
+          "SPAI",
+          "SRFM",
+          "TURB"
+        ],
+        "updated_at": "2024-10-09T16:30:58Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255372/12-industrials-stocks-moving-in-wednesdays-intraday-session"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:37Z",
+        "headline": "12 Industrials Stocks Moving In Thursday's Intraday Session",
+        "id": 41276945,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "GLXG",
+          "GRFX",
+          "GXO",
+          "JTAI",
+          "JVSAR",
+          "LASE",
+          "MNTS",
+          "NMHI",
+          "SPPL",
+          "SRFM",
+          "SYM",
+          "TURB"
+        ],
+        "updated_at": "2024-10-10T16:31:38Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276945/12-industrials-stocks-moving-in-thursdays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "9.03M",
+    "price": "3.36",
+    "time": "13:27:41",
+    "isActive": true,
+    "firstSeen": "2024-10-10T11:27:04.582Z",
+    "lastSeen": "2024-10-10T17:12:33.646Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 495600,
+      "Avg. Daily Volume": 138170,
+      "Short Float": "5.49%",
+      "Short Ratio": "3.59"
+    }
+  },
+  "YYAI": {
+    "ticker": "YYAI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T11:34:53Z",
+        "headline": "Connexa Sports Technologies Enters Exclusive License Agreement With Guofu Enterprise Management; Expects Agreement To Generate In Excess Of $30M In License Income For YYEM Through End Of December 2026",
+        "id": 41268967,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "YYAI"
+        ],
+        "updated_at": "2024-10-10T11:34:53Z",
+        "url": "https://www.benzinga.com/news/24/10/41268967/connexa-sports-technologies-enters-exclusive-license-agreement-with-guofu-enterprise-management-expe"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:22Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269780,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "FFIE",
+          "HTLM",
+          "JDZG",
+          "JFBR",
+          "KXIN",
+          "LOBO",
+          "NXU",
+          "RIME",
+          "SPGC",
+          "TCS",
+          "TRNR",
+          "YYAI"
+        ],
+        "updated_at": "2024-10-10T12:08:23Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269780/12-consumer-discretionary-stocks-moving-in-thursdays-pre-market-session"
+      }
+    ],
+    "hod": false,
+    "float": "4.73M",
+    "price": "8.33",
+    "time": "13:32:00",
+    "isActive": false,
+    "firstSeen": "2024-10-10T11:31:29.962Z",
+    "lastSeen": "2024-10-10T12:37:18.170Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 133860,
+      "Avg. Daily Volume": 92250,
+      "Short Float": "2.83%",
+      "Short Ratio": "1.45"
+    }
+  },
+  "CMND": {
+    "ticker": "CMND",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:12:24Z",
+        "headline": "Clearmind Medicine Announces Institutional Review Board Approval For FDA Clinical Trial Of CMND-100 At Second Clinical Site In Alcohol Use Disorder",
+        "id": 41269909,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CMND"
+        ],
+        "updated_at": "2024-10-10T12:12:25Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41269909/clearmind-medicine-announces-institutional-review-board-approval-for-fda-clinical-trial-of-cmnd-1"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:15:25Z",
+        "headline": "Clearmind Medicine shares are trading higher after the company announced it has received Institutional Review Board approval from one of its clinical sites in the U.S. for part A of its Phase I/IIa clinical trial in the United States for treating patients suffering from alcohol use disorder.",
+        "id": 41270097,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CMND"
+        ],
+        "updated_at": "2024-10-10T14:29:51Z",
+        "url": "https://www.benzinga.com/wiim/24/10/41270097/clearmind-medicine-shares-are-trading-higher-after-the-company-announced-it-has-received-institution"
+      }
+    ],
+    "hod": false,
+    "float": "3.80M",
+    "price": "1.74",
+    "time": "14:08:43",
+    "isActive": false,
+    "firstSeen": "2024-10-10T12:08:23.929Z",
+    "lastSeen": "2024-10-10T12:13:41.705Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 201380,
+      "Avg. Daily Volume": 429030,
+      "Short Float": "6.78%",
+      "Short Ratio": "0.47"
+    }
+  },
+  "KZR": {
+    "ticker": "KZR",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:31:03Z",
+        "headline": "12 Health Care Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255387,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_1.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_1.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_1.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AEON",
+          "CASI",
+          "IKT",
+          "KZR",
+          "NUWE",
+          "OTRK",
+          "PBM",
+          "RHE",
+          "STRM",
+          "STTK",
+          "TIVC",
+          "WINT"
+        ],
+        "updated_at": "2024-10-09T16:31:04Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255387/12-health-care-stocks-moving-in-wednesdays-intraday-session"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:34:16Z",
+        "headline": "Kezar Receives Unsolicited Non-Binding Acquisition Proposal From Concentra Biosciences For $1.10 Per Share In Cash Plus Contingent Value Right; Kezar Board To Evaluate Proposal In Best Interest Of Shareholders",
+        "id": 41270564,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "KZR"
+        ],
+        "updated_at": "2024-10-10T12:34:17Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41270564/kezar-receives-unsolicited-non-binding-acquisition-proposal-from-concentra-biosciences-for-1-10-per"
+      }
+    ],
+    "hod": false,
+    "float": "62.06M",
+    "price": "0.94",
+    "time": "14:30:38",
+    "isActive": false,
+    "firstSeen": "2024-10-10T12:30:45.676Z",
+    "lastSeen": "2024-10-10T12:30:45.676Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 982900,
+      "Avg. Daily Volume": 615010,
+      "Short Float": "1.58%",
+      "Short Ratio": "1.60"
+    }
+  },
+  "SNAX": {
+    "ticker": "SNAX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T13:06:43Z",
+        "headline": "Stryve Foods Expects Net Sales For Q3 To Reflect YoY Growth Of 30%-35%",
+        "id": 41271529,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNAX"
+        ],
+        "updated_at": "2024-10-10T13:06:44Z",
+        "url": "https://www.benzinga.com/news/24/10/41271529/stryve-foods-expects-net-sales-for-q3-to-reflect-yoy-growth-of-30-35"
+      }
+    ],
+    "hod": false,
+    "float": "2.12M",
+    "price": "1.68",
+    "time": "15:01:28",
+    "isActive": false,
+    "firstSeen": "2024-10-10T13:01:26.481Z",
+    "lastSeen": "2024-10-10T13:01:26.481Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 177880,
+      "Avg. Daily Volume": 26430,
+      "Short Float": "9.31%",
+      "Short Ratio": "6.73"
+    }
+  },
+  "TWG": {
+    "ticker": "TWG",
+    "news": [],
+    "hod": false,
+    "float": "2.00M",
+    "price": "2.04",
+    "time": "15:02:54",
+    "isActive": false,
+    "firstSeen": "2024-10-10T13:02:23.653Z",
+    "lastSeen": "2024-10-10T13:26:01.869Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 147930,
+      "Avg. Daily Volume": 156160,
+      "Short Float": "7.40%",
+      "Short Ratio": "0.95"
+    }
+  },
+  "VUZI": {
+    "ticker": "VUZI",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T20:30:57Z",
+        "headline": "12 Information Technology Stocks Moving In Wednesday's After-Market Session",
+        "id": 41260528,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ATGL",
+          "BNZI",
+          "CETX",
+          "ETWO",
+          "INTZ",
+          "LIDR",
+          "PRSO",
+          "SOBR",
+          "TOYO",
+          "VUZI",
+          "XTKG",
+          "ZENA"
+        ],
+        "updated_at": "2024-10-09T20:30:58Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41260528/12-information-technology-stocks-moving-in-wednesdays-after-market-session"
+      }
+    ],
+    "hod": false,
+    "float": "54.57M",
+    "price": "1.4",
+    "time": "15:09:08",
+    "isActive": false,
+    "firstSeen": "2024-10-10T13:09:13.345Z",
+    "lastSeen": "2024-10-10T13:09:13.345Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 9280000,
+      "Avg. Daily Volume": 991190,
+      "Short Float": "17.00%",
+      "Short Ratio": "9.36"
+    }
+  },
+  "EVGO": {
+    "ticker": "EVGO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T12:35:28Z",
+        "headline": "UBS Upgrades EVgo to Buy, Raises Price Target to $8.5",
+        "id": 41270584,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-10-10T12:35:29Z",
+        "url": "https://www.benzinga.com/news/24/10/41270584/ubs-upgrades-evgo-to-buy-raises-price-target-to-8-5"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T11:15:27Z",
+        "headline": "EVgo Enters New MoU With Longtime Technology Partner Delta Electronics To Jointly Develop Next-Generation EV Charging Architecture",
+        "id": 41268690,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-10-10T11:15:27Z",
+        "url": "https://www.benzinga.com/news/24/10/41268690/evgo-enters-new-mou-with-longtime-technology-partner-delta-electronics-to-jointly-develop-next-gener"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T17:00:41Z",
+        "headline": "What 14 Analyst Ratings Have To Say About EVgo",
+        "id": 41256022,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-10-09T17:00:42Z",
+        "url": "https://www.benzinga.com/insights/analyst-ratings/24/10/41256022/what-14-analyst-ratings-have-to-say-about-evgo"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-09T15:04:57Z",
+        "headline": "RBC Capital Maintains Outperform on EVgo, Raises Price Target to $8",
+        "id": 41253339,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-10-09T15:04:58Z",
+        "url": "https://www.benzinga.com/news/24/10/41253339/rbc-capital-maintains-outperform-on-evgo-raises-price-target-to-8"
+      },
+      {
+        "author": "Avi Kapoor",
+        "content": "",
+        "created_at": "2024-10-10T14:03:32Z",
+        "headline": "LSB Industries, Symbotic And Other Big Stocks Moving Higher On Thursday",
+        "id": 41273000,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/10/Movers.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/10/Movers.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/10/Movers.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ACIC",
+          "CELH",
+          "DJT",
+          "EVGO",
+          "GXO",
+          "IAG",
+          "LXU",
+          "SLI",
+          "SYM",
+          "UVE"
+        ],
+        "updated_at": "2024-10-10T14:03:33Z",
+        "url": "https://www.benzinga.com/news/24/10/41273000/lsb-industries-symbotic-and-other-big-stocks-moving-higher-on-thursday"
+      }
+    ],
+    "hod": false,
+    "float": "99.98M",
+    "price": "7.75",
+    "time": "15:45:15",
+    "isActive": false,
+    "firstSeen": "2024-10-10T13:44:40.105Z",
+    "lastSeen": "2024-10-10T13:44:40.106Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 27820000,
+      "Avg. Daily Volume": 3380000,
+      "Short Float": "27.83%",
+      "Short Ratio": "8.23"
+    }
+  },
+  "DTSS": {
+    "ticker": "DTSS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-10T13:46:21Z",
+        "headline": "Datasea Pre-Announces Estimated Q1 2025 Revenue Of ~$22.7M, Up 230% YoY",
+        "id": 41272573,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DTSS"
+        ],
+        "updated_at": "2024-10-10T13:46:22Z",
+        "url": "https://www.benzinga.com/news/24/10/41272573/datasea-pre-announces-estimated-q1-2025-revenue-of-22-7m-up-230-yoy"
+      }
+    ],
+    "hod": false,
+    "float": "1.63M",
+    "price": "2.37",
+    "time": "15:47:13",
+    "isActive": true,
+    "firstSeen": "2024-10-10T13:47:38.813Z",
+    "lastSeen": "2024-10-10T14:58:15.613Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 313300,
+      "Avg. Daily Volume": 1150000,
+      "Short Float": "2.61%",
+      "Short Ratio": "0.27"
+    }
+  },
+  "PEV": {
+    "ticker": "PEV",
+    "news": [],
+    "hod": false,
+    "float": "18.03M",
+    "price": "0.92",
+    "time": "15:56:51",
+    "isActive": true,
+    "firstSeen": "2024-10-10T13:57:11.292Z",
+    "lastSeen": "2024-10-10T17:21:21.359Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 214360,
+      "Avg. Daily Volume": 141860,
+      "Short Float": "1.26%",
+      "Short Ratio": "1.51"
+    }
+  },
+  "WW": {
+    "ticker": "WW",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-09T16:31:09Z",
+        "headline": "12 Consumer Discretionary Stocks Moving In Wednesday's Intraday Session",
+        "id": 41255391,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "AMBO",
+          "DBGI",
+          "HELE",
+          "KXIN",
+          "LAZR",
+          "NVFY",
+          "PIK",
+          "QSG",
+          "SPGC",
+          "STG",
+          "TCS",
+          "WW"
+        ],
+        "updated_at": "2024-10-09T16:31:10Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41255391/12-consumer-discretionary-stocks-moving-in-wednesdays-intraday-session"
       }
     ],
     "hod": true,
-    "float": "12.36M",
-    "price": "2.94",
-    "time": "16:10:58",
+    "float": "78.47M",
+    "price": "2.13",
+    "time": "15:58:15",
     "isActive": true,
-    "firstSeen": "2024-10-09T14:10:29.617Z",
-    "lastSeen": "2024-10-09T14:19:29.821Z"
+    "firstSeen": "2024-10-10T13:58:41.855Z",
+    "lastSeen": "2024-10-10T17:26:56.860Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 13110000,
+      "Avg. Daily Volume": 2740000,
+      "Short Float": "16.71%",
+      "Short Ratio": "4.79"
+    }
+  },
+  "API": {
+    "ticker": "API",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T12:08:05Z",
+        "headline": "12 Information Technology Stocks Moving In Thursday's Pre-Market Session",
+        "id": 41269750,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "API",
+          "ATGL",
+          "BNZI",
+          "CETX",
+          "ETWO",
+          "LDTC",
+          "NVX",
+          "NXTT",
+          "SGN",
+          "YXT",
+          "ZENA",
+          "ZPTA"
+        ],
+        "updated_at": "2024-10-10T12:08:05Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41269750/12-information-technology-stocks-moving-in-thursdays-pre-market-session"
+      }
+    ],
+    "hod": false,
+    "float": "56.46M",
+    "price": "3.3",
+    "time": "16:05:26",
+    "isActive": false,
+    "firstSeen": "2024-10-10T14:05:02.601Z",
+    "lastSeen": "2024-10-10T14:05:02.601Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 1360000,
+      "Avg. Daily Volume": 158570,
+      "Short Float": "1.93%",
+      "Short Ratio": "8.60"
+    }
+  },
+  "GLXG": {
+    "ticker": "GLXG",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-10-10T16:31:37Z",
+        "headline": "12 Industrials Stocks Moving In Thursday's Intraday Session",
+        "id": 41276945,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "GLXG",
+          "GRFX",
+          "GXO",
+          "JTAI",
+          "JVSAR",
+          "LASE",
+          "MNTS",
+          "NMHI",
+          "SPPL",
+          "SRFM",
+          "SYM",
+          "TURB"
+        ],
+        "updated_at": "2024-10-10T16:31:38Z",
+        "url": "https://www.benzinga.com/insights/movers/24/10/41276945/12-industrials-stocks-moving-in-thursdays-intraday-session"
+      }
+    ],
+    "hod": false,
+    "float": "4.68M",
+    "price": "10.67",
+    "time": "17:24:31",
+    "isActive": true,
+    "firstSeen": "2024-10-10T15:23:54.719Z",
+    "lastSeen": "2024-10-10T15:45:51.308Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 7690,
+      "Avg. Daily Volume": 590780,
+      "Short Float": "N/A",
+      "Short Ratio": "0.01"
+    }
+  },
+  "KUKE": {
+    "ticker": "KUKE",
+    "news": [],
+    "hod": false,
+    "float": "22.69M",
+    "price": "0.84",
+    "time": "17:24:25",
+    "isActive": true,
+    "firstSeen": "2024-10-10T15:23:54.719Z",
+    "lastSeen": "2024-10-10T15:23:54.719Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 210520,
+      "Avg. Daily Volume": 159230,
+      "Short Float": "N/A",
+      "Short Ratio": "1.32"
+    }
+  },
+  "ORKT": {
+    "ticker": "ORKT",
+    "news": [],
+    "hod": true,
+    "float": "6.31M",
+    "price": "5.79",
+    "time": "18:19:32",
+    "isActive": true,
+    "firstSeen": "2024-10-10T16:19:25.759Z",
+    "lastSeen": "2024-10-10T16:19:25.759Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 311170,
+      "Avg. Daily Volume": 491640,
+      "Short Float": "4.10%",
+      "Short Ratio": "0.63"
+    }
   }
 }

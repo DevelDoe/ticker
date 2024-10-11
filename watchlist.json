@@ -2,9 +2,6 @@
   "NAPA": {
     "ticker": "NAPA"
   },
-  "RIME": {
-    "ticker": "RIME"
-  },
   "CRNC": {
     "ticker": "CRNC"
   },
@@ -31,5 +28,14 @@
   },
   "BNZI": {
     "ticker": "BNZI"
+  },
+  "TPST": {
+    "ticker": "TPST"
+  },
+  "CMND": {
+    "ticker": "CMND"
+  },
+  "SNAX": {
+    "ticker": "SNAX"
   }
 }
