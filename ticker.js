@@ -499,11 +499,48 @@ const toggleFilterHeadlines = () => {
     console.log(`Filtering ${state}.`);
 };
 
-// Command line listener
+// Function to clear all tickers that are not in the watchlist
+/**
+ * Clear all tickers that are not in the watchlist by setting isActive to false.
+ * This function reads both tickers.json and watchlist.json, and deactivates any tickers
+ * that are not part of the watchlist, effectively retaining only those in the watchlist.
+ *
+ * @return void
+ */
+const clearUnwatchedTickers = async () => {
+    logVerbose("Clearing tickers not on the watchlist...");
+    try {
+        // Read data from tickers.json
+        const tickerData = await fs.readFile(tickerFilePath, "utf8");
+        let tickers = JSON.parse(tickerData);
+
+        // Read data from watchlist.json
+        const watchlistData = await fs.readFile(watchlistFilePath, "utf8");
+        const watchlist = JSON.parse(watchlistData);
+
+        // Iterate over tickers and deactivate those not in the watchlist
+        Object.keys(tickers).forEach((ticker) => {
+            if (!watchlist[ticker]) {
+                tickers[ticker].isActive = false;
+                logVerbose(`Ticker ${ticker} is not in the watchlist and has been deactivated.`);
+            }
+        });
+
+        // Write updated tickers to tickers.json
+        await fs.writeFile(tickerFilePath, JSON.stringify(tickers, null, 2));
+        console.log("Tickers not in the watchlist have been marked as inactive.");
+
+        // Refresh the display to reflect updated tickers
+        await displayTickersTable();
+    } catch (err) {
+        console.error("Error clearing unwatched tickers:", err);
+    }
+};
+
+// Update the startListening function to include the new 'clear-unwatched' command
 const startListening = () => {
     rl.on("line", async (line) => {
         const command = line.trim().toLowerCase();
-        
 
         if (command.startsWith("add ")) {
             const ticker = sanitizeTicker(command.split(" ")[1]);
@@ -511,7 +548,6 @@ const startListening = () => {
                 await appendTicker(ticker);
             }
         } else if (command.startsWith("remove ")) {
-            // Add this block
             const ticker = sanitizeTicker(command.split(" ")[1]);
             if (ticker) {
                 await removeTicker(ticker);
@@ -519,21 +555,22 @@ const startListening = () => {
         } else if (command.startsWith("load ")) {
             const filePath = command.split(" ")[1];
             await readTickersFromFile(filePath);
-        } else if (command === "clear") {
+        } else if (command === "clear-all") {
             clearTickers();
+        } else if (command === "clear") { // New command for clearing tickers not in watchlist
+            await clearUnwatchedTickers();
         } else if (command === "toggle-filter") {
             toggleFilterHeadlines();
-            await displayTickersTable(); // Display the table after toggling filter
+            await displayTickersTable();
         } else if (command.startsWith("wl ")) {
             const ticker = sanitizeTicker(command.split(" ")[1]);
             if (ticker) {
-                await appendToWatchlist(ticker); // Add ticker to watchlist
+                await appendToWatchlist(ticker);
             }
         } else if (command.startsWith("unwl ")) {
-            // Command to remove a ticker
             const ticker = sanitizeTicker(command.split(" ")[1]);
             if (ticker) {
-                await removeFromWatchlist(ticker); // Remove ticker from watchlist
+                await removeFromWatchlist(ticker);
             }
         } else if (command === "exit") {
             rl.close();

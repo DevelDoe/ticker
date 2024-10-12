@@ -37,5 +37,11 @@
   },
   "SNAX": {
     "ticker": "SNAX"
+  },
+  "ZENA": {
+    "ticker": "ZENA"
+  },
+  "TWG": {
+    "ticker": "TWG"
   }
 }

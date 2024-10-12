@@ -138,7 +138,7 @@ async function scrapeData(page) {
 // Filter scraped data based on specific criteria.
 /**
  * This function filters the scraped data by ensuring the symbol matches a valid pattern,
- * the price is between 0.75 and 20, and the float (number of shares) is less than 50 million.
+ * the price is between threshholds, and the float (number of shares) is less than set limit.
  * It also checks whether the data has already been processed (using timestamps).
  *
  * @param {Array} scrapedData - The array of scraped data objects to filter.
@@ -159,7 +159,7 @@ function filterData(scrapedData) {
 
         // Filter by Price between 0.75 and 20
         const price = parseFloat(data.Price.replace("$", ""));
-        if (isNaN(price) || price < 0.75 || price > 20) return false;
+        if (isNaN(price) || price < 2 || price > 12) return false;
 
         // Handle float in 'K' (thousands), 'M' (millions), and 'B' (billions)
         const floatString = data.Float.trim();
@@ -340,7 +340,7 @@ function displayScrapedMomo(
     thirdHighestCount
 ) {
     console.clear(); // Clear the terminal screen before displaying
-    if (sortedSymbols.length > 0) console.log("Scraped Momos");
+    if (sortedSymbols.length > 0) console.log("New");
 
     sortedSymbols.forEach(([symbol, count]) => {
         // Apply color coding to the symbol based on its count
@@ -372,7 +372,7 @@ function displayTodaysTopMomo(
     secondHighestCountDay,
     thirdHighestCountDay
 ) {
-    if (topOccurrences.length > 0) console.log("\nToday's Top Momos");
+    if (topOccurrences.length > 0) console.log("\nToday's");
 
     topOccurrences.forEach(([symbol, count]) => {
         // Apply day-specific color coding to the symbol
