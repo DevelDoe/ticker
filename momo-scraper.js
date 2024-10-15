@@ -205,7 +205,7 @@ function saveToJson(tickersToSave, filteredData) {
     const filePath = "tickers.json";
     let tickersData = {};
     let newData = false;
-    let updated = false;
+    let tickerUpdated = false;
 
     if (fs.existsSync(filePath)) {
         const data = fs.readFileSync(filePath);
@@ -223,6 +223,7 @@ function saveToJson(tickersToSave, filteredData) {
         const newPrice = symbolData?.Price || null;
         const newFloat = symbolData?.Float || null;
 
+        
         if (!tickersData[sanitizedSymbol]) {
             // New ticker data, save it
             tickersData[sanitizedSymbol] = {
@@ -236,36 +237,36 @@ function saveToJson(tickersToSave, filteredData) {
                 firstSeen: new Date().toISOString(),
                 lastSeen: new Date().toISOString(),
             };
-            
+            playWav('./sounds/addTicker.wav'); 
             newData = true;
         } else {
             // Check if HOD or price has changed
             const existingTicker = tickersData[sanitizedSymbol];
-            let tickerUpdated = false;
+            
 
             if (existingTicker.hod !== isHOD) {
                 existingTicker.hod = isHOD;
                 tickerUpdated = true;
+                existingTicker.isActive = true;
+                playWav('./sounds/addTicker.wav'); 
             }
 
             if (existingTicker.price !== newPrice) {
                 existingTicker.price = newPrice;
+                existingTicker.lastSeen = new Date().toISOString();
+                existingTicker.isActive = true;
                 tickerUpdated = true;
+                playWav('./sounds/addTicker.wav'); 
             }
-
-            // Update lastSeen and isActive fields
+            
             existingTicker.lastSeen = new Date().toISOString();
-            existingTicker.isActive = true;
-
-            updated = true;
-
         }
     });
 
     // Log tickersData for debugging
     if (verbose) console.log("Saving:", tickersData);
 
-    if (newData || updated) {
+    if (newData || tickerUpdated) {
         fs.writeFileSync(filePath, JSON.stringify(tickersData, null, 2));
         if (verbose) console.log(`New data saved to ${filePath}`);
     } else {

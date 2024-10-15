@@ -242,7 +242,7 @@ const displayTickersTable = async () => {
         const watchlist = JSON.parse(watchlistData);
 
         const table = new Table({
-            head: ["Ticker", "Latest News", "Short", "Float", "Price"], // Added 'Float' column
+            head: ["Ticker", "Latest News", "Short Interest", "Float", "Price"], // Added 'Float' column
             colWidths: [10, 45, 10, 10, 10], // Adjusted column widths
         });
 
@@ -279,7 +279,7 @@ const displayTickersTable = async () => {
             // Check if this is a new headline
             const isNewHeadline = lastDisplayedHeadlines[ticker.ticker] !== latestNews;
 
-            const float = ticker.float ? `${ticker.float}` : "N/A"; // Handle float display, fallback to 'N/A'
+            const float = ticker.float ? `${ticker.float}` : ""; // Handle float display, fallback to ''
 
             const hod = ticker.hod ? "*" : "";
             const formattedHod = chalk.cyanBright(hod);
@@ -346,15 +346,34 @@ const displayTickersTable = async () => {
                 playWav('./sounds/ding.wav');  // Plays 'ding.wav' only on price change for HOD tickers
             }
 
+            
+
+            function formatShortInterest(value) {
+                if (value >= 1e9) {
+                    // Billion
+                    return (value / 1e9).toFixed(1) + "B";
+                } else if (value >= 1e6) {
+                    // Million
+                    return (value / 1e6).toFixed(1) + "M";
+                } else if (value >= 1e3) {
+                    // Thousand
+                    return (value / 1e3).toFixed(1) + "k";
+                } else {
+                    // Less than 1000
+                    return value.toString();
+                }
+            }
+
             // Accessing Short Float
-            const shortFloat = ticker.shorts ? ticker.shorts["Short Float"] || "" : ""; // Access Short Float
+            const shortInterest = ticker.shorts ? ticker.shorts["Short Interest"] || "" : ""; // Access Short Float
+            const readableShortInterest = shortInterest ? formatShortInterest(shortInterest) : "";
 
 
             // Add the ticker and its news to the table with colored ticker, formatted news, and colored price
             table.push([
                 coloredTicker,
                 formattedNews,
-                shortFloat,
+                readableShortInterest,
                 float,
                 formattedPrice // Display the colored price here
             ]);
@@ -437,9 +456,6 @@ const appendTicker = async (sanitizedTicker) => {
                 console.log(`Ticker ${sanitizedTicker} is already active.`);
             }
         }
-
-       
-        playWav('./sounds/addTicker.wav'); 
 
         await fs.writeFile(tickerFilePath, JSON.stringify(tickers, null, 2));
         await displayTickersTable(); // Display the updated tickers table
@@ -587,7 +603,6 @@ const startWatchingFile = () => {
     // Watch for changes in the tickers.json file
     chokidar.watch(tickerFilePath).on("change", async () => {
         logVerbose("Tickers.json changed, updating display...");
-
         try {
             // Call the display function to reflect the new data
             await displayTickersTable();
