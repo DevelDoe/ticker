@@ -6,6 +6,8 @@ const verbose = process.argv.includes('-v'); // Check for -t flag
 
 // Define paths 
 const tickerFilePath = path.join(process.cwd(), "tickers.json");
+const processedTickersPath = path.join(process.cwd(), "processed_tickers.json");
+const lastWipeFilePath = path.join(process.cwd(), "last-wipe.txt");
 
 // Variables
 const processedTickers = new Set(); // In-memory storage for processed tickers
@@ -23,15 +25,11 @@ const retryPool = []; // Array to hold tickers that need to be retried
 const readTickersFromFile = async () => {
     try {
         if (verbose) console.log(`Attempting to read tickers from ${tickerFilePath}`);
-        
         const data = await fs.promises.readFile(tickerFilePath, "utf8");
-        
         if (verbose) console.log("Tickers file read successfully.");
-        
         return JSON.parse(data); // Return the full object instead of just keys
     } catch (err) {
         console.error("Error reading tickers from file:", err);
-        if (verbose) console.log(`Failed to read or parse tickers from ${tickerFilePath}. Error: ${err.message}`);
         throw err; // Re-throw to be handled by the calling function
     }
 };
@@ -64,7 +62,11 @@ const fetchStockData = async (ticker) => {
 
         // Wait for a specific element to load (e.g., the first row of the table)
         try {
-            await page.waitForSelector("table.financials-table tbody tr", { timeout: 20000 }); // 10 seconds timeout
+            // Delay between requests to avoid overwhelming the server
+            const delay = Math.floor(Math.random() * 240000) + 60000; // Random delay between 180 and 420 seconds
+            if (verbose) console.log(`Delaying next request to avoid server overload for ${delay / 1000} seconds.`);
+            await new Promise(resolve => setTimeout(resolve, delay)); // Delay before the next request
+            // await page.waitForSelector("table.financials-table tbody tr", { timeout: 20000 }); // 10 seconds timeout
         } catch (error) {
             console.error(`Failed to find selector for ticker: ${ticker}. Error: ${error.message}`);
             retryPool.push(ticker); // Add ticker back to retry pool
@@ -120,21 +122,16 @@ const fetchStockData = async (ticker) => {
 /**
  * Processes new tickers by fetching their stock data and updating the tickers.json file.
  *
- * This function reads all tickers from the tickers.json file, fetches stock data for each new ticker,
- * checks if the data is valuable, and updates the tickers.json file accordingly.
- *
  * @param {Array<string>} newTickers - An array of ticker symbols that need to be processed.
- * @return {Promise<void>} A promise that resolves when processing is complete.
+ * @param {Set<string>} processedTickers - A set of already processed tickers.
  */
-const processNewTickers = async (newTickers) => {
+const processNewTickers = async (newTickers, processedTickers) => {
     try {
         if (verbose) console.log(`Processing ${newTickers.length} new tickers...`);
-
         const tickersJson = await readTickersFromFile(); // Read tickers once
 
         for (const ticker of newTickers) {
-            if (verbose) console.log(`Fetching stock data for ticker: ${ticker}`);
-            
+            if (verbose) console.log(`Processing stock data for ticker: ${ticker}`);
             const stockData = await fetchStockData(ticker);
 
             if (stockData) {
@@ -146,21 +143,16 @@ const processNewTickers = async (newTickers) => {
                 });
 
                 await updateTickerInFile(ticker, stockData, tickersJson); // Update tickers.json
+                processedTickers.add(ticker); // Add to processed set
+                await writeProcessedTickers(processedTickers); // Save processed tickers
             } else {
-                if(verbose) console.log(`No stock data returned for ticker: ${ticker}`);
+                if (verbose) console.log(`No stock data returned for ticker: ${ticker}`);
             }
-           // Delay between requests to avoid overwhelming the server
-           const delay = Math.floor(Math.random() * 240000) + 180000; // Random delay between 180 and 420 seconds 
-           if (verbose) console.log(`Delaying next request to avoid server overload for ${delay / 1000} seconds.`);
-           await new Promise(resolve => setTimeout(resolve, delay)); // Delay before the next request
-
         }
     } catch (error) {
         console.error("Error processing new tickers:", error.message);
-        if (verbose) console.log(`Error details: ${error.stack}`);
     }
 };
-
 
 /**
  * Updates the ticker object in the tickers.json file with new stock data.
@@ -177,8 +169,6 @@ const processNewTickers = async (newTickers) => {
 const updateTickerInFile = async (ticker, stockData, tickersJson) => {
     try {
         if (tickersJson[ticker]) {
-            // Log the stock data being added
-            if (verbose) console.log(`Updating ${ticker} with stock data:`, stockData);
             
             // Add the shorts field or update if it already exists
             tickersJson[ticker].shorts = stockData; 
@@ -196,26 +186,72 @@ const updateTickerInFile = async (ticker, stockData, tickersJson) => {
     }
 };
 
-// Main function to process tickers and set up file watcher
+/**
+ * Reads processed tickers from the processed_tickers.json file.
+ * If the file doesn't exist or the last-wipe.txt indicates a reset, it will return an empty set.
+ *
+ * @return {Set<string>} The set of processed tickers.
+ */
+const readProcessedTickers = async () => {
+    try {
+        const wipeTime = await fs.promises.readFile(lastWipeFilePath, "utf8");
+        if (verbose) console.log(`Last wipe timestamp: ${wipeTime}`);
+
+        if (fs.existsSync(processedTickersPath)) {
+            const data = await fs.promises.readFile(processedTickersPath, "utf8");
+            const processedTickersData = JSON.parse(data);
+
+            if (processedTickersData.lastWipe === wipeTime) {
+                return new Set(processedTickersData.tickers);
+            }
+        }
+        // If no matching wipe time, return an empty set
+        return new Set();
+    } catch (err) {
+        console.error("Error reading processed tickers file:", err);
+        return new Set();
+    }
+};
+
+/**
+ * Writes the processed tickers to the processed_tickers.json file.
+ *
+ * @param {Set<string>} processedTickers - The set of processed tickers.
+ */
+const writeProcessedTickers = async (processedTickers) => {
+    try {
+        const wipeTime = await fs.promises.readFile(lastWipeFilePath, "utf8");
+        const data = {
+            lastWipe: wipeTime,
+            tickers: Array.from(processedTickers)
+        };
+        await fs.promises.writeFile(processedTickersPath, JSON.stringify(data, null, 2), 'utf8');
+        if (verbose) console.log(`Successfully wrote processed tickers to ${processedTickersPath}`);
+    } catch (err) {
+        console.error("Error writing processed tickers file:", err);
+    }
+};
+
+
+/**
+ * Main function to process tickers and set up file watcher
+ */
 const main = async () => {
-    if(verbose) console.log('Starting main process...');
+    if (verbose) console.log('Starting main process...');
 
     // Load all tickers from the JSON file
-    const tickersJson = await readTickersFromFile(); // Updated call
+    const tickersJson = await readTickersFromFile();
+    const processedTickers = await readProcessedTickers();
 
     const tickers = Object.keys(tickersJson); // Get all tickers
-    if(verbose) console.log(`Loaded ${tickers.length} tickers from file.`);
+    const newTickers = tickers.filter(ticker => !processedTickers.has(ticker)); // Filter out already processed tickers
+    if (verbose) console.log(`Loaded ${newTickers.length} tickers to process.`);
 
-    // Determine new tickers by comparing with processed ones
-    const newTickers = tickers.filter(ticker => !processedTickers.has(ticker));
-    
     if (newTickers.length > 0) {
-        if(verbose) console.log(`Found ${newTickers.length} new tickers to process.`);
-        await processNewTickers(newTickers);
-        // Update processed tickers set
-        newTickers.forEach(ticker => processedTickers.add(ticker));
+        if (verbose) console.log(`Found ${newTickers.length} new tickers to process.`);
+        await processNewTickers(newTickers, processedTickers);
     } else {
-        if(verbose) console.log('No new tickers to process.');
+        if (verbose) console.log('No new tickers to process.');
     }
 };
 

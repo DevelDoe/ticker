@@ -43,5 +43,17 @@
   },
   "TWG": {
     "ticker": "TWG"
+  },
+  "IVA": {
+    "ticker": "IVA"
+  },
+  "RILY": {
+    "ticker": "RILY"
+  },
+  "VNDA": {
+    "ticker": "VNDA"
+  },
+  "VERB": {
+    "ticker": "VERB"
   }
 }

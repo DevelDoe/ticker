@@ -266,7 +266,6 @@ function saveToJson(tickersToSave, filteredData) {
     if (verbose) console.log("Saving:", tickersData);
 
     if (newData || updated) {
-        playWav('./sounds/addTicker.wav'); 
         fs.writeFileSync(filePath, JSON.stringify(tickersData, null, 2));
         if (verbose) console.log(`New data saved to ${filePath}`);
     } else {
