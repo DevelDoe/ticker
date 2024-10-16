@@ -205,6 +205,7 @@ function saveToJson(tickersToSave, filteredData) {
     const filePath = "tickers.json";
     let tickersData = {};
     let newData = false;
+    let updated = false;
     let tickerUpdated = false;
 
     if (fs.existsSync(filePath)) {
@@ -409,6 +410,14 @@ async function main() {
 
     try {
         await navigateToPage(page); // Navigate to the web page
+        (async () => {
+            try {
+                const scrapedSymbols = await scrapeData(page);
+            } catch (error) {
+                console.error("Failed to scrape symbols:", error);
+            }
+        })();
+        
         const scrapedData = await scrapeData(page); // Scrape data from the page
         const filteredData = filterData(scrapedData); // Filter scraped data
 

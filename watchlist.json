@@ -26,9 +26,6 @@
   "LASE": {
     "ticker": "LASE"
   },
-  "BNZI": {
-    "ticker": "BNZI"
-  },
   "TPST": {
     "ticker": "TPST"
   },
@@ -41,9 +38,6 @@
   "ZENA": {
     "ticker": "ZENA"
   },
-  "TWG": {
-    "ticker": "TWG"
-  },
   "IVA": {
     "ticker": "IVA"
   },
@@ -55,5 +49,11 @@
   },
   "VERB": {
     "ticker": "VERB"
+  },
+  "DRUG": {
+    "ticker": "DRUG"
+  },
+  "PHUN": {
+    "ticker": "PHUN"
   }
 }
