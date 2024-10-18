@@ -52,5 +52,17 @@
   },
   "DRUG": {
     "ticker": "DRUG"
+  },
+  "NIXX": {
+    "ticker": "NIXX"
+  },
+  "ZVSA": {
+    "ticker": "ZVSA"
+  },
+  "PIXY": {
+    "ticker": "PIXY"
+  },
+  "AREB": {
+    "ticker": "AREB"
   }
 }
