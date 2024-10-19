@@ -573,9 +573,11 @@ const startListening = () => {
             await readTickersFromFile(filePath);
         } else if (command === "clear-all") {
             clearTickers();
-        } else if (command === "clear") { // New command for clearing tickers not in watchlist
+        } else if (command === "hard-delete") {  // New hard-clear command
+            await hardClearTickers();
+        } else if (command === "clear") { 
             await clearUnwatchedTickers();
-        } else if (command === "toggle-filter") {
+        } else if (command === "filter-healines") {
             toggleFilterHeadlines();
             await displayTickersTable();
         } else if (command.startsWith("wl ")) {
@@ -595,6 +597,7 @@ const startListening = () => {
         }
     });
 };
+
 
 // Watch for changes in tickers.json and trigger display
 const startWatchingFile = () => {

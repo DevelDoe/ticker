@@ -130,14 +130,21 @@ const updateTickersWithNews = (ticker, news) => {
     let newNewsFound = false; // Track if new news is found
 
     news.forEach(newsItem => {
+        // Filter out news where the `symbols` array contains more than just the ticker
+        if (newsItem.symbols.length !== 1 || newsItem.symbols[0] !== ticker) {
+            console.log(`Skipping news for ticker ${ticker} because it includes multiple symbols:`, newsItem.symbols);
+            return; // Skip if there are other symbols besides the ticker
+        }
+
         // Check if the news item is already present using its ID
         const exists = tickersData[ticker].news.some(existingNews => existingNews.id === newsItem.id);
         if (!exists) {
             tickersData[ticker].news.push(newsItem); // Add news item if it doesn't exist
             playAlert(); // Call the debounced audio alert
-            console.log(`Added news for ticker ${ticker}`);
+            newNewsFound = true; // Mark as new news found
+            console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
         } else {
-            console.log(`News for ticker ${ticker} already processed`);
+            console.log(`News for ticker ${ticker} already processed: ${newsItem.headline}`);
         }
     });
 
