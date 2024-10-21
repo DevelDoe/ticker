@@ -4,66 +4,10 @@
     "news": [],
     "hod": false,
     "float": "5.48M",
-    "price": "2.37",
-    "time": "22:12:17",
+    "price": "2.87",
+    "time": "01:14:09",
     "isActive": true,
-    "firstSeen": "2024-10-18T20:12:28.455Z",
-    "lastSeen": "2024-10-18T20:59:35.067Z"
-  },
-  "JDZG": {
-    "ticker": "JDZG",
-    "news": [],
-    "hod": false,
-    "float": "847.06K",
-    "price": "2.39",
-    "time": "22:10:08",
-    "isActive": true,
-    "firstSeen": "2024-10-18T20:12:28.462Z",
-    "lastSeen": "2024-10-18T20:24:11.993Z"
-  },
-  "VSEE": {
-    "ticker": "VSEE",
-    "news": [],
-    "hod": true,
-    "float": "5.21M",
-    "price": "2.46",
-    "time": "22:17:10",
-    "isActive": true,
-    "firstSeen": "2024-10-18T20:17:34.781Z",
-    "lastSeen": "2024-10-18T21:01:50.043Z",
-    "shorts": {
-      "Settlement Date": "Sep 30, 2024",
-      "Short Interest": 52950,
-      "Avg. Daily Volume": 1300000,
-      "Short Float": "1.02%",
-      "Short Ratio": "0.04"
-    }
-  },
-  "PEGY": {
-    "ticker": "PEGY",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-18T14:02:23Z",
-        "headline": "Pineapple Energy Shares Resume Trade",
-        "id": 41402901,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PEGY"
-        ],
-        "updated_at": "2024-10-18T14:02:24Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41402901/pineapple-energy-shares-resume-trade"
-      }
-    ],
-    "hod": false,
-    "float": "207.28K",
-    "price": "8.57",
-    "time": "22:28:11",
-    "isActive": true,
-    "firstSeen": "2024-10-18T20:28:17.432Z",
-    "lastSeen": "2024-10-18T20:28:17.432Z"
+    "firstSeen": "2024-10-21T07:25:37.331Z",
+    "lastSeen": "2024-10-21T07:25:37.345Z"
   }
 }
