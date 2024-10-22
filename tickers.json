@@ -1,13 +1,26 @@
 {
-  "BIVI": {
-    "ticker": "BIVI",
+  "MRCC": {
+    "ticker": "MRCC",
     "news": [],
-    "hod": false,
-    "float": "5.48M",
-    "price": "2.87",
-    "time": "01:14:09",
     "isActive": true,
-    "firstSeen": "2024-10-21T07:25:37.331Z",
-    "lastSeen": "2024-10-21T07:25:37.345Z"
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 119030,
+      "Avg. Daily Volume": 48660,
+      "Short Float": "0.57%",
+      "Short Ratio": "2.45"
+    }
+  },
+  "SYTA": {
+    "ticker": "SYTA",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 250350,
+      "Avg. Daily Volume": 987880,
+      "Short Float": "31.29%",
+      "Short Ratio": "0.25"
+    }
   }
 }
