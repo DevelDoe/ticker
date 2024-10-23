@@ -8,5 +8,10 @@
     "ticker": "HYZN",
     "news": [],
     "isActive": true
+  },
+  "PIXY": {
+    "ticker": "PIXY",
+    "news": [],
+    "isActive": true
   }
 }
