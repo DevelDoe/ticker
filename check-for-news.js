@@ -14,7 +14,7 @@ dotenv.config({ path: path.join(process.cwd(), '.env.alpaca') }); // Load enviro
 const tickerFilePath = path.join(process.cwd(), 'tickers.json'); // Path for the ticker.json
 
 // Variables
-const CHECK_INTERVAL_MS = 60 * 1000; // 1 minute
+const CHECK_INTERVAL_MS = 5 * 60 * 1000; // 5 minute
 
 // Variables
 let watcher; // Declare watcher globally
