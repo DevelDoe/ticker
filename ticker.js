@@ -5,6 +5,7 @@ import chokidar from "chokidar";
 import notifier from "node-notifier";
 import chalk from "chalk";
 import player from "node-wav-player";
+import clipboardy from "clipboardy"; 
 
 const verbose = process.argv.includes("-v"); // Check for verbose flag (-v)
 
@@ -23,7 +24,6 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
-
 // Function to play a WAV file
 function playWav(filePath) {
     return player
@@ -34,15 +34,12 @@ function playWav(filePath) {
             console.error(`Error playing file: ${filePath}`, error);
         });
 }
-
-
 // Function to log verbose messages
 const logVerbose = (message) => {
     if (verbose) {
         console.log(`VERBOSE: ${message}`);
     }
 };
-
 // Function to sanitize and capitalize the ticker symbol
 const sanitizeTicker = (ticker) => {
     const trimmedTicker = ticker.trim();
@@ -57,14 +54,12 @@ const sanitizeTicker = (ticker) => {
     logVerbose(`Sanitized ticker: ${sanitized}`);
     return sanitized;
 };
-
 // Function to set a date to midnight (00:00:00)
 const setToMidnight = (date) => {
     const newDate = new Date(date);
     newDate.setHours(0, 0, 0, 0);
     return newDate;
 };
-
 // Function to check if the ticker files need to be wiped
 const checkAndWipeIfNeeded = async () => {
     logVerbose("Checking if the ticker files need to be wiped...");
@@ -98,7 +93,6 @@ const checkAndWipeIfNeeded = async () => {
         }
     }
 };
-
 // Function to check if it's 15:30
 const checkTimeForClear = () => {
     const now = new Date();
@@ -118,7 +112,6 @@ const checkTimeForClear = () => {
     }
     return false; // Not time yet
 };
-
 // Function to start checking every minute, then every second when close to 15:45
 const startTickerClearSchedule = () => {
     logVerbose("Starting minute-based checking...");
@@ -148,7 +141,6 @@ const startTickerClearSchedule = () => {
         }
     }, 60000); // Check every minute
 };
-
 // Function to append a ticker to the watchlist
 const appendToWatchlist = async (sanitizedTicker) => {
     try {
@@ -187,7 +179,6 @@ const appendToWatchlist = async (sanitizedTicker) => {
         console.error("Error appending to watchlist:", err);
     }
 };
-
 // Function to remove a ticker from the watchlist
 const removeFromWatchlist = async (sanitizedTicker) => {
     logVerbose(`Removing from watchlist: ${sanitizedTicker}`);
@@ -212,14 +203,12 @@ const removeFromWatchlist = async (sanitizedTicker) => {
         console.error("Error removing from watchlist:", err);
     }
 };
-
 // ANSI color codes
 const colors = {
     yellow: "\x1b[93m",
     darkGray: "\x1b[90m",
     reset: "\x1b[0m",
 };
-
 const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
@@ -402,7 +391,6 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
-
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
     logVerbose("Clearing all tickers...");
@@ -422,7 +410,7 @@ const clearTickers = async () => {
         console.error("Error clearing tickers:", err);
     }
 };
-
+// Function to append or update a ticker in the JSON file
 // Function to append or update a ticker in the JSON file
 const appendTicker = async (sanitizedTicker) => {
     logVerbose(`Appending ticker: ${sanitizedTicker}`);
@@ -459,11 +447,15 @@ const appendTicker = async (sanitizedTicker) => {
 
         await fs.writeFile(tickerFilePath, JSON.stringify(tickers, null, 2));
         await displayTickersTable(); // Display the updated tickers table
+
+        // Copy ticker to clipboard and inform the user
+        clipboardy.writeSync(sanitizedTicker);  // Copy to clipboard
+        console.log(`Ticker ${sanitizedTicker} has been copied to the clipboard.`);  // Inform the user
+
     } catch (err) {
         console.error("Error appending ticker:", err);
     }
 };
-
 // Function to remove a ticker from both tickers.json and ticker.txt
 const removeTicker = async (sanitizedTicker) => {
     logVerbose(`Removing ticker: ${sanitizedTicker}`);
@@ -489,7 +481,6 @@ const removeTicker = async (sanitizedTicker) => {
         console.error("Error removing ticker:", err);
     }
 };
-
 // Function to read tickers from a file and append to the JSON file
 const readTickersFromFile = async (filePath) => {
     logVerbose(`Reading tickers from file: ${filePath}`);
@@ -507,22 +498,12 @@ const readTickersFromFile = async (filePath) => {
         console.error("Error reading tickers from file:", err);
     }
 };
-
 // Function to toggle filtering of tickers without headlines
 const toggleFilterHeadlines = () => {
     filterHeadlinesActive = !filterHeadlinesActive;
     const state = filterHeadlinesActive ? "active" : "inactive";
     console.log(`Filtering ${state}.`);
 };
-
-// Function to clear all tickers that are not in the watchlist
-/**
- * Clear all tickers that are not in the watchlist by setting isActive to false.
- * This function reads both tickers.json and watchlist.json, and deactivates any tickers
- * that are not part of the watchlist, effectively retaining only those in the watchlist.
- *
- * @return void
- */
 const clearUnwatchedTickers = async () => {
     logVerbose("Clearing tickers not on the watchlist...");
     try {
@@ -552,7 +533,6 @@ const clearUnwatchedTickers = async () => {
         console.error("Error clearing unwatched tickers:", err);
     }
 };
-
 // Update the startListening function to include the new 'clear-unwatched' command
 const startListening = () => {
     rl.on("line", async (line) => {
@@ -597,8 +577,6 @@ const startListening = () => {
         }
     });
 };
-
-
 // Watch for changes in tickers.json and trigger display
 const startWatchingFile = () => {
     logVerbose("Watching for changes in tickers.json...");
@@ -618,7 +596,6 @@ const startWatchingFile = () => {
         }
     });
 };
-
 const checkAndCreateWatchlist = async () => {
     try {
         await fs.readFile(watchlistFilePath, "utf8");
@@ -632,7 +609,6 @@ const checkAndCreateWatchlist = async () => {
         }
     }
 };
-
 // Initialize the application
 const init = async () => {
     await checkAndWipeIfNeeded();

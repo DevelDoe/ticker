@@ -2,7 +2,7 @@
   "GNPX": {
     "ticker": "GNPX",
     "news": [],
-    "isActive": true,
+    "isActive": false,
     "shorts": {
       "Settlement Date": "Sep 30, 2024",
       "Short Interest": 81020,
@@ -58,7 +58,7 @@
         "url": "https://www.benzinga.com/news/24/10/41448523/hyzon-enters-purchase-agreement-with-greenwaste-for-12-fuel-cell-electric-vehicles"
       }
     ],
-    "isActive": true,
+    "isActive": false,
     "shorts": {
       "Settlement Date": "Sep 30, 2024",
       "Short Interest": 265250,
@@ -123,6 +123,120 @@
       "Avg. Daily Volume": 6140,
       "Short Float": "9.74%",
       "Short Ratio": "1.71"
+    },
+    "hod": false,
+    "price": "10.57",
+    "lastSeen": "2024-10-23T08:50:27.321Z"
+  },
+  "PHUN": {
+    "ticker": "PHUN",
+    "news": [],
+    "hod": false,
+    "float": "11.23M",
+    "price": "14.57",
+    "time": "10:01:06",
+    "isActive": true,
+    "firstSeen": "2024-10-23T08:00:54.193Z",
+    "lastSeen": "2024-10-23T08:38:34.852Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 726920,
+      "Avg. Daily Volume": 596540,
+      "Short Float": "6.47%",
+      "Short Ratio": "1.22"
+    }
+  },
+  "XBP": {
+    "ticker": "XBP",
+    "news": [],
+    "hod": true,
+    "float": "8.35M",
+    "price": "2.3",
+    "time": "01:59:36",
+    "isActive": false,
+    "firstSeen": "2024-10-23T08:00:54.199Z",
+    "lastSeen": "2024-10-23T08:00:54.199Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 20490,
+      "Avg. Daily Volume": 33220,
+      "Short Float": "0.25%",
+      "Short Ratio": "0.62"
+    }
+  },
+  "BIVI": {
+    "ticker": "BIVI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-22T20:17:58Z",
+        "headline": "BioVie Closes Registered Direct Offering And Concurrent Private Placement, Raising $6.66M; Issued 4,443,000 Shares At $1.50 Per Share",
+        "id": 41466470,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BIVI"
+        ],
+        "updated_at": "2024-10-22T20:17:59Z",
+        "url": "https://www.benzinga.com/news/24/10/41466470/biovie-closes-registered-direct-offering-and-concurrent-private-placement-raising-6-66m-issued-4-443"
+      }
+    ],
+    "hod": false,
+    "float": "5.48M",
+    "price": "4.02",
+    "time": "10:01:48",
+    "isActive": true,
+    "firstSeen": "2024-10-23T08:01:41.676Z",
+    "lastSeen": "2024-10-23T08:01:41.676Z",
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 383130,
+      "Avg. Daily Volume": 166860,
+      "Short Float": "6.99%",
+      "Short Ratio": "2.30"
+    }
+  },
+  "SAVE": {
+    "ticker": "SAVE",
+    "news": [
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-10-22T15:00:03Z",
+        "headline": "Why Spirit Airlines (SAVE) Stock Is Moving",
+        "id": 41457620,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/22/analysis-4937349.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/22/analysis-4937349.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/22/analysis-4937349.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Spirit Airlines shares are down 8.4% Tuesday. The stock surged Monday after the company extended its debt refinancing deadline.",
+        "symbols": [
+          "SAVE"
+        ],
+        "updated_at": "2024-10-22T15:00:03Z",
+        "url": "https://www.benzinga.com/news/24/10/41457620/why-spirit-airlines-save-stock-is-moving"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 35720000,
+      "Avg. Daily Volume": 4560000,
+      "Short Float": "33.02%",
+      "Short Ratio": "7.83"
     }
   }
 }
