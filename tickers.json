@@ -116,6 +116,13 @@
         "url": "https://www.benzinga.com/news/24/10/41445995/shiftpixy-says-patrice-h-launay-resigned-immediately-as-cfo-on-october-18"
       }
     ],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 10520,
+      "Avg. Daily Volume": 6140,
+      "Short Float": "9.74%",
+      "Short Ratio": "1.71"
+    }
   }
 }
