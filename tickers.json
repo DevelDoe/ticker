@@ -6,12 +6,102 @@
   },
   "HYZN": {
     "ticker": "HYZN",
-    "news": [],
+    "news": [
+      {
+        "author": "Vaishali Prayag",
+        "content": "",
+        "created_at": "2024-10-22T16:32:38Z",
+        "headline": "Hyzon Motors Shares Are On The Rise Today: What's Going On?",
+        "id": 41461155,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/22/hyzon-motors.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/22/hyzon-motors.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/22/hyzon-motors.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Hyzon Motors Inc. (NASDAQ: HYZN) shares are trading higher Tuesday after the company entered into a purchase agreement for 12 hydrogen-powered refuse Fuel Cell Electric Vehicles (FCEVs).",
+        "symbols": [
+          "HYZN"
+        ],
+        "updated_at": "2024-10-22T16:32:39Z",
+        "url": "https://www.benzinga.com/news/24/10/41461155/hyzon-motors-shares-are-on-the-rise-today-whats-going-on"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-22T11:34:16Z",
+        "headline": "Hyzon Enters Purchase Agreement With GreenWaste For 12 Fuel Cell Electric Vehicles",
+        "id": 41448523,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "HYZN"
+        ],
+        "updated_at": "2024-10-22T11:34:17Z",
+        "url": "https://www.benzinga.com/news/24/10/41448523/hyzon-enters-purchase-agreement-with-greenwaste-for-12-fuel-cell-electric-vehicles"
+      }
+    ],
     "isActive": true
   },
   "PIXY": {
     "ticker": "PIXY",
-    "news": [],
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-23T06:17:29Z",
+        "headline": "Reported Earlier, ShiftPixy Signs LOI To Acquire AI Innovator TurboScale iI $150M Deal",
+        "id": 41479536,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PIXY"
+        ],
+        "updated_at": "2024-10-23T06:17:30Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41479536/reported-earlier-shiftpixy-signs-loi-to-acquire-ai-innovator-turboscale-ii-150m-deal"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-22T10:18:57Z",
+        "headline": "On October 19, Shiftpixy Board Voted To Terminate Employment Of Scott Absher As CEO, Chairman, And President, Due To Initial Investigation Into Allegations Involving His Actions - Filing",
+        "id": 41446043,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PIXY"
+        ],
+        "updated_at": "2024-10-22T10:18:58Z",
+        "url": "https://www.benzinga.com/news/24/10/41446043/on-october-19-shiftpixy-board-voted-to-terminate-employment-of-scott-absher-as-ceo-chairman-and-pres"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-22T10:16:51Z",
+        "headline": "Shiftpixy Says Patrice H. Launay Resigned Immediately As CFO On October 18",
+        "id": 41445995,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PIXY"
+        ],
+        "updated_at": "2024-10-22T10:16:51Z",
+        "url": "https://www.benzinga.com/news/24/10/41445995/shiftpixy-says-patrice-h-launay-resigned-immediately-as-cfo-on-october-18"
+      }
+    ],
     "isActive": true
   }
 }
