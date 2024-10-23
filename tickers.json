@@ -58,7 +58,14 @@
         "url": "https://www.benzinga.com/news/24/10/41448523/hyzon-enters-purchase-agreement-with-greenwaste-for-12-fuel-cell-electric-vehicles"
       }
     ],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 265250,
+      "Avg. Daily Volume": 252000,
+      "Short Float": "5.77%",
+      "Short Ratio": "1.05"
+    }
   },
   "PIXY": {
     "ticker": "PIXY",
