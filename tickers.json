@@ -3,5 +3,10 @@
     "ticker": "GNPX",
     "news": [],
     "isActive": true
+  },
+  "HYZN": {
+    "ticker": "HYZN",
+    "news": [],
+    "isActive": true
   }
 }
