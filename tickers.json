@@ -2,7 +2,14 @@
   "GNPX": {
     "ticker": "GNPX",
     "news": [],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Sep 30, 2024",
+      "Short Interest": 81020,
+      "Avg. Daily Volume": 456540,
+      "Short Float": "3.33%",
+      "Short Ratio": "0.18"
+    }
   },
   "HYZN": {
     "ticker": "HYZN",
