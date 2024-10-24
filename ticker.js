@@ -581,21 +581,48 @@ const startListening = () => {
 const startWatchingFile = () => {
     logVerbose("Watching for changes in tickers.json...");
 
+    let previousTickers = {}; // Keep track of the previous state of tickers
+
+    // Load the initial tickers state
+    const loadPreviousTickers = async () => {
+        try {
+            const data = await fs.readFile(tickerFilePath, "utf8");
+            previousTickers = JSON.parse(data);
+        } catch (err) {
+            console.error("Error loading previous tickers:", err);
+        }
+    };
+
+    loadPreviousTickers(); // Load the state when the app starts
+
     // Watch for changes in the tickers.json file
     chokidar.watch(tickerFilePath).on("change", async () => {
-        logVerbose("Tickers.json changed, updating display...");
+        logVerbose("Tickers.json changed, checking for new tickers...");
         try {
+            const data = await fs.readFile(tickerFilePath, "utf8");
+            const currentTickers = JSON.parse(data);
+
+            // Compare previous and current tickers to detect new additions
+            for (const ticker in currentTickers) {
+                if (!previousTickers[ticker]) {
+                    // New ticker detected, copy it to the clipboard and notify the user
+                    clipboardy.writeSync(ticker); // Copy to clipboard
+                    console.log(`New ticker ${ticker} has been added and copied to the clipboard.`);
+                }
+            }
+
+            // Update the previous tickers state
+            previousTickers = currentTickers;
+
             // Call the display function to reflect the new data
             await displayTickersTable();
             logVerbose("Display updated after file change.");
         } catch (err) {
-            console.error(
-                "Error updating display after tickers.json change:",
-                err
-            );
+            console.error("Error updating display after tickers.json change:", err);
         }
     });
 };
+
 const checkAndCreateWatchlist = async () => {
     try {
         await fs.readFile(watchlistFilePath, "utf8");
