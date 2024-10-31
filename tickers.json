@@ -1,333 +1,4 @@
 {
-  "PLRZ": {
-    "ticker": "PLRZ",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-29T15:16:22Z",
-        "headline": "Polyrizon Shares Resume Trade Following Circuit Breaker Halt",
-        "id": 41603154,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PLRZ"
-        ],
-        "updated_at": "2024-10-29T15:16:22Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41603154/polyrizon-shares-resume-trade-following-circuit-breaker-halt"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-29T15:11:34Z",
-        "headline": "Polyrizon Shares Open For Trade At $1.64/Unit; IPO Priced At $4.38/Unit",
-        "id": 41602912,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PLRZ"
-        ],
-        "updated_at": "2024-10-29T15:11:35Z",
-        "url": "https://www.benzinga.com/news/24/10/41602912/polyrizon-shares-open-for-trade-at-1-64unit-ipo-priced-at-4-38unit"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-29T15:00:09Z",
-        "headline": "Trading Halt: Halt status updated at 11:00:00 AM ET: Quotation Resumption: IPO Security - Released for Quotation",
-        "id": 41602255,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PLRZ"
-        ],
-        "updated_at": "2024-10-29T15:00:09Z",
-        "url": "https://www.benzinga.com/24/10/41602255/trading-halt-halt-status-updated-at-11-00-00-am-et-quotation-resumption-ipo-security-released-for-qu"
-      }
-    ],
-    "hod": false,
-    "float": "0",
-    "price": "2.15",
-    "time": "09:00:56",
-    "isActive": false,
-    "firstSeen": "2024-10-30T08:00:45.857Z",
-    "lastSeen": "2024-10-30T08:00:45.858Z",
-    "shorts": {}
-  },
-  "FLGC": {
-    "ticker": "FLGC",
-    "news": [],
-    "hod": false,
-    "float": "9.33M",
-    "price": "2.02",
-    "time": "13:02:53",
-    "isActive": false,
-    "firstSeen": "2024-10-30T12:02:34.760Z",
-    "lastSeen": "2024-10-30T12:40:07.772Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 211950,
-      "Avg. Daily Volume": 150980,
-      "Short Float": "2.27%",
-      "Short Ratio": "1.40"
-    }
-  },
-  "DATS": {
-    "ticker": "DATS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-30T12:13:54Z",
-        "headline": "DatChat's Dragon Interact Subsidiary Acquires RPM Interactive In Consideration For The Issuance Of 3.5M Shares Of Common Stock",
-        "id": 41622921,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DATS"
-        ],
-        "updated_at": "2024-10-30T12:13:55Z",
-        "url": "https://www.benzinga.com/m-a/24/10/41622921/datchats-dragon-interact-subsidiary-acquires-rpm-interactive-in-consideration-for-the-issuance-of-3"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-30T15:47:27Z",
-        "headline": "DatChat's Dragon Interact Acquires RPM Interactive In 3.5M Share Deal, Gains 100% Ownership And Plans Rebranding To RPM Interactive With AI-Focused Strategy; Industry Veteran Michael Mathews Appointed As Chairman",
-        "id": 41629575,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DATS"
-        ],
-        "updated_at": "2024-10-30T15:47:27Z",
-        "url": "https://www.benzinga.com/m-a/24/10/41629575/datchats-dragon-interact-acquires-rpm-interactive-in-3-5m-share-deal-gains-100-ownership-and-plans-r"
-      }
-    ],
-    "hod": false,
-    "float": "2.73M",
-    "price": "2.41",
-    "time": "13:08:06",
-    "isActive": false,
-    "firstSeen": "2024-10-30T12:07:50.458Z",
-    "lastSeen": "2024-10-30T12:11:07.065Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 13690,
-      "Avg. Daily Volume": 122770,
-      "Short Float": "0.50%",
-      "Short Ratio": "0.11"
-    }
-  },
-  "THAR": {
-    "ticker": "THAR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-30T12:23:18Z",
-        "headline": "Tharimmune Receives EMA Feedback On TH104 Clinical Program, Including Guidance On Planned Phase 2 Trial; The Agency Found The Design And Main Features Of The Proposed Phase 2 Study Overall Acceptable With Some Comments, Also Provided General Guidance For Design Of Future Phase 3 Study",
-        "id": 41623236,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "THAR"
-        ],
-        "updated_at": "2024-10-30T12:23:19Z",
-        "url": "https://www.benzinga.com/general/biotech/24/10/41623236/tharimmune-receives-ema-feedback-on-th104-clinical-program-including-guidance-on-planned-phase-2-"
-      },
-      {
-        "author": "Dylan Berman",
-        "content": "",
-        "created_at": "2024-10-30T16:31:16Z",
-        "headline": "What's Going On With Tharimmune Shares Wednesday?",
-        "id": 41630789,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Tharimmune, Inc. (NASDAQ:THAR) shares are moving higher on Wednesday after the company announced it received overall positive feedback from the European Medicines Agency (EMA) on its TH104 clinical program.",
-        "symbols": [
-          "THAR"
-        ],
-        "updated_at": "2024-10-30T16:31:17Z",
-        "url": "https://www.benzinga.com/news/24/10/41630789/whats-going-on-with-tharimmune-shares-wednesday"
-      }
-    ],
-    "hod": false,
-    "float": "1.13M",
-    "price": "3.43",
-    "time": "13:15:15",
-    "isActive": false,
-    "firstSeen": "2024-10-30T12:15:12.984Z",
-    "lastSeen": "2024-10-30T19:56:15.809Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 17700,
-      "Avg. Daily Volume": 35220,
-      "Short Float": "1.57%",
-      "Short Ratio": "0.50"
-    }
-  },
-  "BIVI": {
-    "ticker": "BIVI",
-    "news": [],
-    "hod": false,
-    "float": "11.41M",
-    "price": "2.95",
-    "time": "13:43:43",
-    "isActive": false,
-    "firstSeen": "2024-10-30T12:43:34.143Z",
-    "lastSeen": "2024-10-30T13:28:26.331Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 187740,
-      "Avg. Daily Volume": 182610,
-      "Short Float": "3.43%",
-      "Short Ratio": "1.03"
-    }
-  },
-  "QNCX": {
-    "ticker": "QNCX",
-    "news": [],
-    "hod": true,
-    "float": "32.08M",
-    "price": "1.79",
-    "time": "14:58:11",
-    "isActive": false,
-    "firstSeen": "2024-10-30T13:58:09.980Z",
-    "lastSeen": "2024-10-30T13:58:09.980Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 1910000,
-      "Avg. Daily Volume": 154660,
-      "Short Float": "5.96%",
-      "Short Ratio": "12.36"
-    }
-  },
-  "MIRA": {
-    "ticker": "MIRA",
-    "news": [],
-    "hod": false,
-    "float": "8.18M",
-    "price": "2.27",
-    "time": "15:39:54",
-    "isActive": false,
-    "firstSeen": "2024-10-30T14:39:52.971Z",
-    "lastSeen": "2024-10-30T19:10:01.854Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 342580,
-      "Avg. Daily Volume": 5190000,
-      "Short Float": "3.44%",
-      "Short Ratio": "0.07"
-    }
-  },
-  "VSTE": {
-    "ticker": "VSTE",
-    "news": [],
-    "hod": false,
-    "float": "2.08M",
-    "price": "2.3",
-    "time": "16:48:10",
-    "isActive": true,
-    "firstSeen": "2024-10-30T15:47:51.622Z",
-    "lastSeen": "2024-10-30T20:22:12.450Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 11450,
-      "Avg. Daily Volume": 16560,
-      "Short Float": "0.55%",
-      "Short Ratio": "0.69"
-    }
-  },
-  "CMAX": {
-    "ticker": "CMAX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-10-30T16:52:15Z",
-        "headline": "CareMax Shares Resume Trade Following Circuit Breaker Halt",
-        "id": 41631214,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CMAX"
-        ],
-        "updated_at": "2024-10-30T16:52:15Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/10/41631214/caremax-shares-resume-trade-following-circuit-breaker-halt"
-      }
-    ],
-    "hod": false,
-    "float": "2.36M",
-    "price": "1.88",
-    "time": "18:06:26",
-    "isActive": true,
-    "firstSeen": "2024-10-30T17:06:42.247Z",
-    "lastSeen": "2024-10-30T20:14:01.188Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 123610,
-      "Avg. Daily Volume": 2640000,
-      "Short Float": "5.24%",
-      "Short Ratio": "0.05"
-    }
-  },
-  "ELDN": {
-    "ticker": "ELDN",
-    "news": [],
-    "hod": false,
-    "float": "39.63M",
-    "price": "4.35",
-    "time": "19:57:10",
-    "isActive": false,
-    "firstSeen": "2024-10-30T18:56:59.070Z",
-    "lastSeen": "2024-10-30T19:55:36.899Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 142850,
-      "Avg. Daily Volume": 77240,
-      "Short Float": "0.36%",
-      "Short Ratio": "1.85"
-    }
-  },
-  "IVDA": {
-    "ticker": "IVDA",
-    "news": [],
-    "hod": false,
-    "float": "3.19M",
-    "price": "1.86",
-    "time": "20:58:03",
-    "isActive": false,
-    "firstSeen": "2024-10-30T19:58:09.873Z",
-    "lastSeen": "2024-10-30T19:58:09.873Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 63210,
-      "Avg. Daily Volume": 38700,
-      "Short Float": "2.97%",
-      "Short Ratio": "1.63"
-    }
-  },
   "ATEC": {
     "ticker": "ATEC",
     "news": [
@@ -360,22 +31,248 @@
         ],
         "updated_at": "2024-10-30T20:02:52Z",
         "url": "https://www.benzinga.com/news/earnings/24/10/41635630/alphatec-holdings-q3-2024-gaap-eps-0-28-misses-0-23-estimate-sales-150-719m-beat-147-218m-estimate"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T11:57:58Z",
+        "headline": "HC Wainwright & Co. Reiterates Buy on Alphatec Holdings, Maintains $20 Price Target",
+        "id": 41650357,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ATEC"
+        ],
+        "updated_at": "2024-10-31T11:57:58Z",
+        "url": "https://www.benzinga.com/news/24/10/41650357/hc-wainwright-co-reiterates-buy-on-alphatec-holdings-maintains-20-price-target"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T12:09:52Z",
+        "headline": "Needham Reiterates Buy on Alphatec Holdings, Maintains $13 Price Target",
+        "id": 41650802,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ATEC"
+        ],
+        "updated_at": "2024-10-31T12:09:52Z",
+        "url": "https://www.benzinga.com/news/24/10/41650802/needham-reiterates-buy-on-alphatec-holdings-maintains-13-price-target"
       }
     ],
     "hod": true,
     "float": "98.59M",
-    "price": "6.88",
-    "time": "21:08:27",
+    "price": "8.29",
+    "time": "22:02:21",
+    "isActive": false,
+    "firstSeen": "2024-10-31T07:59:38.881Z",
+    "lastSeen": "2024-10-31T13:52:58.789Z"
+  },
+  "FFIE": {
+    "ticker": "FFIE",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T08:07:52Z",
+        "headline": "Reported Earlier, Faraday Future Secures $30M Funding to Boost Luxury and Mass Electric Vehicle Brands",
+        "id": 41645817,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "FFIE"
+        ],
+        "updated_at": "2024-10-31T08:07:52Z",
+        "url": "https://www.benzinga.com/news/24/10/41645817/reported-earlier-faraday-future-secures-30m-funding-to-boost-luxury-and-mass-electric-vehicle-brands"
+      }
+    ],
+    "hod": false,
+    "float": "11.21M",
+    "price": "2.28",
+    "time": "09:00:43",
+    "isActive": false,
+    "firstSeen": "2024-10-31T08:00:34.171Z",
+    "lastSeen": "2024-10-31T12:02:11.185Z"
+  },
+  "CPSH": {
+    "ticker": "CPSH",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T20:45:54Z",
+        "headline": "CPS Technologies Q3 2024 GAAP EPS $(0.07) Per Share",
+        "id": 41637862,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CPSH"
+        ],
+        "updated_at": "2024-10-30T20:45:55Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41637862/cps-technologies-q3-2024-gaap-eps-0-07-per-share"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T20:26:29Z",
+        "headline": "CPS Technologies Announces $12M Contract From A Customer To Provide Power Module Components And Related Solutions",
+        "id": 41636917,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CPSH"
+        ],
+        "updated_at": "2024-10-30T20:26:29Z",
+        "url": "https://www.benzinga.com/news/24/10/41636917/cps-technologies-announces-12m-contract-from-a-customer-to-provide-power-module-components-and-relat"
+      }
+    ],
+    "hod": false,
+    "float": "11.30M",
+    "price": "1.97",
+    "time": "09:00:35",
+    "isActive": false,
+    "firstSeen": "2024-10-31T08:00:34.174Z",
+    "lastSeen": "2024-10-31T12:00:04.064Z"
+  },
+  "TNON": {
+    "ticker": "TNON",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T20:48:47Z",
+        "headline": "Tenon Medical Highlights Data From Initial Clinical Cases Of Co's Catamaran SE SI Joint Fusion System",
+        "id": 41638127,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TNON"
+        ],
+        "updated_at": "2024-10-30T20:48:47Z",
+        "url": "https://www.benzinga.com/news/24/10/41638127/tenon-medical-highlights-data-from-initial-clinical-cases-of-cos-catamaran-se-si-joint-fusion-system"
+      }
+    ],
+    "hod": false,
+    "float": "510.22K",
+    "price": "3.8",
+    "time": "09:00:28",
     "isActive": true,
-    "firstSeen": "2024-10-30T20:08:34.657Z",
-    "lastSeen": "2024-10-30T21:02:04.355Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 12040000,
-      "Avg. Daily Volume": 2410000,
-      "Short Float": "12.22%",
-      "Short Ratio": "5.00"
-    }
+    "firstSeen": "2024-10-31T08:00:34.177Z",
+    "lastSeen": "2024-10-31T15:41:45.005Z"
+  },
+  "MIRA": {
+    "ticker": "MIRA",
+    "news": [],
+    "hod": false,
+    "float": "9.96M",
+    "price": "2.44",
+    "time": "09:12:37",
+    "isActive": true,
+    "firstSeen": "2024-10-31T08:12:56.928Z",
+    "lastSeen": "2024-10-31T15:24:10.228Z"
+  },
+  "AVXL": {
+    "ticker": "AVXL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T08:05:34Z",
+        "headline": "Anavex Reports Phase III Results for Alzheimer's Drug Targeting SIGMAR1 Gene",
+        "id": 41645802,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AVXL"
+        ],
+        "updated_at": "2024-10-31T08:05:34Z",
+        "url": "https://www.benzinga.com/news/24/10/41645802/anavex-reports-phase-iii-results-for-alzheimers-drug-targeting-sigmar1-gene"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T13:02:57Z",
+        "headline": "EF Hutton Maintains Buy on Anavex Life Sciences, Maintains $46 Price Target",
+        "id": 41653053,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AVXL"
+        ],
+        "updated_at": "2024-10-31T13:02:58Z",
+        "url": "https://www.benzinga.com/news/24/10/41653053/ef-hutton-maintains-buy-on-anavex-life-sciences-maintains-46-price-target"
+      }
+    ],
+    "hod": true,
+    "float": "82.12M",
+    "price": "7.15",
+    "time": "10:50:48",
+    "isActive": true,
+    "firstSeen": "2024-10-31T09:50:48.654Z",
+    "lastSeen": "2024-10-31T15:29:45.428Z"
+  },
+  "BRTX": {
+    "ticker": "BRTX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T11:20:41Z",
+        "headline": "BioRestorative Therapies Announces Israel Patent Office Has Issued A Notice Of Allowance For A New Patent Application Covering Several Fundamental Aspects Of The Company's Allogeneic, Off-The-Shelf ThermoStem Platform",
+        "id": 41649271,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BRTX"
+        ],
+        "updated_at": "2024-10-31T11:20:42Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41649271/biorestorative-therapies-announces-israel-patent-office-has-issued-a-notice-of-allowance-for-a-ne"
+      }
+    ],
+    "hod": false,
+    "float": "5.10M",
+    "price": "1.82",
+    "time": "12:05:43",
+    "isActive": false,
+    "firstSeen": "2024-10-31T11:05:35.920Z",
+    "lastSeen": "2024-10-31T11:15:09.109Z"
+  },
+  "CYN": {
+    "ticker": "CYN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T11:54:52Z",
+        "headline": "Cyngn Received A Signed Letter Of Intent From A Major Automotive Supplier To Sell And Deploy Multiple DriveMod Tuggers In Early 2025",
+        "id": 41650306,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CYN"
+        ],
+        "updated_at": "2024-10-31T11:54:52Z",
+        "url": "https://www.benzinga.com/news/24/10/41650306/cyngn-received-a-signed-letter-of-intent-from-a-major-automotive-supplier-to-sell-and-deploy-multipl"
+      }
+    ],
+    "hod": false,
+    "float": "1.83M",
+    "price": "4.42",
+    "time": "12:11:38",
+    "isActive": false,
+    "firstSeen": "2024-10-31T11:12:32.284Z",
+    "lastSeen": "2024-10-31T11:15:09.102Z"
   },
   "ASPI": {
     "ticker": "ASPI",
@@ -426,17 +323,414 @@
     ],
     "hod": false,
     "float": "41.00M",
-    "price": "6.9",
-    "time": "21:36:55",
+    "price": "7.1",
+    "time": "12:09:40",
+    "isActive": false,
+    "firstSeen": "2024-10-31T11:15:09.103Z",
+    "lastSeen": "2024-10-31T14:10:40.800Z"
+  },
+  "AVTE": {
+    "ticker": "AVTE",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T11:25:08Z",
+        "headline": "Trading Halt: Halt status updated at 7:25:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 41649329,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AVTE"
+        ],
+        "updated_at": "2024-10-31T11:25:08Z",
+        "url": "https://www.benzinga.com/24/10/41649329/trading-halt-halt-status-updated-at-7-25-00-am-et-quotation-resumption-news-and-resumption-times"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T11:23:05Z",
+        "headline": "Aerovate Therapeutics And Privately-held Jade Biosciences Have Entered Into A Definitive Merger Agreement For An All-stock Transaction, The Resulting Entity Will Focus On Advancing Jade's Portfolio Of Biologics, Including JADE-001 For IgA Nephropathy",
+        "id": 41649294,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AVTE"
+        ],
+        "updated_at": "2024-10-31T11:23:05Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41649294/aerovate-therapeutics-and-privately-held-jade-biosciences-have-entered-into-a-definitive-merger-a"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T10:55:03Z",
+        "headline": "Trading Halt: Halted at 6:55:00 a.m. ET - Trading Halt: Halt News Pending",
+        "id": 41648549,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AVTE"
+        ],
+        "updated_at": "2024-10-31T10:55:04Z",
+        "url": "https://www.benzinga.com/24/10/41648549/trading-halt-halted-at-6-55-00-a-m-et-trading-halt-halt-news-pending"
+      }
+    ],
+    "hod": false,
+    "float": "19.58M",
+    "price": "2.8",
+    "time": "12:32:29",
+    "isActive": false,
+    "firstSeen": "2024-10-31T11:32:10.794Z",
+    "lastSeen": "2024-10-31T14:09:43.283Z"
+  },
+  "MGRX": {
+    "ticker": "MGRX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T12:39:55Z",
+        "headline": "Mangoceuticals Regains Full Compliance With Nasdaq Minimum Bid Price Requirement",
+        "id": 41652288,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MGRX"
+        ],
+        "updated_at": "2024-10-31T12:39:56Z",
+        "url": "https://www.benzinga.com/news/24/10/41652288/mangoceuticals-regains-full-compliance-with-nasdaq-minimum-bid-price-requirement"
+      }
+    ],
+    "hod": false,
+    "float": "1.27M",
+    "price": "2.75",
+    "time": "13:01:55",
+    "isActive": false,
+    "firstSeen": "2024-10-31T12:02:11.175Z",
+    "lastSeen": "2024-10-31T12:02:11.175Z"
+  },
+  "EVGN": {
+    "ticker": "EVGN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T13:00:30Z",
+        "headline": "Evogene shares are trading higher after the company announced a collaboration with Google Cloud to pioneer a generative AI foundation model for novel small molecule design.",
+        "id": 41652976,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGN"
+        ],
+        "updated_at": "2024-10-31T15:50:11Z",
+        "url": "https://www.benzinga.com/wiim/24/10/41652976/evogene-shares-are-trading-higher-after-the-company-announced-a-collaboration-with-google-cloud-to-p"
+      }
+    ],
+    "hod": false,
+    "float": "5.28M",
+    "price": "2.46",
+    "time": "13:01:32",
     "isActive": true,
-    "firstSeen": "2024-10-30T20:37:14.212Z",
-    "lastSeen": "2024-10-30T20:37:14.212Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 9930000,
-      "Avg. Daily Volume": 891580,
-      "Short Float": "24.21%",
-      "Short Ratio": "11.13"
-    }
+    "firstSeen": "2024-10-31T12:02:11.178Z",
+    "lastSeen": "2024-10-31T14:21:19.098Z"
+  },
+  "PALI": {
+    "ticker": "PALI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T12:34:13Z",
+        "headline": "Palisade Bio Announces Announces Presentation Of Data From Two Studios Showing Ex Vivo Bioactivation Of PALI-2108 In Treatment Of Ulcerative Colitis",
+        "id": 41652164,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PALI"
+        ],
+        "updated_at": "2024-10-31T12:34:14Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41652164/palisade-bio-announces-announces-presentation-of-data-from-two-studios-showing-ex-vivo-bioactivat"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T12:47:23Z",
+        "headline": "Palisade Bio shares are trading higher after the company announced the presentation of data from two studios showing ex vivo bioactivation of PALI-2108 in the treatment of Ulcerative Colitis.",
+        "id": 41652524,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PALI"
+        ],
+        "updated_at": "2024-10-31T15:47:46Z",
+        "url": "https://www.benzinga.com/wiim/24/10/41652524/palisade-bio-shares-are-trading-higher-after-the-company-announced-the-presentation-of-data-from-two"
+      }
+    ],
+    "hod": false,
+    "float": "1.16M",
+    "price": "4.23",
+    "time": "13:30:52",
+    "isActive": true,
+    "firstSeen": "2024-10-31T12:30:33.909Z",
+    "lastSeen": "2024-10-31T12:35:17.626Z"
+  },
+  "CMAX": {
+    "ticker": "CMAX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T16:52:15Z",
+        "headline": "CareMax Shares Resume Trade Following Circuit Breaker Halt",
+        "id": 41631214,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CMAX"
+        ],
+        "updated_at": "2024-10-30T16:52:15Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41631214/caremax-shares-resume-trade-following-circuit-breaker-halt"
+      }
+    ],
+    "hod": false,
+    "float": "2.36M",
+    "price": "2.35",
+    "time": "13:33:51",
+    "isActive": false,
+    "firstSeen": "2024-10-31T12:34:17.119Z",
+    "lastSeen": "2024-10-31T13:58:57.864Z"
+  },
+  "NXL": {
+    "ticker": "NXL",
+    "news": [],
+    "hod": false,
+    "float": "8.09M",
+    "price": "2.72",
+    "time": "13:52:34",
+    "isActive": false,
+    "firstSeen": "2024-10-31T12:53:11.485Z",
+    "lastSeen": "2024-10-31T12:53:11.485Z"
+  },
+  "NKLA": {
+    "ticker": "NKLA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T13:08:45Z",
+        "headline": "Nikola Reports 88 Wholesale Deliveries Of Hydrogen Fuel Fell Electric Trucks In Q3, Up 22% QoQ; Co. Reiterates Year-End Volume Guidance Of 300-350 FCEVs",
+        "id": 41653157,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NKLA"
+        ],
+        "updated_at": "2024-10-31T13:08:45Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41653157/nikola-reports-88-wholesale-deliveries-of-hydrogen-fuel-fell-electric-trucks-in-q3-up-22-qoq-co-rei"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T13:07:42Z",
+        "headline": "Nikola Q3 2024 Adj. EPS $(2.75) Misses $(2.35) Estimate, Sales $25.181M Miss $37.230M Estimate",
+        "id": 41653150,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NKLA"
+        ],
+        "updated_at": "2024-10-31T13:07:43Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41653150/nikola-q3-2024-adj-eps-2-75-misses-2-35-estimate-sales-25-181m-miss-37-230m-estimate"
+      },
+      {
+        "author": "Adam Eckert",
+        "content": "",
+        "created_at": "2024-10-31T13:43:50Z",
+        "headline": "Nikola Q3 Earnings: Revenue Miss, EPS Miss, 88 FCEVs Delivered, Fleet Adoption Update And More",
+        "id": 41654395,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/31/NIKOLA-TRE-BEV-3.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/31/NIKOLA-TRE-BEV-3.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/31/NIKOLA-TRE-BEV-3.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Nikola reported third-quarter revenue of $25.18 million, missing analyst estimates of $37.23 million, according to Benzinga Pro. The EV maker reported a third-quarter adjusted loss of $2.75 per share, missing estimates for a loss of $2.35 per share. ",
+        "symbols": [
+          "NKLA"
+        ],
+        "updated_at": "2024-10-31T13:43:50Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41654395/nikola-q3-earnings-revenue-miss-eps-miss-88-fcevs-delivered-fleet-adoption-update-and-more"
+      }
+    ],
+    "hod": false,
+    "float": "46.74M",
+    "price": "4.53",
+    "time": "14:09:23",
+    "isActive": false,
+    "firstSeen": "2024-10-31T13:09:26.261Z",
+    "lastSeen": "2024-10-31T13:10:56.995Z"
+  },
+  "LICY": {
+    "ticker": "LICY",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T10:11:29Z",
+        "headline": "Li-Cycle Has Entered Into An Agreement With Glencore Covering The Off-take Of 100% Of The MHP To Be Produced At Its Rochester Hub",
+        "id": 41647387,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "LICY"
+        ],
+        "updated_at": "2024-10-31T10:11:29Z",
+        "url": "https://www.benzinga.com/news/24/10/41647387/li-cycle-has-entered-into-an-agreement-with-glencore-covering-the-off-take-of-100-of-the-mhp-to-be-p"
+      }
+    ],
+    "hod": false,
+    "float": "15.93M",
+    "price": "2.59",
+    "time": "14:50:34",
+    "isActive": false,
+    "firstSeen": "2024-10-31T13:50:14.902Z",
+    "lastSeen": "2024-10-31T14:01:43.896Z"
+  },
+  "MAXN": {
+    "ticker": "MAXN",
+    "news": [],
+    "hod": false,
+    "float": "15.03M",
+    "price": "9.63",
+    "time": "15:23:44",
+    "isActive": false,
+    "firstSeen": "2024-10-31T14:23:50.385Z",
+    "lastSeen": "2024-10-31T14:31:24.588Z"
+  },
+  "LICN": {
+    "ticker": "LICN",
+    "news": [],
+    "hod": true,
+    "float": "31.29M",
+    "price": "2.18",
+    "time": "15:35:42",
+    "isActive": false,
+    "firstSeen": "2024-10-31T14:35:23.439Z",
+    "lastSeen": "2024-10-31T14:36:45.614Z"
+  },
+  "BFRI": {
+    "ticker": "BFRI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T14:37:41Z",
+        "headline": "Biofrontera Shares Resume Trade",
+        "id": 41656048,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BFRI"
+        ],
+        "updated_at": "2024-10-31T14:37:41Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41656048/biofrontera-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T14:34:40Z",
+        "headline": "Biofrontera Shares Halted On Circuit Breaker To The Upside, Stock Now Up 6.01%",
+        "id": 41656022,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BFRI"
+        ],
+        "updated_at": "2024-10-31T14:34:41Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41656022/biofrontera-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-6-01"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T14:33:30Z",
+        "headline": "Biofrontera Announces Results In Phase 3 Study Of Ameluz-Photodynamic Therapy Regarding The Treatment Of Superficial Basal Cell Carcinoma; Primary And Secondary Endpoints All Highly Statistically Significant p<0.0001",
+        "id": 41656001,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BFRI"
+        ],
+        "updated_at": "2024-10-31T14:33:30Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41656001/biofrontera-announces-results-in-phase-3-study-of-ameluz-photodynamic-therapy-regarding-the-treat"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-31T14:52:10Z",
+        "headline": "Biofrontera Shares Resume Trading",
+        "id": 41656358,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BFRI"
+        ],
+        "updated_at": "2024-10-31T14:52:11Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41656358/biofrontera-shares-resume-trading"
+      }
+    ],
+    "hod": false,
+    "float": "3.27M",
+    "price": "1.85",
+    "time": "15:51:28",
+    "isActive": true,
+    "firstSeen": "2024-10-31T14:51:07.630Z",
+    "lastSeen": "2024-10-31T16:36:52.740Z"
+  },
+  "TVGN": {
+    "ticker": "TVGN",
+    "news": [],
+    "hod": false,
+    "float": "21.96M",
+    "price": "2.46",
+    "time": "15:55:38",
+    "isActive": true,
+    "firstSeen": "2024-10-31T14:55:28.839Z",
+    "lastSeen": "2024-10-31T14:55:28.839Z"
+  },
+  "GNPX": {
+    "ticker": "GNPX",
+    "news": [],
+    "hod": true,
+    "float": "2.43M",
+    "price": "2.5",
+    "time": "18:07:10",
+    "isActive": true,
+    "firstSeen": "2024-10-31T17:07:19.659Z",
+    "lastSeen": "2024-10-31T17:16:46.458Z"
   }
 }
