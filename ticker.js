@@ -232,7 +232,7 @@ const displayTickersTable = async () => {
 
         const table = new Table({
             head: ["Ticker", "Latest News", "Short Interest", "Float", "Price"], // Added 'Float' column
-            colWidths: [10, 130, 10, 10, 10], // Adjusted column widths
+            colWidths: [10, 100, 10, 10, 10], // Adjusted column widths
         });
 
         // Create an array of tickers and sort by the latest news timestamp in descending order

@@ -1,12 +1,19 @@
 {
-  "lastWipe": "2024-10-22T22:00:00.000Z",
+  "lastWipe": "2024-10-29T23:00:00.000Z",
   "tickers": [
-    "GNPX",
-    "HYZN",
-    "PIXY",
-    "PHUN",
-    "XBP",
+    "PLRZ",
+    "TEST",
+    "FLGC",
+    "DATS",
+    "THAR",
     "BIVI",
-    "SAVE"
+    "QNCX",
+    "MIRA",
+    "VSTE",
+    "CMAX",
+    "ELDN",
+    "IVDA",
+    "ATEC",
+    "ASPI"
   ]
 }

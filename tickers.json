@@ -1,1 +1,442 @@
-{}
+{
+  "PLRZ": {
+    "ticker": "PLRZ",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-29T15:16:22Z",
+        "headline": "Polyrizon Shares Resume Trade Following Circuit Breaker Halt",
+        "id": 41603154,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLRZ"
+        ],
+        "updated_at": "2024-10-29T15:16:22Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41603154/polyrizon-shares-resume-trade-following-circuit-breaker-halt"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-29T15:11:34Z",
+        "headline": "Polyrizon Shares Open For Trade At $1.64/Unit; IPO Priced At $4.38/Unit",
+        "id": 41602912,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLRZ"
+        ],
+        "updated_at": "2024-10-29T15:11:35Z",
+        "url": "https://www.benzinga.com/news/24/10/41602912/polyrizon-shares-open-for-trade-at-1-64unit-ipo-priced-at-4-38unit"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-29T15:00:09Z",
+        "headline": "Trading Halt: Halt status updated at 11:00:00 AM ET: Quotation Resumption: IPO Security - Released for Quotation",
+        "id": 41602255,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLRZ"
+        ],
+        "updated_at": "2024-10-29T15:00:09Z",
+        "url": "https://www.benzinga.com/24/10/41602255/trading-halt-halt-status-updated-at-11-00-00-am-et-quotation-resumption-ipo-security-released-for-qu"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "2.15",
+    "time": "09:00:56",
+    "isActive": false,
+    "firstSeen": "2024-10-30T08:00:45.857Z",
+    "lastSeen": "2024-10-30T08:00:45.858Z",
+    "shorts": {}
+  },
+  "FLGC": {
+    "ticker": "FLGC",
+    "news": [],
+    "hod": false,
+    "float": "9.33M",
+    "price": "2.02",
+    "time": "13:02:53",
+    "isActive": false,
+    "firstSeen": "2024-10-30T12:02:34.760Z",
+    "lastSeen": "2024-10-30T12:40:07.772Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 211950,
+      "Avg. Daily Volume": 150980,
+      "Short Float": "2.27%",
+      "Short Ratio": "1.40"
+    }
+  },
+  "DATS": {
+    "ticker": "DATS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T12:13:54Z",
+        "headline": "DatChat's Dragon Interact Subsidiary Acquires RPM Interactive In Consideration For The Issuance Of 3.5M Shares Of Common Stock",
+        "id": 41622921,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DATS"
+        ],
+        "updated_at": "2024-10-30T12:13:55Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41622921/datchats-dragon-interact-subsidiary-acquires-rpm-interactive-in-consideration-for-the-issuance-of-3"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T15:47:27Z",
+        "headline": "DatChat's Dragon Interact Acquires RPM Interactive In 3.5M Share Deal, Gains 100% Ownership And Plans Rebranding To RPM Interactive With AI-Focused Strategy; Industry Veteran Michael Mathews Appointed As Chairman",
+        "id": 41629575,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DATS"
+        ],
+        "updated_at": "2024-10-30T15:47:27Z",
+        "url": "https://www.benzinga.com/m-a/24/10/41629575/datchats-dragon-interact-acquires-rpm-interactive-in-3-5m-share-deal-gains-100-ownership-and-plans-r"
+      }
+    ],
+    "hod": false,
+    "float": "2.73M",
+    "price": "2.41",
+    "time": "13:08:06",
+    "isActive": false,
+    "firstSeen": "2024-10-30T12:07:50.458Z",
+    "lastSeen": "2024-10-30T12:11:07.065Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 13690,
+      "Avg. Daily Volume": 122770,
+      "Short Float": "0.50%",
+      "Short Ratio": "0.11"
+    }
+  },
+  "THAR": {
+    "ticker": "THAR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T12:23:18Z",
+        "headline": "Tharimmune Receives EMA Feedback On TH104 Clinical Program, Including Guidance On Planned Phase 2 Trial; The Agency Found The Design And Main Features Of The Proposed Phase 2 Study Overall Acceptable With Some Comments, Also Provided General Guidance For Design Of Future Phase 3 Study",
+        "id": 41623236,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "THAR"
+        ],
+        "updated_at": "2024-10-30T12:23:19Z",
+        "url": "https://www.benzinga.com/general/biotech/24/10/41623236/tharimmune-receives-ema-feedback-on-th104-clinical-program-including-guidance-on-planned-phase-2-"
+      },
+      {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-10-30T16:31:16Z",
+        "headline": "What's Going On With Tharimmune Shares Wednesday?",
+        "id": 41630789,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/30/medicine-1905067-1280.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Tharimmune, Inc. (NASDAQ:THAR) shares are moving higher on Wednesday after the company announced it received overall positive feedback from the European Medicines Agency (EMA) on its TH104 clinical program.",
+        "symbols": [
+          "THAR"
+        ],
+        "updated_at": "2024-10-30T16:31:17Z",
+        "url": "https://www.benzinga.com/news/24/10/41630789/whats-going-on-with-tharimmune-shares-wednesday"
+      }
+    ],
+    "hod": false,
+    "float": "1.13M",
+    "price": "3.43",
+    "time": "13:15:15",
+    "isActive": false,
+    "firstSeen": "2024-10-30T12:15:12.984Z",
+    "lastSeen": "2024-10-30T19:56:15.809Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 17700,
+      "Avg. Daily Volume": 35220,
+      "Short Float": "1.57%",
+      "Short Ratio": "0.50"
+    }
+  },
+  "BIVI": {
+    "ticker": "BIVI",
+    "news": [],
+    "hod": false,
+    "float": "11.41M",
+    "price": "2.95",
+    "time": "13:43:43",
+    "isActive": false,
+    "firstSeen": "2024-10-30T12:43:34.143Z",
+    "lastSeen": "2024-10-30T13:28:26.331Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 187740,
+      "Avg. Daily Volume": 182610,
+      "Short Float": "3.43%",
+      "Short Ratio": "1.03"
+    }
+  },
+  "QNCX": {
+    "ticker": "QNCX",
+    "news": [],
+    "hod": true,
+    "float": "32.08M",
+    "price": "1.79",
+    "time": "14:58:11",
+    "isActive": false,
+    "firstSeen": "2024-10-30T13:58:09.980Z",
+    "lastSeen": "2024-10-30T13:58:09.980Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 1910000,
+      "Avg. Daily Volume": 154660,
+      "Short Float": "5.96%",
+      "Short Ratio": "12.36"
+    }
+  },
+  "MIRA": {
+    "ticker": "MIRA",
+    "news": [],
+    "hod": false,
+    "float": "8.18M",
+    "price": "2.27",
+    "time": "15:39:54",
+    "isActive": false,
+    "firstSeen": "2024-10-30T14:39:52.971Z",
+    "lastSeen": "2024-10-30T19:10:01.854Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 342580,
+      "Avg. Daily Volume": 5190000,
+      "Short Float": "3.44%",
+      "Short Ratio": "0.07"
+    }
+  },
+  "VSTE": {
+    "ticker": "VSTE",
+    "news": [],
+    "hod": false,
+    "float": "2.08M",
+    "price": "2.3",
+    "time": "16:48:10",
+    "isActive": true,
+    "firstSeen": "2024-10-30T15:47:51.622Z",
+    "lastSeen": "2024-10-30T20:22:12.450Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 11450,
+      "Avg. Daily Volume": 16560,
+      "Short Float": "0.55%",
+      "Short Ratio": "0.69"
+    }
+  },
+  "CMAX": {
+    "ticker": "CMAX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T16:52:15Z",
+        "headline": "CareMax Shares Resume Trade Following Circuit Breaker Halt",
+        "id": 41631214,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CMAX"
+        ],
+        "updated_at": "2024-10-30T16:52:15Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/10/41631214/caremax-shares-resume-trade-following-circuit-breaker-halt"
+      }
+    ],
+    "hod": false,
+    "float": "2.36M",
+    "price": "1.88",
+    "time": "18:06:26",
+    "isActive": true,
+    "firstSeen": "2024-10-30T17:06:42.247Z",
+    "lastSeen": "2024-10-30T20:14:01.188Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 123610,
+      "Avg. Daily Volume": 2640000,
+      "Short Float": "5.24%",
+      "Short Ratio": "0.05"
+    }
+  },
+  "ELDN": {
+    "ticker": "ELDN",
+    "news": [],
+    "hod": false,
+    "float": "39.63M",
+    "price": "4.35",
+    "time": "19:57:10",
+    "isActive": false,
+    "firstSeen": "2024-10-30T18:56:59.070Z",
+    "lastSeen": "2024-10-30T19:55:36.899Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 142850,
+      "Avg. Daily Volume": 77240,
+      "Short Float": "0.36%",
+      "Short Ratio": "1.85"
+    }
+  },
+  "IVDA": {
+    "ticker": "IVDA",
+    "news": [],
+    "hod": false,
+    "float": "3.19M",
+    "price": "1.86",
+    "time": "20:58:03",
+    "isActive": false,
+    "firstSeen": "2024-10-30T19:58:09.873Z",
+    "lastSeen": "2024-10-30T19:58:09.873Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 63210,
+      "Avg. Daily Volume": 38700,
+      "Short Float": "2.97%",
+      "Short Ratio": "1.63"
+    }
+  },
+  "ATEC": {
+    "ticker": "ATEC",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T20:08:03Z",
+        "headline": "Alphatec Holdings Raises FY2024 Sales Guidance from $602.00M to $605.00M",
+        "id": 41635925,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ATEC"
+        ],
+        "updated_at": "2024-10-30T20:08:04Z",
+        "url": "https://www.benzinga.com/news/24/10/41635925/alphatec-holdings-raises-fy2024-sales-guidance-from-602-00m-to-605-00m"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T20:02:51Z",
+        "headline": "Alphatec Holdings Q3 2024 GAAP EPS $(0.28) Misses $(0.23) Estimate, Sales $150.719M Beat $147.218M Estimate",
+        "id": 41635630,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ATEC"
+        ],
+        "updated_at": "2024-10-30T20:02:52Z",
+        "url": "https://www.benzinga.com/news/earnings/24/10/41635630/alphatec-holdings-q3-2024-gaap-eps-0-28-misses-0-23-estimate-sales-150-719m-beat-147-218m-estimate"
+      }
+    ],
+    "hod": true,
+    "float": "98.59M",
+    "price": "6.88",
+    "time": "21:08:27",
+    "isActive": true,
+    "firstSeen": "2024-10-30T20:08:34.657Z",
+    "lastSeen": "2024-10-30T21:02:04.355Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 12040000,
+      "Avg. Daily Volume": 2410000,
+      "Short Float": "12.22%",
+      "Short Ratio": "5.00"
+    }
+  },
+  "ASPI": {
+    "ticker": "ASPI",
+    "news": [
+      {
+        "author": "Adam Eckert",
+        "content": "",
+        "created_at": "2024-10-30T13:13:04Z",
+        "headline": "ASP Isotopes Stock Is Soaring Wednesday: What's Going On?",
+        "id": 41624818,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/10/30/Stock-Market-Chart.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/10/30/Stock-Market-Chart.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/10/30/Stock-Market-Chart.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "ASP Isotopes Inc (NASDAQ:ASPI) shares are racing higher Wednesday after the company announced that it entered into a term sheet with nuclear company TerraPower.",
+        "symbols": [
+          "ASPI"
+        ],
+        "updated_at": "2024-10-30T13:13:05Z",
+        "url": "https://www.benzinga.com/news/24/10/41624818/asp-isotopes-stock-is-soaring-wednesday-whats-going-on"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-10-30T11:16:59Z",
+        "headline": "ASP Isotopes Enters Term Sheet With TerraPower Related To Funding For The Construction Of A HALEU Production Facility",
+        "id": 41621434,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ASPI"
+        ],
+        "updated_at": "2024-10-30T11:17:00Z",
+        "url": "https://www.benzinga.com/news/24/10/41621434/asp-isotopes-enters-term-sheet-with-terrapower-related-to-funding-for-the-construction-of-a-haleu-pr"
+      }
+    ],
+    "hod": false,
+    "float": "41.00M",
+    "price": "6.9",
+    "time": "21:36:55",
+    "isActive": true,
+    "firstSeen": "2024-10-30T20:37:14.212Z",
+    "lastSeen": "2024-10-30T20:37:14.212Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 9930000,
+      "Avg. Daily Volume": 891580,
+      "Short Float": "24.21%",
+      "Short Ratio": "11.13"
+    }
+  }
+}
