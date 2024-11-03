@@ -40,6 +40,8 @@ const logVerbose = (message) => {
         console.log(`VERBOSE: ${message}`);
     }
 };
+
+
 // Function to sanitize and capitalize the ticker symbol
 const sanitizeTicker = (ticker) => {
     const trimmedTicker = ticker.trim();
@@ -498,6 +500,7 @@ const readTickersFromFile = async (filePath) => {
         console.error("Error reading tickers from file:", err);
     }
 };
+
 // Function to toggle filtering of tickers without headlines
 const toggleFilterHeadlines = () => {
     filterHeadlinesActive = !filterHeadlinesActive;
