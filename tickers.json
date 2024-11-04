@@ -1,1 +1,38 @@
-{}
+{
+  "VSTE": {
+    "ticker": "VSTE",
+    "news": [],
+    "hod": false,
+    "float": "2.08M",
+    "price": "5.43",
+    "time": "22:44:20",
+    "isActive": true,
+    "firstSeen": "2024-11-04T07:45:51.904Z",
+    "lastSeen": "2024-11-04T07:45:51.905Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 11450,
+      "Avg. Daily Volume": 16560,
+      "Short Float": "0.55%",
+      "Short Ratio": "0.69"
+    }
+  },
+  "NUWE": {
+    "ticker": "NUWE",
+    "news": [],
+    "hod": true,
+    "float": "1.87M",
+    "price": "2.57",
+    "time": "22:29:46",
+    "isActive": true,
+    "firstSeen": "2024-11-04T07:45:51.912Z",
+    "lastSeen": "2024-11-04T07:45:51.912Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 336610,
+      "Avg. Daily Volume": 718220,
+      "Short Float": "30.05%",
+      "Short Ratio": "0.47"
+    }
+  }
+}
