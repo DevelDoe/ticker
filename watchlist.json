@@ -1,1 +1,11 @@
-{}
+{
+  "STAF": {
+    "ticker": "STAF"
+  },
+  "NLSP": {
+    "ticker": "NLSP"
+  },
+  "ADN": {
+    "ticker": "ADN"
+  }
+}
