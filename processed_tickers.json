@@ -1,15 +1,11 @@
 {
-  "lastWipe": "2024-11-03T23:00:00.000Z",
+  "lastWipe": "2024-11-04T23:00:00.000Z",
   "tickers": [
-    "VSTE",
-    "NUWE",
-    "TNYA",
-    "ASPI",
-    "NLSP",
-    "STAF",
-    "PPBT",
     "ADN",
-    "WHLR",
-    "CGC"
+    "VSTE",
+    "SPPL",
+    "PHUN",
+    "TVGN",
+    "ALBT"
   ]
 }

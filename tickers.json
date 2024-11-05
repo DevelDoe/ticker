@@ -1,251 +1,7 @@
 {
-  "VSTE": {
-    "ticker": "VSTE",
-    "news": [],
-    "hod": false,
-    "float": "2.08M",
-    "price": "6.86",
-    "time": "22:44:20",
-    "isActive": true,
-    "firstSeen": "2024-11-04T07:45:51.904Z",
-    "lastSeen": "2024-11-04T15:14:32.807Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 11450,
-      "Avg. Daily Volume": 16560,
-      "Short Float": "0.55%",
-      "Short Ratio": "0.69"
-    }
-  },
-  "NUWE": {
-    "ticker": "NUWE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:36:03Z",
-        "headline": "Nuwellis Announces CMS Increased Reimbursement Rate For Aquadex SmartFlow Therapy From $413 To $1,639 Per Day",
-        "id": 41713164,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUWE"
-        ],
-        "updated_at": "2024-11-04T13:36:04Z",
-        "url": "https://www.benzinga.com/general/health-care/24/11/41713164/nuwellis-announces-cms-increased-reimbursement-rate-for-aquadex-smartflow-therapy-from-413-to"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T14:45:09Z",
-        "headline": "Nuwellis Shares Halted On Circuit Breaker To The Upside, Stock Now Up 141.9%",
-        "id": 41715455,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUWE"
-        ],
-        "updated_at": "2024-11-04T14:45:10Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41715455/nuwellis-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-141-9"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T14:49:04Z",
-        "headline": "Nuwellis Shares Resumed Trade Then Again Halted To The Upside, Stock Now Up 191.2%",
-        "id": 41715550,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUWE"
-        ],
-        "updated_at": "2024-11-04T14:49:04Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41715550/nuwellis-shares-resumed-trade-then-again-halted-to-the-upside-stock-now-up-191-2"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T14:54:38Z",
-        "headline": "Nuwellis Shares Resumed Trade",
-        "id": 41715720,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUWE"
-        ],
-        "updated_at": "2024-11-04T14:54:56Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41715720/nuwellis-shares-resumed-trade"
-      }
-    ],
-    "hod": false,
-    "float": "1.87M",
-    "price": "3.37",
-    "time": "22:29:46",
-    "isActive": true,
-    "firstSeen": "2024-11-04T07:45:51.912Z",
-    "lastSeen": "2024-11-04T15:20:01.996Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 336610,
-      "Avg. Daily Volume": 718220,
-      "Short Float": "30.05%",
-      "Short Ratio": "0.47"
-    }
-  },
-  "TNYA": {
-    "ticker": "TNYA",
-    "news": [],
-    "hod": true,
-    "float": "65.30M",
-    "price": "2.53",
-    "time": "12:29:30",
-    "isActive": true,
-    "firstSeen": "2024-11-04T11:58:00.065Z",
-    "lastSeen": "2024-11-04T15:15:42.401Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 4880000,
-      "Avg. Daily Volume": 399470,
-      "Short Float": "7.47%",
-      "Short Ratio": "12.21"
-    }
-  },
-  "ASPI": {
-    "ticker": "ASPI",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 9930000,
-      "Avg. Daily Volume": 891580,
-      "Short Float": "24.21%",
-      "Short Ratio": "11.13"
-    }
-  },
-  "NLSP": {
-    "ticker": "NLSP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T12:07:07Z",
-        "headline": "NLS Pharmaceutics Enters Definitive Merger Agreement With Kadimastem; At Closing, NLS Will Issue Shares Of Its Common Stock To Kadimastem's Shareholders Based On An Initial Target Fully Diluted Share Split, Post Transaction, Of 85% To Kadimastem Stakeholders And 15% To Nls Stakeholders, In Exchange For 100% Of Kadimastem's Issued And Outstanding Shares",
-        "id": 41709712,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NLSP"
-        ],
-        "updated_at": "2024-11-04T12:07:07Z",
-        "url": "https://www.benzinga.com/m-a/24/11/41709712/nls-pharmaceutics-enters-definitive-merger-agreement-with-kadimastem-at-closing-nls-will-issue-share"
-      }
-    ],
-    "hod": false,
-    "float": "1.80M",
-    "price": "4.14",
-    "time": "13:03:09",
-    "isActive": true,
-    "firstSeen": "2024-11-04T12:03:30.714Z",
-    "lastSeen": "2024-11-04T14:58:49.913Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 51750,
-      "Avg. Daily Volume": 70200,
-      "Short Float": "2.87%",
-      "Short Ratio": "0.74"
-    }
-  },
-  "STAF": {
-    "ticker": "STAF",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T12:35:17Z",
-        "headline": "Atlantic International Corp. To Acquire All Outstanding Shares Of Staffing 360 Solutions In Transaction Valued At ~$25M; Atlantic And Staffing 360 Shareholders Will Own Approximately 90% And 10%, Respectively, Of The Combined Company On A Fully Diluted Basis.",
-        "id": 41710774,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "STAF"
-        ],
-        "updated_at": "2024-11-04T12:35:18Z",
-        "url": "https://www.benzinga.com/m-a/24/11/41710774/atlantic-international-corp-to-acquire-all-outstanding-shares-of-staffing-360-solutions-in-transacti"
-      }
-    ],
-    "hod": false,
-    "float": "643.23K",
-    "price": "2.8",
-    "time": "13:30:57",
-    "isActive": true,
-    "firstSeen": "2024-11-04T12:31:14.648Z",
-    "lastSeen": "2024-11-04T15:10:09.183Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": "841.00",
-      "Avg. Daily Volume": 1310000,
-      "Short Float": "0.13%",
-      "Short Ratio": "0.00"
-    }
-  },
-  "PPBT": {
-    "ticker": "PPBT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:00:24Z",
-        "headline": "Purple Biotech Identifies Potential New Serum Biomarker For Its Lead Oncology Therapeutic Candidate CM24: Associated With 79% Reduction In Risk Of Death",
-        "id": 41711596,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PPBT"
-        ],
-        "updated_at": "2024-11-04T13:00:24Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41711596/purple-biotech-identifies-potential-new-serum-biomarker-for-its-lead-oncology-therapeutic-candida"
-      }
-    ],
-    "hod": false,
-    "float": "1.91M",
-    "price": "3.47",
-    "time": "13:51:54",
-    "isActive": true,
-    "firstSeen": "2024-11-04T12:51:55.579Z",
-    "lastSeen": "2024-11-04T12:51:55.579Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 17990,
-      "Avg. Daily Volume": 20960,
-      "Short Float": "1.00%",
-      "Short Ratio": "0.86"
-    }
-  },
   "ADN": {
     "ticker": "ADN",
     "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:04:18Z",
-        "headline": "Advent Technologies' RHyno Project Secures €34.5M Grant From EU Innovation Fund To Advance Fuel Cell And Hydrogen Technology; Grant Agreement Preparation Underway",
-        "id": 41711750,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ADN"
-        ],
-        "updated_at": "2024-11-04T13:04:19Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41711750/advent-technologies-rhyno-project-secures-34-5m-grant-from-eu-innovation-fund-to-advance-fuel-cel"
-      },
       {
         "author": "Henry Khederian",
         "content": "",
@@ -267,21 +23,36 @@
           }
         ],
         "source": "benzinga",
-        "summary": "",
+        "summary": "Advent Technologies shares are trading higher by 33% during Monday&#39;s session. The company announced its Greek subsidiary&#39;s RHyno Project received a €34.5 million EU Innovation Fund grant.",
         "symbols": [
           "ADN"
         ],
         "updated_at": "2024-11-04T14:20:20Z",
         "url": "https://www.benzinga.com/news/24/11/41714817/why-advent-technologies-adn-stock-is-skyrocketing"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T13:04:18Z",
+        "headline": "Advent Technologies' RHyno Project Secures €34.5M Grant From EU Innovation Fund To Advance Fuel Cell And Hydrogen Technology; Grant Agreement Preparation Underway",
+        "id": 41711750,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ADN"
+        ],
+        "updated_at": "2024-11-04T13:04:19Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41711750/advent-technologies-rhyno-project-secures-34-5m-grant-from-eu-innovation-fund-to-advance-fuel-cel"
       }
     ],
     "hod": false,
     "float": "2.19M",
-    "price": "3.3",
-    "time": "14:01:44",
+    "price": "3.73",
+    "time": "01:01:04",
     "isActive": true,
-    "firstSeen": "2024-11-04T13:02:22.202Z",
-    "lastSeen": "2024-11-04T15:17:47.197Z",
+    "firstSeen": "2024-11-05T08:39:46.378Z",
+    "lastSeen": "2024-11-05T08:39:46.379Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 39170,
@@ -290,34 +61,168 @@
       "Short Ratio": "1.37"
     }
   },
-  "WHLR": {
-    "ticker": "WHLR",
+  "VSTE": {
+    "ticker": "VSTE",
     "news": [],
     "hod": false,
-    "float": "982.99K",
-    "price": "9.75",
-    "time": "15:09:33",
+    "float": "2.08M",
+    "price": "7.2",
+    "time": "00:27:21",
     "isActive": true,
-    "firstSeen": "2024-11-04T14:10:21.818Z",
-    "lastSeen": "2024-11-04T14:26:15.424Z",
+    "firstSeen": "2024-11-05T08:39:46.385Z",
+    "lastSeen": "2024-11-05T08:39:46.385Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 52470,
-      "Avg. Daily Volume": 1970000,
-      "Short Float": "5.35%",
-      "Short Ratio": "0.03"
+      "Short Interest": 11450,
+      "Avg. Daily Volume": 16560,
+      "Short Float": "0.55%",
+      "Short Ratio": "0.69"
     }
   },
-  "CGC": {
-    "ticker": "CGC",
+  "SPPL": {
+    "ticker": "SPPL",
     "news": [],
-    "hod": true,
-    "float": "84.10M",
-    "price": "5.32",
-    "time": "15:32:37",
+    "hod": false,
+    "float": "4.86M",
+    "price": "2.13",
+    "time": "23:21:03",
     "isActive": true,
-    "firstSeen": "2024-11-04T14:32:41.017Z",
-    "lastSeen": "2024-11-04T14:32:41.017Z",
-    "shorts": {}
+    "firstSeen": "2024-11-05T08:39:46.387Z",
+    "lastSeen": "2024-11-05T09:34:27.629Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 154220,
+      "Avg. Daily Volume": 175000,
+      "Short Float": "3.17%",
+      "Short Ratio": "0.88"
+    }
+  },
+  "PHUN": {
+    "ticker": "PHUN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T13:04:26Z",
+        "headline": "Phunware shares are trading lower. The company announced its CFO will step down from the position.",
+        "id": 41711753,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-04T16:13:04Z",
+        "url": "https://www.benzinga.com/wiim/24/11/41711753/phunware-shares-are-trading-lower-the-company-announced-its-cfo-will-step-down-from-the-position"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T13:33:32Z",
+        "headline": "Phunware To Acquire Controlling Interest In MyCanvass, LLC For Aggregate Value Of $1.02M",
+        "id": 41713143,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-04T13:33:32Z",
+        "url": "https://www.benzinga.com/m-a/24/11/41713143/phunware-to-acquire-controlling-interest-in-mycanvass-llc-for-aggregate-value-of-1-02m"
+      },
+      {
+        "author": "Lekha Gupta",
+        "content": "",
+        "created_at": "2024-11-04T13:10:33Z",
+        "headline": "Trump-Linked Phunware's Leadership Shuffle Continues: CFO Joins CEO In Exit Queue",
+        "id": 41712003,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/04/PHUN.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/04/PHUN.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/04/PHUN.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Enterprise solutions company Phunware shares down premarket due to CFO&#39;s resignation, unrelated to company operations.",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-04T13:10:33Z",
+        "url": "https://www.benzinga.com/markets/equities/24/11/41712003/trump-linked-phunwares-leadership-shuffle-continues-cfo-joins-ceo-in-exit-queue"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T11:49:02Z",
+        "headline": "Phunware Says On November 1, Troy Reisner Notified That He Intends To Step Down As CFO On Or After November 15 And Prior To November 30 - Filing",
+        "id": 41709193,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-04T11:49:03Z",
+        "url": "https://www.benzinga.com/news/24/11/41709193/phunware-says-on-november-1-troy-reisner-notified-that-he-intends-to-step-down-as-cfo-on-or-after-no"
+      }
+    ],
+    "hod": false,
+    "float": "11.23M",
+    "price": "7.8",
+    "time": "10:01:58",
+    "isActive": true,
+    "firstSeen": "2024-11-05T09:02:10.837Z",
+    "lastSeen": "2024-11-05T09:02:10.837Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 1270000,
+      "Avg. Daily Volume": 1150000,
+      "Short Float": "11.31%",
+      "Short Ratio": "1.11"
+    }
+  },
+  "TVGN": {
+    "ticker": "TVGN",
+    "news": [],
+    "hod": false,
+    "float": "21.96M",
+    "price": "2.25",
+    "time": "10:05:42",
+    "isActive": true,
+    "firstSeen": "2024-11-05T09:06:23.523Z",
+    "lastSeen": "2024-11-05T09:06:23.524Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 3190000,
+      "Avg. Daily Volume": 5720000,
+      "Short Float": "14.53%",
+      "Short Ratio": "0.56"
+    }
+  },
+  "ALBT": {
+    "ticker": "ALBT",
+    "news": [],
+    "hod": false,
+    "float": "395.19K",
+    "price": "3.6",
+    "time": "10:22:29",
+    "isActive": true,
+    "firstSeen": "2024-11-05T09:22:27.335Z",
+    "lastSeen": "2024-11-05T09:22:27.335Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 13780,
+      "Avg. Daily Volume": 296840,
+      "Short Float": "3.49%",
+      "Short Ratio": "0.05"
+    }
   }
 }
