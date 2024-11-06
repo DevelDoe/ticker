@@ -48,11 +48,11 @@
     ],
     "hod": false,
     "float": "2.19M",
-    "price": "3.73",
+    "price": "3.55",
     "time": "01:01:04",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-11-05T08:39:46.378Z",
-    "lastSeen": "2024-11-05T08:39:46.379Z",
+    "lastSeen": "2024-11-05T13:15:30.140Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 39170,
@@ -68,7 +68,7 @@
     "float": "2.08M",
     "price": "7.2",
     "time": "00:27:21",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-11-05T08:39:46.385Z",
     "lastSeen": "2024-11-05T08:39:46.385Z",
     "shorts": {
@@ -81,14 +81,60 @@
   },
   "SPPL": {
     "ticker": "SPPL",
-    "news": [],
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T13:35:27Z",
+        "headline": "SIMPPLE Outlines Plan To Regain Nasdaq Compliance, Including Potential Reverse Stock Split; Requests Hearing With Nasdaq To Seek Extension While Continuing Business Operations And Securing New Contracts",
+        "id": 41744310,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SPPL"
+        ],
+        "updated_at": "2024-11-05T13:35:27Z",
+        "url": "https://www.benzinga.com/news/24/11/41744310/simpple-outlines-plan-to-regain-nasdaq-compliance-including-potential-reverse-stock-split-requests-h"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T13:35:00Z",
+        "headline": "Simpple Ltd, A Leading Technology Provider Announced Its Plan To Regain NASDAQ Compliance",
+        "id": 41744303,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SPPL"
+        ],
+        "updated_at": "2024-11-05T13:35:01Z",
+        "url": "https://www.benzinga.com/news/24/11/41744303/simpple-ltd-a-leading-technology-provider-announced-its-plan-to-regain-nasdaq-compliance"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T13:36:27Z",
+        "headline": "Simpple Ltd shares are trading higher after the company announced its plan to regain NASDAQ compliance.",
+        "id": 41744324,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SPPL"
+        ],
+        "updated_at": "2024-11-05T16:41:39Z",
+        "url": "https://www.benzinga.com/wiim/24/11/41744324/simpple-ltd-shares-are-trading-higher-after-the-company-announced-its-plan-to-regain-nasdaq-complian"
+      }
+    ],
     "hod": false,
     "float": "4.86M",
-    "price": "2.13",
+    "price": "1.85",
     "time": "23:21:03",
     "isActive": true,
     "firstSeen": "2024-11-05T08:39:46.387Z",
-    "lastSeen": "2024-11-05T09:34:27.629Z",
+    "lastSeen": "2024-11-05T14:54:24.751Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 154220,
@@ -172,13 +218,28 @@
         ],
         "updated_at": "2024-11-04T11:49:03Z",
         "url": "https://www.benzinga.com/news/24/11/41709193/phunware-says-on-november-1-troy-reisner-notified-that-he-intends-to-step-down-as-cfo-on-or-after-no"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T13:32:22Z",
+        "headline": "Phunware Names Rahul Mewawalla As Chairman Of The Board To Lead Growth And Innovation In AI, Predictive Analytics, And Cloud Services",
+        "id": 41744244,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-05T13:32:23Z",
+        "url": "https://www.benzinga.com/news/24/11/41744244/phunware-names-rahul-mewawalla-as-chairman-of-the-board-to-lead-growth-and-innovation-in-ai-predicti"
       }
     ],
     "hod": false,
     "float": "11.23M",
     "price": "7.8",
     "time": "10:01:58",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-11-05T09:02:10.837Z",
     "lastSeen": "2024-11-05T09:02:10.837Z",
     "shorts": {
@@ -194,11 +255,11 @@
     "news": [],
     "hod": false,
     "float": "21.96M",
-    "price": "2.25",
+    "price": "2.04",
     "time": "10:05:42",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-11-05T09:06:23.523Z",
-    "lastSeen": "2024-11-05T09:06:23.524Z",
+    "lastSeen": "2024-11-05T14:29:42.081Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 3190000,
@@ -212,11 +273,11 @@
     "news": [],
     "hod": false,
     "float": "395.19K",
-    "price": "3.6",
+    "price": "4.01",
     "time": "10:22:29",
-    "isActive": true,
+    "isActive": false,
     "firstSeen": "2024-11-05T09:22:27.335Z",
-    "lastSeen": "2024-11-05T09:22:27.335Z",
+    "lastSeen": "2024-11-05T15:04:31.772Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 13780,
@@ -224,5 +285,343 @@
       "Short Float": "3.49%",
       "Short Ratio": "0.05"
     }
+  },
+  "BDTX": {
+    "ticker": "BDTX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T12:10:52Z",
+        "headline": "Black Diamond Therapeutic's Cash, Cash Equivalents, And Investments Of $112.7M As Of September 30, 2024; Expected To Be Sufficient To Fund Operations Into Q2 Of 2026",
+        "id": 41741282,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BDTX"
+        ],
+        "updated_at": "2024-11-05T12:10:52Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41741282/black-diamond-therapeutics-cash-cash-equivalents-and-investments-of-112-7m-as-of-september-30-202"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T12:10:32Z",
+        "headline": "Black Diamond Therapeutic Q3 2024 GAAP EPS $(0.28) Beats $(0.38) Estimate",
+        "id": 41741266,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BDTX"
+        ],
+        "updated_at": "2024-11-05T12:10:32Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41741266/black-diamond-therapeutic-q3-2024-gaap-eps-0-28-beats-0-38-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "43.06M",
+    "price": "3.28",
+    "time": "14:00:03",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:00:40.528Z",
+    "lastSeen": "2024-11-05T13:00:40.528Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 7320000,
+      "Avg. Daily Volume": 1150000,
+      "Short Float": "17.01%",
+      "Short Ratio": "6.39"
+    }
+  },
+  "GOGO": {
+    "ticker": "GOGO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T12:02:57Z",
+        "headline": "Gogo Q3 2024 GAAP EPS $0.08 Beats $0.05 Estimate, Sales $100.500M Beat $97.301M Estimate",
+        "id": 41741036,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GOGO"
+        ],
+        "updated_at": "2024-11-05T12:02:58Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41741036/gogo-q3-2024-gaap-eps-0-08-beats-0-05-estimate-sales-100-500m-beat-97-301m-estimate"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-04T18:01:07Z",
+        "headline": "Earnings Outlook For Gogo",
+        "id": 41722477,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "GOGO"
+        ],
+        "updated_at": "2024-11-04T18:01:07Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/11/41722477/earnings-outlook-for-gogo"
+      }
+    ],
+    "hod": false,
+    "float": "62.41M",
+    "price": "8.72",
+    "time": "14:06:58",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:07:08.538Z",
+    "lastSeen": "2024-11-05T15:12:35.593Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 15450000,
+      "Avg. Daily Volume": 1070000,
+      "Short Float": "24.76%",
+      "Short Ratio": "14.40"
+    }
+  },
+  "AGFY": {
+    "ticker": "AGFY",
+    "news": [],
+    "hod": false,
+    "float": "639.76K",
+    "price": "5.93",
+    "time": "14:19:10",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:19:37.946Z",
+    "lastSeen": "2024-11-05T14:22:28.146Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 23630,
+      "Avg. Daily Volume": 19120,
+      "Short Float": "3.69%",
+      "Short Ratio": "1.24"
+    }
+  },
+  "ZVSA": {
+    "ticker": "ZVSA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T12:14:41Z",
+        "headline": "ZyVersa Therapeutics Highlights Data Showing The Potential Of Inflammasome Inhibition To Protect Pancreatic Islet Beta Cells And Attenuate Progression From Obesity To Insulin Resistance And Type 2 Diabetes",
+        "id": 41741355,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZVSA"
+        ],
+        "updated_at": "2024-11-05T12:14:42Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41741355/zyversa-therapeutics-highlights-data-showing-the-potential-of-inflammasome-inhibition-to-protect-"
+      }
+    ],
+    "hod": false,
+    "float": "1.07M",
+    "price": "3.1",
+    "time": "14:24:19",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:24:26.730Z",
+    "lastSeen": "2024-11-05T14:51:35.963Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 9690,
+      "Avg. Daily Volume": 79770,
+      "Short Float": "0.91%",
+      "Short Ratio": "0.12"
+    }
+  },
+  "VCNX": {
+    "ticker": "VCNX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T13:32:19Z",
+        "headline": "Vaccinex Reports Improved Immunity Correlating With Clinical Benefit Of Pepinemab Combination Treatment At Society For Immunotherapy Of Cancer's Annual Meeting",
+        "id": 41744242,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VCNX"
+        ],
+        "updated_at": "2024-11-05T13:32:20Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41744242/vaccinex-reports-improved-immunity-correlating-with-clinical-benefit-of-pepinemab-combination-tre"
+      }
+    ],
+    "hod": false,
+    "float": "1.40M",
+    "price": "4.38",
+    "time": "14:32:44",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:32:56.058Z",
+    "lastSeen": "2024-11-05T13:32:56.058Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 34500,
+      "Avg. Daily Volume": 99370,
+      "Short Float": "2.46%",
+      "Short Ratio": "0.35"
+    }
+  },
+  "ARQQ": {
+    "ticker": "ARQQ",
+    "news": [],
+    "hod": false,
+    "float": "3.91M",
+    "price": "7.5",
+    "time": "14:55:24",
+    "isActive": false,
+    "firstSeen": "2024-11-05T13:55:37.531Z",
+    "lastSeen": "2024-11-05T14:00:29.754Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 130970,
+      "Avg. Daily Volume": 56070,
+      "Short Float": "3.35%",
+      "Short Ratio": "2.34"
+    }
+  },
+  "NTRP": {
+    "ticker": "NTRP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T14:05:40Z",
+        "headline": "NextTrip Announced It Has Signed A Non-Binding Letter Of Intent To Acquire Five Star Alliance; Terms Not Disclosed",
+        "id": 41745477,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NTRP"
+        ],
+        "updated_at": "2024-11-05T14:05:40Z",
+        "url": "https://www.benzinga.com/news/24/11/41745477/nexttrip-announced-it-has-signed-a-non-binding-letter-of-intent-to-acquire-five-star-alliance-terms"
+      }
+    ],
+    "hod": false,
+    "float": "1.09M",
+    "price": "1.98",
+    "time": "15:03:34",
+    "isActive": false,
+    "firstSeen": "2024-11-05T14:03:35.289Z",
+    "lastSeen": "2024-11-05T14:27:14.996Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 19540,
+      "Avg. Daily Volume": 6980,
+      "Short Float": "1.79%",
+      "Short Ratio": "2.80"
+    }
+  },
+  "XPON": {
+    "ticker": "XPON",
+    "news": [],
+    "hod": false,
+    "float": "491.15K",
+    "price": "4.03",
+    "time": "15:11:24",
+    "isActive": false,
+    "firstSeen": "2024-11-05T14:11:25.981Z",
+    "lastSeen": "2024-11-05T14:52:58.519Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 551330,
+      "Avg. Daily Volume": 1170000,
+      "Short Float": "112.52%",
+      "Short Ratio": "0.47"
+    }
+  },
+  "REAL": {
+    "ticker": "REAL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T22:54:49Z",
+        "headline": "RealReal Affirms FY2024 Sales Guidance from $595.00M-602.00M to $595.00M-602.00M",
+        "id": 41732351,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "REAL"
+        ],
+        "updated_at": "2024-11-04T22:54:50Z",
+        "url": "https://www.benzinga.com/news/24/11/41732351/realreal-affirms-fy2024-sales-guidance-from-595-00m-602-00m-to-595-00m-602-00m"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T22:54:40Z",
+        "headline": "RealReal Sees Q4 Sales $158.000M-165.000M vs $157.81M Est",
+        "id": 41732350,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "REAL"
+        ],
+        "updated_at": "2024-11-04T22:54:40Z",
+        "url": "https://www.benzinga.com/news/24/11/41732350/realreal-sees-q4-sales-158-000m-165-000m-vs-157-81m-est"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-04T22:49:41Z",
+        "headline": "RealReal Q3 2024 Adj. EPS $(0.09), Inline, Sales $147.755M Beat $142.017M Estimate",
+        "id": 41732269,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "REAL"
+        ],
+        "updated_at": "2024-11-04T22:49:42Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41732269/realreal-q3-2024-adj-eps-0-09-inline-sales-147-755m-beat-142-017m-estimate"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T17:51:02Z",
+        "headline": "UBS Maintains Neutral on RealReal, Raises Price Target to $3.25",
+        "id": 41753182,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "REAL"
+        ],
+        "updated_at": "2024-11-05T17:51:02Z",
+        "url": "https://www.benzinga.com/news/24/11/41753182/ubs-maintains-neutral-on-realreal-raises-price-target-to-3-25"
+      }
+    ],
+    "hod": true,
+    "float": "83.35M",
+    "price": "3.6",
+    "time": "15:40:21",
+    "isActive": true,
+    "firstSeen": "2024-11-05T14:40:29.025Z",
+    "lastSeen": "2024-11-05T14:49:02.076Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 20100000,
+      "Avg. Daily Volume": 1960000,
+      "Short Float": "23.73%",
+      "Short Ratio": "10.27"
+    }
+  },
+  "LICY": {
+    "ticker": "LICY",
+    "news": [],
+    "isActive": true
   }
 }
