@@ -352,7 +352,7 @@ function displayScrapedMomo(
             thirdHighestCount
         );
         // Display the symbol and count with the applied color
-        console.log(`${color}${symbol}: ${count}\x1b[0m`); // Reset color after each symbol
+        console.log(`${color}${symbol} ${count}\x1b[0m`); // Reset color after each symbol
     });
 }
 
@@ -384,7 +384,7 @@ function displayTodaysTopMomo(
             thirdHighestCountDay
         );
         // Display the symbol and count with the applied color
-        console.log(`${color}${symbol}: ${count}\x1b[0m`);
+        console.log(`${color}${symbol} ${count}\x1b[0m`);
     });
 }
 

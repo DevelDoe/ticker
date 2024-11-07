@@ -1,224 +1,7 @@
 {
-  "ADN": {
-    "ticker": "ADN",
-    "news": [
-      {
-        "author": "Henry Khederian",
-        "content": "",
-        "created_at": "2024-11-04T14:20:20Z",
-        "headline": "Why Advent Technologies (ADN) Stock Is Skyrocketing",
-        "id": 41714817,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/04/matrix-3109378.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/04/matrix-3109378.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/04/matrix-3109378.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Advent Technologies shares are trading higher by 33% during Monday&#39;s session. The company announced its Greek subsidiary&#39;s RHyno Project received a €34.5 million EU Innovation Fund grant.",
-        "symbols": [
-          "ADN"
-        ],
-        "updated_at": "2024-11-04T14:20:20Z",
-        "url": "https://www.benzinga.com/news/24/11/41714817/why-advent-technologies-adn-stock-is-skyrocketing"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:04:18Z",
-        "headline": "Advent Technologies' RHyno Project Secures €34.5M Grant From EU Innovation Fund To Advance Fuel Cell And Hydrogen Technology; Grant Agreement Preparation Underway",
-        "id": 41711750,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ADN"
-        ],
-        "updated_at": "2024-11-04T13:04:19Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41711750/advent-technologies-rhyno-project-secures-34-5m-grant-from-eu-innovation-fund-to-advance-fuel-cel"
-      }
-    ],
-    "hod": false,
-    "float": "2.19M",
-    "price": "3.55",
-    "time": "01:01:04",
-    "isActive": false,
-    "firstSeen": "2024-11-05T08:39:46.378Z",
-    "lastSeen": "2024-11-05T13:15:30.140Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 39170,
-      "Avg. Daily Volume": 28580,
-      "Short Float": "1.79%",
-      "Short Ratio": "1.37"
-    }
-  },
-  "VSTE": {
-    "ticker": "VSTE",
-    "news": [],
-    "hod": false,
-    "float": "2.08M",
-    "price": "7.2",
-    "time": "00:27:21",
-    "isActive": false,
-    "firstSeen": "2024-11-05T08:39:46.385Z",
-    "lastSeen": "2024-11-05T08:39:46.385Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 11450,
-      "Avg. Daily Volume": 16560,
-      "Short Float": "0.55%",
-      "Short Ratio": "0.69"
-    }
-  },
-  "SPPL": {
-    "ticker": "SPPL",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T13:35:27Z",
-        "headline": "SIMPPLE Outlines Plan To Regain Nasdaq Compliance, Including Potential Reverse Stock Split; Requests Hearing With Nasdaq To Seek Extension While Continuing Business Operations And Securing New Contracts",
-        "id": 41744310,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SPPL"
-        ],
-        "updated_at": "2024-11-05T13:35:27Z",
-        "url": "https://www.benzinga.com/news/24/11/41744310/simpple-outlines-plan-to-regain-nasdaq-compliance-including-potential-reverse-stock-split-requests-h"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T13:35:00Z",
-        "headline": "Simpple Ltd, A Leading Technology Provider Announced Its Plan To Regain NASDAQ Compliance",
-        "id": 41744303,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SPPL"
-        ],
-        "updated_at": "2024-11-05T13:35:01Z",
-        "url": "https://www.benzinga.com/news/24/11/41744303/simpple-ltd-a-leading-technology-provider-announced-its-plan-to-regain-nasdaq-compliance"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T13:36:27Z",
-        "headline": "Simpple Ltd shares are trading higher after the company announced its plan to regain NASDAQ compliance.",
-        "id": 41744324,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SPPL"
-        ],
-        "updated_at": "2024-11-05T16:41:39Z",
-        "url": "https://www.benzinga.com/wiim/24/11/41744324/simpple-ltd-shares-are-trading-higher-after-the-company-announced-its-plan-to-regain-nasdaq-complian"
-      }
-    ],
-    "hod": false,
-    "float": "4.86M",
-    "price": "1.85",
-    "time": "23:21:03",
-    "isActive": true,
-    "firstSeen": "2024-11-05T08:39:46.387Z",
-    "lastSeen": "2024-11-05T14:54:24.751Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 154220,
-      "Avg. Daily Volume": 175000,
-      "Short Float": "3.17%",
-      "Short Ratio": "0.88"
-    }
-  },
   "PHUN": {
     "ticker": "PHUN",
     "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:04:26Z",
-        "headline": "Phunware shares are trading lower. The company announced its CFO will step down from the position.",
-        "id": 41711753,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PHUN"
-        ],
-        "updated_at": "2024-11-04T16:13:04Z",
-        "url": "https://www.benzinga.com/wiim/24/11/41711753/phunware-shares-are-trading-lower-the-company-announced-its-cfo-will-step-down-from-the-position"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T13:33:32Z",
-        "headline": "Phunware To Acquire Controlling Interest In MyCanvass, LLC For Aggregate Value Of $1.02M",
-        "id": 41713143,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PHUN"
-        ],
-        "updated_at": "2024-11-04T13:33:32Z",
-        "url": "https://www.benzinga.com/m-a/24/11/41713143/phunware-to-acquire-controlling-interest-in-mycanvass-llc-for-aggregate-value-of-1-02m"
-      },
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2024-11-04T13:10:33Z",
-        "headline": "Trump-Linked Phunware's Leadership Shuffle Continues: CFO Joins CEO In Exit Queue",
-        "id": 41712003,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/04/PHUN.png"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/04/PHUN.png"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/04/PHUN.png"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Enterprise solutions company Phunware shares down premarket due to CFO&#39;s resignation, unrelated to company operations.",
-        "symbols": [
-          "PHUN"
-        ],
-        "updated_at": "2024-11-04T13:10:33Z",
-        "url": "https://www.benzinga.com/markets/equities/24/11/41712003/trump-linked-phunwares-leadership-shuffle-continues-cfo-joins-ceo-in-exit-queue"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T11:49:02Z",
-        "headline": "Phunware Says On November 1, Troy Reisner Notified That He Intends To Step Down As CFO On Or After November 15 And Prior To November 30 - Filing",
-        "id": 41709193,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PHUN"
-        ],
-        "updated_at": "2024-11-04T11:49:03Z",
-        "url": "https://www.benzinga.com/news/24/11/41709193/phunware-says-on-november-1-troy-reisner-notified-that-he-intends-to-step-down-as-cfo-on-or-after-no"
-      },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
@@ -233,15 +16,43 @@
         ],
         "updated_at": "2024-11-05T13:32:23Z",
         "url": "https://www.benzinga.com/news/24/11/41744244/phunware-names-rahul-mewawalla-as-chairman-of-the-board-to-lead-growth-and-innovation-in-ai-predicti"
+      },
+      {
+        "author": "Pooja Rajkumari",
+        "content": "",
+        "created_at": "2024-11-06T09:38:06Z",
+        "headline": "Trump's Potential Return To White House Sends Ex-President Linked Phunware Stock Upwards During Pre-Market Hours",
+        "id": 41767332,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/06/Washington--Dc---April-27--2018-Us-Presi.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/06/Washington--Dc---April-27--2018-Us-Presi.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/06/Washington--Dc---April-27--2018-Us-Presi.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " Investors seem optimistic about the company&#39;s future prospects should Trump regain the presidency.",
+        "symbols": [
+          "PHUN"
+        ],
+        "updated_at": "2024-11-06T09:38:06Z",
+        "url": "https://www.benzinga.com/markets/equities/24/11/41767332/trumps-potential-return-to-white-house-sends-ex-president-linked-phunware-stock-upwards-during-p"
       }
     ],
     "hod": false,
     "float": "11.23M",
-    "price": "7.8",
-    "time": "10:01:58",
+    "price": "7.94",
+    "time": "10:01:34",
     "isActive": false,
-    "firstSeen": "2024-11-05T09:02:10.837Z",
-    "lastSeen": "2024-11-05T09:02:10.837Z",
+    "firstSeen": "2024-11-06T09:01:33.105Z",
+    "lastSeen": "2024-11-06T10:11:16.365Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 1270000,
@@ -250,378 +61,439 @@
       "Short Ratio": "1.11"
     }
   },
-  "TVGN": {
-    "ticker": "TVGN",
+  "DATS": {
+    "ticker": "DATS",
     "news": [],
     "hod": false,
-    "float": "21.96M",
-    "price": "2.04",
-    "time": "10:05:42",
-    "isActive": false,
-    "firstSeen": "2024-11-05T09:06:23.523Z",
-    "lastSeen": "2024-11-05T14:29:42.081Z",
+    "float": "2.73M",
+    "price": "2.78",
+    "time": "10:03:27",
+    "isActive": true,
+    "firstSeen": "2024-11-06T09:03:54.187Z",
+    "lastSeen": "2024-11-06T15:21:15.533Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 3190000,
-      "Avg. Daily Volume": 5720000,
-      "Short Float": "14.53%",
-      "Short Ratio": "0.56"
+      "Short Interest": 13690,
+      "Avg. Daily Volume": 122770,
+      "Short Float": "0.50%",
+      "Short Ratio": "0.11"
     }
   },
-  "ALBT": {
-    "ticker": "ALBT",
+  "CREV": {
+    "ticker": "CREV",
     "news": [],
     "hod": false,
-    "float": "395.19K",
-    "price": "4.01",
-    "time": "10:22:29",
+    "float": "1.75M",
+    "price": "4.96",
+    "time": "10:08:48",
     "isActive": false,
-    "firstSeen": "2024-11-05T09:22:27.335Z",
-    "lastSeen": "2024-11-05T15:04:31.772Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 13780,
-      "Avg. Daily Volume": 296840,
-      "Short Float": "3.49%",
-      "Short Ratio": "0.05"
-    }
+    "firstSeen": "2024-11-06T09:09:03.992Z",
+    "lastSeen": "2024-11-06T09:21:47.161Z",
+    "shorts": {}
   },
-  "BDTX": {
-    "ticker": "BDTX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T12:10:52Z",
-        "headline": "Black Diamond Therapeutic's Cash, Cash Equivalents, And Investments Of $112.7M As Of September 30, 2024; Expected To Be Sufficient To Fund Operations Into Q2 Of 2026",
-        "id": 41741282,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BDTX"
-        ],
-        "updated_at": "2024-11-05T12:10:52Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41741282/black-diamond-therapeutics-cash-cash-equivalents-and-investments-of-112-7m-as-of-september-30-202"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T12:10:32Z",
-        "headline": "Black Diamond Therapeutic Q3 2024 GAAP EPS $(0.28) Beats $(0.38) Estimate",
-        "id": 41741266,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BDTX"
-        ],
-        "updated_at": "2024-11-05T12:10:32Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41741266/black-diamond-therapeutic-q3-2024-gaap-eps-0-28-beats-0-38-estimate"
-      }
-    ],
-    "hod": false,
-    "float": "43.06M",
-    "price": "3.28",
-    "time": "14:00:03",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:00:40.528Z",
-    "lastSeen": "2024-11-05T13:00:40.528Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 7320000,
-      "Avg. Daily Volume": 1150000,
-      "Short Float": "17.01%",
-      "Short Ratio": "6.39"
-    }
-  },
-  "GOGO": {
-    "ticker": "GOGO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T12:02:57Z",
-        "headline": "Gogo Q3 2024 GAAP EPS $0.08 Beats $0.05 Estimate, Sales $100.500M Beat $97.301M Estimate",
-        "id": 41741036,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "GOGO"
-        ],
-        "updated_at": "2024-11-05T12:02:58Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41741036/gogo-q3-2024-gaap-eps-0-08-beats-0-05-estimate-sales-100-500m-beat-97-301m-estimate"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-11-04T18:01:07Z",
-        "headline": "Earnings Outlook For Gogo",
-        "id": 41722477,
-        "images": [],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "GOGO"
-        ],
-        "updated_at": "2024-11-04T18:01:07Z",
-        "url": "https://www.benzinga.com/insights/earnings/24/11/41722477/earnings-outlook-for-gogo"
-      }
-    ],
-    "hod": false,
-    "float": "62.41M",
-    "price": "8.72",
-    "time": "14:06:58",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:07:08.538Z",
-    "lastSeen": "2024-11-05T15:12:35.593Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 15450000,
-      "Avg. Daily Volume": 1070000,
-      "Short Float": "24.76%",
-      "Short Ratio": "14.40"
-    }
-  },
-  "AGFY": {
-    "ticker": "AGFY",
+  "AREB": {
+    "ticker": "AREB",
     "news": [],
-    "hod": false,
-    "float": "639.76K",
-    "price": "5.93",
-    "time": "14:19:10",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:19:37.946Z",
-    "lastSeen": "2024-11-05T14:22:28.146Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 23630,
-      "Avg. Daily Volume": 19120,
-      "Short Float": "3.69%",
-      "Short Ratio": "1.24"
-    }
-  },
-  "ZVSA": {
-    "ticker": "ZVSA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T12:14:41Z",
-        "headline": "ZyVersa Therapeutics Highlights Data Showing The Potential Of Inflammasome Inhibition To Protect Pancreatic Islet Beta Cells And Attenuate Progression From Obesity To Insulin Resistance And Type 2 Diabetes",
-        "id": 41741355,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZVSA"
-        ],
-        "updated_at": "2024-11-05T12:14:42Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41741355/zyversa-therapeutics-highlights-data-showing-the-potential-of-inflammasome-inhibition-to-protect-"
-      }
-    ],
     "hod": false,
     "float": "1.07M",
-    "price": "3.1",
-    "time": "14:24:19",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:24:26.730Z",
-    "lastSeen": "2024-11-05T14:51:35.963Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 9690,
-      "Avg. Daily Volume": 79770,
-      "Short Float": "0.91%",
-      "Short Ratio": "0.12"
-    }
-  },
-  "VCNX": {
-    "ticker": "VCNX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T13:32:19Z",
-        "headline": "Vaccinex Reports Improved Immunity Correlating With Clinical Benefit Of Pepinemab Combination Treatment At Society For Immunotherapy Of Cancer's Annual Meeting",
-        "id": 41744242,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VCNX"
-        ],
-        "updated_at": "2024-11-05T13:32:20Z",
-        "url": "https://www.benzinga.com/general/biotech/24/11/41744242/vaccinex-reports-improved-immunity-correlating-with-clinical-benefit-of-pepinemab-combination-tre"
-      }
-    ],
-    "hod": false,
-    "float": "1.40M",
-    "price": "4.38",
-    "time": "14:32:44",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:32:56.058Z",
-    "lastSeen": "2024-11-05T13:32:56.058Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 34500,
-      "Avg. Daily Volume": 99370,
-      "Short Float": "2.46%",
-      "Short Ratio": "0.35"
-    }
-  },
-  "ARQQ": {
-    "ticker": "ARQQ",
-    "news": [],
-    "hod": false,
-    "float": "3.91M",
-    "price": "7.5",
-    "time": "14:55:24",
-    "isActive": false,
-    "firstSeen": "2024-11-05T13:55:37.531Z",
-    "lastSeen": "2024-11-05T14:00:29.754Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 130970,
-      "Avg. Daily Volume": 56070,
-      "Short Float": "3.35%",
-      "Short Ratio": "2.34"
-    }
-  },
-  "NTRP": {
-    "ticker": "NTRP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T14:05:40Z",
-        "headline": "NextTrip Announced It Has Signed A Non-Binding Letter Of Intent To Acquire Five Star Alliance; Terms Not Disclosed",
-        "id": 41745477,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NTRP"
-        ],
-        "updated_at": "2024-11-05T14:05:40Z",
-        "url": "https://www.benzinga.com/news/24/11/41745477/nexttrip-announced-it-has-signed-a-non-binding-letter-of-intent-to-acquire-five-star-alliance-terms"
-      }
-    ],
-    "hod": false,
-    "float": "1.09M",
-    "price": "1.98",
-    "time": "15:03:34",
-    "isActive": false,
-    "firstSeen": "2024-11-05T14:03:35.289Z",
-    "lastSeen": "2024-11-05T14:27:14.996Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 19540,
-      "Avg. Daily Volume": 6980,
-      "Short Float": "1.79%",
-      "Short Ratio": "2.80"
-    }
-  },
-  "XPON": {
-    "ticker": "XPON",
-    "news": [],
-    "hod": false,
-    "float": "491.15K",
-    "price": "4.03",
-    "time": "15:11:24",
-    "isActive": false,
-    "firstSeen": "2024-11-05T14:11:25.981Z",
-    "lastSeen": "2024-11-05T14:52:58.519Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 551330,
-      "Avg. Daily Volume": 1170000,
-      "Short Float": "112.52%",
-      "Short Ratio": "0.47"
-    }
-  },
-  "REAL": {
-    "ticker": "REAL",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T22:54:49Z",
-        "headline": "RealReal Affirms FY2024 Sales Guidance from $595.00M-602.00M to $595.00M-602.00M",
-        "id": 41732351,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REAL"
-        ],
-        "updated_at": "2024-11-04T22:54:50Z",
-        "url": "https://www.benzinga.com/news/24/11/41732351/realreal-affirms-fy2024-sales-guidance-from-595-00m-602-00m-to-595-00m-602-00m"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T22:54:40Z",
-        "headline": "RealReal Sees Q4 Sales $158.000M-165.000M vs $157.81M Est",
-        "id": 41732350,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REAL"
-        ],
-        "updated_at": "2024-11-04T22:54:40Z",
-        "url": "https://www.benzinga.com/news/24/11/41732350/realreal-sees-q4-sales-158-000m-165-000m-vs-157-81m-est"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-04T22:49:41Z",
-        "headline": "RealReal Q3 2024 Adj. EPS $(0.09), Inline, Sales $147.755M Beat $142.017M Estimate",
-        "id": 41732269,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REAL"
-        ],
-        "updated_at": "2024-11-04T22:49:42Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41732269/realreal-q3-2024-adj-eps-0-09-inline-sales-147-755m-beat-142-017m-estimate"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-05T17:51:02Z",
-        "headline": "UBS Maintains Neutral on RealReal, Raises Price Target to $3.25",
-        "id": 41753182,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REAL"
-        ],
-        "updated_at": "2024-11-05T17:51:02Z",
-        "url": "https://www.benzinga.com/news/24/11/41753182/ubs-maintains-neutral-on-realreal-raises-price-target-to-3-25"
-      }
-    ],
-    "hod": true,
-    "float": "83.35M",
-    "price": "3.6",
-    "time": "15:40:21",
+    "price": "3.34",
+    "time": "10:22:35",
     "isActive": true,
-    "firstSeen": "2024-11-05T14:40:29.025Z",
-    "lastSeen": "2024-11-05T14:49:02.076Z",
+    "firstSeen": "2024-11-06T09:22:56.439Z",
+    "lastSeen": "2024-11-06T15:05:28.270Z",
+    "shorts": {}
+  },
+  "PSTV": {
+    "ticker": "PSTV",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T12:38:00Z",
+        "headline": "Plus Therapeutics And SpectronRx Announced The Signing Of A Manufacturing Services Agreement For The Production Of Rhenium (186Re) Obisbemeda, An Innovative Radiotherapy For CNS Cancers, Including Leptomeningeal Metastases And Recurrent Glioblastoma",
+        "id": 41771446,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSTV"
+        ],
+        "updated_at": "2024-11-06T12:38:00Z",
+        "url": "https://www.benzinga.com/news/24/11/41771446/plus-therapeutics-and-spectronrx-announced-the-signing-of-a-manufacturing-services-agreement-for-the"
+      }
+    ],
+    "hod": false,
+    "float": "5.75M",
+    "price": "1.97",
+    "time": "13:32:09",
+    "isActive": true,
+    "firstSeen": "2024-11-06T12:32:25.686Z",
+    "lastSeen": "2024-11-06T12:32:25.687Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 20100000,
-      "Avg. Daily Volume": 1960000,
-      "Short Float": "23.73%",
-      "Short Ratio": "10.27"
+      "Short Interest": 53960,
+      "Avg. Daily Volume": 69080,
+      "Short Float": "0.94%",
+      "Short Ratio": "0.78"
     }
   },
-  "LICY": {
-    "ticker": "LICY",
+  "ELWS": {
+    "ticker": "ELWS",
     "news": [],
-    "isActive": true
+    "hod": true,
+    "float": "5.36M",
+    "price": "5.34",
+    "time": "13:38:59",
+    "isActive": true,
+    "firstSeen": "2024-11-06T12:39:32.243Z",
+    "lastSeen": "2024-11-06T15:18:32.340Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 16200,
+      "Avg. Daily Volume": 708060,
+      "Short Float": "N/A",
+      "Short Ratio": "0.02"
+    }
+  },
+  "PSQH": {
+    "ticker": "PSQH",
+    "news": [],
+    "hod": false,
+    "float": "17.63M",
+    "price": "3.45",
+    "time": "13:59:41",
+    "isActive": true,
+    "firstSeen": "2024-11-06T12:59:45.430Z",
+    "lastSeen": "2024-11-06T12:59:45.430Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 1270000,
+      "Avg. Daily Volume": 87190,
+      "Short Float": "7.75%",
+      "Short Ratio": "14.59"
+    }
+  },
+  "APPS": {
+    "ticker": "APPS",
+    "news": [],
+    "hod": false,
+    "float": "91.10M",
+    "price": "3.56",
+    "time": "14:03:28",
+    "isActive": true,
+    "firstSeen": "2024-11-06T13:03:58.349Z",
+    "lastSeen": "2024-11-06T13:03:58.349Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 5190000,
+      "Avg. Daily Volume": 4139999.9999999995,
+      "Short Float": "5.69%",
+      "Short Ratio": "1.25"
+    }
+  },
+  "TZUP": {
+    "ticker": "TZUP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T12:49:27Z",
+        "headline": "Thumzup Media Stated That It Is Nearing Completion Of Developing Video Capabilities To Facilitate Its Proprietary AD Tech Platform's Integration With Instagram Reels",
+        "id": 41771708,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TZUP"
+        ],
+        "updated_at": "2024-11-06T12:49:27Z",
+        "url": "https://www.benzinga.com/news/24/11/41771708/thumzup-media-stated-that-it-is-nearing-completion-of-developing-video-capabilities-to-facilitate-it"
+      }
+    ],
+    "hod": false,
+    "float": "2.48M",
+    "price": "6.38",
+    "time": "14:12:24",
+    "isActive": true,
+    "firstSeen": "2024-11-06T13:13:14.221Z",
+    "lastSeen": "2024-11-06T13:13:14.221Z",
+    "shorts": {}
+  },
+  "NUKK": {
+    "ticker": "NUKK",
+    "news": [],
+    "hod": false,
+    "float": "1.08M",
+    "price": "2.98",
+    "time": "14:18:52",
+    "isActive": true,
+    "firstSeen": "2024-11-06T13:19:25.897Z",
+    "lastSeen": "2024-11-06T13:24:13.806Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 103420,
+      "Avg. Daily Volume": 365210,
+      "Short Float": "9.61%",
+      "Short Ratio": "0.28"
+    }
+  },
+  "REBN": {
+    "ticker": "REBN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T13:36:24Z",
+        "headline": "Reborn Coffee Announced It Has Closed Its Acquisition Of A 58% Stake In South Korean Bbang Ssaem Bakery; Terms Not Disclosed",
+        "id": 41773473,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "REBN"
+        ],
+        "updated_at": "2024-11-06T13:36:25Z",
+        "url": "https://www.benzinga.com/news/24/11/41773473/reborn-coffee-announced-it-has-closed-its-acquisition-of-a-58-stake-in-south-korean-bbang-ssaem-bake"
+      }
+    ],
+    "hod": false,
+    "float": "2.49M",
+    "price": "1.9",
+    "time": "14:31:17",
+    "isActive": true,
+    "firstSeen": "2024-11-06T13:31:40.496Z",
+    "lastSeen": "2024-11-06T13:45:38.361Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 36380,
+      "Avg. Daily Volume": 139860,
+      "Short Float": "1.29%",
+      "Short Ratio": "0.26"
+    }
+  },
+  "ICU": {
+    "ticker": "ICU",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:09:50Z",
+        "headline": "SeaStar Medical Announces The Receipt Of A Breakthrough Device Designation From The U.S. FDA CBER For The Co's Patented, Cell-Directed Selective Cytopheretic Device To Treat Chronic Systemic Inflammation In End-stage Renal Disease Patients Who Require Chronic Hemodialysis",
+        "id": 41774599,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ICU"
+        ],
+        "updated_at": "2024-11-06T14:11:14Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41774599/seastar-medical-announces-the-receipt-of-a-breakthrough-device-designation-from-the-u-s-fda-cber-"
+      }
+    ],
+    "hod": false,
+    "float": "3.99M",
+    "price": "2.89",
+    "time": "15:00:36",
+    "isActive": true,
+    "firstSeen": "2024-11-06T14:00:43.164Z",
+    "lastSeen": "2024-11-06T14:29:26.204Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 208830,
+      "Avg. Daily Volume": 100830,
+      "Short Float": "5.45%",
+      "Short Ratio": "2.07"
+    }
+  },
+  "GLUE": {
+    "ticker": "GLUE",
+    "news": [],
+    "hod": false,
+    "float": "46.13M",
+    "price": "9.67",
+    "time": "15:29:16",
+    "isActive": true,
+    "firstSeen": "2024-11-06T14:29:26.199Z",
+    "lastSeen": "2024-11-06T14:29:26.199Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 5230000,
+      "Avg. Daily Volume": 356490,
+      "Short Float": "11.73%",
+      "Short Ratio": "14.68"
+    }
+  },
+  "MGNX": {
+    "ticker": "MGNX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T12:25:03Z",
+        "headline": "HC Wainwright & Co. Reiterates Neutral on Macrogenics, Maintains $4 Price Target",
+        "id": 41770710,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MGNX"
+        ],
+        "updated_at": "2024-11-06T12:25:04Z",
+        "url": "https://www.benzinga.com/news/24/11/41770710/hc-wainwright-co-reiterates-neutral-on-macrogenics-maintains-4-price-target"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-05T21:14:22Z",
+        "headline": "Macrogenics Q3 EPS $0.90 Beats $0.21 Estimate, Sales $110.71M Beat $76.11M Estimate",
+        "id": 41758116,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MGNX"
+        ],
+        "updated_at": "2024-11-05T21:14:22Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41758116/macrogenics-q3-eps-0-90-beats-0-21-estimate-sales-110-71m-beat-76-11m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "58.01M",
+    "price": "4.72",
+    "time": "15:29:01",
+    "isActive": true,
+    "firstSeen": "2024-11-06T14:29:26.204Z",
+    "lastSeen": "2024-11-06T15:00:54.671Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 5370000,
+      "Avg. Daily Volume": 808220,
+      "Short Float": "9.25%",
+      "Short Ratio": "6.64"
+    }
+  },
+  "SONN": {
+    "ticker": "SONN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:42:38Z",
+        "headline": "Sonnet BioTherapeutics Shares Resume Trade",
+        "id": 41775820,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T14:42:38Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41775820/sonnet-biotherapeutics-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:34:49Z",
+        "headline": "Sonnet BioTherapeutics Shares Halted On Circuit breaker To The Downside, Stock Now Up 106.9%",
+        "id": 41775624,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T14:34:50Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41775624/sonnet-biotherapeutics-shares-halted-on-circuit-breaker-to-the-downside-stock-now-up-106-9"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T13:33:55Z",
+        "headline": "Sonnet BioTherapeutics Announces Issuance Of U.S. Patent Covering A Variant IL-18 Incorporated Into Two Novel Immunotherapeutic Drug Candidates; Both Novel Bifunctional And Monofunctional Fusion Proteins Exhibit Wild-Type Binding To The IL-18 Receptor, Coupled With Undetectable Binding To The Inhibitory IL-18 Binding Protein",
+        "id": 41773340,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T13:33:55Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41773340/sonnet-biotherapeutics-announces-issuance-of-u-s-patent-covering-a-variant-il-18-incorporated-int"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:47:07Z",
+        "headline": "Sonnet BioTherapeutics Shares Halted On Circuit Breaker To The Downside, Stock Now Up 85.3%",
+        "id": 41775938,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T14:47:08Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41775938/sonnet-biotherapeutics-shares-halted-on-circuit-breaker-to-the-downside-stock-now-up-85-3"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:56:42Z",
+        "headline": "Sonnet BioTherapeutics Shares Resume Trading",
+        "id": 41776141,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T14:56:43Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41776141/sonnet-biotherapeutics-shares-resume-trading"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T18:21:04Z",
+        "headline": "Sonnet BioTherapeutics Prices $5M Public Offering At-The-Market Under Nasdaq Rules, Selling 1.11M Shares And Warrants For Additional 2.22M Shares At $4.50 Per Share",
+        "id": 41783044,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T18:21:05Z",
+        "url": "https://www.benzinga.com/news/24/11/41783044/sonnet-biotherapeutics-prices-5m-public-offering-at-the-market-under-nasdaq-rules-selling-1-11m-shar"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-06T14:39:00Z",
+        "headline": "Sonnet BioTherapeutics shares are trading higher after the company announced the issuance of a U.S. patent covering an IL-18 variant into two novel immunotherapeutic drug candidates.",
+        "id": 41775666,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-11-06T20:06:05Z",
+        "url": "https://www.benzinga.com/wiim/24/11/41775666/sonnet-biotherapeutics-shares-are-trading-higher-after-the-company-announced-the-issuance-of-a-u-s-p"
+      }
+    ],
+    "hod": false,
+    "float": "645.32K",
+    "price": "9",
+    "time": "15:42:50",
+    "isActive": true,
+    "firstSeen": "2024-11-06T14:42:59.341Z",
+    "lastSeen": "2024-11-06T15:28:20.015Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 20840,
+      "Avg. Daily Volume": 23930,
+      "Short Float": "3.42%",
+      "Short Ratio": "0.87"
+    }
   }
 }
