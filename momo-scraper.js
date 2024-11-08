@@ -157,9 +157,9 @@ function filterData(scrapedData) {
         const symbolPattern = /^[A-Za-z]{1,5}(\s*\(HOD\))?$/;
         if (!symbolPattern.test(data.Symbol)) return false; // Return false if it doesn't match the pattern
 
-        // Filter by Price between 0.75 and 20
+        // Filter by Price between 1.75 and 20
         const price = parseFloat(data.Price.replace("$", ""));
-        if (isNaN(price) || price < 1.75 || price > 10) return false;
+        if (isNaN(price) || price < 1.75 || price > 20) return false;
 
         // Handle float in 'K' (thousands), 'M' (millions), and 'B' (billions)
         const floatString = data.Float.trim();

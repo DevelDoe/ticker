@@ -546,7 +546,7 @@ const startListening = () => {
             if (ticker) {
                 await appendTicker(ticker);
             }
-        } else if (command.startsWith("remove ")) {
+        } else if (command.startsWith("rm ")) {
             const ticker = sanitizeTicker(command.split(" ")[1]);
             if (ticker) {
                 await removeTicker(ticker);
