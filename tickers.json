@@ -2,196 +2,272 @@
   "ELWS": {
     "ticker": "ELWS",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "5.36M",
-    "price": "7.4",
-    "time": "01:59:43",
-    "isActive": true,
-    "firstSeen": "2024-11-07T06:18:27.140Z",
-    "lastSeen": "2024-11-07T14:42:55.333Z",
-    "shorts": {}
-  },
-  "DATS": {
-    "ticker": "DATS",
-    "news": [],
-    "hod": false,
-    "float": "2.73M",
-    "price": "2.19",
-    "time": "01:46:31",
-    "isActive": true,
-    "firstSeen": "2024-11-07T06:18:27.148Z",
-    "lastSeen": "2024-11-07T06:18:27.148Z",
-    "shorts": {}
-  },
-  "REBN": {
-    "ticker": "REBN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T13:36:24Z",
-        "headline": "Reborn Coffee Announced It Has Closed Its Acquisition Of A 58% Stake In South Korean Bbang Ssaem Bakery; Terms Not Disclosed",
-        "id": 41773473,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REBN"
-        ],
-        "updated_at": "2024-11-06T13:36:25Z",
-        "url": "https://www.benzinga.com/news/24/11/41773473/reborn-coffee-announced-it-has-closed-its-acquisition-of-a-58-stake-in-south-korean-bbang-ssaem-bake"
-      }
-    ],
-    "hod": false,
-    "float": "2.49M",
-    "price": "1.95",
-    "time": "10:14:15",
-    "isActive": true,
-    "firstSeen": "2024-11-07T09:14:19.793Z",
-    "lastSeen": "2024-11-07T13:58:05.456Z",
+    "price": "6.86",
+    "time": "01:40:47",
+    "isActive": false,
+    "firstSeen": "2024-11-08T08:49:26.591Z",
+    "lastSeen": "2024-11-08T08:49:26.592Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 36380,
-      "Avg. Daily Volume": 139860,
-      "Short Float": "1.29%",
-      "Short Ratio": "0.26"
-    }
-  },
-  "FFIE": {
-    "ticker": "FFIE",
-    "news": [],
-    "hod": false,
-    "float": "30.23M",
-    "price": "1.94",
-    "time": "10:22:01",
-    "isActive": true,
-    "firstSeen": "2024-11-07T09:22:04.851Z",
-    "lastSeen": "2024-11-07T09:22:04.851Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 4720000,
-      "Avg. Daily Volume": 9900000,
+      "Short Interest": 16200,
+      "Avg. Daily Volume": 708060,
       "Short Float": "N/A",
-      "Short Ratio": "0.48"
+      "Short Ratio": "0.02"
     }
   },
-  "BIVI": {
-    "ticker": "BIVI",
-    "news": [],
-    "hod": false,
-    "float": "12.20M",
-    "price": "3.11",
-    "time": "10:48:15",
-    "isActive": true,
-    "firstSeen": "2024-11-07T09:48:25.268Z",
-    "lastSeen": "2024-11-07T10:39:43.301Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 187740,
-      "Avg. Daily Volume": 182610,
-      "Short Float": "3.43%",
-      "Short Ratio": "1.03"
-    }
-  },
-  "BNZI": {
-    "ticker": "BNZI",
+  "LICY": {
+    "ticker": "LICY",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T13:38:18Z",
-        "headline": "Banzai Sees Prelim. Q3 Adj. Net Loss $900K, ARR $4.4M",
-        "id": 41806882,
+        "created_at": "2024-11-07T21:56:52Z",
+        "headline": "Li-Cycle Holdings Q3 EPS $2.15 Beats $(1.32) Estimate, Sales $8.40M Beat $6.98M Estimate",
+        "id": 41826855,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "BNZI"
+          "LICY"
         ],
-        "updated_at": "2024-11-07T13:38:19Z",
-        "url": "https://www.benzinga.com/news/24/11/41806882/banzai-sees-prelim-q3-adj-net-loss-900k-arr-4-4m"
+        "updated_at": "2024-11-07T21:56:53Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41826855/li-cycle-holdings-q3-eps-2-15-beats-1-32-estimate-sales-8-40m-beat-6-98m-estimate"
       }
     ],
     "hod": false,
-    "float": "2.64M",
-    "price": "2.4",
-    "time": "11:56:21",
+    "float": "15.93M",
+    "price": "3.99",
+    "time": "00:56:48",
     "isActive": true,
-    "firstSeen": "2024-11-07T10:57:12.177Z",
-    "lastSeen": "2024-11-07T14:30:08.547Z",
+    "firstSeen": "2024-11-08T08:49:26.598Z",
+    "lastSeen": "2024-11-08T14:59:39.018Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 177290,
-      "Avg. Daily Volume": 2860000,
-      "Short Float": "10.68%",
-      "Short Ratio": "0.06"
+      "Short Interest": 1250000,
+      "Avg. Daily Volume": 527240,
+      "Short Float": "7.84%",
+      "Short Ratio": "2.37"
+    }
+  },
+  "VMAR": {
+    "ticker": "VMAR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T07:56:09Z",
+        "headline": "Reported Earlier, Vision Marine Technologies Back In Compliance With Nasdaq Listing Rules",
+        "id": 41836399,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VMAR"
+        ],
+        "updated_at": "2024-11-08T07:56:10Z",
+        "url": "https://www.benzinga.com/news/24/11/41836399/reported-earlier-vision-marine-technologies-back-in-compliance-with-nasdaq-listing-rules"
+      }
+    ],
+    "hod": false,
+    "float": "647.94K",
+    "price": "3.61",
+    "time": "10:00:38",
+    "isActive": true,
+    "firstSeen": "2024-11-08T09:01:09.918Z",
+    "lastSeen": "2024-11-08T15:17:41.652Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 100780,
+      "Avg. Daily Volume": 175270,
+      "Short Float": "15.50%",
+      "Short Ratio": "0.58"
+    }
+  },
+  "GV": {
+    "ticker": "GV",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T14:59:41Z",
+        "headline": "Visionary Holdings Shares Halted On Circuit Breaker To The Upside, Stock Now Up 110.7%",
+        "id": 41846062,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GV"
+        ],
+        "updated_at": "2024-11-08T14:59:41Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41846062/visionary-holdings-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-110-7"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T15:08:55Z",
+        "headline": "Visionary Holdings Shares Resumed Trade",
+        "id": 41846678,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GV"
+        ],
+        "updated_at": "2024-11-08T15:08:55Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41846678/visionary-holdings-shares-resumed-trade"
+      }
+    ],
+    "hod": false,
+    "float": "1.75M",
+    "price": "3.21",
+    "time": "10:09:29",
+    "isActive": true,
+    "firstSeen": "2024-11-08T09:10:11.239Z",
+    "lastSeen": "2024-11-08T15:23:37.967Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": "97.00",
+      "Avg. Daily Volume": 794000,
+      "Short Float": "0.01%",
+      "Short Ratio": "0.00"
+    }
+  },
+  "DEVS": {
+    "ticker": "DEVS",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "1.95",
+    "time": "10:32:35",
+    "isActive": true,
+    "firstSeen": "2024-11-08T09:33:08.832Z",
+    "lastSeen": "2024-11-08T12:08:55.710Z",
+    "shorts": {}
+  },
+  "ALCE": {
+    "ticker": "ALCE",
+    "news": [],
+    "hod": false,
+    "float": "470.19K",
+    "price": "2.8",
+    "time": "11:05:24",
+    "isActive": false,
+    "firstSeen": "2024-11-08T10:05:37.122Z",
+    "lastSeen": "2024-11-08T10:05:37.122Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 44480,
+      "Avg. Daily Volume": 131460,
+      "Short Float": "9.46%",
+      "Short Ratio": "0.34"
+    }
+  },
+  "CANG": {
+    "ticker": "CANG",
+    "news": [],
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 7840,
+      "Avg. Daily Volume": 41550,
+      "Short Float": "0.01%",
+      "Short Ratio": "0.19"
+    }
+  },
+  "EMKR": {
+    "ticker": "EMKR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T12:25:06Z",
+        "headline": "Trading Halt: Halt status updated at 7:25:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 41841139,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EMKR"
+        ],
+        "updated_at": "2024-11-08T12:25:06Z",
+        "url": "https://www.benzinga.com/24/11/41841139/trading-halt-halt-status-updated-at-7-25-00-am-et-quotation-resumption-news-and-resumption-times"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T12:06:57Z",
+        "headline": "EMCORE To Become A Wholly Owned Subsidiary Of Velocity One For Purchase Price Of $3.10/Share In Cash",
+        "id": 41840639,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EMKR"
+        ],
+        "updated_at": "2024-11-08T12:06:58Z",
+        "url": "https://www.benzinga.com/m-a/24/11/41840639/emcore-to-become-a-wholly-owned-subsidiary-of-velocity-one-for-purchase-price-of-3-10share-in-cash"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-08T11:55:04Z",
+        "headline": "Trading Halt: Halted at 6:55:00 a.m. ET - Trading Halt: Halt News Pending",
+        "id": 41839997,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EMKR"
+        ],
+        "updated_at": "2024-11-08T11:55:04Z",
+        "url": "https://www.benzinga.com/24/11/41839997/trading-halt-halted-at-6-55-00-a-m-et-trading-halt-halt-news-pending"
+      }
+    ],
+    "hod": false,
+    "float": "6.52M",
+    "price": "3.1",
+    "time": "13:30:09",
+    "isActive": false,
+    "firstSeen": "2024-11-08T12:30:17.878Z",
+    "lastSeen": "2024-11-08T12:30:17.878Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 301900,
+      "Avg. Daily Volume": 754650,
+      "Short Float": "4.63%",
+      "Short Ratio": "0.40"
+    }
+  },
+  "AZI": {
+    "ticker": "AZI",
+    "news": [],
+    "hod": false,
+    "float": "29.25M",
+    "price": "1.78",
+    "time": "14:10:00",
+    "isActive": false,
+    "firstSeen": "2024-11-08T13:10:02.093Z",
+    "lastSeen": "2024-11-08T13:10:02.093Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 3410,
+      "Avg. Daily Volume": 489750,
+      "Short Float": "N/A",
+      "Short Ratio": "0.01"
     }
   },
   "VSTE": {
     "ticker": "VSTE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T14:55:10Z",
-        "headline": "Vast Renewables Shares Resume Trading",
-        "id": 41776106,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSTE"
-        ],
-        "updated_at": "2024-11-06T14:55:11Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41776106/vast-renewables-shares-resume-trading"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T14:49:41Z",
-        "headline": "Vast Renewables Shares Halted On Circuit Breaker To The Upside, Stock Now Down -13.1%",
-        "id": 41775991,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSTE"
-        ],
-        "updated_at": "2024-11-06T14:49:42Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41775991/vast-renewables-shares-halted-on-circuit-breaker-to-the-upside-stock-now-down-13-1"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T14:49:05Z",
-        "headline": "Vast Renewables Shares Resume Trade",
-        "id": 41775978,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSTE"
-        ],
-        "updated_at": "2024-11-06T14:49:05Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41775978/vast-renewables-shares-resume-trade"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T14:44:56Z",
-        "headline": "Vast Renewables Shares Halted On Circuit Breaker To The Upside, Stock Now Down -24.4%",
-        "id": 41775885,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSTE"
-        ],
-        "updated_at": "2024-11-06T14:44:57Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41775885/vast-renewables-shares-halted-on-circuit-breaker-to-the-upside-stock-now-down-24-4"
-      }
-    ],
-    "isActive": true,
+    "news": [],
+    "hod": false,
+    "float": "2.08M",
+    "price": "2.57",
+    "time": "14:44:15",
+    "isActive": false,
+    "firstSeen": "2024-11-08T13:46:06.799Z",
+    "lastSeen": "2024-11-08T13:46:06.799Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 11450,
@@ -200,330 +276,228 @@
       "Short Ratio": "0.69"
     }
   },
-  "UAA": {
-    "ticker": "UAA",
+  "LIPO": {
+    "ticker": "LIPO",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T13:30:17Z",
-        "headline": "Telsey Advisory Group Maintains Market Perform on Under Armour, Maintains $8 Price Target",
-        "id": 41806431,
+        "created_at": "2024-11-08T00:50:04Z",
+        "headline": "Trading Halt: Halted at 7:50:00 p.m. ET - Trading Halt: Halt News Pending",
+        "id": 41831662,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "UAA"
+          "LIPO"
         ],
-        "updated_at": "2024-11-07T13:30:18Z",
-        "url": "https://www.benzinga.com/news/24/11/41806431/telsey-advisory-group-maintains-market-perform-on-under-armour-maintains-8-price-target"
+        "updated_at": "2024-11-08T00:50:04Z",
+        "url": "https://www.benzinga.com/24/11/41831662/trading-halt-halted-at-7-50-00-p-m-et-trading-halt-halt-news-pending"
+      }
+    ],
+    "hod": false,
+    "float": "5.21M",
+    "price": "3.98",
+    "time": "15:02:25",
+    "isActive": true,
+    "firstSeen": "2024-11-08T14:03:32.367Z",
+    "lastSeen": "2024-11-08T14:03:32.367Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 21840,
+      "Avg. Daily Volume": 505780,
+      "Short Float": "3.39%",
+      "Short Ratio": "0.04"
+    }
+  },
+  "INDI": {
+    "ticker": "INDI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T22:56:25Z",
+        "headline": "Indie Semiconductor Q3 2024 Adj. EPS $(0.09), Inline, Sales $53.965M Beat $53.582M Estimate",
+        "id": 41829704,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "INDI"
+        ],
+        "updated_at": "2024-11-07T22:56:26Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41829704/indie-semiconductor-q3-2024-adj-eps-0-09-inline-sales-53-965m-beat-53-582m-estimate"
       }
     ],
     "isActive": true,
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 28880000,
-      "Avg. Daily Volume": 13950000,
-      "Short Float": "15.33%",
-      "Short Ratio": "2.07"
-    }
+      "Short Interest": 28680000,
+      "Avg. Daily Volume": 2630000,
+      "Short Float": "16.41%",
+      "Short Ratio": "10.89"
+    },
+    "hod": false,
+    "price": "5.15",
+    "lastSeen": "2024-11-08T15:01:38.308Z"
   },
-  "CYN": {
-    "ticker": "CYN",
+  "COCH": {
+    "ticker": "COCH",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-06T22:25:07Z",
-        "headline": "Cyngn Q3 2024 GAAP EPS $(2.74) Beats $(3.56) Estimate, Sales $47.584K Miss $725.000K Estimate",
-        "id": 41791081,
+        "created_at": "2024-11-08T14:26:43Z",
+        "headline": "Envoy Medical Receives European Patent No. 3858425, Titled, \"Implantable Modular Cochlear Implant System With Communication System And Network\"",
+        "id": 41844990,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "CYN"
+          "COCH"
         ],
-        "updated_at": "2024-11-06T22:25:08Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41791081/cyngn-q3-2024-gaap-eps-2-74-beats-3-56-estimate-sales-47-584k-miss-725-000k-estimate"
+        "updated_at": "2024-11-08T14:26:44Z",
+        "url": "https://www.benzinga.com/news/24/11/41844990/envoy-medical-receives-european-patent-no-3858425-titled-implantable-modular-cochlear-implant-system"
+      }
+    ],
+    "hod": false,
+    "float": "6.48M",
+    "price": "2.2",
+    "time": "15:27:12",
+    "isActive": true,
+    "firstSeen": "2024-11-08T14:28:16.896Z",
+    "lastSeen": "2024-11-08T14:28:16.896Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 44110,
+      "Avg. Daily Volume": 30600,
+      "Short Float": "0.37%",
+      "Short Ratio": "1.44"
+    }
+  },
+  "PRCH": {
+    "ticker": "PRCH",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T21:59:43Z",
+        "headline": "Porch Group Announced That It Lowered Its FY24 Sales Guidance From $450M-470M to $440M-455M",
+        "id": 41826967,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRCH"
+        ],
+        "updated_at": "2024-11-07T21:59:44Z",
+        "url": "https://www.benzinga.com/news/24/11/41826967/porch-group-announced-that-it-lowered-its-fy24-sales-guidance-from-450m-470m-to-440m-455m"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T12:17:52Z",
-        "headline": "Cyngn Announced Progress Of Its Proprietary Computer Vision Technology For Industrial Autonomous Machines, Built On Nvidia Accelerated Computing",
-        "id": 41803438,
+        "created_at": "2024-11-07T21:38:50Z",
+        "headline": "Porch Group Lowers FY2024 Sales Guidance from $450.00M-470.00M to $440.00M-455.00M",
+        "id": 41825955,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "CYN"
+          "PRCH"
         ],
-        "updated_at": "2024-11-07T12:17:53Z",
-        "url": "https://www.benzinga.com/news/24/11/41803438/cyngn-announced-progress-of-its-proprietary-computer-vision-technology-for-industrial-autonomous-mac"
+        "updated_at": "2024-11-07T21:38:51Z",
+        "url": "https://www.benzinga.com/news/24/11/41825955/porch-group-lowers-fy2024-sales-guidance-from-450-00m-470-00m-to-440-00m-455-00m"
       }
     ],
     "hod": false,
-    "float": "1.83M",
-    "price": "5.74",
-    "time": "13:06:16",
+    "float": "65.33M",
+    "price": "3.55",
+    "time": "15:32:50",
     "isActive": true,
-    "firstSeen": "2024-11-07T12:06:33.572Z",
-    "lastSeen": "2024-11-07T14:29:23.358Z",
+    "firstSeen": "2024-11-08T14:32:58.037Z",
+    "lastSeen": "2024-11-08T15:11:33.911Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 120090,
-      "Avg. Daily Volume": 152430,
-      "Short Float": "6.56%",
-      "Short Ratio": "0.79"
+      "Short Interest": 9710000,
+      "Avg. Daily Volume": 913720,
+      "Short Float": "14.86%",
+      "Short Ratio": "10.62"
     }
   },
-  "ISPC": {
-    "ticker": "ISPC",
+  "CELU": {
+    "ticker": "CELU",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T12:33:06Z",
-        "headline": "iSpecimen Reveals Significant Enhancement To Its Searchable Inventory; Unveils Cancer Biospecimen Offering; Orders Anticipated Of Over $9.50M Annually",
-        "id": 41804185,
+        "created_at": "2024-11-07T18:44:33Z",
+        "headline": "Celularity Shares Resume Trading",
+        "id": 41819477,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ISPC"
+          "CELU"
         ],
-        "updated_at": "2024-11-07T12:33:06Z",
-        "url": "https://www.benzinga.com/news/24/11/41804185/ispecimen-reveals-significant-enhancement-to-its-searchable-inventory-unveils-cancer-biospecimen-off"
-      }
-    ],
-    "hod": false,
-    "float": "653.10K",
-    "price": "6.18",
-    "time": "13:30:12",
-    "isActive": true,
-    "firstSeen": "2024-11-07T12:30:10.384Z",
-    "lastSeen": "2024-11-07T13:02:40.319Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 8430,
-      "Avg. Daily Volume": 124670,
-      "Short Float": "1.30%",
-      "Short Ratio": "0.07"
-    }
-  },
-  "CING": {
-    "ticker": "CING",
-    "news": [
+        "updated_at": "2024-11-07T18:44:34Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41819477/celularity-shares-resume-trading"
+      },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T12:41:29Z",
-        "headline": "Cingulate Q3 Net Loss $3.2M",
-        "id": 41804447,
+        "created_at": "2024-11-07T18:34:22Z",
+        "headline": "Celularity Shares Resume Trade And Quickly Halted Up 260%",
+        "id": 41819255,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "CING"
+          "CELU"
         ],
-        "updated_at": "2024-11-07T12:41:30Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41804447/cingulate-q3-net-loss-3-2m"
-      }
-    ],
-    "hod": false,
-    "float": "2.86M",
-    "price": "5.65",
-    "time": "14:03:17",
-    "isActive": true,
-    "firstSeen": "2024-11-07T13:04:12.380Z",
-    "lastSeen": "2024-11-07T13:04:12.380Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 38270,
-      "Avg. Daily Volume": 3830000,
-      "Short Float": "1.87%",
-      "Short Ratio": "0.01"
-    }
-  },
-  "QMMM": {
-    "ticker": "QMMM",
-    "news": [],
-    "hod": false,
-    "float": "8.95M",
-    "price": "8.55",
-    "time": "14:08:46",
-    "isActive": true,
-    "firstSeen": "2024-11-07T13:09:44.297Z",
-    "lastSeen": "2024-11-07T14:29:23.355Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 707510,
-      "Avg. Daily Volume": 600900,
-      "Short Float": "9.50%",
-      "Short Ratio": "1.18"
-    }
-  },
-  "MODD": {
-    "ticker": "MODD",
-    "news": [],
-    "hod": false,
-    "float": "29.07M",
-    "price": "2.54",
-    "time": "14:19:29",
-    "isActive": true,
-    "firstSeen": "2024-11-07T13:20:07.090Z",
-    "lastSeen": "2024-11-07T13:20:07.090Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 681310,
-      "Avg. Daily Volume": 482300,
-      "Short Float": "2.34%",
-      "Short Ratio": "1.41"
-    }
-  },
-  "ALT": {
-    "ticker": "ALT",
-    "news": [
+        "updated_at": "2024-11-07T18:34:23Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41819255/celularity-shares-resume-trade-and-quickly-halted-up-260"
+      },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-07T12:39:15Z",
-        "headline": "Altimmune Announces Completion Of End-of-Phase 2 Meeting With FDA For Pemvidutide In Obesity Treatment; Company And Agency Aligned On Key Efficacy And Safety Measures To Be Studied In Phase 3 Program",
-        "id": 41804416,
+        "created_at": "2024-11-07T18:24:21Z",
+        "headline": "Celularity Shares Halted To The Upside; Stock Now Up 161.38%",
+        "id": 41818967,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ALT"
+          "CELU"
         ],
-        "updated_at": "2024-11-07T12:39:15Z",
-        "url": "https://www.benzinga.com/news/24/11/41804416/altimmune-announces-completion-of-end-of-phase-2-meeting-with-fda-for-pemvidutide-in-obesity-treatme"
+        "updated_at": "2024-11-07T18:24:22Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41818967/celularity-shares-halted-to-the-upside-stock-now-up-161-38"
       }
     ],
     "hod": false,
-    "float": "70.48M",
-    "price": "7.91",
-    "time": "14:29:28",
+    "float": "10.71M",
+    "price": "3.38",
+    "time": "15:37:55",
     "isActive": true,
-    "firstSeen": "2024-11-07T13:30:04.411Z",
-    "lastSeen": "2024-11-07T13:30:04.411Z",
+    "firstSeen": "2024-11-08T14:38:01.491Z",
+    "lastSeen": "2024-11-08T15:25:43.732Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 22230000,
-      "Avg. Daily Volume": 2320000,
-      "Short Float": "31.55%",
-      "Short Ratio": "9.60"
-    }
-  },
-  "GNLN": {
-    "ticker": "GNLN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-07T14:05:57Z",
-        "headline": "Greenlane Announces Exclusive Distribution Agreement With Strips Tech Corp To Distribute Safety Strips' Tech Corp Fentanyl, Xylazine and Drink Spike Detection Test Strips",
-        "id": 41808219,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "GNLN"
-        ],
-        "updated_at": "2024-11-07T14:05:58Z",
-        "url": "https://www.benzinga.com/news/24/11/41808219/greenlane-announces-exclusive-distribution-agreement-with-strips-tech-corp-to-distribute-safety-stri"
-      }
-    ],
-    "hod": true,
-    "float": "658.13K",
-    "price": "3.6",
-    "time": "15:08:21",
-    "isActive": true,
-    "firstSeen": "2024-11-07T14:08:22.152Z",
-    "lastSeen": "2024-11-07T14:36:07.622Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 47910,
-      "Avg. Daily Volume": 1500000,
-      "Short Float": "7.26%",
-      "Short Ratio": "0.03"
-    }
-  },
-  "MULN": {
-    "ticker": "MULN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-07T14:21:31Z",
-        "headline": "New York State Approves Mullen Subsidiary, Bollinger Motors, For $100K Cash Voucher Incentive NYTVIP Program On The All-Electric B4 Truck",
-        "id": 41809006,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MULN"
-        ],
-        "updated_at": "2024-11-07T14:21:31Z",
-        "url": "https://www.benzinga.com/news/24/11/41809006/new-york-state-approves-mullen-subsidiary-bollinger-motors-for-100k-cash-voucher-incentive-nytvip-pr"
-      }
-    ],
-    "hod": false,
-    "float": "386.18K",
-    "price": "1.89",
-    "time": "15:21:07",
-    "isActive": true,
-    "firstSeen": "2024-11-07T14:21:48.065Z",
-    "lastSeen": "2024-11-07T14:21:48.065Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 1070000,
-      "Avg. Daily Volume": 1070000,
-      "Short Float": "20.40%",
-      "Short Ratio": "1.00"
+      "Short Interest": 680540,
+      "Avg. Daily Volume": 14210,
+      "Short Float": "6.35%",
+      "Short Ratio": "47.90"
     }
   },
   "TNYA": {
     "ticker": "TNYA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-07T14:15:47Z",
-        "headline": "Chardan Capital Maintains Buy on Tenaya Therapeutics, Lowers Price Target to $18",
-        "id": 41808747,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "TNYA"
-        ],
-        "updated_at": "2024-11-07T14:15:48Z",
-        "url": "https://www.benzinga.com/news/24/11/41808747/chardan-capital-maintains-buy-on-tenaya-therapeutics-lowers-price-target-to-18"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-06T21:48:30Z",
-        "headline": "Tenaya Therapeutics Q3 EPS $(0.30) Beats $(0.36) Estimate",
-        "id": 41789306,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "TNYA"
-        ],
-        "updated_at": "2024-11-06T21:48:31Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41789306/tenaya-therapeutics-q3-eps-0-30-beats-0-36-estimate"
-      }
-    ],
-    "hod": true,
+    "news": [],
+    "hod": false,
     "float": "65.30M",
-    "price": "2.52",
-    "time": "15:37:59",
+    "price": "3.04",
+    "time": "15:46:10",
     "isActive": true,
-    "firstSeen": "2024-11-07T14:38:04.675Z",
-    "lastSeen": "2024-11-07T14:38:04.675Z",
+    "firstSeen": "2024-11-08T14:46:20.003Z",
+    "lastSeen": "2024-11-08T15:36:22.295Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 4880000,
@@ -532,15 +506,317 @@
       "Short Ratio": "12.21"
     }
   },
-  "API": {
-    "ticker": "API",
-    "news": [],
+  "EXFY": {
+    "ticker": "EXFY",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T21:36:15Z",
+        "headline": "Expensify Q3 2024 Adj. EPS $0.06, Inline, Sales $35.409M Beat $35.013M Estimate",
+        "id": 41825813,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EXFY"
+        ],
+        "updated_at": "2024-11-07T21:36:15Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41825813/expensify-q3-2024-adj-eps-0-06-inline-sales-35-409m-beat-35-013m-estimate"
+      }
+    ],
     "hod": true,
-    "float": "93.87M",
-    "price": "3.7",
-    "time": "15:37:41",
+    "float": "61.21M",
+    "price": "2.66",
+    "time": "15:55:13",
     "isActive": true,
-    "firstSeen": "2024-11-07T14:38:04.683Z",
-    "lastSeen": "2024-11-07T14:38:04.683Z"
+    "firstSeen": "2024-11-08T14:55:34.017Z",
+    "lastSeen": "2024-11-08T15:28:44.925Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 453820,
+      "Avg. Daily Volume": 552950,
+      "Short Float": "0.85%",
+      "Short Ratio": "0.82"
+    }
+  },
+  "ARRY": {
+    "ticker": "ARRY",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T21:17:16Z",
+        "headline": "Array Technologies Sees FY24 Revenue $900M-$920M Vs $948.521M Est; Adj. EPS $0.60-$0.65 Vs $0.67 Est",
+        "id": 41824476,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ARRY"
+        ],
+        "updated_at": "2024-11-07T21:17:17Z",
+        "url": "https://www.benzinga.com/news/24/11/41824476/array-technologies-sees-fy24-revenue-900m-920m-vs-948-521m-est-adj-eps-0-60-0-65-vs-0-67-est"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T21:15:12Z",
+        "headline": "Array Technologies Q3 2024 Adj. EPS $0.17 Beats $0.14 Estimate, Sales $231.400M Miss $232.609M Estimate",
+        "id": 41824295,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ARRY"
+        ],
+        "updated_at": "2024-11-07T21:15:13Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41824295/array-technologies-q3-2024-adj-eps-0-17-beats-0-14-estimate-sales-231-400m-miss-232-609m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "149.40M",
+    "price": "6.37",
+    "time": "16:02:04",
+    "isActive": true,
+    "firstSeen": "2024-11-08T15:02:11.213Z",
+    "lastSeen": "2024-11-08T15:02:11.213Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 32470000,
+      "Avg. Daily Volume": 5770000,
+      "Short Float": "21.73%",
+      "Short Ratio": "5.63"
+    }
+  },
+  "WOLF": {
+    "ticker": "WOLF",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-08T14:15:24Z",
+        "headline": "Looking Into Wolfspeed's Recent Short Interest",
+        "id": 41844718,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-08T14:15:24Z",
+        "url": "https://www.benzinga.com/insights/short-sellers/24/11/41844718/looking-into-wolfspeeds-recent-short-interest"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-07T21:01:23Z",
+        "headline": "What Analysts Are Saying About Wolfspeed Stock",
+        "id": 41823458,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T21:01:23Z",
+        "url": "https://www.benzinga.com/insights/analyst-ratings/24/11/41823458/what-analysts-are-saying-about-wolfspeed-stock"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T18:48:15Z",
+        "headline": "Canaccord Genuity Maintains Buy on Wolfspeed, Lowers Price Target to $18",
+        "id": 41819595,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T18:48:15Z",
+        "url": "https://www.benzinga.com/news/24/11/41819595/canaccord-genuity-maintains-buy-on-wolfspeed-lowers-price-target-to-18"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T18:08:56Z",
+        "headline": "JP Morgan Maintains Neutral on Wolfspeed, Lowers Price Target to $17",
+        "id": 41818612,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T18:08:57Z",
+        "url": "https://www.benzinga.com/news/24/11/41818612/jp-morgan-maintains-neutral-on-wolfspeed-lowers-price-target-to-17"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-07T17:15:58Z",
+        "headline": "Wolfspeed Unusual Options Activity For November 07",
+        "id": 41817060,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T17:15:59Z",
+        "url": "https://www.benzinga.com/insights/options/24/11/41817060/wolfspeed-unusual-options-activity-for-november-07"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T17:13:01Z",
+        "headline": "Goldman Sachs Maintains Buy on Wolfspeed, Lowers Price Target to $19",
+        "id": 41816885,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T17:13:02Z",
+        "url": "https://www.benzinga.com/news/24/11/41816885/goldman-sachs-maintains-buy-on-wolfspeed-lowers-price-target-to-19"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T16:11:49Z",
+        "headline": "Roth MKM Maintains Buy on Wolfspeed, Lowers Price Target to $20",
+        "id": 41814043,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T16:11:50Z",
+        "url": "https://www.benzinga.com/news/24/11/41814043/roth-mkm-maintains-buy-on-wolfspeed-lowers-price-target-to-20"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T16:02:07Z",
+        "headline": "Susquehanna Maintains Neutral on Wolfspeed, Lowers Price Target to $11",
+        "id": 41813617,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOLF"
+        ],
+        "updated_at": "2024-11-07T16:02:08Z",
+        "url": "https://www.benzinga.com/news/24/11/41813617/susquehanna-maintains-neutral-on-wolfspeed-lowers-price-target-to-11"
+      }
+    ],
+    "hod": true,
+    "float": "125.42M",
+    "price": "9.34",
+    "time": "16:09:04",
+    "isActive": true,
+    "firstSeen": "2024-11-08T15:09:39.941Z",
+    "lastSeen": "2024-11-08T15:09:39.941Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 37320000,
+      "Avg. Daily Volume": 9520000,
+      "Short Float": "29.76%",
+      "Short Ratio": "3.92"
+    }
+  },
+  "DATS": {
+    "ticker": "DATS",
+    "news": [],
+    "hod": false,
+    "float": "2.73M",
+    "price": "2.33",
+    "time": "16:17:20",
+    "isActive": true,
+    "firstSeen": "2024-11-08T15:17:41.652Z",
+    "lastSeen": "2024-11-08T15:17:41.652Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 13690,
+      "Avg. Daily Volume": 122770,
+      "Short Float": "0.50%",
+      "Short Ratio": "0.11"
+    }
+  },
+  "MNMD": {
+    "ticker": "MNMD",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-07T21:29:56Z",
+        "headline": "Mind Medicine Q3 2024 GAAP EPS $(0.27) Beats $(0.28) Estimate",
+        "id": 41825224,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MNMD"
+        ],
+        "updated_at": "2024-11-07T21:29:57Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41825224/mind-medicine-q3-2024-gaap-eps-0-27-beats-0-28-estimate"
+      }
+    ],
+    "hod": true,
+    "float": "71.02M",
+    "price": "8.66",
+    "time": "16:30:46",
+    "isActive": true,
+    "firstSeen": "2024-11-08T15:31:18.605Z",
+    "lastSeen": "2024-11-08T15:31:18.605Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 10210000,
+      "Avg. Daily Volume": 861940,
+      "Short Float": "37.44%",
+      "Short Ratio": "11.85"
+    }
   }
 }

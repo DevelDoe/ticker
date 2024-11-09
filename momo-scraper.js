@@ -175,7 +175,7 @@ function filterData(scrapedData) {
             float = parseFloat(floatString); // Assume it's already in a numeric format
         }
 
-        if (isNaN(float) || float > 100) {
+        if (isNaN(float) || float > 300) {
             // Skip if the float is invalid or greater than 50 million
             return false;
         }
