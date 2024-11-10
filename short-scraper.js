@@ -1,12 +1,13 @@
 import fs from "fs";
 import path from "path";
 import puppeteer from "puppeteer-core";
+import { safeReadFile, safeWriteFile } from "./fileOps.js";
 
-const verbose = process.argv.includes('-v'); // Check for -t flag
+const verbose = process.argv.includes("-v"); // Check for -t flag
 
-// Define paths 
+// Define paths
 const tickerFilePath = path.join(process.cwd(), "tickers.json");
-const processedTickersPath = path.join(process.cwd(), "processed_tickers.json");
+const processedTickersPath = path.join(process.cwd(), "short-processed_tickers.json");
 const lastWipeFilePath = path.join(process.cwd(), "last-wipe.txt");
 
 // Variables
@@ -14,31 +15,83 @@ const processedTickers = new Set(); // In-memory storage for processed tickers
 const retryPool = []; // Array to hold tickers that need to be retried
 
 /**
- * Reads tickers from the tickers.json file.
- *
- * This function reads the tickers.json file located in the current working directory.
- * It parses the JSON data and returns the entire object containing tickers.
- *
- * @return {Object} The tickers object parsed from the JSON file.
- * @throws Will throw an error if the file cannot be read or parsed.
+ * Reads tickers from the tickers.json file using safeReadFile.
  */
 const readTickersFromFile = async () => {
+
     try {
         if (verbose) console.log(`Attempting to read tickers from ${tickerFilePath}`);
-        const data = await fs.promises.readFile(tickerFilePath, "utf8");
-        if (verbose) console.log("Tickers file read successfully.");
-        return JSON.parse(data); // Return the full object instead of just keys
+        let data = await safeReadFile(tickerFilePath);
+
+        // Check if `data` is already an object
+        if (typeof data === "object") {
+            if (verbose) console.log("Tickers data is already parsed as an object.");
+            return data;
+        } else if (typeof data === "string") {
+            if (verbose) console.log("Parsing tickers data from JSON string.");
+            return JSON.parse(data);
+        } else {
+            throw new Error("Unexpected data type returned from safeReadFile.");
+        }
     } catch (err) {
         console.error("Error reading tickers from file:", err);
-        throw err; // Re-throw to be handled by the calling function
+        throw err;
     }
+};
+
+/**
+ * Updates the ticker object in the tickers.json file with new stock data using safeWriteFile.
+ */
+const updateTickerInFile = async (ticker, stockData, tickersJson) => {
+    try {
+        if (tickersJson[ticker]) {
+            tickersJson[ticker].shorts = stockData;
+            console.log(`Updated ${ticker} with shorts data:`, stockData);
+        } else {
+            console.log(`Ticker ${ticker} not found in tickers.json. Skipping.`);
+        }
+
+        // Write updated tickers back to tickers.json safely
+        await safeWriteFile(tickerFilePath, tickersJson);
+        if (verbose) console.log(`Successfully wrote updated tickers to ${tickerFilePath}.`);
+    } catch (error) {
+        console.error(`Error updating ticker ${ticker} in file:`, error.message);
+        if (verbose) console.log(`Error details: ${error.stack}`);
+    }
+};
+
+// Watch for changes to tickers.json and process new entries
+const watchFile = () => {
+    let fileChangeTimeout;
+    let processing = false;
+
+    fs.watch(tickerFilePath, async (eventType) => {
+        if (eventType === "change") {
+            if (fileChangeTimeout) {
+                clearTimeout(fileChangeTimeout);
+            }
+
+             // Introduce a random delay after file change detection
+             const randomDelay = Math.floor(Math.random() * 3000); // Delay up to 3 seconds
+             fileChangeTimeout = setTimeout(async () => {
+                 if (!processing) {
+                     processing = true;
+                     console.log('Ticker file changed. Processing new tickers after delay...');
+                     await main(); // Call the main function to process tickers
+                     processing = false;
+                 }
+             }, randomDelay);
+        }
+    });
+
+    console.log(`Watching for changes in ${tickerFilePath}`);
 };
 
 /**
  * Fetches stock data for a given ticker.
  *
  * This function navigates to the stock's page on Finviz, scrapes relevant data
- * from the stock's financial table, and returns the extracted data. It uses 
+ * from the stock's financial table, and returns the extracted data. It uses
  * Puppeteer to open a headless browser and scrape the content.
  *
  * @param {string} ticker - The stock ticker symbol to fetch data for.
@@ -63,9 +116,9 @@ const fetchStockData = async (ticker) => {
         // Wait for a specific element to load (e.g., the first row of the table)
         try {
             // Delay between requests to avoid overwhelming the server
-            const delay = Math.floor(Math.random() * 240000) + 60000; // Random delay between 180 and 420 seconds
-            if (verbose) console.log(`Delaying next request to avoid server overload for ${delay / 1000} seconds.`);
-            await new Promise(resolve => setTimeout(resolve, delay)); // Delay before the next request
+            // const delay = Math.floor(Math.random() * 60000) + 60000; // Random delay between 180 and 420 seconds
+            // if (verbose) console.log(`Delaying next request to avoid server overload for ${delay / 1000} seconds.`);
+            // await new Promise((resolve) => setTimeout(resolve, delay)); // Delay before the next request
             // await page.waitForSelector("table.financials-table tbody tr", { timeout: 20000 }); // 10 seconds timeout
         } catch (error) {
             console.error(`Failed to find selector for ticker: ${ticker}. Error: ${error.message}`);
@@ -79,13 +132,7 @@ const fetchStockData = async (ticker) => {
             const table = document.querySelector("table.financials-table");
             if (table) {
                 const rows = table.querySelectorAll("tbody tr");
-                const labels = [
-                    "Settlement Date",
-                    "Short Interest",
-                    "Avg. Daily Volume",
-                    "Short Float",
-                    "Short Ratio",
-                ];
+                const labels = ["Settlement Date", "Short Interest", "Avg. Daily Volume", "Short Float", "Short Ratio"];
 
                 // Only fetch data from the first row
                 if (rows.length > 0) {
@@ -118,7 +165,6 @@ const fetchStockData = async (ticker) => {
     }
 };
 
-
 /**
  * Processes new tickers by fetching their stock data and updating the tickers.json file.
  *
@@ -136,7 +182,7 @@ const processNewTickers = async (newTickers, processedTickers) => {
 
             if (stockData) {
                 // Handle empty or null fields by setting default values
-                Object.keys(stockData).forEach(key => {
+                Object.keys(stockData).forEach((key) => {
                     if (stockData[key] === "" || stockData[key] === null) {
                         stockData[key] = "N/A"; // Replace empty strings or null with "N/A"
                     }
@@ -151,38 +197,6 @@ const processNewTickers = async (newTickers, processedTickers) => {
         }
     } catch (error) {
         console.error("Error processing new tickers:", error.message);
-    }
-};
-
-/**
- * Updates the ticker object in the tickers.json file with new stock data.
- *
- * This function checks if the specified ticker exists in the provided tickers JSON object.
- * If it does, it adds or updates the 'shorts' field with the new stock data. Then, it writes 
- * the updated tickers back to the tickers.json file.
- *
- * @param {string} ticker - The stock ticker symbol to update.
- * @param {Object} stockData - An object containing the stock data to be added.
- * @param {Object} tickersJson - The current state of the tickers from tickers.json.
- * @return {Promise<void>} A promise that resolves when the update is complete.
- */
-const updateTickerInFile = async (ticker, stockData, tickersJson) => {
-    try {
-        if (tickersJson[ticker]) {
-            
-            // Add the shorts field or update if it already exists
-            tickersJson[ticker].shorts = stockData; 
-            console.log(`Updated ${ticker} with shorts data:`, stockData);
-        } else {
-            console.log(`Ticker ${ticker} not found in tickers.json. Skipping.`);
-        }
-
-        // Write updated tickers back to tickers.json
-        await fs.promises.writeFile(tickerFilePath, JSON.stringify(tickersJson, null, 2), 'utf8');
-        if (verbose) console.log(`Successfully wrote updated tickers to ${tickerFilePath}.`);
-    } catch (error) {
-        console.error(`Error updating ticker ${ticker} in file:`, error.message);
-        if (verbose) console.log(`Error details: ${error.stack}`);
     }
 };
 
@@ -223,61 +237,35 @@ const writeProcessedTickers = async (processedTickers) => {
         const wipeTime = await fs.promises.readFile(lastWipeFilePath, "utf8");
         const data = {
             lastWipe: wipeTime,
-            tickers: Array.from(processedTickers)
+            tickers: Array.from(processedTickers),
         };
-        await fs.promises.writeFile(processedTickersPath, JSON.stringify(data, null, 2), 'utf8');
+        await fs.promises.writeFile(processedTickersPath, JSON.stringify(data, null, 2), "utf8");
         if (verbose) console.log(`Successfully wrote processed tickers to ${processedTickersPath}`);
     } catch (err) {
         console.error("Error writing processed tickers file:", err);
     }
 };
 
-
 /**
  * Main function to process tickers and set up file watcher
  */
 const main = async () => {
-    if (verbose) console.log('Starting main process...');
+    if (verbose) console.log("Starting main process...");
 
     // Load all tickers from the JSON file
     const tickersJson = await readTickersFromFile();
     const processedTickers = await readProcessedTickers();
 
     const tickers = Object.keys(tickersJson); // Get all tickers
-    const newTickers = tickers.filter(ticker => !processedTickers.has(ticker)); // Filter out already processed tickers
+    const newTickers = tickers.filter((ticker) => !processedTickers.has(ticker)); // Filter out already processed tickers
     if (verbose) console.log(`Loaded ${newTickers.length} tickers to process.`);
 
     if (newTickers.length > 0) {
         if (verbose) console.log(`Found ${newTickers.length} new tickers to process.`);
         await processNewTickers(newTickers, processedTickers);
     } else {
-        if (verbose) console.log('No new tickers to process.');
+        if (verbose) console.log("No new tickers to process.");
     }
-};
-
-// Watch for changes to the ticker.json file and process new entries
-const watchFile = () => {
-    let fileChangeTimeout;
-    let processing = false; // Flag to prevent overlapping processing
-
-    fs.watch(tickerFilePath, async (eventType) => {
-        if (eventType === 'change') {
-            if (fileChangeTimeout) {
-                clearTimeout(fileChangeTimeout);
-            }
-
-            fileChangeTimeout = setTimeout(async () => {
-                if (!processing) { // Only proceed if not currently processing
-                    processing = true;
-                    console.log('Ticker file changed. Processing new tickers...');
-                    await main(); // Call the main function to process tickers
-                    processing = false; // Reset the processing flag
-                }
-            }, 1000); // Debounce file changes by 1 second
-        }
-    });
-
-    console.log(`Watching for changes in ${tickerFilePath}`);
 };
 
 // Start the script and file watcher

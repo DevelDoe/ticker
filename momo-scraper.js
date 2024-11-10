@@ -2,6 +2,8 @@
 import fs from "fs";
 import puppeteer from "puppeteer";
 import player from "node-wav-player";
+import { safeReadFile, safeWriteFile } from "./fileOps.js"; // Import safe file operations
+
 
 const verbose = process.argv.includes("-v");
 
@@ -199,18 +201,19 @@ function filterData(scrapedData) {
  * @param {Array} filteredData - The filtered data objects to extract additional information from.
  * @returns {void}
  */
-function saveToJson(tickersToSave, filteredData) {
-    if (verbose) console.log("tickersToSave: ", tickersToSave);
+async function saveToJson(tickersToSave, filteredData) {
 
     const filePath = "tickers.json";
     let tickersData = {};
     let newData = false;
-    let updated = false;
     let tickerUpdated = false;
 
-    if (fs.existsSync(filePath)) {
-        const data = fs.readFileSync(filePath);
-        tickersData = JSON.parse(data);
+    // Read tickers data using safeReadFile
+    try {
+        tickersData = await safeReadFile(filePath);
+    } catch (error) {
+        console.error("Error reading tickers file:", error);
+        return;
     }
 
     tickersToSave.forEach((symbol) => {
@@ -268,8 +271,11 @@ function saveToJson(tickersToSave, filteredData) {
     if (verbose) console.log("Saving:", tickersData);
 
     if (newData || tickerUpdated) {
-        fs.writeFileSync(filePath, JSON.stringify(tickersData, null, 2));
-        if (verbose) console.log(`New data saved to ${filePath}`);
+        try {
+            await safeWriteFile(filePath, tickersData); // Use safeWriteFile to write data
+        } catch (error) {
+            console.error("Error writing to tickers file:", error);
+        }
     } else {
         if (verbose) console.log("No new data to save.");
     }

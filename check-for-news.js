@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 import fetch from 'node-fetch';
 import player from 'node-wav-player';
 import chokidar from 'chokidar'; // Import chokidar
+import { safeReadFile, safeWriteFile } from './fileOps.js'; // Import fileOps for safe file handling
+
 
 const verbose = process.argv.includes('-v'); // Check for -v flag
 const testServer = process.argv.includes('-t'); // Check for -t flag
@@ -44,7 +46,6 @@ function debounce(func, timeout = 3000) {
 // Watch for changes in tickers.json
 const startFileWatcher = () => {
     console.log(`Watching for changes in: ${tickerFilePath}`);
-
     watcher = chokidar.watch(tickerFilePath, { persistent: true });
 
     watcher.on('change', async () => {
@@ -64,19 +65,29 @@ const startFileWatcher = () => {
 const readTickersFromFile = async () => {
     try {
         if (verbose) console.log(`Reading tickers from JSON file: ${tickerFilePath}`);
-        const data = await fs.readFile(tickerFilePath, 'utf8');
-        const tickers = JSON.parse(data);
-        tickersData = tickers; // Store the data for later updates
-        const tickerSymbols = Object.keys(tickers);
+        tickersData = await safeReadFile(tickerFilePath); // Use safeReadFile
+        const tickerSymbols = Object.keys(tickersData);
         console.log(`Tickers found: ${tickerSymbols.join(', ')}`);
-        return tickerSymbols; // Return just the ticker symbols
+        return tickerSymbols;
     } catch (err) {
         console.error('Error reading ticker file:', err);
         return [];
     }
 };
 
-// Fetch news for a ticker from the Alpaca API or Test Server
+const writeTickersToFile = async () => {
+    try {
+        if (verbose) console.log('Pausing watcher for safe write operation...');
+        await watcher.close();
+        await safeWriteFile(tickerFilePath, tickersData); // Use safeWriteFile for consistency
+        startFileWatcher();
+    } catch (err) {
+        console.error('Error writing to ticker file:', err);
+    }
+};
+
+
+// Fetch news for a ticker from the Alpaca API or Test Serve
 const getNewsForTicker = async (ticker) => {
     let url;
     const currentTime = new Date();
@@ -155,29 +166,7 @@ const updateTickersWithNews = (ticker, news) => {
     }
 };
 
-// Updated write function to close and restart watcher during the write
-const writeTickersToFile = async () => {
-    try {
-        if (verbose) console.log('Pausing watcher and checking for changes to write...');
 
-        await watcher.close(); // Close the watcher before writing
-
-        const currentData = JSON.stringify(tickersData, null, 2);
-        const existingData = await fs.readFile(tickerFilePath, 'utf8');
-
-        // Check if the current tickers data is different from the existing data
-        if (currentData !== existingData) {
-            await fs.writeFile(tickerFilePath, currentData);
-            console.log(`Updated tickers saved to ${tickerFilePath}`);
-        } else {
-            console.log('No changes detected; skipping write.');
-        }
-
-        startFileWatcher(); // Restart the watcher after file write
-    } catch (err) {
-        console.error('Error writing to ticker file:', err);
-    }
-};
 
 // Collect and process news for tickers
 const collectAllNews = async (tickers) => {
