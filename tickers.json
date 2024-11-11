@@ -27,7 +27,13 @@
     "isActive": true,
     "firstSeen": "2024-11-09T18:44:54.561Z",
     "lastSeen": "2024-11-09T18:44:54.561Z",
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 3410,
+      "Avg. Daily Volume": 489750,
+      "Short Float": "N/A",
+      "Short Ratio": "0.01"
+    }
   },
   "INDI": {
     "ticker": "INDI",
@@ -149,5 +155,59 @@
         "date": "2024-07-19"
       }
     ]
+  },
+  "CREV": {
+    "ticker": "CREV",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "ANIX": {
+    "ticker": "ANIX",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "GV": {
+    "ticker": "GV",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "APRE": {
+    "ticker": "APRE",
+    "news": [],
+    "isActive": true,
+    "s3Filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-043099 (33 Act)  Size: 465 KB",
+        "date": "2024-04-03"
+      }
+    ]
+  },
+  "ELWS": {
+    "ticker": "ELWS",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "OLPX": {
+    "ticker": "OLPX",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "VMAR": {
+    "ticker": "VMAR",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
+  },
+  "GPRO": {
+    "ticker": "GPRO",
+    "news": [],
+    "isActive": true,
+    "shorts": {}
   }
 }

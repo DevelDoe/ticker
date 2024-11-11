@@ -1,5 +1,5 @@
 {
-  "lastWipe": "2024-11-08T23:00:00.000Z",
+  "lastWipe": "2024-11-09T23:00:00.000Z",
   "tickers": [
     "CELU",
     "AZI",
@@ -11,6 +11,14 @@
     "DJT",
     "DEVS",
     "PTON",
-    "REVB"
+    "REVB",
+    "CREV",
+    "ANIX",
+    "GV",
+    "APRE",
+    "ELWS",
+    "OLPX",
+    "VMAR",
+    "GPRO"
   ]
 }
