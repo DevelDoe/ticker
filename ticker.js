@@ -1,4 +1,5 @@
-import fs from "fs/promises";
+import fs from "fs"; // Import regular fs for synchronous checks
+import fsPromises from "fs/promises"; // Import fs/promises for async operations
 import readline from "readline";
 import Table from "cli-table3";
 import chokidar from "chokidar";
@@ -14,6 +15,10 @@ const verbose = process.argv.includes("-v"); // Check for verbose flag (-v)
 const tickerFilePath = "tickers.json";
 const lastWipeFilePath = "last-wipe.txt";
 const watchlistFilePath = "watchlist.json"; // Path for the watchlist
+const shortsFilePath = "shorts.json"; // Declare shortsFilePath
+const filingsFilePath = "filings.json"; // Path for filings
+
+
 
 let filterHeadlinesActive = false; // State for filtering headlines
 const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
@@ -68,7 +73,7 @@ const setToMidnight = (date) => {
 const checkAndWipeIfNeeded = async () => {
     logVerbose("Checking if the ticker files need to be wiped...");
     try {
-        const lastWipeDateStr = await fs.readFile(lastWipeFilePath, "utf8");
+        const lastWipeDateStr = await fsPromises.readFile(lastWipeFilePath, "utf8");
         const lastWipeDate = new Date(lastWipeDateStr);
         const lastWipeAtMidnight = setToMidnight(lastWipeDate);
         const currentDateAtMidnight = setToMidnight(new Date());
@@ -77,11 +82,16 @@ const checkAndWipeIfNeeded = async () => {
         console.log("Current date:", currentDateAtMidnight);
 
         if (currentDateAtMidnight > lastWipeAtMidnight) {
-            console.log("Wiping ticker files for a new day...");
+            console.log("Wiping ticker, filings, and shorts files for a new day...");
+            
+            // Wipe each of the files by resetting their contents to empty objects
             await safeWriteFile(tickerFilePath, {});
+            await safeWriteFile(filingsFilePath, {});
+            await safeWriteFile(shortsFilePath, {});
+
             console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
-            await fs.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
-            console.log("Ticker files wiped...");
+            await fsPromises.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
+            console.log("All data files wiped for the new day.");
         } else {
             logVerbose("No need to wipe ticker files today.");
         }
@@ -89,9 +99,12 @@ const checkAndWipeIfNeeded = async () => {
         if (err.code === "ENOENT") {
             const currentDateAtMidnight = setToMidnight(new Date());
             await safeWriteFile(tickerFilePath, {});
+            await safeWriteFile(filingsFilePath, {});
+            await safeWriteFile(shortsFilePath, {});
+
             console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
-            await fs.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
-            console.log("Ticker files created and wiped. Last wipe date set.");
+            await fsPromises.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
+            console.log("Data files created and wiped. Last wipe date set.");
         } else {
             console.error("Error checking wipe status:", err);
         }
@@ -161,13 +174,13 @@ const appendToWatchlist = async (sanitizedTicker) => {
         }
 
         // Read the current watchlist
-        const watchlistData = await fs.readFile(watchlistFilePath, "utf8");
+        const watchlistData = await fsPromises.readFile(watchlistFilePath, "utf8"); // Change here
         const watchlist = JSON.parse(watchlistData);
 
         // If the ticker doesn't exist in the watchlist, add it
         if (!watchlist[sanitizedTicker]) {
             watchlist[sanitizedTicker] = { ticker: sanitizedTicker };
-            await fs.writeFile(watchlistFilePath, JSON.stringify(watchlist, null, 2));
+            await fsPromises.writeFile(watchlistFilePath, JSON.stringify(watchlist, null, 2)); // Change here
             console.log(`Ticker ${sanitizedTicker} added to watchlist.`);
         } else {
             console.log(`Ticker ${sanitizedTicker} is already in the watchlist.`);
@@ -183,12 +196,12 @@ const appendToWatchlist = async (sanitizedTicker) => {
 const removeFromWatchlist = async (sanitizedTicker) => {
     logVerbose(`Removing from watchlist: ${sanitizedTicker}`);
     try {
-        const data = await fs.readFile(watchlistFilePath, "utf8");
+        const data = await fsPromises.readFile(watchlistFilePath, "utf8"); // Change here
         const watchlist = JSON.parse(data);
 
         if (watchlist[sanitizedTicker]) {
             delete watchlist[sanitizedTicker];
-            await fs.writeFile(watchlistFilePath, JSON.stringify(watchlist, null, 2));
+            await fsPromises.writeFile(watchlistFilePath, JSON.stringify(watchlist, null, 2)); // Change here
             console.log(`Ticker ${sanitizedTicker} removed from watchlist.`);
         } else {
             console.log(`Ticker ${sanitizedTicker} not found in watchlist.`);
@@ -219,17 +232,17 @@ const displayTickersTable = async () => {
         const tickers = await safeReadFile(tickerFilePath);
 
         // Load watchlist data
-        const watchlistData = await fs.readFile(watchlistFilePath, "utf8");
+        const watchlistData = await fsPromises.readFile(watchlistFilePath, "utf8");
         const watchlist = JSON.parse(watchlistData);
 
         const table = new Table({
-            head: ["Ticker", "Latest News", "Filings", "Short Interest", "Float", "Price"], // Added 'Filings' column
-            colWidths: [10, 95, 5, 10, 10, 10], // Adjusted column widths
+            head: ["Ticker", "Latest News", "S-3", "Short Interest", "Float", "Price"],
+            colWidths: [10, 85, 15, 10, 10, 10],
         });
 
         // Function to format short interest values for readability
         const formatShortInterest = (value) => {
-            if (value === undefined || value === null) return ""; // Return empty string if value is undefined or null
+            if (value === undefined || value === null) return "";
             if (value >= 1e9) return (value / 1e9).toFixed(1) + "B";
             if (value >= 1e6) return (value / 1e6).toFixed(1) + "M";
             if (value >= 1e3) return (value / 1e3).toFixed(1) + "k";
@@ -237,19 +250,19 @@ const displayTickersTable = async () => {
         };
 
         Object.values(tickers)
-            .filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0))) // Only display active tickers and apply filter if active
+            .filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0)))
             .forEach((ticker) => {
                 const timestamp = ticker.news[0]?.updated_at || ticker.news[0]?.created_at;
-                const latestNews = ticker.news[0]?.headline || "No news available"; // Safely access headline
+                const latestNews = ticker.news[0]?.headline || "No news available";
                 const dateObj = new Date(timestamp);
                 const formattedTime = latestNews === "No news available" ? "" : dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
                 // Check if this ticker is in the watchlist
                 const isInWatchlist = watchlist[ticker.ticker] !== undefined;
 
-                // Get the latest filing for the ticker
-                const latestFiling = ticker.s3Filings?.[0].formType; // Assuming filings are sorted by date
-                const filingInfo = latestFiling ? `${latestFiling.formType} - ${latestFiling.date}` : "";
+                // Get the latest filing for the ticker (update here based on new structure)
+                const latestFiling = ticker.filings?.[0]; // Assuming filings is now an array of objects
+                const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
 
                 // Format the ticker for the table
                 const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
@@ -269,21 +282,29 @@ const displayTickersTable = async () => {
                 if (previousPrice !== undefined) {
                     formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
                 }
-                previousPrices[ticker.ticker] = ticker.price; // Store current price for next comparison
+                previousPrices[ticker.ticker] = ticker.price;
 
                 // Add the ticker and its info to the table
-                table.push([coloredTicker, formattedNews, latestFiling, ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "", ticker.float || "", formattedPrice]);
+                table.push([
+                    coloredTicker,
+                    formattedNews,
+                    filingInfo,  // Updated to use `filingInfo`
+                    ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
+                    ticker.float || "",
+                    formattedPrice,
+                ]);
 
                 // Update last displayed headline
                 lastDisplayedHeadlines[ticker.ticker] = latestNews;
             });
 
-        if (!verbose) console.clear(); // Clear the console before displaying the table
+        if (!verbose) console.clear();
         console.log(table.toString());
     } catch (err) {
         console.error("Error displaying tickers:", err);
     }
 };
+
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
@@ -404,7 +425,7 @@ const clearUnwatchedTickers = async () => {
         let tickers = await safeReadFile(tickerFilePath);
 
         // Read data from watchlist.json
-        const watchlistData = await fs.readFile(watchlistFilePath, "utf8");
+        const watchlistData = await fsPromises.readFile(watchlistFilePath, "utf8"); // Change here
         const watchlist = JSON.parse(watchlistData);
 
         // Iterate over tickers and deactivate those not in the watchlist
@@ -513,13 +534,99 @@ const startWatchingFile = () => {
     });
 };
 
+// Watch for changes in shorts.json and update tickers.json accordingly
+const watchShortsFile = () => {
+    const watcher = chokidar.watch(shortsFilePath);
+
+    watcher.on("change", async () => {
+        logVerbose("shorts.json changed."); // Simple log to confirm this runs
+
+        try {
+            // Attempt to read shorts.json asynchronously
+            const shortsData = await fsPromises.readFile(shortsFilePath, "utf8");
+            const parsedShortsData = JSON.parse(shortsData);
+            const tickersData = await safeReadFile(tickerFilePath);
+
+            let updated = false;
+
+            // Merge shorts data into tickers.json only if there's new data
+            for (const ticker in parsedShortsData) {
+                if (parsedShortsData[ticker] && Object.keys(parsedShortsData[ticker]).length > 0) {
+                    if (!tickersData[ticker]) {
+                        tickersData[ticker] = { ticker, isActive: true };
+                    }
+                    tickersData[ticker].shorts = parsedShortsData[ticker];
+                    updated = true;
+                }
+            }
+
+            if (updated) {
+                await safeWriteFile(tickerFilePath, tickersData);
+                logVerbose("tickers.json updated with new shorts data.");
+                await displayTickersTable(); // Refresh display
+            } else {
+                logVerbose("No new data found in shorts.json to update tickers.json.");
+            }
+        } catch (error) {
+            console.error("Error updating tickers.json from shorts.json:", error);
+        }
+    });
+
+    watcher.on("error", (error) => {
+        console.error("Error watching shorts.json:", error);
+    });
+};
+
+// Watch for changes in filings.json and update tickers.json accordingly
+const watchFilingsFile = () => {
+    const watcher = chokidar.watch(filingsFilePath);
+
+    watcher.on("change", async () => {
+        logVerbose("filings.json changed.");
+
+        try {
+            // Read filings.json data
+            const filingsData = await fsPromises.readFile(filingsFilePath, "utf8");
+            const parsedFilingsData = JSON.parse(filingsData);
+            const tickersData = await safeReadFile(tickerFilePath);
+
+            let updated = false;
+
+            // Merge filings data into tickers.json only if there's new data
+            for (const ticker in parsedFilingsData) {
+                if (parsedFilingsData[ticker] && Object.keys(parsedFilingsData[ticker]).length > 0) {
+                    if (!tickersData[ticker]) {
+                        tickersData[ticker] = { ticker, isActive: true };
+                    }
+                    tickersData[ticker].filings = parsedFilingsData[ticker];
+                    updated = true;
+                }
+            }
+
+            if (updated) {
+                await safeWriteFile(tickerFilePath, tickersData);
+                logVerbose("tickers.json updated with new filings data.");
+                await displayTickersTable();
+            } else {
+                logVerbose("No new data found in filings.json to update tickers.json.");
+            }
+        } catch (error) {
+            console.error("Error updating tickers.json from filings.json:", error);
+        }
+    });
+
+    watcher.on("error", (error) => {
+        console.error("Error watching filings.json:", error);
+    });
+};
+
 const checkAndCreateWatchlist = async () => {
     try {
-        await fs.readFile(watchlistFilePath, "utf8");
+        await fsPromises.readFile(watchlistFilePath, "utf8"); // Change here
     } catch (err) {
         if (err.code === "ENOENT") {
             // Create a new empty watchlist
-            await fs.writeFile(watchlistFilePath, "{}");
+            await fsPromises.writeFile(watchlistFilePath, "{}"); // Change here
             console.log("Watchlist file created.");
         } else {
             console.error("Error checking watchlist:", err);
@@ -535,6 +642,8 @@ const init = async () => {
     startListening();
     startWatchingFile();
     startTickerClearSchedule();
+    watchShortsFile(); 
+    watchFilingsFile(); // Watch filings.json for updates
 };
 
 // Start the application

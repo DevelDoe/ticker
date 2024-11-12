@@ -1,213 +1,165 @@
 {
-  "CELU": {
-    "ticker": "CELU",
-    "news": [],
-    "hod": false,
-    "float": "10.71M",
-    "price": "3.8",
-    "time": "00:28:55",
-    "isActive": true,
-    "firstSeen": "2024-11-09T18:44:54.552Z",
-    "lastSeen": "2024-11-09T18:44:54.553Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 680540,
-      "Avg. Daily Volume": 14210,
-      "Short Float": "6.35%",
-      "Short Ratio": "47.90"
-    }
-  },
-  "AZI": {
-    "ticker": "AZI",
+  "LEDS": {
+    "ticker": "LEDS",
     "news": [],
     "hod": true,
-    "float": "29.25M",
-    "price": "2.84",
-    "time": "00:23:52",
+    "float": "3.35M",
+    "price": "1.88",
+    "time": "00:10:29",
     "isActive": true,
-    "firstSeen": "2024-11-09T18:44:54.561Z",
-    "lastSeen": "2024-11-09T18:44:54.561Z",
+    "firstSeen": "2024-11-11T23:10:39.328Z",
+    "lastSeen": "2024-11-12T00:06:23.449Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 3410,
-      "Avg. Daily Volume": 489750,
-      "Short Float": "N/A",
-      "Short Ratio": "0.01"
+      "Short Interest": 1690,
+      "Avg. Daily Volume": 16149.999999999998,
+      "Short Float": "0.05%",
+      "Short Ratio": "0.10"
     }
   },
-  "INDI": {
-    "ticker": "INDI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-08T19:37:33Z",
-        "headline": "Benchmark Reiterates Buy on Indie Semiconductor, Maintains $9 Price Target",
-        "id": 41855643,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "INDI"
-        ],
-        "updated_at": "2024-11-08T19:37:34Z",
-        "url": "https://www.benzinga.com/news/24/11/41855643/benchmark-reiterates-buy-on-indie-semiconductor-maintains-9-price-target"
-      }
-    ],
+  "GOVX": {
+    "ticker": "GOVX",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 226080,
+      "Avg. Daily Volume": 4580000,
+      "Short Float": "2.67%",
+      "Short Ratio": "0.05"
+    },
     "hod": true,
-    "float": "174.81M",
-    "price": "5.9",
-    "time": "00:09:45",
-    "isActive": true,
-    "firstSeen": "2024-11-09T18:44:54.565Z",
-    "lastSeen": "2024-11-09T18:44:54.565Z",
-    "shorts": {}
+    "price": "3.82",
+    "lastSeen": "2024-11-12T00:06:23.445Z"
   },
-  "UPST": {
-    "ticker": "UPST",
+  "MAXN": {
+    "ticker": "MAXN",
     "news": [],
     "isActive": true,
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 992660,
+      "Avg. Daily Volume": 725560,
+      "Short Float": "6.60%",
+      "Short Ratio": "1.37"
+    }
   },
-  "API": {
-    "ticker": "API",
+  "SUGP": {
+    "ticker": "SUGP",
     "news": [],
     "isActive": true,
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 4370,
+      "Avg. Daily Volume": 74600,
+      "Short Float": "0.11%",
+      "Short Ratio": "0.06"
+    },
+    "hod": true,
+    "price": "2.45",
+    "lastSeen": "2024-11-12T00:06:23.439Z"
   },
-  "GOEV": {
-    "ticker": "GOEV",
+  "ALGS": {
+    "ticker": "ALGS",
     "news": [],
     "isActive": true,
-    "shorts": {},
-    "s3Filings": [
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 82820,
+      "Avg. Daily Volume": 61370,
+      "Short Float": "3.68%",
+      "Short Ratio": "1.35"
+    },
+    "filings": [
       {
         "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-081896 (33 Act)  Size: 1 MB",
-        "date": "2024-07-23"
-      },
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-078940 (33 Act)  Size: 298 KB",
-        "date": "2024-07-10"
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-252199 (33 Act)  Size: 767 KB",
+        "date": "2024-11-06"
       }
     ]
   },
-  "WOLF": {
-    "ticker": "WOLF",
+  "BCG": {
+    "ticker": "BCG",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 32960,
+      "Avg. Daily Volume": 25460,
+      "Short Float": "0.68%",
+      "Short Ratio": "1.29"
+    }
+  },
+  "FGL": {
+    "ticker": "FGL",
     "news": [],
     "isActive": true
+  },
+  "NXL": {
+    "ticker": "NXL",
+    "news": [],
+    "isActive": true,
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001829126-24-002542 (33 Act)  Size: 631 KB",
+        "date": "2024-04-16"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 93400,
+      "Avg. Daily Volume": 166120,
+      "Short Float": "1.15%",
+      "Short Ratio": "0.56"
+    }
   },
   "DJT": {
     "ticker": "DJT",
     "news": [],
     "isActive": true,
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 13180000,
+      "Avg. Daily Volume": 13460000,
+      "Short Float": "17.54%",
+      "Short Ratio": "0.98"
+    }
   },
-  "DEVS": {
-    "ticker": "DEVS",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
-  },
-  "PTON": {
-    "ticker": "PTON",
+  "SOND": {
+    "ticker": "SOND",
     "news": [],
     "isActive": true,
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 59510000,
-      "Avg. Daily Volume": 15250000,
-      "Short Float": "18.36%",
-      "Short Ratio": "3.90"
+      "Short Interest": 900380,
+      "Avg. Daily Volume": 876220,
+      "Short Float": "9.96%",
+      "Short Ratio": "1.03"
     }
   },
-  "REVB": {
-    "ticker": "REVB",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-08T21:19:40Z",
-        "headline": "Revelation Biosciences Q3 2024 GAAP EPS $(0.84) Beats $(2.84) Estimate",
-        "id": 41858032,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "REVB"
-        ],
-        "updated_at": "2024-11-08T21:19:40Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41858032/revelation-biosciences-q3-2024-gaap-eps-0-84-beats-2-84-estimate"
-      }
-    ],
-    "isActive": true,
-    "shorts": {},
-    "s3Filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-102912 (33 Act)  Size: 329 KB",
-        "date": "2024-09-03"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-084922 (33 Act)  Size: 356 KB",
-        "date": "2024-07-19"
-      }
-    ]
-  },
-  "CREV": {
-    "ticker": "CREV",
+  "BTM": {
+    "ticker": "BTM",
     "news": [],
     "isActive": true,
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 294900,
+      "Avg. Daily Volume": 92780,
+      "Short Float": "5.08%",
+      "Short Ratio": "3.18"
+    }
   },
-  "ANIX": {
-    "ticker": "ANIX",
+  "WKHS": {
+    "ticker": "WKHS",
     "news": [],
     "isActive": true,
-    "shorts": {}
-  },
-  "GV": {
-    "ticker": "GV",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
-  },
-  "APRE": {
-    "ticker": "APRE",
-    "news": [],
-    "isActive": true,
-    "s3Filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-043099 (33 Act)  Size: 465 KB",
-        "date": "2024-04-03"
-      }
-    ]
-  },
-  "ELWS": {
-    "ticker": "ELWS",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
-  },
-  "OLPX": {
-    "ticker": "OLPX",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
-  },
-  "VMAR": {
-    "ticker": "VMAR",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
-  },
-  "GPRO": {
-    "ticker": "GPRO",
-    "news": [],
-    "isActive": true,
-    "shorts": {}
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 5570000,
+      "Avg. Daily Volume": 2130000,
+      "Short Float": "23.87%",
+      "Short Ratio": "2.62"
+    }
   }
 }

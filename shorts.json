@@ -1,0 +1,79 @@
+{
+  "LEDS": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 1690,
+    "Avg. Daily Volume": 16149.999999999998,
+    "Short Float": "0.05%",
+    "Short Ratio": "0.10"
+  },
+  "GOVX": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 226080,
+    "Avg. Daily Volume": 4580000,
+    "Short Float": "2.67%",
+    "Short Ratio": "0.05"
+  },
+  "MAXN": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 992660,
+    "Avg. Daily Volume": 725560,
+    "Short Float": "6.60%",
+    "Short Ratio": "1.37"
+  },
+  "SUGP": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 4370,
+    "Avg. Daily Volume": 74600,
+    "Short Float": "0.11%",
+    "Short Ratio": "0.06"
+  },
+  "ALGS": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 82820,
+    "Avg. Daily Volume": 61370,
+    "Short Float": "3.68%",
+    "Short Ratio": "1.35"
+  },
+  "BCG": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 32960,
+    "Avg. Daily Volume": 25460,
+    "Short Float": "0.68%",
+    "Short Ratio": "1.29"
+  },
+  "NXL": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 93400,
+    "Avg. Daily Volume": 166120,
+    "Short Float": "1.15%",
+    "Short Ratio": "0.56"
+  },
+  "DJT": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 13180000,
+    "Avg. Daily Volume": 13460000,
+    "Short Float": "17.54%",
+    "Short Ratio": "0.98"
+  },
+  "SOND": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 900380,
+    "Avg. Daily Volume": 876220,
+    "Short Float": "9.96%",
+    "Short Ratio": "1.03"
+  },
+  "BTM": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 294900,
+    "Avg. Daily Volume": 92780,
+    "Short Float": "5.08%",
+    "Short Ratio": "3.18"
+  },
+  "WKHS": {
+    "Settlement Date": "Oct 15, 2024",
+    "Short Interest": 5570000,
+    "Avg. Daily Volume": 2130000,
+    "Short Float": "23.87%",
+    "Short Ratio": "2.62"
+  }
+}

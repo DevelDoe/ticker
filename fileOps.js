@@ -25,14 +25,12 @@ const acquireLock = async (filePath) => {
         await new Promise(resolve => setTimeout(resolve, Math.random() * 100 + 50));
     }
     lockSet.set(filePath, Date.now()); // Acquire lock with timestamp
-    console.log(`Lock acquired for ${filePath}`);
 };
 
 // Release lock after file operation
 const releaseLock = (filePath) => {
     if (lockSet.has(filePath)) {
         lockSet.delete(filePath);
-        console.log(`Lock released for ${filePath}`);
     }
 };
 
