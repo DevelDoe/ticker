@@ -1,9 +1,11 @@
 // Import required modules
 import fs from "fs";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-extra";
+import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import player from "node-wav-player";
 import { safeReadFile, safeWriteFile } from "./fileOps.js"; // Import safe file operations
 
+puppeteer.use(StealthPlugin());
 
 const verbose = process.argv.includes("-v");
 
@@ -27,20 +29,21 @@ async function launchBrowser(retries = 3) {
     let attempt = 0;
     while (attempt < retries) {
         try {
-            if (verbose) console.log("Launching Puppeteer...");
+            if (verbose) console.log("Launching Puppeteer with StealthPlugin...");
             return await puppeteer.launch({
                 headless: true,
-                executablePath: "C:\\chrome-win\\chrome.exe", // Replace with your actual path
+                executablePath: "C:\\chrome-win\\chrome.exe", // Update as needed
                 args: ["--disable-gpu", "--no-sandbox", "--disable-setuid-sandbox"],
             });
         } catch (error) {
             attempt++;
             console.error(`Failed to launch browser (attempt ${attempt}/${retries}):`, error);
-            if (attempt < retries) await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds before retrying
+            if (attempt < retries) await new Promise(resolve => setTimeout(resolve, 2000));
         }
     }
     throw new Error("Failed to launch browser after multiple attempts.");
 }
+
 
 /**
  * Play a WAV file.
@@ -129,7 +132,6 @@ async function scrapeData(page) {
                 .filter((data) => data !== null); // Filter out any null rows
         });
 
-        if (verbose) console.log("Scraped data:", scrapedData);
         return scrapedData;
     } catch (error) {
         console.error("Error scraping data:", error);
@@ -185,7 +187,6 @@ function filterData(scrapedData) {
         return true;
     });
 
-    if (verbose) console.log("Filtered data:", filteredData);
     return filteredData;
 }
 
@@ -266,9 +267,6 @@ async function saveToJson(tickersToSave, filteredData) {
             existingTicker.lastSeen = new Date().toISOString();
         }
     });
-
-    // Log tickersData for debugging
-    if (verbose) console.log("Saving:", tickersData);
 
     if (newData || tickerUpdated) {
         try {
@@ -519,7 +517,7 @@ async function main() {
 }
 
 /**
- * Randomized delay between 30 and 90 seconds.
+ * Delay function with a randomized delay time between 30 and 90 seconds.
  *
  * This function generates a random delay time between 30,000 ms (30 seconds)
  * and 90,000 ms (90 seconds) to help avoid server overload.
@@ -527,27 +525,25 @@ async function main() {
  * @returns {number} - The randomized delay in milliseconds.
  */
 function getRandomDelay() {
-    return Math.floor(Math.random() * 60000) + 30000; // Random delay between 30,000 ms (30 sec) and 90,000 ms (90 sec)
+    return Math.floor(Math.random() * 60000) + 30000;
 }
 
 /**
- * Recursive scraping loop
+ * Main scraping loop with random delay to avoid detection.
  *
  * This function calls the main scraping function, then waits for a random delay
  * between 30 and 90 seconds before calling itself again.
  */
 async function startScrapingLoop() {
-    if (isRunning) return; // Skip if the previous scrape is still running
+    if (isRunning) return;
     isRunning = true;
 
     try {
-        await main(); // Execute the scraping
+        await main(); // Main scraping logic
     } catch (error) {
         console.error("Error during scrape:", error);
     } finally {
-        isRunning = false; // Reset the flag after scraping
-
-        // Wait for a random delay between 30 and 90 seconds before the next scrape
+        isRunning = false;
         const delay = getRandomDelay();
         if (verbose) console.log(`Waiting for ${delay / 1000} seconds before the next scrape...`);
         setTimeout(startScrapingLoop, delay);

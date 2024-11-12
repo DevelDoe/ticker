@@ -1,16 +1,37 @@
 {
-  "ALGS": [
+  "RSLS": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-252199 (33 Act)  Size: 767 KB",
-      "date": "2024-11-06"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001544784-24-000045 (33 Act)  Size: 287 KB",
+      "date": "2024-05-09"
     }
   ],
-  "NXL": [
+  "PLL": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001829126-24-002542 (33 Act)  Size: 631 KB",
-      "date": "2024-04-16"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001140361-24-041077 (33 Act)  Size: 1 MB",
+      "date": "2024-09-13"
+    }
+  ],
+  "TGI": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-175120 (33 Act)  Size: 646 KB",
+      "date": "2024-07-03"
+    }
+  ],
+  "ASPI": [
+    {
+      "formType": "S-3MEF",
+      "description": "Registration adding securities to prior Form S-3 registration [Rule 462(b)]\nAcc-no: 0001477932-24-006805 (33 Act)  Size: 110 KB",
+      "date": "2024-10-31"
+    }
+  ],
+  "LTBR": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001477932-24-001619 (33 Act)  Size: 497 KB",
+      "date": "2024-03-29"
     }
   ]
 }

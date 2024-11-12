@@ -221,6 +221,15 @@ const colors = {
     reset: "\x1b[0m",
 };
 
+// Function to format short interest values for readability
+const formatShortInterest = (value) => {
+    if (value === undefined || value === null) return "";
+    if (value >= 1e9) return (value / 1e9).toFixed(1) + "B";
+    if (value >= 1e6) return (value / 1e6).toFixed(1) + "M";
+    if (value >= 1e3) return (value / 1e3).toFixed(1) + "k";
+    return value.toString();
+};
+
 /**
  * Displays tickers in a formatted table with color-coded data based on activity.
  * @async
@@ -230,8 +239,6 @@ const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
         const tickers = await safeReadFile(tickerFilePath);
-
-        // Load watchlist data
         const watchlistData = await fsPromises.readFile(watchlistFilePath, "utf8");
         const watchlist = JSON.parse(watchlistData);
 
@@ -240,63 +247,57 @@ const displayTickersTable = async () => {
             colWidths: [10, 85, 15, 10, 10, 10],
         });
 
-        // Function to format short interest values for readability
-        const formatShortInterest = (value) => {
-            if (value === undefined || value === null) return "";
-            if (value >= 1e9) return (value / 1e9).toFixed(1) + "B";
-            if (value >= 1e6) return (value / 1e6).toFixed(1) + "M";
-            if (value >= 1e3) return (value / 1e3).toFixed(1) + "k";
-            return value.toString();
-        };
+        // Filter tickers based on the headline filter
+        let filteredTickers = Object.values(tickers).filter(
+            (ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0))
+        );
 
-        Object.values(tickers)
-            .filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0)))
-            .forEach((ticker) => {
-                const timestamp = ticker.news[0]?.updated_at || ticker.news[0]?.created_at;
-                const latestNews = ticker.news[0]?.headline || "No news available";
-                const dateObj = new Date(timestamp);
-                const formattedTime = latestNews === "No news available" ? "" : dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-
-                // Check if this ticker is in the watchlist
-                const isInWatchlist = watchlist[ticker.ticker] !== undefined;
-
-                // Get the latest filing for the ticker (update here based on new structure)
-                const latestFiling = ticker.filings?.[0]; // Assuming filings is now an array of objects
-                const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
-
-                // Format the ticker for the table
-                const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
-                const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
-
-                // Format latest news with appropriate coloring
-                let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
-                if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                    formattedNews = chalk.black.yellow(formattedNews);
-                } else if (isInWatchlist) {
-                    formattedNews = chalk.yellow(formattedNews);
-                }
-
-                // Format price with color based on changes
-                const previousPrice = previousPrices[ticker.ticker];
-                let formattedPrice = ticker.price ? ticker.price : 0;
-                if (previousPrice !== undefined) {
-                    formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
-                }
-                previousPrices[ticker.ticker] = ticker.price;
-
-                // Add the ticker and its info to the table
-                table.push([
-                    coloredTicker,
-                    formattedNews,
-                    filingInfo,  // Updated to use `filingInfo`
-                    ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
-                    ticker.float || "",
-                    formattedPrice,
-                ]);
-
-                // Update last displayed headline
-                lastDisplayedHeadlines[ticker.ticker] = latestNews;
+        // If filterHeadlinesActive is true, sort by the latest headline's timestamp
+        if (filterHeadlinesActive) {
+            filteredTickers = filteredTickers.sort((a, b) => {
+                const dateA = new Date(a.news[0]?.updated_at || a.news[0]?.created_at || 0);
+                const dateB = new Date(b.news[0]?.updated_at || b.news[0]?.created_at || 0);
+                return dateB - dateA; // Sort descending by date
             });
+        }
+
+        // Loop over sorted/filtered tickers and add to the table
+        filteredTickers.forEach((ticker) => {
+            const timestamp = ticker.news[0]?.updated_at || ticker.news[0]?.created_at;
+            const latestNews = ticker.news[0]?.headline || "No news available";
+            const dateObj = new Date(timestamp);
+            const formattedTime = latestNews === "No news available" ? "" : dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+
+            const isInWatchlist = watchlist[ticker.ticker] !== undefined;
+            const latestFiling = ticker.filings?.[0];
+            const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
+
+            const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
+            const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
+
+            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
+            if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+                formattedNews = chalk.black.yellow(formattedNews);
+            } else if (isInWatchlist) {
+                formattedNews = chalk.yellow(formattedNews);
+            }
+
+            const previousPrice = previousPrices[ticker.ticker];
+            let formattedPrice = ticker.price ? ticker.price : 0;
+            formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
+            previousPrices[ticker.ticker] = ticker.price;
+
+            table.push([
+                coloredTicker,
+                formattedNews,
+                filingInfo,
+                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
+                ticker.float || "",
+                formattedPrice,
+            ]);
+
+            lastDisplayedHeadlines[ticker.ticker] = latestNews;
+        });
 
         if (!verbose) console.clear();
         console.log(table.toString());
@@ -304,6 +305,7 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
+
 
 
 // Function to clear all tickers from both tickers.json and ticker.txt
@@ -469,7 +471,7 @@ const startListening = () => {
             clearTickers();
         } else if (command === "clear") {
             await clearUnwatchedTickers();
-        } else if (command === "filter-healines") {
+        } else if (command === "toggle-headlines") {
             toggleFilterHeadlines();
             await displayTickersTable();
         } else if (command.startsWith("wl ")) {

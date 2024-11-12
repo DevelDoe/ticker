@@ -62,7 +62,6 @@ export const safeWriteFile = async (filePath, newData) => {
 
         // Write merged data to the file
         await fs.writeFile(filePath, jsonData, "utf8");
-        console.log(`File written successfully to ${filePath}`);
     } catch (error) {
         console.error(`Error writing file at ${filePath}:`, error);
         throw error;

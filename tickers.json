@@ -1,147 +1,14 @@
 {
-  "LEDS": {
-    "ticker": "LEDS",
-    "news": [],
-    "hod": true,
-    "float": "3.35M",
-    "price": "1.88",
-    "time": "00:10:29",
-    "isActive": true,
-    "firstSeen": "2024-11-11T23:10:39.328Z",
-    "lastSeen": "2024-11-12T00:06:23.449Z",
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 1690,
-      "Avg. Daily Volume": 16149.999999999998,
-      "Short Float": "0.05%",
-      "Short Ratio": "0.10"
-    }
-  },
-  "GOVX": {
-    "ticker": "GOVX",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 226080,
-      "Avg. Daily Volume": 4580000,
-      "Short Float": "2.67%",
-      "Short Ratio": "0.05"
-    },
-    "hod": true,
-    "price": "3.82",
-    "lastSeen": "2024-11-12T00:06:23.445Z"
-  },
-  "MAXN": {
-    "ticker": "MAXN",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 992660,
-      "Avg. Daily Volume": 725560,
-      "Short Float": "6.60%",
-      "Short Ratio": "1.37"
-    }
-  },
-  "SUGP": {
-    "ticker": "SUGP",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 4370,
-      "Avg. Daily Volume": 74600,
-      "Short Float": "0.11%",
-      "Short Ratio": "0.06"
-    },
-    "hod": true,
-    "price": "2.45",
-    "lastSeen": "2024-11-12T00:06:23.439Z"
-  },
-  "ALGS": {
-    "ticker": "ALGS",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 82820,
-      "Avg. Daily Volume": 61370,
-      "Short Float": "3.68%",
-      "Short Ratio": "1.35"
-    },
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-252199 (33 Act)  Size: 767 KB",
-        "date": "2024-11-06"
-      }
-    ]
-  },
-  "BCG": {
-    "ticker": "BCG",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 32960,
-      "Avg. Daily Volume": 25460,
-      "Short Float": "0.68%",
-      "Short Ratio": "1.29"
-    }
-  },
-  "FGL": {
-    "ticker": "FGL",
-    "news": [],
-    "isActive": true
-  },
-  "NXL": {
-    "ticker": "NXL",
-    "news": [],
-    "isActive": true,
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001829126-24-002542 (33 Act)  Size: 631 KB",
-        "date": "2024-04-16"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 93400,
-      "Avg. Daily Volume": 166120,
-      "Short Float": "1.15%",
-      "Short Ratio": "0.56"
-    }
-  },
-  "DJT": {
-    "ticker": "DJT",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 13180000,
-      "Avg. Daily Volume": 13460000,
-      "Short Float": "17.54%",
-      "Short Ratio": "0.98"
-    }
-  },
-  "SOND": {
-    "ticker": "SOND",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 900380,
-      "Avg. Daily Volume": 876220,
-      "Short Float": "9.96%",
-      "Short Ratio": "1.03"
-    }
-  },
   "BTM": {
     "ticker": "BTM",
     "news": [],
-    "isActive": true,
+    "hod": true,
+    "float": "5.83M",
+    "price": "2.83",
+    "time": "01:45:49",
+    "isActive": false,
+    "firstSeen": "2024-11-12T08:54:46.284Z",
+    "lastSeen": "2024-11-12T14:38:19.154Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
       "Short Interest": 294900,
@@ -150,16 +17,1255 @@
       "Short Ratio": "3.18"
     }
   },
-  "WKHS": {
-    "ticker": "WKHS",
-    "news": [],
-    "isActive": true,
+  "SUGP": {
+    "ticker": "SUGP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:24:27Z",
+        "headline": "SU Group Secures Largest Contract In Company History With $4.4M Deal; $3.2M To Be Recognized As Revenue In 2024, Remainder In 2025",
+        "id": 41897341,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SUGP"
+        ],
+        "updated_at": "2024-11-12T12:24:27Z",
+        "url": "https://www.benzinga.com/news/24/11/41897341/su-group-secures-largest-contract-in-company-history-with-4-4m-deal-3-2m-to-be-recognized-as-revenue"
+      }
+    ],
+    "hod": true,
+    "float": "3.99M",
+    "price": "2.33",
+    "time": "00:47:23",
+    "isActive": false,
+    "firstSeen": "2024-11-12T08:54:46.294Z",
+    "lastSeen": "2024-11-12T14:47:08.442Z",
     "shorts": {
       "Settlement Date": "Oct 15, 2024",
-      "Short Interest": 5570000,
-      "Avg. Daily Volume": 2130000,
-      "Short Float": "23.87%",
-      "Short Ratio": "2.62"
+      "Short Interest": 4370,
+      "Avg. Daily Volume": 74600,
+      "Short Float": "0.11%",
+      "Short Ratio": "0.06"
+    }
+  },
+  "GOVX": {
+    "ticker": "GOVX",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-11T17:02:12Z",
+        "headline": "Earnings Preview: Geovax Labs",
+        "id": 41883893,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "GOVX"
+        ],
+        "updated_at": "2024-11-11T17:02:13Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/11/41883893/earnings-preview-geovax-labs"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T12:50:54Z",
+        "headline": "Alliance Global Partners Initiates Coverage On Geovax Labs with Buy Rating, Announces Price Target of $15",
+        "id": 41876434,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GOVX"
+        ],
+        "updated_at": "2024-11-11T12:50:54Z",
+        "url": "https://www.benzinga.com/news/24/11/41876434/alliance-global-partners-initiates-coverage-on-geovax-labs-with-buy-rating-announces-price-target-of"
+      }
+    ],
+    "hod": false,
+    "float": "8.48M",
+    "price": "3.5",
+    "time": "00:37:02",
+    "isActive": false,
+    "firstSeen": "2024-11-12T08:54:46.297Z",
+    "lastSeen": "2024-11-12T14:43:02.014Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 226080,
+      "Avg. Daily Volume": 4580000,
+      "Short Float": "2.67%",
+      "Short Ratio": "0.05"
+    }
+  },
+  "CLSK": {
+    "ticker": "CLSK",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T15:19:51Z",
+        "headline": "CleanSpark Shares Resume Trade",
+        "id": 41880673,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CLSK"
+        ],
+        "updated_at": "2024-11-11T15:19:51Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/41880673/cleanspark-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T15:10:05Z",
+        "headline": "Trading Halt: Halt status updated at 10:10:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 41880353,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CLSK"
+        ],
+        "updated_at": "2024-11-11T15:10:05Z",
+        "url": "https://www.benzinga.com/24/11/41880353/trading-halt-halt-status-updated-at-10-10-00-am-et-quotation-resumption-news-and-resumption-times"
+      }
+    ],
+    "hod": false,
+    "float": "249.32M",
+    "price": "18.46",
+    "time": "10:00:32",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:00:33.563Z",
+    "lastSeen": "2024-11-12T09:02:48.965Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 50390000,
+      "Avg. Daily Volume": 23580000,
+      "Short Float": "20.61%",
+      "Short Ratio": "2.14"
+    }
+  },
+  "BTBT": {
+    "ticker": "BTBT",
+    "news": [],
+    "hod": true,
+    "float": "147.05M",
+    "price": "5.57",
+    "time": "10:01:12",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:01:21.757Z",
+    "lastSeen": "2024-11-12T14:38:19.142Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 26480000,
+      "Avg. Daily Volume": 9960000,
+      "Short Float": "18.00%",
+      "Short Ratio": "2.66"
+    }
+  },
+  "BTCT": {
+    "ticker": "BTCT",
+    "news": [],
+    "hod": false,
+    "float": "1.97M",
+    "price": "4.77",
+    "time": "10:01:10",
+    "isActive": true,
+    "firstSeen": "2024-11-12T09:01:21.760Z",
+    "lastSeen": "2024-11-12T14:57:46.364Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 7210,
+      "Avg. Daily Volume": 25000,
+      "Short Float": "0.37%",
+      "Short Ratio": "0.29"
+    }
+  },
+  "NVAX": {
+    "ticker": "NVAX",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-11T21:01:03Z",
+        "headline": "Earnings Outlook For Novavax",
+        "id": 41887699,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-11T21:01:03Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/11/41887699/earnings-outlook-for-novavax"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-11T16:00:41Z",
+        "headline": "Looking Into Novavax's Recent Short Interest",
+        "id": 41882460,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-11T16:00:41Z",
+        "url": "https://www.benzinga.com/insights/short-sellers/24/11/41882460/looking-into-novavaxs-recent-short-interest"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-11-11T13:58:16Z",
+        "headline": "FDA Gives Green Signal To Novavax's COVID-19-Influenza Combo Vaccine Late-Stage Trial",
+        "id": 41878334,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/11/Istanbul--Tr---January-29-2021-Novavax-V.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/11/Istanbul--Tr---January-29-2021-Novavax-V.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/11/Istanbul--Tr---January-29-2021-Novavax-V.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "FDA lifts clinical hold on Novavax&#39;s COVID-19-influenza combo vaccine, clearing path for Phase 3 trials. Novavax to resume trial activities soon.",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-11T13:58:17Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41878334/fda-gives-green-signal-to-novavaxs-covid-19-influenza-combo-vaccine-late-stage-trial"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T13:30:48Z",
+        "headline": "U.S. FDA  Has Removed The Clinical Hold On Novavax's IND Application For Its COVID-19-influenza Combination And Stand-Alone Influenza Vaccine Candidates",
+        "id": 41877634,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-11T13:32:09Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41877634/u-s-fda-removes-clinical-hold-on-novavaxs-covid-19-influenza-combination-and-stand-alone-influenz"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:34:11Z",
+        "headline": "HC Wainwright & Co. Reiterates Buy on Novavax, Maintains $19 Price Target",
+        "id": 41895749,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-12T11:34:11Z",
+        "url": "https://www.benzinga.com/news/24/11/41895749/hc-wainwright-co-reiterates-buy-on-novavax-maintains-19-price-target"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:03:59Z",
+        "headline": "Novavax Q3 2024 GAAP EPS $(0.76) Beats $(0.83) Estimate, Sales $84.51M Beat $65.78M Estimate",
+        "id": 41898772,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-12T13:03:59Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41898772/novavax-q3-2024-gaap-eps-0-76-beats-0-83-estimate-sales-84-51m-beat-65-78m-estimate"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:06:08Z",
+        "headline": "Novavax Expects 2024 Total Revenues Of $650M-$700M Versus Prior Guidance Of $700M-$800M And Consensus Of $761.458M",
+        "id": 41898876,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-12T13:06:08Z",
+        "url": "https://www.benzinga.com/general/biotech/24/11/41898876/novavax-expects-2024-total-revenues-of-650m-700m-versus-prior-guidance-of-700m-800m-and-consensus"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-11-12T14:48:10Z",
+        "headline": "Novavax Lowers 2024 Forecast Despite Q3 Revenue Beat, Stock Falls",
+        "id": 41904976,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/12/Novavax-Vaccine-For-Prevention-Of-Corona.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/12/Novavax-Vaccine-For-Prevention-Of-Corona.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/12/Novavax-Vaccine-For-Prevention-Of-Corona.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Novavax reports Q3 2024 sales of $84.5 million, beating estimates, with a net loss of $121 million. EPS improves, FDA approves new vaccine, and revenue guidance is lowered.",
+        "symbols": [
+          "NVAX"
+        ],
+        "updated_at": "2024-11-12T14:48:11Z",
+        "url": "https://www.benzinga.com/24/11/41904976/novavax-stock-falls-on-lower-2024-revenue-forecast-q3-earnings-beat-consensus-estimates"
+      }
+    ],
+    "hod": false,
+    "float": "153.03M",
+    "price": "9.48",
+    "time": "10:02:05",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:02:48.959Z",
+    "lastSeen": "2024-11-12T09:02:48.959Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 35720000,
+      "Avg. Daily Volume": 6570000,
+      "Short Float": "23.34%",
+      "Short Ratio": "5.44"
+    }
+  },
+  "MAXN": {
+    "ticker": "MAXN",
+    "news": [],
+    "hod": true,
+    "float": "4.54M",
+    "price": "13.21",
+    "time": "10:07:22",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:07:24.482Z",
+    "lastSeen": "2024-11-12T14:43:02.020Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 992660,
+      "Avg. Daily Volume": 725560,
+      "Short Float": "6.60%",
+      "Short Ratio": "1.37"
+    }
+  },
+  "XBP": {
+    "ticker": "XBP",
+    "news": [],
+    "hod": false,
+    "float": "8.35M",
+    "price": "1.82",
+    "time": "10:13:42",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:14:19.804Z",
+    "lastSeen": "2024-11-12T13:30:20.621Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 21880,
+      "Avg. Daily Volume": 24730,
+      "Short Float": "0.26%",
+      "Short Ratio": "0.88"
+    }
+  },
+  "BAER": {
+    "ticker": "BAER",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T21:15:29Z",
+        "headline": "Bridger Aerospace Gr Raises FY2024 Sales Guidance from $70.00M-86.00M to $90.00M-95.00M",
+        "id": 41888022,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BAER"
+        ],
+        "updated_at": "2024-11-11T21:15:30Z",
+        "url": "https://www.benzinga.com/news/24/11/41888022/bridger-aerospace-gr-raises-fy2024-sales-guidance-from-70-00m-86-00m-to-90-00m-95-00m"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T21:13:51Z",
+        "headline": "Bridger Aerospace Gr Q3 2024 GAAP EPS $0.31 Misses $0.46 Estimate, Sales $64.507M Beat $57.500M Estimate",
+        "id": 41888000,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BAER"
+        ],
+        "updated_at": "2024-11-11T21:13:51Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41888000/bridger-aerospace-gr-q3-2024-gaap-eps-0-31-misses-0-46-estimate-sales-64-507m-beat-57-500m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "12.64M",
+    "price": "4.7",
+    "time": "10:21:22",
+    "isActive": false,
+    "firstSeen": "2024-11-12T09:21:42.921Z",
+    "lastSeen": "2024-11-12T09:21:42.921Z",
+    "shorts": {
+      "Settlement Date": "Oct 15, 2024",
+      "Short Interest": 710660,
+      "Avg. Daily Volume": 90140,
+      "Short Float": "5.54%",
+      "Short Ratio": "7.88"
+    }
+  },
+  "EVGO": {
+    "ticker": "EVGO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:03:41Z",
+        "headline": "EVgo Q3 2024 GAAP EPS $(0.11) Beats $(0.12) Estimate, Sales $67.535M Beat $65.952M Estimate",
+        "id": 41896624,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-11-12T12:03:41Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41896624/evgo-q3-2024-gaap-eps-0-11-beats-0-12-estimate-sales-67-535m-beat-65-952m-estimate"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:23:42Z",
+        "headline": "EVgo Raised The Midpoint Of FY24 Total Revenue Guidance By $2.5M  To $250M-$265M Vs. $257.34M Estimate (Prior View: $240M-$270M)",
+        "id": 41897294,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "EVGO"
+        ],
+        "updated_at": "2024-11-12T12:23:42Z",
+        "url": "https://www.benzinga.com/news/24/11/41897294/evgo-raised-the-midpoint-of-fy24-total-revenue-guidance-by-2-5m-to-250m-265m-vs-257-34m-estimate-pri"
+      }
+    ],
+    "hod": false,
+    "float": "99.92M",
+    "price": "5.77",
+    "time": "13:11:43",
+    "isActive": false,
+    "firstSeen": "2024-11-12T12:11:47.963Z",
+    "lastSeen": "2024-11-12T14:46:15.007Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 32689999.999999996,
+      "Avg. Daily Volume": 6960000,
+      "Short Float": "32.72%",
+      "Short Ratio": "4.70"
+    }
+  },
+  "AGFY": {
+    "ticker": "AGFY",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:20:23Z",
+        "headline": "Agrify Corporation To Acquire Señorita Brand Of THC Beverages, Expanding Presence In Hemp-Derived Legal THC Market; Deal Expected To Close By Year-End; Financial Terms Not Disclosed",
+        "id": 41897251,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AGFY"
+        ],
+        "updated_at": "2024-11-12T12:20:24Z",
+        "url": "https://www.benzinga.com/m-a/24/11/41897251/agrify-corporation-to-acquire-se-orita-brand-of-thc-beverages-expanding-presence-in-hemp-derived-leg"
+      }
+    ],
+    "hod": false,
+    "float": "1.33M",
+    "price": "5.65",
+    "time": "13:30:41",
+    "isActive": false,
+    "firstSeen": "2024-11-12T12:31:03.384Z",
+    "lastSeen": "2024-11-12T13:13:14.478Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 27410,
+      "Avg. Daily Volume": 27420,
+      "Short Float": "2.06%",
+      "Short Ratio": "1.00"
+    }
+  },
+  "ZENA": {
+    "ticker": "ZENA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:46:02Z",
+        "headline": "ZenaTech Expands Portfolio with Acquisition Of InterlinkONE And Interactive Systems, Integrates With AI Drone For Autonomous Inventory",
+        "id": 41898040,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZENA"
+        ],
+        "updated_at": "2024-11-12T12:46:03Z",
+        "url": "https://www.benzinga.com/m-a/24/11/41898040/zenatech-expands-portfolio-with-acquisition-of-interlinkone-and-interactive-systems-integrates-with"
+      }
+    ],
+    "hod": false,
+    "float": "8.23M",
+    "price": "2.23",
+    "time": "13:34:57",
+    "isActive": false,
+    "firstSeen": "2024-11-12T12:35:38.182Z",
+    "lastSeen": "2024-11-12T12:35:38.182Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 570530,
+      "Avg. Daily Volume": 4950000,
+      "Short Float": "29.61%",
+      "Short Ratio": "0.12"
+    }
+  },
+  "TSHA": {
+    "ticker": "TSHA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:21:15Z",
+        "headline": "Needham Reiterates Buy on Taysha Gene Therapies, Maintains $6 Price Target",
+        "id": 41895599,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TSHA"
+        ],
+        "updated_at": "2024-11-12T11:21:15Z",
+        "url": "https://www.benzinga.com/news/24/11/41895599/needham-reiterates-buy-on-taysha-gene-therapies-maintains-6-price-target"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:41:06Z",
+        "headline": "Cantor Fitzgerald Reiterates Overweight on Taysha Gene Therapies, Maintains $7 Price Target",
+        "id": 41900133,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TSHA"
+        ],
+        "updated_at": "2024-11-12T13:41:07Z",
+        "url": "https://www.benzinga.com/news/24/11/41900133/cantor-fitzgerald-reiterates-overweight-on-taysha-gene-therapies-maintains-7-price-target"
+      }
+    ],
+    "hod": false,
+    "float": "158.49M",
+    "price": "2.16",
+    "time": "13:43:47",
+    "isActive": false,
+    "firstSeen": "2024-11-12T12:44:20.888Z",
+    "lastSeen": "2024-11-12T14:49:32.935Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 17640000,
+      "Avg. Daily Volume": 1540000,
+      "Short Float": "11.13%",
+      "Short Ratio": "11.48"
+    }
+  },
+  "AMPX": {
+    "ticker": "AMPX",
+    "news": [],
+    "hod": false,
+    "float": "75.28M",
+    "price": "2.68",
+    "time": "14:01:34",
+    "isActive": false,
+    "firstSeen": "2024-11-12T13:02:08.666Z",
+    "lastSeen": "2024-11-12T14:34:25.683Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 4800000,
+      "Avg. Daily Volume": 1260000,
+      "Short Float": "6.08%",
+      "Short Ratio": "3.80"
+    }
+  },
+  "LEDS": {
+    "ticker": "LEDS",
+    "news": [],
+    "hod": false,
+    "float": "3.35M",
+    "price": "1.77",
+    "time": "14:22:57",
+    "isActive": false,
+    "firstSeen": "2024-11-12T13:23:26.142Z",
+    "lastSeen": "2024-11-12T14:31:07.234Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 2670,
+      "Avg. Daily Volume": 12970,
+      "Short Float": "0.08%",
+      "Short Ratio": "0.21"
+    }
+  },
+  "SIDU": {
+    "ticker": "SIDU",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:36:34Z",
+        "headline": "Sidus Space Chosen As Exclusive Builder For Lonestar's Lunar Data Storage Spacecraft Fleet; Six LizzieSat Satellites To Deliver Critical Data Storage And Disaster Recovery Solutions",
+        "id": 41900033,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SIDU"
+        ],
+        "updated_at": "2024-11-12T13:36:35Z",
+        "url": "https://www.benzinga.com/news/24/11/41900033/sidus-space-chosen-as-exclusive-builder-for-lonestars-lunar-data-storage-spacecraft-fleet-six-lizzie"
+      }
+    ],
+    "hod": false,
+    "float": "3.75M",
+    "price": "2.57",
+    "time": "14:31:44",
+    "isActive": false,
+    "firstSeen": "2024-11-12T13:31:46.469Z",
+    "lastSeen": "2024-11-12T13:51:36.807Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 504970,
+      "Avg. Daily Volume": 439420,
+      "Short Float": "13.47%",
+      "Short Ratio": "1.15"
+    }
+  },
+  "RSLS": {
+    "ticker": "RSLS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T13:37:20Z",
+        "headline": "ReShape Lifesciences shares are trading higher after the NIH, with the University of Southern California's Center for Autonomic Nerve Recording and Stimulation Systems, awarded the company an approximately $241,000 supplementary grant for the development of the next-generation electrodes for ReShape's Diabetes Bloc-Stim Neuromodulation device.",
+        "id": 41877752,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RSLS"
+        ],
+        "updated_at": "2024-11-11T15:02:03Z",
+        "url": "https://www.benzinga.com/wiim/24/11/41877752/reshape-lifesciences-shares-are-trading-higher-after-the-nih-with-the-university-of-southern-califor"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T13:33:17Z",
+        "headline": "ReShape Lifesciences Secures $241K NIH Grant With USC's CARSS To Advance Next-Gen Electrodes For Diabetes Bloc-Stim Neuromodulation Technology",
+        "id": 41877675,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RSLS"
+        ],
+        "updated_at": "2024-11-11T13:33:17Z",
+        "url": "https://www.benzinga.com/news/24/11/41877675/reshape-lifesciences-secures-241k-nih-grant-with-uscs-carss-to-advance-next-gen-electrodes-for-diabe"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:32:01Z",
+        "headline": "ReShape Lifesciences Gains Health Canada Approval For Next-Gen Lap-Band 2.0 FLEX; Enhanced Design With Flex Technology Aims To Improve Patient Experience And Prepares For Canadian Launch",
+        "id": 41899960,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RSLS"
+        ],
+        "updated_at": "2024-11-12T13:32:01Z",
+        "url": "https://www.benzinga.com/news/24/11/41899960/reshape-lifesciences-gains-health-canada-approval-for-next-gen-lap-band-2-0-flex-enhanced-design-wit"
+      }
+    ],
+    "hod": false,
+    "float": "468.95K",
+    "price": "6.19",
+    "time": "14:32:35",
+    "isActive": false,
+    "firstSeen": "2024-11-12T13:32:52.152Z",
+    "lastSeen": "2024-11-12T13:32:52.152Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001544784-24-000045 (33 Act)  Size: 287 KB",
+        "date": "2024-05-09"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 25010,
+      "Avg. Daily Volume": 187250,
+      "Short Float": "5.32%",
+      "Short Ratio": "0.13"
+    }
+  },
+  "VSTE": {
+    "ticker": "VSTE",
+    "news": [],
+    "hod": false,
+    "float": "2.08M",
+    "price": "1.9",
+    "time": "15:01:35",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:01:44.739Z",
+    "lastSeen": "2024-11-12T14:01:44.739Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 692000,
+      "Avg. Daily Volume": 917450,
+      "Short Float": "33.27%",
+      "Short Ratio": "0.75"
+    }
+  },
+  "NVRO": {
+    "ticker": "NVRO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:11:23Z",
+        "headline": "Nevro Has Received CE Mark Certification In Europe For Its HFX iQ Spinal Cord Stimulation System",
+        "id": 41899141,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVRO"
+        ],
+        "updated_at": "2024-11-12T13:11:24Z",
+        "url": "https://www.benzinga.com/news/24/11/41899141/nevro-has-received-ce-mark-certification-in-europe-for-its-hfx-iq-spinal-cord-stimulation-system"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:35:52Z",
+        "headline": "Baird Maintains Neutral on Nevro, Raises Price Target to $6",
+        "id": 41897621,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVRO"
+        ],
+        "updated_at": "2024-11-12T12:35:53Z",
+        "url": "https://www.benzinga.com/news/24/11/41897621/baird-maintains-neutral-on-nevro-raises-price-target-to-6"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:59:29Z",
+        "headline": "Piper Sandler Maintains Underweight on Nevro, Lowers Price Target to $6",
+        "id": 41896340,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVRO"
+        ],
+        "updated_at": "2024-11-12T11:59:30Z",
+        "url": "https://www.benzinga.com/news/24/11/41896340/piper-sandler-maintains-underweight-on-nevro-lowers-price-target-to-6"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T21:11:34Z",
+        "headline": "Nevro Sees FY24 Revenue $400M-$405M Vs $402.55M Est.",
+        "id": 41887983,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVRO"
+        ],
+        "updated_at": "2024-11-11T21:11:34Z",
+        "url": "https://www.benzinga.com/news/24/11/41887983/nevro-sees-fy24-revenue-400m-405m-vs-402-55m-est"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-11T21:08:02Z",
+        "headline": "Nevro Q3 EPS $(0.41) Beats $(0.76) Estimate, Sales $96.91M Beat $93.07M Estimate",
+        "id": 41887866,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVRO"
+        ],
+        "updated_at": "2024-11-11T21:08:03Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41887866/nevro-q3-eps-0-41-beats-0-76-estimate-sales-96-91m-beat-93-07m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "35.17M",
+    "price": "6.73",
+    "time": "15:20:25",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:20:38.181Z",
+    "lastSeen": "2024-11-12T14:20:38.181Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 3140000,
+      "Avg. Daily Volume": 612490,
+      "Short Float": "8.91%",
+      "Short Ratio": "5.12"
+    }
+  },
+  "AZI": {
+    "ticker": "AZI",
+    "news": [],
+    "hod": false,
+    "float": "29.25M",
+    "price": "3.23",
+    "time": "15:20:43",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:21:45.623Z",
+    "lastSeen": "2024-11-12T14:21:45.623Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 3360,
+      "Avg. Daily Volume": 378140,
+      "Short Float": "N/A",
+      "Short Ratio": "0.01"
+    }
+  },
+  "CCLD": {
+    "ticker": "CCLD",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:14:49Z",
+        "headline": "CareCloud Sees FY24 Revenue $109M-$111M Vs $111.119M Est.",
+        "id": 41897038,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CCLD"
+        ],
+        "updated_at": "2024-11-12T12:14:50Z",
+        "url": "https://www.benzinga.com/news/24/11/41897038/carecloud-sees-fy24-revenue-109m-111m-vs-111-119m-est"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:07:58Z",
+        "headline": "CareCloud Q3 2024 Adj. EPS $0.21 Beats $(0.14) Estimate, Sales $28.546M Beat $28.525M Estimate",
+        "id": 41896693,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CCLD"
+        ],
+        "updated_at": "2024-11-12T12:07:58Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41896693/carecloud-q3-2024-adj-eps-0-21-beats-0-14-estimate-sales-28-546m-beat-28-525m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "8.29M",
+    "price": "3.27",
+    "time": "15:25:31",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:25:49.015Z",
+    "lastSeen": "2024-11-12T14:29:34.571Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 50590,
+      "Avg. Daily Volume": 78510,
+      "Short Float": "0.61%",
+      "Short Ratio": "0.64"
+    }
+  },
+  "PLL": {
+    "ticker": "PLL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:53:18Z",
+        "headline": "Piedmont Lithium Q3 2024 Adj. EPS $(0.42) Beats $(0.58) Estimate, Sales $27.700M Miss $28.189M Estimate",
+        "id": 41896258,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLL"
+        ],
+        "updated_at": "2024-11-12T11:53:18Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41896258/piedmont-lithium-q3-2024-adj-eps-0-42-beats-0-58-estimate-sales-27-700m-miss-28-189m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "17.81M",
+    "price": "12.86",
+    "time": "15:27:44",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:27:52.694Z",
+    "lastSeen": "2024-11-12T14:28:38.216Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001140361-24-041077 (33 Act)  Size: 1 MB",
+        "date": "2024-09-13"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 3640000,
+      "Avg. Daily Volume": 825830,
+      "Short Float": "20.44%",
+      "Short Ratio": "4.41"
+    }
+  },
+  "TGI": {
+    "ticker": "TGI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:16:32Z",
+        "headline": "Triumph Group Continues To Expect FY25 Net Sales Of Approximately $1.2B (Est $1.209B), Raises Adjusted EPS Outlook From $0.52 To Range Of $0.70 - $0.76 (Est $0.41)",
+        "id": 41895371,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TGI"
+        ],
+        "updated_at": "2024-11-12T11:16:32Z",
+        "url": "https://www.benzinga.com/news/24/11/41895371/triumph-group-continues-to-expect-fy25-net-sales-of-approximately-1-2b-est-1-209b-raises-adjusted-ep"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T11:02:08Z",
+        "headline": "Triumph Group Q2 2025 Adj EPS $0.20 Beats $0.01 Estimate, Sales $287.50M Beat $283.09M Estimate",
+        "id": 41895086,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TGI"
+        ],
+        "updated_at": "2024-11-12T11:02:08Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41895086/triumph-group-q2-2025-adj-eps-0-20-beats-0-01-estimate-sales-287-50m-beat-283-09m-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "75.68M",
+    "price": "19.35",
+    "time": "15:28:14",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:28:38.216Z",
+    "lastSeen": "2024-11-12T14:28:38.216Z",
+    "filings": [
+      {
+        "formType": "S-3ASR",
+        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-175120 (33 Act)  Size: 646 KB",
+        "date": "2024-07-03"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 8720000,
+      "Avg. Daily Volume": 1010000,
+      "Short Float": "11.52%",
+      "Short Ratio": "8.60"
+    }
+  },
+  "RVNC": {
+    "ticker": "RVNC",
+    "news": [],
+    "hod": true,
+    "float": "95.70M",
+    "price": "4.18",
+    "time": "15:29:51",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:31:07.234Z",
+    "lastSeen": "2024-11-12T14:48:12.816Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 10000000,
+      "Avg. Daily Volume": 4650000,
+      "Short Float": "10.45%",
+      "Short Ratio": "2.15"
+    }
+  },
+  "ALT": {
+    "ticker": "ALT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T13:47:53Z",
+        "headline": "UBS Initiates Coverage On Altimmune with Buy Rating, Announces Price Target of $26",
+        "id": 41900493,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALT"
+        ],
+        "updated_at": "2024-11-12T13:47:54Z",
+        "url": "https://www.benzinga.com/news/24/11/41900493/ubs-initiates-coverage-on-altimmune-with-buy-rating-announces-price-target-of-26"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:01:57Z",
+        "headline": "Altimmune Q3 2024 GAAP EPS $(0.32) Beats $(0.36) Estimate, Sales $5.000K Beat $833.330 Estimate",
+        "id": 41896547,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALT"
+        ],
+        "updated_at": "2024-11-12T12:01:57Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/41896547/altimmune-q3-2024-gaap-eps-0-32-beats-0-36-estimate-sales-5-000k-beat-833-330-estimate"
+      }
+    ],
+    "hod": false,
+    "float": "70.48M",
+    "price": "8.8",
+    "time": "15:34:23",
+    "isActive": true,
+    "firstSeen": "2024-11-12T14:34:25.678Z",
+    "lastSeen": "2024-11-12T14:57:10.360Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 22940000,
+      "Avg. Daily Volume": 2190000,
+      "Short Float": "32.54%",
+      "Short Ratio": "10.49"
+    }
+  },
+  "GENI": {
+    "ticker": "GENI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T12:48:41Z",
+        "headline": "Needham Reiterates Buy on Genius Sports, Maintains $9 Price Target",
+        "id": 41898065,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GENI"
+        ],
+        "updated_at": "2024-11-12T12:48:42Z",
+        "url": "https://www.benzinga.com/news/24/11/41898065/needham-reiterates-buy-on-genius-sports-maintains-9-price-target"
+      }
+    ],
+    "hod": true,
+    "float": "184.54M",
+    "price": "9.66",
+    "time": "15:35:46",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:35:57.035Z",
+    "lastSeen": "2024-11-12T14:39:48.662Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 24430000,
+      "Avg. Daily Volume": 2710000,
+      "Short Float": "13.24%",
+      "Short Ratio": "9.00"
+    }
+  },
+  "ASPI": {
+    "ticker": "ASPI",
+    "news": [],
+    "hod": true,
+    "float": "44.99M",
+    "price": "8.93",
+    "time": "15:41:01",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:41:43.626Z",
+    "lastSeen": "2024-11-12T14:41:43.626Z",
+    "filings": [
+      {
+        "formType": "S-3MEF",
+        "description": "Registration adding securities to prior Form S-3 registration [Rule 462(b)]\nAcc-no: 0001477932-24-006805 (33 Act)  Size: 110 KB",
+        "date": "2024-10-31"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 10800000,
+      "Avg. Daily Volume": 2190000,
+      "Short Float": "25.63%",
+      "Short Ratio": "4.93"
+    }
+  },
+  "MULN": {
+    "ticker": "MULN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-12T14:19:51Z",
+        "headline": "Mullen's Class 1 EV Cargo Van Now Available For Rental On Turo, Meeting Rising Demand For Compact, Sustainable Urban Transport",
+        "id": 41902481,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MULN"
+        ],
+        "updated_at": "2024-11-12T14:19:52Z",
+        "url": "https://www.benzinga.com/news/24/11/41902481/mullens-class-1-ev-cargo-van-now-available-for-rental-on-turo-meeting-rising-demand-for-compact-sust"
+      }
+    ],
+    "hod": true,
+    "float": "5.25M",
+    "price": "2.03",
+    "time": "15:47:19",
+    "isActive": true,
+    "firstSeen": "2024-11-12T14:48:12.816Z",
+    "lastSeen": "2024-11-12T14:55:40.324Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 1090000,
+      "Avg. Daily Volume": 1490000,
+      "Short Float": "20.77%",
+      "Short Ratio": "0.73"
+    }
+  },
+  "SGMO": {
+    "ticker": "SGMO",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-11T16:05:07Z",
+        "headline": "Sangamo Therapeutics's Earnings Outlook",
+        "id": 41882602,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "SGMO"
+        ],
+        "updated_at": "2024-11-11T16:05:07Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/11/41882602/sangamo-therapeuticss-earnings-outlook"
+      }
+    ],
+    "hod": true,
+    "float": "198.63M",
+    "price": "2.8",
+    "time": "15:49:27",
+    "isActive": false,
+    "firstSeen": "2024-11-12T14:49:32.935Z",
+    "lastSeen": "2024-11-12T14:50:35.648Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 18980000,
+      "Avg. Daily Volume": 8980000,
+      "Short Float": "9.55%",
+      "Short Ratio": "2.11"
+    }
+  },
+  "LTBR": {
+    "ticker": "LTBR",
+    "news": [],
+    "hod": false,
+    "float": "13.64M",
+    "price": "9.24",
+    "time": "15:55:34",
+    "isActive": true,
+    "firstSeen": "2024-11-12T14:55:40.319Z",
+    "lastSeen": "2024-11-12T14:55:40.319Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001477932-24-001619 (33 Act)  Size: 497 KB",
+        "date": "2024-03-29"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 1310000,
+      "Avg. Daily Volume": 1160000,
+      "Short Float": "9.60%",
+      "Short Ratio": "1.13"
+    }
+  },
+  "CDXC": {
+    "ticker": "CDXC",
+    "news": [],
+    "hod": false,
+    "float": "48.22M",
+    "price": "7.42",
+    "time": "15:57:01",
+    "isActive": true,
+    "firstSeen": "2024-11-12T14:57:10.350Z",
+    "lastSeen": "2024-11-12T14:57:10.350Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 2600000,
+      "Avg. Daily Volume": 268000,
+      "Short Float": "5.40%",
+      "Short Ratio": "9.71"
     }
   }
 }
