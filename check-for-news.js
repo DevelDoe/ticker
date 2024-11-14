@@ -143,7 +143,7 @@ const updateTickersWithNews = (ticker, news) => {
     news.forEach(newsItem => {
         // Filter out news where the `symbols` array contains more than just the ticker
         if (newsItem.symbols.length !== 1 || newsItem.symbols[0] !== ticker) {
-            console.log(`Skipping news for ticker ${ticker} because it includes multiple symbols:`, newsItem.symbols);
+            if(verbose) console.log(`Skipping news for ticker ${ticker} because it includes multiple symbols:`, newsItem.symbols);
             return; // Skip if there are other symbols besides the ticker
         }
 
@@ -155,7 +155,12 @@ const updateTickersWithNews = (ticker, news) => {
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
         } else {
-            console.log(`News for ticker ${ticker} already processed: ${newsItem.headline}`);
+            if(verbose) {
+                console.log(`News for ticker ${ticker} already processed: ${newsItem.headline}`);
+            } else {
+                console.log(`News for ticker ${ticker} already processed`);
+            }
+            
         }
     });
 
@@ -170,17 +175,28 @@ const updateTickersWithNews = (ticker, news) => {
 
 // Collect and process news for tickers
 const collectAllNews = async (tickers) => {
+    let updatesMade = false; // Track if any updates were made
+    
     for (const ticker of tickers) {
         console.log(`Fetching news for ticker: ${ticker}`);
         const newsData = await getNewsForTicker(ticker); // Fetch news based on mode
         if (newsData && newsData.length > 0) {
+            const initialNewsCount = tickersData[ticker]?.news?.length || 0;
             updateTickersWithNews(ticker, newsData);
+            if (tickersData[ticker]?.news?.length > initialNewsCount) {
+                updatesMade = true; // Mark if new news was added
+            }
         } else {
             console.log(`No news found for ticker: ${ticker}`);
         }
     }
-    await writeTickersToFile(); // Write the updated data back to the file
+    if (updatesMade) {
+        await writeTickersToFile(); // Write only if updates were made
+    } else if (verbose) {
+        console.log("No new updates to write to tickers.json");
+    }
 };
+
 
 // Process tickers, fetch news, and print results
 const processTickers = async () => {

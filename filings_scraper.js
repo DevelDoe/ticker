@@ -19,9 +19,14 @@ const logVerbose = (message) => {
     if (verbose) console.log(`VERBOSE: ${message}`);
 };
 
+// New logging function for non-verbose mode
+const logStatus = (message) => {
+    if (!verbose) console.log(message);
+};
+
 const readTickersFromFile = async () => {
     try {
-        logVerbose(`Attempting to read tickers from ${tickerFilePath}`);
+        logStatus("Reading tickers...");
         const data = await safeReadFile(tickerFilePath);
         return typeof data === "object" ? data : JSON.parse(data);
     } catch (err) {
@@ -48,6 +53,8 @@ const fetchFilingsData = async (ticker, attempt = 1) => {
         await new Promise(resolve => setTimeout(resolve, delay));
 
         logVerbose(`Fetching filings for ${ticker} (Attempt ${attempt})`);
+        logStatus(`Checking filings for ${ticker}...`);
+        
         const url = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&ticker=${ticker}`;
         
         browser = await puppeteer.launch({
@@ -59,7 +66,7 @@ const fetchFilingsData = async (ticker, attempt = 1) => {
         const page = await browser.newPage();
         const response = await page.goto(url, { waitUntil: "domcontentloaded" });
         if (!response || !response.ok()) {
-            console.error(`Failed to load page for ${ticker}. Status: ${response ? response.status() : "No response"}`);
+            logStatus(`Failed to load page for ${ticker} (Attempt ${attempt})`);
             if (attempt <= 3 && response.status() === 429) {
                 retryPool.push(ticker);
                 return null;
@@ -98,8 +105,10 @@ const updateFilingsInFile = async (ticker, filingsData, filingsJson) => {
             filingsJson[ticker] = filingsData;
             await safeWriteFile(filingsFilePath, filingsJson);
             logVerbose(`Successfully wrote filings for ${ticker} to ${filingsFilePath}`);
+            logStatus(`Updated filings for ${ticker}`);
         } else {
             logVerbose(`No new filings data for ${ticker}`);
+            logStatus(`No updates needed for ${ticker}`);
         }
     } catch (error) {
         console.error(`Error updating filings for ${ticker}:`, error.message);
@@ -116,11 +125,13 @@ const processNewTickers = async () => {
         processedTickers.add(ticker);
         if (filingsData) await updateFilingsInFile(ticker, filingsData, filingsJson);
     }
+    logStatus("Completed processing new tickers.");
 };
 
 const retryFailedTickers = async () => {
     if (retryPool.length === 0) return;
     logVerbose(`Retrying ${retryPool.length} tickers from retry pool`);
+    logStatus(`Retrying failed tickers...`);
 
     const filingsJson = await readFilingsFile();
     for (const ticker of retryPool) {
@@ -130,12 +141,15 @@ const retryFailedTickers = async () => {
             retryPool.splice(retryPool.indexOf(ticker), 1);
         }
     }
+    logStatus("Completed retrying failed tickers.");
 };
 
 const main = async () => {
     if (verbose) logVerbose("Starting filings scraper...");
+    logStatus("Starting filings processing...");
     await processNewTickers();
     await retryFailedTickers();
+    logStatus("Filings processing completed.");
 };
 
 const watchFile = () => {
@@ -145,7 +159,7 @@ const watchFile = () => {
             if (fileChangeTimeout) clearTimeout(fileChangeTimeout);
             fileChangeTimeout = setTimeout(async () => {
                 isProcessing = true;
-                console.log("tickers.json changed. Processing new tickers...");
+                console.log("Detected changes in tickers.json. Reprocessing tickers...");
                 await main();
                 isProcessing = false;
             }, Math.floor(Math.random() * 3000) + 2000);

@@ -18,8 +18,6 @@ const watchlistFilePath = "watchlist.json"; // Path for the watchlist
 const shortsFilePath = "shorts.json"; // Declare shortsFilePath
 const filingsFilePath = "filings.json"; // Path for filings
 
-
-
 let filterHeadlinesActive = false; // State for filtering headlines
 const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
 let previousHodStatus = {}; // Stores the previous HOD status of each ticker
@@ -64,9 +62,8 @@ const sanitizeTicker = (ticker) => {
 
 // Function to set a date to midnight (00:00:00)
 const setToMidnight = (date) => {
-    const newDate = new Date(date);
-    newDate.setHours(0, 0, 0, 0);
-    return newDate;
+    const localMidnight = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0);
+    return localMidnight;
 };
 
 // Function to check if the ticker files need to be wiped
@@ -83,11 +80,16 @@ const checkAndWipeIfNeeded = async () => {
 
         if (currentDateAtMidnight > lastWipeAtMidnight) {
             console.log("Wiping ticker, filings, and shorts files for a new day...");
-            
+
             // Wipe each of the files by resetting their contents to empty objects
-            await safeWriteFile(tickerFilePath, {});
-            await safeWriteFile(filingsFilePath, {});
-            await safeWriteFile(shortsFilePath, {});
+            await fsPromises.writeFile(tickerFilePath, JSON.stringify({}, null, 2));
+            console.log("tickerFilePath wiped successfully.");
+
+            await fsPromises.writeFile(filingsFilePath, JSON.stringify({}, null, 2));
+            console.log("filingsFilePath wiped successfully.");
+
+            await fsPromises.writeFile(shortsFilePath, JSON.stringify({}, null, 2));
+            console.log("shortsFilePath wiped successfully.");
 
             console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
             await fsPromises.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
@@ -248,9 +250,7 @@ const displayTickersTable = async () => {
         });
 
         // Filter tickers based on the headline filter
-        let filteredTickers = Object.values(tickers).filter(
-            (ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0))
-        );
+        let filteredTickers = Object.values(tickers).filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0)));
 
         // If filterHeadlinesActive is true, sort by the latest headline's timestamp
         if (filterHeadlinesActive) {
@@ -287,14 +287,7 @@ const displayTickersTable = async () => {
             formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
             previousPrices[ticker.ticker] = ticker.price;
 
-            table.push([
-                coloredTicker,
-                formattedNews,
-                filingInfo,
-                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
-                ticker.float || "",
-                formattedPrice,
-            ]);
+            table.push([coloredTicker, formattedNews, filingInfo, ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "", ticker.float || "", formattedPrice]);
 
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
         });
@@ -305,8 +298,6 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
-
-
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
@@ -644,7 +635,7 @@ const init = async () => {
     startListening();
     startWatchingFile();
     startTickerClearSchedule();
-    watchShortsFile(); 
+    watchShortsFile();
     watchFilingsFile(); // Watch filings.json for updates
 };
 
