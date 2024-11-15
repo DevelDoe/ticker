@@ -18,7 +18,7 @@ const watchlistFilePath = "watchlist.json"; // Path for the watchlist
 const shortsFilePath = "shorts.json"; // Declare shortsFilePath
 const filingsFilePath = "filings.json"; // Path for filings
 
-let filterHeadlinesActive = false; // State for filtering headlines
+let filterHeadlinesActive = true; // State for filtering headlines
 const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
 let previousHodStatus = {}; // Stores the previous HOD status of each ticker
 let previousPrices = {}; // Stores the last price for each ticker, declared globally
@@ -232,11 +232,7 @@ const formatShortInterest = (value) => {
     return value.toString();
 };
 
-/**
- * Displays tickers in a formatted table with color-coded data based on activity.
- * @async
- * @function displayTickersTable
- */
+// Displays tickers in a formatted table with color-coded data based on activity.
 const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
@@ -318,7 +314,6 @@ const clearTickers = async () => {
     }
 };
 
-// Function to append or update a ticker in the JSON file
 // Function to append or update a ticker in the JSON file
 const appendTicker = async (sanitizedTicker) => {
     logVerbose(`Appending ticker: ${sanitizedTicker}`);
@@ -462,7 +457,7 @@ const startListening = () => {
             clearTickers();
         } else if (command === "clear") {
             await clearUnwatchedTickers();
-        } else if (command === "toggle-headlines") {
+        } else if (command === "toggle-hl") {
             toggleFilterHeadlines();
             await displayTickersTable();
         } else if (command.startsWith("wl ")) {

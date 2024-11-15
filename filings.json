@@ -1,1 +1,54 @@
-{}
+{
+  "BTCS": [
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-038153 (33 Act)  Size: 289 KB",
+      "date": "2024-09-25"
+    }
+  ],
+  "CIFR": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-212171 (33 Act)  Size: 1 MB",
+      "date": "2024-09-03"
+    }
+  ],
+  "ACHR": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001104659-24-117109 (33 Act)  Size: 604 KB",
+      "date": "2024-11-13"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-088945 (33 Act)  Size: 721 KB",
+      "date": "2024-08-13"
+    }
+  ],
+  "PULM": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-020420 (33 Act)  Size: 797 KB",
+      "date": "2024-05-17"
+    }
+  ],
+  "NN": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-050052 (33 Act)  Size: 447 KB",
+      "date": "2024-06-05"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-050051 (33 Act)  Size: 588 KB",
+      "date": "2024-06-05"
+    }
+  ],
+  "ZETA": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-213081 (33 Act)  Size: 1 MB",
+      "date": "2024-09-04"
+    }
+  ]
+}
