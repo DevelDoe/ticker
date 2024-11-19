@@ -1,1028 +1,354 @@
 {
-  "MULN": {
-    "ticker": "MULN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T14:02:07Z",
-        "headline": "Mullen Automotive Inc. Partners With National Auto Fleet Group To Sell Its Class 4 Bollinger B4 Trucks To Government Agencies Through Class 4 Bollinger B4's Sourcewell-Awarded Contract",
-        "id": 42008819,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MULN"
-        ],
-        "updated_at": "2024-11-15T14:02:07Z",
-        "url": "https://www.benzinga.com/news/24/11/42008819/mullen-automotive-inc-partners-with-national-auto-fleet-group-to-sell-its-class-4-bollinger-b4-truck"
-      }
-    ],
+  "WISA": {
+    "ticker": "WISA",
+    "news": [],
     "hod": false,
-    "float": "8.67M",
-    "price": "3.89",
-    "time": "00:57:57",
-    "isActive": false,
-    "firstSeen": "2024-11-15T08:44:26.556Z",
-    "lastSeen": "2024-11-15T14:01:39.826Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 1090000,
-      "Avg. Daily Volume": 1490000,
-      "Short Float": "20.77%",
-      "Short Ratio": "0.73"
-    }
-  },
-  "QUBT": {
-    "ticker": "QUBT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T06:59:16Z",
-        "headline": "Reported Earlier, Quantum Computing Secures $40M Through Registered Direct Offering, Pricing 16M Shares At $2.50 Each in At-the-Market Deal",
-        "id": 42000622,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "QUBT"
-        ],
-        "updated_at": "2024-11-15T06:59:17Z",
-        "url": "https://www.benzinga.com/news/24/11/42000622/reported-earlier-quantum-computing-secures-40m-through-registered-direct-offering-pricing-16m-shares"
-      },
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2024-11-15T13:33:01Z",
-        "headline": "Quantum Computing Dives After $40M Stock Offering - What's Going On?",
-        "id": 42007920,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/15/Quantum-Computing.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/15/Quantum-Computing.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/15/Quantum-Computing.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Quantum Computing declines premarket after announcing a direct offering to raise $40 million. ",
-        "symbols": [
-          "QUBT"
-        ],
-        "updated_at": "2024-11-15T13:33:02Z",
-        "url": "https://www.benzinga.com/news/offerings/24/11/42007920/quantum-computing-dives-after-40m-stock-offering-whats-going-on"
-      }
-    ],
-    "hod": false,
-    "float": "37.48M",
-    "price": "4.4",
-    "time": "00:36:46",
-    "isActive": false,
-    "firstSeen": "2024-11-15T08:44:26.566Z",
-    "lastSeen": "2024-11-15T08:44:26.566Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 4360000,
-      "Avg. Daily Volume": 1140000,
-      "Short Float": "6.04%",
-      "Short Ratio": "3.83"
-    }
-  },
-  "GREE": {
-    "ticker": "GREE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T22:47:58Z",
-        "headline": "Greenidge Says New York Supreme Court Judge Rejected Department Of Environmental Conservation's Action To Deny Its Application For Renewal Of Title V Air Permit",
-        "id": 41994825,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "GREE"
-        ],
-        "updated_at": "2024-11-14T22:47:59Z",
-        "url": "https://www.benzinga.com/news/24/11/41994825/greenidge-says-new-york-supreme-court-judge-rejected-department-of-environmental-conservations-actio"
-      }
-    ],
-    "hod": false,
-    "float": "10.73M",
-    "price": "3.08",
-    "time": "10:00:49",
+    "float": "5.56M",
+    "price": "2.18",
+    "time": "14:01:14",
     "isActive": true,
-    "firstSeen": "2024-11-15T09:00:50.920Z",
-    "lastSeen": "2024-11-15T14:46:12.127Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-025637 (33 Act)  Size: 432 KB",
-        "date": "2024-05-29"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 288820,
-      "Avg. Daily Volume": 196460,
-      "Short Float": "3.79%",
-      "Short Ratio": "1.47"
-    }
+    "firstSeen": "2024-11-18T13:01:23.544Z",
+    "lastSeen": "2024-11-18T13:13:03.739Z"
   },
-  "IBG": {
-    "ticker": "IBG",
+  "NTLA": {
+    "ticker": "NTLA",
     "news": [],
     "hod": false,
-    "float": "3.63M",
-    "price": "1.81",
-    "time": "10:01:08",
-    "isActive": false,
-    "firstSeen": "2024-11-15T09:02:01.598Z",
-    "lastSeen": "2024-11-15T09:02:01.598Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 7640,
-      "Avg. Daily Volume": 686880,
-      "Short Float": "N/A",
-      "Short Ratio": "0.01"
-    }
-  },
-  "MDCX": {
-    "ticker": "MDCX",
-    "news": [],
-    "hod": false,
-    "float": "0",
-    "price": "5",
-    "time": "10:05:10",
-    "isActive": false,
-    "firstSeen": "2024-11-15T09:05:29.292Z",
-    "lastSeen": "2024-11-15T09:05:29.292Z"
-  },
-  "ALCE": {
-    "ticker": "ALCE",
-    "news": [],
-    "hod": false,
-    "float": "480.38K",
-    "price": "1.95",
-    "time": "10:12:50",
-    "isActive": false,
-    "firstSeen": "2024-11-15T09:12:49.339Z",
-    "lastSeen": "2024-11-15T12:35:06.976Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 27570,
-      "Avg. Daily Volume": 182630,
-      "Short Float": "5.87%",
-      "Short Ratio": "0.15"
-    }
-  },
-  "BENF": {
-    "ticker": "BENF",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T21:47:35Z",
-        "headline": "Beneficient Q2 2025 Revenue $8.6M Vs $(42.8M) YoY",
-        "id": 41992246,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BENF"
-        ],
-        "updated_at": "2024-11-14T21:47:36Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41992246/beneficient-q2-2025-revenue-8-6m-vs-42-8m-yoy"
-      }
-    ],
-    "hod": false,
-    "float": "4.01M",
-    "price": "1.89",
-    "time": "10:28:56",
+    "float": "100.10M",
+    "price": "16.64",
+    "time": "14:01:12",
     "isActive": true,
-    "firstSeen": "2024-11-15T09:29:25.553Z",
-    "lastSeen": "2024-11-15T14:54:10.625Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 134680,
-      "Avg. Daily Volume": 3810000,
-      "Short Float": "3.77%",
-      "Short Ratio": "0.04"
-    }
+    "firstSeen": "2024-11-18T13:01:23.547Z",
+    "lastSeen": "2024-11-18T13:01:23.547Z"
   },
-  "KXIN": {
-    "ticker": "KXIN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T13:33:38Z",
-        "headline": "Kaixin Holdings shares are trading higher after the company announced it is actively considering the acquisition of a controlling equity interest in a cryptocurrency mining company based in the Middle East.",
-        "id": 41971536,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "KXIN"
-        ],
-        "updated_at": "2024-11-14T15:23:51Z",
-        "url": "https://www.benzinga.com/wiim/24/11/41971536/kaixin-holdings-shares-are-trading-higher-after-the-company-announced-it-is-actively-considering-the"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T13:33:14Z",
-        "headline": "Kaixin Holdings Says It Is Actively Considering The Acquisition Of A Controlling Equity Interest In A Cryptocurrency Mining Company Based In The Middle East",
-        "id": 41971524,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "KXIN"
-        ],
-        "updated_at": "2024-11-14T13:33:15Z",
-        "url": "https://www.benzinga.com/markets/cryptocurrency/24/11/41971524/kaixin-holdings-says-it-is-actively-considering-the-acquisition-of-a-controlling-equity-in"
-      }
-    ],
-    "hod": false,
-    "float": "904.71K",
-    "price": "3.09",
-    "time": "10:51:29",
-    "isActive": false,
-    "firstSeen": "2024-11-15T09:51:34.232Z",
-    "lastSeen": "2024-11-15T09:51:34.232Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 73250,
-      "Avg. Daily Volume": 581250,
-      "Short Float": "8.14%",
-      "Short Ratio": "0.13"
-    }
-  },
-  "BTCS": {
-    "ticker": "BTCS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T13:36:08Z",
-        "headline": "BTCS Q4 EPS $(0.56) Misses $(0.06) Estimate, Sales $700.00K Beat $600.00K Estimate",
-        "id": 41971688,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BTCS"
-        ],
-        "updated_at": "2024-11-14T13:36:09Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41971688/btcs-q4-eps-0-56-misses-0-06-estimate-sales-700-00k-beat-600-00k-estimate"
-      }
-    ],
-    "hod": false,
-    "float": "9.22M",
-    "price": "5.19",
-    "time": "13:10:34",
-    "isActive": false,
-    "firstSeen": "2024-11-15T12:11:23.780Z",
-    "lastSeen": "2024-11-15T12:13:50.658Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-038153 (33 Act)  Size: 289 KB",
-        "date": "2024-09-25"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 65910,
-      "Avg. Daily Volume": 94860,
-      "Short Float": "0.72%",
-      "Short Ratio": "0.69"
-    }
-  },
-  "CNVS": {
-    "ticker": "CNVS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T21:01:56Z",
-        "headline": "Cineverse Q2 2025 Adj EPS $(0.09) Beats $(0.12) Estimate, Sales $12.70M Beat $10.75M Estimate",
-        "id": 41988522,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CNVS"
-        ],
-        "updated_at": "2024-11-14T21:01:57Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41988522/cineverse-q2-2025-adj-eps-0-09-beats-0-12-estimate-sales-12-70m-beat-10-75m-estimate"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T13:34:38Z",
-        "headline": "Benchmark Maintains Speculative Buy on Cineverse, Raises Price Target to $10",
-        "id": 42007969,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CNVS"
-        ],
-        "updated_at": "2024-11-15T13:34:38Z",
-        "url": "https://www.benzinga.com/news/24/11/42007969/benchmark-maintains-speculative-buy-on-cineverse-raises-price-target-to-10"
-      }
-    ],
-    "hod": false,
-    "float": "12.78M",
-    "price": "2.94",
-    "time": "13:43:50",
-    "isActive": false,
-    "firstSeen": "2024-11-15T12:44:21.670Z",
-    "lastSeen": "2024-11-15T12:45:47.428Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 341940,
-      "Avg. Daily Volume": 174270,
-      "Short Float": "2.68%",
-      "Short Ratio": "1.96"
-    }
-  },
-  "IFRX": {
-    "ticker": "IFRX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T12:55:57Z",
-        "headline": "InflaRx Says CHMP of European Medicines Agency Recommends Marketing Authorization Of Gohibic (Vilobelimab) Under Exceptional Circumstances For Treatment Of Adult Patients With Sars-cov-2-induced Acute Respiratory Distress Syndrome Receiving Systemic Corticosteroids As Part Of Standard Of Care And Receiving Invasive Mechanical Ventilation",
-        "id": 42006487,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "IFRX"
-        ],
-        "updated_at": "2024-11-15T12:55:57Z",
-        "url": "https://www.benzinga.com/news/24/11/42006487/inflarx-says-chmp-of-european-medicines-agency-recommends-marketing-authorization-of-gohibic-vilobel"
-      }
-    ],
-    "hod": false,
-    "float": "48.83M",
-    "price": "2.35",
-    "time": "13:52:20",
-    "isActive": false,
-    "firstSeen": "2024-11-15T12:52:29.872Z",
-    "lastSeen": "2024-11-15T12:52:29.872Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 168010,
-      "Avg. Daily Volume": 71370,
-      "Short Float": "0.34%",
-      "Short Ratio": "2.35"
-    }
-  },
-  "FCEL": {
-    "ticker": "FCEL",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T12:32:55Z",
-        "headline": "FuelCell Energy Announces Global Restructuring, Focusing Core Technologies On Distributed Power Generation: Company To Reduce Total Operating Costs By An Estimated 15% In Fiscal Year 2025",
-        "id": 42005902,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "FCEL"
-        ],
-        "updated_at": "2024-11-15T12:32:56Z",
-        "url": "https://www.benzinga.com/news/24/11/42005902/fuelcell-energy-announces-global-restructuring-focusing-core-technologies-on-distributed-power-gener"
-      }
-    ],
-    "hod": false,
-    "float": "20.38M",
-    "price": "8.7",
-    "time": "14:00:51",
-    "isActive": true,
-    "firstSeen": "2024-11-15T13:01:07.966Z",
-    "lastSeen": "2024-11-15T14:54:10.618Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 4370000,
-      "Avg. Daily Volume": 820720,
-      "Short Float": "21.50%",
-      "Short Ratio": "5.32"
-    }
-  },
-  "AZI": {
-    "ticker": "AZI",
+  "SINT": {
+    "ticker": "SINT",
     "news": [],
     "hod": false,
-    "float": "29.25M",
-    "price": "2.01",
-    "time": "14:00:41",
-    "isActive": false,
-    "firstSeen": "2024-11-15T13:01:07.969Z",
-    "lastSeen": "2024-11-15T14:08:50.830Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 3360,
-      "Avg. Daily Volume": 378140,
-      "Short Float": "N/A",
-      "Short Ratio": "0.01"
-    }
+    "float": "747.29K",
+    "price": "3.17",
+    "time": "14:00:44",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:01:23.550Z",
+    "lastSeen": "2024-11-18T20:46:43.928Z"
+  },
+  "THAR": {
+    "ticker": "THAR",
+    "news": [],
+    "hod": true,
+    "float": "1.45M",
+    "price": "2.42",
+    "time": "14:04:53",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:04:54.442Z",
+    "lastSeen": "2024-11-18T19:58:56.149Z"
+  },
+  "ACRS": {
+    "ticker": "ACRS",
+    "news": [],
+    "hod": false,
+    "float": "67.57M",
+    "price": "3.25",
+    "time": "14:11:08",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:11:43.987Z",
+    "lastSeen": "2024-11-18T20:51:42.400Z"
+  },
+  "XCUR": {
+    "ticker": "XCUR",
+    "news": [],
+    "hod": false,
+    "float": "829.04K",
+    "price": "3.77",
+    "time": "14:20:21",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:20:42.221Z",
+    "lastSeen": "2024-11-18T16:45:23.223Z"
+  },
+  "ZETA": {
+    "ticker": "ZETA",
+    "news": [],
+    "hod": true,
+    "float": "217.88M",
+    "price": "19.42",
+    "time": "14:30:22",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:31:01.972Z",
+    "lastSeen": "2024-11-18T14:31:29.293Z"
+  },
+  "CELU": {
+    "ticker": "CELU",
+    "news": [],
+    "hod": false,
+    "float": "10.75M",
+    "price": "2.71",
+    "time": "14:31:14",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:31:42.985Z",
+    "lastSeen": "2024-11-18T13:31:42.985Z"
+  },
+  "FATE": {
+    "ticker": "FATE",
+    "news": [],
+    "hod": false,
+    "float": "97.96M",
+    "price": "2.39",
+    "time": "14:42:22",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:42:31.760Z",
+    "lastSeen": "2024-11-18T20:44:03.507Z"
+  },
+  "OSCR": {
+    "ticker": "OSCR",
+    "news": [],
+    "hod": false,
+    "float": "172.72M",
+    "price": "16.24",
+    "time": "14:48:19",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:48:24.703Z",
+    "lastSeen": "2024-11-18T13:48:24.703Z"
+  },
+  "VINO": {
+    "ticker": "VINO",
+    "news": [],
+    "hod": false,
+    "float": "854.90K",
+    "price": "2.1",
+    "time": "14:49:21",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:50:27.853Z",
+    "lastSeen": "2024-11-18T21:57:12.683Z"
+  },
+  "JTAI": {
+    "ticker": "JTAI",
+    "news": [],
+    "hod": false,
+    "float": "670.37K",
+    "price": "6.5",
+    "time": "14:56:21",
+    "isActive": true,
+    "firstSeen": "2024-11-18T13:56:25.020Z",
+    "lastSeen": "2024-11-18T14:06:48.222Z"
+  },
+  "AGFY": {
+    "ticker": "AGFY",
+    "news": [],
+    "hod": false,
+    "float": "329.46K",
+    "price": "16.24",
+    "time": "15:29:31",
+    "isActive": true,
+    "firstSeen": "2024-11-18T14:30:18.156Z",
+    "lastSeen": "2024-11-18T14:30:18.156Z"
   },
   "APLD": {
     "ticker": "APLD",
     "news": [],
     "hod": true,
-    "float": "171.31M",
-    "price": "7.47",
-    "time": "14:00:13",
+    "float": "163.61M",
+    "price": "7.79",
+    "time": "15:32:53",
     "isActive": true,
-    "firstSeen": "2024-11-15T13:01:07.975Z",
-    "lastSeen": "2024-11-15T14:50:40.964Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 27020000,
-      "Avg. Daily Volume": 13190000,
-      "Short Float": "15.85%",
-      "Short Ratio": "2.05"
-    }
+    "firstSeen": "2024-11-18T14:32:56.490Z",
+    "lastSeen": "2024-11-18T14:32:56.490Z"
   },
-  "ISPC": {
-    "ticker": "ISPC",
+  "EH": {
+    "ticker": "EH",
+    "news": [],
+    "hod": true,
+    "float": "62.53M",
+    "price": "18.16",
+    "time": "15:32:42",
+    "isActive": true,
+    "firstSeen": "2024-11-18T14:32:56.496Z",
+    "lastSeen": "2024-11-18T14:36:02.890Z"
+  },
+  "RGNX": {
+    "ticker": "RGNX",
     "news": [],
     "hod": false,
-    "float": "800.86K",
-    "price": "5.24",
-    "time": "14:02:36",
-    "isActive": false,
-    "firstSeen": "2024-11-15T13:02:38.553Z",
-    "lastSeen": "2024-11-15T13:13:09.887Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 41180,
-      "Avg. Daily Volume": 294910,
-      "Short Float": "6.34%",
-      "Short Ratio": "0.14"
-    }
-  },
-  "DESP": {
-    "ticker": "DESP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T21:05:58Z",
-        "headline": "Despegar Sees FY24 Revenue At Least $760M, Adj. EBITDA At Least $170M",
-        "id": 41988873,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DESP"
-        ],
-        "updated_at": "2024-11-14T21:05:58Z",
-        "url": "https://www.benzinga.com/news/24/11/41988873/despegar-sees-fy24-revenue-at-least-760m-adj-ebitda-at-least-170m"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T21:05:58Z",
-        "headline": "Despegar Sees FY24 Revenue At Least $760M, Adj. EBITDA At Least $170M",
-        "id": 41988872,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DESP"
-        ],
-        "updated_at": "2024-11-14T21:05:58Z",
-        "url": "https://www.benzinga.com/news/24/11/41988872/despegar-sees-fy24-revenue-at-least-760m-adj-ebitda-at-least-170m"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T21:04:40Z",
-        "headline": "Despegar.com Q3 2024 GAAP EPS $0.02, Sales $193.900M Beat $189.840M Estimate",
-        "id": 41988729,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DESP"
-        ],
-        "updated_at": "2024-11-14T21:04:40Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/41988729/despegar-com-q3-2024-gaap-eps-0-02-sales-193-900m-beat-189-840m-estimate"
-      }
-    ],
-    "hod": true,
-    "float": "44.38M",
-    "price": "17.44",
-    "time": "14:06:04",
+    "float": "44.84M",
+    "price": "10.89",
+    "time": "15:32:38",
     "isActive": true,
-    "firstSeen": "2024-11-15T13:06:48.786Z",
-    "lastSeen": "2024-11-15T14:42:11.817Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 6010000,
-      "Avg. Daily Volume": 936080,
-      "Short Float": "13.52%",
-      "Short Ratio": "6.42"
-    }
-  },
-  "WISA": {
-    "ticker": "WISA",
-    "news": [
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-11-14T14:01:01Z",
-        "headline": "An Overview of WiSA Technologies's Earnings",
-        "id": 41972937,
-        "images": [],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "WISA"
-        ],
-        "updated_at": "2024-11-14T14:01:02Z",
-        "url": "https://www.benzinga.com/insights/earnings/24/11/41972937/an-overview-of-wisa-technologiess-earnings"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T13:16:44Z",
-        "headline": "WiSA Technologies Q3 2024 GAAP EPS $(1.39) Misses $(0.67) Estimate, Sales $1.17M Beat $650.00K Estimate",
-        "id": 42007300,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "WISA"
-        ],
-        "updated_at": "2024-11-15T13:16:45Z",
-        "url": "https://www.benzinga.com/news/earnings/24/11/42007300/wisa-technologies-q3-2024-gaap-eps-1-39-misses-0-67-estimate-sales-1-17m-beat-650-00k-estimate"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T14:07:43Z",
-        "headline": "WiSA Technologies Files Preliminary Proxy, Advancing Planned Acquisition Of Data Vault's ADIO And Data Vault Assets",
-        "id": 42008955,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "WISA"
-        ],
-        "updated_at": "2024-11-15T14:07:43Z",
-        "url": "https://www.benzinga.com/m-a/24/11/42008955/wisa-technologies-files-preliminary-proxy-advancing-planned-acquisition-of-data-vaults-adio-and-data"
-      }
-    ],
-    "hod": false,
-    "float": "5.56M",
-    "price": "2.28",
-    "time": "14:15:50",
-    "isActive": false,
-    "firstSeen": "2024-11-15T13:16:08.866Z",
-    "lastSeen": "2024-11-15T13:16:08.866Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 488170,
-      "Avg. Daily Volume": 3760000,
-      "Short Float": "12.14%",
-      "Short Ratio": "0.13"
-    }
+    "firstSeen": "2024-11-18T14:32:56.500Z",
+    "lastSeen": "2024-11-18T14:35:24.578Z"
   },
   "RCAT": {
     "ticker": "RCAT",
     "news": [],
     "hod": true,
     "float": "58.10M",
-    "price": "4.93",
-    "time": "15:31:46",
-    "isActive": false,
-    "firstSeen": "2024-11-15T14:31:47.550Z",
-    "lastSeen": "2024-11-15T14:32:51.689Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-        "date": "2024-11-14"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 5120000,
-      "Avg. Daily Volume": 1460000,
-      "Short Float": "8.81%",
-      "Short Ratio": "3.50"
-    }
+    "price": "5.33",
+    "time": "15:33:52",
+    "isActive": true,
+    "firstSeen": "2024-11-18T14:34:07.306Z",
+    "lastSeen": "2024-11-18T14:34:07.306Z"
   },
-  "KC": {
-    "ticker": "KC",
+  "MULN": {
+    "ticker": "MULN",
     "news": [],
     "hod": true,
-    "float": "253.53M",
-    "price": "5.15",
-    "time": "15:31:43",
-    "isActive": false,
-    "firstSeen": "2024-11-15T14:31:47.554Z",
-    "lastSeen": "2024-11-15T14:31:47.554Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 5880000,
-      "Avg. Daily Volume": 2009999.9999999998,
-      "Short Float": "2.32%",
-      "Short Ratio": "2.93"
-    }
+    "float": "8.67M",
+    "price": "3.04",
+    "time": "15:47:40",
+    "isActive": true,
+    "firstSeen": "2024-11-18T14:48:07.952Z",
+    "lastSeen": "2024-11-18T15:47:40.985Z"
   },
-  "MNMD": {
-    "ticker": "MNMD",
+  "TNYA": {
+    "ticker": "TNYA",
+    "news": [],
+    "hod": true,
+    "float": "65.58M",
+    "price": "2.26",
+    "time": "15:48:39",
+    "isActive": true,
+    "firstSeen": "2024-11-18T14:49:29.721Z",
+    "lastSeen": "2024-11-18T14:49:29.721Z"
+  },
+  "HNST": {
+    "ticker": "HNST",
     "news": [],
     "hod": false,
-    "float": "70.77M",
-    "price": "9",
-    "time": "15:31:34",
+    "float": "66.27M",
+    "price": "7.29",
+    "time": "15:50:05",
     "isActive": true,
-    "firstSeen": "2024-11-15T14:31:47.558Z",
-    "lastSeen": "2024-11-15T14:50:40.961Z",
-    "filings": [
-      {
-        "formType": "S-3ASR",
-        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001104659-24-076002 (33 Act)  Size: 1 MB",
-        "date": "2024-06-28"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 9980000,
-      "Avg. Daily Volume": 799980,
-      "Short Float": "36.60%",
-      "Short Ratio": "12.48"
-    }
+    "firstSeen": "2024-11-18T14:50:31.222Z",
+    "lastSeen": "2024-11-18T14:50:31.222Z"
   },
-  "BE": {
-    "ticker": "BE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T13:06:50Z",
-        "headline": "BMO Capital Maintains Market Perform on Bloom Energy, Raises Price Target to $19.5",
-        "id": 42007082,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BE"
-        ],
-        "updated_at": "2024-11-15T13:06:51Z",
-        "url": "https://www.benzinga.com/news/24/11/42007082/bmo-capital-maintains-market-perform-on-bloom-energy-raises-price-target-to-19-5"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-11-15T13:01:27Z",
-        "headline": "A Closer Look at 8 Analyst Recommendations For Bloom Energy",
-        "id": 42006765,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.png"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.png"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.png"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "BE"
-        ],
-        "updated_at": "2024-11-15T13:01:28Z",
-        "url": "https://www.benzinga.com/insights/analyst-ratings/24/11/42006765/a-closer-look-at-8-analyst-recommendations-for-bloom-energy"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T12:43:13Z",
-        "headline": "Piper Sandler Upgrades Bloom Energy to Overweight, Raises Price Target to $20",
-        "id": 42006163,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BE"
-        ],
-        "updated_at": "2024-11-15T12:43:14Z",
-        "url": "https://www.benzinga.com/news/24/11/42006163/piper-sandler-upgrades-bloom-energy-to-overweight-raises-price-target-to-20"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T08:36:53Z",
-        "headline": "Reported Earlier, Bloom Energy Announces 1 GW Fuel Cell Deal With AEP, Providing Clean Power For AI Data Centers",
-        "id": 42001748,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BE"
-        ],
-        "updated_at": "2024-11-15T08:36:53Z",
-        "url": "https://www.benzinga.com/news/24/11/42001748/reported-earlier-bloom-energy-announces-1-gw-fuel-cell-deal-with-aep-providing-clean-power-for-ai-da"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T18:23:48Z",
-        "headline": "Bloom Energy Shares Halted Pending News",
-        "id": 41983623,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BE"
-        ],
-        "updated_at": "2024-11-14T18:23:49Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/41983623/bloom-energy-shares-halted-pending-news"
-      }
-    ],
+  "ATAI": {
+    "ticker": "ATAI",
+    "news": [],
     "hod": false,
-    "float": "193.31M",
-    "price": "18.95",
-    "time": "15:32:52",
+    "float": "117.06M",
+    "price": "1.76",
+    "time": "15:56:58",
     "isActive": true,
-    "firstSeen": "2024-11-15T14:32:51.669Z",
-    "lastSeen": "2024-11-15T14:55:39.293Z",
-    "filings": [
-      {
-        "formType": "S-3ASR",
-        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001628280-24-040373 (33 Act)  Size: 16 MB",
-        "date": "2024-09-13"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-040261 (33 Act)  Size: 16 MB",
-        "date": "2024-09-12"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Sep 13, 2024",
-      "Short Interest": 40630000,
-      "Avg. Daily Volume": 5330000,
-      "Short Float": "21.06%",
-      "Short Ratio": "7.63"
-    }
+    "firstSeen": "2024-11-18T14:57:23.265Z",
+    "lastSeen": "2024-11-18T16:33:45.548Z"
   },
-  "LUNR": {
-    "ticker": "LUNR",
-    "news": [
-      {
-        "author": "Surbhi Jain",
-        "content": "",
-        "created_at": "2024-11-15T14:23:16Z",
-        "headline": "Intuitive Machines Rockets 333% This Year: Is LUNR Ready For Its Next Moonshot?",
-        "id": 42009401,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/15/Last-Supermoon-Of-2024-Tips-To-Take-That.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/15/Last-Supermoon-Of-2024-Tips-To-Take-That.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/15/Last-Supermoon-Of-2024-Tips-To-Take-That.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Intuitive Machines Inc. (NASDAQ:LUNR) has had a stellar 2024, with stock up 333% year-to-date. Q3 earnings show surging revenues and a record backlog, positioning the company as a leader in the commercial space race.",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-15T14:23:17Z",
-        "url": "https://www.benzinga.com/general/space/24/11/42009401/intuitive-machines-rockets-333-this-year-is-lunr-ready-for-its-next-moonshot"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T14:14:08Z",
-        "headline": "Canaccord Genuity Maintains Buy on Intuitive Machines, Raises Price Target to $12.5",
-        "id": 42009103,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-15T14:14:09Z",
-        "url": "https://www.benzinga.com/news/24/11/42009103/canaccord-genuity-maintains-buy-on-intuitive-machines-raises-price-target-to-12-5"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T13:46:47Z",
-        "headline": "Cantor Fitzgerald Maintains Overweight on Intuitive Machines, Raises Price Target to $15",
-        "id": 42008246,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-15T13:46:48Z",
-        "url": "https://www.benzinga.com/news/24/11/42008246/cantor-fitzgerald-maintains-overweight-on-intuitive-machines-raises-price-target-to-15"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T13:33:04Z",
-        "headline": "Benchmark Maintains Buy on Intuitive Machines, Raises Price Target to $16",
-        "id": 42007922,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-15T13:33:05Z",
-        "url": "https://www.benzinga.com/news/24/11/42007922/benchmark-maintains-buy-on-intuitive-machines-raises-price-target-to-16"
-      },
-      {
-        "author": "Adam Eckert",
-        "content": "",
-        "created_at": "2024-11-14T15:33:14Z",
-        "headline": "Intuitive Machines Stock Volatile On Q3 Earnings: What You Need To Know",
-        "id": 41977504,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/14/Intuitive-Machines-LUNR.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/14/Intuitive-Machines-LUNR.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/14/Intuitive-Machines-LUNR.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Intuitive Machines Inc (NASDAQ:LUNR) shares are surging Thursday on the heels of the company&#39;s third-quarter financial results. Here&#39;s a rundown of the report.",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-14T15:33:14Z",
-        "url": "https://www.benzinga.com/general/space/24/11/41977504/intuitive-machines-stock-volatile-on-q3-earnings-what-you-need-to-know"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T13:07:07Z",
-        "headline": "Intuitive Machines shares are trading higher. The company reported Q3 financial results.",
-        "id": 41970476,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "LUNR"
-        ],
-        "updated_at": "2024-11-14T15:22:59Z",
-        "url": "https://www.benzinga.com/wiim/24/11/41970476/intuitive-machines-shares-are-trading-higher-the-company-reported-q3-financial-results"
-      }
-    ],
-    "hod": true,
-    "float": "54.95M",
-    "price": "11.12",
-    "time": "15:34:25",
+  "FCEL": {
+    "ticker": "FCEL",
+    "news": [],
+    "hod": false,
+    "float": "20.32M",
+    "price": "7.45",
+    "time": "16:07:05",
     "isActive": true,
-    "firstSeen": "2024-11-15T14:34:37.161Z",
-    "lastSeen": "2024-11-15T14:43:40.625Z",
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 17390000,
-      "Avg. Daily Volume": 15730000,
-      "Short Float": "31.65%",
-      "Short Ratio": "1.11"
-    }
+    "firstSeen": "2024-11-18T15:07:27.041Z",
+    "lastSeen": "2024-11-18T15:07:27.041Z"
+  },
+  "OKLO": {
+    "ticker": "OKLO",
+    "news": [],
+    "hod": true,
+    "float": "69.46M",
+    "price": "19.8",
+    "time": "16:10:30",
+    "isActive": true,
+    "firstSeen": "2024-11-18T15:10:43.311Z",
+    "lastSeen": "2024-11-18T15:10:43.311Z"
+  },
+  "BTDR": {
+    "ticker": "BTDR",
+    "news": [],
+    "hod": true,
+    "float": "51.87M",
+    "price": "12.48",
+    "time": "16:32:21",
+    "isActive": true,
+    "firstSeen": "2024-11-18T15:32:25.181Z",
+    "lastSeen": "2024-11-18T18:11:17.939Z"
+  },
+  "JWEL": {
+    "ticker": "JWEL",
+    "news": [],
+    "hod": false,
+    "float": "1.83M",
+    "price": "2.89",
+    "time": "16:46:35",
+    "isActive": true,
+    "firstSeen": "2024-11-18T15:46:43.650Z",
+    "lastSeen": "2024-11-18T21:05:32.251Z"
+  },
+  "AZI": {
+    "ticker": "AZI",
+    "news": [],
+    "hod": false,
+    "float": "29.25M",
+    "price": "2.26",
+    "time": "17:15:34",
+    "isActive": true,
+    "firstSeen": "2024-11-18T16:15:42.092Z",
+    "lastSeen": "2024-11-18T20:58:43.719Z"
+  },
+  "HCWB": {
+    "ticker": "HCWB",
+    "news": [],
+    "hod": true,
+    "float": "19.75M",
+    "price": "2.49",
+    "time": "17:43:22",
+    "isActive": true,
+    "firstSeen": "2024-11-18T16:43:57.866Z",
+    "lastSeen": "2024-11-18T17:26:06.004Z"
+  },
+  "SFHG": {
+    "ticker": "SFHG",
+    "news": [],
+    "hod": true,
+    "float": "0",
+    "price": "15.94",
+    "time": "20:26:04",
+    "isActive": true,
+    "firstSeen": "2024-11-18T19:26:12.474Z",
+    "lastSeen": "2024-11-18T19:26:12.474Z"
+  },
+  "GOVX": {
+    "ticker": "GOVX",
+    "news": [],
+    "hod": true,
+    "float": "9.39M",
+    "price": "3.12",
+    "time": "20:47:28",
+    "isActive": true,
+    "firstSeen": "2024-11-18T19:48:18.112Z",
+    "lastSeen": "2024-11-18T19:49:39.008Z"
+  },
+  "PHUN": {
+    "ticker": "PHUN",
+    "news": [],
+    "hod": true,
+    "float": "19.70M",
+    "price": "4.87",
+    "time": "21:20:35",
+    "isActive": true,
+    "firstSeen": "2024-11-18T20:20:49.610Z",
+    "lastSeen": "2024-11-18T20:46:43.926Z"
+  },
+  "BKKT": {
+    "ticker": "BKKT",
+    "news": [],
+    "hod": false,
+    "float": "5.92M",
+    "price": "19.44",
+    "time": "21:36:01",
+    "isActive": true,
+    "firstSeen": "2024-11-18T20:37:14.478Z",
+    "lastSeen": "2024-11-18T20:37:14.478Z"
   },
   "PULM": {
     "ticker": "PULM",
     "news": [],
     "hod": false,
     "float": "3.65M",
-    "price": "5.67",
-    "time": "15:37:00",
+    "price": "6.93",
+    "time": "21:55:00",
     "isActive": true,
-    "firstSeen": "2024-11-15T14:37:02.583Z",
-    "lastSeen": "2024-11-15T14:56:50.505Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-020420 (33 Act)  Size: 797 KB",
-        "date": "2024-05-17"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 7050,
-      "Avg. Daily Volume": 11610,
-      "Short Float": "0.19%",
-      "Short Ratio": "0.61"
-    }
-  },
-  "ZETA": {
-    "ticker": "ZETA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-15T12:39:27Z",
-        "headline": "Morgan Stanley Maintains Equal-Weight on Zeta Global Holdings, Lowers Price Target to $26",
-        "id": 42006028,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZETA"
-        ],
-        "updated_at": "2024-11-15T12:39:27Z",
-        "url": "https://www.benzinga.com/news/24/11/42006028/morgan-stanley-maintains-equal-weight-on-zeta-global-holdings-lowers-price-target-to-26"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T18:41:03Z",
-        "headline": "Needham Reiterates Buy on Zeta Global Holdings, Maintains $43 Price Target",
-        "id": 41984553,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZETA"
-        ],
-        "updated_at": "2024-11-14T18:41:03Z",
-        "url": "https://www.benzinga.com/news/24/11/41984553/needham-reiterates-buy-on-zeta-global-holdings-maintains-43-price-target"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T16:15:23Z",
-        "headline": "Canaccord Genuity Maintains Buy on Zeta Global Holdings, Lowers Price Target to $24",
-        "id": 41978868,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZETA"
-        ],
-        "updated_at": "2024-11-14T16:15:24Z",
-        "url": "https://www.benzinga.com/news/24/11/41978868/canaccord-genuity-maintains-buy-on-zeta-global-holdings-lowers-price-target-to-24"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-14T13:00:47Z",
-        "headline": "Zeta Global Holdings shares are trading higher after the company announced it authorized a $100 million repurchase program.",
-        "id": 41970132,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZETA"
-        ],
-        "updated_at": "2024-11-14T15:22:07Z",
-        "url": "https://www.benzinga.com/wiim/24/11/41970132/zeta-global-holdings-shares-are-trading-higher-after-the-company-announced-it-authorized-a-100-milli"
-      }
-    ],
-    "hod": false,
-    "float": "217.88M",
-    "price": "18.28",
-    "time": "15:48:51",
-    "isActive": true,
-    "firstSeen": "2024-11-15T14:49:21.097Z",
-    "lastSeen": "2024-11-15T14:49:21.097Z"
+    "firstSeen": "2024-11-18T20:55:25.833Z",
+    "lastSeen": "2024-11-18T20:55:25.833Z"
   }
 }
