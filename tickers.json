@@ -378,11 +378,11 @@
     "news": [],
     "hod": false,
     "float": "0",
-    "price": "4.56",
+    "price": "4.67",
     "time": "13:12:08",
     "isActive": true,
     "firstSeen": "2024-11-21T12:12:19.453Z",
-    "lastSeen": "2024-11-21T13:47:08.192Z"
+    "lastSeen": "2024-11-21T13:49:24.719Z"
   },
   "WORX": {
     "ticker": "WORX",
@@ -444,11 +444,11 @@
     "news": [],
     "hod": false,
     "float": "5.67M",
-    "price": "6.5",
+    "price": "6.21",
     "time": "14:04:23",
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
-    "lastSeen": "2024-11-21T13:27:01.640Z"
+    "lastSeen": "2024-11-21T13:49:24.716Z"
   },
   "LMFA": {
     "ticker": "LMFA",
