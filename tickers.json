@@ -416,5 +416,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T12:30:58.928Z",
     "lastSeen": "2024-11-21T12:30:58.928Z"
+  },
+  "ZENA": {
+    "ticker": "ZENA",
+    "news": [],
+    "hod": false,
+    "float": "8.23M",
+    "price": "1.83",
+    "time": "13:31:21",
+    "isActive": true,
+    "firstSeen": "2024-11-21T12:31:55.487Z",
+    "lastSeen": "2024-11-21T12:31:55.487Z"
   }
 }
