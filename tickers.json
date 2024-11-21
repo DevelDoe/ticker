@@ -422,11 +422,11 @@
     "news": [],
     "hod": false,
     "float": "8.23M",
-    "price": "1.83",
+    "price": "2",
     "time": "13:31:21",
     "isActive": true,
     "firstSeen": "2024-11-21T12:31:55.487Z",
-    "lastSeen": "2024-11-21T12:31:55.487Z"
+    "lastSeen": "2024-11-21T13:31:24.590Z"
   },
   "SANW": {
     "ticker": "SANW",
@@ -449,5 +449,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
     "lastSeen": "2024-11-21T13:27:01.640Z"
+  },
+  "LMFA": {
+    "ticker": "LMFA",
+    "news": [],
+    "hod": false,
+    "float": "2.88M",
+    "price": "3.44",
+    "time": "14:30:16",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:31:24.590Z",
+    "lastSeen": "2024-11-21T13:31:24.590Z"
   }
 }
