@@ -488,10 +488,21 @@
     "news": [],
     "hod": false,
     "float": "92.09M",
-    "price": "3",
+    "price": "3.05",
     "time": "14:55:29",
     "isActive": true,
     "firstSeen": "2024-11-21T13:55:44.207Z",
-    "lastSeen": "2024-11-21T14:02:07.038Z"
+    "lastSeen": "2024-11-21T14:05:59.841Z"
+  },
+  "ITRM": {
+    "ticker": "ITRM",
+    "news": [],
+    "hod": false,
+    "float": "26.60M",
+    "price": "1.82",
+    "time": "15:05:42",
+    "isActive": true,
+    "firstSeen": "2024-11-21T14:05:59.836Z",
+    "lastSeen": "2024-11-21T14:05:59.836Z"
   }
 }
