@@ -356,11 +356,11 @@
     "news": [],
     "hod": false,
     "float": "568.34K",
-    "price": "3.5",
+    "price": "3.14",
     "time": "13:08:39",
     "isActive": true,
     "firstSeen": "2024-11-21T12:11:24.832Z",
-    "lastSeen": "2024-11-21T12:11:24.833Z"
+    "lastSeen": "2024-11-21T13:00:34.356Z"
   },
   "TRNR": {
     "ticker": "TRNR",
@@ -400,11 +400,11 @@
     "news": [],
     "hod": false,
     "float": "11.22M",
-    "price": "3.5",
+    "price": "3.9",
     "time": "13:21:44",
     "isActive": true,
     "firstSeen": "2024-11-21T12:22:08.319Z",
-    "lastSeen": "2024-11-21T12:22:08.319Z"
+    "lastSeen": "2024-11-21T13:00:34.349Z"
   },
   "NXTT": {
     "ticker": "NXTT",
@@ -427,5 +427,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T12:31:55.487Z",
     "lastSeen": "2024-11-21T12:31:55.487Z"
+  },
+  "SANW": {
+    "ticker": "SANW",
+    "news": [],
+    "hod": false,
+    "float": "2.20M",
+    "price": "5.38",
+    "time": "14:00:26",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:00:34.349Z",
+    "lastSeen": "2024-11-21T13:00:34.349Z"
   }
 }
