@@ -367,11 +367,11 @@
     "news": [],
     "hod": false,
     "float": "598.08K",
-    "price": "6.18",
+    "price": "6.39",
     "time": "13:06:05",
     "isActive": true,
     "firstSeen": "2024-11-21T12:11:24.843Z",
-    "lastSeen": "2024-11-21T13:04:58.917Z"
+    "lastSeen": "2024-11-21T13:19:42.594Z"
   },
   "RMSG": {
     "ticker": "RMSG",
@@ -400,11 +400,11 @@
     "news": [],
     "hod": false,
     "float": "11.22M",
-    "price": "3.04",
+    "price": "4.82",
     "time": "13:21:44",
     "isActive": true,
     "firstSeen": "2024-11-21T12:22:08.319Z",
-    "lastSeen": "2024-11-21T13:18:22.839Z"
+    "lastSeen": "2024-11-21T13:19:42.598Z"
   },
   "NXTT": {
     "ticker": "NXTT",
@@ -444,10 +444,10 @@
     "news": [],
     "hod": false,
     "float": "5.67M",
-    "price": "5.58",
+    "price": "6",
     "time": "14:04:23",
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
-    "lastSeen": "2024-11-21T13:18:22.834Z"
+    "lastSeen": "2024-11-21T13:19:42.601Z"
   }
 }
