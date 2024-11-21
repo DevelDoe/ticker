@@ -444,11 +444,11 @@
     "news": [],
     "hod": false,
     "float": "5.67M",
-    "price": "6.88",
+    "price": "7",
     "time": "14:04:23",
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
-    "lastSeen": "2024-11-21T14:11:45.072Z"
+    "lastSeen": "2024-11-21T14:12:33.800Z"
   },
   "LMFA": {
     "ticker": "LMFA",
@@ -510,10 +510,10 @@
     "news": [],
     "hod": false,
     "float": "72.51M",
-    "price": "4.14",
+    "price": "4.17",
     "time": "15:09:53",
     "isActive": true,
     "firstSeen": "2024-11-21T14:09:55.466Z",
-    "lastSeen": "2024-11-21T14:09:55.466Z"
+    "lastSeen": "2024-11-21T14:12:33.797Z"
   }
 }
