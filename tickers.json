@@ -482,5 +482,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T13:50:54.604Z",
     "lastSeen": "2024-11-21T13:50:54.604Z"
+  },
+  "CTV": {
+    "ticker": "CTV",
+    "news": [],
+    "hod": false,
+    "float": "92.09M",
+    "price": "2.81",
+    "time": "14:55:29",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:55:44.207Z",
+    "lastSeen": "2024-11-21T13:55:44.207Z"
   }
 }
