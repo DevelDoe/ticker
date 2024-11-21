@@ -389,11 +389,11 @@
     "news": [],
     "hod": false,
     "float": "1.55M",
-    "price": "2.07",
+    "price": "2.1",
     "time": "13:20:36",
     "isActive": true,
     "firstSeen": "2024-11-21T12:21:01.033Z",
-    "lastSeen": "2024-11-21T12:21:01.033Z"
+    "lastSeen": "2024-11-21T16:41:00.632Z"
   },
   "VEEA": {
     "ticker": "VEEA",
@@ -444,11 +444,11 @@
     "news": [],
     "hod": false,
     "float": "5.67M",
-    "price": "7",
+    "price": "4.5",
     "time": "14:04:23",
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
-    "lastSeen": "2024-11-21T14:12:33.800Z"
+    "lastSeen": "2024-11-21T16:41:00.620Z"
   },
   "LMFA": {
     "ticker": "LMFA",
@@ -510,10 +510,10 @@
     "news": [],
     "hod": false,
     "float": "72.51M",
-    "price": "4.17",
+    "price": "5.16",
     "time": "15:09:53",
     "isActive": true,
     "firstSeen": "2024-11-21T14:09:55.466Z",
-    "lastSeen": "2024-11-21T14:12:33.797Z"
+    "lastSeen": "2024-11-21T16:41:00.626Z"
   }
 }
