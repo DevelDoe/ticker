@@ -383,5 +383,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T12:12:19.453Z",
     "lastSeen": "2024-11-21T12:13:28.156Z"
+  },
+  "WORX": {
+    "ticker": "WORX",
+    "news": [],
+    "hod": false,
+    "float": "1.55M",
+    "price": "2.07",
+    "time": "13:20:36",
+    "isActive": true,
+    "firstSeen": "2024-11-21T12:21:01.033Z",
+    "lastSeen": "2024-11-21T12:21:01.033Z"
   }
 }
