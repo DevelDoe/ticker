@@ -394,5 +394,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T12:21:01.033Z",
     "lastSeen": "2024-11-21T12:21:01.033Z"
+  },
+  "VEEA": {
+    "ticker": "VEEA",
+    "news": [],
+    "hod": false,
+    "float": "11.22M",
+    "price": "3.5",
+    "time": "13:21:44",
+    "isActive": true,
+    "firstSeen": "2024-11-21T12:22:08.319Z",
+    "lastSeen": "2024-11-21T12:22:08.319Z"
   }
 }
