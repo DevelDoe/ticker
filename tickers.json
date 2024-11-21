@@ -444,11 +444,11 @@
     "news": [],
     "hod": false,
     "float": "5.67M",
-    "price": "6.34",
+    "price": "6.73",
     "time": "14:04:23",
     "isActive": true,
     "firstSeen": "2024-11-21T13:04:58.917Z",
-    "lastSeen": "2024-11-21T14:08:44.688Z"
+    "lastSeen": "2024-11-21T14:09:55.466Z"
   },
   "LMFA": {
     "ticker": "LMFA",
@@ -504,5 +504,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T14:05:59.836Z",
     "lastSeen": "2024-11-21T14:05:59.836Z"
+  },
+  "QUBT": {
+    "ticker": "QUBT",
+    "news": [],
+    "hod": false,
+    "float": "72.51M",
+    "price": "4.14",
+    "time": "15:09:53",
+    "isActive": true,
+    "firstSeen": "2024-11-21T14:09:55.466Z",
+    "lastSeen": "2024-11-21T14:09:55.466Z"
   }
 }
