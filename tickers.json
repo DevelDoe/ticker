@@ -460,5 +460,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T13:31:24.590Z",
     "lastSeen": "2024-11-21T13:31:24.590Z"
+  },
+  "CRNC": {
+    "ticker": "CRNC",
+    "news": [],
+    "hod": false,
+    "float": "39.09M",
+    "price": "3.28",
+    "time": "14:41:38",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:41:57.218Z",
+    "lastSeen": "2024-11-21T13:41:57.218Z"
   }
 }
