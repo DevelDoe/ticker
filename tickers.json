@@ -471,5 +471,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T13:41:57.218Z",
     "lastSeen": "2024-11-21T13:41:57.218Z"
+  },
+  "CDTX": {
+    "ticker": "CDTX",
+    "news": [],
+    "hod": false,
+    "float": "5.44M",
+    "price": "20",
+    "time": "14:50:13",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:50:54.604Z",
+    "lastSeen": "2024-11-21T13:50:54.604Z"
   }
 }
