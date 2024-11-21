@@ -367,11 +367,11 @@
     "news": [],
     "hod": false,
     "float": "598.08K",
-    "price": "6.02",
+    "price": "6.18",
     "time": "13:06:05",
     "isActive": true,
     "firstSeen": "2024-11-21T12:11:24.843Z",
-    "lastSeen": "2024-11-21T13:03:42.541Z"
+    "lastSeen": "2024-11-21T13:04:58.917Z"
   },
   "RMSG": {
     "ticker": "RMSG",
@@ -438,5 +438,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T13:00:34.349Z",
     "lastSeen": "2024-11-21T13:00:34.349Z"
+  },
+  "SPAI": {
+    "ticker": "SPAI",
+    "news": [],
+    "hod": false,
+    "float": "5.67M",
+    "price": "3.6",
+    "time": "14:04:23",
+    "isActive": true,
+    "firstSeen": "2024-11-21T13:04:58.917Z",
+    "lastSeen": "2024-11-21T13:04:58.917Z"
   }
 }
