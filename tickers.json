@@ -405,5 +405,16 @@
     "isActive": true,
     "firstSeen": "2024-11-21T12:22:08.319Z",
     "lastSeen": "2024-11-21T12:22:08.319Z"
+  },
+  "NXTT": {
+    "ticker": "NXTT",
+    "news": [],
+    "hod": false,
+    "float": "5.77M",
+    "price": "2.32",
+    "time": "13:30:56",
+    "isActive": true,
+    "firstSeen": "2024-11-21T12:30:58.928Z",
+    "lastSeen": "2024-11-21T12:30:58.928Z"
   }
 }
