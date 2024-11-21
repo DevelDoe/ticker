@@ -422,11 +422,11 @@
     "news": [],
     "hod": false,
     "float": "8.23M",
-    "price": "2.05",
+    "price": "1.8",
     "time": "13:31:21",
     "isActive": true,
     "firstSeen": "2024-11-21T12:31:55.487Z",
-    "lastSeen": "2024-11-21T13:32:09.030Z"
+    "lastSeen": "2024-11-21T14:02:07.035Z"
   },
   "SANW": {
     "ticker": "SANW",
@@ -488,10 +488,10 @@
     "news": [],
     "hod": false,
     "float": "92.09M",
-    "price": "2.95",
+    "price": "3",
     "time": "14:55:29",
     "isActive": true,
     "firstSeen": "2024-11-21T13:55:44.207Z",
-    "lastSeen": "2024-11-21T13:59:22.552Z"
+    "lastSeen": "2024-11-21T14:02:07.038Z"
   }
 }
