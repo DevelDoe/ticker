@@ -389,11 +389,11 @@
     "news": [],
     "hod": false,
     "float": "1.55M",
-    "price": "2.1",
+    "price": "2",
     "time": "13:20:36",
     "isActive": true,
     "firstSeen": "2024-11-21T12:21:01.033Z",
-    "lastSeen": "2024-11-21T16:41:00.632Z"
+    "lastSeen": "2024-11-21T17:08:20.853Z"
   },
   "VEEA": {
     "ticker": "VEEA",
@@ -466,11 +466,11 @@
     "news": [],
     "hod": false,
     "float": "39.09M",
-    "price": "3.28",
+    "price": "5.34",
     "time": "14:41:38",
     "isActive": true,
     "firstSeen": "2024-11-21T13:41:57.218Z",
-    "lastSeen": "2024-11-21T13:41:57.218Z"
+    "lastSeen": "2024-11-21T17:30:04.929Z"
   },
   "CDTX": {
     "ticker": "CDTX",
@@ -515,5 +515,27 @@
     "isActive": true,
     "firstSeen": "2024-11-21T14:09:55.466Z",
     "lastSeen": "2024-11-21T16:41:00.626Z"
+  },
+  "SURG": {
+    "ticker": "SURG",
+    "news": [],
+    "hod": false,
+    "float": "13.74M",
+    "price": "1.95",
+    "time": "17:52:55",
+    "isActive": true,
+    "firstSeen": "2024-11-21T16:53:22.483Z",
+    "lastSeen": "2024-11-21T17:23:37.782Z"
+  },
+  "FREY": {
+    "ticker": "FREY",
+    "news": [],
+    "hod": true,
+    "float": "121.38M",
+    "price": "2.52",
+    "time": "18:04:14",
+    "isActive": true,
+    "firstSeen": "2024-11-21T17:04:17.711Z",
+    "lastSeen": "2024-11-21T17:05:00.448Z"
   }
 }
