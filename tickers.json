@@ -554,11 +554,11 @@
     "news": [],
     "hod": false,
     "float": "3.13M",
-    "price": "2.25",
+    "price": "2.06",
     "time": "10:23:33",
     "isActive": true,
     "firstSeen": "2024-11-22T09:39:32.977Z",
-    "lastSeen": "2024-11-22T11:21:28.398Z"
+    "lastSeen": "2024-11-25T11:26:34.195Z"
   },
   "DWTX": {
     "ticker": "DWTX",
@@ -581,5 +581,16 @@
     "isActive": true,
     "firstSeen": "2024-11-22T11:17:17.861Z",
     "lastSeen": "2024-11-22T11:18:14.466Z"
+  },
+  "QMCO": {
+    "ticker": "QMCO",
+    "news": [],
+    "hod": true,
+    "float": "1.04M",
+    "price": "11.45",
+    "time": "01:12:43",
+    "isActive": true,
+    "firstSeen": "2024-11-25T11:26:34.195Z",
+    "lastSeen": "2024-11-25T11:26:34.196Z"
   }
 }
