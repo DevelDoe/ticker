@@ -38,7 +38,14 @@
   "PDYN": {
     "ticker": "PDYN",
     "news": [],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 529120,
+      "Avg. Daily Volume": 644500,
+      "Short Float": "3.48%",
+      "Short Ratio": "0.82"
+    }
   },
   "ARQQ": {
     "ticker": "ARQQ",
