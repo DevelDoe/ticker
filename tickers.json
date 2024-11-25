@@ -8,5 +8,10 @@
     "ticker": "WLDS",
     "news": [],
     "isActive": true
+  },
+  "QMCO": {
+    "ticker": "QMCO",
+    "news": [],
+    "isActive": true
   }
 }
