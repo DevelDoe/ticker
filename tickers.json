@@ -13,5 +13,10 @@
     "ticker": "QMCO",
     "news": [],
     "isActive": true
+  },
+  "PDYN": {
+    "ticker": "PDYN",
+    "news": [],
+    "isActive": true
   }
 }
