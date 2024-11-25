@@ -1,1 +1,7 @@
-{}
+{
+  "WLDS": {
+    "ticker": "WLDS",
+    "news": [],
+    "isActive": true
+  }
+}
