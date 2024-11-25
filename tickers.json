@@ -3,5 +3,10 @@
     "ticker": "WLDS",
     "news": [],
     "isActive": true
+  },
+  "PDYN": {
+    "ticker": "PDYN",
+    "news": [],
+    "isActive": true
   }
 }
