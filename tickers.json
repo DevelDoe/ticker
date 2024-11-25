@@ -50,6 +50,13 @@
   "ARQQ": {
     "ticker": "ARQQ",
     "news": [],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 150530,
+      "Avg. Daily Volume": 93700,
+      "Short Float": "3.85%",
+      "Short Ratio": "1.61"
+    }
   }
 }
