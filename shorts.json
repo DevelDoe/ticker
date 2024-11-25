@@ -5,5 +5,12 @@
     "Avg. Daily Volume": 4410000,
     "Short Float": "16.54%",
     "Short Ratio": "5.82"
+  },
+  "WLDS": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 21680,
+    "Avg. Daily Volume": 39500,
+    "Short Float": "2.31%",
+    "Short Ratio": "0.55"
   }
 }
