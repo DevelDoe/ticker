@@ -58,5 +58,10 @@
       "Short Float": "3.85%",
       "Short Ratio": "1.61"
     }
+  },
+  "SMKT": {
+    "ticker": "SMKT",
+    "news": [],
+    "isActive": true
   }
 }
