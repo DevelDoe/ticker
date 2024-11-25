@@ -3,5 +3,10 @@
     "ticker": "RGTI",
     "news": [],
     "isActive": true
+  },
+  "WLDS": {
+    "ticker": "WLDS",
+    "news": [],
+    "isActive": true
   }
 }
