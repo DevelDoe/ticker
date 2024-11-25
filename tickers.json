@@ -13,5 +13,10 @@
     "ticker": "SMTK",
     "news": [],
     "isActive": true
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [],
+    "isActive": true
   }
 }
