@@ -178,13 +178,13 @@
   "RCAT": {
     "ticker": "RCAT",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "58.10M",
-    "price": "5.33",
+    "price": "8.58",
     "time": "15:33:52",
     "isActive": true,
     "firstSeen": "2024-11-18T14:34:07.306Z",
-    "lastSeen": "2024-11-18T14:34:07.306Z"
+    "lastSeen": "2024-11-22T10:03:43.268Z"
   },
   "MULN": {
     "ticker": "MULN",
@@ -537,5 +537,49 @@
     "isActive": true,
     "firstSeen": "2024-11-21T17:04:17.711Z",
     "lastSeen": "2024-11-21T17:05:00.448Z"
+  },
+  "NMHI": {
+    "ticker": "NMHI",
+    "news": [],
+    "hod": false,
+    "float": "24.50M",
+    "price": "2.5",
+    "time": "10:24:40",
+    "isActive": true,
+    "firstSeen": "2024-11-22T09:39:32.966Z",
+    "lastSeen": "2024-11-22T09:39:32.967Z"
+  },
+  "WCT": {
+    "ticker": "WCT",
+    "news": [],
+    "hod": false,
+    "float": "3.13M",
+    "price": "2.25",
+    "time": "10:23:33",
+    "isActive": true,
+    "firstSeen": "2024-11-22T09:39:32.977Z",
+    "lastSeen": "2024-11-22T11:21:28.398Z"
+  },
+  "DWTX": {
+    "ticker": "DWTX",
+    "news": [],
+    "hod": false,
+    "float": "1.18M",
+    "price": "3.27",
+    "time": "11:00:02",
+    "isActive": true,
+    "firstSeen": "2024-11-22T10:00:37.173Z",
+    "lastSeen": "2024-11-22T10:00:37.173Z"
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [],
+    "hod": false,
+    "float": "156.09M",
+    "price": "1.88",
+    "time": "12:16:45",
+    "isActive": true,
+    "firstSeen": "2024-11-22T11:17:17.861Z",
+    "lastSeen": "2024-11-22T11:18:14.466Z"
   }
 }
