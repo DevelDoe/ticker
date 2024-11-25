@@ -44,5 +44,10 @@
     "ticker": "XCUR",
     "news": [],
     "isActive": true
+  },
+  "CMPX": {
+    "ticker": "CMPX",
+    "news": [],
+    "isActive": true
   }
 }
