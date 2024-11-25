@@ -23,5 +23,10 @@
     "ticker": "ARQQ",
     "news": [],
     "isActive": true
+  },
+  "XCUR": {
+    "ticker": "XCUR",
+    "news": [],
+    "isActive": true
   }
 }
