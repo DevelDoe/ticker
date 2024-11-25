@@ -18,5 +18,10 @@
     "ticker": "PDYN",
     "news": [],
     "isActive": true
+  },
+  "ARQQ": {
+    "ticker": "ARQQ",
+    "news": [],
+    "isActive": true
   }
 }
