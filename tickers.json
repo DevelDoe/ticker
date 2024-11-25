@@ -8,5 +8,10 @@
     "ticker": "PDYN",
     "news": [],
     "isActive": true
+  },
+  "SMTK": {
+    "ticker": "SMTK",
+    "news": [],
+    "isActive": true
   }
 }
