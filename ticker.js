@@ -242,7 +242,7 @@ const displayTickersTable = async () => {
 
         const table = new Table({
             head: ["Ticker", "Latest News", "S-3", "Short Interest", "Float", "Price"],
-            colWidths: [10, 85, 15, 10, 10, 10],
+            colWidths: [10, 45, 15, 10, 10, 10],
         });
 
         // Filter tickers based on the headline filter
