@@ -12,5 +12,12 @@
     "Avg. Daily Volume": 39500,
     "Short Float": "2.31%",
     "Short Ratio": "0.55"
+  },
+  "QMCO": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 188350,
+    "Avg. Daily Volume": 50200,
+    "Short Float": "18.29%",
+    "Short Ratio": "3.75"
   }
 }
