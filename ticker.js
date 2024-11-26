@@ -246,23 +246,28 @@ const displayTickersTable = async () => {
         });
 
         // Filter tickers based on the headline filter
-        let filteredTickers = Object.values(tickers).filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (ticker.news && ticker.news.length > 0)));
+        let filteredTickers = Object.values(tickers).filter(
+            (ticker) =>
+                ticker.isActive &&
+                (!filterHeadlinesActive || (Array.isArray(ticker.news) && ticker.news.length > 0))
+        );
 
         // If filterHeadlinesActive is true, sort by the latest headline's timestamp
         if (filterHeadlinesActive) {
             filteredTickers = filteredTickers.sort((a, b) => {
-                const dateA = new Date(a.news[0]?.updated_at || a.news[0]?.created_at || 0);
-                const dateB = new Date(b.news[0]?.updated_at || b.news[0]?.created_at || 0);
+                const dateA = new Date(a.news?.[0]?.updated_at || a.news?.[0]?.created_at || 0);
+                const dateB = new Date(b.news?.[0]?.updated_at || b.news?.[0]?.created_at || 0);
                 return dateB - dateA; // Sort descending by date
             });
         }
 
         // Loop over sorted/filtered tickers and add to the table
         filteredTickers.forEach((ticker) => {
-            const timestamp = ticker.news[0]?.updated_at || ticker.news[0]?.created_at;
-            const latestNews = ticker.news[0]?.headline || "No news available";
-            const dateObj = new Date(timestamp);
-            const formattedTime = latestNews === "No news available" ? "" : dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+            const latestNewsObject = ticker.news?.[0];
+            const timestamp = latestNewsObject?.updated_at || latestNewsObject?.created_at || null;
+            const latestNews = latestNewsObject?.headline || "No news available";
+            const dateObj = timestamp ? new Date(timestamp) : null;
+            const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
@@ -278,12 +283,19 @@ const displayTickersTable = async () => {
                 formattedNews = chalk.yellow(formattedNews);
             }
 
-            const previousPrice = previousPrices[ticker.ticker];
-            let formattedPrice = ticker.price ? ticker.price : 0;
+            const previousPrice = previousPrices[ticker.ticker] || 0;
+            let formattedPrice = ticker.price || 0;
             formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
-            previousPrices[ticker.ticker] = ticker.price;
+            previousPrices[ticker.ticker] = ticker.price || 0;
 
-            table.push([coloredTicker, formattedNews, filingInfo, ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "", ticker.float || "", formattedPrice]);
+            table.push([
+                coloredTicker,
+                formattedNews,
+                filingInfo,
+                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
+                ticker.float || "",
+                formattedPrice,
+            ]);
 
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
         });
@@ -294,6 +306,7 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
+
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {

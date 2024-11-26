@@ -1,16 +1,301 @@
 {
+  "VSTE": {
+    "ticker": "VSTE",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T13:07:11Z",
+        "headline": "Vast Signs Updated Funding Agreement To Access Up To $30M Of Its $65M Grant From The Australian Renewable Energy Agency",
+        "id": 42162043,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VSTE"
+        ],
+        "updated_at": "2024-11-25T13:07:11Z",
+        "url": "https://www.benzinga.com/news/24/11/42162043/vast-signs-updated-funding-agreement-to-access-up-to-30m-of-its-65m-grant-from-the-australian-renewa"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 692000,
+      "Avg. Daily Volume": 917450,
+      "Short Float": "33.27%",
+      "Short Ratio": "0.75"
+    },
+    "hod": false,
+    "price": "2.35",
+    "lastSeen": "2024-11-25T15:07:19.616Z"
+  },
   "WLDS": {
     "ticker": "WLDS",
     "news": [],
-    "isActive": true
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 21680,
+      "Avg. Daily Volume": 39500,
+      "Short Float": "2.31%",
+      "Short Ratio": "0.55"
+    },
+    "hod": false,
+    "price": "2.74",
+    "lastSeen": "2024-11-25T15:27:28.447Z"
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T13:19:29Z",
+        "headline": "Rigetti Completes $100M At-The-Market Equity Offering, Plans To Use Proceeds For Working Capital, Capital Expenditures, And Advancements In Superconducting Quantum Computing Technology",
+        "id": 42162471,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RGTI"
+        ],
+        "updated_at": "2024-11-25T13:19:30Z",
+        "url": "https://www.benzinga.com/news/24/11/42162471/rigetti-completes-100m-at-the-market-equity-offering-plans-to-use-proceeds-for-working-capital-capit"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 25670000,
+      "Avg. Daily Volume": 4410000,
+      "Short Float": "16.54%",
+      "Short Ratio": "5.82"
+    },
+    "hod": false,
+    "price": "3.35",
+    "lastSeen": "2024-11-25T15:24:54.555Z"
+  },
+  "NMHI": {
+    "ticker": "NMHI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T13:04:21Z",
+        "headline": "Nature's Miracle Holding Launches NM Data Inc. And Announces $3M Investment In Future Tech, Inc. To Develop A 50MW Bitcoin Mining Facility In Ohio",
+        "id": 42161953,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NMHI"
+        ],
+        "updated_at": "2024-11-25T13:04:22Z",
+        "url": "https://www.benzinga.com/news/24/11/42161953/natures-miracle-holding-launches-nm-data-inc-and-announces-3m-investment-in-future-tech-inc-to-devel"
+      }
+    ],
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 5160,
+      "Avg. Daily Volume": 81420,
+      "Short Float": "1.17%",
+      "Short Ratio": "0.06"
+    }
+  },
+  "QMCO": {
+    "ticker": "QMCO",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 188350,
+      "Avg. Daily Volume": 50200,
+      "Short Float": "18.29%",
+      "Short Ratio": "3.75"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T14:59:49Z",
+        "headline": "Quantum Corp Shares Resume Trade Following Circuit Breaker Halt",
+        "id": 42165816,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T14:59:49Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42165816/quantum-corp-shares-resume-trade-following-circuit-breaker-halt"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:04:50Z",
+        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 122.1%",
+        "id": 42166104,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:04:51Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166104/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-122-1"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:10:39Z",
+        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 169.4%",
+        "id": 42166290,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:10:40Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166290/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-169-4"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:09:23Z",
+        "headline": "Quantum Corp Shares Resume Trade",
+        "id": 42166261,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:09:24Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166261/quantum-corp-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:16:27Z",
+        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 186.9%",
+        "id": 42166535,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:16:27Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166535/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-186-9"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:15:39Z",
+        "headline": "Quantum Corp Shares Resume Trading",
+        "id": 42166520,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:15:39Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166520/quantum-corp-shares-resume-trading"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T15:21:32Z",
+        "headline": "Quantum Corp Shares Resumed Trade",
+        "id": 42166801,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "QMCO"
+        ],
+        "updated_at": "2024-11-25T15:21:33Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42166801/quantum-corp-shares-resumed-trade"
+      }
+    ],
+    "hod": false,
+    "price": "19.59",
+    "lastSeen": "2024-11-25T15:04:02.500Z"
   },
   "PDYN": {
     "ticker": "PDYN",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 529120,
+      "Avg. Daily Volume": 644500,
+      "Short Float": "3.48%",
+      "Short Ratio": "0.82"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T14:38:29Z",
+        "headline": "Palladyne AI Shares Halted To The Downside; Stock Now Up 9.78%",
+        "id": 42165233,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PDYN"
+        ],
+        "updated_at": "2024-11-25T14:38:29Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42165233/palladyne-ai-shares-halted-to-the-downside-stock-now-up-9-78"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T14:43:27Z",
+        "headline": "Palladyne AI Shares Resume Trade",
+        "id": 42165315,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PDYN"
+        ],
+        "updated_at": "2024-11-25T14:43:28Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42165315/palladyne-ai-shares-resume-trade"
+      }
+    ],
+    "hod": false,
+    "price": "5.05",
+    "lastSeen": "2024-11-25T15:20:21.108Z"
+  },
+  "ARQQ": {
+    "ticker": "ARQQ",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 150530,
+      "Avg. Daily Volume": 93700,
+      "Short Float": "3.85%",
+      "Short Ratio": "1.61"
+    },
     "news": [],
-    "isActive": true
+    "hod": false,
+    "price": "20",
+    "lastSeen": "2024-11-25T15:17:02.304Z"
   },
   "SMTK": {
     "ticker": "SMTK",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 9840,
+      "Avg. Daily Volume": 19130,
+      "Short Float": "0.81%",
+      "Short Ratio": "0.51"
+    },
     "news": [
       {
         "author": "Benzinga Newsdesk",
@@ -28,26 +313,185 @@
         "url": "https://www.benzinga.com/news/24/11/42160317/smartkem-partners-with-auo-to-develop-rollable-transparent-microled-displays"
       }
     ],
-    "isActive": true
-  },
-  "RGTI": {
-    "ticker": "RGTI",
-    "news": [],
-    "isActive": true
-  },
-  "ARQQ": {
-    "ticker": "ARQQ",
-    "news": [],
-    "isActive": true
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+        "date": "2024-08-16"
+      }
+    ],
+    "hod": true,
+    "price": "5.26",
+    "lastSeen": "2024-11-25T15:29:09.051Z"
   },
   "XCUR": {
     "ticker": "XCUR",
-    "news": [],
-    "isActive": true
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 31090,
+      "Avg. Daily Volume": 1260000,
+      "Short Float": "4.71%",
+      "Short Ratio": "0.02"
+    },
+    "news": []
   },
   "CMPX": {
     "ticker": "CMPX",
+    "isActive": false,
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 1790000,
+      "Avg. Daily Volume": 459140,
+      "Short Float": "2.08%",
+      "Short Ratio": "3.89"
+    },
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211242 (33 Act)  Size: 864 KB",
+        "date": "2024-08-30"
+      }
+    ]
+  },
+  "ACHR": {
+    "ticker": "ACHR",
     "news": [],
-    "isActive": true
+    "hod": true,
+    "float": "293.16M",
+    "price": "7.67",
+    "time": "15:26:23",
+    "isActive": true,
+    "firstSeen": "2024-11-25T14:26:28.697Z",
+    "lastSeen": "2024-11-25T15:08:51.487Z",
+    "filings": [
+      {
+        "formType": "S-3ASR",
+        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001104659-24-117109 (33 Act)  Size: 604 KB",
+        "date": "2024-11-13"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 60760000,
+      "Avg. Daily Volume": 10950000,
+      "Short Float": "22.72%",
+      "Short Ratio": "5.55"
+    }
+  },
+  "BTDR": {
+    "ticker": "BTDR",
+    "news": [],
+    "hod": false,
+    "float": "51.87M",
+    "price": "11.84",
+    "time": "15:40:29",
+    "isActive": true,
+    "firstSeen": "2024-11-25T14:40:42.209Z",
+    "lastSeen": "2024-11-25T14:40:42.209Z"
+  },
+  "BBAI": {
+    "ticker": "BBAI",
+    "news": [],
+    "hod": false,
+    "float": "106.84M",
+    "price": "2.57",
+    "time": "15:40:20",
+    "isActive": true,
+    "firstSeen": "2024-11-25T14:40:42.212Z",
+    "lastSeen": "2024-11-25T14:40:42.212Z"
+  },
+  "ZENA": {
+    "ticker": "ZENA",
+    "news": [],
+    "hod": true,
+    "float": "8.23M",
+    "price": "2.37",
+    "time": "15:58:31",
+    "isActive": true,
+    "firstSeen": "2024-11-25T14:58:41.040Z",
+    "lastSeen": "2024-11-25T15:22:29.475Z"
+  },
+  "QBTS": {
+    "ticker": "QBTS",
+    "news": [],
+    "hod": false,
+    "float": "214.43M",
+    "price": "3.59",
+    "time": "15:59:29",
+    "isActive": true,
+    "firstSeen": "2024-11-25T14:59:34.891Z",
+    "lastSeen": "2024-11-25T14:59:34.891Z"
+  },
+  "QUBT": {
+    "ticker": "QUBT",
+    "news": [],
+    "hod": true,
+    "float": "86.51M",
+    "price": "8.76",
+    "time": "16:04:00",
+    "isActive": true,
+    "firstSeen": "2024-11-25T15:04:02.487Z",
+    "lastSeen": "2024-11-25T15:29:09.049Z"
+  },
+  "WORX": {
+    "ticker": "WORX",
+    "news": [],
+    "hod": false,
+    "float": "1.55M",
+    "price": "2.65",
+    "time": "16:05:53",
+    "isActive": true,
+    "firstSeen": "2024-11-25T15:06:43.466Z",
+    "lastSeen": "2024-11-25T15:25:58.481Z"
+  },
+  "PTLE": {
+    "ticker": "PTLE",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "6.1",
+    "time": "16:19:53",
+    "isActive": true,
+    "firstSeen": "2024-11-25T15:20:21.116Z",
+    "lastSeen": "2024-11-25T15:20:21.116Z"
+  },
+  "VUZI": {
+    "ticker": "VUZI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-25T13:17:53Z",
+        "headline": "Vuzix Announces Six-Figure Production Order For Customized Waveguides From A Defense Customer",
+        "id": 42162465,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VUZI"
+        ],
+        "updated_at": "2024-11-25T13:17:53Z",
+        "url": "https://www.benzinga.com/news/24/11/42162465/vuzix-announces-six-figure-production-order-for-customized-waveguides-from-a-defense-customer"
+      }
+    ],
+    "hod": true,
+    "float": "60.89M",
+    "price": "2.26",
+    "time": "16:22:07",
+    "isActive": true,
+    "firstSeen": "2024-11-25T15:22:29.463Z",
+    "lastSeen": "2024-11-25T15:24:54.541Z"
+  },
+  "NVTS": {
+    "ticker": "NVTS",
+    "news": [],
+    "hod": true,
+    "float": "114.53M",
+    "price": "2.77",
+    "time": "16:23:40",
+    "isActive": true,
+    "firstSeen": "2024-11-25T15:24:16.591Z",
+    "lastSeen": "2024-11-25T15:24:16.591Z"
   }
 }

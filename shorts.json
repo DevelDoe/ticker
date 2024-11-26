@@ -33,5 +33,110 @@
     "Avg. Daily Volume": 93700,
     "Short Float": "3.85%",
     "Short Ratio": "1.61"
+  },
+  "SMTK": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 9840,
+    "Avg. Daily Volume": 19130,
+    "Short Float": "0.81%",
+    "Short Ratio": "0.51"
+  },
+  "XCUR": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 31090,
+    "Avg. Daily Volume": 1260000,
+    "Short Float": "4.71%",
+    "Short Ratio": "0.02"
+  },
+  "CMPX": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 1790000,
+    "Avg. Daily Volume": 459140,
+    "Short Float": "2.08%",
+    "Short Ratio": "3.89"
+  },
+  "VSTE": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 692000,
+    "Avg. Daily Volume": 917450,
+    "Short Float": "33.27%",
+    "Short Ratio": "0.75"
+  },
+  "NMHI": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 5160,
+    "Avg. Daily Volume": 81420,
+    "Short Float": "1.17%",
+    "Short Ratio": "0.06"
+  },
+  "ACHR": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 60760000,
+    "Avg. Daily Volume": 10950000,
+    "Short Float": "22.72%",
+    "Short Ratio": "5.55"
+  },
+  "BTDR": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 10710000,
+    "Avg. Daily Volume": 2600000,
+    "Short Float": "31.58%",
+    "Short Ratio": "4.12"
+  },
+  "BBAI": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 20610000,
+    "Avg. Daily Volume": 4800000,
+    "Short Float": "20.37%",
+    "Short Ratio": "4.30"
+  },
+  "ZENA": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 570530,
+    "Avg. Daily Volume": 4950000,
+    "Short Float": "29.61%",
+    "Short Ratio": "0.12"
+  },
+  "QBTS": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 16100000.000000002,
+    "Avg. Daily Volume": 3920000,
+    "Short Float": "13.31%",
+    "Short Ratio": "4.11"
+  },
+  "QUBT": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 4360000,
+    "Avg. Daily Volume": 1140000,
+    "Short Float": "6.04%",
+    "Short Ratio": "3.83"
+  },
+  "WORX": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 9610,
+    "Avg. Daily Volume": 55610,
+    "Short Float": "0.63%",
+    "Short Ratio": "0.17"
+  },
+  "PTLE": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 2960,
+    "Avg. Daily Volume": 326350,
+    "Short Float": "0.21%",
+    "Short Ratio": "0.01"
+  },
+  "VUZI": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 11040000,
+    "Avg. Daily Volume": 1130000,
+    "Short Float": "18.58%",
+    "Short Ratio": "9.78"
+  },
+  "NVTS": {
+    "Settlement Date": "Oct 31, 2024",
+    "Short Interest": 27840000,
+    "Avg. Daily Volume": 2510000,
+    "Short Float": "24.30%",
+    "Short Ratio": "11.11"
   }
 }

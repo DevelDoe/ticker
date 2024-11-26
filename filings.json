@@ -1,1 +1,35 @@
-{}
+{
+  "SMTK": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+      "date": "2024-08-16"
+    }
+  ],
+  "CMPX": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211242 (33 Act)  Size: 864 KB",
+      "date": "2024-08-30"
+    }
+  ],
+  "ACHR": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001104659-24-117109 (33 Act)  Size: 604 KB",
+      "date": "2024-11-13"
+    }
+  ],
+  "VUZI": [
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-112266 (33 Act)  Size: 243 KB",
+      "date": "2024-10-29"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-104914 (33 Act)  Size: 238 KB",
+      "date": "2024-10-01"
+    }
+  ]
+}
