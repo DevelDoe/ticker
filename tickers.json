@@ -1,369 +1,682 @@
 {
-  "VSTE": {
-    "ticker": "VSTE",
+  "IFBD": {
+    "ticker": "IFBD",
+    "news": [],
+    "hod": true,
+    "float": "1.99M",
+    "price": "2.67",
+    "time": "11:55:13",
+    "isActive": true,
+    "firstSeen": "2024-11-27T10:55:53.775Z",
+    "lastSeen": "2024-11-27T15:32:13.526Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 81540,
+      "Avg. Daily Volume": 30550,
+      "Short Float": "4.10%",
+      "Short Ratio": "2.67"
+    }
+  },
+  "CYCN": {
+    "ticker": "CYCN",
+    "news": [],
+    "hod": false,
+    "float": "1.96M",
+    "price": "1.83",
+    "time": "11:50:18",
+    "isActive": true,
+    "firstSeen": "2024-11-27T10:55:53.784Z",
+    "lastSeen": "2024-11-27T15:02:28.687Z",
+    "shorts": {
+      "Settlement Date": "Oct 31, 2024",
+      "Short Interest": 14440,
+      "Avg. Daily Volume": 9680,
+      "Short Float": "0.69%",
+      "Short Ratio": "1.49"
+    }
+  },
+  "KODK": {
+    "ticker": "KODK",
+    "news": [],
+    "hod": false,
+    "float": "62.72M",
+    "price": "7.27",
+    "time": "12:26:21",
+    "isActive": true,
+    "firstSeen": "2024-11-27T11:26:24.966Z",
+    "lastSeen": "2024-11-27T14:33:46.942Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-197079 (33 Act)  Size: 389 KB",
+        "date": "2024-08-08"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 5330000,
+      "Avg. Daily Volume": 518760,
+      "Short Float": "8.50%",
+      "Short Ratio": "10.28"
+    }
+  },
+  "KXIN": {
+    "ticker": "KXIN",
+    "news": [],
+    "hod": false,
+    "float": "1.57M",
+    "price": "2.34",
+    "time": "12:47:32",
+    "isActive": true,
+    "firstSeen": "2024-11-27T11:47:34.461Z",
+    "lastSeen": "2024-11-27T13:45:28.915Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 174250,
+      "Avg. Daily Volume": 1430000,
+      "Short Float": "11.10%",
+      "Short Ratio": "0.12"
+    }
+  },
+  "TRNR": {
+    "ticker": "TRNR",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T13:07:11Z",
-        "headline": "Vast Signs Updated Funding Agreement To Access Up To $30M Of Its $65M Grant From The Australian Renewable Energy Agency",
-        "id": 42162043,
+        "created_at": "2024-11-27T12:04:47Z",
+        "headline": "Interactive Strength Receives Letter Confirming Demonstrated Compliance With Nasdaq Listing Rule, Which Successfully Concludes Hearings Panel Appeal Process That Began In May",
+        "id": 42210976,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "VSTE"
+          "TRNR"
         ],
-        "updated_at": "2024-11-25T13:07:11Z",
-        "url": "https://www.benzinga.com/news/24/11/42162043/vast-signs-updated-funding-agreement-to-access-up-to-30m-of-its-65m-grant-from-the-australian-renewa"
+        "updated_at": "2024-11-27T12:04:48Z",
+        "url": "https://www.benzinga.com/news/24/11/42210976/interactive-strength-receives-letter-confirming-demonstrated-compliance-with-nasdaq-listing-rule-whi"
+      },
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-11-27T15:19:44Z",
+        "headline": "Why Interactive Strength (TRNR) Stock Is Trading Higher",
+        "id": 42216402,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/11/27/8.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/11/27/8.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/11/27/8.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Interactive Strength shares are trading higher by 15% during Wednesday&#39;s session. The company announced it received a letter from Nasdaq confirming its compliance with the listing rule.",
+        "symbols": [
+          "TRNR"
+        ],
+        "updated_at": "2024-11-27T15:19:44Z",
+        "url": "https://www.benzinga.com/news/24/11/42216402/why-interactive-strength-trnr-stock-is-trading-higher"
       }
     ],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 692000,
-      "Avg. Daily Volume": 917450,
-      "Short Float": "33.27%",
-      "Short Ratio": "0.75"
-    },
     "hod": false,
-    "price": "2.35",
-    "lastSeen": "2024-11-25T15:07:19.616Z"
-  },
-  "WLDS": {
-    "ticker": "WLDS",
-    "news": [],
+    "float": "595.31K",
+    "price": "3.57",
+    "time": "13:03:00",
     "isActive": true,
+    "firstSeen": "2024-11-27T12:03:03.679Z",
+    "lastSeen": "2024-11-27T15:18:33.520Z",
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 21680,
-      "Avg. Daily Volume": 39500,
-      "Short Float": "2.31%",
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 76510,
+      "Avg. Daily Volume": 138070,
+      "Short Float": "191.27%",
       "Short Ratio": "0.55"
-    },
+    }
+  },
+  "MDAI": {
+    "ticker": "MDAI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-26T15:19:56Z",
+        "headline": "Spectral AI Reprices  8,433,333 Public Warrants With An Exercise Price Of $11.50 Per Share To $2.75 Per Share; Expects To Receive Up To ~$23M In Net Proceeds",
+        "id": 42192536,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MDAI"
+        ],
+        "updated_at": "2024-11-26T15:19:57Z",
+        "url": "https://www.benzinga.com/news/24/11/42192536/spectral-ai-reprices-8-433-333-public-warrants-with-an-exercise-price-of-11-50-per-share-to-2-75-per"
+      }
+    ],
     "hod": false,
-    "price": "2.74",
-    "lastSeen": "2024-11-25T15:27:28.447Z"
+    "float": "8.84M",
+    "price": "1.8",
+    "time": "13:26:00",
+    "isActive": true,
+    "firstSeen": "2024-11-27T12:26:36.901Z",
+    "lastSeen": "2024-11-27T13:07:02.774Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 801100,
+      "Avg. Daily Volume": 234360,
+      "Short Float": "9.06%",
+      "Short Ratio": "3.42"
+    }
+  },
+  "IMCC": {
+    "ticker": "IMCC",
+    "news": [],
+    "hod": false,
+    "float": "1.00M",
+    "price": "3.7",
+    "time": "13:57:57",
+    "isActive": true,
+    "firstSeen": "2024-11-27T12:58:04.939Z",
+    "lastSeen": "2024-11-27T15:28:17.561Z"
+  },
+  "SBFM": {
+    "ticker": "SBFM",
+    "news": [],
+    "hod": false,
+    "float": "2.00M",
+    "price": "3.4",
+    "time": "14:00:21",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:00:27.679Z",
+    "lastSeen": "2024-11-27T13:00:27.679Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 234060,
+      "Avg. Daily Volume": 173420,
+      "Short Float": "11.70%",
+      "Short Ratio": "1.35"
+    }
+  },
+  "GRRR": {
+    "ticker": "GRRR",
+    "news": [],
+    "hod": false,
+    "float": "9.44M",
+    "price": "5.28",
+    "time": "14:05:47",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:05:48.418Z",
+    "lastSeen": "2024-11-27T14:28:12.705Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 745300,
+      "Avg. Daily Volume": 712480,
+      "Short Float": "7.90%",
+      "Short Ratio": "1.05"
+    }
+  },
+  "DQ": {
+    "ticker": "DQ",
+    "news": [],
+    "hod": false,
+    "float": "65.18M",
+    "price": "19.8",
+    "time": "14:12:57",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:13:02.223Z",
+    "lastSeen": "2024-11-27T13:13:02.223Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 3660000,
+      "Avg. Daily Volume": 1470000,
+      "Short Float": "5.62%",
+      "Short Ratio": "2.49"
+    }
+  },
+  "JFBR": {
+    "ticker": "JFBR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-27T13:30:15Z",
+        "headline": "Jeffs' Brands And Deliverz.AI Sign A Binding LOI For A U.S. Joint Venture Involving AI-Powered Fully Autonomous Multi-Purpose Robotic Platforms",
+        "id": 42213252,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-11-27T13:30:16Z",
+        "url": "https://www.benzinga.com/news/24/11/42213252/jeffs-brands-and-deliverz-ai-sign-a-binding-loi-for-a-u-s-joint-venture-involving-ai-powered-fully-a"
+      }
+    ],
+    "hod": false,
+    "float": "6.68M",
+    "price": "3.16",
+    "time": "14:29:10",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:29:20.904Z",
+    "lastSeen": "2024-11-27T14:13:12.684Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 26510,
+      "Avg. Daily Volume": 195700,
+      "Short Float": "0.40%",
+      "Short Ratio": "0.14"
+    }
+  },
+  "VCIG": {
+    "ticker": "VCIG",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-26T14:09:41Z",
+        "headline": "VCI Global Regains Nasdaq Compliance",
+        "id": 42190169,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VCIG"
+        ],
+        "updated_at": "2024-11-26T14:09:42Z",
+        "url": "https://www.benzinga.com/news/24/11/42190169/vci-global-regains-nasdaq-compliance"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-27T13:34:18Z",
+        "headline": "VCI Global Receives Conditional Letter Of Award Valued At ~$24M From Hexatoff Group For Its Proposed Data Center Project In Enstek City, Malaysia",
+        "id": 42213353,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VCIG"
+        ],
+        "updated_at": "2024-11-27T13:34:18Z",
+        "url": "https://www.benzinga.com/news/24/11/42213353/vci-global-receives-conditional-letter-of-award-valued-at-24m-from-hexatoff-group-for-its-proposed-d"
+      }
+    ],
+    "hod": false,
+    "float": "3.22M",
+    "price": "3.49",
+    "time": "14:33:28",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:33:50.758Z",
+    "lastSeen": "2024-11-27T15:33:14.842Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 169320,
+      "Avg. Daily Volume": 313000,
+      "Short Float": "5.26%",
+      "Short Ratio": "0.54"
+    }
+  },
+  "QUBT": {
+    "ticker": "QUBT",
+    "news": [],
+    "hod": false,
+    "float": "86.51M",
+    "price": "7.67",
+    "time": "14:36:23",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:37:07.663Z",
+    "lastSeen": "2024-11-27T14:58:32.538Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 11910000,
+      "Avg. Daily Volume": 7500000,
+      "Short Float": "13.77%",
+      "Short Ratio": "1.59"
+    }
   },
   "RGTI": {
     "ticker": "RGTI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-25T13:19:29Z",
-        "headline": "Rigetti Completes $100M At-The-Market Equity Offering, Plans To Use Proceeds For Working Capital, Capital Expenditures, And Advancements In Superconducting Quantum Computing Technology",
-        "id": 42162471,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "RGTI"
-        ],
-        "updated_at": "2024-11-25T13:19:30Z",
-        "url": "https://www.benzinga.com/news/24/11/42162471/rigetti-completes-100m-at-the-market-equity-offering-plans-to-use-proceeds-for-working-capital-capit"
-      }
-    ],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 25670000,
-      "Avg. Daily Volume": 4410000,
-      "Short Float": "16.54%",
-      "Short Ratio": "5.82"
-    },
+    "news": [],
     "hod": false,
-    "price": "3.35",
-    "lastSeen": "2024-11-25T15:24:54.555Z"
-  },
-  "NMHI": {
-    "ticker": "NMHI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-25T13:04:21Z",
-        "headline": "Nature's Miracle Holding Launches NM Data Inc. And Announces $3M Investment In Future Tech, Inc. To Develop A 50MW Bitcoin Mining Facility In Ohio",
-        "id": 42161953,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NMHI"
-        ],
-        "updated_at": "2024-11-25T13:04:22Z",
-        "url": "https://www.benzinga.com/news/24/11/42161953/natures-miracle-holding-launches-nm-data-inc-and-announces-3m-investment-in-future-tech-inc-to-devel"
-      }
-    ],
-    "isActive": false,
+    "float": "158.46M",
+    "price": "2.59",
+    "time": "14:39:28",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:39:39.998Z",
+    "lastSeen": "2024-11-27T13:39:39.998Z",
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 5160,
-      "Avg. Daily Volume": 81420,
-      "Short Float": "1.17%",
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 26130000,
+      "Avg. Daily Volume": 5910000,
+      "Short Float": "16.49%",
+      "Short Ratio": "4.42"
+    }
+  },
+  "VSTE": {
+    "ticker": "VSTE",
+    "news": [],
+    "hod": false,
+    "float": "2.60M",
+    "price": "2.24",
+    "time": "14:48:02",
+    "isActive": true,
+    "firstSeen": "2024-11-27T13:48:22.517Z",
+    "lastSeen": "2024-11-27T13:48:22.517Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 160970,
+      "Avg. Daily Volume": 2560000,
+      "Short Float": "6.19%",
       "Short Ratio": "0.06"
     }
   },
-  "QMCO": {
-    "ticker": "QMCO",
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 188350,
-      "Avg. Daily Volume": 50200,
-      "Short Float": "18.29%",
-      "Short Ratio": "3.75"
-    },
+  "SOS": {
+    "ticker": "SOS",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T14:59:49Z",
-        "headline": "Quantum Corp Shares Resume Trade Following Circuit Breaker Halt",
-        "id": 42165816,
+        "created_at": "2024-11-27T14:01:36Z",
+        "headline": "SOS Announces Plans To Purchase Up To $50M Worth Of Bitcoin To Strengthen Global Crypto Investment Strategy",
+        "id": 42213993,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T14:59:49Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42165816/quantum-corp-shares-resume-trade-following-circuit-breaker-halt"
+        "updated_at": "2024-11-27T14:01:37Z",
+        "url": "https://www.benzinga.com/markets/cryptocurrency/24/11/42213993/sos-announces-plans-to-purchase-up-to-50m-worth-of-bitcoin-to-strengthen-global-crypto-inv"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T15:04:50Z",
-        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 122.1%",
-        "id": 42166104,
+        "created_at": "2024-11-27T14:40:31Z",
+        "headline": "SOS American Depositary Shares Halted On Circuit Breaker To the Upside, Stock Now Up 54.7%",
+        "id": 42215042,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T15:04:51Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166104/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-122-1"
+        "updated_at": "2024-11-27T14:40:32Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42215042/sos-american-depositary-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-54-7"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T15:10:39Z",
-        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 169.4%",
-        "id": 42166290,
+        "created_at": "2024-11-27T14:50:50Z",
+        "headline": "SOS American Depositary Shares Resumed Trade",
+        "id": 42215232,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T15:10:40Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166290/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-169-4"
+        "updated_at": "2024-11-27T14:50:50Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42215232/sos-american-depositary-shares-resumed-trade"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T15:09:23Z",
-        "headline": "Quantum Corp Shares Resume Trade",
-        "id": 42166261,
+        "created_at": "2024-11-27T14:47:35Z",
+        "headline": "SOS American Depositary Shares Resume Trade Then Again Halted On Circuit Breaker To The Upside, Stock Now Up 98.7%",
+        "id": 42215182,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T15:09:24Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166261/quantum-corp-shares-resume-trade"
+        "updated_at": "2024-11-27T14:47:35Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42215182/sos-american-depositary-shares-resume-trade-then-again-halted-on-circuit-breaker-to-the-upside-stoc"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T15:16:27Z",
-        "headline": "Quantum Corp Shares Halted On Circuit Breaker To The Upside, Stock Now Up 186.9%",
-        "id": 42166535,
+        "created_at": "2024-11-27T14:51:32Z",
+        "headline": "SOS American Depositary Shares Halted On Circuit Breaker To The Downside, Stock Now Up 87.8%",
+        "id": 42215237,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T15:16:27Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166535/quantum-corp-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-186-9"
+        "updated_at": "2024-11-27T14:51:32Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42215237/sos-american-depositary-shares-halted-on-circuit-breaker-to-the-downside-stock-now-up-87-8"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T15:15:39Z",
-        "headline": "Quantum Corp Shares Resume Trading",
-        "id": 42166520,
+        "created_at": "2024-11-27T14:56:28Z",
+        "headline": "SOS American Depositary Shares Resume Trade",
+        "id": 42215382,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QMCO"
+          "SOS"
         ],
-        "updated_at": "2024-11-25T15:15:39Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166520/quantum-corp-shares-resume-trading"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-25T15:21:32Z",
-        "headline": "Quantum Corp Shares Resumed Trade",
-        "id": 42166801,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "QMCO"
-        ],
-        "updated_at": "2024-11-25T15:21:33Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42166801/quantum-corp-shares-resumed-trade"
+        "updated_at": "2024-11-27T14:56:28Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/11/42215382/sos-american-depositary-shares-resume-trade"
       }
     ],
     "hod": false,
-    "price": "19.59",
-    "lastSeen": "2024-11-25T15:04:02.500Z"
-  },
-  "PDYN": {
-    "ticker": "PDYN",
+    "float": "88.33M",
+    "price": "13.17",
+    "time": "15:01:35",
     "isActive": true,
+    "firstSeen": "2024-11-27T14:02:14.088Z",
+    "lastSeen": "2024-11-27T15:34:34.845Z",
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 529120,
-      "Avg. Daily Volume": 644500,
-      "Short Float": "3.48%",
-      "Short Ratio": "0.82"
-    },
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 115470,
+      "Avg. Daily Volume": 20120,
+      "Short Float": "N/A",
+      "Short Ratio": "5.74"
+    }
+  },
+  "IREN": {
+    "ticker": "IREN",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T14:38:29Z",
-        "headline": "Palladyne AI Shares Halted To The Downside; Stock Now Up 9.78%",
-        "id": 42165233,
+        "created_at": "2024-11-27T13:16:02Z",
+        "headline": "Canaccord Genuity Maintains Buy on Iris Energy, Raises Price Target to $17",
+        "id": 42212843,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PDYN"
+          "IREN"
         ],
-        "updated_at": "2024-11-25T14:38:29Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42165233/palladyne-ai-shares-halted-to-the-downside-stock-now-up-9-78"
+        "updated_at": "2024-11-27T13:16:02Z",
+        "url": "https://www.benzinga.com/news/24/11/42212843/canaccord-genuity-maintains-buy-on-iris-energy-raises-price-target-to-17"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-11-25T14:43:27Z",
-        "headline": "Palladyne AI Shares Resume Trade",
-        "id": 42165315,
+        "created_at": "2024-11-27T12:08:27Z",
+        "headline": "HC Wainwright & Co. Maintains Buy on Iris Energy, Raises Price Target to $16",
+        "id": 42211076,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PDYN"
+          "IREN"
         ],
-        "updated_at": "2024-11-25T14:43:28Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/11/42165315/palladyne-ai-shares-resume-trade"
+        "updated_at": "2024-11-27T12:08:28Z",
+        "url": "https://www.benzinga.com/news/24/11/42211076/hc-wainwright-co-maintains-buy-on-iris-energy-raises-price-target-to-16"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-27T12:00:25Z",
+        "headline": "A Closer Look at 8 Analyst Recommendations For Iris Energy",
+        "id": 42210867,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_3.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_3.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_3.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "IREN"
+        ],
+        "updated_at": "2024-11-27T12:00:26Z",
+        "url": "https://www.benzinga.com/insights/analyst-ratings/24/11/42210867/a-closer-look-at-8-analyst-recommendations-for-iris-energy"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-27T11:39:59Z",
+        "headline": "Needham Reiterates Hold on Iris Energy",
+        "id": 42210460,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "IREN"
+        ],
+        "updated_at": "2024-11-27T11:39:59Z",
+        "url": "https://www.benzinga.com/news/24/11/42210460/needham-reiterates-hold-on-iris-energy"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-11-26T21:16:44Z",
+        "headline": "Iris Energy Q1 Sales $49.60M",
+        "id": 42201390,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "IREN"
+        ],
+        "updated_at": "2024-11-26T21:16:45Z",
+        "url": "https://www.benzinga.com/news/earnings/24/11/42201390/iris-energy-q1-sales-49-60m"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-27T15:01:59Z",
+        "headline": "Decoding Iris Energy's Options Activity: What's the Big Picture?",
+        "id": 42215636,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "IREN"
+        ],
+        "updated_at": "2024-11-27T15:02:00Z",
+        "url": "https://www.benzinga.com/insights/options/24/11/42215636/decoding-iris-energys-options-activity-whats-the-big-picture"
       }
     ],
     "hod": false,
-    "price": "5.05",
-    "lastSeen": "2024-11-25T15:20:21.108Z"
-  },
-  "ARQQ": {
-    "ticker": "ARQQ",
+    "float": "172.03M",
+    "price": "11.9",
+    "time": "15:30:15",
     "isActive": true,
+    "firstSeen": "2024-11-27T14:30:18.475Z",
+    "lastSeen": "2024-11-27T15:13:04.670Z",
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 150530,
-      "Avg. Daily Volume": 93700,
-      "Short Float": "3.85%",
-      "Short Ratio": "1.61"
-    },
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 10160000,
+      "Avg. Daily Volume": 15540000,
+      "Short Float": "5.91%",
+      "Short Ratio": "0.65"
+    }
+  },
+  "HSAI": {
+    "ticker": "HSAI",
     "news": [],
-    "hod": false,
-    "price": "20",
-    "lastSeen": "2024-11-25T15:17:02.304Z"
-  },
-  "SMTK": {
-    "ticker": "SMTK",
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 9840,
-      "Avg. Daily Volume": 19130,
-      "Short Float": "0.81%",
-      "Short Ratio": "0.51"
-    },
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-11-25T12:11:57Z",
-        "headline": "Smartkem Partners With AUO To Develop Rollable, Transparent MicroLED Displays",
-        "id": 42160317,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SMTK"
-        ],
-        "updated_at": "2024-11-25T12:11:58Z",
-        "url": "https://www.benzinga.com/news/24/11/42160317/smartkem-partners-with-auo-to-develop-rollable-transparent-microled-displays"
-      }
-    ],
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
-        "date": "2024-08-16"
-      }
-    ],
     "hod": true,
-    "price": "5.26",
-    "lastSeen": "2024-11-25T15:29:09.051Z"
-  },
-  "XCUR": {
-    "ticker": "XCUR",
-    "isActive": false,
+    "float": "105.27M",
+    "price": "7.86",
+    "time": "15:31:37",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:32:02.810Z",
+    "lastSeen": "2024-11-27T14:32:02.810Z",
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 31090,
-      "Avg. Daily Volume": 1260000,
-      "Short Float": "4.71%",
-      "Short Ratio": "0.02"
-    },
-    "news": []
-  },
-  "CMPX": {
-    "ticker": "CMPX",
-    "isActive": false,
-    "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 1790000,
-      "Avg. Daily Volume": 459140,
-      "Short Float": "2.08%",
-      "Short Ratio": "3.89"
-    },
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211242 (33 Act)  Size: 864 KB",
-        "date": "2024-08-30"
-      }
-    ]
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 2610000,
+      "Avg. Daily Volume": 535200,
+      "Short Float": "3.24%",
+      "Short Ratio": "4.88"
+    }
   },
   "ACHR": {
     "ticker": "ACHR",
-    "news": [],
-    "hod": true,
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-26T15:31:14Z",
+        "headline": "Archer Aviation Unusual Options Activity For November 26",
+        "id": 42192988,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ACHR"
+        ],
+        "updated_at": "2024-11-26T15:31:15Z",
+        "url": "https://www.benzinga.com/insights/options/24/11/42192988/archer-aviation-unusual-options-activity-for-november-26"
+      }
+    ],
+    "hod": false,
     "float": "293.16M",
-    "price": "7.67",
-    "time": "15:26:23",
+    "price": "8.02",
+    "time": "15:32:59",
     "isActive": true,
-    "firstSeen": "2024-11-25T14:26:28.697Z",
-    "lastSeen": "2024-11-25T15:08:51.487Z",
+    "firstSeen": "2024-11-27T14:33:00.470Z",
+    "lastSeen": "2024-11-27T14:34:50.322Z",
     "filings": [
       {
         "formType": "S-3ASR",
@@ -372,126 +685,296 @@
       }
     ],
     "shorts": {
-      "Settlement Date": "Oct 31, 2024",
-      "Short Interest": 60760000,
-      "Avg. Daily Volume": 10950000,
-      "Short Float": "22.72%",
-      "Short Ratio": "5.55"
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 76610000,
+      "Avg. Daily Volume": 13570000,
+      "Short Float": "28.56%",
+      "Short Ratio": "5.64"
     }
   },
-  "BTDR": {
-    "ticker": "BTDR",
+  "RCAT": {
+    "ticker": "RCAT",
     "news": [],
     "hod": false,
-    "float": "51.87M",
-    "price": "11.84",
-    "time": "15:40:29",
+    "float": "57.08M",
+    "price": "9.52",
+    "time": "15:32:58",
     "isActive": true,
-    "firstSeen": "2024-11-25T14:40:42.209Z",
-    "lastSeen": "2024-11-25T14:40:42.209Z"
+    "firstSeen": "2024-11-27T14:33:00.474Z",
+    "lastSeen": "2024-11-27T14:54:51.336Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
+        "date": "2024-11-14"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 5230000,
+      "Avg. Daily Volume": 1550000,
+      "Short Float": "9.16%",
+      "Short Ratio": "3.38"
+    }
   },
-  "BBAI": {
-    "ticker": "BBAI",
-    "news": [],
-    "hod": false,
-    "float": "106.84M",
-    "price": "2.57",
-    "time": "15:40:20",
-    "isActive": true,
-    "firstSeen": "2024-11-25T14:40:42.212Z",
-    "lastSeen": "2024-11-25T14:40:42.212Z"
-  },
-  "ZENA": {
-    "ticker": "ZENA",
+  "CAN": {
+    "ticker": "CAN",
     "news": [],
     "hod": true,
-    "float": "8.23M",
-    "price": "2.37",
-    "time": "15:58:31",
-    "isActive": true,
-    "firstSeen": "2024-11-25T14:58:41.040Z",
-    "lastSeen": "2024-11-25T15:22:29.475Z"
-  },
-  "QBTS": {
-    "ticker": "QBTS",
-    "news": [],
-    "hod": false,
-    "float": "214.43M",
-    "price": "3.59",
-    "time": "15:59:29",
-    "isActive": true,
-    "firstSeen": "2024-11-25T14:59:34.891Z",
-    "lastSeen": "2024-11-25T14:59:34.891Z"
-  },
-  "QUBT": {
-    "ticker": "QUBT",
-    "news": [],
-    "hod": true,
-    "float": "86.51M",
-    "price": "8.76",
-    "time": "16:04:00",
-    "isActive": true,
-    "firstSeen": "2024-11-25T15:04:02.487Z",
-    "lastSeen": "2024-11-25T15:29:09.049Z"
-  },
-  "WORX": {
-    "ticker": "WORX",
-    "news": [],
-    "hod": false,
-    "float": "1.55M",
-    "price": "2.65",
-    "time": "16:05:53",
-    "isActive": true,
-    "firstSeen": "2024-11-25T15:06:43.466Z",
-    "lastSeen": "2024-11-25T15:25:58.481Z"
-  },
-  "PTLE": {
-    "ticker": "PTLE",
-    "news": [],
-    "hod": false,
     "float": "0",
-    "price": "6.1",
-    "time": "16:19:53",
+    "price": "1.97",
+    "time": "15:36:21",
     "isActive": true,
-    "firstSeen": "2024-11-25T15:20:21.116Z",
-    "lastSeen": "2024-11-25T15:20:21.116Z"
+    "firstSeen": "2024-11-27T14:36:48.424Z",
+    "lastSeen": "2024-11-27T14:36:48.424Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 22730000,
+      "Avg. Daily Volume": 7280000,
+      "Short Float": "15.23%",
+      "Short Ratio": "3.12"
+    }
   },
-  "VUZI": {
-    "ticker": "VUZI",
+  "SAVA": {
+    "ticker": "SAVA",
     "news": [
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Benzinga Insights",
         "content": "",
-        "created_at": "2024-11-25T13:17:53Z",
-        "headline": "Vuzix Announces Six-Figure Production Order For Customized Waveguides From A Defense Customer",
-        "id": 42162465,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VUZI"
+        "created_at": "2024-11-26T19:31:49Z",
+        "headline": "Unpacking the Latest Options Trading Trends in Cassava Sciences",
+        "id": 42198743,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
         ],
-        "updated_at": "2024-11-25T13:17:53Z",
-        "url": "https://www.benzinga.com/news/24/11/42162465/vuzix-announces-six-figure-production-order-for-customized-waveguides-from-a-defense-customer"
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "SAVA"
+        ],
+        "updated_at": "2024-11-26T19:31:49Z",
+        "url": "https://www.benzinga.com/insights/options/24/11/42198743/unpacking-the-latest-options-trading-trends-in-cassava-sciences"
       }
     ],
     "hod": true,
-    "float": "60.89M",
-    "price": "2.26",
-    "time": "16:22:07",
+    "float": "41.77M",
+    "price": "4.14",
+    "time": "15:35:59",
     "isActive": true,
-    "firstSeen": "2024-11-25T15:22:29.463Z",
-    "lastSeen": "2024-11-25T15:24:54.541Z"
+    "firstSeen": "2024-11-27T14:36:48.432Z",
+    "lastSeen": "2024-11-27T14:44:12.399Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 18080000,
+      "Avg. Daily Volume": 1660000,
+      "Short Float": "43.29%",
+      "Short Ratio": "10.91"
+    }
   },
-  "NVTS": {
-    "ticker": "NVTS",
+  "NOVA": {
+    "ticker": "NOVA",
     "news": [],
     "hod": true,
-    "float": "114.53M",
-    "price": "2.77",
-    "time": "16:23:40",
+    "float": "108.65M",
+    "price": "5.85",
+    "time": "15:42:38",
     "isActive": true,
-    "firstSeen": "2024-11-25T15:24:16.591Z",
-    "lastSeen": "2024-11-25T15:24:16.591Z"
+    "firstSeen": "2024-11-27T14:42:41.388Z",
+    "lastSeen": "2024-11-27T14:44:12.408Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 32909999.999999996,
+      "Avg. Daily Volume": 8150000,
+      "Short Float": "30.29%",
+      "Short Ratio": "4.04"
+    }
+  },
+  "BLDE": {
+    "ticker": "BLDE",
+    "news": [],
+    "hod": false,
+    "float": "55.91M",
+    "price": "4.69",
+    "time": "15:41:42",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:42:41.411Z",
+    "lastSeen": "2024-11-27T14:59:57.542Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 3400000,
+      "Avg. Daily Volume": 501510,
+      "Short Float": "6.07%",
+      "Short Ratio": "6.77"
+    }
+  },
+  "LUNR": {
+    "ticker": "LUNR",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-26T17:46:44Z",
+        "headline": "What the Options Market Tells Us About Intuitive Machines",
+        "id": 42196574,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "LUNR"
+        ],
+        "updated_at": "2024-11-26T17:46:44Z",
+        "url": "https://www.benzinga.com/insights/options/24/11/42196574/what-the-options-market-tells-us-about-intuitive-machines"
+      }
+    ],
+    "hod": true,
+    "float": "123.23M",
+    "price": "14.69",
+    "time": "15:44:53",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:45:12.348Z",
+    "lastSeen": "2024-11-27T14:45:12.348Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 19970000,
+      "Avg. Daily Volume": 19120000,
+      "Short Float": "36.34%",
+      "Short Ratio": "1.04"
+    }
+  },
+  "VUZI": {
+    "ticker": "VUZI",
+    "news": [],
+    "hod": false,
+    "float": "60.89M",
+    "price": "2.11",
+    "time": "15:52:17",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:52:20.792Z",
+    "lastSeen": "2024-11-27T15:27:19.313Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 10680000,
+      "Avg. Daily Volume": 1080000,
+      "Short Float": "17.55%",
+      "Short Ratio": "9.88"
+    }
+  },
+  "LX": {
+    "ticker": "LX",
+    "news": [],
+    "hod": true,
+    "float": "138.82M",
+    "price": "4.92",
+    "time": "15:53:16",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:53:41.940Z",
+    "lastSeen": "2024-11-27T14:53:41.940Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 4200000,
+      "Avg. Daily Volume": 3610000,
+      "Short Float": "3.03%",
+      "Short Ratio": "1.16"
+    }
+  },
+  "HURA": {
+    "ticker": "HURA",
+    "news": [],
+    "hod": true,
+    "float": "23.78M",
+    "price": "5",
+    "time": "15:55:09",
+    "isActive": true,
+    "firstSeen": "2024-11-27T14:56:13.508Z",
+    "lastSeen": "2024-11-27T14:59:57.531Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 137520,
+      "Avg. Daily Volume": 92960,
+      "Short Float": "0.58%",
+      "Short Ratio": "1.48"
+    }
+  },
+  "QBTS": {
+    "ticker": "QBTS",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-11-27T15:30:19Z",
+        "headline": "How Is The Market Feeling About D-Wave Quantum?",
+        "id": 42216912,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "QBTS"
+        ],
+        "updated_at": "2024-11-27T15:30:20Z",
+        "url": "https://www.benzinga.com/insights/short-sellers/24/11/42216912/how-is-the-market-feeling-about-d-wave-quantum"
+      }
+    ],
+    "hod": false,
+    "float": "214.43M",
+    "price": "2.9",
+    "time": "16:04:51",
+    "isActive": true,
+    "firstSeen": "2024-11-27T15:05:01.799Z",
+    "lastSeen": "2024-11-27T15:05:01.809Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 17110000,
+      "Avg. Daily Volume": 5680000,
+      "Short Float": "14.15%",
+      "Short Ratio": "3.01"
+    }
+  },
+  "API": {
+    "ticker": "API",
+    "news": [],
+    "hod": false,
+    "float": "89.55M",
+    "price": "5.79",
+    "time": "16:34:18",
+    "isActive": true,
+    "firstSeen": "2024-11-27T15:34:34.845Z",
+    "lastSeen": "2024-11-27T15:34:34.845Z"
   }
 }
