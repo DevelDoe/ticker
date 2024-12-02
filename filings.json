@@ -6,34 +6,6 @@
       "date": "2024-03-21"
     }
   ],
-  "OTLK": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-052965 (33 Act)  Size: 229 KB",
-      "date": "2024-04-26"
-    }
-  ],
-  "PYXS": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001437749-24-009629 (33 Act)  Size: 373 KB",
-      "date": "2024-03-27"
-    }
-  ],
-  "RCAT": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-      "date": "2024-11-14"
-    }
-  ],
-  "ACHR": [
-    {
-      "formType": "S-3ASR",
-      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001104659-24-117109 (33 Act)  Size: 604 KB",
-      "date": "2024-11-13"
-    }
-  ],
   "VUZI": [
     {
       "formType": "S-3/A",
@@ -44,6 +16,13 @@
       "formType": "S-3",
       "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-104914 (33 Act)  Size: 238 KB",
       "date": "2024-10-01"
+    }
+  ],
+  "OTLK": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-052965 (33 Act)  Size: 229 KB",
+      "date": "2024-04-26"
     }
   ]
 }

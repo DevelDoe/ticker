@@ -241,8 +241,8 @@ const displayTickersTable = async () => {
         const watchlist = JSON.parse(watchlistData);
 
         const table = new Table({
-            head: ["Ticker", "Latest News", "S-3", "Short Interest", "Float", "Price"],
-            colWidths: [10, 90, 15, 10, 10, 10],
+            head: ["Ticker", "News", "S-3", "Short Interest", "Float", "Price"],
+            colWidths: [10, 8, 13, 10, 10, 10],
         });
 
         // Filter tickers based on the headline filter
@@ -276,7 +276,8 @@ const displayTickersTable = async () => {
             const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
             const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
 
-            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
+            // let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
+            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime}`;
             if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
                 formattedNews = chalk.black.yellow(formattedNews);
             } else if (isInWatchlist) {
