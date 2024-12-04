@@ -155,11 +155,7 @@ const updateTickersWithNews = (ticker, news) => {
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
         } else {
-            if(verbose) {
-                console.log(`News for ticker ${ticker} already processed: ${newsItem.headline}`);
-            } else {
-                console.log(`News for ticker ${ticker} already processed`);
-            }
+            console.log(`${ticker}: ${newsItem.headline}`);
             
         }
     });

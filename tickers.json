@@ -1,196 +1,25 @@
 {
-  "EHGO": {
-    "ticker": "EHGO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T13:38:07Z",
-        "headline": "Eshallgo Has Entered Into A Securities Purchase Agreement With An Accredited Investor To Issue Convertible Debentures In An Aggregate Principal Amount Of Up To $5M",
-        "id": 42265473,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "EHGO"
-        ],
-        "updated_at": "2024-12-02T13:38:07Z",
-        "url": "https://www.benzinga.com/news/24/12/42265473/eshallgo-has-entered-into-a-securities-purchase-agreement-with-an-accredited-investor-to-issue-conve"
-      }
-    ],
-    "hod": false,
-    "float": "12.94M",
-    "price": "4.28",
-    "time": "12:15:38",
-    "isActive": true,
-    "firstSeen": "2024-12-02T11:36:49.905Z",
-    "lastSeen": "2024-12-02T20:59:17.429Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3650,
-      "Avg. Daily Volume": 17990,
-      "Short Float": "0.04%",
-      "Short Ratio": "0.20"
-    }
-  },
-  "SGD": {
-    "ticker": "SGD",
+  "MDAI": {
+    "ticker": "MDAI",
     "news": [],
     "hod": false,
-    "float": "833.44K",
-    "price": "2.71",
-    "time": "12:38:36",
+    "float": "8.83M",
+    "price": "2.29",
+    "time": "01:37:06",
     "isActive": true,
-    "firstSeen": "2024-12-02T11:39:10.621Z",
-    "lastSeen": "2024-12-02T11:56:36.384Z",
+    "firstSeen": "2024-12-03T08:23:49.446Z",
+    "lastSeen": "2024-12-03T15:21:17.458Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 84090,
-      "Avg. Daily Volume": 473690,
-      "Short Float": "15.87%",
-      "Short Ratio": "0.18"
+      "Short Interest": 801100,
+      "Avg. Daily Volume": 234360,
+      "Short Float": "9.06%",
+      "Short Ratio": "3.42"
     }
-  },
-  "VMAR": {
-    "ticker": "VMAR",
-    "news": [],
-    "hod": false,
-    "float": "667.96K",
-    "price": "2.56",
-    "time": "12:39:49",
-    "isActive": true,
-    "firstSeen": "2024-12-02T11:40:16.245Z",
-    "lastSeen": "2024-12-02T15:53:35.756Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 37260,
-      "Avg. Daily Volume": 593260,
-      "Short Float": "5.56%",
-      "Short Ratio": "0.06"
-    }
-  },
-  "JCSE": {
-    "ticker": "JCSE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T16:42:49Z",
-        "headline": "JE Cleantech Shares Resume Trade",
-        "id": 42271093,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "JCSE"
-        ],
-        "updated_at": "2024-12-02T16:42:50Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/12/42271093/je-cleantech-shares-resume-trade"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T16:37:58Z",
-        "headline": "JE Cleantech Shares Halted On Circuit Breaker To The Downside, Stock Now Up 30.3%",
-        "id": 42270986,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "JCSE"
-        ],
-        "updated_at": "2024-12-02T16:37:58Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/12/42270986/je-cleantech-shares-halted-on-circuit-breaker-to-the-downside-stock-now-up-30-3"
-      }
-    ],
-    "hod": false,
-    "float": "1.81M",
-    "price": "1.88",
-    "time": "12:48:38",
-    "isActive": true,
-    "firstSeen": "2024-12-02T11:48:36.393Z",
-    "lastSeen": "2024-12-02T20:27:12.182Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 7170,
-      "Avg. Daily Volume": 53170,
-      "Short Float": "0.40%",
-      "Short Ratio": "0.13"
-    }
-  },
-  "CABA": {
-    "ticker": "CABA",
-    "news": [],
-    "hod": false,
-    "float": "41.36M",
-    "price": "4.45",
-    "time": "13:01:01",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:01:17.552Z",
-    "lastSeen": "2024-12-02T15:15:33.221Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3600000,
-      "Avg. Daily Volume": 961730,
-      "Short Float": "8.69%",
-      "Short Ratio": "3.74"
-    },
-    "filings": [
-      {
-        "formType": "S-3ASR",
-        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-073325 (33 Act)  Size: 1 MB",
-        "date": "2024-03-21"
-      }
-    ]
   },
   "SNTI": {
     "ticker": "SNTI",
     "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T12:09:19Z",
-        "headline": "Senti Biosciences Reported Initial Clinical Data From A Phase 1 Trial Of SENTI-202 For Relapsed/Refractory Hematologic Malignancies Including Acute Myeloid Leukemia",
-        "id": 42263305,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SNTI"
-        ],
-        "updated_at": "2024-12-02T12:09:20Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42263305/senti-biosciences-reported-initial-clinical-data-from-a-phase-1-trial-of-senti-202-for-relapsedre"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T12:20:20Z",
-        "headline": "Senti Biosciences Announced A Private Investment In Public Equity To Issue And Sell An Aggregate Of 16,713 Shares Of Series A Convertible Preferred Stock, With Gross Proceeds Of Approximately $37.6M",
-        "id": 42263483,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SNTI"
-        ],
-        "updated_at": "2024-12-02T12:20:20Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42263483/senti-biosciences-announced-a-private-investment-in-public-equity-to-issue-and-sell-an-aggregate-"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T15:02:44Z",
-        "headline": "Senti Biosciences Shares Halted On Circuit Breaker To The Upside, Stock Now Up 492.6%",
-        "id": 42268356,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SNTI"
-        ],
-        "updated_at": "2024-12-02T15:02:45Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/12/42268356/senti-biosciences-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-492-6"
-      },
       {
         "author": "Vandana Singh",
         "content": "",
@@ -218,15 +47,90 @@
         ],
         "updated_at": "2024-12-02T16:44:26Z",
         "url": "https://www.benzinga.com/24/12/42271112/why-is-senti-biosciences-stock-surging-over-500-on-monday"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T15:02:44Z",
+        "headline": "Senti Biosciences Shares Halted On Circuit Breaker To The Upside, Stock Now Up 492.6%",
+        "id": 42268356,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNTI"
+        ],
+        "updated_at": "2024-12-02T15:02:45Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42268356/senti-biosciences-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-492-6"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T12:20:20Z",
+        "headline": "Senti Biosciences Announced A Private Investment In Public Equity To Issue And Sell An Aggregate Of 16,713 Shares Of Series A Convertible Preferred Stock, With Gross Proceeds Of Approximately $37.6M",
+        "id": 42263483,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNTI"
+        ],
+        "updated_at": "2024-12-02T12:20:20Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42263483/senti-biosciences-announced-a-private-investment-in-public-equity-to-issue-and-sell-an-aggregate-"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T12:09:19Z",
+        "headline": "Senti Biosciences Reported Initial Clinical Data From A Phase 1 Trial Of SENTI-202 For Relapsed/Refractory Hematologic Malignancies Including Acute Myeloid Leukemia",
+        "id": 42263305,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNTI"
+        ],
+        "updated_at": "2024-12-02T12:09:20Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42263305/senti-biosciences-reported-initial-clinical-data-from-a-phase-1-trial-of-senti-202-for-relapsedre"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:39:48Z",
+        "headline": "Senti Biosciences Shares Resume Trade",
+        "id": 42292624,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNTI"
+        ],
+        "updated_at": "2024-12-03T14:39:49Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292624/senti-biosciences-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:35:46Z",
+        "headline": "Senti Biosciences Shares Halted On Circuit Breaker To The Downside, Stock Now Down -17.6%",
+        "id": 42292490,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNTI"
+        ],
+        "updated_at": "2024-12-03T14:35:47Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292490/senti-biosciences-shares-halted-on-circuit-breaker-to-the-downside-stock-now-down-17-6"
       }
     ],
     "hod": false,
     "float": "2.88M",
-    "price": "10.55",
-    "time": "13:04:38",
+    "price": "10.6",
+    "time": "00:07:36",
     "isActive": true,
-    "firstSeen": "2024-12-02T12:04:48.911Z",
-    "lastSeen": "2024-12-02T20:50:20.485Z",
+    "firstSeen": "2024-12-03T08:23:49.455Z",
+    "lastSeen": "2024-12-03T12:02:43.614Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 57980,
@@ -235,39 +139,45 @@
       "Short Ratio": "2.58"
     }
   },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [],
+    "hod": false,
+    "float": "161.16M",
+    "price": "3.07",
+    "time": "10:02:14",
+    "isActive": false,
+    "firstSeen": "2024-12-03T09:02:13.383Z",
+    "lastSeen": "2024-12-03T14:33:39.790Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 26130000,
+      "Avg. Daily Volume": 5910000,
+      "Short Float": "16.49%",
+      "Short Ratio": "4.42"
+    }
+  },
+  "KDLY": {
+    "ticker": "KDLY",
+    "news": [],
+    "hod": true,
+    "float": "1.91M",
+    "price": "1.77",
+    "time": "10:02:59",
+    "isActive": true,
+    "firstSeen": "2024-12-03T09:03:35.417Z",
+    "lastSeen": "2024-12-03T14:40:27.065Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 80100,
+      "Avg. Daily Volume": 246080,
+      "Short Float": "4.22%",
+      "Short Ratio": "0.33"
+    }
+  },
   "PPBT": {
     "ticker": "PPBT",
     "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T12:15:15Z",
-        "headline": "Purple Biotech Reported Final Results From Phase 2 Study Of Its Lead Oncology Drug, CM24, In Patients With Pancreatic Ductal Adenocarcinoma",
-        "id": 42263422,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PPBT"
-        ],
-        "updated_at": "2024-12-02T12:15:15Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42263422/purple-biotech-reported-final-results-from-phase-2-study-of-its-lead-oncology-drug-cm24-in-patien"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T15:16:27Z",
-        "headline": "Purple Biotech Shares Halted On Circuit Breaker To The Upside, Stock Now Up 86.9%",
-        "id": 42268921,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PPBT"
-        ],
-        "updated_at": "2024-12-02T15:16:28Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/12/42268921/purple-biotech-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-86-9"
-      },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
@@ -357,15 +267,88 @@
         ],
         "updated_at": "2024-12-02T15:20:35Z",
         "url": "https://www.benzinga.com/trading-ideas/24/12/42269011/purple-biotech-shares-resume-trade-then-again-halted-on-circuit-breaker-to-the-upside-stock-now-up-"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T15:16:27Z",
+        "headline": "Purple Biotech Shares Halted On Circuit Breaker To The Upside, Stock Now Up 86.9%",
+        "id": 42268921,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PPBT"
+        ],
+        "updated_at": "2024-12-02T15:16:28Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42268921/purple-biotech-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-86-9"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T12:15:15Z",
+        "headline": "Purple Biotech Reported Final Results From Phase 2 Study Of Its Lead Oncology Drug, CM24, In Patients With Pancreatic Ductal Adenocarcinoma",
+        "id": 42263422,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PPBT"
+        ],
+        "updated_at": "2024-12-02T12:15:15Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42263422/purple-biotech-reported-final-results-from-phase-2-study-of-its-lead-oncology-drug-cm24-in-patien"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T13:26:03Z",
+        "headline": "Purple Biotech Announces $2.8M Offering Of 472,668 ADS.",
+        "id": 42289505,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PPBT"
+        ],
+        "updated_at": "2024-12-03T13:26:04Z",
+        "url": "https://www.benzinga.com/news/24/12/42289505/purple-biotech-announces-2-8m-offering-of-472-668-ads"
+      },
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-12-03T14:30:46Z",
+        "headline": "Why Purple Biotech (PPBT) Stock Is Getting Hammered",
+        "id": 42292280,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/03/vaccine-4892059.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/03/vaccine-4892059.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/03/vaccine-4892059.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Purple Biotech shares are trading lower by 28% during Tuesday&#39;s session. The company announced a $2.8 million offering.",
+        "symbols": [
+          "PPBT"
+        ],
+        "updated_at": "2024-12-03T14:30:46Z",
+        "url": "https://www.benzinga.com/news/24/12/42292280/why-purple-biotech-ppbt-stock-is-getting-hammered"
       }
     ],
     "hod": false,
-    "float": "2.02M",
-    "price": "12.32",
-    "time": "13:05:14",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:05:21.592Z",
-    "lastSeen": "2024-12-02T21:14:23.195Z",
+    "float": "694.78K",
+    "price": "9.13",
+    "time": "10:04:18",
+    "isActive": false,
+    "firstSeen": "2024-12-03T09:04:25.653Z",
+    "lastSeen": "2024-12-03T09:04:25.653Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 34620,
@@ -374,184 +357,403 @@
       "Short Ratio": "0.88"
     }
   },
-  "DPRO": {
-    "ticker": "DPRO",
+  "UPC": {
+    "ticker": "UPC",
     "news": [],
     "hod": false,
-    "float": "3.77M",
-    "price": "4.89",
-    "time": "13:15:40",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:16:30.994Z",
-    "lastSeen": "2024-12-02T14:41:34.412Z"
-  },
-  "QURE": {
-    "ticker": "QURE",
-    "news": [],
-    "hod": true,
-    "float": "42.67M",
-    "price": "7.48",
-    "time": "13:23:26",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:23:27.996Z",
-    "lastSeen": "2024-12-02T14:44:46.961Z",
+    "float": "1.44M",
+    "price": "2.35",
+    "time": "10:05:27",
+    "isActive": false,
+    "firstSeen": "2024-12-03T09:05:32.697Z",
+    "lastSeen": "2024-12-03T13:12:31.455Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3170000,
-      "Avg. Daily Volume": 667780,
-      "Short Float": "7.42%",
-      "Short Ratio": "4.74"
+      "Short Interest": 2480,
+      "Avg. Daily Volume": 223490,
+      "Short Float": "0.17%",
+      "Short Ratio": "0.01"
     }
   },
-  "PDYN": {
-    "ticker": "PDYN",
-    "news": [],
-    "hod": false,
-    "float": "15.49M",
-    "price": "7.5",
-    "time": "13:26:35",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:26:38.092Z",
-    "lastSeen": "2024-12-02T14:38:15.306Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 475390,
-      "Avg. Daily Volume": 691730,
-      "Short Float": "3.07%",
-      "Short Ratio": "0.69"
-    }
-  },
-  "SNGX": {
-    "ticker": "SNGX",
+  "SHIM": {
+    "ticker": "SHIM",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T12:40:05Z",
-        "headline": "Soligenix Announced That Analysis Of The Post-treatment Data From The Open-label Study Comparing HyBryte (Synthetic Hypericin) To Valchlor (Mechlorethamine) Has Demonstrated Continued Improvement In HyBryte-treated Patients And Their Individual Lesions Even After Stopping Treatment",
-        "id": 42263911,
+        "created_at": "2024-12-02T21:21:17Z",
+        "headline": "CORRECTION: Shimmick Construction shares are trading higher after the company announced it has been rewarded a $4.5 million contract to complete extensive seismic retrofitting and improvements to the Murray street bridge.",
+        "id": 42277263,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SNGX"
+          "SHIM"
         ],
-        "updated_at": "2024-12-02T12:40:06Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42263911/soligenix-announced-that-analysis-of-the-post-treatment-data-from-the-open-label-study-comparing-"
-      }
-    ],
-    "hod": false,
-    "float": "2.51M",
-    "price": "3.44",
-    "time": "13:31:58",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:32:40.722Z",
-    "lastSeen": "2024-12-02T12:38:51.251Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 45980,
-      "Avg. Daily Volume": 131310,
-      "Short Float": "1.83%",
-      "Short Ratio": "0.35"
-    }
-  },
-  "FSLY": {
-    "ticker": "FSLY",
-    "news": [
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-12-02T19:01:26Z",
-        "headline": "Peeling Back The Layers: Exploring Fastly Through Analyst Insights",
-        "id": 42274139,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "FSLY"
-        ],
-        "updated_at": "2024-12-02T19:01:27Z",
-        "url": "https://www.benzinga.com/insights/analyst-ratings/24/12/42274139/peeling-back-the-layers-exploring-fastly-through-analyst-insights"
+        "updated_at": "2024-12-02T21:22:03Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42277263/correction-shimmick-construction-shares-are-trading-higher-after-the-company-announced-it-has-been-r"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T17:18:17Z",
-        "headline": "Oppenheimer Upgrades Fastly to Outperform, Announces $12 Price Target",
-        "id": 42271932,
+        "created_at": "2024-12-02T21:08:27Z",
+        "headline": "Shimmick Construction Announced It Has Been Awarded A $4.5M Contract To Complete Extensive Seismic Retrofitting And Improvements To The Murray Street Bridge At The Santa Cruz Small Craft Harbor",
+        "id": 42276742,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "FSLY"
+          "SHIM"
         ],
-        "updated_at": "2024-12-02T17:18:17Z",
-        "url": "https://www.benzinga.com/news/24/12/42271932/oppenheimer-upgrades-fastly-to-outperform-announces-12-price-target"
+        "updated_at": "2024-12-02T21:08:27Z",
+        "url": "https://www.benzinga.com/news/24/12/42276742/shimmick-construction-announced-it-has-been-awarded-a-4-5m-contract-to-complete-extensive-seismic-re"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T11:42:34Z",
+        "headline": "CORRECTION: Shimmick Construction Announced Monday It Has Been Awarded A $45.4M Contract To Complete Extensive Seismic Retrofitting And Improvements To The Murray Street Bridge At The Santa Cruz Small Craft Harbor",
+        "id": 42285910,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SHIM"
+        ],
+        "updated_at": "2024-12-03T11:42:35Z",
+        "url": "https://www.benzinga.com/news/24/12/42285910/correction-shimmick-construction-announced-monday-it-has-been-awarded-a-45-4m-contract-to-complete-e"
+      },
+      {
+        "author": "Lekha Gupta",
+        "content": "",
+        "created_at": "2024-12-03T14:26:35Z",
+        "headline": "Why Is Construction & Engineering Company Shimmick Stock Rocketing Premarket On Tuesday?",
+        "id": 42292128,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/03/What-Consultants-Do.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/03/What-Consultants-Do.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/03/What-Consultants-Do.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Shimmick shares surge on $45.4M contract for seismic retrofitting &amp; upgrades on a bridge in Santa Cruz. Project aims to improve safety &amp; connectivity, includes wider bike lanes &amp; see-through rails.",
+        "symbols": [
+          "SHIM"
+        ],
+        "updated_at": "2024-12-03T14:26:35Z",
+        "url": "https://www.benzinga.com/24/12/42292128/why-construction-engineering-company-shares-rocketing-premarket-on-tuesday"
+      }
+    ],
+    "hod": false,
+    "float": "2.84M",
+    "price": "3.18",
+    "time": "10:06:08",
+    "isActive": true,
+    "firstSeen": "2024-12-03T09:06:33.724Z",
+    "lastSeen": "2024-12-03T20:41:28.070Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 65239.99999999999,
+      "Avg. Daily Volume": 37790,
+      "Short Float": "2.31%",
+      "Short Ratio": "1.73"
+    }
+  },
+  "CTOR": {
+    "ticker": "CTOR",
+    "news": [],
+    "hod": false,
+    "float": "3.70M",
+    "price": "2.29",
+    "time": "10:07:07",
+    "isActive": true,
+    "firstSeen": "2024-12-03T09:07:23.682Z",
+    "lastSeen": "2024-12-03T15:40:23.866Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 29770,
+      "Avg. Daily Volume": 158890,
+      "Short Float": "8.50%",
+      "Short Ratio": "0.19"
+    }
+  },
+  "CTNT": {
+    "ticker": "CTNT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T06:17:23Z",
+        "headline": "Reported Earlier, Cheetah Net Supply Chain Service Expands Operations With Acquisition Of TW & EW Services",
+        "id": 42282513,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CTNT"
+        ],
+        "updated_at": "2024-12-03T06:17:23Z",
+        "url": "https://www.benzinga.com/m-a/24/12/42282513/reported-earlier-cheetah-net-supply-chain-service-expands-operations-with-acquisition-of-tw-ew-servi"
+      },
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-12-03T13:33:04Z",
+        "headline": "Why Cheetah Net Supply Chain Service (CTNT) Stock Is Up 270%",
+        "id": 42289728,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/03/entrepreneur-1340649.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/03/entrepreneur-1340649.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/03/entrepreneur-1340649.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Cheetah Net Supply Chain Service shares are trading higher by 325% Tuesday morning. The company announced it has signed definitive agreements to acquire TW &amp; EW Services.",
+        "symbols": [
+          "CTNT"
+        ],
+        "updated_at": "2024-12-03T13:33:05Z",
+        "url": "https://www.benzinga.com/news/24/12/42289728/why-cheetah-net-supply-chain-service-ctnt-stock-is-up-300"
+      }
+    ],
+    "hod": false,
+    "float": "8.97M",
+    "price": "5.26",
+    "time": "10:20:26",
+    "isActive": true,
+    "firstSeen": "2024-12-03T09:20:36.876Z",
+    "lastSeen": "2024-12-03T20:29:21.468Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 78150,
+      "Avg. Daily Volume": 189290,
+      "Short Float": "4.88%",
+      "Short Ratio": "0.41"
+    }
+  },
+  "PL": {
+    "ticker": "PL",
+    "news": [
+      {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-12-02T18:34:07Z",
+        "headline": "What's Going On With Planet Labs Shares Monday?",
+        "id": 42273662,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/02/4-Stocks-To-Keep-On-Your-Radar-As-Holida.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/02/4-Stocks-To-Keep-On-Your-Radar-As-Holida.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/02/4-Stocks-To-Keep-On-Your-Radar-As-Holida.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Planet Labs stock is trading higher on Monday after the company announced it signed a multi-year seven-figure deal with Laconic. ",
+        "symbols": [
+          "PL"
+        ],
+        "updated_at": "2024-12-02T18:34:08Z",
+        "url": "https://www.benzinga.com/24/12/42273662/whats-going-on-with-planet-labs-shares-monday"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-02T14:27:27Z",
+        "headline": "Planet Has Signed A Multi-Year, Seven-Figure Deal With Laconic, Empowering Governments To Monetize Natural Carbon Assets Through Its Sovereign Carbon Securitization Platform",
+        "id": 42267283,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PL"
+        ],
+        "updated_at": "2024-12-02T14:27:28Z",
+        "url": "https://www.benzinga.com/news/24/12/42267283/planet-has-signed-a-multi-year-seven-figure-deal-with-laconic-empowering-governments-to-monetize-nat"
       }
     ],
     "hod": true,
-    "float": "127.90M",
-    "price": "9.64",
-    "time": "13:32:59",
+    "float": "211.00M",
+    "price": "4.97",
+    "time": "10:49:15",
     "isActive": true,
-    "firstSeen": "2024-12-02T12:33:46.471Z",
-    "lastSeen": "2024-12-02T14:35:01.075Z",
+    "firstSeen": "2024-12-03T09:49:23.603Z",
+    "lastSeen": "2024-12-03T14:42:54.776Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 10200000,
-      "Avg. Daily Volume": 2620000,
-      "Short Float": "7.97%",
-      "Short Ratio": "3.89"
+      "Short Interest": 6030000,
+      "Avg. Daily Volume": 2640000,
+      "Short Float": "3.08%",
+      "Short Ratio": "2.29"
     }
   },
-  "MDAI": {
-    "ticker": "MDAI",
-    "news": [],
-    "hod": false,
-    "float": "8.83M",
-    "price": "2.19",
-    "time": "13:42:00",
+  "CHRS": {
+    "ticker": "CHRS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:08:37Z",
+        "headline": "Coherus Biosciences Has Agreed To Divest Udenyca (Pegfilgrastim) Franchise To Intas Pharmaceuticals For Up To $558.4M",
+        "id": 42286528,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CHRS"
+        ],
+        "updated_at": "2024-12-03T12:08:38Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42286528/coherus-biosciences-has-agreed-to-divest-udenyca-pegfilgrastim-franchise-to-intas-pharmaceuticals"
+      }
+    ],
+    "hod": true,
+    "float": "110.58M",
+    "price": "2.41",
+    "time": "13:02:59",
     "isActive": true,
-    "firstSeen": "2024-12-02T12:42:00.018Z",
-    "lastSeen": "2024-12-02T20:50:20.491Z",
+    "firstSeen": "2024-12-03T12:03:48.764Z",
+    "lastSeen": "2024-12-03T14:56:41.299Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 801100,
-      "Avg. Daily Volume": 234360,
-      "Short Float": "9.06%",
-      "Short Ratio": "3.42"
+      "Short Interest": 33040000,
+      "Avg. Daily Volume": 2560000,
+      "Short Float": "29.88%",
+      "Short Ratio": "12.90"
     }
   },
-  "GRRR": {
-    "ticker": "GRRR",
-    "news": [],
+  "PRZO": {
+    "ticker": "PRZO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:15:59Z",
+        "headline": "ParaZero Delivers Custom Drone Safety System To Leading Automotive Manufacturer Client",
+        "id": 42286683,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRZO"
+        ],
+        "updated_at": "2024-12-03T12:16:00Z",
+        "url": "https://www.benzinga.com/news/24/12/42286683/parazero-delivers-custom-drone-safety-system-to-leading-automotive-manufacturer-client"
+      }
+    ],
     "hod": false,
-    "float": "9.44M",
-    "price": "7.1",
-    "time": "13:50:12",
-    "isActive": true,
-    "firstSeen": "2024-12-02T12:50:15.312Z",
-    "lastSeen": "2024-12-02T14:30:36.139Z",
+    "float": "9.01M",
+    "price": "1.92",
+    "time": "13:06:11",
+    "isActive": false,
+    "firstSeen": "2024-12-03T12:06:19.608Z",
+    "lastSeen": "2024-12-03T12:06:19.608Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 745300,
-      "Avg. Daily Volume": 712480,
-      "Short Float": "7.90%",
-      "Short Ratio": "1.05"
+      "Short Interest": 106610,
+      "Avg. Daily Volume": 316170,
+      "Short Float": "1.18%",
+      "Short Ratio": "0.34"
     }
+  },
+  "ELVA": {
+    "ticker": "ELVA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:26:49Z",
+        "headline": "Electrovaya Lands $4.1M Purchase Order To Re-Power Distribution Centers From A Fortune 500 Customer",
+        "id": 42286899,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ELVA"
+        ],
+        "updated_at": "2024-12-03T12:26:49Z",
+        "url": "https://www.benzinga.com/news/24/12/42286899/electrovaya-lands-4-1m-purchase-order-to-re-power-distribution-centers-from-a-fortune-500-customer"
+      }
+    ],
+    "hod": false,
+    "float": "22.71M",
+    "price": "3.29",
+    "time": "13:13:48",
+    "isActive": false,
+    "firstSeen": "2024-12-03T12:13:56.429Z",
+    "lastSeen": "2024-12-03T12:13:56.429Z"
+  },
+  "BCLI": {
+    "ticker": "BCLI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:13:29Z",
+        "headline": "BrainStorm Receives Notice Of Allowance fFr U.S. Patent On Innovative Exosome Platform Technology",
+        "id": 42286613,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BCLI"
+        ],
+        "updated_at": "2024-12-03T12:13:30Z",
+        "url": "https://www.benzinga.com/news/24/12/42286613/brainstorm-receives-notice-of-allowance-ffr-u-s-patent-on-innovative-exosome-platform-technology"
+      }
+    ],
+    "hod": false,
+    "float": "4.89M",
+    "price": "2.22",
+    "time": "13:26:30",
+    "isActive": false,
+    "firstSeen": "2024-12-03T12:26:37.163Z",
+    "lastSeen": "2024-12-03T12:26:37.163Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 173850,
+      "Avg. Daily Volume": 69420,
+      "Short Float": "3.56%",
+      "Short Ratio": "2.50"
+    },
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-102447 (33 Act)  Size: 222 KB",
+        "date": "2024-09-24"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-100639 (33 Act)  Size: 247 KB",
+        "date": "2024-09-17"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-094048 (33 Act)  Size: 1 MB",
+        "date": "2024-08-28"
+      }
+    ]
   },
   "JFBR": {
     "ticker": "JFBR",
@@ -570,15 +772,30 @@
         ],
         "updated_at": "2024-12-02T12:50:43Z",
         "url": "https://www.benzinga.com/news/24/12/42264035/jeffs-brands-subsidiary-fort-products-reached-over-1-2m-in-sales-from-its-platform-on-the-amazon-mar"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:27:36Z",
+        "headline": "Jeffs' Brands And Deliverz.AI Sign Binding Letter Of Intent For A US Joint Venture For AI-Powered Fully Autonomous Robots; Pursuant To LOI, Deliverz.AI Will Provide The License For Its Robotics Technology And Software In Consideration For 50% Equity Stake In JV, While Jeffs' Will Invest $1M For A 50% Equity Stake",
+        "id": 42286902,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-12-03T12:27:37Z",
+        "url": "https://www.benzinga.com/news/24/12/42286902/jeffs-brands-and-deliverz-ai-sign-binding-letter-of-intent-for-a-us-joint-venture-for-ai-powered-ful"
       }
     ],
-    "hod": false,
-    "float": "6.68M",
-    "price": "3.06",
-    "time": "13:54:55",
+    "hod": true,
+    "float": "7.19M",
+    "price": "3",
+    "time": "13:26:19",
     "isActive": true,
-    "firstSeen": "2024-12-02T12:55:44.945Z",
-    "lastSeen": "2024-12-02T12:55:44.945Z",
+    "firstSeen": "2024-12-03T12:26:37.165Z",
+    "lastSeen": "2024-12-03T15:16:33.609Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 26510,
@@ -587,74 +804,431 @@
       "Short Ratio": "0.14"
     }
   },
-  "SOS": {
-    "ticker": "SOS",
-    "news": [],
-    "hod": false,
-    "float": "88.33M",
-    "price": "14.72",
-    "time": "14:02:41",
-    "isActive": true,
-    "firstSeen": "2024-12-02T13:02:53.187Z",
-    "lastSeen": "2024-12-02T13:46:04.547Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 115470,
-      "Avg. Daily Volume": 20120,
-      "Short Float": "N/A",
-      "Short Ratio": "5.74"
-    }
-  },
-  "SPAI": {
-    "ticker": "SPAI",
+  "ZENA": {
+    "ticker": "ZENA",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T13:39:58Z",
-        "headline": "Safe Pro's Airborne Response Completes Milestones For Florida Police Drone Contract, Delivering Drone-As-A-First-Responder Solution With FAA Coordination, 24/7 Operations Training, And Advanced Drone Nest Technology",
-        "id": 42265516,
+        "created_at": "2024-12-03T12:37:39Z",
+        "headline": "ZenaTech Partners With Suntek Global To Develop Blue UAS And NDAA-Compliant AI Drone Cameras For US Defense",
+        "id": 42287298,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SPAI"
+          "ZENA"
         ],
-        "updated_at": "2024-12-02T13:39:59Z",
-        "url": "https://www.benzinga.com/news/24/12/42265516/safe-pros-airborne-response-completes-milestones-for-florida-police-drone-contract-delivering-drone"
+        "updated_at": "2024-12-03T12:37:40Z",
+        "url": "https://www.benzinga.com/news/24/12/42287298/zenatech-partners-with-suntek-global-to-develop-blue-uas-and-ndaa-compliant-ai-drone-cameras-for-us"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:37:05Z",
+        "headline": "ZenaTech Shares Halted On Circuit Breaker To The Downside, Stock Now Down -18.3%",
+        "id": 42292506,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZENA"
+        ],
+        "updated_at": "2024-12-03T14:37:05Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292506/zenatech-shares-halted-on-circuit-breaker-to-the-downside-stock-now-down-18-3"
       }
     ],
     "hod": false,
-    "float": "5.90M",
-    "price": "5.35",
-    "time": "14:03:56",
+    "float": "8.23M",
+    "price": "8.6",
+    "time": "13:35:44",
     "isActive": true,
-    "firstSeen": "2024-12-02T13:03:56.362Z",
-    "lastSeen": "2024-12-02T16:13:01.473Z",
+    "firstSeen": "2024-12-03T12:35:46.204Z",
+    "lastSeen": "2024-12-03T12:35:46.204Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 10250,
-      "Avg. Daily Volume": 183790,
-      "Short Float": "0.18%",
-      "Short Ratio": "0.06"
+      "Short Interest": 290670,
+      "Avg. Daily Volume": 3460000,
+      "Short Float": "15.09%",
+      "Short Ratio": "0.08"
     }
   },
-  "PRZO": {
-    "ticker": "PRZO",
-    "news": [],
-    "hod": false,
-    "float": "9.01M",
-    "price": "1.82",
-    "time": "14:18:30",
+  "PSQH": {
+    "ticker": "PSQH",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:59:47Z",
+        "headline": "Bloomberg Reported Donald Trump Jr. To Join Board Of PublicSquare",
+        "id": 42287675,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSQH"
+        ],
+        "updated_at": "2024-12-03T12:59:48Z",
+        "url": "https://www.benzinga.com/news/24/12/42287675/bloomberg-reported-donald-trump-jr-to-join-board-of-publicsquare"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T18:40:27Z",
+        "headline": "PSQ Holdings, Inc. Shares Resume Trade",
+        "id": 42299193,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSQH"
+        ],
+        "updated_at": "2024-12-03T18:40:27Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42299193/psq-holdings-inc-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T18:21:28Z",
+        "headline": "PublicSquare Appoints Donald Trump Jr. And Willie Langston To Board Of Directors",
+        "id": 42298838,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSQH"
+        ],
+        "updated_at": "2024-12-03T18:21:28Z",
+        "url": "https://www.benzinga.com/news/24/12/42298838/publicsquare-appoints-donald-trump-jr-and-willie-langston-to-board-of-directors"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T18:12:51Z",
+        "headline": "PSQ Holdings Shares Halted Pending News",
+        "id": 42298660,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSQH"
+        ],
+        "updated_at": "2024-12-03T18:12:51Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42298660/psq-holdings-shares-halted-pending-news"
+      }
+    ],
+    "hod": true,
+    "float": "18.21M",
+    "price": "7.66",
+    "time": "13:36:15",
     "isActive": true,
-    "firstSeen": "2024-12-02T13:18:28.205Z",
-    "lastSeen": "2024-12-02T19:55:54.877Z",
+    "firstSeen": "2024-12-03T12:36:25.371Z",
+    "lastSeen": "2024-12-03T20:45:12.526Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 106610,
-      "Avg. Daily Volume": 316170,
-      "Short Float": "1.18%",
-      "Short Ratio": "0.34"
+      "Short Interest": 1250000,
+      "Avg. Daily Volume": 148780,
+      "Short Float": "7.58%",
+      "Short Ratio": "8.42"
+    }
+  },
+  "CETX": {
+    "ticker": "CETX",
+    "news": [],
+    "hod": false,
+    "float": "731.03K",
+    "price": "3.6",
+    "time": "13:40:44",
+    "isActive": false,
+    "firstSeen": "2024-12-03T12:40:46.424Z",
+    "lastSeen": "2024-12-03T12:41:44.348Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 4440,
+      "Avg. Daily Volume": 149920,
+      "Short Float": "0.61%",
+      "Short Ratio": "0.03"
+    }
+  },
+  "PBM": {
+    "ticker": "PBM",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:50:36Z",
+        "headline": "Psyence Biomedical Strengthens Financial Position And Advances Psilocybin Clinical Trials In Latest Shareholder Update",
+        "id": 42287566,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PBM"
+        ],
+        "updated_at": "2024-12-03T12:50:36Z",
+        "url": "https://www.benzinga.com/news/24/12/42287566/psyence-biomedical-strengthens-financial-position-and-advances-psilocybin-clinical-trials-in-latest"
+      }
+    ],
+    "hod": false,
+    "float": "730.36K",
+    "price": "3.71",
+    "time": "13:44:36",
+    "isActive": false,
+    "firstSeen": "2024-12-03T12:45:32.522Z",
+    "lastSeen": "2024-12-03T12:45:32.522Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 10980,
+      "Avg. Daily Volume": 85120,
+      "Short Float": "1.75%",
+      "Short Ratio": "0.13"
+    }
+  },
+  "NLSP": {
+    "ticker": "NLSP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:46:33Z",
+        "headline": "NLS Pharmaceutics Says Preclinical Data Demonstrate The Potential Of Its Dual Orexin Receptor Agonist Platform, An Investigational New Drug Application Is Planned For 2026-2027",
+        "id": 42287503,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NLSP"
+        ],
+        "updated_at": "2024-12-03T12:46:34Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42287503/nls-pharmaceutics-says-preclinical-data-demonstrate-the-potential-of-its-dual-orexin-receptor-ago"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:48:22Z",
+        "headline": "NLS Pharmaceutics shares are trading higher after the company announced preclinical data for its non-sulfonamide, dual orexin receptor agonists for potential treatment of narcolepsy and neurological disorders.",
+        "id": 42287511,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NLSP"
+        ],
+        "updated_at": "2024-12-03T15:01:02Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42287511/nls-pharmaceutics-shares-are-trading-higher-after-the-company-announced-preclinical-data-for-its-non"
+      }
+    ],
+    "hod": false,
+    "float": "1.63M",
+    "price": "6.49",
+    "time": "13:46:22",
+    "isActive": true,
+    "firstSeen": "2024-12-03T12:46:54.720Z",
+    "lastSeen": "2024-12-03T13:38:37.636Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 55990,
+      "Avg. Daily Volume": 206840,
+      "Short Float": "3.43%",
+      "Short Ratio": "0.27"
+    }
+  },
+  "VLN": {
+    "ticker": "VLN",
+    "news": [],
+    "hod": false,
+    "float": "79.80M",
+    "price": "2.93",
+    "time": "14:00:20",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:00:31.009Z",
+    "lastSeen": "2024-12-03T13:01:51.231Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 209800,
+      "Avg. Daily Volume": 161960,
+      "Short Float": "0.26%",
+      "Short Ratio": "1.30"
+    }
+  },
+  "TZUP": {
+    "ticker": "TZUP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T13:04:40Z",
+        "headline": "Thumzup Announces Strategic Integration With Elon Musk's X Corp.",
+        "id": 42288180,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TZUP"
+        ],
+        "updated_at": "2024-12-03T13:04:40Z",
+        "url": "https://www.benzinga.com/news/24/12/42288180/thumzup-announces-strategic-integration-with-elon-musks-x-corp"
+      }
+    ],
+    "hod": false,
+    "float": "2.46M",
+    "price": "5.35",
+    "time": "14:01:35",
+    "isActive": true,
+    "firstSeen": "2024-12-03T13:01:51.225Z",
+    "lastSeen": "2024-12-03T15:54:04.528Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 36580,
+      "Avg. Daily Volume": 42330,
+      "Short Float": "2.14%",
+      "Short Ratio": "0.86"
+    }
+  },
+  "ZJK": {
+    "ticker": "ZJK",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T13:02:02Z",
+        "headline": "ZJK Industrial Receives Request To Produce Samples For One Of NVIDIA's Upcoming Liquid Cooling Manifold Projects",
+        "id": 42288008,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZJK"
+        ],
+        "updated_at": "2024-12-03T13:02:03Z",
+        "url": "https://www.benzinga.com/news/24/12/42288008/zjk-industrial-receives-request-to-produce-samples-for-one-of-nvidias-upcoming-liquid-cooling-manifo"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:56:40Z",
+        "headline": "ZJK Industrial Shares Halted On Circuit Breaker To The Upside, Stock Now Up 316.4%",
+        "id": 42292988,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZJK"
+        ],
+        "updated_at": "2024-12-03T14:56:40Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292988/zjk-industrial-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-316-4"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:50:47Z",
+        "headline": "ZJK Industrial Shares Halted On Circuit Breaker To The Upside, Stock Now Up 278.6%",
+        "id": 42292879,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZJK"
+        ],
+        "updated_at": "2024-12-03T14:50:47Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292879/zjk-industrial-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-278-6"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:47:07Z",
+        "headline": "ZJK Industrial Shares Resume Trade",
+        "id": 42292782,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZJK"
+        ],
+        "updated_at": "2024-12-03T14:47:08Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292782/zjk-industrial-shares-resume-trade"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T14:42:07Z",
+        "headline": "ZJK Industrial Shares Halted On Circuit Breaker, Stock Now Up 220%",
+        "id": 42292666,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZJK"
+        ],
+        "updated_at": "2024-12-03T14:42:08Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42292666/zjk-industrial-shares-halted-on-circuit-breaker-stock-now-up-220"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "19.79",
+    "time": "14:03:16",
+    "isActive": true,
+    "firstSeen": "2024-12-03T13:03:17.808Z",
+    "lastSeen": "2024-12-03T20:18:23.644Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 14620,
+      "Avg. Daily Volume": 135180,
+      "Short Float": "N/A",
+      "Short Ratio": "0.11"
+    }
+  },
+  "EOSE": {
+    "ticker": "EOSE",
+    "news": [],
+    "hod": true,
+    "float": "211.54M",
+    "price": "3.39",
+    "time": "14:04:37",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:04:48.232Z",
+    "lastSeen": "2024-12-03T14:39:02.471Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 57330000,
+      "Avg. Daily Volume": 7330000,
+      "Short Float": "27.10%",
+      "Short Ratio": "7.82"
+    }
+  },
+  "CHR": {
+    "ticker": "CHR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T12:41:05Z",
+        "headline": "Cheer Holding Approves $50M Share Buyback Program Over the Next Three Years",
+        "id": 42287425,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CHR"
+        ],
+        "updated_at": "2024-12-03T12:41:05Z",
+        "url": "https://www.benzinga.com/news/24/12/42287425/cheer-holding-approves-50m-share-buyback-program-over-the-next-three-years"
+      }
+    ],
+    "hod": false,
+    "float": "5.64M",
+    "price": "2.98",
+    "time": "14:04:11",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:04:48.242Z",
+    "lastSeen": "2024-12-03T13:04:48.242Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 23980,
+      "Avg. Daily Volume": 9820,
+      "Short Float": "0.43%",
+      "Short Ratio": "2.44"
     }
   },
   "VUZI": {
@@ -676,13 +1250,13 @@
         "url": "https://www.benzinga.com/news/24/12/42265480/osha-expands-deployment-of-vuzix-m400-smart-glasses-with-zoom-integration-to-enhance-efficiency-and"
       }
     ],
-    "hod": true,
+    "hod": false,
     "float": "60.89M",
-    "price": "2.85",
-    "time": "14:17:49",
-    "isActive": true,
-    "firstSeen": "2024-12-02T13:18:28.210Z",
-    "lastSeen": "2024-12-02T14:51:17.374Z",
+    "price": "2.79",
+    "time": "14:04:10",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:04:48.245Z",
+    "lastSeen": "2024-12-03T13:04:48.245Z",
     "filings": [
       {
         "formType": "S-3/A",
@@ -703,513 +1277,289 @@
       "Short Ratio": "9.88"
     }
   },
-  "AISP": {
-    "ticker": "AISP",
-    "news": [],
-    "hod": false,
-    "float": "14.32M",
-    "price": "3.6",
-    "time": "14:31:50",
-    "isActive": true,
-    "firstSeen": "2024-12-02T13:31:56.873Z",
-    "lastSeen": "2024-12-02T15:08:42.131Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1610000,
-      "Avg. Daily Volume": 843020,
-      "Short Float": "11.22%",
-      "Short Ratio": "1.91"
-    }
-  },
-  "SANA": {
-    "ticker": "SANA",
+  "BTCT": {
+    "ticker": "BTCT",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T14:02:08Z",
-        "headline": "Sana Biotechnology Announces FDA Fast Track Designation For SC291 In Relapsed/Refractory Systemic Lupus Erythematosus",
-        "id": 42266361,
+        "created_at": "2024-12-03T13:12:21Z",
+        "headline": "BTCT Announces Full Deployment Of 2,000 BITMAIN T21 Miners Within 3-6 Months, Tripling Hash Rate To 600P And Enhancing Mining Efficiency To Strengthen Leadership In Cryptocurrency Market",
+        "id": 42289052,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SANA"
+          "BTCT"
         ],
-        "updated_at": "2024-12-02T14:02:08Z",
-        "url": "https://www.benzinga.com/news/24/12/42266361/sana-biotechnology-announces-fda-fast-track-designation-for-sc291-in-relapsedrefractory-systemic-lup"
+        "updated_at": "2024-12-03T13:12:22Z",
+        "url": "https://www.benzinga.com/markets/cryptocurrency/24/12/42289052/btct-announces-full-deployment-of-2-000-bitmain-t21-miners-within-3-6-months-tripling-hash"
       }
     ],
     "hod": false,
-    "float": "122.07M",
-    "price": "3.02",
-    "time": "15:00:07",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:00:46.005Z",
-    "lastSeen": "2024-12-02T14:00:46.005Z",
+    "float": "3.13M",
+    "price": "15.09",
+    "time": "14:10:49",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:10:58.892Z",
+    "lastSeen": "2024-12-03T13:10:58.892Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 35370000,
-      "Avg. Daily Volume": 1420000,
-      "Short Float": "28.97%",
-      "Short Ratio": "24.88"
+      "Short Interest": 1120000,
+      "Avg. Daily Volume": 3160000,
+      "Short Float": "44.80%",
+      "Short Ratio": "0.35"
     }
   },
-  "NISN": {
-    "ticker": "NISN",
+  "GNLN": {
+    "ticker": "GNLN",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T14:16:01Z",
-        "headline": "Nisun International Secures $82M Corn Supply Agreement With Henan Yingda Feng",
-        "id": 42266959,
+        "created_at": "2024-12-03T13:36:52Z",
+        "headline": "Greenlane Signs Multi-Year Distributor Agreement To Distribute CURB Lifestyle Inhalation Device Technology",
+        "id": 42289963,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NISN"
+          "GNLN"
         ],
-        "updated_at": "2024-12-02T14:16:01Z",
-        "url": "https://www.benzinga.com/news/24/12/42266959/nisun-international-secures-82m-corn-supply-agreement-with-henan-yingda-feng"
+        "updated_at": "2024-12-03T13:36:53Z",
+        "url": "https://www.benzinga.com/news/24/12/42289963/greenlane-signs-multi-year-distributor-agreement-to-distribute-curb-lifestyle-inhalation-device-tech"
+      }
+    ],
+    "hod": false,
+    "float": "1.33M",
+    "price": "1.99",
+    "time": "14:31:09",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:31:27.952Z",
+    "lastSeen": "2024-12-03T13:38:37.640Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 34490,
+      "Avg. Daily Volume": 1340000,
+      "Short Float": "2.59%",
+      "Short Ratio": "0.03"
+    }
+  },
+  "PRCH": {
+    "ticker": "PRCH",
+    "news": [],
+    "hod": false,
+    "float": "59.38M",
+    "price": "4.79",
+    "time": "14:32:34",
+    "isActive": true,
+    "firstSeen": "2024-12-03T13:32:58.897Z",
+    "lastSeen": "2024-12-03T15:46:08.911Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-197875 (33 Act)  Size: 250 KB",
+        "date": "2024-08-09"
+      },
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-134419 (33 Act)  Size: 309 KB",
+        "date": "2024-05-09"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 8289999.999999999,
+      "Avg. Daily Volume": 1660000,
+      "Short Float": "13.95%",
+      "Short Ratio": "5.00"
+    }
+  },
+  "MUX": {
+    "ticker": "MUX",
+    "news": [],
+    "hod": false,
+    "float": "44.45M",
+    "price": "8.77",
+    "time": "14:44:08",
+    "isActive": false,
+    "firstSeen": "2024-12-03T13:44:28.249Z",
+    "lastSeen": "2024-12-03T13:44:28.249Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1070000,
+      "Avg. Daily Volume": 627690,
+      "Short Float": "2.42%",
+      "Short Ratio": "1.71"
+    }
+  },
+  "ENLV": {
+    "ticker": "ENLV",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-03T13:32:24Z",
+        "headline": "Enlivex Announces Interim Efficacy Data From Allocetra Trial In Patients With Moderate To Severe Knee Osteoarthritis; The Interim Efficacy Results Are Statistically Significant, And Show Marked Improvements In All Key Efficacy Endpoints, Including Reduction Of Pain And An Improvement In Functionality, Compared To Baseline",
+        "id": 42289720,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ENLV"
+        ],
+        "updated_at": "2024-12-03T13:32:24Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42289720/enlivex-announces-interim-efficacy-data-from-allocetra-trial-in-patients-with-moderate-to-severe-"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-02T14:18:55Z",
-        "headline": "NiSun International shares are trading higher after the company announced an $82 million corn supply agreement with Henan Yingda Feng.",
-        "id": 42267075,
+        "created_at": "2024-12-03T14:36:56Z",
+        "headline": "D. Boral Capital Maintains Buy on Enlivex Therapeutics, Maintains $13 Price Target",
+        "id": 42292503,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NISN"
+          "ENLV"
         ],
-        "updated_at": "2024-12-02T16:03:06Z",
-        "url": "https://www.benzinga.com/wiim/24/12/42267075/nisun-international-shares-are-trading-higher-after-the-company-announced-an-82-million-corn-supply"
+        "updated_at": "2024-12-03T14:36:57Z",
+        "url": "https://www.benzinga.com/news/24/12/42292503/d-boral-capital-maintains-buy-on-enlivex-therapeutics-maintains-13-price-target"
       }
     ],
     "hod": false,
-    "float": "2.94M",
-    "price": "9.77",
-    "time": "15:16:14",
+    "float": "18.76M",
+    "price": "1.78",
+    "time": "14:50:51",
     "isActive": true,
-    "firstSeen": "2024-12-02T14:16:15.665Z",
-    "lastSeen": "2024-12-02T14:17:37.763Z",
+    "firstSeen": "2024-12-03T13:52:08.412Z",
+    "lastSeen": "2024-12-03T13:52:08.412Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 177580,
-      "Avg. Daily Volume": 116010,
-      "Short Float": "6.04%",
-      "Short Ratio": "1.53"
-    }
-  },
-  "DSX": {
-    "ticker": "DSX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T14:31:32Z",
-        "headline": "Diana Shipping Announces Time Charter Contract For m/v DSI Aquarius With Bunge; The Gross Charter Rate Is $13,300 Per Day, Anticipated To Generate ~$3.99M Of Gross Revenue For The Minimum Scheduled Period Of The Time Charter",
-        "id": 42267404,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DSX"
-        ],
-        "updated_at": "2024-12-02T14:31:33Z",
-        "url": "https://www.benzinga.com/news/24/12/42267404/diana-shipping-announces-time-charter-contract-for-mv-dsi-aquarius-with-bunge-the-gross-charter-rate"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T14:23:22Z",
-        "headline": "Diana Shipping Inc. Commences Self Tender Offer To Purchase Up To 15M Shares, Or About 12% Of Its Outstanding Common Stock At A Price Of $2/Share",
-        "id": 42267256,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DSX"
-        ],
-        "updated_at": "2024-12-02T14:23:22Z",
-        "url": "https://www.benzinga.com/news/24/12/42267256/diana-shipping-inc-commences-self-tender-offer-to-purchase-up-to-15m-shares-or-about-12-of-its-outst"
-      }
-    ],
-    "hod": false,
-    "float": "72.89M",
-    "price": "1.9",
-    "time": "15:23:29",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:24:02.853Z",
-    "lastSeen": "2024-12-02T14:24:02.853Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1320000,
-      "Avg. Daily Volume": 456450,
-      "Short Float": "1.81%",
-      "Short Ratio": "2.88"
-    }
-  },
-  "MOBX": {
-    "ticker": "MOBX",
-    "news": [],
-    "hod": false,
-    "float": "19.66M",
-    "price": "1.82",
-    "time": "15:25:30",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:25:27.376Z",
-    "lastSeen": "2024-12-02T16:04:04.761Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 266920,
-      "Avg. Daily Volume": 435940,
-      "Short Float": "1.36%",
-      "Short Ratio": "0.61"
-    }
-  },
-  "DAN": {
-    "ticker": "DAN",
-    "news": [
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-12-02T12:00:32Z",
-        "headline": "The Analyst Landscape: 8 Takes On Dana",
-        "id": 42262921,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "DAN"
-        ],
-        "updated_at": "2024-12-02T12:00:33Z",
-        "url": "https://www.benzinga.com/insights/analyst-ratings/24/12/42262921/the-analyst-landscape-8-takes-on-dana"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T10:18:41Z",
-        "headline": "Barclays Upgrades Dana to Overweight, Raises Price Target to $18",
-        "id": 42261400,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DAN"
-        ],
-        "updated_at": "2024-12-02T10:18:42Z",
-        "url": "https://www.benzinga.com/news/24/12/42261400/barclays-upgrades-dana-to-overweight-raises-price-target-to-18"
-      }
-    ],
-    "hod": false,
-    "float": "129.34M",
-    "price": "10.95",
-    "time": "15:29:58",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:30:36.139Z",
-    "lastSeen": "2024-12-02T14:30:36.139Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3200000,
-      "Avg. Daily Volume": 1810000,
-      "Short Float": "2.23%",
-      "Short Ratio": "1.77"
-    }
-  },
-  "SERV": {
-    "ticker": "SERV",
-    "news": [],
-    "hod": true,
-    "float": "26.81M",
-    "price": "9.15",
-    "time": "15:31:04",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:31:16.192Z",
-    "lastSeen": "2024-12-02T14:31:16.192Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3690000,
-      "Avg. Daily Volume": 5440000,
-      "Short Float": "13.77%",
-      "Short Ratio": "0.68"
-    }
-  },
-  "AMPX": {
-    "ticker": "AMPX",
-    "news": [],
-    "hod": true,
-    "float": "72.85M",
-    "price": "2.64",
-    "time": "15:32:37",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:32:40.514Z",
-    "lastSeen": "2024-12-02T15:34:17.976Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3340000,
-      "Avg. Daily Volume": 1740000,
-      "Short Float": "4.52%",
-      "Short Ratio": "1.91"
-    }
-  },
-  "API": {
-    "ticker": "API",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T11:07:55Z",
-        "headline": "Agora Says Senior Management Team Voluntarily Entered Into Lock-up Period, Expiring On December 31, 2025",
-        "id": 42262038,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "API"
-        ],
-        "updated_at": "2024-12-02T11:07:55Z",
-        "url": "https://www.benzinga.com/news/24/12/42262038/agora-says-senior-management-team-voluntarily-entered-into-lock-up-period-expiring-on-december-31-20"
-      }
-    ],
-    "hod": true,
-    "float": "89.55M",
-    "price": "5.88",
-    "time": "15:46:23",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:46:26.302Z",
-    "lastSeen": "2024-12-02T15:01:29.238Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1770000,
-      "Avg. Daily Volume": 2240000,
-      "Short Float": "2.49%",
+      "Short Interest": 99230,
+      "Avg. Daily Volume": 125250,
+      "Short Float": "0.53%",
       "Short Ratio": "0.79"
     }
   },
-  "FOSL": {
-    "ticker": "FOSL",
+  "GPRK": {
+    "ticker": "GPRK",
     "news": [],
     "hod": false,
-    "float": "46.81M",
-    "price": "2.45",
-    "time": "15:51:45",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:52:08.708Z",
-    "lastSeen": "2024-12-02T21:22:07.378Z",
+    "float": "37.49M",
+    "price": "11.33",
+    "time": "15:05:58",
+    "isActive": false,
+    "firstSeen": "2024-12-03T14:06:35.244Z",
+    "lastSeen": "2024-12-03T14:06:35.244Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1340000,
-      "Avg. Daily Volume": 310730,
-      "Short Float": "2.85%",
-      "Short Ratio": "4.30"
+      "Short Interest": 969790,
+      "Avg. Daily Volume": 321790,
+      "Short Float": "2.59%",
+      "Short Ratio": "3.01"
     }
   },
-  "ESPR": {
-    "ticker": "ESPR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T13:19:21Z",
-        "headline": "Esperion Has Filed New Drug Submissions To Health Canada For Nexletol And Nexlizet, Once-daily, Accessible, Oral Non-statin Medications That Reduce Low-density Lipoprotein Cholesterol And Cardiovascular Risk.",
-        "id": 42264904,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ESPR"
-        ],
-        "updated_at": "2024-12-02T13:19:22Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42264904/esperion-has-filed-new-drug-submissions-to-health-canada-for-nexletol-and-nexlizet-once-daily-acc"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T15:23:17Z",
-        "headline": "HC Wainwright & Co. Reiterates Buy on Esperion Therapeutics, Maintains $16 Price Target",
-        "id": 42269077,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ESPR"
-        ],
-        "updated_at": "2024-12-02T15:23:18Z",
-        "url": "https://www.benzinga.com/news/24/12/42269077/hc-wainwright-co-reiterates-buy-on-esperion-therapeutics-maintains-16-price-target"
-      }
-    ],
+  "TRNR": {
+    "ticker": "TRNR",
+    "news": [],
+    "hod": false,
+    "float": "869.26K",
+    "price": "3.16",
+    "time": "15:14:04",
+    "isActive": false,
+    "firstSeen": "2024-12-03T14:15:01.651Z",
+    "lastSeen": "2024-12-03T14:15:01.651Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 76510,
+      "Avg. Daily Volume": 138070,
+      "Short Float": "191.27%",
+      "Short Ratio": "0.55"
+    }
+  },
+  "NVTS": {
+    "ticker": "NVTS",
+    "news": [],
     "hod": true,
-    "float": "195.06M",
-    "price": "3.17",
-    "time": "15:56:25",
-    "isActive": true,
-    "firstSeen": "2024-12-02T14:56:37.401Z",
-    "lastSeen": "2024-12-02T14:56:37.401Z",
+    "float": "112.87M",
+    "price": "3.15",
+    "time": "15:34:21",
+    "isActive": false,
+    "firstSeen": "2024-12-03T14:34:23.475Z",
+    "lastSeen": "2024-12-03T14:35:04.019Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 31250000,
-      "Avg. Daily Volume": 3740000,
-      "Short Float": "16.02%",
-      "Short Ratio": "8.36"
+      "Short Interest": 27840000,
+      "Avg. Daily Volume": 2700000,
+      "Short Float": "24.31%",
+      "Short Ratio": "10.32"
     }
   },
-  "OTLK": {
-    "ticker": "OTLK",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-02T08:08:23Z",
-        "headline": "Chardan Capital Downgrades Outlook Therapeutics to Neutral",
-        "id": 42260371,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "OTLK"
-        ],
-        "updated_at": "2024-12-02T08:08:24Z",
-        "url": "https://www.benzinga.com/news/24/12/42260371/chardan-capital-downgrades-outlook-therapeutics-to-neutral"
-      }
-    ],
+  "WOOF": {
+    "ticker": "WOOF",
+    "news": [],
     "hod": true,
-    "float": "15.23M",
-    "price": "2.39",
-    "time": "16:00:34",
+    "float": "89.98M",
+    "price": "5.13",
+    "time": "15:46:39",
     "isActive": true,
-    "firstSeen": "2024-12-02T15:00:38.228Z",
-    "lastSeen": "2024-12-02T15:25:10.652Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3400000,
-      "Avg. Daily Volume": 264790,
-      "Short Float": "22.32%",
-      "Short Ratio": "12.84"
-    }
+    "firstSeen": "2024-12-03T14:47:00.882Z",
+    "lastSeen": "2024-12-03T14:47:00.882Z"
   },
-  "RGTI": {
-    "ticker": "RGTI",
+  "POET": {
+    "ticker": "POET",
     "news": [],
     "hod": false,
-    "float": "161.16M",
-    "price": "3.29",
-    "time": "16:07:11",
+    "float": "70.09M",
+    "price": "5.17",
+    "time": "15:49:27",
     "isActive": true,
-    "firstSeen": "2024-12-02T15:07:26.870Z",
-    "lastSeen": "2024-12-02T15:07:26.870Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 26130000,
-      "Avg. Daily Volume": 5910000,
-      "Short Float": "16.49%",
-      "Short Ratio": "4.42"
-    }
-  },
-  "CRNC": {
-    "ticker": "CRNC",
-    "news": [],
-    "hod": false,
-    "float": "39.65M",
-    "price": "8.57",
-    "time": "16:09:54",
-    "isActive": true,
-    "firstSeen": "2024-12-02T15:10:04.943Z",
-    "lastSeen": "2024-12-02T15:10:04.943Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 6520000,
-      "Avg. Daily Volume": 1460000,
-      "Short Float": "16.67%",
-      "Short Ratio": "4.47"
-    }
-  },
-  "VCIG": {
-    "ticker": "VCIG",
-    "news": [],
-    "hod": false,
-    "float": "3.22M",
-    "price": "4.57",
-    "time": "17:12:58",
-    "isActive": true,
-    "firstSeen": "2024-12-02T16:13:01.467Z",
-    "lastSeen": "2024-12-02T16:39:57.278Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 169320,
-      "Avg. Daily Volume": 313000,
-      "Short Float": "5.26%",
-      "Short Ratio": "0.54"
-    }
+    "firstSeen": "2024-12-03T14:49:50.133Z",
+    "lastSeen": "2024-12-03T14:49:50.133Z"
   },
   "SMXT": {
     "ticker": "SMXT",
     "news": [],
     "hod": false,
     "float": "27.84M",
-    "price": "1.98",
-    "time": "21:09:57",
+    "price": "2.3",
+    "time": "15:51:46",
     "isActive": true,
-    "firstSeen": "2024-12-02T20:10:10.132Z",
-    "lastSeen": "2024-12-02T20:14:17.269Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 370570,
-      "Avg. Daily Volume": 331890,
-      "Short Float": "1.34%",
-      "Short Ratio": "1.12"
-    }
+    "firstSeen": "2024-12-03T14:52:39.951Z",
+    "lastSeen": "2024-12-03T15:38:56.526Z"
   },
-  "VERV": {
-    "ticker": "VERV",
+  "BTDR": {
+    "ticker": "BTDR",
+    "news": [],
+    "hod": true,
+    "float": "51.87M",
+    "price": "15.19",
+    "time": "16:02:32",
+    "isActive": true,
+    "firstSeen": "2024-12-03T15:02:47.152Z",
+    "lastSeen": "2024-12-03T15:12:45.273Z"
+  },
+  "BBAI": {
+    "ticker": "BBAI",
     "news": [],
     "hod": false,
-    "float": "63.09M",
-    "price": "6.9",
-    "time": "22:08:32",
+    "float": "116.29M",
+    "price": "2.48",
+    "time": "16:11:30",
     "isActive": true,
-    "firstSeen": "2024-12-02T21:09:35.091Z",
-    "lastSeen": "2024-12-02T21:09:35.091Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 17080000,
-      "Avg. Daily Volume": 1390000,
-      "Short Float": "27.07%",
-      "Short Ratio": "12.28"
-    }
+    "firstSeen": "2024-12-03T15:11:48.749Z",
+    "lastSeen": "2024-12-03T15:30:10.644Z"
   },
-  "CLSK": {
-    "ticker": "CLSK",
+  "SFHG": {
+    "ticker": "SFHG",
     "news": [],
-    "hod": false,
-    "float": "249.36M",
-    "price": "15.24",
-    "time": "22:15:24",
+    "hod": true,
+    "float": "0",
+    "price": "15.49",
+    "time": "21:44:37",
     "isActive": true,
-    "firstSeen": "2024-12-02T21:15:32.584Z",
-    "lastSeen": "2024-12-02T21:16:25.197Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 49980000,
-      "Avg. Daily Volume": 26420000,
-      "Short Float": "20.04%",
-      "Short Ratio": "1.89"
-    }
+    "firstSeen": "2024-12-03T20:45:12.519Z",
+    "lastSeen": "2024-12-03T20:45:12.519Z"
   }
 }

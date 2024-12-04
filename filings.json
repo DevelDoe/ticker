@@ -1,9 +1,19 @@
 {
-  "CABA": [
+  "BCLI": [
     {
-      "formType": "S-3ASR",
-      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-073325 (33 Act)  Size: 1 MB",
-      "date": "2024-03-21"
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-102447 (33 Act)  Size: 222 KB",
+      "date": "2024-09-24"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-100639 (33 Act)  Size: 247 KB",
+      "date": "2024-09-17"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-094048 (33 Act)  Size: 1 MB",
+      "date": "2024-08-28"
     }
   ],
   "VUZI": [
@@ -18,11 +28,16 @@
       "date": "2024-10-01"
     }
   ],
-  "OTLK": [
+  "PRCH": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-052965 (33 Act)  Size: 229 KB",
-      "date": "2024-04-26"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-197875 (33 Act)  Size: 250 KB",
+      "date": "2024-08-09"
+    },
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-134419 (33 Act)  Size: 309 KB",
+      "date": "2024-05-09"
     }
   ]
 }
