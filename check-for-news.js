@@ -147,10 +147,19 @@ const updateTickersWithNews = (ticker, news) => {
             return; // Skip if there are other symbols besides the ticker
         }
 
+         // Skip news items with the phrase "Shares Resume Trade" in the headline
+         if (newsItem.headline && newsItem.headline.includes("Shares Resume Trade")) {
+            if (verbose) console.log(`Skipping news for ticker ${ticker} due to headline: "${newsItem.headline}"`);
+            return;
+        }
+
         // Check if the news item is already present using its ID
         const exists = tickersData[ticker].news.some(existingNews => existingNews.id === newsItem.id);
         if (!exists) {
-            tickersData[ticker].news.push(newsItem); // Add news item if it doesn't exist
+            tickersData[ticker].news.push({
+                ...newsItem,
+                added_at: new Date().toISOString(), // Add current timestamp
+            });
             playAlert(); // Call the debounced audio alert
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
@@ -174,7 +183,7 @@ const collectAllNews = async (tickers) => {
     let updatesMade = false; // Track if any updates were made
     
     for (const ticker of tickers) {
-        console.log(`Fetching news for ticker: ${ticker}`);
+        if (verbose) console.log(`Fetching news for ticker: ${ticker}`);
         const newsData = await getNewsForTicker(ticker); // Fetch news based on mode
         if (newsData && newsData.length > 0) {
             const initialNewsCount = tickersData[ticker]?.news?.length || 0;
@@ -183,7 +192,7 @@ const collectAllNews = async (tickers) => {
                 updatesMade = true; // Mark if new news was added
             }
         } else {
-            console.log(`No news found for ticker: ${ticker}`);
+            if (verbose) console.log(`No news found for ticker: ${ticker}`);
         }
     }
     if (updatesMade) {

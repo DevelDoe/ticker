@@ -242,7 +242,7 @@ async function saveToJson(tickersToSave, filteredData) {
                 firstSeen: new Date().toISOString(),
                 lastSeen: new Date().toISOString(),
             };
-            playWav('./sounds/addTicker.wav'); 
+            // playWav('./sounds/addTicker.wav'); 
             newData = true;
         } else {
             // Check if HOD or price has changed
@@ -253,7 +253,7 @@ async function saveToJson(tickersToSave, filteredData) {
                 existingTicker.hod = isHOD;
                 tickerUpdated = true;
                 existingTicker.isActive = true;
-                playWav('./sounds/addTicker.wav'); 
+                // playWav('./sounds/addTicker.wav'); 
             }
 
             if (existingTicker.price !== newPrice) {
@@ -261,7 +261,7 @@ async function saveToJson(tickersToSave, filteredData) {
                 existingTicker.lastSeen = new Date().toISOString();
                 existingTicker.isActive = true;
                 tickerUpdated = true;
-                playWav('./sounds/addTicker.wav'); 
+                // playWav('./sounds/addTicker.wav'); 
             }
             
             existingTicker.lastSeen = new Date().toISOString();

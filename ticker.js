@@ -242,7 +242,7 @@ const displayTickersTable = async () => {
 
         const table = new Table({
             head: ["Ticker", "News", "S-3", "Short Interest", "Float", "Price"],
-            colWidths: [10, 8, 13, 10, 10, 10],
+            colWidths: [10, 8, 14, 10, 10, 9],
         });
 
         // Filter tickers based on the headline filter
@@ -272,11 +272,14 @@ const displayTickersTable = async () => {
         // Loop over sorted/filtered tickers and add to the table
         filteredTickers.forEach((ticker) => {
             const latestNewsObject = ticker.news?.[0];
-            const timestamp = latestNewsObject?.updated_at || latestNewsObject?.created_at || null;
+            const timestamp = latestNewsObject?.added_at || null;
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
             const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-
+            // const formattedTime = latestNews === "No news available" 
+            // ? "" 
+            // : dateObj?.toLocaleString([], { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" });
+        
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
             const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
