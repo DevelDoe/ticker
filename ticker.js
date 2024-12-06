@@ -647,17 +647,29 @@ const checkAndCreateWatchlist = async () => {
     }
 };
 
+// Function to periodically refresh the table
+const startPeriodicRefresh = () => {
+    logVerbose("Starting periodic table refresh...");
+    setInterval(async () => {
+        logVerbose("Periodic refresh triggered.");
+        await displayTickersTable(); // Refresh the table every minute
+    }, 10000); // 60000 ms = 1 minute
+};
+
+
 // Initialize the application
 const init = async () => {
     await checkAndWipeIfNeeded();
-    await checkAndCreateWatchlist(); // Check and create watchlist
-    await displayTickersTable();
-    startListening();
-    startWatchingFile();
-    startTickerClearSchedule();
-    watchShortsFile();
+    await checkAndCreateWatchlist();
+    await displayTickersTable(); // Initial display
+    startListening(); // Start listening for user commands
+    startWatchingFile(); // Watch for changes in tickers.json
+    startTickerClearSchedule(); // Schedule clear checks
+    watchShortsFile(); // Watch shorts.json for updates
     watchFilingsFile(); // Watch filings.json for updates
+    startPeriodicRefresh(); // Safeguard to refresh table every minute
 };
+
 
 // Start the application
 init();

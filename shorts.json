@@ -1,1 +1,254 @@
-{}
+{
+  "PRFX": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 29100,
+    "Avg. Daily Volume": 124020,
+    "Short Float": "5.20%",
+    "Short Ratio": "0.23"
+  },
+  "BTCS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 1740000,
+    "Avg. Daily Volume": 2520000,
+    "Short Float": "18.03%",
+    "Short Ratio": "0.69"
+  },
+  "CLSK": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 49980000,
+    "Avg. Daily Volume": 26420000,
+    "Short Float": "20.04%",
+    "Short Ratio": "1.89"
+  },
+  "BTCT": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 1120000,
+    "Avg. Daily Volume": 3160000,
+    "Short Float": "44.80%",
+    "Short Ratio": "0.35"
+  },
+  "SBFM": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 234060,
+    "Avg. Daily Volume": 173420,
+    "Short Float": "11.70%",
+    "Short Ratio": "1.35"
+  },
+  "SOS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 115470,
+    "Avg. Daily Volume": 20120,
+    "Short Float": "N/A",
+    "Short Ratio": "5.74"
+  },
+  "PBM": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 10980,
+    "Avg. Daily Volume": 85120,
+    "Short Float": "1.75%",
+    "Short Ratio": "0.13"
+  },
+  "PSQH": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 1250000,
+    "Avg. Daily Volume": 148780,
+    "Short Float": "7.58%",
+    "Short Ratio": "8.42"
+  },
+  "BOF": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 220340,
+    "Avg. Daily Volume": 7150000,
+    "Short Float": "4.89%",
+    "Short Ratio": "0.03"
+  },
+  "BJDX": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 11370,
+    "Avg. Daily Volume": 329010,
+    "Short Float": "2.10%",
+    "Short Ratio": "0.03"
+  },
+  "SLXN": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 35840,
+    "Avg. Daily Volume": 314520,
+    "Short Float": "14.80%",
+    "Short Ratio": "0.11"
+  },
+  "NNOX": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 7310000,
+    "Avg. Daily Volume": 875080,
+    "Short Float": "13.78%",
+    "Short Ratio": "8.35"
+  },
+  "TARA": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 2730000,
+    "Avg. Daily Volume": 176550,
+    "Short Float": "14.80%",
+    "Short Ratio": "15.44"
+  },
+  "SISI": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 114180,
+    "Avg. Daily Volume": 112260,
+    "Short Float": "7.66%",
+    "Short Ratio": "1.02"
+  },
+  "JFBR": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 26510,
+    "Avg. Daily Volume": 195700,
+    "Short Float": "0.40%",
+    "Short Ratio": "0.14"
+  },
+  "SATL": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 172280,
+    "Avg. Daily Volume": 73590,
+    "Short Float": "0.32%",
+    "Short Ratio": "2.34"
+  },
+  "LIPO": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 25100,
+    "Avg. Daily Volume": 165930,
+    "Short Float": "3.22%",
+    "Short Ratio": "0.15"
+  },
+  "SMTK": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 9490,
+    "Avg. Daily Volume": 19610,
+    "Short Float": "0.77%",
+    "Short Ratio": "0.48"
+  },
+  "RCAT": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 5230000,
+    "Avg. Daily Volume": 1550000,
+    "Short Float": "9.16%",
+    "Short Ratio": "3.38"
+  },
+  "TZUP": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 36580,
+    "Avg. Daily Volume": 42330,
+    "Short Float": "2.14%",
+    "Short Ratio": "0.86"
+  },
+  "GAUZ": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 184130,
+    "Avg. Daily Volume": 37600,
+    "Short Float": "1.80%",
+    "Short Ratio": "4.90"
+  },
+  "RKDA": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 19620,
+    "Avg. Daily Volume": 14740,
+    "Short Float": "1.44%",
+    "Short Ratio": "1.33"
+  },
+  "VIGL": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 736690,
+    "Avg. Daily Volume": 96100,
+    "Short Float": "3.94%",
+    "Short Ratio": "7.67"
+  },
+  "VVPR": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 584160,
+    "Avg. Daily Volume": 889880,
+    "Short Float": "21.24%",
+    "Short Ratio": "0.66"
+  },
+  "ZENA": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 290670,
+    "Avg. Daily Volume": 3460000,
+    "Short Float": "15.09%",
+    "Short Ratio": "0.08"
+  },
+  "CANG": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 97870,
+    "Avg. Daily Volume": 150310,
+    "Short Float": "0.15%",
+    "Short Ratio": "0.65"
+  },
+  "NVTS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 27840000,
+    "Avg. Daily Volume": 2700000,
+    "Short Float": "24.31%",
+    "Short Ratio": "10.32"
+  },
+  "STSS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 60040,
+    "Avg. Daily Volume": 78020,
+    "Short Float": "3.47%",
+    "Short Ratio": "0.77"
+  },
+  "HEPS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 802720,
+    "Avg. Daily Volume": 1680000,
+    "Short Float": "N/A",
+    "Short Ratio": "0.48"
+  },
+  "ORIS": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 91660,
+    "Avg. Daily Volume": 317300,
+    "Short Float": "2.86%",
+    "Short Ratio": "0.29"
+  },
+  "CETX": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 4440,
+    "Avg. Daily Volume": 149920,
+    "Short Float": "0.61%",
+    "Short Ratio": "0.03"
+  },
+  "MEI": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 1630000,
+    "Avg. Daily Volume": 382930,
+    "Short Float": "4.99%",
+    "Short Ratio": "4.27"
+  },
+  "UPC": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 2480,
+    "Avg. Daily Volume": 223490,
+    "Short Float": "0.17%",
+    "Short Ratio": "0.01"
+  },
+  "FOXX": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 11850,
+    "Avg. Daily Volume": 31810,
+    "Short Float": "3.82%",
+    "Short Ratio": "0.37"
+  },
+  "BTDR": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 12560000,
+    "Avg. Daily Volume": 3010000,
+    "Short Float": "37.05%",
+    "Short Ratio": "4.17"
+  },
+  "BBAI": {
+    "Settlement Date": "Nov 15, 2024",
+    "Short Interest": 20190000,
+    "Avg. Daily Volume": 5440000,
+    "Short Float": "18.74%",
+    "Short Ratio": "3.71"
+  }
+}

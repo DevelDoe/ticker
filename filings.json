@@ -1,23 +1,23 @@
 {
-  "SONN": [
+  "BTCS": [
     {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-026339 (33 Act)  Size: 338 KB",
-      "date": "2024-07-05"
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-038153 (33 Act)  Size: 289 KB",
+      "date": "2024-09-25"
     }
   ],
-  "ASPI": [
-    {
-      "formType": "S-3MEF",
-      "description": "Registration adding securities to prior Form S-3 registration [Rule 462(b)]\nAcc-no: 0001477932-24-006805 (33 Act)  Size: 110 KB",
-      "date": "2024-10-31"
-    }
-  ],
-  "NOTV": [
+  "TARA": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-042162 (33 Act)  Size: 376 KB",
-      "date": "2024-10-03"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-039126 (33 Act)  Size: 421 KB",
+      "date": "2024-05-02"
+    }
+  ],
+  "SMTK": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+      "date": "2024-08-16"
     }
   ],
   "RCAT": [
@@ -27,16 +27,33 @@
       "date": "2024-11-14"
     }
   ],
-  "PRCH": [
+  "STSS": [
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-047448 (33 Act)  Size: 969 KB",
+      "date": "2024-11-22"
+    },
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-197875 (33 Act)  Size: 250 KB",
-      "date": "2024-08-09"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-042274 (33 Act)  Size: 1 MB",
+      "date": "2024-10-23"
+    }
+  ],
+  "CAPR": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013460 (33 Act)  Size: 399 KB",
+      "date": "2024-10-22"
     },
     {
       "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-134419 (33 Act)  Size: 309 KB",
-      "date": "2024-05-09"
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013333 (33 Act)  Size: 795 KB",
+      "date": "2024-10-16"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-009206 (33 Act)  Size: 781 KB",
+      "date": "2024-06-14"
     }
   ]
 }

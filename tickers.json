@@ -1,13 +1,1054 @@
 {
-  "CYCN": {
-    "ticker": "CYCN",
+  "PRFX": {
+    "ticker": "PRFX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T21:14:21Z",
+        "headline": "PainReform Appoints Eyal Broder As Interim CFO, Succeeding Dr. Ehud Geller, Who Continues As Executive Chairman And Interim CEO",
+        "id": 42326540,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRFX"
+        ],
+        "updated_at": "2024-12-04T21:14:22Z",
+        "url": "https://www.benzinga.com/news/24/12/42326540/painreform-appoints-eyal-broder-as-interim-cfo-succeeding-dr-ehud-geller-who-continues-as-executive",
+        "added_at": "2024-12-05T08:52:44.297Z"
+      }
+    ],
+    "hod": false,
+    "float": "560.29K",
+    "price": "5.27",
+    "time": "23:55:52",
+    "isActive": false,
+    "firstSeen": "2024-12-05T08:52:43.329Z",
+    "lastSeen": "2024-12-05T14:01:49.895Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 29100,
+      "Avg. Daily Volume": 124020,
+      "Short Float": "5.20%",
+      "Short Ratio": "0.23"
+    }
+  },
+  "BTCS": {
+    "ticker": "BTCS",
     "news": [],
     "hod": false,
-    "float": "1.96M",
-    "price": "9",
-    "time": "20:42:22",
+    "float": "9.69M",
+    "price": "4.32",
+    "time": "10:01:36",
     "isActive": true,
-    "firstSeen": "2024-12-04T19:55:22.297Z",
-    "lastSeen": "2024-12-04T19:59:49.541Z"
+    "firstSeen": "2024-12-05T09:01:43.499Z",
+    "lastSeen": "2024-12-05T14:29:08.942Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-038153 (33 Act)  Size: 289 KB",
+        "date": "2024-09-25"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1740000,
+      "Avg. Daily Volume": 2520000,
+      "Short Float": "18.03%",
+      "Short Ratio": "0.69"
+    }
+  },
+  "CLSK": {
+    "ticker": "CLSK",
+    "news": [],
+    "hod": false,
+    "float": "249.30M",
+    "price": "15.33",
+    "time": "10:01:35",
+    "isActive": false,
+    "firstSeen": "2024-12-05T09:01:43.499Z",
+    "lastSeen": "2024-12-05T09:01:43.499Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 49980000,
+      "Avg. Daily Volume": 26420000,
+      "Short Float": "20.04%",
+      "Short Ratio": "1.89"
+    }
+  },
+  "BTCT": {
+    "ticker": "BTCT",
+    "news": [],
+    "hod": false,
+    "float": "3.13M",
+    "price": "19.27",
+    "time": "10:02:33",
+    "isActive": false,
+    "firstSeen": "2024-12-05T09:02:32.950Z",
+    "lastSeen": "2024-12-05T12:09:17.141Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1120000,
+      "Avg. Daily Volume": 3160000,
+      "Short Float": "44.80%",
+      "Short Ratio": "0.35"
+    }
+  },
+  "SBFM": {
+    "ticker": "SBFM",
+    "news": [],
+    "hod": false,
+    "float": "2.00M",
+    "price": "3.37",
+    "time": "10:07:34",
+    "isActive": true,
+    "firstSeen": "2024-12-05T09:07:41.587Z",
+    "lastSeen": "2024-12-05T14:30:13.911Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 234060,
+      "Avg. Daily Volume": 173420,
+      "Short Float": "11.70%",
+      "Short Ratio": "1.35"
+    }
+  },
+  "SOS": {
+    "ticker": "SOS",
+    "news": [],
+    "hod": false,
+    "float": "88.33M",
+    "price": "11.68",
+    "time": "10:21:02",
+    "isActive": false,
+    "firstSeen": "2024-12-05T09:21:32.725Z",
+    "lastSeen": "2024-12-05T13:50:19.387Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 115470,
+      "Avg. Daily Volume": 20120,
+      "Short Float": "N/A",
+      "Short Ratio": "5.74"
+    }
+  },
+  "PBM": {
+    "ticker": "PBM",
+    "news": [],
+    "hod": true,
+    "float": "730.36K",
+    "price": "4",
+    "time": "10:30:48",
+    "isActive": true,
+    "firstSeen": "2024-12-05T09:30:46.366Z",
+    "lastSeen": "2024-12-05T14:37:31.610Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 10980,
+      "Avg. Daily Volume": 85120,
+      "Short Float": "1.75%",
+      "Short Ratio": "0.13"
+    }
+  },
+  "PSQH": {
+    "ticker": "PSQH",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T13:05:24Z",
+        "headline": "PublicSquare Registered Direct Offering Of Common Stock For Purchase And Sale Of Aggregate 7,813,931 Shares At Purchase Price Of $4.63, For Gross Proceeds Of $36.2M",
+        "id": 42313080,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PSQH"
+        ],
+        "updated_at": "2024-12-04T13:05:25Z",
+        "url": "https://www.benzinga.com/news/24/12/42313080/publicsquare-registered-direct-offering-of-common-stock-for-purchase-and-sale-of-aggregate-7-813-931",
+        "added_at": "2024-12-05T09:36:09.380Z"
+      }
+    ],
+    "hod": false,
+    "float": "18.21M",
+    "price": "5.4",
+    "time": "10:35:46",
+    "isActive": false,
+    "firstSeen": "2024-12-05T09:36:08.019Z",
+    "lastSeen": "2024-12-05T09:36:08.019Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1250000,
+      "Avg. Daily Volume": 148780,
+      "Short Float": "7.58%",
+      "Short Ratio": "8.42"
+    }
+  },
+  "BOF": {
+    "ticker": "BOF",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T10:05:27Z",
+        "headline": "BranchOut Food Bags $250K Purchase Order Under Deal With A Leading Ingredient Distributor, Eyes $5M-$6M in 2025 Ingredient Sales",
+        "id": 42333765,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BOF"
+        ],
+        "updated_at": "2024-12-05T10:05:28Z",
+        "url": "https://www.benzinga.com/news/24/12/42333765/branchout-food-bags-250k-purchase-order-under-deal-with-a-leading-ingredient-distributor-eyes-5m-6m",
+        "added_at": "2024-12-05T10:10:02.982Z"
+      }
+    ],
+    "hod": true,
+    "float": "5.12M",
+    "price": "1.86",
+    "time": "11:02:22",
+    "isActive": true,
+    "firstSeen": "2024-12-05T10:02:21.466Z",
+    "lastSeen": "2024-12-05T14:31:28.557Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 220340,
+      "Avg. Daily Volume": 7150000,
+      "Short Float": "4.89%",
+      "Short Ratio": "0.03"
+    }
+  },
+  "BJDX": {
+    "ticker": "BJDX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T22:31:39Z",
+        "headline": "Bluejay Diagnostics Regains Compliance With Nasdaq Listing Rule 5550(a)(2)",
+        "id": 42328929,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BJDX"
+        ],
+        "updated_at": "2024-12-04T22:31:40Z",
+        "url": "https://www.benzinga.com/news/24/12/42328929/bluejay-diagnostics-regains-compliance-with-nasdaq-listing-rule-5550-a-2",
+        "added_at": "2024-12-05T10:06:24.673Z"
+      }
+    ],
+    "hod": false,
+    "float": "550.14K",
+    "price": "7.11",
+    "time": "11:05:08",
+    "isActive": true,
+    "firstSeen": "2024-12-05T10:06:22.874Z",
+    "lastSeen": "2024-12-05T14:21:35.613Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 11370,
+      "Avg. Daily Volume": 329010,
+      "Short Float": "2.10%",
+      "Short Ratio": "0.03"
+    }
+  },
+  "SLXN": {
+    "ticker": "SLXN",
+    "news": [],
+    "hod": false,
+    "float": "1.02M",
+    "price": "3.09",
+    "time": "11:12:44",
+    "isActive": false,
+    "firstSeen": "2024-12-05T10:13:20.575Z",
+    "lastSeen": "2024-12-05T11:25:16.247Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 35840,
+      "Avg. Daily Volume": 314520,
+      "Short Float": "14.80%",
+      "Short Ratio": "0.11"
+    }
+  },
+  "NNOX": {
+    "ticker": "NNOX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T11:00:15Z",
+        "headline": "Nano-x Imaging Has Received 510(K) Clearance From The FDA For Its Nanox.ARC, A Stationary X-ray System Intended To Produce Tomographic Images For General Use",
+        "id": 42334351,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NNOX"
+        ],
+        "updated_at": "2024-12-05T11:00:16Z",
+        "url": "https://www.benzinga.com/news/24/12/42334351/nano-x-imaging-has-received-510-k-clearance-from-the-fda-for-its-nanox-arc-a-stationary-x-ray-system",
+        "added_at": "2024-12-05T11:05:04.589Z"
+      }
+    ],
+    "hod": true,
+    "float": "53.02M",
+    "price": "7.78",
+    "time": "12:00:00",
+    "isActive": true,
+    "firstSeen": "2024-12-05T11:00:04.484Z",
+    "lastSeen": "2024-12-05T14:35:33.869Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 7310000,
+      "Avg. Daily Volume": 875080,
+      "Short Float": "13.78%",
+      "Short Ratio": "8.35"
+    }
+  },
+  "TARA": {
+    "ticker": "TARA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T12:08:35Z",
+        "headline": "Protara Announces Results From Ongoing Phase 2 ADVANCED-2 Trial Of TARA-002 In Patients With NMIBC",
+        "id": 42335731,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TARA"
+        ],
+        "updated_at": "2024-12-05T12:08:35Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42335731/protara-announces-results-from-ongoing-phase-2-advanced-2-trial-of-tara-002-in-patients-with-nmib",
+        "added_at": "2024-12-05T12:10:04.883Z"
+      }
+    ],
+    "hod": false,
+    "float": "18.41M",
+    "price": "10.24",
+    "time": "13:01:09",
+    "isActive": true,
+    "firstSeen": "2024-12-05T12:02:11.179Z",
+    "lastSeen": "2024-12-05T14:36:40.190Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 2730000,
+      "Avg. Daily Volume": 176550,
+      "Short Float": "14.80%",
+      "Short Ratio": "15.44"
+    },
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-039126 (33 Act)  Size: 421 KB",
+        "date": "2024-05-02"
+      }
+    ]
+  },
+  "SISI": {
+    "ticker": "SISI",
+    "news": [],
+    "hod": false,
+    "float": "1.49M",
+    "price": "3.84",
+    "time": "13:04:54",
+    "isActive": false,
+    "firstSeen": "2024-12-05T12:05:17.076Z",
+    "lastSeen": "2024-12-05T12:06:06.312Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 114180,
+      "Avg. Daily Volume": 112260,
+      "Short Float": "7.66%",
+      "Short Ratio": "1.02"
+    }
+  },
+  "JFBR": {
+    "ticker": "JFBR",
+    "news": [],
+    "hod": false,
+    "float": "523.74K",
+    "price": "3.3",
+    "time": "13:27:21",
+    "isActive": true,
+    "firstSeen": "2024-12-05T12:28:01.452Z",
+    "lastSeen": "2024-12-05T14:26:47.004Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 26510,
+      "Avg. Daily Volume": 195700,
+      "Short Float": "0.40%",
+      "Short Ratio": "0.14"
+    }
+  },
+  "SATL": {
+    "ticker": "SATL",
+    "news": [],
+    "hod": false,
+    "float": "64.06M",
+    "price": "3.28",
+    "time": "13:30:25",
+    "isActive": false,
+    "firstSeen": "2024-12-05T12:30:37.036Z",
+    "lastSeen": "2024-12-05T13:00:02.599Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 172280,
+      "Avg. Daily Volume": 73590,
+      "Short Float": "0.32%",
+      "Short Ratio": "2.34"
+    }
+  },
+  "LIPO": {
+    "ticker": "LIPO",
+    "news": [],
+    "hod": false,
+    "float": "779.86K",
+    "price": "3.19",
+    "time": "13:35:14",
+    "isActive": true,
+    "firstSeen": "2024-12-05T12:35:13.227Z",
+    "lastSeen": "2024-12-05T14:39:49.878Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 25100,
+      "Avg. Daily Volume": 165930,
+      "Short Float": "3.22%",
+      "Short Ratio": "0.15"
+    }
+  },
+  "SMTK": {
+    "ticker": "SMTK",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T12:52:26Z",
+        "headline": "Smartkem Has Signed A Multi-year Agreement With FlexiIC To Begin A New Project To Develop A New Generation Of CMOS For Smart Sensors, New Project Builds On Ongoing Collaboration To Develop Custom Circuits Using Smartkem's Organic Transistor Technology",
+        "id": 42336859,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SMTK"
+        ],
+        "updated_at": "2024-12-05T12:52:27Z",
+        "url": "https://www.benzinga.com/news/24/12/42336859/smartkem-has-signed-a-multi-year-agreement-with-flexiic-to-begin-a-new-project-to-develop-a-new-gene",
+        "added_at": "2024-12-05T12:54:55.676Z"
+      }
+    ],
+    "hod": false,
+    "float": "791.69K",
+    "price": "5",
+    "time": "13:46:31",
+    "isActive": false,
+    "firstSeen": "2024-12-05T12:47:14.359Z",
+    "lastSeen": "2024-12-05T13:02:43.028Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+        "date": "2024-08-16"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 9490,
+      "Avg. Daily Volume": 19610,
+      "Short Float": "0.77%",
+      "Short Ratio": "0.48"
+    }
+  },
+  "RCAT": {
+    "ticker": "RCAT",
+    "news": [],
+    "hod": false,
+    "float": "57.09M",
+    "price": "8.85",
+    "time": "14:00:40",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:01:13.976Z",
+    "lastSeen": "2024-12-05T13:01:13.976Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
+        "date": "2024-11-14"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 5230000,
+      "Avg. Daily Volume": 1550000,
+      "Short Float": "9.16%",
+      "Short Ratio": "3.38"
+    }
+  },
+  "TZUP": {
+    "ticker": "TZUP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T13:18:44Z",
+        "headline": "Thumzup Media Partners With AI Expert Tedras Global Solutions To Drive Innovation And Accelerate Growth Of Disruptive Social Media Ad-Tech Platform",
+        "id": 42313706,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TZUP"
+        ],
+        "updated_at": "2024-12-04T13:18:45Z",
+        "url": "https://www.benzinga.com/news/24/12/42313706/thumzup-media-partners-with-ai-expert-tedras-global-solutions-to-drive-innovation-and-accelerate-gro",
+        "added_at": "2024-12-05T13:01:16.858Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T13:19:58Z",
+        "headline": "Thumzup Plans TikTok Integration To Expand Ad-Tech Platform Reach To Over 1.5B Users, Leveraging TikTok's Brand Discovery Potential To Revolutionize Digital Advertising",
+        "id": 42337969,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TZUP"
+        ],
+        "updated_at": "2024-12-05T13:19:58Z",
+        "url": "https://www.benzinga.com/news/24/12/42337969/thumzup-plans-tiktok-integration-to-expand-ad-tech-platform-reach-to-over-1-5b-users-leveraging-tikt",
+        "added_at": "2024-12-05T13:24:56.059Z"
+      }
+    ],
+    "hod": false,
+    "float": "2.46M",
+    "price": "6.39",
+    "time": "14:00:38",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:01:13.976Z",
+    "lastSeen": "2024-12-05T13:01:13.976Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 36580,
+      "Avg. Daily Volume": 42330,
+      "Short Float": "2.14%",
+      "Short Ratio": "0.86"
+    }
+  },
+  "GAUZ": {
+    "ticker": "GAUZ",
+    "news": [],
+    "hod": false,
+    "float": "10.26M",
+    "price": "9.59",
+    "time": "14:02:01",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:02:43.028Z",
+    "lastSeen": "2024-12-05T13:09:19.814Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 184130,
+      "Avg. Daily Volume": 37600,
+      "Short Float": "1.80%",
+      "Short Ratio": "4.90"
+    }
+  },
+  "RKDA": {
+    "ticker": "RKDA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T13:06:13Z",
+        "headline": "Arcadia Biosciences Announces All-Stock Merger With Roosevelt Resources, Giving Roosevelt 90% Equity Stake Post-Closing; Transaction Expected In Q1 2025 Pending Regulatory And Shareholder Approvals",
+        "id": 42337318,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RKDA"
+        ],
+        "updated_at": "2024-12-05T13:06:13Z",
+        "url": "https://www.benzinga.com/news/24/12/42337318/arcadia-biosciences-announces-all-stock-merger-with-roosevelt-resources-giving-roosevelt-90-equity-s",
+        "added_at": "2024-12-05T13:09:56.180Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.36M",
+    "price": "8.4",
+    "time": "14:04:11",
+    "isActive": true,
+    "firstSeen": "2024-12-05T13:04:13.695Z",
+    "lastSeen": "2024-12-05T14:14:54.973Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 19620,
+      "Avg. Daily Volume": 14740,
+      "Short Float": "1.44%",
+      "Short Ratio": "1.33"
+    }
+  },
+  "VIGL": {
+    "ticker": "VIGL",
+    "news": [],
+    "hod": false,
+    "float": "18.72M",
+    "price": "2.5",
+    "time": "14:06:49",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:07:17.948Z",
+    "lastSeen": "2024-12-05T13:07:17.948Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 736690,
+      "Avg. Daily Volume": 96100,
+      "Short Float": "3.94%",
+      "Short Ratio": "7.67"
+    }
+  },
+  "VVPR": {
+    "ticker": "VVPR",
+    "news": [],
+    "hod": false,
+    "float": "2.75M",
+    "price": "1.77",
+    "time": "14:15:06",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:15:09.276Z",
+    "lastSeen": "2024-12-05T13:25:10.293Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 584160,
+      "Avg. Daily Volume": 889880,
+      "Short Float": "21.24%",
+      "Short Ratio": "0.66"
+    }
+  },
+  "ZENA": {
+    "ticker": "ZENA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T12:33:21Z",
+        "headline": "ZenaTech Has Signed A Letter Of Intent To Acquire Its First Land Survey Company, Part Of A Larger Roll-up Strategy To Disrupt The Land Survey Industry By Accelerating The Use Of Drones For Speed And Accuracy",
+        "id": 42336358,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZENA"
+        ],
+        "updated_at": "2024-12-05T12:33:22Z",
+        "url": "https://www.benzinga.com/m-a/24/12/42336358/zenatech-has-signed-a-letter-of-intent-to-acquire-its-first-land-survey-company-part-of-a-larger-rol",
+        "added_at": "2024-12-05T13:19:27.168Z"
+      }
+    ],
+    "hod": true,
+    "float": "8.23M",
+    "price": "7.15",
+    "time": "14:19:14",
+    "isActive": true,
+    "firstSeen": "2024-12-05T13:19:23.748Z",
+    "lastSeen": "2024-12-05T14:31:28.557Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 290670,
+      "Avg. Daily Volume": 3460000,
+      "Short Float": "15.09%",
+      "Short Ratio": "0.08"
+    }
+  },
+  "CANG": {
+    "ticker": "CANG",
+    "news": [],
+    "hod": false,
+    "float": "100.67M",
+    "price": "4.73",
+    "time": "14:28:45",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:28:46.165Z",
+    "lastSeen": "2024-12-05T13:28:46.165Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 97870,
+      "Avg. Daily Volume": 150310,
+      "Short Float": "0.15%",
+      "Short Ratio": "0.65"
+    }
+  },
+  "NVTS": {
+    "ticker": "NVTS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T13:33:23Z",
+        "headline": "Navitas Semiconductor To Highlight GaN And SiC Technology Breakthroughs For AI Data Centers, EVs, And Mobile Applications At CES 2025",
+        "id": 42338377,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NVTS"
+        ],
+        "updated_at": "2024-12-05T13:33:23Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42338377/navitas-semiconductor-to-highlight-gan-and-sic-technology-breakthroughs-for-ai-data-centers-evs-a",
+        "added_at": "2024-12-05T13:34:56.949Z"
+      }
+    ],
+    "hod": true,
+    "float": "112.87M",
+    "price": "3.88",
+    "time": "14:31:37",
+    "isActive": true,
+    "firstSeen": "2024-12-05T13:32:16.951Z",
+    "lastSeen": "2024-12-05T14:38:56.433Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 27840000,
+      "Avg. Daily Volume": 2700000,
+      "Short Float": "24.31%",
+      "Short Ratio": "10.32"
+    }
+  },
+  "STSS": {
+    "ticker": "STSS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T13:35:47Z",
+        "headline": "Sharps Technology Secures Sales Agreements For SecureGard Syringes With Major European Healthcare Network, Selling Out Current Inventory And Committing To New Orders In 2025; Initial Shipments Begin December With Hungary Operations To Scale Revenue In 2024",
+        "id": 42338463,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "STSS"
+        ],
+        "updated_at": "2024-12-05T13:35:47Z",
+        "url": "https://www.benzinga.com/news/24/12/42338463/sharps-technology-secures-sales-agreements-for-securegard-syringes-with-major-european-healthcare-ne",
+        "added_at": "2024-12-05T13:39:57.001Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.74M",
+    "price": "1.97",
+    "time": "14:32:52",
+    "isActive": true,
+    "firstSeen": "2024-12-05T13:32:55.907Z",
+    "lastSeen": "2024-12-05T14:38:56.433Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-047448 (33 Act)  Size: 969 KB",
+        "date": "2024-11-22"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-042274 (33 Act)  Size: 1 MB",
+        "date": "2024-10-23"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 60040,
+      "Avg. Daily Volume": 78020,
+      "Short Float": "3.47%",
+      "Short Ratio": "0.77"
+    }
+  },
+  "HEPS": {
+    "ticker": "HEPS",
+    "news": [],
+    "hod": false,
+    "float": "107.82M",
+    "price": "3.48",
+    "time": "14:55:31",
+    "isActive": false,
+    "firstSeen": "2024-12-05T13:55:37.006Z",
+    "lastSeen": "2024-12-05T13:55:37.006Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 802720,
+      "Avg. Daily Volume": 1680000,
+      "Short Float": "N/A",
+      "Short Ratio": "0.48"
+    }
+  },
+  "ORIS": {
+    "ticker": "ORIS",
+    "news": [],
+    "hod": false,
+    "float": "3.21M",
+    "price": "10.3",
+    "time": "14:57:49",
+    "isActive": true,
+    "firstSeen": "2024-12-05T13:58:15.006Z",
+    "lastSeen": "2024-12-05T14:08:44.445Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 91660,
+      "Avg. Daily Volume": 317300,
+      "Short Float": "2.86%",
+      "Short Ratio": "0.29"
+    }
+  },
+  "CETX": {
+    "ticker": "CETX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T14:03:20Z",
+        "headline": "Cemtrex Intends to Acquire 100% Ownership Of Vicon Industries, Increasing Current Stake From ~93% To 100%",
+        "id": 42315340,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CETX"
+        ],
+        "updated_at": "2024-12-04T14:03:21Z",
+        "url": "https://www.benzinga.com/m-a/24/12/42315340/cemtrex-intends-to-acquire-100-ownership-of-vicon-industries-increasing-current-stake-from-93-to-100",
+        "added_at": "2024-12-05T14:01:00.797Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T14:02:34Z",
+        "headline": "Cemtrex To Launch AI-Powered Armed Person Detection Feature In Vicon NEXT Cameras By Q1 2025, Offering High-Accuracy Edge-Based Security Solution To Enhance Public Safety And Minimize False Alarms",
+        "id": 42339520,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CETX"
+        ],
+        "updated_at": "2024-12-05T14:02:35Z",
+        "url": "https://www.benzinga.com/news/24/12/42339520/cemtrex-to-launch-ai-powered-armed-person-detection-feature-in-vicon-next-cameras-by-q1-2025-offerin",
+        "added_at": "2024-12-05T14:04:57.650Z"
+      }
+    ],
+    "hod": false,
+    "float": "731.03K",
+    "price": "3.09",
+    "time": "15:00:43",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:00:56.710Z",
+    "lastSeen": "2024-12-05T14:21:35.613Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 4440,
+      "Avg. Daily Volume": 149920,
+      "Short Float": "0.61%",
+      "Short Ratio": "0.03"
+    }
+  },
+  "MEI": {
+    "ticker": "MEI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T12:08:18Z",
+        "headline": "Methode Electronics Expects Q3 Revenue To Be Similar YoY Vs $263.88M Est, Reiterated FY25 Revenue Similar To FY24 Vs $1.08B Est, Expects FY26 Revenue To Beat FY25 Vs $1.14B Est",
+        "id": 42335729,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MEI"
+        ],
+        "updated_at": "2024-12-05T12:08:19Z",
+        "url": "https://www.benzinga.com/news/24/12/42335729/methode-electronics-expects-q3-revenue-to-be-similar-yoy-vs-263-88m-est-reiterated-fy25-revenue-simi",
+        "added_at": "2024-12-05T14:16:59.794Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T12:02:30Z",
+        "headline": "Methode Electronics Q2 EPS $0.14 Beats $(0.16) Estimate, Sales $292.60M Beat $268.46M Estimate",
+        "id": 42335546,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MEI"
+        ],
+        "updated_at": "2024-12-05T12:02:30Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42335546/methode-electronics-q2-eps-0-14-beats-0-16-estimate-sales-292-60m-beat-268-46m-estimate",
+        "added_at": "2024-12-05T14:16:59.794Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-04T17:01:45Z",
+        "headline": "Methode Electronics Earnings Preview",
+        "id": 42320891,
+        "images": [],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "MEI"
+        ],
+        "updated_at": "2024-12-04T17:01:46Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42320891/methode-electronics-earnings-preview",
+        "added_at": "2024-12-05T14:16:59.795Z"
+      }
+    ],
+    "hod": false,
+    "float": "32.75M",
+    "price": "15.38",
+    "time": "15:16:12",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:16:55.609Z",
+    "lastSeen": "2024-12-05T14:16:55.609Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1630000,
+      "Avg. Daily Volume": 382930,
+      "Short Float": "4.99%",
+      "Short Ratio": "4.27"
+    }
+  },
+  "UPC": {
+    "ticker": "UPC",
+    "news": [],
+    "hod": false,
+    "float": "1.44M",
+    "price": "2.12",
+    "time": "15:17:35",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:18:25.142Z",
+    "lastSeen": "2024-12-05T14:19:33.116Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 2480,
+      "Avg. Daily Volume": 223490,
+      "Short Float": "0.17%",
+      "Short Ratio": "0.01"
+    }
+  },
+  "FOXX": {
+    "ticker": "FOXX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T14:34:45Z",
+        "headline": "Foxx Shares Halted To The Upside; Stock Now Up 77.81%",
+        "id": 42340589,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "FOXX"
+        ],
+        "updated_at": "2024-12-05T14:34:45Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42340589/foxx-shares-halted-to-the-upside-stock-now-up-77-81",
+        "added_at": "2024-12-05T14:34:58.383Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.22M",
+    "price": "5.95",
+    "time": "15:23:23",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:23:27.010Z",
+    "lastSeen": "2024-12-05T14:29:08.942Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 11850,
+      "Avg. Daily Volume": 31810,
+      "Short Float": "3.82%",
+      "Short Ratio": "0.37"
+    }
+  },
+  "BTDR": {
+    "ticker": "BTDR",
+    "news": [],
+    "hod": true,
+    "float": "51.87M",
+    "price": "18.81",
+    "time": "15:31:57",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:32:02.584Z",
+    "lastSeen": "2024-12-05T14:32:02.584Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 12560000,
+      "Avg. Daily Volume": 3010000,
+      "Short Float": "37.05%",
+      "Short Ratio": "4.17"
+    }
+  },
+  "BBAI": {
+    "ticker": "BBAI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-04T21:27:37Z",
+        "headline": "BigBear.ai: Pangiam Ultimate Holdings Sells 6.28M Shares At $2.55 Average Price",
+        "id": 42327133,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BBAI"
+        ],
+        "updated_at": "2024-12-04T21:27:38Z",
+        "url": "https://www.benzinga.com/news/24/12/42327133/bigbear-ai-pangiam-ultimate-holdings-sells-6-28m-shares-at-2-55-average-price",
+        "added_at": "2024-12-05T14:40:12.614Z"
+      }
+    ],
+    "hod": true,
+    "float": "116.29M",
+    "price": "2.8",
+    "time": "15:39:49",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:39:49.878Z",
+    "lastSeen": "2024-12-05T14:39:49.878Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 20190000,
+      "Avg. Daily Volume": 5440000,
+      "Short Float": "18.74%",
+      "Short Ratio": "3.71"
+    }
+  },
+  "CAPR": {
+    "ticker": "CAPR",
+    "news": [],
+    "hod": false,
+    "float": "40.01M",
+    "price": "14.48",
+    "time": "15:39:44",
+    "isActive": true,
+    "firstSeen": "2024-12-05T14:39:49.878Z",
+    "lastSeen": "2024-12-05T14:39:49.878Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013460 (33 Act)  Size: 399 KB",
+        "date": "2024-10-22"
+      },
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013333 (33 Act)  Size: 795 KB",
+        "date": "2024-10-16"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-009206 (33 Act)  Size: 781 KB",
+        "date": "2024-06-14"
+      }
+    ]
   }
 }
