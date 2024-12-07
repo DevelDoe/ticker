@@ -1,1054 +1,1247 @@
 {
-  "PRFX": {
-    "ticker": "PRFX",
+  "GXAI": {
+    "ticker": "GXAI",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-04T21:14:21Z",
-        "headline": "PainReform Appoints Eyal Broder As Interim CFO, Succeeding Dr. Ehud Geller, Who Continues As Executive Chairman And Interim CEO",
-        "id": 42326540,
+        "created_at": "2024-12-06T12:38:42Z",
+        "headline": "Gaxos.ai Inc. Announced That Company Released A Visual Editor For Godot Engine For Their Artificial Intelligence Solution For Game Developers And Publishers, Gaxos Labs",
+        "id": 42361373,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PRFX"
+          "GXAI"
         ],
-        "updated_at": "2024-12-04T21:14:22Z",
-        "url": "https://www.benzinga.com/news/24/12/42326540/painreform-appoints-eyal-broder-as-interim-cfo-succeeding-dr-ehud-geller-who-continues-as-executive",
-        "added_at": "2024-12-05T08:52:44.297Z"
+        "updated_at": "2024-12-06T12:38:43Z",
+        "url": "https://www.benzinga.com/news/24/12/42361373/gaxos-ai-inc-announced-that-company-released-a-visual-editor-for-godot-engine-for-their-artificial-i",
+        "added_at": "2024-12-06T12:40:45.205Z"
       }
     ],
     "hod": false,
-    "float": "560.29K",
-    "price": "5.27",
-    "time": "23:55:52",
-    "isActive": false,
-    "firstSeen": "2024-12-05T08:52:43.329Z",
-    "lastSeen": "2024-12-05T14:01:49.895Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 29100,
-      "Avg. Daily Volume": 124020,
-      "Short Float": "5.20%",
-      "Short Ratio": "0.23"
-    }
-  },
-  "BTCS": {
-    "ticker": "BTCS",
-    "news": [],
-    "hod": false,
-    "float": "9.69M",
-    "price": "4.32",
-    "time": "10:01:36",
+    "float": "2.53M",
+    "price": "3.39",
+    "time": "11:29:21",
     "isActive": true,
-    "firstSeen": "2024-12-05T09:01:43.499Z",
-    "lastSeen": "2024-12-05T14:29:08.942Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-038153 (33 Act)  Size: 289 KB",
-        "date": "2024-09-25"
-      }
-    ],
+    "firstSeen": "2024-12-06T10:30:50.975Z",
+    "lastSeen": "2024-12-06T15:39:46.776Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1740000,
-      "Avg. Daily Volume": 2520000,
-      "Short Float": "18.03%",
-      "Short Ratio": "0.69"
+      "Short Interest": 767340,
+      "Avg. Daily Volume": 1670000,
+      "Short Float": 1900000,
+      "Short Ratio": "45.95%"
     }
   },
-  "CLSK": {
-    "ticker": "CLSK",
+  "XHG": {
+    "ticker": "XHG",
     "news": [],
     "hod": false,
-    "float": "249.30M",
-    "price": "15.33",
-    "time": "10:01:35",
-    "isActive": false,
-    "firstSeen": "2024-12-05T09:01:43.499Z",
-    "lastSeen": "2024-12-05T09:01:43.499Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 49980000,
-      "Avg. Daily Volume": 26420000,
-      "Short Float": "20.04%",
-      "Short Ratio": "1.89"
-    }
-  },
-  "BTCT": {
-    "ticker": "BTCT",
-    "news": [],
-    "hod": false,
-    "float": "3.13M",
-    "price": "19.27",
-    "time": "10:02:33",
-    "isActive": false,
-    "firstSeen": "2024-12-05T09:02:32.950Z",
-    "lastSeen": "2024-12-05T12:09:17.141Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1120000,
-      "Avg. Daily Volume": 3160000,
-      "Short Float": "44.80%",
-      "Short Ratio": "0.35"
-    }
-  },
-  "SBFM": {
-    "ticker": "SBFM",
-    "news": [],
-    "hod": false,
-    "float": "2.00M",
-    "price": "3.37",
-    "time": "10:07:34",
+    "float": "230.10K",
+    "price": "2.14",
+    "time": "11:24:52",
     "isActive": true,
-    "firstSeen": "2024-12-05T09:07:41.587Z",
-    "lastSeen": "2024-12-05T14:30:13.911Z",
+    "firstSeen": "2024-12-06T10:30:50.976Z",
+    "lastSeen": "2024-12-06T10:30:50.976Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 234060,
-      "Avg. Daily Volume": 173420,
-      "Short Float": "11.70%",
-      "Short Ratio": "1.35"
+      "Short Interest": 9490,
+      "Avg. Daily Volume": 220000,
+      "Short Float": 458800,
+      "Short Ratio": "4.31%"
     }
   },
-  "SOS": {
-    "ticker": "SOS",
+  "ALBT": {
+    "ticker": "ALBT",
     "news": [],
     "hod": false,
-    "float": "88.33M",
-    "price": "11.68",
-    "time": "10:21:02",
-    "isActive": false,
-    "firstSeen": "2024-12-05T09:21:32.725Z",
-    "lastSeen": "2024-12-05T13:50:19.387Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 115470,
-      "Avg. Daily Volume": 20120,
-      "Short Float": "N/A",
-      "Short Ratio": "5.74"
-    }
-  },
-  "PBM": {
-    "ticker": "PBM",
-    "news": [],
-    "hod": true,
-    "float": "730.36K",
-    "price": "4",
-    "time": "10:30:48",
+    "float": "405.80K",
+    "price": "4.67",
+    "time": "11:24:30",
     "isActive": true,
-    "firstSeen": "2024-12-05T09:30:46.366Z",
-    "lastSeen": "2024-12-05T14:37:31.610Z",
+    "firstSeen": "2024-12-06T10:30:50.976Z",
+    "lastSeen": "2024-12-06T15:49:09.780Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 10980,
-      "Avg. Daily Volume": 85120,
-      "Short Float": "1.75%",
-      "Short Ratio": "0.13"
+      "Short Interest": 78840,
+      "Avg. Daily Volume": 410000,
+      "Short Float": 645720,
+      "Short Ratio": "19.23%"
     }
   },
-  "PSQH": {
-    "ticker": "PSQH",
+  "ADD": {
+    "ticker": "ADD",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-04T13:05:24Z",
-        "headline": "PublicSquare Registered Direct Offering Of Common Stock For Purchase And Sale Of Aggregate 7,813,931 Shares At Purchase Price Of $4.63, For Gross Proceeds Of $36.2M",
-        "id": 42313080,
+        "created_at": "2024-12-05T21:09:20Z",
+        "headline": "Color Star Technology Regains Nasdaq Compliance",
+        "id": 42350983,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PSQH"
+          "ADD"
         ],
-        "updated_at": "2024-12-04T13:05:25Z",
-        "url": "https://www.benzinga.com/news/24/12/42313080/publicsquare-registered-direct-offering-of-common-stock-for-purchase-and-sale-of-aggregate-7-813-931",
-        "added_at": "2024-12-05T09:36:09.380Z"
+        "updated_at": "2024-12-05T21:09:33Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42350983/color-star-technology-regains-nasdaq-compliance",
+        "added_at": "2024-12-06T10:31:01.418Z"
       }
     ],
     "hod": false,
-    "float": "18.21M",
-    "price": "5.4",
-    "time": "10:35:46",
-    "isActive": false,
-    "firstSeen": "2024-12-05T09:36:08.019Z",
-    "lastSeen": "2024-12-05T09:36:08.019Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1250000,
-      "Avg. Daily Volume": 148780,
-      "Short Float": "7.58%",
-      "Short Ratio": "8.42"
-    }
-  },
-  "BOF": {
-    "ticker": "BOF",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T10:05:27Z",
-        "headline": "BranchOut Food Bags $250K Purchase Order Under Deal With A Leading Ingredient Distributor, Eyes $5M-$6M in 2025 Ingredient Sales",
-        "id": 42333765,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BOF"
-        ],
-        "updated_at": "2024-12-05T10:05:28Z",
-        "url": "https://www.benzinga.com/news/24/12/42333765/branchout-food-bags-250k-purchase-order-under-deal-with-a-leading-ingredient-distributor-eyes-5m-6m",
-        "added_at": "2024-12-05T10:10:02.982Z"
-      }
-    ],
-    "hod": true,
-    "float": "5.12M",
-    "price": "1.86",
-    "time": "11:02:22",
+    "float": "575.68K",
+    "price": "4.16",
+    "time": "11:23:01",
     "isActive": true,
-    "firstSeen": "2024-12-05T10:02:21.466Z",
-    "lastSeen": "2024-12-05T14:31:28.557Z",
+    "firstSeen": "2024-12-06T10:30:50.976Z",
+    "lastSeen": "2024-12-06T15:42:45.105Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 220340,
-      "Avg. Daily Volume": 7150000,
-      "Short Float": "4.89%",
-      "Short Ratio": "0.03"
-    }
-  },
-  "BJDX": {
-    "ticker": "BJDX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-04T22:31:39Z",
-        "headline": "Bluejay Diagnostics Regains Compliance With Nasdaq Listing Rule 5550(a)(2)",
-        "id": 42328929,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BJDX"
-        ],
-        "updated_at": "2024-12-04T22:31:40Z",
-        "url": "https://www.benzinga.com/news/24/12/42328929/bluejay-diagnostics-regains-compliance-with-nasdaq-listing-rule-5550-a-2",
-        "added_at": "2024-12-05T10:06:24.673Z"
-      }
-    ],
-    "hod": false,
-    "float": "550.14K",
-    "price": "7.11",
-    "time": "11:05:08",
-    "isActive": true,
-    "firstSeen": "2024-12-05T10:06:22.874Z",
-    "lastSeen": "2024-12-05T14:21:35.613Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 11370,
-      "Avg. Daily Volume": 329010,
-      "Short Float": "2.10%",
-      "Short Ratio": "0.03"
-    }
-  },
-  "SLXN": {
-    "ticker": "SLXN",
-    "news": [],
-    "hod": false,
-    "float": "1.02M",
-    "price": "3.09",
-    "time": "11:12:44",
-    "isActive": false,
-    "firstSeen": "2024-12-05T10:13:20.575Z",
-    "lastSeen": "2024-12-05T11:25:16.247Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 35840,
-      "Avg. Daily Volume": 314520,
-      "Short Float": "14.80%",
-      "Short Ratio": "0.11"
-    }
-  },
-  "NNOX": {
-    "ticker": "NNOX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T11:00:15Z",
-        "headline": "Nano-x Imaging Has Received 510(K) Clearance From The FDA For Its Nanox.ARC, A Stationary X-ray System Intended To Produce Tomographic Images For General Use",
-        "id": 42334351,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NNOX"
-        ],
-        "updated_at": "2024-12-05T11:00:16Z",
-        "url": "https://www.benzinga.com/news/24/12/42334351/nano-x-imaging-has-received-510-k-clearance-from-the-fda-for-its-nanox-arc-a-stationary-x-ray-system",
-        "added_at": "2024-12-05T11:05:04.589Z"
-      }
-    ],
-    "hod": true,
-    "float": "53.02M",
-    "price": "7.78",
-    "time": "12:00:00",
-    "isActive": true,
-    "firstSeen": "2024-12-05T11:00:04.484Z",
-    "lastSeen": "2024-12-05T14:35:33.869Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 7310000,
-      "Avg. Daily Volume": 875080,
-      "Short Float": "13.78%",
-      "Short Ratio": "8.35"
-    }
-  },
-  "TARA": {
-    "ticker": "TARA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T12:08:35Z",
-        "headline": "Protara Announces Results From Ongoing Phase 2 ADVANCED-2 Trial Of TARA-002 In Patients With NMIBC",
-        "id": 42335731,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "TARA"
-        ],
-        "updated_at": "2024-12-05T12:08:35Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42335731/protara-announces-results-from-ongoing-phase-2-advanced-2-trial-of-tara-002-in-patients-with-nmib",
-        "added_at": "2024-12-05T12:10:04.883Z"
-      }
-    ],
-    "hod": false,
-    "float": "18.41M",
-    "price": "10.24",
-    "time": "13:01:09",
-    "isActive": true,
-    "firstSeen": "2024-12-05T12:02:11.179Z",
-    "lastSeen": "2024-12-05T14:36:40.190Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 2730000,
-      "Avg. Daily Volume": 176550,
-      "Short Float": "14.80%",
-      "Short Ratio": "15.44"
-    },
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-039126 (33 Act)  Size: 421 KB",
-        "date": "2024-05-02"
-      }
-    ]
-  },
-  "SISI": {
-    "ticker": "SISI",
-    "news": [],
-    "hod": false,
-    "float": "1.49M",
-    "price": "3.84",
-    "time": "13:04:54",
-    "isActive": false,
-    "firstSeen": "2024-12-05T12:05:17.076Z",
-    "lastSeen": "2024-12-05T12:06:06.312Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 114180,
-      "Avg. Daily Volume": 112260,
-      "Short Float": "7.66%",
-      "Short Ratio": "1.02"
+      "Short Interest": 13650,
+      "Avg. Daily Volume": 580000,
+      "Short Float": 32570,
+      "Short Ratio": "2.35%"
     }
   },
   "JFBR": {
     "ticker": "JFBR",
-    "news": [],
-    "hod": false,
-    "float": "523.74K",
-    "price": "3.3",
-    "time": "13:27:21",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T10:43:07Z",
+        "headline": "Jeffs' Brands Says It Has Received A Written Notice From Nasdaq Stock Market, Indicating That The Company Has Regained Compliance With Minimum Bid Price Requirement For Continued Listing",
+        "id": 42359620,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-12-06T10:43:07Z",
+        "url": "https://www.benzinga.com/news/24/12/42359620/jeffs-brands-says-it-has-received-a-written-notice-from-nasdaq-stock-market-indicating-that-the-comp",
+        "added_at": "2024-12-06T11:37:49.149Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T14:27:57Z",
+        "headline": "Jeffs' Brands shares are trading higher after the company announced that it entered into an agreement to exclusively distribute certain advanced drone safety systems on Amazon.",
+        "id": 42340417,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-12-05T19:25:15Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42340417/jeffs-brands-shares-are-trading-higher-after-the-company-announced-that-it-entered-into-an-agreement",
+        "added_at": "2024-12-06T11:37:49.149Z"
+      },
+      {
+        "author": "Henry Khederian",
+        "content": "",
+        "created_at": "2024-12-06T15:30:08Z",
+        "headline": "Why Jeffs Brands (JFBR) Stock Is Up 17% Today",
+        "id": 42366190,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/06/blur-1853262.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/06/blur-1853262.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/06/blur-1853262.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-12-06T15:30:08Z",
+        "url": "https://www.benzinga.com/news/24/12/42366190/why-jeffs-brands-jfbr-stock-is-up-40-today",
+        "added_at": "2024-12-06T15:30:48.644Z"
+      }
+    ],
     "isActive": true,
-    "firstSeen": "2024-12-05T12:28:01.452Z",
-    "lastSeen": "2024-12-05T14:26:47.004Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 26510,
-      "Avg. Daily Volume": 195700,
-      "Short Float": "0.40%",
-      "Short Ratio": "0.14"
+      "Avg. Daily Volume": 6680000,
+      "Short Float": 195700,
+      "Short Ratio": "0.40%"
+    },
+    "hod": false,
+    "price": "2.84",
+    "lastSeen": "2024-12-06T15:32:35.886Z"
+  },
+  "UPC": {
+    "ticker": "UPC",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T14:55:32Z",
+        "headline": "Universe Pharmaceuticals Shares Halted To The Upside; Stock Now Up 297.14%",
+        "id": 42365038,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "UPC"
+        ],
+        "updated_at": "2024-12-06T14:55:33Z",
+        "url": "https://www.benzinga.com/intraday-update/24/12/42365038/universe-pharmaceuticals-shares-halted-to-the-upside-stock-now-up-297-14",
+        "added_at": "2024-12-06T15:00:46.818Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.44M",
+    "price": "3.69",
+    "time": "12:39:19",
+    "isActive": true,
+    "firstSeen": "2024-12-06T11:40:18.127Z",
+    "lastSeen": "2024-12-06T15:45:32.279Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 2480,
+      "Avg. Daily Volume": 1440000,
+      "Short Float": 223490,
+      "Short Ratio": "0.17%"
+    }
+  },
+  "ZBAO": {
+    "ticker": "ZBAO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T21:03:53Z",
+        "headline": "Zhibao Technology Partners With PICC & Munich Re To Develop New Medical Insurance Products In China",
+        "id": 42350736,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZBAO"
+        ],
+        "updated_at": "2024-12-05T21:03:54Z",
+        "url": "https://www.benzinga.com/news/24/12/42350736/zhibao-technology-partners-with-picc-munich-re-to-develop-new-medical-insurance-products-in-china",
+        "added_at": "2024-12-06T11:40:19.385Z"
+      }
+    ],
+    "hod": false,
+    "float": "18.76M",
+    "price": "3.41",
+    "time": "12:39:12",
+    "isActive": true,
+    "firstSeen": "2024-12-06T11:40:18.127Z",
+    "lastSeen": "2024-12-06T15:42:45.105Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 33510,
+      "Avg. Daily Volume": 8750000,
+      "Short Float": 9170,
+      "Short Ratio": "0.38%"
     }
   },
   "SATL": {
     "ticker": "SATL",
     "news": [],
     "hod": false,
-    "float": "64.06M",
-    "price": "3.28",
-    "time": "13:30:25",
-    "isActive": false,
-    "firstSeen": "2024-12-05T12:30:37.036Z",
-    "lastSeen": "2024-12-05T13:00:02.599Z",
+    "float": "54.51M",
+    "price": "3.61",
+    "time": "12:37:40",
+    "isActive": true,
+    "firstSeen": "2024-12-06T11:40:18.128Z",
+    "lastSeen": "2024-12-06T15:49:09.780Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 172280,
-      "Avg. Daily Volume": 73590,
-      "Short Float": "0.32%",
-      "Short Ratio": "2.34"
+      "Avg. Daily Volume": 54510000,
+      "Short Float": 73590,
+      "Short Ratio": "0.32%"
     }
   },
-  "LIPO": {
-    "ticker": "LIPO",
+  "BFRG": {
+    "ticker": "BFRG",
     "news": [],
     "hod": false,
-    "float": "779.86K",
-    "price": "3.19",
-    "time": "13:35:14",
+    "float": "6.22M",
+    "price": "2.45",
+    "time": "12:45:35",
     "isActive": true,
-    "firstSeen": "2024-12-05T12:35:13.227Z",
-    "lastSeen": "2024-12-05T14:39:49.878Z",
+    "firstSeen": "2024-12-06T11:45:49.234Z",
+    "lastSeen": "2024-12-06T11:45:49.234Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 25100,
-      "Avg. Daily Volume": 165930,
-      "Short Float": "3.22%",
-      "Short Ratio": "0.15"
+      "Short Interest": 184960,
+      "Avg. Daily Volume": 6220000,
+      "Short Float": 80850,
+      "Short Ratio": "2.97%"
     }
   },
-  "SMTK": {
-    "ticker": "SMTK",
+  "AGRI": {
+    "ticker": "AGRI",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-05T12:52:26Z",
-        "headline": "Smartkem Has Signed A Multi-year Agreement With FlexiIC To Begin A New Project To Develop A New Generation Of CMOS For Smart Sensors, New Project Builds On Ongoing Collaboration To Develop Custom Circuits Using Smartkem's Organic Transistor Technology",
-        "id": 42336859,
+        "created_at": "2024-12-05T13:55:04Z",
+        "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 42339159,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SMTK"
+          "AGRI"
         ],
-        "updated_at": "2024-12-05T12:52:27Z",
-        "url": "https://www.benzinga.com/news/24/12/42336859/smartkem-has-signed-a-multi-year-agreement-with-flexiic-to-begin-a-new-project-to-develop-a-new-gene",
-        "added_at": "2024-12-05T12:54:55.676Z"
-      }
-    ],
-    "hod": false,
-    "float": "791.69K",
-    "price": "5",
-    "time": "13:46:31",
-    "isActive": false,
-    "firstSeen": "2024-12-05T12:47:14.359Z",
-    "lastSeen": "2024-12-05T13:02:43.028Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
-        "date": "2024-08-16"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 9490,
-      "Avg. Daily Volume": 19610,
-      "Short Float": "0.77%",
-      "Short Ratio": "0.48"
-    }
-  },
-  "RCAT": {
-    "ticker": "RCAT",
-    "news": [],
-    "hod": false,
-    "float": "57.09M",
-    "price": "8.85",
-    "time": "14:00:40",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:01:13.976Z",
-    "lastSeen": "2024-12-05T13:01:13.976Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-        "date": "2024-11-14"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 5230000,
-      "Avg. Daily Volume": 1550000,
-      "Short Float": "9.16%",
-      "Short Ratio": "3.38"
-    }
-  },
-  "TZUP": {
-    "ticker": "TZUP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-04T13:18:44Z",
-        "headline": "Thumzup Media Partners With AI Expert Tedras Global Solutions To Drive Innovation And Accelerate Growth Of Disruptive Social Media Ad-Tech Platform",
-        "id": 42313706,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "TZUP"
-        ],
-        "updated_at": "2024-12-04T13:18:45Z",
-        "url": "https://www.benzinga.com/news/24/12/42313706/thumzup-media-partners-with-ai-expert-tedras-global-solutions-to-drive-innovation-and-accelerate-gro",
-        "added_at": "2024-12-05T13:01:16.858Z"
+        "updated_at": "2024-12-05T13:55:04Z",
+        "url": "https://www.benzinga.com/24/12/42339159/trading-halt-halt-status-updated-at-8-55-00-am-et-quotation-resumption-news-and-resumption-times",
+        "added_at": "2024-12-06T12:01:03.002Z"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-05T13:19:58Z",
-        "headline": "Thumzup Plans TikTok Integration To Expand Ad-Tech Platform Reach To Over 1.5B Users, Leveraging TikTok's Brand Discovery Potential To Revolutionize Digital Advertising",
-        "id": 42337969,
+        "created_at": "2024-12-05T13:28:18Z",
+        "headline": "AgriFORCE Announces The Launch Of Sustainable Agricultural Operations At Its Newly Acquired Bitcoin Mining Facility In Sturgeon County, Alberta, Canada",
+        "id": 42338170,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "TZUP"
+          "AGRI"
         ],
-        "updated_at": "2024-12-05T13:19:58Z",
-        "url": "https://www.benzinga.com/news/24/12/42337969/thumzup-plans-tiktok-integration-to-expand-ad-tech-platform-reach-to-over-1-5b-users-leveraging-tikt",
-        "added_at": "2024-12-05T13:24:56.059Z"
+        "updated_at": "2024-12-05T13:28:18Z",
+        "url": "https://www.benzinga.com/news/24/12/42338170/agriforce-announces-the-launch-of-sustainable-agricultural-operations-at-its-newly-acquired-bitcoin",
+        "added_at": "2024-12-06T12:01:03.002Z"
       }
     ],
     "hod": false,
-    "float": "2.46M",
-    "price": "6.39",
-    "time": "14:00:38",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:01:13.976Z",
-    "lastSeen": "2024-12-05T13:01:13.976Z",
+    "float": "1.39M",
+    "price": "3.14",
+    "time": "13:00:10",
+    "isActive": true,
+    "firstSeen": "2024-12-06T12:01:01.169Z",
+    "lastSeen": "2024-12-06T12:01:01.169Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 36580,
-      "Avg. Daily Volume": 42330,
-      "Short Float": "2.14%",
-      "Short Ratio": "0.86"
+      "Short Interest": 34560,
+      "Avg. Daily Volume": 1540000,
+      "Short Float": 302200,
+      "Short Ratio": "2.25%"
     }
   },
-  "GAUZ": {
-    "ticker": "GAUZ",
+  "FGL": {
+    "ticker": "FGL",
     "news": [],
     "hod": false,
-    "float": "10.26M",
-    "price": "9.59",
-    "time": "14:02:01",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:02:43.028Z",
-    "lastSeen": "2024-12-05T13:09:19.814Z",
+    "float": "0",
+    "price": "3.05",
+    "time": "13:12:12",
+    "isActive": true,
+    "firstSeen": "2024-12-06T12:12:20.174Z",
+    "lastSeen": "2024-12-06T13:01:45.101Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 184130,
-      "Avg. Daily Volume": 37600,
-      "Short Float": "1.80%",
-      "Short Ratio": "4.90"
+      "Short Interest": 33720,
+      "Avg. Daily Volume": 3080000,
+      "Short Float": 373810,
+      "Short Ratio": "1.10%"
+    }
+  },
+  "NMHI": {
+    "ticker": "NMHI",
+    "news": [],
+    "hod": false,
+    "float": "705.17K",
+    "price": "2.43",
+    "time": "13:24:36",
+    "isActive": true,
+    "firstSeen": "2024-12-06T12:25:02.168Z",
+    "lastSeen": "2024-12-06T13:59:48.313Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 12170,
+      "Avg. Daily Volume": 898750,
+      "Short Float": 1100000,
+      "Short Ratio": "1.35%"
+    }
+  },
+  "VSEE": {
+    "ticker": "VSEE",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T13:07:24Z",
+        "headline": "VSee Health Partners with AbundaBox to Launch AbundaLife( Transforming Health Record Management for Families Nationwide",
+        "id": 42362078,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VSEE"
+        ],
+        "updated_at": "2024-12-06T13:07:24Z",
+        "url": "https://www.benzinga.com/news/24/12/42362078/vsee-health-partners-with-abundabox-to-launch-abundalife-transforming-health-record-management-for-f",
+        "added_at": "2024-12-06T13:10:46.709Z"
+      }
+    ],
+    "hod": true,
+    "float": "6.07M",
+    "price": "1.97",
+    "time": "14:01:35",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:01:45.101Z",
+    "lastSeen": "2024-12-06T14:31:42.724Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 81570,
+      "Avg. Daily Volume": 5960000,
+      "Short Float": 449610,
+      "Short Ratio": "1.37%"
+    }
+  },
+  "PGHL": {
+    "ticker": "PGHL",
+    "news": [],
+    "hod": false,
+    "float": "6.16M",
+    "price": "1.81",
+    "time": "14:01:13",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:01:45.101Z",
+    "lastSeen": "2024-12-06T15:44:17.907Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 98360,
+      "Avg. Daily Volume": 6160000,
+      "Short Float": 150990,
+      "Short Ratio": "1.60%"
+    }
+  },
+  "ZENA": {
+    "ticker": "ZENA",
+    "news": [],
+    "hod": false,
+    "float": "8.23M",
+    "price": "6.56",
+    "time": "14:02:44",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:02:55.854Z",
+    "lastSeen": "2024-12-06T13:02:55.854Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 290670,
+      "Avg. Daily Volume": 1930000,
+      "Short Float": 3460000,
+      "Short Ratio": "15.09%"
+    }
+  },
+  "LIFW": {
+    "ticker": "LIFW",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T06:21:53Z",
+        "headline": "LifeWallet Unifies Operations Under the MSP Recovery Brand, Supporting Initiatives Aligned With The Department Of Government Efficiency",
+        "id": 42357442,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "LIFW"
+        ],
+        "updated_at": "2024-12-06T06:21:54Z",
+        "url": "https://www.benzinga.com/news/24/12/42357442/lifewallet-unifies-operations-under-the-msp-recovery-brand-supporting-initiatives-aligned-with-the-d",
+        "added_at": "2024-12-06T13:10:51.822Z"
+      }
+    ],
+    "hod": false,
+    "float": "103.96M",
+    "price": "1.85",
+    "time": "14:10:36",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:10:49.514Z",
+    "lastSeen": "2024-12-06T13:10:49.514Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 99990,
+      "Avg. Daily Volume": 580000,
+      "Short Float": 236490,
+      "Short Ratio": "17.24%"
+    }
+  },
+  "SNOA": {
+    "ticker": "SNOA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T13:56:53Z",
+        "headline": "Sonoma Pharmaceuticals Transitions First Products To New EU MDR Requirements For 4 Of Its Products In Europe",
+        "id": 42339176,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SNOA"
+        ],
+        "updated_at": "2024-12-05T13:56:53Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42339176/sonoma-pharmaceuticals-transitions-first-products-to-new-eu-mdr-requirements-for-4-of-its-product",
+        "added_at": "2024-12-06T13:25:44.995Z"
+      }
+    ],
+    "hod": true,
+    "float": "1.32M",
+    "price": "3.24",
+    "time": "14:25:18",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:25:42.443Z",
+    "lastSeen": "2024-12-06T15:00:18.765Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 77030,
+      "Avg. Daily Volume": 1320000,
+      "Short Float": 185720,
+      "Short Ratio": "5.84%"
+    }
+  },
+  "JMIA": {
+    "ticker": "JMIA",
+    "news": [
+      {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-12-05T18:53:27Z",
+        "headline": "What's Going On With Jumia Shares Thursday",
+        "id": 42348576,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/05/Jumia-Image-11.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/05/Jumia-Image-11.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/05/Jumia-Image-11.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Jumia shares are trading higher on Thursday after the company announced a year-over-year increase in orders and gross merchant value for the two months ended Nov. 30.",
+        "symbols": [
+          "JMIA"
+        ],
+        "updated_at": "2024-12-05T18:53:28Z",
+        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42348576/whats-going-on-with-jumia-shares-thursday",
+        "added_at": "2024-12-06T13:34:25.679Z"
+      }
+    ],
+    "hod": true,
+    "float": "85.23M",
+    "price": "4.96",
+    "time": "14:34:01",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:34:22.970Z",
+    "lastSeen": "2024-12-06T14:43:16.392Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 4460000,
+      "Avg. Daily Volume": 101870000,
+      "Short Float": 2820000,
+      "Short Ratio": "4.37%"
+    }
+  },
+  "WOOF": {
+    "ticker": "WOOF",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:50:22Z",
+        "headline": "Petco Health and Wellness: Q3 Earnings Insights",
+        "id": 42353072,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:50:23Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42353072/petco-health-and-wellness-q3-earnings-insights",
+        "added_at": "2024-12-06T13:41:10.860Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:45:34Z",
+        "headline": "Earnings Summary: Petco Health and Wellness Q3",
+        "id": 42352901,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:45:35Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42352901/earnings-summary-petco-health-and-wellness-q3",
+        "added_at": "2024-12-06T13:41:10.860Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:40:19Z",
+        "headline": "Petco Health and Wellness Q3 Earnings Assessment",
+        "id": 42352491,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_1.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_1.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_1.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:40:19Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42352491/petco-health-and-wellness-q3-earnings-assessment",
+        "added_at": "2024-12-06T13:41:10.861Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:35:43Z",
+        "headline": "Earnings Breakdown: Petco Health and Wellness Q3",
+        "id": 42352313,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:35:44Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42352313/earnings-breakdown-petco-health-and-wellness-q3",
+        "added_at": "2024-12-06T13:41:10.862Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:30:32Z",
+        "headline": "Petco Health and Wellness Earnings Review: Q3 Summary",
+        "id": 42352069,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:30:33Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42352069/petco-health-and-wellness-earnings-review-q3-summary",
+        "added_at": "2024-12-06T13:41:10.862Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:15:46Z",
+        "headline": "Insights into Petco Health and Wellness Q3 Earnings",
+        "id": 42351378,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:15:46Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42351378/insights-into-petco-health-and-wellness-q3-earnings",
+        "added_at": "2024-12-06T13:41:10.863Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-05T21:10:41Z",
+        "headline": "Petco Health and Wellness Earnings Report: Q3 Overview",
+        "id": 42351088,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:10:42Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42351088/petco-health-and-wellness-earnings-report-q3-overview",
+        "added_at": "2024-12-06T13:41:10.863Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T21:05:09Z",
+        "headline": "Petco Health and Wellness Company Sees Q4 Adj EPS $0.00-$0.02 Vs $0.04 Est.; Revenue ~$1.55B Vs $1.57B Est.",
+        "id": 42350787,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:05:10Z",
+        "url": "https://www.benzinga.com/news/24/12/42350787/petco-health-and-wellness-company-sees-q4-adj-eps-0-00-0-02-vs-0-04-est-revenue-1-55b-vs-1-57b-est",
+        "added_at": "2024-12-06T13:41:10.863Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-05T21:03:30Z",
+        "headline": "Petco Health and Wellness Q3 Adj $(0.02) Beats $(0.04) Estimate, Sales $1.51B Beat $1.50B Estimate",
+        "id": 42350724,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-05T21:03:30Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42350724/petco-health-and-wellness-q3-adj-0-02-beats-0-04-estimate-sales-1-51b-beat-1-50b-estimate",
+        "added_at": "2024-12-06T13:41:10.863Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T14:30:18Z",
+        "headline": "Wells Fargo Maintains Equal-Weight on Petco Health and Wellness, Raises Price Target to $5",
+        "id": 42364439,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-06T14:30:18Z",
+        "url": "https://www.benzinga.com/news/24/12/42364439/wells-fargo-maintains-equal-weight-on-petco-health-and-wellness-raises-price-target-to-5",
+        "added_at": "2024-12-06T14:30:38.178Z"
+      },
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-06T15:02:22Z",
+        "headline": "Expert Ratings For Petco Health and Wellness",
+        "id": 42365238,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-06T15:02:22Z",
+        "url": "https://www.benzinga.com/insights/analyst-ratings/24/12/42365238/expert-ratings-for-petco-health-and-wellness",
+        "added_at": "2024-12-06T15:04:58.195Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T15:36:45Z",
+        "headline": "RBC Capital Maintains Outperform on Petco Health and Wellness, Raises Price Target to $6",
+        "id": 42366424,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "WOOF"
+        ],
+        "updated_at": "2024-12-06T15:36:46Z",
+        "url": "https://www.benzinga.com/news/24/12/42366424/rbc-capital-maintains-outperform-on-petco-health-and-wellness-raises-price-target-to-6",
+        "added_at": "2024-12-06T15:40:38.239Z"
+      }
+    ],
+    "hod": false,
+    "float": "89.98M",
+    "price": "6.01",
+    "time": "14:40:01",
+    "isActive": true,
+    "firstSeen": "2024-12-06T13:41:08.275Z",
+    "lastSeen": "2024-12-06T14:53:25.531Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 23090000,
+      "Avg. Daily Volume": 77590000,
+      "Short Float": 3880000,
+      "Short Ratio": "29.76%"
+    }
+  },
+  "ELWS": {
+    "ticker": "ELWS",
+    "news": [],
+    "hod": false,
+    "float": "5.36M",
+    "price": "4.24",
+    "time": "15:01:59",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:02:20.563Z",
+    "lastSeen": "2024-12-06T14:04:30.393Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1900,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 319680,
+      "Short Ratio": "N/A"
     }
   },
   "RKDA": {
     "ticker": "RKDA",
     "news": [
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Vaishali Prayag",
         "content": "",
-        "created_at": "2024-12-05T13:06:13Z",
-        "headline": "Arcadia Biosciences Announces All-Stock Merger With Roosevelt Resources, Giving Roosevelt 90% Equity Stake Post-Closing; Transaction Expected In Q1 2025 Pending Regulatory And Shareholder Approvals",
-        "id": 42337318,
-        "images": [],
+        "created_at": "2024-12-05T16:04:48Z",
+        "headline": "Arcadia Biosciences Stock Are On The Rise Today: What's Going On?",
+        "id": 42343759,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/05/Neurocrine-Biosciences.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/05/Neurocrine-Biosciences.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/05/Neurocrine-Biosciences.jpeg"
+          }
+        ],
         "source": "benzinga",
-        "summary": "",
+        "summary": "Shares of Arcadia Biosciences, Inc. (NASDAQ: RKDA) are trading higher Thursday following the company&#39;s announcement of an all-stock merger with Roosevelt Resources LP. Here&#39;s what you need to know.",
         "symbols": [
           "RKDA"
         ],
-        "updated_at": "2024-12-05T13:06:13Z",
-        "url": "https://www.benzinga.com/news/24/12/42337318/arcadia-biosciences-announces-all-stock-merger-with-roosevelt-resources-giving-roosevelt-90-equity-s",
-        "added_at": "2024-12-05T13:09:56.180Z"
+        "updated_at": "2024-12-05T16:04:48Z",
+        "url": "https://www.benzinga.com/24/12/42343759/arcadia-biosciences-stock-are-on-the-rise-today-whats-going-on",
+        "added_at": "2024-12-06T14:30:12.808Z"
       }
     ],
     "hod": false,
     "float": "1.36M",
-    "price": "8.4",
-    "time": "14:04:11",
+    "price": "5.72",
+    "time": "15:29:31",
     "isActive": true,
-    "firstSeen": "2024-12-05T13:04:13.695Z",
-    "lastSeen": "2024-12-05T14:14:54.973Z",
+    "firstSeen": "2024-12-06T14:30:09.885Z",
+    "lastSeen": "2024-12-06T14:30:09.885Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 19620,
-      "Avg. Daily Volume": 14740,
-      "Short Float": "1.44%",
-      "Short Ratio": "1.33"
-    }
-  },
-  "VIGL": {
-    "ticker": "VIGL",
-    "news": [],
-    "hod": false,
-    "float": "18.72M",
-    "price": "2.5",
-    "time": "14:06:49",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:07:17.948Z",
-    "lastSeen": "2024-12-05T13:07:17.948Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 736690,
-      "Avg. Daily Volume": 96100,
-      "Short Float": "3.94%",
-      "Short Ratio": "7.67"
-    }
-  },
-  "VVPR": {
-    "ticker": "VVPR",
-    "news": [],
-    "hod": false,
-    "float": "2.75M",
-    "price": "1.77",
-    "time": "14:15:06",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:15:09.276Z",
-    "lastSeen": "2024-12-05T13:25:10.293Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 584160,
-      "Avg. Daily Volume": 889880,
-      "Short Float": "21.24%",
-      "Short Ratio": "0.66"
-    }
-  },
-  "ZENA": {
-    "ticker": "ZENA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T12:33:21Z",
-        "headline": "ZenaTech Has Signed A Letter Of Intent To Acquire Its First Land Survey Company, Part Of A Larger Roll-up Strategy To Disrupt The Land Survey Industry By Accelerating The Use Of Drones For Speed And Accuracy",
-        "id": 42336358,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZENA"
-        ],
-        "updated_at": "2024-12-05T12:33:22Z",
-        "url": "https://www.benzinga.com/m-a/24/12/42336358/zenatech-has-signed-a-letter-of-intent-to-acquire-its-first-land-survey-company-part-of-a-larger-rol",
-        "added_at": "2024-12-05T13:19:27.168Z"
-      }
-    ],
-    "hod": true,
-    "float": "8.23M",
-    "price": "7.15",
-    "time": "14:19:14",
-    "isActive": true,
-    "firstSeen": "2024-12-05T13:19:23.748Z",
-    "lastSeen": "2024-12-05T14:31:28.557Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 290670,
-      "Avg. Daily Volume": 3460000,
-      "Short Float": "15.09%",
-      "Short Ratio": "0.08"
-    }
-  },
-  "CANG": {
-    "ticker": "CANG",
-    "news": [],
-    "hod": false,
-    "float": "100.67M",
-    "price": "4.73",
-    "time": "14:28:45",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:28:46.165Z",
-    "lastSeen": "2024-12-05T13:28:46.165Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 97870,
-      "Avg. Daily Volume": 150310,
-      "Short Float": "0.15%",
-      "Short Ratio": "0.65"
+      "Avg. Daily Volume": 1360000,
+      "Short Float": 14740,
+      "Short Ratio": "1.44%"
     }
   },
   "NVTS": {
     "ticker": "NVTS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T13:33:23Z",
-        "headline": "Navitas Semiconductor To Highlight GaN And SiC Technology Breakthroughs For AI Data Centers, EVs, And Mobile Applications At CES 2025",
-        "id": 42338377,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NVTS"
-        ],
-        "updated_at": "2024-12-05T13:33:23Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42338377/navitas-semiconductor-to-highlight-gan-and-sic-technology-breakthroughs-for-ai-data-centers-evs-a",
-        "added_at": "2024-12-05T13:34:56.949Z"
-      }
-    ],
-    "hod": true,
+    "news": [],
+    "hod": false,
     "float": "112.87M",
-    "price": "3.88",
-    "time": "14:31:37",
+    "price": "4.21",
+    "time": "15:31:03",
     "isActive": true,
-    "firstSeen": "2024-12-05T13:32:16.951Z",
-    "lastSeen": "2024-12-05T14:38:56.433Z",
+    "firstSeen": "2024-12-06T14:31:42.724Z",
+    "lastSeen": "2024-12-06T14:55:32.329Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 27840000,
-      "Avg. Daily Volume": 2700000,
-      "Short Float": "24.31%",
-      "Short Ratio": "10.32"
+      "Avg. Daily Volume": 114530000,
+      "Short Float": 2700000,
+      "Short Ratio": "24.31%"
     }
   },
-  "STSS": {
-    "ticker": "STSS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T13:35:47Z",
-        "headline": "Sharps Technology Secures Sales Agreements For SecureGard Syringes With Major European Healthcare Network, Selling Out Current Inventory And Committing To New Orders In 2025; Initial Shipments Begin December With Hungary Operations To Scale Revenue In 2024",
-        "id": 42338463,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "STSS"
-        ],
-        "updated_at": "2024-12-05T13:35:47Z",
-        "url": "https://www.benzinga.com/news/24/12/42338463/sharps-technology-secures-sales-agreements-for-securegard-syringes-with-major-european-healthcare-ne",
-        "added_at": "2024-12-05T13:39:57.001Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.74M",
-    "price": "1.97",
-    "time": "14:32:52",
-    "isActive": true,
-    "firstSeen": "2024-12-05T13:32:55.907Z",
-    "lastSeen": "2024-12-05T14:38:56.433Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-047448 (33 Act)  Size: 969 KB",
-        "date": "2024-11-22"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-042274 (33 Act)  Size: 1 MB",
-        "date": "2024-10-23"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 60040,
-      "Avg. Daily Volume": 78020,
-      "Short Float": "3.47%",
-      "Short Ratio": "0.77"
-    }
-  },
-  "HEPS": {
-    "ticker": "HEPS",
+  "APLD": {
+    "ticker": "APLD",
     "news": [],
-    "hod": false,
-    "float": "107.82M",
-    "price": "3.48",
-    "time": "14:55:31",
-    "isActive": false,
-    "firstSeen": "2024-12-05T13:55:37.006Z",
-    "lastSeen": "2024-12-05T13:55:37.006Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 802720,
-      "Avg. Daily Volume": 1680000,
-      "Short Float": "N/A",
-      "Short Ratio": "0.48"
-    }
-  },
-  "ORIS": {
-    "ticker": "ORIS",
-    "news": [],
-    "hod": false,
-    "float": "3.21M",
-    "price": "10.3",
-    "time": "14:57:49",
+    "hod": true,
+    "float": "160.70M",
+    "price": "10.64",
+    "time": "15:32:50",
     "isActive": true,
-    "firstSeen": "2024-12-05T13:58:15.006Z",
-    "lastSeen": "2024-12-05T14:08:44.445Z",
+    "firstSeen": "2024-12-06T14:32:59.500Z",
+    "lastSeen": "2024-12-06T14:32:59.500Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 91660,
-      "Avg. Daily Volume": 317300,
-      "Short Float": "2.86%",
-      "Short Ratio": "0.29"
+      "Short Interest": 39290000,
+      "Avg. Daily Volume": 163610000,
+      "Short Float": 14800000,
+      "Short Ratio": "24.01%"
     }
   },
-  "CETX": {
-    "ticker": "CETX",
+  "KC": {
+    "ticker": "KC",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-04T14:03:20Z",
-        "headline": "Cemtrex Intends to Acquire 100% Ownership Of Vicon Industries, Increasing Current Stake From ~93% To 100%",
-        "id": 42315340,
+        "created_at": "2024-12-06T12:40:16Z",
+        "headline": "UBS Upgrades Kingsoft Cloud Hldgs to Buy, Raises Price Target to $12.5",
+        "id": 42361379,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "CETX"
+          "KC"
         ],
-        "updated_at": "2024-12-04T14:03:21Z",
-        "url": "https://www.benzinga.com/m-a/24/12/42315340/cemtrex-intends-to-acquire-100-ownership-of-vicon-industries-increasing-current-stake-from-93-to-100",
-        "added_at": "2024-12-05T14:01:00.797Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T14:02:34Z",
-        "headline": "Cemtrex To Launch AI-Powered Armed Person Detection Feature In Vicon NEXT Cameras By Q1 2025, Offering High-Accuracy Edge-Based Security Solution To Enhance Public Safety And Minimize False Alarms",
-        "id": 42339520,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CETX"
-        ],
-        "updated_at": "2024-12-05T14:02:35Z",
-        "url": "https://www.benzinga.com/news/24/12/42339520/cemtrex-to-launch-ai-powered-armed-person-detection-feature-in-vicon-next-cameras-by-q1-2025-offerin",
-        "added_at": "2024-12-05T14:04:57.650Z"
+        "updated_at": "2024-12-06T12:40:17Z",
+        "url": "https://www.benzinga.com/news/24/12/42361379/ubs-upgrades-kingsoft-cloud-hldgs-to-buy-raises-price-target-to-12-5",
+        "added_at": "2024-12-06T14:35:41.595Z"
       }
     ],
-    "hod": false,
-    "float": "731.03K",
-    "price": "3.09",
-    "time": "15:00:43",
+    "hod": true,
+    "float": "253.53M",
+    "price": "9.2",
+    "time": "15:35:25",
     "isActive": true,
-    "firstSeen": "2024-12-05T14:00:56.710Z",
-    "lastSeen": "2024-12-05T14:21:35.613Z",
+    "firstSeen": "2024-12-06T14:35:38.371Z",
+    "lastSeen": "2024-12-06T14:35:38.371Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 4440,
-      "Avg. Daily Volume": 149920,
-      "Short Float": "0.61%",
-      "Short Ratio": "0.03"
-    }
-  },
-  "MEI": {
-    "ticker": "MEI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T12:08:18Z",
-        "headline": "Methode Electronics Expects Q3 Revenue To Be Similar YoY Vs $263.88M Est, Reiterated FY25 Revenue Similar To FY24 Vs $1.08B Est, Expects FY26 Revenue To Beat FY25 Vs $1.14B Est",
-        "id": 42335729,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MEI"
-        ],
-        "updated_at": "2024-12-05T12:08:19Z",
-        "url": "https://www.benzinga.com/news/24/12/42335729/methode-electronics-expects-q3-revenue-to-be-similar-yoy-vs-263-88m-est-reiterated-fy25-revenue-simi",
-        "added_at": "2024-12-05T14:16:59.794Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T12:02:30Z",
-        "headline": "Methode Electronics Q2 EPS $0.14 Beats $(0.16) Estimate, Sales $292.60M Beat $268.46M Estimate",
-        "id": 42335546,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MEI"
-        ],
-        "updated_at": "2024-12-05T12:02:30Z",
-        "url": "https://www.benzinga.com/news/earnings/24/12/42335546/methode-electronics-q2-eps-0-14-beats-0-16-estimate-sales-292-60m-beat-268-46m-estimate",
-        "added_at": "2024-12-05T14:16:59.794Z"
-      },
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2024-12-04T17:01:45Z",
-        "headline": "Methode Electronics Earnings Preview",
-        "id": 42320891,
-        "images": [],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "MEI"
-        ],
-        "updated_at": "2024-12-04T17:01:46Z",
-        "url": "https://www.benzinga.com/insights/earnings/24/12/42320891/methode-electronics-earnings-preview",
-        "added_at": "2024-12-05T14:16:59.795Z"
-      }
-    ],
-    "hod": false,
-    "float": "32.75M",
-    "price": "15.38",
-    "time": "15:16:12",
-    "isActive": true,
-    "firstSeen": "2024-12-05T14:16:55.609Z",
-    "lastSeen": "2024-12-05T14:16:55.609Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1630000,
-      "Avg. Daily Volume": 382930,
-      "Short Float": "4.99%",
-      "Short Ratio": "4.27"
-    }
-  },
-  "UPC": {
-    "ticker": "UPC",
-    "news": [],
-    "hod": false,
-    "float": "1.44M",
-    "price": "2.12",
-    "time": "15:17:35",
-    "isActive": true,
-    "firstSeen": "2024-12-05T14:18:25.142Z",
-    "lastSeen": "2024-12-05T14:19:33.116Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 2480,
-      "Avg. Daily Volume": 223490,
-      "Short Float": "0.17%",
-      "Short Ratio": "0.01"
-    }
-  },
-  "FOXX": {
-    "ticker": "FOXX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-05T14:34:45Z",
-        "headline": "Foxx Shares Halted To The Upside; Stock Now Up 77.81%",
-        "id": 42340589,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "FOXX"
-        ],
-        "updated_at": "2024-12-05T14:34:45Z",
-        "url": "https://www.benzinga.com/trading-ideas/24/12/42340589/foxx-shares-halted-to-the-upside-stock-now-up-77-81",
-        "added_at": "2024-12-05T14:34:58.383Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.22M",
-    "price": "5.95",
-    "time": "15:23:23",
-    "isActive": true,
-    "firstSeen": "2024-12-05T14:23:27.010Z",
-    "lastSeen": "2024-12-05T14:29:08.942Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 11850,
-      "Avg. Daily Volume": 31810,
-      "Short Float": "3.82%",
-      "Short Ratio": "0.37"
+      "Short Interest": 7290000,
+      "Avg. Daily Volume": 253530000,
+      "Short Float": 2560000,
+      "Short Ratio": "2.87%"
     }
   },
   "BTDR": {
     "ticker": "BTDR",
-    "news": [],
-    "hod": true,
-    "float": "51.87M",
-    "price": "18.81",
-    "time": "15:31:57",
-    "isActive": true,
-    "firstSeen": "2024-12-05T14:32:02.584Z",
-    "lastSeen": "2024-12-05T14:32:02.584Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 12560000,
-      "Avg. Daily Volume": 3010000,
-      "Short Float": "37.05%",
-      "Short Ratio": "4.17"
-    }
-  },
-  "BBAI": {
-    "ticker": "BBAI",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-04T21:27:37Z",
-        "headline": "BigBear.ai: Pangiam Ultimate Holdings Sells 6.28M Shares At $2.55 Average Price",
-        "id": 42327133,
+        "created_at": "2024-12-06T12:29:38Z",
+        "headline": "Northland Capital Markets Maintains Outperform on Bitdeer Technologies, Raises Price Target to $20",
+        "id": 42361236,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "BBAI"
+          "BTDR"
         ],
-        "updated_at": "2024-12-04T21:27:38Z",
-        "url": "https://www.benzinga.com/news/24/12/42327133/bigbear-ai-pangiam-ultimate-holdings-sells-6-28m-shares-at-2-55-average-price",
-        "added_at": "2024-12-05T14:40:12.614Z"
+        "updated_at": "2024-12-06T12:29:39Z",
+        "url": "https://www.benzinga.com/news/24/12/42361236/northland-capital-markets-maintains-outperform-on-bitdeer-technologies-raises-price-target-to-20",
+        "added_at": "2024-12-06T14:39:41.997Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T12:21:56Z",
+        "headline": "Rosenblatt Maintains Buy on Bitdeer Technologies, Raises Price Target to $22",
+        "id": 42361159,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BTDR"
+        ],
+        "updated_at": "2024-12-06T12:21:56Z",
+        "url": "https://www.benzinga.com/news/24/12/42361159/rosenblatt-maintains-buy-on-bitdeer-technologies-raises-price-target-to-22",
+        "added_at": "2024-12-06T14:39:41.999Z"
       }
     ],
     "hod": true,
-    "float": "116.29M",
-    "price": "2.8",
-    "time": "15:39:49",
+    "float": "51.87M",
+    "price": "19.94",
+    "time": "15:39:28",
     "isActive": true,
-    "firstSeen": "2024-12-05T14:39:49.878Z",
-    "lastSeen": "2024-12-05T14:39:49.878Z",
+    "firstSeen": "2024-12-06T14:39:38.552Z",
+    "lastSeen": "2024-12-06T14:47:35.468Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 12560000,
+      "Avg. Daily Volume": 33910000,
+      "Short Float": 3010000,
+      "Short Ratio": "37.05%"
+    }
+  },
+  "SERV": {
+    "ticker": "SERV",
+    "news": [],
+    "hod": true,
+    "float": "26.81M",
+    "price": "11.18",
+    "time": "15:40:22",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:40:23.007Z",
+    "lastSeen": "2024-12-06T14:52:30.325Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 3690000,
+      "Avg. Daily Volume": 26820000,
+      "Short Float": 5440000,
+      "Short Ratio": "13.77%"
+    }
+  },
+  "BBAI": {
+    "ticker": "BBAI",
+    "news": [],
+    "hod": true,
+    "float": "117.56M",
+    "price": "3.48",
+    "time": "15:40:13",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:40:23.007Z",
+    "lastSeen": "2024-12-06T15:11:25.681Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 20190000,
-      "Avg. Daily Volume": 5440000,
-      "Short Float": "18.74%",
-      "Short Ratio": "3.71"
+      "Avg. Daily Volume": 107730000,
+      "Short Float": 5440000,
+      "Short Ratio": "18.74%"
     }
   },
-  "CAPR": {
-    "ticker": "CAPR",
+  "QBTS": {
+    "ticker": "QBTS",
+    "news": [],
+    "hod": true,
+    "float": "214.34M",
+    "price": "4.48",
+    "time": "15:42:30",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:42:31.878Z",
+    "lastSeen": "2024-12-06T15:17:00.040Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 17110000,
+      "Avg. Daily Volume": 120980000,
+      "Short Float": 5680000,
+      "Short Ratio": "14.15%"
+    }
+  },
+  "NVAX": {
+    "ticker": "NVAX",
+    "news": [],
+    "hod": true,
+    "float": "153.02M",
+    "price": "9.28",
+    "time": "15:42:29",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:42:31.878Z",
+    "lastSeen": "2024-12-06T14:42:31.878Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 41510000,
+      "Avg. Daily Volume": 153020000,
+      "Short Float": 6370000,
+      "Short Ratio": "27.13%"
+    }
+  },
+  "QUBT": {
+    "ticker": "QUBT",
+    "news": [],
+    "hod": true,
+    "float": "86.51M",
+    "price": "8.67",
+    "time": "15:43:44",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:44:00.595Z",
+    "lastSeen": "2024-12-06T15:44:17.907Z"
+  },
+  "PRZO": {
+    "ticker": "PRZO",
     "news": [],
     "hod": false,
-    "float": "40.01M",
-    "price": "14.48",
-    "time": "15:39:44",
+    "float": "9.01M",
+    "price": "1.83",
+    "time": "15:44:20",
     "isActive": true,
-    "firstSeen": "2024-12-05T14:39:49.878Z",
-    "lastSeen": "2024-12-05T14:39:49.878Z",
-    "filings": [
+    "firstSeen": "2024-12-06T14:44:48.264Z",
+    "lastSeen": "2024-12-06T15:45:32.279Z"
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [],
+    "hod": true,
+    "float": "203.06M",
+    "price": "4.09",
+    "time": "15:46:04",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:46:06.321Z",
+    "lastSeen": "2024-12-06T15:44:17.907Z"
+  },
+  "RUM": {
+    "ticker": "RUM",
+    "news": [],
+    "hod": true,
+    "float": "243.70M",
+    "price": "8.84",
+    "time": "15:47:43",
+    "isActive": true,
+    "firstSeen": "2024-12-06T14:48:44.153Z",
+    "lastSeen": "2024-12-06T15:02:43.278Z"
+  },
+  "CXAI": {
+    "ticker": "CXAI",
+    "news": [],
+    "hod": true,
+    "float": "12.68M",
+    "price": "1.96",
+    "time": "16:28:56",
+    "isActive": true,
+    "firstSeen": "2024-12-06T15:29:22.762Z",
+    "lastSeen": "2024-12-06T15:44:17.907Z"
+  },
+  "ADCT": {
+    "ticker": "ADCT",
+    "news": [
       {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013460 (33 Act)  Size: 399 KB",
-        "date": "2024-10-22"
-      },
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-013333 (33 Act)  Size: 795 KB",
-        "date": "2024-10-16"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001558370-24-009206 (33 Act)  Size: 781 KB",
-        "date": "2024-06-14"
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-06T12:34:46Z",
+        "headline": "ADC Therapeutics Says It Will Provide Initial Data Update On LOTIS-7 Clinical Trial For Evaluating Safety And Efficacy Of ZYNLONTA In Combination With The Bispecific Antibody glofitamab (COLUMVI) In Patients With Relapsed Or Refractory Diffuse Large B-cell Lymphoma (r/r DLBCL)",
+        "id": 42361313,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ADCT"
+        ],
+        "updated_at": "2024-12-06T12:34:46Z",
+        "url": "https://www.benzinga.com/news/24/12/42361313/adc-therapeutics-says-it-will-provide-initial-data-update-on-lotis-7-clinical-trial-for-evaluating-s",
+        "added_at": "2024-12-06T15:38:33.404Z"
       }
-    ]
+    ],
+    "hod": true,
+    "float": "77.83M",
+    "price": "2.79",
+    "time": "16:38:25",
+    "isActive": true,
+    "firstSeen": "2024-12-06T15:38:28.902Z",
+    "lastSeen": "2024-12-06T15:45:32.279Z"
+  },
+  "PSQH": {
+    "ticker": "PSQH",
+    "news": [],
+    "hod": true,
+    "float": "18.21M",
+    "price": "4.42",
+    "time": "16:44:11",
+    "isActive": true,
+    "firstSeen": "2024-12-06T15:44:17.907Z",
+    "lastSeen": "2024-12-06T15:44:17.907Z"
+  },
+  "VTYX": {
+    "ticker": "VTYX",
+    "news": [],
+    "hod": true,
+    "float": "53.33M",
+    "price": "3.12",
+    "time": "16:47:39",
+    "isActive": true,
+    "firstSeen": "2024-12-06T15:47:40.936Z",
+    "lastSeen": "2024-12-06T15:47:40.936Z"
   }
 }

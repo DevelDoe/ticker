@@ -255,19 +255,12 @@ const displayTickersTable = async () => {
         // If filterHeadlinesActive is true, sort by the latest headline's timestamp
         if (filterHeadlinesActive) {
             filteredTickers = filteredTickers.sort((a, b) => {
-                const latestDateA = a.news?.reduce((latest, item) => {
-                    const itemDate = new Date(item.updated_at || item.created_at || 0);
-                    return itemDate > latest ? itemDate : latest;
-                }, new Date(0));
-        
-                const latestDateB = b.news?.reduce((latest, item) => {
-                    const itemDate = new Date(item.updated_at || item.created_at || 0);
-                    return itemDate > latest ? itemDate : latest;
-                }, new Date(0));
-        
-                return latestDateB - latestDateA; // Sort descending by the latest date
+                const dateA = new Date(a.news?.[0]?.added_at || 0);
+                const dateB = new Date(b.news?.[0]?.added_at || 0);
+                return dateB - dateA; // Sort descending by `added_at`
             });
         }
+        
         
         // Loop over sorted/filtered tickers and add to the table
         filteredTickers.forEach((ticker) => {
