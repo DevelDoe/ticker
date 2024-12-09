@@ -163,7 +163,7 @@ function filterData(scrapedData) {
 
         // Filter by Price between 1.75 and 20
         const price = parseFloat(data.Price.replace("$", ""));
-        if (isNaN(price) || price < 1.75 || price > 20) return false;
+        if (isNaN(price) || price < 1.5 || price > 15) return false;
 
         // Handle float in 'K' (thousands), 'M' (millions), and 'B' (billions)
         const floatString = data.Float.trim();
@@ -179,7 +179,7 @@ function filterData(scrapedData) {
             float = parseFloat(floatString); // Assume it's already in a numeric format
         }
 
-        if (isNaN(float) || float > 300) {
+        if (isNaN(float) || float > 10) {
             // Skip if the float is invalid or greater than 50 million
             return false;
         }
