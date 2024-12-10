@@ -1,1 +1,8 @@
-{}
+{
+  "ZEO": {
+    "ticker": "ZEO"
+  },
+  "GXAI": {
+    "ticker": "GXAI"
+  }
+}

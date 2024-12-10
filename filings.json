@@ -1,16 +1,9 @@
 {
-  "ADCT": [
+  "ARTL": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950103-24-011770 (33 Act)  Size: 837 KB",
-      "date": "2024-08-06"
-    }
-  ],
-  "UAMY": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001654954-24-014959 (33 Act)  Size: 306 KB",
-      "date": "2024-11-29"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001640334-23-001227 (33 Act)  Size: 364 KB",
+      "date": "2023-07-06"
     }
   ]
 }

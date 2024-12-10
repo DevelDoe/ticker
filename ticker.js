@@ -268,7 +268,7 @@ const displayTickersTable = async () => {
             const timestamp = latestNewsObject?.added_at || null;
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
-            const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+            const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
             // const formattedTime = latestNews === "No news available" 
             // ? "" 
             // : dateObj?.toLocaleString([], { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" });

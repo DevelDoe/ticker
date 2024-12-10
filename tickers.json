@@ -1,62 +1,14 @@
 {
-  "CXAI": {
-    "ticker": "CXAI",
-    "news": [],
-    "hod": true,
-    "float": "12.68M",
-    "price": "2.11",
-    "time": "01:08:50",
-    "isActive": true,
-    "firstSeen": "2024-12-07T13:52:28.317Z",
-    "lastSeen": "2024-12-07T13:52:28.318Z",
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 1100000,
-      "Avg. Daily Volume": 12680000,
-      "Short Float": 499160,
-      "Short Ratio": "8.71%"
-    }
-  },
   "GXAI": {
     "ticker": "GXAI",
-    "news": [
-      {
-        "author": "Dylan Berman",
-        "content": "",
-        "created_at": "2024-12-06T18:27:07Z",
-        "headline": "What's Going On With Gaxos.Ai Shares Friday?",
-        "id": 42370508,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/06/Revival-of-the-60---40-Portfolio.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/06/Revival-of-the-60---40-Portfolio.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/06/Revival-of-the-60---40-Portfolio.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Gaxos.Ai stock is moving higher on Friday after the company announced the release of its visual editor.",
-        "symbols": [
-          "GXAI"
-        ],
-        "updated_at": "2024-12-06T18:27:08Z",
-        "url": "https://www.benzinga.com/24/12/42370508/whats-going-on-with-gaxosai-shares-friday",
-        "added_at": "2024-12-07T13:57:11.349Z"
-      }
-    ],
+    "news": [],
     "hod": false,
     "float": "2.53M",
-    "price": "3.06",
-    "time": "23:36:20",
+    "price": "4.88",
+    "time": "22:28:29",
     "isActive": true,
-    "firstSeen": "2024-12-07T13:52:28.318Z",
-    "lastSeen": "2024-12-07T13:52:28.318Z",
+    "firstSeen": "2024-12-09T21:28:40.833Z",
+    "lastSeen": "2024-12-09T21:28:40.834Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
       "Short Interest": 767340,
@@ -65,107 +17,495 @@
       "Short Ratio": "45.95%"
     }
   },
-  "UPC": {
-    "ticker": "UPC",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 2480,
-      "Avg. Daily Volume": 1440000,
-      "Short Float": 223490,
-      "Short Ratio": "0.17%"
-    }
-  },
-  "LIFW": {
-    "ticker": "LIFW",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 99990,
-      "Avg. Daily Volume": 580000,
-      "Short Float": 236490,
-      "Short Ratio": "17.24%"
-    }
-  },
-  "ADCT": {
-    "ticker": "ADCT",
-    "news": [],
-    "isActive": true,
-    "filings": [
+  "HUIZ": {
+    "ticker": "HUIZ",
+    "news": [
       {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950103-24-011770 (33 Act)  Size: 837 KB",
-        "date": "2024-08-06"
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T18:26:23Z",
+        "headline": "Huize Shares Resume Trading",
+        "id": 42397019,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "HUIZ"
+        ],
+        "updated_at": "2024-12-09T18:26:23Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42397019/huize-shares-resume-trading",
+        "added_at": "2024-12-09T22:42:10.060Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T18:21:43Z",
+        "headline": "Huize Shares Halted On Circuit Breaker To The Upside, Stock Now Up 249.9%",
+        "id": 42396938,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "HUIZ"
+        ],
+        "updated_at": "2024-12-09T18:21:44Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42396938/huize-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-249-9",
+        "added_at": "2024-12-09T22:42:10.060Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T18:05:56Z",
+        "headline": "Huize Shares Halted On Circuit Breaker To The Upside, Stock Now Up 110.7%",
+        "id": 42396649,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "HUIZ"
+        ],
+        "updated_at": "2024-12-09T18:05:57Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42396649/huize-shares-halted-on-circuit-breaker-to-the-upside-stock-now-up-110-7",
+        "added_at": "2024-12-09T22:42:10.061Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T13:55:04Z",
+        "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 42389585,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "HUIZ"
+        ],
+        "updated_at": "2024-12-09T13:55:04Z",
+        "url": "https://www.benzinga.com/24/12/42389585/trading-halt-halt-status-updated-at-8-55-00-am-et-quotation-resumption-news-and-resumption-times",
+        "added_at": "2024-12-09T22:42:10.061Z"
       }
     ],
+    "hod": false,
+    "float": "5.35M",
+    "price": "5.39",
+    "time": "22:27:40",
+    "isActive": true,
+    "firstSeen": "2024-12-09T21:28:40.834Z",
+    "lastSeen": "2024-12-09T21:43:00.459Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 3160000,
-      "Avg. Daily Volume": 77830000,
-      "Short Float": 368460,
-      "Short Ratio": "4.07%"
+      "Short Interest": 21110,
+      "Avg. Daily Volume": 8440000,
+      "Short Float": 5860,
+      "Short Ratio": "0.25%"
     }
   },
-  "ALBT": {
-    "ticker": "ALBT",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 78840,
-      "Avg. Daily Volume": 410000,
-      "Short Float": 645720,
-      "Short Ratio": "19.23%"
-    }
-  },
-  "UAMY": {
-    "ticker": "UAMY",
-    "news": [],
-    "isActive": true,
-    "filings": [
+  "DATS": {
+    "ticker": "DATS",
+    "news": [
       {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001654954-24-014959 (33 Act)  Size: 306 KB",
-        "date": "2024-11-29"
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T20:58:23Z",
+        "headline": "DatChat Will Be Issued U.S. Patent Number 12,166,889 Tomorrow Titled \"BLOCKCHAIN-BASED COMMUNICATION SYSTEMS AND METHODS\"",
+        "id": 42399499,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DATS"
+        ],
+        "updated_at": "2024-12-09T20:58:23Z",
+        "url": "https://www.benzinga.com/news/24/12/42399499/datchat-will-be-issued-u-s-patent-number-12-166-889-tomorrow-titled-blockchain-based-communication-s",
+        "added_at": "2024-12-09T22:42:10.174Z"
       }
     ],
+    "hod": true,
+    "float": "2.73M",
+    "price": "2.74",
+    "time": "22:19:58",
+    "isActive": true,
+    "firstSeen": "2024-12-09T21:28:40.834Z",
+    "lastSeen": "2024-12-09T21:37:40.810Z",
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 2150000,
-      "Avg. Daily Volume": 82990000,
-      "Short Float": 809500,
-      "Short Ratio": "2.59%"
+      "Short Interest": 311320,
+      "Avg. Daily Volume": 2800000,
+      "Short Float": 1120000,
+      "Short Ratio": "11.12%"
     }
   },
-  "PWM": {
-    "ticker": "PWM",
-    "news": [],
+  "ZEO": {
+    "ticker": "ZEO",
     "isActive": true,
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 234110,
-      "Avg. Daily Volume": 350000,
-      "Short Float": 1370000,
-      "Short Ratio": "66.89%"
-    }
+      "Short Interest": 31430,
+      "Avg. Daily Volume": 2450000,
+      "Short Float": 987960,
+      "Short Ratio": "1.28%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T12:25:27Z",
+        "headline": "White Oak Global Advisors, LLC On Friday, Reported A Stake Of 58.2% In Zeo Energy In A 13D Filing",
+        "id": 42386836,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ZEO"
+        ],
+        "updated_at": "2024-12-09T12:25:28Z",
+        "url": "https://www.benzinga.com/news/24/12/42386836/white-oak-global-advisors-llc-on-friday-reported-a-stake-of-58-2-in-zeo-energy-in-a-13d-filing",
+        "added_at": "2024-12-09T22:42:10.284Z"
+      }
+    ]
   },
-  "ZJK": {
-    "ticker": "ZJK",
-    "news": [],
+  "JFBR": {
+    "ticker": "JFBR",
     "isActive": true,
     "shorts": {
       "Settlement Date": "Nov 15, 2024",
-      "Short Interest": 14620,
+      "Short Interest": 26510,
+      "Avg. Daily Volume": 6680000,
+      "Short Float": 195700,
+      "Short Ratio": "0.40%"
+    },
+    "news": [
+      {
+        "author": "Lekha Gupta",
+        "content": "",
+        "created_at": "2024-12-09T13:37:26Z",
+        "headline": "Jeffs' Brands Pockets Drone System Distribution Deal On Amazon: Details",
+        "id": 42389098,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/09/JFBR-Logo.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/09/JFBR-Logo.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/09/JFBR-Logo.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Jeffs&#39; Brands gains premarket on securing exclusive distribution rights for drone safety systems developed by a leading company on Amazon.",
+        "symbols": [
+          "JFBR"
+        ],
+        "updated_at": "2024-12-09T13:37:27Z",
+        "url": "https://www.benzinga.com/24/12/42389098/jeffs-brands-drones-in-on-safety-with-exclusive-distribution-rights-via-amazon-global",
+        "added_at": "2024-12-09T22:42:10.394Z"
+      }
+    ]
+  },
+  "THAR": {
+    "ticker": "THAR",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 95630,
+      "Avg. Daily Volume": 1450000,
+      "Short Float": 1030000,
+      "Short Ratio": "6.60%"
+    }
+  },
+  "MRM": {
+    "ticker": "MRM",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 49150,
       "Avg. Daily Volume": "N/A",
-      "Short Float": 135180,
+      "Short Float": 667970,
       "Short Ratio": "N/A"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T12:56:23Z",
+        "headline": "MEDIROM shares are trading higher after its subsidiary announced it received over 25,000 MOTHER bracelet unit orders.",
+        "id": 42387610,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MRM"
+        ],
+        "updated_at": "2024-12-09T15:49:01Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42387610/medirom-shares-are-trading-higher-after-its-subsidiary-announced-it-received-over-25-000-mother-brac",
+        "added_at": "2024-12-09T22:42:10.611Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T11:41:14Z",
+        "headline": "MEDIROM Subsidiary Receives Orders For Over 25,000 MOTHER Bracelet Units, Including Orders From Japanese Companies Such As NFES Technologies",
+        "id": 42385710,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MRM"
+        ],
+        "updated_at": "2024-12-09T11:41:14Z",
+        "url": "https://www.benzinga.com/news/24/12/42385710/medirom-subsidiary-receives-orders-for-over-25-000-mother-bracelet-units-including-orders-from-japan",
+        "added_at": "2024-12-09T22:42:10.611Z"
+      }
+    ]
+  },
+  "CETX": {
+    "ticker": "CETX",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 4440,
+      "Avg. Daily Volume": 731140,
+      "Short Float": 149920,
+      "Short Ratio": "0.61%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T12:02:48Z",
+        "headline": "Cemtrex Wins $6.7M in Contracts for Wastewater Treatment Facility Upgrades",
+        "id": 42386275,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CETX"
+        ],
+        "updated_at": "2024-12-09T12:02:49Z",
+        "url": "https://www.benzinga.com/news/24/12/42386275/cemtrex-wins-6-7m-in-contracts-for-wastewater-treatment-facility-upgrades",
+        "added_at": "2024-12-09T22:42:10.719Z"
+      }
+    ]
+  },
+  "ELAB": {
+    "ticker": "ELAB",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": "1.18",
+      "Avg. Daily Volume": 196750,
+      "Short Float": 2560,
+      "Short Ratio": "0.00%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T13:14:41Z",
+        "headline": "Elevai Biosciences Announces Next Steps In Regulatory Strategy For EL-22, Prepareing For Pre-IND Meeting With FDA Anticipated In First Quarter Of 2025",
+        "id": 42388395,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ELAB"
+        ],
+        "updated_at": "2024-12-09T13:14:41Z",
+        "url": "https://www.benzinga.com/news/24/12/42388395/elevai-biosciences-announces-next-steps-in-regulatory-strategy-for-el-22-prepareing-for-pre-ind-meet",
+        "added_at": "2024-12-09T22:42:10.830Z"
+      }
+    ]
+  },
+  "GRRR": {
+    "ticker": "GRRR",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 745300,
+      "Avg. Daily Volume": 9440000,
+      "Short Float": 712480,
+      "Short Ratio": "7.90%"
+    },
+    "news": [
+      {
+        "author": "Vaishali Prayag",
+        "content": "",
+        "created_at": "2024-12-09T20:23:57Z",
+        "headline": "Gorilla Technology Group Shares Are On The Rise Today: What's Going On?",
+        "id": 42399077,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/09/sqwdaefrgtuh.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/09/sqwdaefrgtuh.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/09/sqwdaefrgtuh.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Gorilla Technology Group Inc. (NASDAQ: GRRR) shares are on the rise Monday. The company announced some strategic advancements in the AI infrastructure space. Here&#39;s what you need to know.",
+        "symbols": [
+          "GRRR"
+        ],
+        "updated_at": "2024-12-09T20:23:58Z",
+        "url": "https://www.benzinga.com/24/12/42399077/gorilla-technology-group-shares-are-on-the-rise-today-whats-going-on",
+        "added_at": "2024-12-09T22:42:10.938Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T12:45:28Z",
+        "headline": "Northland Capital Markets Maintains Outperform on Gorilla Tech Gr, Raises Price Target to $13",
+        "id": 42387224,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GRRR"
+        ],
+        "updated_at": "2024-12-09T12:45:29Z",
+        "url": "https://www.benzinga.com/news/24/12/42387224/northland-capital-markets-maintains-outperform-on-gorilla-tech-gr-raises-price-target-to-13",
+        "added_at": "2024-12-09T22:42:10.939Z"
+      }
+    ]
+  },
+  "LDTC": {
+    "ticker": "LDTC",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 26600,
+      "Avg. Daily Volume": 8189999.999999999,
+      "Short Float": 244180,
+      "Short Ratio": "0.32%"
+    },
+    "hod": false,
+    "price": "1.54",
+    "lastSeen": "2024-12-09T21:41:32.430Z",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T14:36:06Z",
+        "headline": "LeddarTech Holdings Shares Halted To The Downside; Stock Now Up 373.89%",
+        "id": 42390923,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "LDTC"
+        ],
+        "updated_at": "2024-12-09T14:36:06Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42390923/leddartech-holdings-shares-halted-to-the-downside-stock-now-up-373-89",
+        "added_at": "2024-12-09T22:42:11.047Z"
+      }
+    ]
+  },
+  "SONN": {
+    "ticker": "SONN",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 35200,
+      "Avg. Daily Volume": 790000,
+      "Short Float": 429910,
+      "Short Ratio": "4.46%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T20:43:02Z",
+        "headline": "Sonnet BioTherapeutics Announces $3.9M Registered Direct Offering And Concurrent Private Placement, Selling 1.76M Shares And Warrants Priced At-The-Market Under Nasdaq Rules With $2.23 Combined Price And $2.10 Warrant Exercise Price",
+        "id": 42399295,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-12-09T20:43:03Z",
+        "url": "https://www.benzinga.com/news/24/12/42399295/sonnet-biotherapeutics-announces-3-9m-registered-direct-offering-and-concurrent-private-placement-se",
+        "added_at": "2024-12-09T22:42:11.157Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T13:49:18Z",
+        "headline": "Sonnet BioTherapeutics Announces Results Of SON-1010 At Highest Dose Have Been Formally Evaluated By Safety Review Committee In Phase 1 SB101 Trial; Max Tolerated Dose Was Set At 1200 ng/kg",
+        "id": 42389396,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SONN"
+        ],
+        "updated_at": "2024-12-09T13:49:18Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42389396/sonnet-biotherapeutics-announces-results-of-son-1010-at-highest-dose-have-been-formally-evaluated",
+        "added_at": "2024-12-09T22:42:11.157Z"
+      }
+    ]
+  },
+  "CPIX": {
+    "ticker": "CPIX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-09T21:07:54Z",
+        "headline": "Cumberland Says FDA Approved Supplemental New Drug Application For Its Acetadote (N-acetylcysteine For Injection) Product",
+        "id": 42399928,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CPIX"
+        ],
+        "updated_at": "2024-12-09T21:07:54Z",
+        "url": "https://www.benzinga.com/news/24/12/42399928/cumberland-says-fda-approved-supplemental-new-drug-application-for-its-acetadote-n-acetylcysteine-fo",
+        "added_at": "2024-12-09T22:42:11.265Z"
+      }
+    ],
+    "hod": true,
+    "float": "7.87M",
+    "price": "2.21",
+    "time": "22:35:09",
+    "isActive": true,
+    "firstSeen": "2024-12-09T21:35:26.907Z",
+    "lastSeen": "2024-12-09T22:11:10.989Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 89610,
+      "Avg. Daily Volume": 2280000,
+      "Short Float": 35970,
+      "Short Ratio": "3.93%"
     }
   },
-  "PWD": {
-    "ticker": "PWD",
+  "GELS": {
+    "ticker": "GELS",
     "news": [],
-    "isActive": true
+    "hod": false,
+    "float": "3.48M",
+    "price": "3.89",
+    "time": "22:45:06",
+    "isActive": true,
+    "firstSeen": "2024-12-09T21:45:11.245Z",
+    "lastSeen": "2024-12-09T22:35:21.335Z",
+    "shorts": {
+      "Settlement Date": "Nov 15, 2024",
+      "Short Interest": 1310,
+      "Avg. Daily Volume": 3300000,
+      "Short Float": 77770,
+      "Short Ratio": "0.04%"
+    }
   }
 }
