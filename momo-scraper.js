@@ -158,8 +158,14 @@ function filterData(scrapedData) {
         seenTimestamps.add(timestamp); // Add the timestamp to the set
 
         // Validate the symbol length (1 to 5 letters) and optionally ends with (HOD)
-        const symbolPattern = /^[A-Za-z]{1,5}(\s*\(HOD\))?$/;
+        const symbolPattern = /^[A-Za-z★]{1,6}(\s*\(HOD\))?$/;
         if (!symbolPattern.test(data.Symbol)) return false; // Return false if it doesn't match the pattern
+
+        // **Sanitize Symbol for Processing**
+        const hasNews = data.Symbol.includes("★"); // Check if the symbol includes the news indicator
+        const sanitizedSymbol = data.Symbol.replace(/[★]/g, "").trim(); // Remove the star for internal use
+        data.Symbol = sanitizedSymbol; // Replace the symbol in the data object for further processing
+        data.hasNews = hasNews; // Add a flag for news presence
 
         // Filter by Price between 1.75 and 20
         const price = parseFloat(data.Price.replace("$", ""));
@@ -189,6 +195,7 @@ function filterData(scrapedData) {
 
     return filteredData;
 }
+
 
 /**
  * Save filtered symbols to a JSON file.
