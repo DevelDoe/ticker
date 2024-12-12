@@ -1,1 +1,832 @@
-{}
+{
+  "CADL": {
+    "ticker": "CADL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T12:05:04Z",
+        "headline": "Candel Therapeutics Reports Results From Phase 3 Clinical Trial Evaluating CAN-2409 Viral Immunotherapy In Localized Prostate Cancer Patients; Viral Immunotherapy Achieved Primary Endpoint",
+        "id": 42433312,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T12:05:04Z",
+        "url": "https://www.benzinga.com/news/24/12/42433312/candel-therapeutics-reports-results-from-phase-3-clinical-trial-evaluating-can-2409-viral-immunother",
+        "added_at": "2024-12-11T12:18:56.911Z"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-12-11T14:19:44Z",
+        "headline": "Candel Therapeutics Stock Surges Over 100% - Here's Why",
+        "id": 42438029,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/11/CADL.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/11/CADL.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/11/CADL.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Candel Therapeutics reports phase 3 trial success for CAN-2409 in prostate cancer, showing improved disease-free survival and safety consistency.",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T14:19:45Z",
+        "url": "https://www.benzinga.com/24/12/42438029/candel-therapeutics-prostate-cancer-therapy-hits-primary-goal-in-late-stage-study-stock-surges-over-100",
+        "added_at": "2024-12-11T14:21:41.066Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T14:35:19Z",
+        "headline": "Candel Therapeutics Shares Halted To The Upside; Stock Now Up 201.30%",
+        "id": 42438622,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T14:35:20Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42438622/candel-therapeutics-shares-halted-to-the-upside-stock-now-up-201-30",
+        "added_at": "2024-12-11T14:37:31.095Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T16:52:04Z",
+        "headline": "Candel Therapeutics Shares Halted On Circuit Breaker To The Downside, Stock Now Up 67.5%",
+        "id": 42442578,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T16:52:05Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42442578/candel-therapeutics-shares-halted-on-circuit-breaker-to-the-downside-stock-now-up-67-5",
+        "added_at": "2024-12-11T16:52:34.781Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T16:56:57Z",
+        "headline": "Candel Therapeutics Shares Resume Trading",
+        "id": 42442714,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T16:56:58Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42442714/candel-therapeutics-shares-resume-trading",
+        "added_at": "2024-12-11T16:57:34.818Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T14:37:53Z",
+        "headline": "Candel Therapeutics Shares Resume Trade",
+        "id": 42438649,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CADL"
+        ],
+        "updated_at": "2024-12-11T14:37:54Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42438649/candel-therapeutics-shares-resume-trade",
+        "added_at": "2024-12-11T20:40:46.460Z"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2180000,
+      "Avg. Daily Volume": 20080000,
+      "Short Float": 344150,
+      "Short Ratio": "10.85%"
+    }
+  },
+  "ZONE": {
+    "ticker": "ZONE",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 30060,
+      "Avg. Daily Volume": 2180000,
+      "Short Float": 68780,
+      "Short Ratio": "1.38%"
+    }
+  },
+  "SLXN": {
+    "ticker": "SLXN",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 35840,
+      "Avg. Daily Volume": 240000,
+      "Short Float": 666200,
+      "Short Ratio": "14.93%"
+    },
+    "hod": false,
+    "price": "3.39",
+    "lastSeen": "2024-12-11T20:42:11.970Z"
+  },
+  "PRZO": {
+    "ticker": "PRZO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T12:25:11Z",
+        "headline": "ParaZero Technologies Announced The Receipt Of An Order For Its SafeAir Systems From A Significant Distributor Specializing In Drones And Drone Technology In Australia",
+        "id": 42433875,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRZO"
+        ],
+        "updated_at": "2024-12-11T12:25:12Z",
+        "url": "https://www.benzinga.com/news/24/12/42433875/parazero-technologies-announced-the-receipt-of-an-order-for-its-safeair-systems-from-a-significant-d",
+        "added_at": "2024-12-11T12:27:30.324Z"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 701500,
+      "Avg. Daily Volume": 9010000,
+      "Short Float": 3680000,
+      "Short Ratio": "7.79%"
+    }
+  },
+  "GXAI": {
+    "ticker": "GXAI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-10T15:54:28Z",
+        "headline": "Gaxos.ai Shares Halted To The Upside; Stock Now Up 44.12%",
+        "id": 42417299,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GXAI"
+        ],
+        "updated_at": "2024-12-10T15:54:28Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42417299/gaxos-ai-shares-halted-to-the-upside-stock-now-up-44-12",
+        "added_at": "2024-12-11T12:19:12.931Z"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 72540,
+      "Avg. Daily Volume": 2530000,
+      "Short Float": 1860000,
+      "Short Ratio": "2.87%"
+    },
+    "hod": false,
+    "price": "5.89",
+    "lastSeen": "2024-12-11T18:35:07.152Z"
+  },
+  "SHLT": {
+    "ticker": "SHLT",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2740,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 4070.0000000000005,
+      "Short Ratio": "N/A"
+    }
+  },
+  "NLSP": {
+    "ticker": "NLSP",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 84930,
+      "Avg. Daily Volume": 1630000,
+      "Short Float": 214980,
+      "Short Ratio": "5.21%"
+    }
+  },
+  "YJ": {
+    "ticker": "YJ",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 17920,
+      "Avg. Daily Volume": 2670000,
+      "Short Float": 13490,
+      "Short Ratio": "0.67%"
+    },
+    "hod": false,
+    "price": "2.19",
+    "lastSeen": "2024-12-11T20:39:15.584Z"
+  },
+  "WKEY": {
+    "ticker": "WKEY",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 62440,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 36760,
+      "Short Ratio": "N/A"
+    },
+    "hod": false,
+    "price": "2.84",
+    "lastSeen": "2024-12-11T15:03:09.837Z"
+  },
+  "AMPG": {
+    "ticker": "AMPG",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T13:34:03Z",
+        "headline": "AmpliTech Group Announces Development And Deployment Of Its Low-Noise Cryogenic HEMT Amplifiers",
+        "id": 42436415,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AMPG"
+        ],
+        "updated_at": "2024-12-11T13:34:04Z",
+        "url": "https://www.benzinga.com/news/24/12/42436415/amplitech-group-announces-development-and-deployment-of-its-low-noise-cryogenic-hemt-amplifiers",
+        "added_at": "2024-12-11T13:57:40.816Z"
+      },
+      {
+        "author": "Dylan Berman",
+        "content": "",
+        "created_at": "2024-12-11T17:38:53Z",
+        "headline": "What's Going On With Amplitech Shares Wednesday?",
+        "id": 42443822,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/11/man-5782411-1280.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/11/man-5782411-1280.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/11/man-5782411-1280.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Amplitech shares are trading higher on Wednesday after the company announced the development and deployment of its proprietary low-noise cryogenic High Electron Mobility Transistor amplifiers.",
+        "symbols": [
+          "AMPG"
+        ],
+        "updated_at": "2024-12-11T17:38:54Z",
+        "url": "https://www.benzinga.com/24/12/42443822/whats-going-on-with-amplitech-shares-wednesday",
+        "added_at": "2024-12-11T17:41:45.900Z"
+      }
+    ],
+    "hod": true,
+    "float": "9.16M",
+    "price": "2.8",
+    "time": "14:57:19",
+    "isActive": true,
+    "firstSeen": "2024-12-11T13:57:39.028Z",
+    "lastSeen": "2024-12-11T21:53:10.951Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 114350,
+      "Avg. Daily Volume": 9160000,
+      "Short Float": 98330,
+      "Short Ratio": "1.25%"
+    },
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-015341 (33 Act)  Size: 61 KB",
+        "date": "2024-04-19"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-014466 (33 Act)  Size: 429 KB",
+        "date": "2024-04-12"
+      }
+    ]
+  },
+  "TNMG": {
+    "ticker": "TNMG",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "13.64",
+    "time": "14:59:58",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:00:07.907Z",
+    "lastSeen": "2024-12-11T14:00:07.907Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2510,
+      "Avg. Daily Volume": 25280000,
+      "Short Float": 22930,
+      "Short Ratio": "0.01%"
+    }
+  },
+  "NEHC": {
+    "ticker": "NEHC",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "6.21",
+    "time": "14:59:09",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:00:07.907Z",
+    "lastSeen": "2024-12-11T14:00:07.907Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 18330,
+      "Avg. Daily Volume": 1660000,
+      "Short Float": 15050,
+      "Short Ratio": "1.10%"
+    }
+  },
+  "JTAI": {
+    "ticker": "JTAI",
+    "news": [],
+    "hod": false,
+    "float": "721.06K",
+    "price": "4.45",
+    "time": "15:10:11",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:10:39.872Z",
+    "lastSeen": "2024-12-11T14:21:06.372Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 126830,
+      "Avg. Daily Volume": 720000,
+      "Short Float": 451880,
+      "Short Ratio": "17.62%"
+    }
+  },
+  "SYBX": {
+    "ticker": "SYBX",
+    "news": [],
+    "hod": false,
+    "float": "7.01M",
+    "price": "1.91",
+    "time": "15:22:17",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:22:53.654Z",
+    "lastSeen": "2024-12-11T14:29:08.831Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 61840,
+      "Avg. Daily Volume": 7010000,
+      "Short Float": 9630,
+      "Short Ratio": "0.88%"
+    }
+  },
+  "FGL": {
+    "ticker": "FGL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T14:25:13Z",
+        "headline": "Founder Group Partners With VC AI To Co-Develop Advanced AI-Powered Unmanned Aerial Vehicle For Solar Farm Inspections",
+        "id": 42438309,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "FGL"
+        ],
+        "updated_at": "2024-12-11T14:25:14Z",
+        "url": "https://www.benzinga.com/news/24/12/42438309/founder-group-partners-with-vc-ai-to-co-develop-advanced-ai-powered-unmanned-aerial-vehicle-for-sola",
+        "added_at": "2024-12-11T14:27:32.519Z"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "2.78",
+    "time": "15:24:24",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:24:32.228Z",
+    "lastSeen": "2024-12-11T14:25:59.344Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 28400,
+      "Avg. Daily Volume": 3080000,
+      "Short Float": 291820,
+      "Short Ratio": "0.92%"
+    }
+  },
+  "SXTP": {
+    "ticker": "SXTP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T13:57:12Z",
+        "headline": "60 Degrees Pharmaceuticals Expands Tafenoquine Trial For Severe Babesiosis To Brigham And Women's Hospital; Study Evaluates Combination With Standard Treatment Across Multiple Sites, Interim Analysis Expected Early 2026",
+        "id": 42437065,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SXTP"
+        ],
+        "updated_at": "2024-12-11T13:57:12Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42437065/60-degrees-pharmaceuticals-expands-tafenoquine-trial-for-severe-babesiosis-to-brigham-and-womens-",
+        "added_at": "2024-12-11T14:28:34.337Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T18:04:24Z",
+        "headline": "HC Wainwright & Co. Reiterates Neutral on 60 Degreesto Neutral",
+        "id": 42444424,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SXTP"
+        ],
+        "updated_at": "2024-12-11T18:04:25Z",
+        "url": "https://www.benzinga.com/news/24/12/42444424/hc-wainwright-co-reiterates-neutral-on-60-degreesto-neutral",
+        "added_at": "2024-12-11T18:07:36.606Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.91M",
+    "price": "1.93",
+    "time": "15:28:10",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:28:32.097Z",
+    "lastSeen": "2024-12-11T22:03:39.541Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 50250,
+      "Avg. Daily Volume": 1910000,
+      "Short Float": 87350,
+      "Short Ratio": "2.63%"
+    }
+  },
+  "MIND": {
+    "ticker": "MIND",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2024-12-10T21:40:07Z",
+        "headline": "Insights into MIND Technology Q3 Earnings",
+        "id": 42425236,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "MIND"
+        ],
+        "updated_at": "2024-12-10T21:40:08Z",
+        "url": "https://www.benzinga.com/insights/earnings/24/12/42425236/insights-into-mind-technology-q3-earnings",
+        "added_at": "2024-12-11T14:32:55.676Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-10T21:27:49Z",
+        "headline": "MIND Technology Q3 EPS $2.87 Up From $(0.27) YoY, Sales $12.11M Beat $10.25M Estimate",
+        "id": 42424875,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MIND"
+        ],
+        "updated_at": "2024-12-10T21:27:50Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42424875/mind-technology-q3-eps-2-87-up-from-0-27-yoy-sales-12-11m-beat-10-25m-estimate",
+        "added_at": "2024-12-11T14:32:55.676Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-10T21:25:44Z",
+        "headline": "MIND Technology Q3 Sales $12.10M Beat $10.25M Estimate",
+        "id": 42424807,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MIND"
+        ],
+        "updated_at": "2024-12-10T21:25:45Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42424807/mind-technology-q3-sales-12-10m-beat-10-25m-estimate",
+        "added_at": "2024-12-11T14:32:55.677Z"
+      }
+    ],
+    "hod": false,
+    "float": "7.80M",
+    "price": "5.87",
+    "time": "15:32:50",
+    "isActive": true,
+    "firstSeen": "2024-12-11T14:32:53.351Z",
+    "lastSeen": "2024-12-11T16:05:45.422Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 22710,
+      "Avg. Daily Volume": 7800000,
+      "Short Float": 66180,
+      "Short Ratio": "0.29%"
+    }
+  },
+  "CRVO": {
+    "ticker": "CRVO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T11:18:17Z",
+        "headline": "Chardan Capital Downgrades CervoMed to Neutral",
+        "id": 42432312,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CRVO"
+        ],
+        "updated_at": "2024-12-11T11:18:17Z",
+        "url": "https://www.benzinga.com/news/24/12/42432312/chardan-capital-downgrades-cervomed-to-neutral",
+        "added_at": "2024-12-11T16:25:36.765Z"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-12-10T16:37:14Z",
+        "headline": "CervoMed's Dementia Candidate Fails In Mid-Stage Study, Stock Plummets",
+        "id": 42418571,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/10/Genetic-Research-And-Biotech-Science-Con_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/10/Genetic-Research-And-Biotech-Science-Con_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/10/Genetic-Research-And-Biotech-Science-Con_0.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "CervoMed reports RewinD-LB trial results for neflamapimod in dementia with Lewy bodies, highlighting missed endpoints and upcoming data timelines.",
+        "symbols": [
+          "CRVO"
+        ],
+        "updated_at": "2024-12-10T16:37:15Z",
+        "url": "https://www.benzinga.com/24/12/42418571/cervomeds-dementia-candidate-fails-in-mid-stage-study-stock-plummets",
+        "added_at": "2024-12-11T16:25:36.765Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T17:24:20Z",
+        "headline": "Canaccord Genuity Maintains Buy on CervoMed, Lowers Price Target to $12",
+        "id": 42443444,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CRVO"
+        ],
+        "updated_at": "2024-12-11T17:24:21Z",
+        "url": "https://www.benzinga.com/news/24/12/42443444/canaccord-genuity-maintains-buy-on-cervomed-lowers-price-target-to-12",
+        "added_at": "2024-12-11T17:27:36.757Z"
+      }
+    ],
+    "hod": false,
+    "float": "5.35M",
+    "price": "2.22",
+    "time": "16:45:15",
+    "isActive": true,
+    "firstSeen": "2024-12-11T15:45:55.730Z",
+    "lastSeen": "2024-12-11T15:54:40.623Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 1920000,
+      "Avg. Daily Volume": 5350000,
+      "Short Float": 98690,
+      "Short Ratio": "35.80%"
+    }
+  },
+  "ORKT": {
+    "ticker": "ORKT",
+    "news": [],
+    "hod": false,
+    "float": "6.31M",
+    "price": "3.99",
+    "time": "17:51:07",
+    "isActive": true,
+    "firstSeen": "2024-12-11T16:51:45.179Z",
+    "lastSeen": "2024-12-11T16:51:45.179Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 198940,
+      "Avg. Daily Volume": 7590000,
+      "Short Float": 1310000,
+      "Short Ratio": "2.62%"
+    }
+  },
+  "OPTX": {
+    "ticker": "OPTX",
+    "news": [],
+    "hod": true,
+    "float": "6.06M",
+    "price": "1.61",
+    "time": "21:42:46",
+    "isActive": true,
+    "firstSeen": "2024-12-11T20:42:48.461Z",
+    "lastSeen": "2024-12-11T20:45:28.656Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 96480,
+      "Avg. Daily Volume": 6060000,
+      "Short Float": 46300,
+      "Short Ratio": "1.59%"
+    }
+  },
+  "LDTC": {
+    "ticker": "LDTC",
+    "news": [],
+    "hod": false,
+    "float": "8.19M",
+    "price": "1.89",
+    "time": "21:48:39",
+    "isActive": true,
+    "firstSeen": "2024-12-11T20:48:46.461Z",
+    "lastSeen": "2024-12-11T20:48:46.461Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 33750,
+      "Avg. Daily Volume": 8189999.999999999,
+      "Short Float": 281420,
+      "Short Ratio": "0.41%"
+    }
+  },
+  "SGRP": {
+    "ticker": "SGRP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T21:00:56Z",
+        "headline": "SPAR Group Affirms Intent To Close Highwire Merger; Stockholders Approved Merger On October 25, 2024 On The $2.50 Per Share Merger Consideration",
+        "id": 42447755,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SGRP"
+        ],
+        "updated_at": "2024-12-11T21:00:56Z",
+        "url": "https://www.benzinga.com/m-a/24/12/42447755/spar-group-affirms-intent-to-close-highwire-merger-stockholders-approved-merger-on-october-25-2024-o",
+        "added_at": "2024-12-11T21:17:39.582Z"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 15840,
+      "Avg. Daily Volume": 15590000,
+      "Short Float": 200040,
+      "Short Ratio": "0.10%"
+    }
+  },
+  "CTHR": {
+    "ticker": "CTHR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T21:25:39Z",
+        "headline": "Charles & Colvard Receives Interim Award in Wolfspeed Arbitration; ward Rejects Damages Of $22.8M, Limited Damages To Just $3.3M",
+        "id": 42448717,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CTHR"
+        ],
+        "updated_at": "2024-12-11T21:27:21Z",
+        "url": "https://www.benzinga.com/news/24/12/42448717/charles-colvard-receives-interim-award-in-wolfspeed-arbitration-ward-rejects-damages-of-22-8m-limite",
+        "added_at": "2024-12-11T21:27:38.283Z"
+      }
+    ],
+    "isActive": true,
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-067193 (33 Act)  Size: 278 KB",
+        "date": "2024-05-31"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 43160,
+      "Avg. Daily Volume": 2020000,
+      "Short Float": 15490,
+      "Short Ratio": "2.14%"
+    }
+  },
+  "DBVT": {
+    "ticker": "DBVT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-11T21:07:39Z",
+        "headline": "DBV Confirms Alignment With U.S. FDA On Accelerated Approval Pathway For The Viaskin Peanut Patch In Toddlers 1–3 Years-Old; Company To Host Investor Webcast Today At 5:00pm ET",
+        "id": 42448059,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DBVT"
+        ],
+        "updated_at": "2024-12-11T21:07:40Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42448059/dbv-confirms-alignment-with-u-s-fda-on-accelerated-approval-pathway-for-the-viaskin-peanut-patch-",
+        "added_at": "2024-12-11T21:24:35.543Z"
+      }
+    ],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 251300,
+      "Avg. Daily Volume": 20130000,
+      "Short Float": 139110,
+      "Short Ratio": "1.25%"
+    }
+  },
+  "JZXN": {
+    "ticker": "JZXN",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 26850,
+      "Avg. Daily Volume": 10360000,
+      "Short Float": 26370,
+      "Short Ratio": "0.26%"
+    }
+  },
+  "SFHG": {
+    "ticker": "SFHG",
+    "news": [],
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 172910,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 629050,
+      "Short Ratio": "N/A"
+    }
+  }
+}

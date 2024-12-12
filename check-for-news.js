@@ -148,7 +148,12 @@ const updateTickersWithNews = (ticker, news) => {
         }
 
          // Skip news items with the phrase "Shares Resume Trade" in the headline
-         if (newsItem.headline && newsItem.headline.includes("Shares Resume Trade")) {
+         if (newsItem.headline && newsItem.headline.includes("Shares Resume Trade") || newsItem.headline.includes("Halted")) {
+            if (verbose) console.log(`Skipping news for ticker ${ticker} due to headline: "${newsItem.headline}"`);
+            return;
+        }
+
+        if (newsItem.headline && newsItem.headline.includes("Halted")) {
             if (verbose) console.log(`Skipping news for ticker ${ticker} due to headline: "${newsItem.headline}"`);
             return;
         }
@@ -164,7 +169,7 @@ const updateTickersWithNews = (ticker, news) => {
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
         } else {
-            console.log(`${ticker}: ${newsItem.headline}`);
+            // console.log(`${ticker}: ${newsItem.headline}`);
             
         }
     });

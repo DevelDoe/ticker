@@ -1,1 +1,21 @@
-{}
+{
+  "AMPG": [
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-015341 (33 Act)  Size: 61 KB",
+      "date": "2024-04-19"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-014466 (33 Act)  Size: 429 KB",
+      "date": "2024-04-12"
+    }
+  ],
+  "CTHR": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-067193 (33 Act)  Size: 278 KB",
+      "date": "2024-05-31"
+    }
+  ]
+}
