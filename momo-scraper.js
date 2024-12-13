@@ -249,7 +249,6 @@ async function saveToJson(tickersToSave, filteredData) {
                 firstSeen: new Date().toISOString(),
                 lastSeen: new Date().toISOString(),
             };
-            // playWav('./sounds/addTicker.wav'); 
             newData = true;
         } else {
             // Check if HOD or price has changed

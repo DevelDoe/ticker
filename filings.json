@@ -1,11 +1,4 @@
 {
-  "PALI": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-018261 (33 Act)  Size: 372 KB",
-      "date": "2024-05-08"
-    }
-  ],
   "AMPG": [
     {
       "formType": "S-3/A",
@@ -18,23 +11,28 @@
       "date": "2024-04-12"
     }
   ],
-  "CTHR": [
+  "LOOP": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-067193 (33 Act)  Size: 278 KB",
-      "date": "2024-05-31"
-    }
-  ],
-  "INTS": [
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001654954-24-011345 (33 Act)  Size: 1 MB",
+      "date": "2024-08-30"
+    },
     {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-031100 (33 Act)  Size: 319 KB",
-      "date": "2024-07-03"
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001654954-24-010046 (33 Act)  Size: 86 KB",
+      "date": "2024-08-07"
     },
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-031093 (33 Act)  Size: 1 MB",
-      "date": "2024-07-03"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001654954-24-009887 (33 Act)  Size: 342 KB",
+      "date": "2024-08-02"
+    }
+  ],
+  "SNES": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-081019 (33 Act)  Size: 411 KB",
+      "date": "2024-09-23"
     }
   ]
 }

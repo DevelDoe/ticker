@@ -284,6 +284,7 @@ const displayTickersTable = async () => {
                 formattedNews = chalk.bgRed.white(formattedNews); // Highlight with red background and white text
             } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
                 formattedNews = chalk.black.yellow(formattedNews); // New headlines highlighted
+                playWav("./sounds/flash.wav"); // Play sound for new headline
             } else if (isInWatchlist) {
                 formattedNews = chalk.yellow(formattedNews); // Watchlist highlighting
             }

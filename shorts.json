@@ -1,10 +1,10 @@
 {
-  "PALI": {
+  "GRRR": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 107550,
-    "Avg. Daily Volume": 1400000,
-    "Short Float": 84090,
-    "Short Ratio": "7.68%"
+    "Short Interest": 860420,
+    "Avg. Daily Volume": 9440000,
+    "Short Float": 829590,
+    "Short Ratio": "9.11%"
   },
   "AMPG": {
     "Settlement Date": "Nov 29, 2024",
@@ -13,55 +13,6 @@
     "Short Float": 98330,
     "Short Ratio": "1.25%"
   },
-  "CTHR": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 43160,
-    "Avg. Daily Volume": 2020000,
-    "Short Float": 15490,
-    "Short Ratio": "2.14%"
-  },
-  "WHLR": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 80900,
-    "Avg. Daily Volume": 650000,
-    "Short Float": 1040000,
-    "Short Ratio": "12.45%"
-  },
-  "TRNR": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 304410,
-    "Avg. Daily Volume": 600000,
-    "Short Float": 1010000,
-    "Short Ratio": "50.73%"
-  },
-  "ZENA": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 1010000,
-    "Avg. Daily Volume": "N/A",
-    "Short Float": 7870000,
-    "Short Ratio": "N/A"
-  },
-  "ORIS": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 55400,
-    "Avg. Daily Volume": 3210000,
-    "Short Float": 267460,
-    "Short Ratio": "1.73%"
-  },
-  "ATNF": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 64790.00000000001,
-    "Avg. Daily Volume": 490000,
-    "Short Float": 2000000,
-    "Short Ratio": "13.22%"
-  },
-  "INTS": {
-    "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 38680,
-    "Avg. Daily Volume": 6850000,
-    "Short Float": 14620,
-    "Short Ratio": "0.56%"
-  },
   "GXAI": {
     "Settlement Date": "Nov 29, 2024",
     "Short Interest": 72540,
@@ -69,33 +20,33 @@
     "Short Float": 1860000,
     "Short Ratio": "2.87%"
   },
-  "APVO": {
+  "LOOP": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 37990,
-    "Avg. Daily Volume": 500000,
-    "Short Float": 185550,
-    "Short Ratio": "7.60%"
+    "Short Interest": 700500,
+    "Avg. Daily Volume": 20070000,
+    "Short Float": 34620,
+    "Short Ratio": "3.49%"
   },
-  "CETX": {
+  "WKEY": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 176550,
-    "Avg. Daily Volume": 730000,
-    "Short Float": 208420,
-    "Short Ratio": "24.19%"
+    "Short Interest": 62440,
+    "Avg. Daily Volume": "N/A",
+    "Short Float": 36760,
+    "Short Ratio": "N/A"
   },
-  "SPAI": {
+  "VCIG": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 41640,
-    "Avg. Daily Volume": 5900000,
-    "Short Float": 1690000,
-    "Short Ratio": "0.71%"
+    "Short Interest": 916170,
+    "Avg. Daily Volume": 3200000,
+    "Short Float": 4840000,
+    "Short Ratio": "28.63%"
   },
-  "JTAI": {
+  "ISPC": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 126830,
-    "Avg. Daily Volume": 720000,
-    "Short Float": 451880,
-    "Short Ratio": "17.62%"
+    "Short Interest": 32360,
+    "Avg. Daily Volume": 800000,
+    "Short Float": 425800,
+    "Short Ratio": "4.04%"
   },
   "LDTC": {
     "Settlement Date": "Nov 29, 2024",
@@ -104,11 +55,39 @@
     "Short Float": 281420,
     "Short Ratio": "0.41%"
   },
-  "MULN": {
+  "WHLR": {
     "Settlement Date": "Nov 29, 2024",
-    "Short Interest": 1630000,
-    "Avg. Daily Volume": 8670000,
-    "Short Float": 3100000,
-    "Short Ratio": "18.82%"
+    "Short Interest": 80900,
+    "Avg. Daily Volume": 650000,
+    "Short Float": 1040000,
+    "Short Ratio": "12.45%"
+  },
+  "JWEL": {
+    "Settlement Date": "Nov 29, 2024",
+    "Short Interest": 63180,
+    "Avg. Daily Volume": 1830000,
+    "Short Float": 305960,
+    "Short Ratio": "3.45%"
+  },
+  "SAG": {
+    "Settlement Date": "Nov 29, 2024",
+    "Short Interest": 41470,
+    "Avg. Daily Volume": "N/A",
+    "Short Float": 391970,
+    "Short Ratio": "N/A"
+  },
+  "PWM": {
+    "Settlement Date": "Nov 29, 2024",
+    "Short Interest": 125490,
+    "Avg. Daily Volume": 350000,
+    "Short Float": 456400,
+    "Short Ratio": "35.85%"
+  },
+  "SNES": {
+    "Settlement Date": "Nov 29, 2024",
+    "Short Interest": 46440,
+    "Avg. Daily Volume": 980000,
+    "Short Float": 51680,
+    "Short Ratio": "4.74%"
   }
 }
