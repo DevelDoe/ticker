@@ -269,39 +269,40 @@ const displayTickersTable = async () => {
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
             const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
-            // const formattedTime = latestNews === "No news available" 
-            // ? "" 
-            // : dateObj?.toLocaleString([], { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" });
         
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
             const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
-
+        
             const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
             const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
-
+        
             let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
-            // let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime}`;
-            if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                formattedNews = chalk.black.yellow(formattedNews);
+            
+            // Highlight headlines containing "Offering"
+            if (latestNews.includes("Offering")) {
+                formattedNews = chalk.bgRed.white(formattedNews); // Highlight with red background and white text
+            } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+                formattedNews = chalk.black.yellow(formattedNews); // New headlines highlighted
             } else if (isInWatchlist) {
-                formattedNews = chalk.yellow(formattedNews);
+                formattedNews = chalk.yellow(formattedNews); // Watchlist highlighting
             }
-
+        
             const previousPrice = previousPrices[ticker.ticker] || 0;
             let formattedPrice = ticker.price || 0;
             formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
             previousPrices[ticker.ticker] = ticker.price || 0;
-
+        
             table.push([
                 coloredTicker,
                 formattedNews,
                 filingInfo,
                 ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : ""
             ]);
-
+        
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
         });
+        
 
         if (!verbose) console.clear();
         console.log(table.toString());
