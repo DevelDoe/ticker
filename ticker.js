@@ -281,7 +281,8 @@ const displayTickersTable = async () => {
             
             // Highlight headlines containing "Offering"
             if (latestNews.includes("Offering")) {
-                formattedNews = chalk.bgRed.white(formattedNews); // Highlight with red background and white text
+                formattedNews = chalk.bgRed.white(formattedNews); // Highlight with red background and white text\
+                playWav("./sounds/siren.wav"); // Play sound for new headline
             } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
                 formattedNews = chalk.black.yellow(formattedNews); // New headlines highlighted
                 playWav("./sounds/flash.wav"); // Play sound for new headline
