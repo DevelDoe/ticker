@@ -141,20 +141,21 @@ const updateTickersWithNews = (ticker, news) => {
     let newNewsFound = false; // Track if new news is found
 
     news.forEach(newsItem => {
-        // Filter out news where the `symbols` array contains more than just the ticker
+        // Skip news where `symbols` array contains more than the ticker
         if (newsItem.symbols.length !== 1 || newsItem.symbols[0] !== ticker) {
-            if(verbose) console.log(`Skipping news for ticker ${ticker} because it includes multiple symbols:`, newsItem.symbols);
-            return; // Skip if there are other symbols besides the ticker
-        }
-
-         // Skip news items with the phrase "Shares Resume Trade" in the headline
-         if (newsItem.headline && newsItem.headline.includes("Shares Resume Trade") || newsItem.headline.includes("Halted")) {
-            if (verbose) console.log(`Skipping news for ticker ${ticker} due to headline: "${newsItem.headline}"`);
+            if (verbose) console.log(`Skipping news for ${ticker} due to multiple symbols:`, newsItem.symbols);
             return;
         }
 
-        if (newsItem.headline && newsItem.headline.includes("Halted")) {
-            if (verbose) console.log(`Skipping news for ticker ${ticker} due to headline: "${newsItem.headline}"`);
+        // List of unwanted keywords
+        const unwantedKeywords = ["Shares Resume Trade", "Halted", "Suspended"];
+        
+        // Skip news items with unwanted keywords in the headline
+        if (
+            newsItem.headline &&
+            unwantedKeywords.some(keyword => newsItem.headline.includes(keyword))
+        ) {
+            if (verbose) console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
             return;
         }
 
@@ -165,12 +166,9 @@ const updateTickersWithNews = (ticker, news) => {
                 ...newsItem,
                 added_at: new Date().toISOString(), // Add current timestamp
             });
-            playAlert(); // Call the debounced audio alert
+            playAlert(); // Play the debounced audio alert
             newNewsFound = true; // Mark as new news found
-            console.log(`Added news for ticker ${ticker}: ${newsItem.headline}`);
-        } else {
-            // console.log(`${ticker}: ${newsItem.headline}`);
-            
+            console.log(`Added news for ${ticker}: ${newsItem.headline}`);
         }
     });
 
@@ -180,6 +178,7 @@ const updateTickersWithNews = (ticker, news) => {
         console.log(`Ticker ${ticker} is now active due to new news.`);
     }
 };
+
 
 
 
