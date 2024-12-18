@@ -1,19 +1,18 @@
-import fs from 'fs/promises';
-import path from 'path';
-import dotenv from 'dotenv';
-import fetch from 'node-fetch';
-import player from 'node-wav-player';
-import chokidar from 'chokidar'; // Import chokidar
-import { safeReadFile, safeWriteFile } from './fileOps.js'; // Import fileOps for safe file handling
+import fs from "fs/promises";
+import path from "path";
+import dotenv from "dotenv";
+import fetch from "node-fetch";
+import player from "node-wav-player";
+import chokidar from "chokidar"; // Import chokidar
+import { safeReadFile, safeWriteFile } from "./fileOps.js"; // Import fileOps for safe file handling
 
+const verbose = process.argv.includes("-v"); // Check for -v flag
+const testServer = process.argv.includes("-t"); // Check for -t flag
 
-const verbose = process.argv.includes('-v'); // Check for -v flag
-const testServer = process.argv.includes('-t'); // Check for -t flag
+dotenv.config({ path: path.join(process.cwd(), ".env.alpaca") }); // Load environment variables
 
-dotenv.config({ path: path.join(process.cwd(), '.env.alpaca') }); // Load environment variables
-
-// Define paths 
-const tickerFilePath = path.join(process.cwd(), 'tickers.json'); // Path for the ticker.json
+// Define paths
+const tickerFilePath = path.join(process.cwd(), "tickers.json"); // Path for the ticker.json
 
 // Variables
 const CHECK_INTERVAL_MS = 1 * 10 * 1000;
@@ -27,11 +26,11 @@ let lastProcessedTime = 0; // Variable to track the last processed time
 const playAlert = debounce(async () => {
     try {
         await player.play({
-            path: './sounds/flash.wav', // Path to your audio file
+            path: "./sounds/flash.wav", // Path to your audio file
         });
-        if (verbose) console.log('Playing audio alert...');
+        if (verbose) console.log("Playing audio alert...");
     } catch (error) {
-        console.error('Error playing audio alert:', error);
+        console.error("Error playing audio alert:", error);
     }
 });
 
@@ -39,7 +38,9 @@ function debounce(func, timeout = 3000) {
     let timer;
     return (...args) => {
         clearTimeout(timer);
-        timer = setTimeout(() => { func.apply(this, args); }, timeout);
+        timer = setTimeout(() => {
+            func.apply(this, args);
+        }, timeout);
     };
 }
 
@@ -48,7 +49,7 @@ const startFileWatcher = () => {
     console.log(`Watching for changes in: ${tickerFilePath}`);
     watcher = chokidar.watch(tickerFilePath, { persistent: true });
 
-    watcher.on('change', async () => {
+    watcher.on("change", async () => {
         if (fileChangeTimeout) clearTimeout(fileChangeTimeout);
 
         // Debounce the file change event
@@ -58,7 +59,7 @@ const startFileWatcher = () => {
         }, 500); // Adjust delay if necessary
     });
 
-    watcher.on('error', error => console.error(`Watcher error: ${error}`));
+    watcher.on("error", (error) => console.error(`Watcher error: ${error}`));
 };
 
 // Read tickers from the JSON file
@@ -67,25 +68,24 @@ const readTickersFromFile = async () => {
         if (verbose) console.log(`Reading tickers from JSON file: ${tickerFilePath}`);
         tickersData = await safeReadFile(tickerFilePath); // Use safeReadFile
         const tickerSymbols = Object.keys(tickersData);
-        console.log(`Tickers found: ${tickerSymbols.join(', ')}`);
+        console.log(`Tickers found: ${tickerSymbols.join(", ")}`);
         return tickerSymbols;
     } catch (err) {
-        console.error('Error reading ticker file:', err);
+        console.error("Error reading ticker file:", err);
         return [];
     }
 };
 
 const writeTickersToFile = async () => {
     try {
-        if (verbose) console.log('Pausing watcher for safe write operation...');
+        if (verbose) console.log("Pausing watcher for safe write operation...");
         await watcher.close();
         await safeWriteFile(tickerFilePath, tickersData); // Use safeWriteFile for consistency
         startFileWatcher();
     } catch (err) {
-        console.error('Error writing to ticker file:', err);
+        console.error("Error writing to ticker file:", err);
     }
 };
-
 
 // Fetch news for a ticker from the Alpaca API or Test Serve
 const getNewsForTicker = async (ticker) => {
@@ -103,16 +103,16 @@ const getNewsForTicker = async (ticker) => {
     }
 
     const options = {
-        method: 'GET',
+        method: "GET",
         headers: {
-            accept: 'application/json',
-            'APCA-API-KEY-ID': process.env.APCA_API_KEY_ID,
-            'APCA-API-SECRET-KEY': process.env.APCA_API_SECRET_KEY,
+            accept: "application/json",
+            "APCA-API-KEY-ID": process.env.APCA_API_KEY_ID,
+            "APCA-API-SECRET-KEY": process.env.APCA_API_SECRET_KEY,
         },
     };
 
     try {
-        if (verbose) console.log(`Fetching news for ticker: ${ticker} from ${testServer ? 'test server' : ''}`);
+        if (verbose) console.log(`Fetching news for ticker: ${ticker} from ${testServer ? "test server" : ""}`);
         const response = await fetch(url, options);
 
         if (response.ok) {
@@ -121,11 +121,11 @@ const getNewsForTicker = async (ticker) => {
             return news.news || [];
         } else {
             const text = await response.text();
-            console.error('API request failed:', response.status, text);
+            console.error("API request failed:", response.status, text);
             return [];
         }
     } catch (error) {
-        console.error('Error fetching news:', error.message);
+        console.error("Error fetching news:", error.message);
         return [];
     }
 };
@@ -140,27 +140,24 @@ const updateTickersWithNews = (ticker, news) => {
 
     let newNewsFound = false; // Track if new news is found
 
-    news.forEach(newsItem => {
+    news.forEach((newsItem) => {
         // Skip news where `symbols` array contains more than the ticker
         if (newsItem.symbols.length !== 1 || newsItem.symbols[0] !== ticker) {
             if (verbose) console.log(`Skipping news for ${ticker} due to multiple symbols:`, newsItem.symbols);
             return;
         }
 
-        // List of unwanted keywords
-        const unwantedKeywords = ["Shares Resume Trade", "Halted", "Suspended"];
-        
+        // List of unwanted keywords (case insensitive, trimmed)
+        const unwantedKeywords = ["shares resumed trade", "halted", "suspended"];
+
         // Skip news items with unwanted keywords in the headline
-        if (
-            newsItem.headline &&
-            unwantedKeywords.some(keyword => newsItem.headline.includes(keyword))
-        ) {
-            if (verbose) console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
+        if (newsItem.headline && unwantedKeywords.some((keyword) => newsItem.headline.toLowerCase().trim().includes(keyword.toLowerCase().trim()))) {
+            console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
             return;
         }
 
         // Check if the news item is already present using its ID
-        const exists = tickersData[ticker].news.some(existingNews => existingNews.id === newsItem.id);
+        const exists = tickersData[ticker].news.some((existingNews) => existingNews.id === newsItem.id);
         if (!exists) {
             tickersData[ticker].news.push({
                 ...newsItem,
@@ -179,13 +176,10 @@ const updateTickersWithNews = (ticker, news) => {
     }
 };
 
-
-
-
 // Collect and process news for tickers
 const collectAllNews = async (tickers) => {
     let updatesMade = false; // Track if any updates were made
-    
+
     for (const ticker of tickers) {
         if (verbose) console.log(`Fetching news for ticker: ${ticker}`);
         const newsData = await getNewsForTicker(ticker); // Fetch news based on mode
@@ -206,7 +200,6 @@ const collectAllNews = async (tickers) => {
     }
 };
 
-
 // Process tickers, fetch news, and print results
 const processTickers = async () => {
     const tickersToProcess = await readTickersFromFile(); // Fetch tickers from the new JSON
@@ -216,7 +209,7 @@ const processTickers = async () => {
 
 // Main function to run the script every interval
 const main = async () => {
-    if (verbose) console.log('Starting main function...');
+    if (verbose) console.log("Starting main function...");
     startFileWatcher(); // Start watching the file
     await processTickers(); // Process tickers immediately on start
     lastProcessedTime = Date.now(); // Set initial processed time
