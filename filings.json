@@ -1,1 +1,23 @@
-{}
+{
+  "CRVS": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-195009 (33 Act)  Size: 1 MB",
+      "date": "2024-08-06"
+    }
+  ],
+  "SMTK": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+      "date": "2024-08-16"
+    }
+  ],
+  "CKPT": [
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090904 (33 Act)  Size: 295 KB",
+      "date": "2024-08-19"
+    }
+  ]
+}

@@ -1,578 +1,711 @@
 {
-  "SIDU": {
-    "ticker": "SIDU",
+  "PLRZ": {
+    "ticker": "PLRZ",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-17T14:12:04Z",
-        "headline": "Sidus Space Secures $14M In Private Placement Through Sale Of Common Shares And Warrants At $2.07 Per Unit To Accredited And Institutional Investors",
-        "id": 42530906,
+        "created_at": "2024-12-18T11:32:35Z",
+        "headline": "Polyrizon Secures GMP Manufacturing Partnership With Eurofins CDMO Amatsiaquitaine, Advancing Toward PL-14 Allergy Blocker Clinical Trial In 2025",
+        "id": 42549301,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SIDU"
+          "PLRZ"
         ],
-        "updated_at": "2024-12-17T14:12:05Z",
-        "url": "https://www.benzinga.com/news/24/12/42530906/sidus-space-secures-14m-in-private-placement-through-sale-of-common-shares-and-warrants-at-2-07-per",
-        "added_at": "2024-12-17T14:14:46.374Z"
+        "updated_at": "2024-12-18T11:32:35Z",
+        "url": "https://www.benzinga.com/news/24/12/42549301/polyrizon-secures-gmp-manufacturing-partnership-with-eurofins-cdmo-amatsiaquitaine-advancing-toward",
+        "added_at": "2024-12-18T14:07:08.159Z"
       },
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Dylan Berman",
         "content": "",
-        "created_at": "2024-12-17T14:54:09Z",
-        "headline": "Sidus Space Shares Resume Trading",
-        "id": 42532138,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SIDU"
-        ],
-        "updated_at": "2024-12-17T14:54:10Z",
-        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42532138/sidus-space-shares-resume-trading",
-        "added_at": "2024-12-17T14:54:46.749Z"
-      },
-      {
-        "author": "Nabaparna Bhattacharya",
-        "content": "",
-        "created_at": "2024-12-17T16:11:33Z",
-        "headline": "Why Is Sidus Space Stock Gaining Tuesday?",
-        "id": 42534384,
+        "created_at": "2024-12-18T15:57:34Z",
+        "headline": "What's Going On With Polyrizon Shares Wednesday?",
+        "id": 42557322,
         "images": [
           {
             "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/17/SIDU-Logo.png"
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/18/pharmaceutical-drug-medicine-FDA.jpeg"
           },
           {
             "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/17/SIDU-Logo.png"
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/18/pharmaceutical-drug-medicine-FDA.jpeg"
           },
           {
             "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/17/SIDU-Logo.png"
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/18/pharmaceutical-drug-medicine-FDA.jpeg"
           }
         ],
         "source": "benzinga",
-        "summary": "Sidus Space stock is rising after announcing a $14 million securities offering to support working capital and corporate purposes.",
+        "summary": "Polyrizon shares are moving higher after the company announced it secured a manufacturing agreement with Eurofins CDMO Amatsiaquitaine.",
         "symbols": [
-          "SIDU"
+          "PLRZ"
         ],
-        "updated_at": "2024-12-17T16:11:34Z",
-        "url": "https://www.benzinga.com/24/12/42534384/why-is-sidus-space-stock-gaining-tuesday",
-        "added_at": "2024-12-17T16:13:57.271Z"
+        "updated_at": "2024-12-18T15:57:35Z",
+        "url": "https://www.benzinga.com/24/12/42557322/whats-going-on-with-polyrizon-shares-wednesday",
+        "added_at": "2024-12-18T15:59:18.696Z"
       }
     ],
     "hod": false,
-    "float": "8.37M",
-    "price": "5.1",
-    "time": "01:55:49",
+    "float": "429.91K",
+    "price": "4.36",
+    "time": "15:06:34",
     "isActive": true,
-    "firstSeen": "2024-12-17T08:23:42.516Z",
-    "lastSeen": "2024-12-17T18:00:55.916Z",
+    "firstSeen": "2024-12-18T14:07:07.513Z",
+    "lastSeen": "2024-12-18T14:48:12.872Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 303450,
-      "Avg. Daily Volume": 8369999.999999999,
-      "Short Float": 494840,
-      "Short Ratio": "3.63%"
-    }
-  },
-  "OPTX": {
-    "ticker": "OPTX",
-    "news": [],
-    "hod": false,
-    "float": "6.06M",
-    "price": "4.09",
-    "time": "01:54:38",
-    "isActive": true,
-    "firstSeen": "2024-12-17T08:23:42.517Z",
-    "lastSeen": "2024-12-17T18:02:15.552Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 96480,
-      "Avg. Daily Volume": 6060000,
-      "Short Float": 46300,
-      "Short Ratio": "1.59%"
-    }
-  },
-  "WKEY": {
-    "ticker": "WKEY",
-    "news": [],
-    "hod": false,
-    "float": "3.20M",
-    "price": "12.6",
-    "time": "01:14:54",
-    "isActive": true,
-    "firstSeen": "2024-12-17T08:23:42.517Z",
-    "lastSeen": "2024-12-17T08:23:42.517Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 62440,
+      "Short Interest": 34760,
       "Avg. Daily Volume": "N/A",
-      "Short Float": 36760,
+      "Short Float": 412450,
       "Short Ratio": "N/A"
     }
   },
-  "MSS": {
-    "ticker": "MSS",
+  "AMPG": {
+    "ticker": "AMPG",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 114350,
+      "Avg. Daily Volume": 9160000,
+      "Short Float": 98330,
+      "Short Ratio": "1.25%"
+    },
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-17T11:28:01Z",
-        "headline": "Reported Earlier, Maison Solutions Reiterates FY25 Guidance: Revenues $120M - $125M, Net Income Positive",
-        "id": 42525810,
+        "created_at": "2024-12-17T14:25:16Z",
+        "headline": "AmpliTech Group Prices 1,516,680 Share Registered Direct Offering At $2.10/Share",
+        "id": 42531306,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "MSS"
+          "AMPG"
         ],
-        "updated_at": "2024-12-17T11:28:01Z",
-        "url": "https://www.benzinga.com/news/24/12/42525810/reported-earlier-maison-solutions-reiterates-fy25-guidance-revenues-120m-125m-net-income-positive",
-        "added_at": "2024-12-17T11:29:45.159Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T11:26:48Z",
-        "headline": "Reported Earlier, Maison Solutions Q2 EPS $(0.01) Down From $0.01 YoY, Sales $31.02M Up From $13.77M YoY",
-        "id": 42525803,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MSS"
-        ],
-        "updated_at": "2024-12-17T11:26:49Z",
-        "url": "https://www.benzinga.com/news/earnings/24/12/42525803/reported-earlier-maison-solutions-q2-eps-0-01-down-from-0-01-yoy-sales-31-02m-up-from-13-77m-yoy",
-        "added_at": "2024-12-17T11:29:45.159Z"
+        "updated_at": "2024-12-17T14:25:17Z",
+        "url": "https://www.benzinga.com/news/24/12/42531306/amplitech-group-prices-1-516-680-share-registered-direct-offering-at-2-10share",
+        "added_at": "2024-12-18T14:07:33.935Z"
       }
     ],
     "hod": true,
-    "float": "488.08K",
-    "price": "1.73",
-    "time": "10:03:12",
+    "price": "2.43",
+    "lastSeen": "2024-12-18T14:34:13.143Z"
+  },
+  "RZLV": {
+    "ticker": "RZLV",
     "isActive": true,
-    "firstSeen": "2024-12-17T09:04:00.540Z",
-    "lastSeen": "2024-12-17T15:17:12.803Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 36060,
-      "Avg. Daily Volume": 650000,
-      "Short Float": 2020000,
-      "Short Ratio": "5.55%"
-    }
-  },
-  "KWE": {
-    "ticker": "KWE",
-    "news": [],
-    "hod": false,
-    "float": "1.63M",
-    "price": "1.62",
-    "time": "10:49:53",
-    "isActive": true,
-    "firstSeen": "2024-12-17T09:50:01.814Z",
-    "lastSeen": "2024-12-17T10:12:37.634Z"
-  },
-  "SLXN": {
-    "ticker": "SLXN",
+      "Short Interest": 400030,
+      "Avg. Daily Volume": 68420000,
+      "Short Float": 678170,
+      "Short Ratio": "0.58%"
+    },
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-17T11:32:19Z",
-        "headline": "Silexion Therapeutics Revealed Its Ongoing Collaboration With Evonik For The Development Of An Advanced siRNA Formulation Aimed At Enhancing Cancer Treatment Efficacy",
-        "id": 42525894,
+        "created_at": "2024-12-18T13:41:49Z",
+        "headline": "Rezolve Ai Enters Into Series Of Transactions Agreement To Conversion Of $49M Of Outstanding Convertible Loan Note Into Equity",
+        "id": 42552725,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SLXN"
+          "RZLV"
         ],
-        "updated_at": "2024-12-17T11:32:20Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42525894/silexion-therapeutics-revealed-its-ongoing-collaboration-with-evonik-for-the-development-of-an-ad",
-        "added_at": "2024-12-17T11:34:45.371Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.02M",
-    "price": "3.94",
-    "time": "12:31:13",
-    "isActive": true,
-    "firstSeen": "2024-12-17T11:31:26.138Z",
-    "lastSeen": "2024-12-17T11:32:55.064Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 35840,
-      "Avg. Daily Volume": 240000,
-      "Short Float": 666200,
-      "Short Ratio": "14.93%"
-    }
-  },
-  "QUBT": {
-    "ticker": "QUBT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-16T15:51:40Z",
-        "headline": "Watching Quantum Computing; Traders Circulate Zacks Mentioned The Stock As A Buy",
-        "id": 42511213,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "QUBT"
-        ],
-        "updated_at": "2024-12-16T15:51:40Z",
-        "url": "https://www.benzinga.com/news/24/12/42511213/watching-quantum-computing-traders-circulate-zacks-mentioned-the-stock-as-a-buy",
-        "added_at": "2024-12-17T11:59:32.956Z"
+        "updated_at": "2024-12-18T13:41:49Z",
+        "url": "https://www.benzinga.com/news/24/12/42552725/rezolve-ai-enters-into-series-of-transactions-agreement-to-conversion-of-49m-of-outstanding-converti",
+        "added_at": "2024-12-18T14:07:34.047Z"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-17T13:44:20Z",
-        "headline": "Quantum Computing, Inc. Awarded Prime Contract By NASA To Apply Dirac-3 To Support NASA's Imaging And Data Processing",
-        "id": 42529814,
+        "created_at": "2024-12-18T12:41:12Z",
+        "headline": "Northland Capital Markets Initiates Coverage On Rezolve AI with Outperform Rating, Announces Price Target of $5",
+        "id": 42550808,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "QUBT"
+          "RZLV"
         ],
-        "updated_at": "2024-12-17T13:44:21Z",
-        "url": "https://www.benzinga.com/news/24/12/42529814/quantum-computing-inc-awarded-prime-contract-by-nasa-to-apply-dirac-3-to-support-nasas-imaging-and-d",
-        "added_at": "2024-12-17T13:44:46.723Z"
+        "updated_at": "2024-12-18T12:41:12Z",
+        "url": "https://www.benzinga.com/news/24/12/42550808/northland-capital-markets-initiates-coverage-on-rezolve-ai-with-outperform-rating-announces-price-ta",
+        "added_at": "2024-12-18T14:07:34.047Z"
+      }
+    ],
+    "hod": false,
+    "price": "4.01",
+    "lastSeen": "2024-12-18T14:32:53.153Z"
+  },
+  "VRAR": {
+    "ticker": "VRAR",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 324210,
+      "Avg. Daily Volume": 13120000,
+      "Short Float": 97260,
+      "Short Ratio": "2.47%"
+    },
+    "hod": true,
+    "price": "2.15",
+    "lastSeen": "2024-12-18T14:37:34.801Z",
+    "news": []
+  },
+  "MSPR": {
+    "ticker": "MSPR",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 208440,
+      "Avg. Daily Volume": 1570000,
+      "Short Float": 667880,
+      "Short Ratio": "13.28%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-17T21:12:16Z",
+        "headline": "MSP Recovery Updates Ownership And Share Structure Following Reverse Stock Splits And Marital Settlement; John H. Ruiz Retains 34.4% Voting Power While Key Stakeholders Adjust Holdings Post-1.9M Share Reduction",
+        "id": 42540318,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MSPR"
+        ],
+        "updated_at": "2024-12-17T21:12:16Z",
+        "url": "https://www.benzinga.com/news/24/12/42540318/msp-recovery-updates-ownership-and-share-structure-following-reverse-stock-splits-and-marital-settle",
+        "added_at": "2024-12-18T14:07:34.267Z"
+      }
+    ]
+  },
+  "VSTE": {
+    "ticker": "VSTE",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 236310,
+      "Avg. Daily Volume": 3710000,
+      "Short Float": 3380000,
+      "Short Ratio": "6.37%"
+    },
+    "news": [],
+    "hod": false,
+    "price": "2.52",
+    "lastSeen": "2024-12-18T14:24:23.453Z"
+  },
+  "RR": {
+    "ticker": "RR",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2320000,
+      "Avg. Daily Volume": 44950000,
+      "Short Float": 4250000,
+      "Short Ratio": "5.16%"
+    },
+    "news": [],
+    "hod": false,
+    "price": "1.64",
+    "lastSeen": "2024-12-18T14:46:23.808Z"
+  },
+  "LDTC": {
+    "ticker": "LDTC",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 33750,
+      "Avg. Daily Volume": 8189999.999999999,
+      "Short Float": 281420,
+      "Short Ratio": "0.41%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:06:37Z",
+        "headline": "LeddarTech Holdings Q4 EPS $(2.72) Up From $(48.85) YoY, Sales $50.56K Down From $52.00K YoY",
+        "id": 42551627,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "LDTC"
+        ],
+        "updated_at": "2024-12-18T13:07:38Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42551627/leddartech-holdings-q4-eps-2-72-up-from-48-85-yoy",
+        "added_at": "2024-12-18T14:07:34.596Z"
+      }
+    ]
+  },
+  "AGRI": {
+    "ticker": "AGRI",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 57370,
+      "Avg. Daily Volume": 1540000,
+      "Short Float": 294850,
+      "Short Ratio": "3.73%"
+    }
+  },
+  "TKLF": {
+    "ticker": "TKLF",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 249850,
+      "Avg. Daily Volume": 4000000,
+      "Short Float": 79170,
+      "Short Ratio": "6.25%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T12:35:46Z",
+        "headline": "CORRECTION: Tokyo Lifestyle Co H1 EPS $0.03 Down From $0.05 YoY, Sales $98.00M Up From $74.16M YoY",
+        "id": 42550631,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TKLF"
+        ],
+        "updated_at": "2024-12-18T12:35:46Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42550631/correction-tokyo-lifestyle-co-h1-eps-0-03-down-from-0-05-yoy-sales-98-00m-up-from-74-16m-yoy",
+        "added_at": "2024-12-18T14:07:34.818Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T11:03:13Z",
+        "headline": "Tokyo Lifestyle Co H1 EPS $0.03 Down From $0.50 YoY, Sales $98.00M Up From $74.16M YoY",
+        "id": 42548778,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TKLF"
+        ],
+        "updated_at": "2024-12-18T11:03:13Z",
+        "url": "https://www.benzinga.com/news/earnings/24/12/42548778/tokyo-lifestyle-co-h1-eps-0-03-down-from-0-50-yoy-sales-98-00m-up-from-74-16m-yoy",
+        "added_at": "2024-12-18T14:07:34.824Z"
+      }
+    ]
+  },
+  "OKLO": {
+    "ticker": "OKLO",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 12620000,
+      "Avg. Daily Volume": 72270000,
+      "Short Float": 14870000,
+      "Short Ratio": "17.46%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T12:05:59Z",
+        "headline": "Oklo And Switch Partner To Deploy 12 GW Of Advanced Nuclear Power",
+        "id": 42550029,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "OKLO"
+        ],
+        "updated_at": "2024-12-18T12:05:59Z",
+        "url": "https://www.benzinga.com/news/24/12/42550029/oklo-and-switch-partner-to-deploy-12-gw-of-advanced-nuclear-power",
+        "added_at": "2024-12-18T14:07:34.937Z"
       },
       {
         "author": "Adam Eckert",
         "content": "",
-        "created_at": "2024-12-17T15:36:23Z",
-        "headline": "Quantum Computing Stock Is Rising Tuesday: Here's Why",
-        "id": 42533581,
+        "created_at": "2024-12-18T14:22:21Z",
+        "headline": "Oklo Stock Is Surging Wednesday Morning: What's Going On?",
+        "id": 42554232,
         "images": [
           {
             "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/17/quantum-cloud-image.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/18/Oklo-Powerhouse-3-Datacenter.jpeg"
           },
           {
             "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/17/quantum-cloud-image.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/18/Oklo-Powerhouse-3-Datacenter.jpeg"
           },
           {
             "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/17/quantum-cloud-image.jpeg"
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/18/Oklo-Powerhouse-3-Datacenter.jpeg"
           }
         ],
         "source": "benzinga",
-        "summary": "Quantum Computing Inc (NASDAQ:QUBT) shares are trading higher Tuesday after the company announced it was awarded a prime contract from NASA for imaging and data processing support.",
+        "summary": "Oklo Inc (NYSE:OKLO) shares are trading higher Wednesday. The Sam Altman-backed nuclear startup announced a large agreement to provide advanced nuclear power for an AI, cloud and data center provider. ",
         "symbols": [
-          "QUBT"
+          "OKLO"
         ],
-        "updated_at": "2024-12-17T15:36:24Z",
-        "url": "https://www.benzinga.com/24/12/42533581/quantum-computing-stock-is-rising-tuesday-heres-why",
-        "added_at": "2024-12-17T15:38:57.636Z"
+        "updated_at": "2024-12-18T14:22:22Z",
+        "url": "https://www.benzinga.com/24/12/42554232/oklo-stock-is-surging-wednesday-morning-whats-going-on",
+        "added_at": "2024-12-18T14:24:19.333Z"
       }
-    ],
+    ]
+  },
+  "SATL": {
+    "ticker": "SATL",
     "isActive": true,
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 14600000,
-      "Avg. Daily Volume": 86510000,
-      "Short Float": 17600000,
-      "Short Ratio": "16.87%"
+      "Short Interest": 318450,
+      "Avg. Daily Volume": 54510000,
+      "Short Float": 105560,
+      "Short Ratio": "0.58%"
     }
   },
-  "GV": {
-    "ticker": "GV",
+  "CRVS": {
+    "ticker": "CRVS",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 3510000,
+      "Avg. Daily Volume": 49950000,
+      "Short Float": 745260,
+      "Short Ratio": "7.04%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T12:32:53Z",
+        "headline": "Corvus Pharmaceuticals Announced Interim Data From The Randomized, Double-blind, Placebo-controlled Phase 1 Clinical Trial Evaluating Soquelitinib In Patients With Moderate To Severe Atopic Dermatitis",
+        "id": 42550573,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CRVS"
+        ],
+        "updated_at": "2024-12-18T12:32:54Z",
+        "url": "https://www.benzinga.com/news/24/12/42550573/corvus-pharmaceuticals-announced-interim-data-from-the-randomized-double-blind-placebo-controlled-ph",
+        "added_at": "2024-12-18T14:07:35.157Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-17T21:04:38Z",
+        "headline": "Corvus Plans To Announce Interim Data From Phase 1 Clinical Trial Evaluating Soquelitinib In Patients With Moderate To Severe Atopic Dermatitis On December 18, 2024",
+        "id": 42539999,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CRVS"
+        ],
+        "updated_at": "2024-12-17T21:04:38Z",
+        "url": "https://www.benzinga.com/news/24/12/42539999/corvus-plans-to-announce-interim-data-from-phase-1-clinical-trial-evaluating-soquelitinib-in-patient",
+        "added_at": "2024-12-18T14:07:35.158Z"
+      },
+      {
+        "author": "Vandana Singh",
+        "content": "",
+        "created_at": "2024-12-18T18:23:45Z",
+        "headline": "Why Is Corvus Pharmaceuticals Stock Trading Lower On Wednesday?",
+        "id": 42560659,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/18/CRVS.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/18/CRVS.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/18/CRVS.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Corvus Pharmaceuticals shares interim Phase 1 trial data showing promising results for soquelitinib in treating moderate to severe atopic dermatitis.",
+        "symbols": [
+          "CRVS"
+        ],
+        "updated_at": "2024-12-18T18:23:46Z",
+        "url": "https://www.benzinga.com/24/12/42560659/why-is-corvus-pharmaceuticals-stock-trading-lower-on-wednesday",
+        "added_at": "2024-12-18T18:24:30.223Z"
+      }
+    ],
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-195009 (33 Act)  Size: 1 MB",
+        "date": "2024-08-06"
+      }
+    ]
+  },
+  "MTVA": {
+    "ticker": "MTVA",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 21800,
+      "Avg. Daily Volume": 3000000,
+      "Short Float": 44390,
+      "Short Ratio": "0.73%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:03:44Z",
+        "headline": "MetaVia Announces Announces Top-Line Results From Its Phase 2a Clinical Trial of DA-1241; Says DA-1241 Demonstrated Direct Hepatic Action In Addition To Its Glucose Lowering Effect, Says Statistically Significant Results Were Also Achieved In Multiple Secondary Endpoints",
+        "id": 42551461,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MTVA"
+        ],
+        "updated_at": "2024-12-18T13:03:45Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42551461/metavia-announces-announces-top-line-results-from-its-phase-2a-clinical-trial-of-da-1241-says-da-",
+        "added_at": "2024-12-18T14:07:35.268Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:08:21Z",
+        "headline": "MetaVia shares are trading higher after the company announced top-line results from its Phase 2a clinical trial of DA-1241, showing direct hepatic action in addiction to its glucose lowering effect.",
+        "id": 42551724,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MTVA"
+        ],
+        "updated_at": "2024-12-18T14:59:48Z",
+        "url": "https://www.benzinga.com/wiim/24/12/42551724/metavia-shares-are-trading-higher-after-the-company-announced-top-line-results-from-its-phase-2a-cli",
+        "added_at": "2024-12-18T15:00:09.909Z"
+      }
+    ]
+  },
+  "NRXP": {
+    "ticker": "NRXP",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 565800,
+      "Avg. Daily Volume": 8890000,
+      "Short Float": 130860.00000000001,
+      "Short Ratio": "6.36%"
+    }
+  },
+  "MOBX": {
+    "ticker": "MOBX",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 573810,
+      "Avg. Daily Volume": 19660000,
+      "Short Float": 349690,
+      "Short Ratio": "2.92%"
+    },
+    "hod": false,
+    "price": "2.27",
+    "lastSeen": "2024-12-18T14:15:20.795Z"
+  },
+  "SMTK": {
+    "ticker": "SMTK",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 109310,
+      "Avg. Daily Volume": 1230000,
+      "Short Float": 175110,
+      "Short Ratio": "8.89%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:29:03Z",
+        "headline": "Smartkem Receives A £900,000 Grant From Innovate UK For Its Partnership With AUO To Develop A microLED Display",
+        "id": 42552284,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SMTK"
+        ],
+        "updated_at": "2024-12-18T13:29:04Z",
+        "url": "https://www.benzinga.com/news/24/12/42552284/smartkem-receives-a-900-000-grant-from-innovate-uk-for-its-partnership-with-auo-to-develop-a-microle",
+        "added_at": "2024-12-18T14:07:35.603Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:02:20Z",
+        "headline": "Smartkem Prices $7.65M Offering Of 1,449,997 Registered Shares Of Common Stock And Unregistered Class D Warrants To Purchase Up To 1,449,997 Shares Of Common Stock Are Being Sold To Investors In Concurrent Public And Private Offerings At A Price Of $3.00 Per Share And Related Class D Warrant",
+        "id": 42551438,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SMTK"
+        ],
+        "updated_at": "2024-12-18T13:02:20Z",
+        "url": "https://www.benzinga.com/news/24/12/42551438/smartkem-prices-7-65m-offering-of-1-449-997-registered-shares-of-common-stock-and-unregistered-class",
+        "added_at": "2024-12-18T14:07:35.603Z"
+      }
+    ],
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090496 (33 Act)  Size: 1 MB",
+        "date": "2024-08-16"
+      }
+    ]
+  },
+  "ALXO": {
+    "ticker": "ALXO",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 7170000,
+      "Avg. Daily Volume": 34300000,
+      "Short Float": 672990,
+      "Short Ratio": "20.91%"
+    },
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T14:03:18Z",
+        "headline": "Cantor Fitzgerald Reiterates Overweight on ALX Oncology Holdingsto Overweight",
+        "id": 42553392,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALXO"
+        ],
+        "updated_at": "2024-12-18T14:03:19Z",
+        "url": "https://www.benzinga.com/news/24/12/42553392/cantor-fitzgerald-reiterates-overweight-on-alx-oncology-holdingsto-overweight",
+        "added_at": "2024-12-18T14:07:35.715Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T13:27:23Z",
+        "headline": "ALX Oncology To Present Updated Phase 2 ASPEN-06 Results At 2025 ASCO Gastrointestinal Cancers Symposium On Jan. 23",
+        "id": 42552273,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALXO"
+        ],
+        "updated_at": "2024-12-18T13:27:24Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42552273/alx-oncology-to-present-updated-phase-2-aspen-06-results-at-2025-asco-gastrointestinal-cancers-sy",
+        "added_at": "2024-12-18T14:07:35.715Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T11:33:43Z",
+        "headline": "HC Wainwright & Co. Reiterates Buy on ALX Oncology Holdings, Maintains $25 Price Target",
+        "id": 42549307,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALXO"
+        ],
+        "updated_at": "2024-12-18T11:33:44Z",
+        "url": "https://www.benzinga.com/news/24/12/42549307/hc-wainwright-co-reiterates-buy-on-alx-oncology-holdings-maintains-25-price-target",
+        "added_at": "2024-12-18T14:07:35.716Z"
+      }
+    ]
+  },
+  "BIOA": {
+    "ticker": "BIOA",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2410000,
+      "Avg. Daily Volume": 20430000,
+      "Short Float": 414060,
+      "Short Ratio": "11.80%"
+    },
     "news": [],
     "hod": true,
-    "float": "1.75M",
-    "price": "2.5",
-    "time": "13:00:53",
-    "isActive": true,
-    "firstSeen": "2024-12-17T12:00:58.370Z",
-    "lastSeen": "2024-12-17T17:45:32.127Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 28730,
-      "Avg. Daily Volume": 1750000,
-      "Short Float": 1330000,
-      "Short Ratio": "1.64%"
-    }
+    "price": "5.11",
+    "lastSeen": "2024-12-18T14:31:52.047Z"
   },
-  "XWEL": {
-    "ticker": "XWEL",
+  "PRZO": {
+    "ticker": "PRZO",
     "news": [],
-    "hod": false,
-    "float": "4.24M",
-    "price": "2.07",
-    "time": "13:00:41",
+    "hod": true,
+    "float": "9.01M",
+    "price": "2.6",
+    "time": "15:08:01",
     "isActive": true,
-    "firstSeen": "2024-12-17T12:00:58.370Z",
-    "lastSeen": "2024-12-17T12:00:58.370Z",
+    "firstSeen": "2024-12-18T14:09:14.071Z",
+    "lastSeen": "2024-12-18T14:39:02.196Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 77750,
-      "Avg. Daily Volume": 4240000,
-      "Short Float": 13700,
-      "Short Ratio": "1.83%"
+      "Short Interest": 701500,
+      "Avg. Daily Volume": 9010000,
+      "Short Float": 3680000,
+      "Short Ratio": "7.79%"
     }
   },
-  "PRTG": {
-    "ticker": "PRTG",
+  "MTEK": {
+    "ticker": "MTEK",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-17T12:12:46Z",
-        "headline": "Portage Biotech Enters LOI With Immunova For Option To Acquire iOx Therapeutics And Lead Candidate PORT-2",
-        "id": 42526984,
+        "created_at": "2024-12-18T14:11:19Z",
+        "headline": "Maris-Tech Completes Development Of Uranus-Drones Technology And Prepares For Large-Scale Delivery; First Customer Has Already Placed An Order For Hundreds Of Units, Which Are Set For Delivery By The End Of 2024",
+        "id": 42553697,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PRTG"
+          "MTEK"
         ],
-        "updated_at": "2024-12-17T12:12:46Z",
-        "url": "https://www.benzinga.com/m-a/24/12/42526984/portage-biotech-enters-loi-with-immunova-for-option-to-acquire-iox-therapeutics-and-lead-candidate-p",
-        "added_at": "2024-12-17T12:14:45.943Z"
+        "updated_at": "2024-12-18T14:11:19Z",
+        "url": "https://www.benzinga.com/news/24/12/42553697/maris-tech-completes-development-of-uranus-drones-technology-and-prepares-for-large-scale-delivery-f",
+        "added_at": "2024-12-18T14:15:10.235Z"
       }
     ],
     "hod": false,
-    "float": "738.73K",
-    "price": "10.87",
-    "time": "13:02:50",
+    "float": "4.35M",
+    "price": "4",
+    "time": "15:11:21",
     "isActive": true,
-    "firstSeen": "2024-12-17T12:02:52.067Z",
-    "lastSeen": "2024-12-17T17:57:19.568Z",
+    "firstSeen": "2024-12-18T14:11:21.115Z",
+    "lastSeen": "2024-12-18T14:18:31.174Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 9440,
-      "Avg. Daily Volume": 420000,
-      "Short Float": 931800,
-      "Short Ratio": "2.25%"
-    }
-  },
-  "GXAI": {
-    "ticker": "GXAI",
-    "news": [],
-    "hod": false,
-    "float": "2.64M",
-    "price": "3.52",
-    "time": "13:03:39",
-    "isActive": true,
-    "firstSeen": "2024-12-17T12:03:51.071Z",
-    "lastSeen": "2024-12-17T17:42:34.016Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 72540,
-      "Avg. Daily Volume": 2530000,
-      "Short Float": 1860000,
-      "Short Ratio": "2.87%"
-    }
-  },
-  "ZENA": {
-    "ticker": "ZENA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T12:32:46Z",
-        "headline": "ZenaTech Signs LOI To Acquire A Land Survey Engineering Company; Co. Says Quantum Computing Will Be Added To AI Drone Capabilities To Accommodate Large-Size Datasets",
-        "id": 42527324,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZENA"
-        ],
-        "updated_at": "2024-12-17T12:32:47Z",
-        "url": "https://www.benzinga.com/news/24/12/42527324/zenatech-signs-loi-to-acquire-a-land-survey-engineering-company-co-says-quantum-computing-will-be-ad",
-        "added_at": "2024-12-17T12:34:46.494Z"
-      },
-      {
-        "author": "Nabaparna Bhattacharya",
-        "content": "",
-        "created_at": "2024-12-17T15:39:38Z",
-        "headline": "What's Going On With AI Drone Company ZenaTech Stock Today?",
-        "id": 42533650,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/17/ZENA-Logo.png"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/17/ZENA-Logo.png"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/17/ZENA-Logo.png"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZENA"
-        ],
-        "updated_at": "2024-12-17T15:39:39Z",
-        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42533650/whats-going-on-with-ai-drone-company-zenatech-stock-today",
-        "added_at": "2024-12-17T15:39:48.194Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T12:38:38Z",
-        "headline": "ZenaTech shares are trading higher after the company signed a letter of intent to acquire a land survey engineering company and announced plans to add quantum computing to its AI drone capabilities to accommodate large-size datasets.",
-        "id": 42527471,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZENA"
-        ],
-        "updated_at": "2024-12-17T16:09:11Z",
-        "url": "https://www.benzinga.com/wiim/24/12/42527471/zenatech-shares-are-trading-higher-after-the-company-signed-a-letter-of-intent-to-acquire-a-land-sur",
-        "added_at": "2024-12-17T16:09:48.429Z"
-      }
-    ],
-    "hod": false,
-    "float": "8.23M",
-    "price": "8.69",
-    "time": "13:30:26",
-    "isActive": true,
-    "firstSeen": "2024-12-17T12:30:44.747Z",
-    "lastSeen": "2024-12-17T12:30:44.747Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 1010000,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 7870000,
-      "Short Ratio": "N/A"
-    }
-  },
-  "WLDS": {
-    "ticker": "WLDS",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2024-12-17T16:21:20Z",
-        "headline": "Wearable Devices To Debut Neural-Controlled Augmented Reality Glasses At CES 2025",
-        "id": 42534596,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/17/WLDS-Logo.png"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/17/WLDS-Logo.png"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/17/WLDS-Logo.png"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "Wearable Devices announces partnership with RayNeo to showcase neural-controlled AR glasses at CES 2025.",
-        "symbols": [
-          "WLDS"
-        ],
-        "updated_at": "2024-12-17T16:21:21Z",
-        "url": "https://www.benzinga.com/news/small-cap/24/12/42534596/wearable-devices-to-debut-neural-controlled-augmented-reality-glasses-at-ces-2025",
-        "added_at": "2024-12-17T16:23:58.724Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.97M",
-    "price": "1.8",
-    "time": "13:55:30",
-    "isActive": true,
-    "firstSeen": "2024-12-17T12:55:42.307Z",
-    "lastSeen": "2024-12-17T13:16:14.454Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 117620,
-      "Avg. Daily Volume": 940000,
-      "Short Float": 561920,
-      "Short Ratio": "12.51%"
-    }
-  },
-  "ZJK": {
-    "ticker": "ZJK",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T13:08:46Z",
-        "headline": "ZJK Industrial H1 2024 Revenue $16.23M Vs $9.39 YoY; EPS $0.09 Vs $0.04 YoY",
-        "id": 42528404,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZJK"
-        ],
-        "updated_at": "2024-12-17T13:08:47Z",
-        "url": "https://www.benzinga.com/news/earnings/24/12/42528404/zjk-industrial-h1-2024-revenue-16-23m-vs-9-39-yoy-eps-0-09-vs-0-04-yoy",
-        "added_at": "2024-12-17T13:09:47.163Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.25M",
-    "price": "11.6",
-    "time": "14:02:22",
-    "isActive": true,
-    "firstSeen": "2024-12-17T13:02:48.283Z",
-    "lastSeen": "2024-12-17T13:02:48.283Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 15810,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 111640,
-      "Short Ratio": "N/A"
+      "Short Interest": 27000,
+      "Avg. Daily Volume": 4350000,
+      "Short Float": 34340,
+      "Short Ratio": "0.62%"
     }
   },
   "NUKK": {
     "ticker": "NUKK",
     "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T15:09:34Z",
-        "headline": "Nukkleus Shares Resume Trade",
-        "id": 42532730,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUKK"
-        ],
-        "updated_at": "2024-12-17T15:09:34Z",
-        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42532730/nukkleus-shares-resume-trade",
-        "added_at": "2024-12-17T15:09:48.374Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-17T15:45:03Z",
-        "headline": "Nukkleus Acquires 51% Stake In Star 26, Which Holds Majority Ownership In Iron Dome Supplier RIMON",
-        "id": 42533781,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NUKK"
-        ],
-        "updated_at": "2024-12-17T15:45:03Z",
-        "url": "https://www.benzinga.com/news/24/12/42533781/nukkleus-acquires-51-stake-in-star-26-which-holds-majority-ownership-in-iron-dome-supplier-rimon",
-        "added_at": "2024-12-17T15:49:48.608Z"
-      },
       {
         "author": "Nabaparna Bhattacharya",
         "content": "",
@@ -600,16 +733,141 @@
         ],
         "updated_at": "2024-12-17T17:26:22Z",
         "url": "https://www.benzinga.com/24/12/42535878/why-nukkleus-stock-is-gaining-tuesday",
-        "added_at": "2024-12-17T17:28:59.615Z"
+        "added_at": "2024-12-18T14:16:35.557Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-17T15:45:03Z",
+        "headline": "Nukkleus Acquires 51% Stake In Star 26, Which Holds Majority Ownership In Iron Dome Supplier RIMON",
+        "id": 42533781,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-17T15:45:03Z",
+        "url": "https://www.benzinga.com/news/24/12/42533781/nukkleus-acquires-51-stake-in-star-26-which-holds-majority-ownership-in-iron-dome-supplier-rimon",
+        "added_at": "2024-12-18T14:16:35.558Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-17T15:09:34Z",
+        "headline": "Nukkleus Shares Resume Trade",
+        "id": 42532730,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-17T15:09:34Z",
+        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42532730/nukkleus-shares-resume-trade",
+        "added_at": "2024-12-18T14:16:35.558Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T15:02:56Z",
+        "headline": "Nukkleus Shares Resume Trade",
+        "id": 42555412,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-18T15:02:56Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42555412/nukkleus-shares-resume-trade",
+        "added_at": "2024-12-18T15:05:10.778Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T17:57:59Z",
+        "headline": "Nukkleus Shares Resume Trading",
+        "id": 42560012,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-18T17:58:00Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42560012/nukkleus-shares-resume-trading",
+        "added_at": "2024-12-18T18:00:11.168Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T18:28:34Z",
+        "headline": "Nukkleus Inc Shares Resume Trading",
+        "id": 42560752,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-18T18:28:35Z",
+        "url": "https://www.benzinga.com/trading-ideas/24/12/42560752/nukkleus-inc-shares-resume-trading",
+        "added_at": "2024-12-18T18:30:21.220Z"
+      },
+      {
+        "author": "Vaishali Prayag",
+        "content": "",
+        "created_at": "2024-12-18T20:18:37Z",
+        "headline": "Nukkleus Shares Are Up More Than 300% Today: What's Going On?",
+        "id": 42562614,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/18/stock-chart-1863880-1920-60.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/18/stock-chart-1863880-1920-60.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/18/stock-chart-1863880-1920-60.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": "Nukkleus Inc. (NASDAQ: NUKK) shares are moving higher Wednesday on continued momentum following the company&#39;s announcement that it took a 51% controlling stake in defense acquisition firm Star 26 Capital. Here&#39;s what you need to know.",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-18T20:18:37Z",
+        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42562614/nukkleus-shares-are-up-more-than-300-today-whats-going-on",
+        "added_at": "2024-12-18T20:19:43.714Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-18T23:28:14Z",
+        "headline": "Nukkleus Announces Strategic $10.0M Private Placement Priced Above-The-Market Under Nasdaq Rules",
+        "id": 42566639,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NUKK"
+        ],
+        "updated_at": "2024-12-18T23:28:15Z",
+        "url": "https://www.benzinga.com/news/24/12/42566639/nukkleus-announces-strategic-10-0m-private-placement-priced-above-the-market-under-nasdaq-rules",
+        "added_at": "2024-12-18T23:30:33.933Z"
       }
     ],
-    "hod": true,
+    "hod": false,
     "float": "1.73M",
-    "price": "15",
-    "time": "14:05:06",
+    "price": "19.83",
+    "time": "15:16:06",
     "isActive": true,
-    "firstSeen": "2024-12-17T13:05:08.570Z",
-    "lastSeen": "2024-12-17T17:45:32.127Z",
+    "firstSeen": "2024-12-18T14:16:32.647Z",
+    "lastSeen": "2024-12-18T14:50:03.593Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
       "Short Interest": 28900,
@@ -618,128 +876,255 @@
       "Short Ratio": "2.65%"
     }
   },
-  "CYCN": {
-    "ticker": "CYCN",
+  "QUBT": {
+    "ticker": "QUBT",
     "news": [
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Henry Khederian",
         "content": "",
-        "created_at": "2024-12-17T13:10:00Z",
-        "headline": "Cyclerion Leverages sGC Stimulator Portfolio To Drive Growth With $1.75M Upfront Payments, Renegotiated Agreements For Praliciguat And Olinciguat, And Strategic Focus On CNS Pipeline Expansion",
-        "id": 42528511,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CYCN"
+        "created_at": "2024-12-18T14:46:10Z",
+        "headline": "What's Going On With Quantum Computing (QUBT) Stock?",
+        "id": 42554980,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/18/eye-6318412.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/18/eye-6318412.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/18/eye-6318412.jpeg"
+          }
         ],
-        "updated_at": "2024-12-17T13:10:01Z",
-        "url": "https://www.benzinga.com/news/24/12/42528511/cyclerion-leverages-sgc-stimulator-portfolio-to-drive-growth-with-1-75m-upfront-payments-renegotiate",
-        "added_at": "2024-12-17T13:14:47.406Z"
+        "source": "benzinga",
+        "summary": "Quantum Computing shares are trading higher by 13% during Wednesday&#39;s session. The company on Tuesday announced it was awarded a prime contract by NASA.",
+        "symbols": [
+          "QUBT"
+        ],
+        "updated_at": "2024-12-18T14:46:10Z",
+        "url": "https://www.benzinga.com/news/24/12/42554980/whats-going-on-with-quantum-computing-qubt-stock",
+        "added_at": "2024-12-18T14:49:20.913Z"
       }
     ],
     "hod": false,
-    "float": "1.96M",
-    "price": "3.9",
-    "time": "14:08:43",
+    "float": "92.70M",
+    "price": "19.85",
+    "time": "15:26:11",
     "isActive": true,
-    "firstSeen": "2024-12-17T13:09:53.487Z",
-    "lastSeen": "2024-12-17T13:09:53.487Z",
+    "firstSeen": "2024-12-18T14:26:22.304Z",
+    "lastSeen": "2024-12-18T14:36:59.068Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 747860,
-      "Avg. Daily Volume": 1960000,
-      "Short Float": 713370,
-      "Short Ratio": "38.16%"
+      "Short Interest": 14600000,
+      "Avg. Daily Volume": 86510000,
+      "Short Float": 17600000,
+      "Short Ratio": "16.87%"
     }
   },
-  "ACTU": {
-    "ticker": "ACTU",
+  "SINT": {
+    "ticker": "SINT",
+    "news": [],
+    "hod": false,
+    "float": "1.34M",
+    "price": "3.54",
+    "time": "15:29:44",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:29:48.087Z",
+    "lastSeen": "2024-12-18T14:29:48.087Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 82370,
+      "Avg. Daily Volume": 1340000,
+      "Short Float": 2100000,
+      "Short Ratio": "6.15%"
+    }
+  },
+  "SKYT": {
+    "ticker": "SKYT",
+    "news": [],
+    "hod": true,
+    "float": "22.24M",
+    "price": "16.97",
+    "time": "15:32:53",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:32:53.153Z",
+    "lastSeen": "2024-12-18T14:37:34.801Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2330000,
+      "Avg. Daily Volume": 21940000,
+      "Short Float": 345030,
+      "Short Ratio": "10.64%"
+    }
+  },
+  "LUNR": {
+    "ticker": "LUNR",
     "news": [
       {
-        "author": "Benzinga Newsdesk",
+        "author": "Benzinga Insights",
         "content": "",
-        "created_at": "2024-12-17T13:12:11Z",
-        "headline": "Actuate Therapeutics Announces Interim Phase 2 Data Of Elraglusib In Metastatic Pancreatic Cancer; Says Statistical Significance Met On Primary Endpoints Of 1 Year Survival Rate And Median Overall Survival",
-        "id": 42528735,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ACTU"
+        "created_at": "2024-12-18T17:15:32Z",
+        "headline": "What the Options Market Tells Us About Intuitive Machines",
+        "id": 42559215,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_0.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_0.jpeg"
+          }
         ],
-        "updated_at": "2024-12-17T13:12:12Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42528735/actuate-therapeutics-announces-interim-phase-2-data-of-elraglusib-in-metastatic-pancreatic-cancer",
-        "added_at": "2024-12-17T13:28:24.018Z"
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "LUNR"
+        ],
+        "updated_at": "2024-12-18T17:15:32Z",
+        "url": "https://www.benzinga.com/insights/options/24/12/42559215/what-the-options-market-tells-us-about-intuitive-machines",
+        "added_at": "2024-12-18T17:19:31.534Z"
       }
     ],
-    "hod": false,
-    "float": "6.60M",
-    "price": "10.02",
-    "time": "14:28:16",
+    "hod": true,
+    "float": "81.47M",
+    "price": "14.02",
+    "time": "15:33:29",
     "isActive": true,
-    "firstSeen": "2024-12-17T13:28:21.673Z",
-    "lastSeen": "2024-12-17T13:41:18.579Z",
+    "firstSeen": "2024-12-18T14:33:33.504Z",
+    "lastSeen": "2024-12-18T14:33:33.504Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 37530,
-      "Avg. Daily Volume": 5880000,
-      "Short Float": 46520,
-      "Short Ratio": "0.64%"
+      "Short Interest": 14930000,
+      "Avg. Daily Volume": 70620000,
+      "Short Float": 19630000,
+      "Short Ratio": "21.15%"
     }
   },
-  "MLGO": {
-    "ticker": "MLGO",
+  "GXAI": {
+    "ticker": "GXAI",
     "news": [],
     "hod": false,
-    "float": "9.97M",
-    "price": "2.4",
-    "time": "14:55:33",
+    "float": "2.64M",
+    "price": "3.95",
+    "time": "15:35:28",
     "isActive": true,
-    "firstSeen": "2024-12-17T13:55:44.338Z",
-    "lastSeen": "2024-12-17T13:58:00.129Z",
+    "firstSeen": "2024-12-18T14:35:32.736Z",
+    "lastSeen": "2024-12-18T14:35:32.736Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 350660,
-      "Avg. Daily Volume": 9740000,
-      "Short Float": 1550000,
-      "Short Ratio": "3.60%"
+      "Short Interest": 72540,
+      "Avg. Daily Volume": 2530000,
+      "Short Float": 1860000,
+      "Short Ratio": "2.87%"
     }
   },
-  "PALI": {
-    "ticker": "PALI",
+  "FGL": {
+    "ticker": "FGL",
     "news": [],
     "hod": false,
-    "float": "1.40M",
-    "price": "1.99",
-    "time": "15:28:33",
+    "float": "0",
+    "price": "2.31",
+    "time": "15:38:54",
     "isActive": true,
-    "firstSeen": "2024-12-17T14:28:42.201Z",
-    "lastSeen": "2024-12-17T14:28:42.201Z",
+    "firstSeen": "2024-12-18T14:39:02.196Z",
+    "lastSeen": "2024-12-18T14:39:02.196Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 107550,
-      "Avg. Daily Volume": 1400000,
-      "Short Float": 84090,
-      "Short Ratio": "7.68%"
+      "Short Interest": 28400,
+      "Avg. Daily Volume": 3080000,
+      "Short Float": 291820,
+      "Short Ratio": "0.92%"
     }
   },
-  "LIDR": {
-    "ticker": "LIDR",
+  "PDYN": {
+    "ticker": "PDYN",
     "news": [],
-    "hod": false,
-    "float": "7.63M",
-    "price": "1.6",
-    "time": "15:35:56",
+    "hod": true,
+    "float": "17.09M",
+    "price": "4",
+    "time": "15:38:48",
     "isActive": true,
-    "firstSeen": "2024-12-17T14:36:15.995Z",
-    "lastSeen": "2024-12-17T14:39:29.709Z",
+    "firstSeen": "2024-12-18T14:39:02.196Z",
+    "lastSeen": "2024-12-18T14:39:02.196Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 223020,
-      "Avg. Daily Volume": 7600000,
-      "Short Float": 118260,
-      "Short Ratio": "2.93%"
+      "Short Interest": 2110000,
+      "Avg. Daily Volume": 15490000,
+      "Short Float": 3200000,
+      "Short Ratio": "13.64%"
     }
+  },
+  "CKPT": {
+    "ticker": "CKPT",
+    "news": [],
+    "hod": true,
+    "float": "41.17M",
+    "price": "4.15",
+    "time": "15:41:48",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:42:12.251Z",
+    "lastSeen": "2024-12-18T14:42:12.251Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-090904 (33 Act)  Size: 295 KB",
+        "date": "2024-08-19"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 6570000,
+      "Avg. Daily Volume": 40570000,
+      "Short Float": 756740,
+      "Short Ratio": "16.20%"
+    }
+  },
+  "AISP": {
+    "ticker": "AISP",
+    "news": [],
+    "hod": true,
+    "float": "14.64M",
+    "price": "3.53",
+    "time": "15:42:42",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:42:56.903Z",
+    "lastSeen": "2024-12-18T14:44:11.855Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 1730000,
+      "Avg. Daily Volume": 14360000,
+      "Short Float": 869400,
+      "Short Ratio": "12.02%"
+    }
+  },
+  "WKEY": {
+    "ticker": "WKEY",
+    "news": [],
+    "hod": false,
+    "float": "3.20M",
+    "price": "9.56",
+    "time": "15:45:19",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:45:25.331Z",
+    "lastSeen": "2024-12-18T14:45:25.331Z"
+  },
+  "CANG": {
+    "ticker": "CANG",
+    "news": [],
+    "hod": true,
+    "float": "80.38M",
+    "price": "9.45",
+    "time": "15:49:56",
+    "isActive": true,
+    "firstSeen": "2024-12-18T14:50:03.593Z",
+    "lastSeen": "2024-12-18T14:50:49.250Z"
   }
 }

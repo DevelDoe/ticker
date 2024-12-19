@@ -28,16 +28,29 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
 });
-// Function to play a WAV file
-function playWav(filePath) {
-    return player
-        .play({
-            path: filePath,
+
+let lastPlayedTime = 0; // Track last playback time
+const DEBOUNCE_INTERVAL = 10000; // 10 seconds
+
+// Play WAV sound with debounce and tracking
+function playWav(filePath, ticker = "", context = "") {
+    const now = Date.now();
+    if (now - lastPlayedTime < DEBOUNCE_INTERVAL) {
+        logVerbose(`Debounced playback for ${ticker} (${context})`);
+        return; // Skip playback if within debounce interval
+    }
+
+    lastPlayedTime = now; // Update last playback time
+    player
+        .play({ path: filePath })
+        .then(() => {
+            logVerbose(`Played sound for ${ticker} (${context}): ${filePath}`);
         })
         .catch((error) => {
-            console.error(`Error playing file: ${filePath}`, error);
+            if (verbose) console.error(`Error playing file for ${ticker} (${context}):`, error);
         });
 }
+
 // Function to log verbose messages
 const logVerbose = (message) => {
     if (verbose) {
@@ -232,80 +245,97 @@ const formatShortInterest = (value) => {
     return value.toString();
 };
 
-// Displays tickers in a formatted table with color-coded data based on activity.
 const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
+        // Safely read the ticker and watchlist data
         const tickers = await safeReadFile(tickerFilePath);
         const watchlistData = await fsPromises.readFile(watchlistFilePath, "utf8");
         const watchlist = JSON.parse(watchlistData);
 
+        // Initialize the table with headers
         const table = new Table({
             head: ["Ticker", "News", "S-3", "Short Interest"],
             colWidths: [10, 128, 14, 10],
         });
 
-        // Filter tickers based on the headline filter
-        let filteredTickers = Object.values(tickers).filter(
-            (ticker) =>
-                ticker.isActive &&
-                (!filterHeadlinesActive || (Array.isArray(ticker.news) && ticker.news.length > 0))
+        // Filter and sort tickers
+        let filteredTickers = Object.values(tickers).filter((ticker) =>
+            ticker.isActive &&
+            (!filterHeadlinesActive || (Array.isArray(ticker.news) && ticker.news.length > 0))
         );
 
-        // If filterHeadlinesActive is true, sort by the latest headline's timestamp
         if (filterHeadlinesActive) {
-            filteredTickers = filteredTickers.sort((a, b) => {
+            filteredTickers.sort((a, b) => {
                 const dateA = new Date(a.news?.[0]?.added_at || 0);
                 const dateB = new Date(b.news?.[0]?.added_at || 0);
-                return dateB - dateA; // Sort descending by `added_at`
+                return dateB - dateA; // Sort by most recent headline timestamp
             });
         }
-        
-        
-        // Loop over sorted/filtered tickers and add to the table
+
+        // Loop through the filtered tickers and build the table rows
         filteredTickers.forEach((ticker) => {
             const latestNewsObject = ticker.news?.[0];
             const timestamp = latestNewsObject?.added_at || null;
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
-            const formattedTime = latestNews === "No news available" ? "" : dateObj?.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false });
-        
+            const formattedTime = dateObj
+                ? dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false })
+                : "";
+
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
             const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
-        
+
             const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
-            const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
-        
-            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
-            
-            // Highlight headlines containing "Offering"
-            if (latestNews.includes("Offering")) {
-                formattedNews = chalk.bgRed.white(formattedNews); // Highlight with red background and white text\
-                playWav("./sounds/siren.wav"); // Play sound for new headline
+            const coloredTicker = ticker.hod
+                ? formattedTicker + chalk.cyanBright("*")
+                : formattedTicker;
+
+            // Format the news
+            let formattedNews = latestNews === "No news available"
+                ? latestNews
+                : `${formattedTime} - ${latestNews}`;
+
+            // Highlight specific keywords and play relevant sounds
+            if (latestNews.includes("Offering") && lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+                formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
+                playWav("./sounds/siren.wav"); // Play siren sound
             } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                formattedNews = chalk.black.yellow(formattedNews); // New headlines highlighted
-                playWav("./sounds/flash.wav"); // Play sound for new headline
+                formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
+                playWav("./sounds/flash.wav"); // Play flash sound
             } else if (isInWatchlist) {
-                formattedNews = chalk.yellow(formattedNews); // Watchlist highlighting
+                formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
             }
-        
+
+            // Play sound if the ticker hits High of Day (HOD)
+            if (ticker.hod && !previousHodStatus[ticker.ticker]) {
+                playWav("./sounds/hod.wav"); // Play HOD sound
+            }
+            previousHodStatus[ticker.ticker] = ticker.hod; // Update HOD status
+
+            // Format the price with color coding
             const previousPrice = previousPrices[ticker.ticker] || 0;
-            let formattedPrice = ticker.price || 0;
-            formattedPrice = previousPrice < ticker.price ? chalk.green(formattedPrice) : chalk.red(formattedPrice);
+            const formattedPrice = ticker.price
+                ? previousPrice < ticker.price
+                    ? chalk.green(ticker.price)
+                    : chalk.red(ticker.price)
+                : "N/A";
             previousPrices[ticker.ticker] = ticker.price || 0;
-        
+
+            // Add the row to the table
             table.push([
                 coloredTicker,
                 formattedNews,
                 filingInfo,
-                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : ""
+                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
             ]);
-        
+
+            // Update the last displayed headline for the ticker
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
         });
-        
 
+        // Clear the console and display the table
         if (!verbose) console.clear();
         console.log(table.toString());
     } catch (err) {
@@ -647,9 +677,14 @@ const startPeriodicRefresh = () => {
     setInterval(async () => {
         logVerbose("Periodic refresh triggered.");
         await displayTickersTable(); // Refresh the table every minute
+        try {
+            const tickers = await safeReadFile(tickerFilePath); // Safely read the tickers.json file
+            // console.log("Current tickers.json contents:", JSON.stringify(tickers, null, 2)); // Log contents
+        } catch (err) {
+            console.error("Error reading tickers.json:", err);
+        }
     }, 10000); // 60000 ms = 1 minute
 };
-
 
 // Initialize the application
 const init = async () => {
@@ -663,7 +698,6 @@ const init = async () => {
     watchFilingsFile(); // Watch filings.json for updates
     startPeriodicRefresh(); // Safeguard to refresh table every minute
 };
-
 
 // Start the application
 init();
