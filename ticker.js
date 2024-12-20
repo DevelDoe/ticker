@@ -529,47 +529,43 @@ const startListening = () => {
 
 // Watch for changes in tickers.json and trigger display
 const startWatchingFile = () => {
-    logVerbose("Watching for changes in tickers.json...");
+    logVerbose("Watching tickers.json for changes...");
 
-    let previousTickers = {}; // Keep track of the previous state of tickers
+    // Track the last known state
+    let previousTickers = {};
 
-    // Load the initial tickers state
-    const loadPreviousTickers = async () => {
-        try {
-            previousTickers = await safeReadFile(tickerFilePath);
-        } catch (err) {
-            console.error("Error loading previous tickers:", err);
-        }
-    };
+    const handleFileChange = async () => {
+        logVerbose("Detected change in tickers.json...");
 
-    loadPreviousTickers(); // Load the state when the app starts
-
-    // Watch for changes in the tickers.json file
-    chokidar.watch(tickerFilePath).on("change", async () => {
-        logVerbose("Tickers.json changed, checking for new tickers...");
         try {
             const currentTickers = await safeReadFile(tickerFilePath);
 
-            // Compare previous and current tickers to detect new additions
-            for (const ticker in currentTickers) {
+            // Detect new tickers
+            Object.keys(currentTickers).forEach((ticker) => {
                 if (!previousTickers[ticker]) {
-                    // New ticker detected, copy it to the clipboard and notify the user
-                    clipboardy.writeSync(ticker); // Copy to clipboard
-                    console.log(`New ticker ${ticker} has been added and copied to the clipboard.`);
+                    clipboardy.writeSync(ticker);
+                    console.log(`New ticker ${ticker} detected and copied to clipboard.`);
                 }
-            }
+            });
 
-            // Update the previous tickers state
-            previousTickers = currentTickers;
-
-            // Call the display function to reflect the new data
-            await displayTickersTable();
-            logVerbose("Display updated after file change.");
+            previousTickers = currentTickers; // Update the last known state
+            await displayTickersTable(); // Refresh the table
         } catch (err) {
-            console.error("Error updating display after tickers.json change:", err);
+            console.error("Error handling file change:", err);
         }
-    });
+    };
+
+    chokidar
+        .watch(tickerFilePath, {
+            persistent: true,
+            awaitWriteFinish: { stabilityThreshold: 1000, pollInterval: 100 },
+        })
+        .on("change", handleFileChange)
+        .on("error", (err) => {
+            console.error("Error watching tickers.json:", err);
+        });
 };
+
 
 // Watch for changes in shorts.json and update tickers.json accordingly
 const watchShortsFile = () => {
@@ -674,17 +670,29 @@ const checkAndCreateWatchlist = async () => {
 // Function to periodically refresh the table
 const startPeriodicRefresh = () => {
     logVerbose("Starting periodic table refresh...");
+
+    // Track if the refresh is already in progress
+    let isRefreshing = false;
+
     setInterval(async () => {
-        logVerbose("Periodic refresh triggered.");
-        await displayTickersTable(); // Refresh the table every minute
-        try {
-            const tickers = await safeReadFile(tickerFilePath); // Safely read the tickers.json file
-            // console.log("Current tickers.json contents:", JSON.stringify(tickers, null, 2)); // Log contents
-        } catch (err) {
-            console.error("Error reading tickers.json:", err);
+        if (isRefreshing) {
+            logVerbose("Skipping periodic refresh - already in progress.");
+            return;
         }
-    }, 10000); // 60000 ms = 1 minute
+
+        isRefreshing = true;
+
+        try {
+            logVerbose("Periodic refresh triggered.");
+            await displayTickersTable(); // Refresh the table
+        } catch (err) {
+            console.error("Error during periodic refresh:", err);
+        } finally {
+            isRefreshing = false;
+        }
+    }, 10000); // Refresh every 10 seconds
 };
+
 
 // Initialize the application
 const init = async () => {
