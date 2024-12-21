@@ -1,265 +1,174 @@
 {
-  "CURR": {
-    "ticker": "CURR",
+  "UK": {
+    "ticker": "UK",
     "news": [],
     "hod": false,
-    "float": "18.91M",
-    "price": "5.59",
-    "time": "01:49:48",
+    "float": "698.49K",
+    "price": "2.15",
+    "time": "14:21:39",
     "isActive": true,
-    "firstSeen": "2024-12-19T08:25:04.421Z",
-    "lastSeen": "2024-12-19T13:49:33.869Z",
+    "firstSeen": "2024-12-20T13:21:43.912Z",
+    "lastSeen": "2024-12-20T13:28:50.857Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 5580,
-      "Avg. Daily Volume": 18910000,
-      "Short Float": 25470,
-      "Short Ratio": "0.03%"
+      "Short Interest": 25110,
+      "Avg. Daily Volume": 580000,
+      "Short Float": 172740,
+      "Short Ratio": "4.33%"
     }
   },
-  "RVPH": {
-    "ticker": "RVPH",
+  "ISPC": {
+    "ticker": "ISPC",
     "news": [],
     "hod": false,
-    "float": "28.50M",
-    "price": "1.54",
-    "time": "01:47:00",
+    "float": "823.18K",
+    "price": "3.7",
+    "time": "14:21:19",
     "isActive": true,
-    "firstSeen": "2024-12-19T08:25:04.421Z",
-    "lastSeen": "2024-12-19T08:25:04.421Z",
+    "firstSeen": "2024-12-20T13:21:43.940Z",
+    "lastSeen": "2024-12-20T14:05:14.982Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 6160000,
-      "Avg. Daily Volume": 28500000,
-      "Short Float": 463290,
-      "Short Ratio": "21.62%"
+      "Short Interest": 32360,
+      "Avg. Daily Volume": 800000,
+      "Short Float": 425800,
+      "Short Ratio": "4.04%"
     }
   },
-  "RZLV": {
-    "ticker": "RZLV",
-    "news": [
+  "LYT": {
+    "ticker": "LYT",
+    "news": [],
+    "hod": true,
+    "float": "619.28K",
+    "price": "3.2",
+    "time": "14:21:16",
+    "isActive": true,
+    "firstSeen": "2024-12-20T13:21:43.940Z",
+    "lastSeen": "2024-12-20T14:31:19.895Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 24180,
+      "Avg. Daily Volume": 620000,
+      "Short Float": 91840,
+      "Short Ratio": "3.90%"
+    }
+  },
+  "MYSZ": {
+    "ticker": "MYSZ",
+    "news": [],
+    "hod": false,
+    "float": "1.13M",
+    "price": "5.37",
+    "time": "14:20:12",
+    "isActive": true,
+    "firstSeen": "2024-12-20T13:21:43.940Z",
+    "lastSeen": "2024-12-20T14:34:55.551Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 48550,
+      "Avg. Daily Volume": 560000,
+      "Short Float": 70380,
+      "Short Ratio": "8.67%"
+    },
+    "filings": [
       {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-18T13:41:49Z",
-        "headline": "Rezolve Ai Enters Into Series Of Transactions Agreement To Conversion Of $49M Of Outstanding Convertible Loan Note Into Equity",
-        "id": 42552725,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "RZLV"
-        ],
-        "updated_at": "2024-12-18T13:41:49Z",
-        "url": "https://www.benzinga.com/news/24/12/42552725/rezolve-ai-enters-into-series-of-transactions-agreement-to-conversion-of-49m-of-outstanding-converti",
-        "added_at": "2024-12-19T09:01:30.492Z"
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-022548 (33 Act)  Size: 384 KB",
+        "date": "2024-06-04"
       },
       {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-18T12:41:12Z",
-        "headline": "Northland Capital Markets Initiates Coverage On Rezolve AI with Outperform Rating, Announces Price Target of $5",
-        "id": 42550808,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "RZLV"
-        ],
-        "updated_at": "2024-12-18T12:41:12Z",
-        "url": "https://www.benzinga.com/news/24/12/42550808/northland-capital-markets-initiates-coverage-on-rezolve-ai-with-outperform-rating-announces-price-ta",
-        "added_at": "2024-12-19T09:01:30.493Z"
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-23-045926 (33 Act)  Size: 587 KB",
+        "date": "2023-12-22"
       }
-    ],
-    "hod": false,
-    "float": "68.42M",
-    "price": "4.08",
-    "time": "10:01:12",
-    "isActive": true,
-    "firstSeen": "2024-12-19T09:01:29.346Z",
-    "lastSeen": "2024-12-19T09:01:29.346Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 400030,
-      "Avg. Daily Volume": 68420000,
-      "Short Float": 678170,
-      "Short Ratio": "0.58%"
-    }
+    ]
   },
-  "ELAB": {
-    "ticker": "ELAB",
-    "news": [],
-    "hod": false,
-    "float": "3.02M",
-    "price": "3.34",
-    "time": "10:02:14",
-    "isActive": true,
-    "firstSeen": "2024-12-19T09:02:42.684Z",
-    "lastSeen": "2024-12-19T14:26:40.505Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 48770,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 697190,
-      "Short Ratio": "N/A"
-    }
-  },
-  "XCH": {
-    "ticker": "XCH",
-    "news": [],
-    "hod": false,
-    "float": "2.39M",
-    "price": "2.69",
-    "time": "10:06:11",
-    "isActive": true,
-    "firstSeen": "2024-12-19T09:06:14.626Z",
-    "lastSeen": "2024-12-19T14:30:35.125Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 29820,
-      "Avg. Daily Volume": 25430000,
-      "Short Float": 160610,
-      "Short Ratio": "0.12%"
-    }
-  },
-  "FTEL": {
-    "ticker": "FTEL",
-    "news": [],
-    "hod": false,
-    "float": "13.68M",
-    "price": "11.01",
-    "time": "10:39:26",
-    "isActive": true,
-    "firstSeen": "2024-12-19T09:39:30.318Z",
-    "lastSeen": "2024-12-19T13:01:35.137Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 1190000,
-      "Avg. Daily Volume": 8470000,
-      "Short Float": 192970,
-      "Short Ratio": "14.06%"
-    }
-  },
-  "XHG": {
-    "ticker": "XHG",
-    "news": [],
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 5390,
-      "Avg. Daily Volume": 220000,
-      "Short Float": 471730,
-      "Short Ratio": "2.45%"
-    }
-  },
-  "QNTM": {
-    "ticker": "QNTM",
-    "news": [],
-    "hod": false,
-    "float": "1.59M",
-    "price": "3.49",
-    "time": "11:04:11",
-    "isActive": true,
-    "firstSeen": "2024-12-19T10:04:12.352Z",
-    "lastSeen": "2024-12-19T13:34:39.239Z"
-  },
-  "SLXN": {
-    "ticker": "SLXN",
-    "news": [],
-    "hod": false,
-    "float": "1.02M",
-    "price": "5.3",
-    "time": "11:15:10",
-    "isActive": true,
-    "firstSeen": "2024-12-19T10:15:22.927Z",
-    "lastSeen": "2024-12-19T13:30:42.620Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 35840,
-      "Avg. Daily Volume": 240000,
-      "Short Float": 666200,
-      "Short Ratio": "14.93%"
-    }
-  },
-  "DPRO": {
-    "ticker": "DPRO",
+  "GALT": {
+    "ticker": "GALT",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-18T12:35:36Z",
-        "headline": "Draganfly Successfully Conducts Proof-Of-Concept Flights For Medical Drone Delivery With Mass General Brigham",
-        "id": 42550630,
+        "created_at": "2024-12-20T13:03:13Z",
+        "headline": "Galectin Therapeutics Announces Top-Line Results of NAVIGATE Clinical Trial Evaluating Belapectin; Says 'While there was a favorable trend for incidence of varices in the primary end point intent-to-treat population, belapectin did not achieve statistical significance'",
+        "id": 42614697,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "DPRO"
+          "GALT"
         ],
-        "updated_at": "2024-12-18T12:35:37Z",
-        "url": "https://www.benzinga.com/news/24/12/42550630/draganfly-successfully-conducts-proof-of-concept-flights-for-medical-drone-delivery-with-mass-genera",
-        "added_at": "2024-12-19T10:28:46.436Z"
+        "updated_at": "2024-12-20T13:03:14Z",
+        "url": "https://www.benzinga.com/general/biotech/24/12/42614697/galectin-therapeutics-announces-top-line-results-of-navigate-clinical-trial-evaluating-belapectin",
+        "added_at": "2024-12-20T13:28:25.091Z"
       }
     ],
     "hod": false,
-    "float": "5.35M",
-    "price": "4.99",
-    "time": "11:27:57",
+    "float": "43.43M",
+    "price": "3.65",
+    "time": "14:23:18",
     "isActive": true,
-    "firstSeen": "2024-12-19T10:28:44.740Z",
-    "lastSeen": "2024-12-19T10:28:44.740Z"
+    "firstSeen": "2024-12-20T13:23:20.362Z",
+    "lastSeen": "2024-12-20T13:25:53.150Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 5860000,
+      "Avg. Daily Volume": 43280000,
+      "Short Float": 143870,
+      "Short Ratio": "13.53%"
+    }
   },
-  "ONDS": {
-    "ticker": "ONDS",
+  "FRSX": {
+    "ticker": "FRSX",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-19T13:35:21Z",
-        "headline": "Ondas Unit Airobotics Receives Purchase Order From A Large Semiconductor Manufacturer To Renew Ongoing Aerial Security And Data Services",
-        "id": 42577242,
+        "created_at": "2024-12-20T11:43:13Z",
+        "headline": "Foresight Autonomous Says That Its Wholly Owned Subsidiary Eye-net Mobile Inked Multi-phase Agreement With Softbank Corp. And A Leading Japanese Vehicle Manufacturer",
+        "id": 42612761,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ONDS"
+          "FRSX"
         ],
-        "updated_at": "2024-12-19T13:35:22Z",
-        "url": "https://www.benzinga.com/news/24/12/42577242/ondas-unit-airobotics-receives-purchase-order-from-a-large-semiconductor-manufacturer-to-renew-ongoi",
-        "added_at": "2024-12-19T13:36:30.789Z"
+        "updated_at": "2024-12-20T11:43:14Z",
+        "url": "https://www.benzinga.com/news/24/12/42612761/foresight-autonomous-says-that-its-wholly-owned-subsidiary-eye-net-mobile-inked-multi-phase-agreemen",
+        "added_at": "2024-12-20T13:28:25.224Z"
       }
     ],
     "hod": false,
-    "float": "69.58M",
-    "price": "1.56",
-    "time": "11:44:36",
+    "float": "14.15M",
+    "price": "2.13",
+    "time": "14:23:53",
     "isActive": true,
-    "firstSeen": "2024-12-19T10:44:41.064Z",
-    "lastSeen": "2024-12-19T10:46:09.668Z",
+    "firstSeen": "2024-12-20T13:24:19.127Z",
+    "lastSeen": "2024-12-20T13:24:19.127Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 1890000,
-      "Avg. Daily Volume": 69380000,
-      "Short Float": 669000,
-      "Short Ratio": "2.72%"
+      "Short Interest": 213860,
+      "Avg. Daily Volume": 10830000,
+      "Short Float": 124900,
+      "Short Ratio": "1.97%"
     }
   },
-  "ABP": {
-    "ticker": "ABP",
+  "NVNI": {
+    "ticker": "NVNI",
     "news": [],
-    "hod": false,
-    "float": "0",
-    "price": "1.59",
-    "time": "11:56:04",
+    "hod": true,
+    "float": "8.07M",
+    "price": "6.52",
+    "time": "14:23:51",
     "isActive": true,
-    "firstSeen": "2024-12-19T10:56:04.838Z",
-    "lastSeen": "2024-12-19T14:23:59.201Z",
+    "firstSeen": "2024-12-20T13:24:19.127Z",
+    "lastSeen": "2024-12-20T14:30:46.339Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 5640,
-      "Avg. Daily Volume": 500000,
-      "Short Float": 24960,
-      "Short Ratio": "1.13%"
+      "Short Interest": 17810,
+      "Avg. Daily Volume": 8070000,
+      "Short Float": 8690,
+      "Short Ratio": "0.22%"
     }
   },
   "PBM": {
@@ -267,11 +176,11 @@
     "news": [],
     "hod": false,
     "float": "646.73K",
-    "price": "2.39",
-    "time": "12:01:56",
+    "price": "3.99",
+    "time": "14:25:31",
     "isActive": true,
-    "firstSeen": "2024-12-19T11:01:57.098Z",
-    "lastSeen": "2024-12-19T14:13:16.124Z",
+    "firstSeen": "2024-12-20T13:25:53.150Z",
+    "lastSeen": "2024-12-20T14:36:36.291Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
       "Short Interest": 10400,
@@ -280,316 +189,117 @@
       "Short Ratio": "1.65%"
     }
   },
-  "PRFX": {
-    "ticker": "PRFX",
-    "news": [],
-    "hod": false,
-    "float": "562.04K",
-    "price": "6.3",
-    "time": "12:07:08",
+  "HSDT": {
+    "ticker": "HSDT",
     "isActive": true,
-    "firstSeen": "2024-12-19T11:07:08.687Z",
-    "lastSeen": "2024-12-19T14:11:55.298Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 52330,
-      "Avg. Daily Volume": 560000,
-      "Short Float": 979950,
-      "Short Ratio": "9.34%"
+      "Short Interest": 89840,
+      "Avg. Daily Volume": 3670000,
+      "Short Float": 451440,
+      "Short Ratio": "2.45%"
     }
   },
-  "ELEB": {
-    "ticker": "ELEB",
-    "news": [],
-    "isActive": true
-  },
-  "NLSP": {
-    "ticker": "NLSP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T12:42:59Z",
-        "headline": "NLS Pharmaceutics And Kadimastem In Collaboration With iTolerance Announced That Request For Pre-Investigational New Drug Meeting Has Been Submitted To The FDA For iTOL102 For Type 1 Diabetes",
-        "id": 42575675,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NLSP"
-        ],
-        "updated_at": "2024-12-19T12:43:00Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42575675/nls-pharmaceutics-and-kadimastem-in-collaboration-with-itolerance-announced-that-request-for-pre-",
-        "added_at": "2024-12-19T12:46:21.358Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.63M",
-    "price": "2.38",
-    "time": "13:32:25",
+  "CASK": {
+    "ticker": "CASK",
     "isActive": true,
-    "firstSeen": "2024-12-19T12:32:58.973Z",
-    "lastSeen": "2024-12-19T13:59:38.653Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 84930,
-      "Avg. Daily Volume": 1630000,
-      "Short Float": 214980,
-      "Short Ratio": "5.21%"
-    }
-  },
-  "VRAR": {
-    "ticker": "VRAR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T12:08:47Z",
-        "headline": "The Glimpse Group's Subsidiary Company Brightline Interactive Has Entered Into An Initial Six Figure Dollar Contract With The U.S. Navy For An Immersive Simulator, To Be Delivered In The First Half Of 2025",
-        "id": 42572747,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VRAR"
-        ],
-        "updated_at": "2024-12-19T12:08:48Z",
-        "url": "https://www.benzinga.com/news/24/12/42572747/the-glimpse-groups-subsidiary-company-brightline-interactive-has-entered-into-an-initial-six-figure",
-        "added_at": "2024-12-19T12:34:22.563Z"
-      }
-    ],
+      "Short Interest": 31670,
+      "Avg. Daily Volume": 3410000,
+      "Short Float": 158800,
+      "Short Ratio": "0.93%"
+    },
     "hod": false,
-    "float": "11.48M",
-    "price": "4.4",
-    "time": "13:33:48",
+    "price": "3.04",
+    "lastSeen": "2024-12-20T14:33:35.842Z"
+  },
+  "ELAB": {
+    "ticker": "ELAB",
     "isActive": true,
-    "firstSeen": "2024-12-19T12:34:20.170Z",
-    "lastSeen": "2024-12-19T14:17:29.731Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 324210,
-      "Avg. Daily Volume": 13120000,
-      "Short Float": 97260,
-      "Short Ratio": "2.47%"
-    }
-  },
-  "ZENA": {
-    "ticker": "ZENA",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T12:37:24Z",
-        "headline": "ZenaTech Subsidiary Moves Into Its Manufacturing Facility In Phoenix, Arizona To Produce US Defense And Nato Drones, Part Of Efforts To Produce 'Made In America' Drones",
-        "id": 42575520,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZENA"
-        ],
-        "updated_at": "2024-12-19T12:37:24Z",
-        "url": "https://www.benzinga.com/news/24/12/42575520/zenatech-subsidiary-moves-into-its-manufacturing-facility-in-phoenix-arizona-to-produce-us-defense-a",
-        "added_at": "2024-12-19T12:41:19.369Z"
-      }
-    ],
-    "hod": false,
-    "float": "8.23M",
-    "price": "6.94",
-    "time": "13:33:45",
-    "isActive": true,
-    "firstSeen": "2024-12-19T12:34:20.170Z",
-    "lastSeen": "2024-12-19T12:34:20.170Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 1010000,
+      "Short Interest": 48770,
       "Avg. Daily Volume": "N/A",
-      "Short Float": 7870000,
+      "Short Float": 697190,
       "Short Ratio": "N/A"
     }
   },
-  "BPTH": {
-    "ticker": "BPTH",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T12:10:56Z",
-        "headline": "Bio-Path Reported That Results From Preclinical Studies Of BP1001-A For Obesity Demonstrated Enhanced Insulin Sensitivity, Confirming BP1001-A As A Potential Treatment For Obesity And Related Metabolic Diseases In Type 2 Diabetes Patients",
-        "id": 42572870,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BPTH"
-        ],
-        "updated_at": "2024-12-19T12:10:56Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42572870/bio-path-reported-that-results-from-preclinical-studies-of-bp1001-a-for-obesity-demonstrated-enha",
-        "added_at": "2024-12-19T12:43:11.529Z"
-      }
-    ],
-    "hod": false,
-    "float": "4.31M",
-    "price": "3.71",
-    "time": "13:42:24",
+  "AADI": {
+    "ticker": "AADI",
     "isActive": true,
-    "firstSeen": "2024-12-19T12:43:08.144Z",
-    "lastSeen": "2024-12-19T14:21:16.289Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-109553 (33 Act)  Size: 384 KB",
-        "date": "2024-10-17"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-070487 (33 Act)  Size: 388 KB",
-        "date": "2024-06-11"
-      }
-    ],
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 30900,
-      "Avg. Daily Volume": 4300000,
-      "Short Float": 1170000,
-      "Short Ratio": "0.72%"
+      "Short Interest": 224040,
+      "Avg. Daily Volume": 20090000,
+      "Short Float": 133760,
+      "Short Ratio": "1.12%"
     }
   },
-  "PHIO": {
-    "ticker": "PHIO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T12:50:02Z",
-        "headline": "Phio Pharmaceuticals Announced That The Safety Monitoring Committee Recommended Dose Escalation In Its Phase 1B Trial To Evaluate The Safety And Tolerability Of PH-762 For Stages 1, 2, And 4 Cutaneous Squamous Cell Carcinoma, Stage 4 Melanoma, And Stage 4 Merkel Cell Carcinoma",
-        "id": 42575847,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "PHIO"
-        ],
-        "updated_at": "2024-12-19T12:50:02Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42575847/phio-pharmaceuticals-announced-that-the-safety-monitoring-committee-recommended-dose-escalation-i",
-        "added_at": "2024-12-19T12:51:19.740Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.02M",
-    "price": "3.1",
-    "time": "13:49:47",
+  "JZXN": {
+    "ticker": "JZXN",
     "isActive": true,
-    "firstSeen": "2024-12-19T12:49:47.798Z",
-    "lastSeen": "2024-12-19T14:16:48.684Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-003698 (33 Act)  Size: 692 KB",
-        "date": "2024-05-20"
-      }
-    ],
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 48120,
-      "Avg. Daily Volume": 1020000,
-      "Short Float": 68300,
-      "Short Ratio": "4.72%"
+      "Short Interest": 26850,
+      "Avg. Daily Volume": 10360000,
+      "Short Float": 26370,
+      "Short Ratio": "0.26%"
     }
   },
-  "AISP": {
-    "ticker": "AISP",
-    "news": [],
-    "hod": false,
-    "float": "11.05M",
-    "price": "4.19",
-    "time": "14:17:45",
-    "isActive": true,
-    "firstSeen": "2024-12-19T13:18:16.157Z",
-    "lastSeen": "2024-12-19T14:28:48.197Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 1730000,
-      "Avg. Daily Volume": 14360000,
-      "Short Float": 869400,
-      "Short Ratio": "12.02%"
-    }
-  },
-  "LAES": {
-    "ticker": "LAES",
+  "SPAI": {
+    "ticker": "SPAI",
     "isActive": true,
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 2370000,
-      "Avg. Daily Volume": 22110000,
-      "Short Float": 1210000,
-      "Short Ratio": "10.70%"
+      "Short Interest": 41640,
+      "Avg. Daily Volume": 5900000,
+      "Short Float": 1690000,
+      "Short Ratio": "0.71%"
     },
-    "news": []
-  },
-  "RR": {
-    "ticker": "RR",
-    "news": [],
     "hod": false,
-    "float": "77.31M",
-    "price": "1.52",
-    "time": "14:27:41",
+    "price": "3.99",
+    "lastSeen": "2024-12-20T14:28:27.464Z"
+  },
+  "KXIN": {
+    "ticker": "KXIN",
     "isActive": true,
-    "firstSeen": "2024-12-19T13:27:51.101Z",
-    "lastSeen": "2024-12-19T13:48:54.602Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 2320000,
-      "Avg. Daily Volume": 44950000,
-      "Short Float": 4250000,
-      "Short Ratio": "5.16%"
+      "Short Interest": 422550,
+      "Avg. Daily Volume": 1570000,
+      "Short Float": 1630000,
+      "Short Ratio": "26.91%"
     }
   },
-  "FGL": {
-    "ticker": "FGL",
+  "SIDU": {
+    "ticker": "SIDU",
     "news": [],
     "hod": false,
-    "float": "0",
-    "price": "3.17",
-    "time": "14:29:34",
+    "float": "8.37M",
+    "price": "5.28",
+    "time": "14:30:25",
     "isActive": true,
-    "firstSeen": "2024-12-19T13:29:43.139Z",
-    "lastSeen": "2024-12-19T13:45:55.912Z",
+    "firstSeen": "2024-12-20T13:30:40.657Z",
+    "lastSeen": "2024-12-20T14:05:14.982Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 28400,
-      "Avg. Daily Volume": 3080000,
-      "Short Float": 291820,
-      "Short Ratio": "0.92%"
+      "Short Interest": 303450,
+      "Avg. Daily Volume": 8369999.999999999,
+      "Short Float": 494840,
+      "Short Ratio": "3.63%"
     }
   },
   "BNZI": {
     "ticker": "BNZI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T13:36:27Z",
-        "headline": "Banzai Finalizes OpenReel Acquisition, Anticipates Surpassing $10M 2024 Revenue Guidance While Expanding MarTech Solutions To Drive Long-Term Shareholder Value",
-        "id": 42577320,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BNZI"
-        ],
-        "updated_at": "2024-12-19T13:36:28Z",
-        "url": "https://www.benzinga.com/news/24/12/42577320/banzai-finalizes-openreel-acquisition-anticipates-surpassing-10m-2024-revenue-guidance-while-expandi",
-        "added_at": "2024-12-19T13:41:22.337Z"
-      }
-    ],
+    "news": [],
     "hod": false,
     "float": "5.33M",
-    "price": "1.82",
-    "time": "14:31:08",
+    "price": "1.97",
+    "time": "14:38:30",
     "isActive": true,
-    "firstSeen": "2024-12-19T13:31:28.546Z",
-    "lastSeen": "2024-12-19T13:31:28.546Z",
+    "firstSeen": "2024-12-20T13:38:41.378Z",
+    "lastSeen": "2024-12-20T13:40:51.944Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
       "Short Interest": 180640,
@@ -598,90 +308,189 @@
       "Short Ratio": "6.67%"
     }
   },
-  "VSEE": {
-    "ticker": "VSEE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-18T13:43:49Z",
-        "headline": "VSee Health Awarded National Group Purchasing Agreement For Teleradiology Services Agreement with Premier, Inc.",
-        "id": 42552841,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSEE"
-        ],
-        "updated_at": "2024-12-18T13:43:49Z",
-        "url": "https://www.benzinga.com/news/24/12/42552841/vsee-health-awarded-national-group-purchasing-agreement-for-teleradiology-services-agreement-with-pr",
-        "added_at": "2024-12-19T13:32:18.158Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T13:35:05Z",
-        "headline": "VSee Health Secures Teleradiology Contract With Major Post-Acute Care Hospital System, Launching In Q1 2025 With Potential $1.5M Annual Revenue And Focus On Improving Diagnostic Accuracy And Patient Outcomes",
-        "id": 42577232,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSEE"
-        ],
-        "updated_at": "2024-12-19T13:35:05Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42577232/vsee-health-secures-teleradiology-contract-with-major-post-acute-care-hospital-system-launching-i",
-        "added_at": "2024-12-19T13:36:22.956Z"
-      }
-    ],
+  "LAES": {
+    "ticker": "LAES",
+    "news": [],
     "hod": false,
-    "float": "6.26M",
-    "price": "1.55",
-    "time": "14:32:06",
+    "float": "66.50M",
+    "price": "2.36",
+    "time": "14:47:45",
     "isActive": true,
-    "firstSeen": "2024-12-19T13:32:14.867Z",
-    "lastSeen": "2024-12-19T13:32:14.867Z",
+    "firstSeen": "2024-12-20T13:47:48.935Z",
+    "lastSeen": "2024-12-20T14:10:49.911Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 349300,
-      "Avg. Daily Volume": 6070000,
-      "Short Float": 1850000,
-      "Short Ratio": "5.75%"
+      "Short Interest": 2370000,
+      "Avg. Daily Volume": 22110000,
+      "Short Float": 1210000,
+      "Short Ratio": "10.70%"
     }
   },
-  "VCIG": {
-    "ticker": "VCIG",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T13:49:47Z",
-        "headline": "VCI Global Signs A Term Sheet To Acquire A Solar Farm With An Estimated Capacity Of 1.14 Megawatts, Located In Novo Selo, North Macedonia For ~$1.26M",
-        "id": 42583878,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VCIG"
-        ],
-        "updated_at": "2024-12-19T13:49:47Z",
-        "url": "https://www.benzinga.com/m-a/24/12/42583878/vci-global-signs-a-term-sheet-to-acquire-a-solar-farm-with-an-estimated-capacity-of-1-14-megawatts-l",
-        "added_at": "2024-12-19T13:51:22.614Z"
-      }
-    ],
-    "hod": false,
-    "float": "24.79M",
-    "price": "1.67",
-    "time": "14:48:14",
+  "WKEY": {
+    "ticker": "WKEY",
+    "news": [],
+    "hod": true,
+    "float": "3.20M",
+    "price": "7.75",
+    "time": "14:49:11",
     "isActive": true,
-    "firstSeen": "2024-12-19T13:48:54.602Z",
-    "lastSeen": "2024-12-19T13:48:54.602Z",
+    "firstSeen": "2024-12-20T13:49:56.546Z",
+    "lastSeen": "2024-12-20T14:36:36.291Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 916170,
-      "Avg. Daily Volume": 3200000,
-      "Short Float": 4840000,
-      "Short Ratio": "28.63%"
+      "Short Interest": 62440,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 36760,
+      "Short Ratio": "N/A"
+    }
+  },
+  "ADD": {
+    "ticker": "ADD",
+    "news": [],
+    "hod": false,
+    "float": "575.68K",
+    "price": "2.77",
+    "time": "15:01:16",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:01:36.807Z",
+    "lastSeen": "2024-12-20T14:29:56.688Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 61070,
+      "Avg. Daily Volume": 580000,
+      "Short Float": 39480,
+      "Short Ratio": "10.53%"
+    }
+  },
+  "OCTO": {
+    "ticker": "OCTO",
+    "news": [],
+    "hod": false,
+    "float": "2.13M",
+    "price": "1.87",
+    "time": "15:01:08",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:01:36.807Z",
+    "lastSeen": "2024-12-20T14:01:36.807Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 31220,
+      "Avg. Daily Volume": 2130000,
+      "Short Float": 1740000,
+      "Short Ratio": "1.47%"
+    }
+  },
+  "AMOD": {
+    "ticker": "AMOD",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "5.4",
+    "time": "15:12:03",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:12:09.716Z",
+    "lastSeen": "2024-12-20T14:19:38.433Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 13110,
+      "Avg. Daily Volume": 740000,
+      "Short Float": 5870,
+      "Short Ratio": "1.77%"
+    }
+  },
+  "QUBT": {
+    "ticker": "QUBT",
+    "news": [],
+    "hod": false,
+    "float": "94.47M",
+    "price": "15.77",
+    "time": "15:15:28",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:16:34.096Z",
+    "lastSeen": "2024-12-20T14:38:37.719Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 14600000,
+      "Avg. Daily Volume": 86510000,
+      "Short Float": 17600000,
+      "Short Ratio": "16.87%"
+    }
+  },
+  "VFS": {
+    "ticker": "VFS",
+    "news": [],
+    "hod": false,
+    "float": "50.06M",
+    "price": "4.28",
+    "time": "15:26:46",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:27:32.650Z",
+    "lastSeen": "2024-12-20T14:27:32.650Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 2960000,
+      "Avg. Daily Volume": 50060000,
+      "Short Float": 791820,
+      "Short Ratio": "5.92%"
+    }
+  },
+  "QNTM": {
+    "ticker": "QNTM",
+    "news": [],
+    "hod": false,
+    "float": "1.59M",
+    "price": "4",
+    "time": "15:29:31",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:29:56.688Z",
+    "lastSeen": "2024-12-20T14:29:56.688Z"
+  },
+  "SERV": {
+    "ticker": "SERV",
+    "news": [],
+    "hod": false,
+    "float": "27.50M",
+    "price": "13.4",
+    "time": "15:33:05",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:33:35.842Z",
+    "lastSeen": "2024-12-20T14:33:35.842Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 3960000,
+      "Avg. Daily Volume": 26840000,
+      "Short Float": 5140000,
+      "Short Ratio": "14.74%"
+    }
+  },
+  "RCAT": {
+    "ticker": "RCAT",
+    "news": [],
+    "hod": true,
+    "float": "60.57M",
+    "price": "9.42",
+    "time": "15:32:58",
+    "isActive": true,
+    "firstSeen": "2024-12-20T14:33:35.842Z",
+    "lastSeen": "2024-12-20T14:34:55.551Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
+        "date": "2024-12-05"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
+        "date": "2024-11-14"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 6880000,
+      "Avg. Daily Volume": 57090000,
+      "Short Float": 3120000,
+      "Short Ratio": "12.05%"
     }
   },
   "PSNL": {
@@ -689,112 +498,17 @@
     "news": [],
     "hod": false,
     "float": "48.98M",
-    "price": "3.99",
-    "time": "15:01:39",
+    "price": "6.38",
+    "time": "15:35:32",
     "isActive": true,
-    "firstSeen": "2024-12-19T14:01:50.778Z",
-    "lastSeen": "2024-12-19T14:01:50.778Z",
+    "firstSeen": "2024-12-20T14:35:35.506Z",
+    "lastSeen": "2024-12-20T14:37:56.474Z",
     "filings": [
       {
         "formType": "S-3",
         "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211169 (33 Act)  Size: 243 KB",
         "date": "2024-08-30"
       }
-    ],
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 3020000,
-      "Avg. Daily Volume": 41790000,
-      "Short Float": 769950,
-      "Short Ratio": "7.23%"
-    }
-  },
-  "OMER": {
-    "ticker": "OMER",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T14:20:44Z",
-        "headline": "Omeros' Narsoplimab Met Pivotal Trial Primary Endpoint",
-        "id": 42589555,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "OMER"
-        ],
-        "updated_at": "2024-12-19T14:20:58Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42589555/omeros-narsoplimab-met-pivotal-trial-primary-endpoint-in-patients-treated-with-narsoplimab",
-        "added_at": "2024-12-19T14:21:23.021Z"
-      }
-    ],
-    "hod": false,
-    "float": "55.36M",
-    "price": "10.61",
-    "time": "15:16:47",
-    "isActive": true,
-    "firstSeen": "2024-12-19T14:16:48.684Z",
-    "lastSeen": "2024-12-19T14:28:48.197Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 8920000,
-      "Avg. Daily Volume": 55360000,
-      "Short Float": 669300,
-      "Short Ratio": "16.11%"
-    }
-  },
-  "SYPR": {
-    "ticker": "SYPR",
-    "news": [],
-    "hod": false,
-    "float": "12.10M",
-    "price": "2.63",
-    "time": "15:23:41",
-    "isActive": true,
-    "firstSeen": "2024-12-19T14:23:59.201Z",
-    "lastSeen": "2024-12-19T14:23:59.201Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 613340,
-      "Avg. Daily Volume": 12080000,
-      "Short Float": 13040,
-      "Short Ratio": "5.08%"
-    }
-  },
-  "ZAPP": {
-    "ticker": "ZAPP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-19T14:29:47Z",
-        "headline": "Zapp EV Opens New Microfactory Reference Site In Bangkok Free Trade Zone Industrial Park",
-        "id": 42591471,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ZAPP"
-        ],
-        "updated_at": "2024-12-19T14:29:48Z",
-        "url": "https://www.benzinga.com/news/24/12/42591471/zapp-ev-opens-new-microfactory-reference-site-in-bangkok-free-trade-zone-industrial-park",
-        "added_at": "2024-12-19T14:31:23.418Z"
-      }
-    ],
-    "hod": false,
-    "float": "4.21M",
-    "price": "1.74",
-    "time": "15:28:12",
-    "isActive": true,
-    "firstSeen": "2024-12-19T14:28:48.197Z",
-    "lastSeen": "2024-12-19T14:28:48.197Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 94090,
-      "Avg. Daily Volume": 4210000,
-      "Short Float": 136570,
-      "Short Ratio": "2.23%"
-    }
+    ]
   }
 }

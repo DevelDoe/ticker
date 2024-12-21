@@ -297,21 +297,21 @@ const displayTickersTable = async () => {
                 ? latestNews
                 : `${formattedTime} - ${latestNews}`;
 
-            // Highlight specific keywords and play relevant sounds
-            if (latestNews.includes("Offering") && lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
-                playWav("./sounds/siren.wav"); // Play siren sound
-            } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
-                playWav("./sounds/flash.wav"); // Play flash sound
-            } else if (isInWatchlist) {
-                formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
-            }
+            // // Highlight specific keywords and play relevant sounds
+            // if (latestNews.includes("Offering") && lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+            //     formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
+            //     playWav("./sounds/siren.wav"); // Play siren sound
+            // } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+            //     formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
+            //     playWav("./sounds/flash.wav"); // Play flash sound
+            // } else if (isInWatchlist) {
+            //     formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
+            // }
 
-            // Play sound if the ticker hits High of Day (HOD)
-            if (ticker.hod && !previousHodStatus[ticker.ticker]) {
-                playWav("./sounds/hod.wav"); // Play HOD sound
-            }
+            // // Play sound if the ticker hits High of Day (HOD)
+            // if (ticker.hod && !previousHodStatus[ticker.ticker]) {
+            //     playWav("./sounds/hod.wav"); // Play HOD sound
+            // }
             previousHodStatus[ticker.ticker] = ticker.hod; // Update HOD status
 
             // Format the price with color coding

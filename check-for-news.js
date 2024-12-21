@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import fetch from "node-fetch";
 import player from "node-wav-player";
 import chokidar from "chokidar"; // Import chokidar
+import chalk from "chalk";
 import { safeReadFile, safeWriteFile } from "./fileOps.js"; // Import fileOps for safe file handling
 
 const verbose = process.argv.includes("-v"); // Check for -v flag
@@ -23,27 +24,26 @@ let fileChangeTimeout; // To debounce rapid file changes
 let tickersData = {}; // To store tickers with news
 let lastProcessedTime = 0; // Variable to track the last processed time
 
-const playAlert = debounce(async () => {
-    try {
-        await player.play({
-            path: "./sounds/flash.wav", // Path to your audio file
-        });
-        if (verbose) console.log("Playing audio alert...");
-    } catch (error) {
-        console.error("Error playing audio alert:", error);
+let lastPlayedTime = 0; // Track last playback time
+const DEBOUNCE_INTERVAL = 10000; // 10 seconds
+
+// Play WAV sound with debounce and tracking
+function playWav(filePath, ticker = "", context = "") {
+    const now = Date.now();
+    if (now - lastPlayedTime < DEBOUNCE_INTERVAL) {
+        return; // Skip playback if within debounce interval
     }
-});
 
-function debounce(func, timeout = 3000) {
-    let timer;
-    return (...args) => {
-        clearTimeout(timer);
-        timer = setTimeout(() => {
-            func.apply(this, args);
-        }, timeout);
-    };
+    lastPlayedTime = now; // Update last playback time
+    player
+        .play({ path: filePath })
+        .then(() => {
+            logVerbose(`Played sound for ${ticker} (${context}): ${filePath}`);
+        })
+        .catch((error) => {
+            if (verbose) console.error(`Error playing file for ${ticker} (${context}):`, error);
+        });
 }
-
 // Watch for changes in tickers.json
 const startFileWatcher = () => {
     console.log(`Watching for changes in: ${tickerFilePath}`);
@@ -148,22 +148,38 @@ const updateTickersWithNews = (ticker, news) => {
         }
 
         // List of unwanted keywords (case insensitive, trimmed)
-        const unwantedKeywords = ["shares resumed trade", "halted", "suspended", "Stock Is Down", "Stock Is Rising", "Rockets Higher", "trading higher", "Shares Are Down"];
+        const unwantedKeywords = ["shares resumed trade", "halted", "suspended", "Stock Is Down", "Stock Is Rising", "Rockets Higher", "trading higher", "Shares Are Down", "Shares Resume Trade"];
 
         // Skip news items with unwanted keywords in the headline
         if (newsItem.headline && unwantedKeywords.some((keyword) => newsItem.headline.toLowerCase().trim().includes(keyword.toLowerCase().trim()))) {
-            console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
+            if (verbose) console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
             return;
         }
 
         // Check if the news item is already present using its ID
         const exists = tickersData[ticker].news.some((existingNews) => existingNews.id === newsItem.id);
         if (!exists) {
+            let formattedNews = newsItem.headline; // Initialize formatted news
             tickersData[ticker].news.push({
                 ...newsItem,
                 added_at: new Date().toISOString(), // Add current timestamp
             });
-            // playAlert(); // Play the debounced audio alert
+            console.log(`${ticker}: "${newsItem.headline}"`);
+
+            // Highlight specific keywords and play relevant sounds
+            if (newsItem.headline.includes("Offering")) {
+                formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
+                playWav("./sounds/siren.wav"); // Play siren sound
+            } else {
+                formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
+                playWav("./sounds/flash.wav"); // Play flash sound
+            }
+
+            // Play sound if the ticker hits High of Day (HOD)
+            if (tickersData[ticker].hod) {
+                playWav("./sounds/hod.wav"); // Play HOD sound
+            }
+
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ${ticker}: ${newsItem.headline}`);
         }
@@ -175,6 +191,7 @@ const updateTickersWithNews = (ticker, news) => {
         console.log(`Ticker ${ticker} is now active due to new news.`);
     }
 };
+
 
 // Collect and process news for tickers
 const collectAllNews = async (tickers) => {
