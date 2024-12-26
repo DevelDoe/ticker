@@ -1,56 +1,134 @@
 {
-  "UK": {
-    "ticker": "UK",
+  "PHIO": {
+    "ticker": "PHIO",
     "news": [],
     "hod": false,
-    "float": "698.49K",
-    "price": "2.15",
-    "time": "14:21:39",
+    "float": "1.02M",
+    "price": "2.95",
+    "time": "10:41:21",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:21:43.912Z",
-    "lastSeen": "2024-12-20T13:28:50.857Z",
+    "firstSeen": "2024-12-23T09:50:20.723Z",
+    "lastSeen": "2024-12-23T12:52:20.995Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 25110,
-      "Avg. Daily Volume": 580000,
-      "Short Float": 172740,
-      "Short Ratio": "4.33%"
+      "Short Interest": 48120,
+      "Avg. Daily Volume": 1020000,
+      "Short Float": 68300,
+      "Short Ratio": "4.72%"
+    },
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-003698 (33 Act)  Size: 692 KB",
+        "date": "2024-05-20"
+      }
+    ]
+  },
+  "MDAI": {
+    "ticker": "MDAI",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-23T13:05:22Z",
+        "headline": "Spectral AI Regains Compliance With Nasdaq Listing Standards",
+        "id": 42645474,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MDAI"
+        ],
+        "updated_at": "2024-12-23T13:05:22Z",
+        "url": "https://www.benzinga.com/news/24/12/42645474/spectral-ai-regains-compliance-with-nasdaq-listing-standards",
+        "added_at": "2024-12-23T13:08:56.355Z"
+      }
+    ],
+    "hod": false,
+    "float": "10.21M",
+    "price": "2.27",
+    "time": "11:01:03",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:01:18.401Z",
+    "lastSeen": "2024-12-23T10:07:56.122Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 3010000,
+      "Avg. Daily Volume": 8830000,
+      "Short Float": 1290000,
+      "Short Ratio": "34.11%"
     }
   },
-  "ISPC": {
-    "ticker": "ISPC",
+  "ABAT": {
+    "ticker": "ABAT",
     "news": [],
     "hod": false,
-    "float": "823.18K",
-    "price": "3.7",
-    "time": "14:21:19",
+    "float": "73.78M",
+    "price": "1.53",
+    "time": "11:00:37",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:21:43.940Z",
-    "lastSeen": "2024-12-20T14:05:14.982Z",
+    "firstSeen": "2024-12-23T10:01:18.401Z",
+    "lastSeen": "2024-12-23T13:06:12.574Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 32360,
-      "Avg. Daily Volume": 800000,
-      "Short Float": 425800,
-      "Short Ratio": "4.04%"
+      "Short Interest": 6820000,
+      "Avg. Daily Volume": 71790000,
+      "Short Float": 638520,
+      "Short Ratio": "9.50%"
     }
   },
-  "LYT": {
-    "ticker": "LYT",
+  "NVNI": {
+    "ticker": "NVNI",
     "news": [],
-    "hod": true,
-    "float": "619.28K",
-    "price": "3.2",
-    "time": "14:21:16",
+    "hod": false,
+    "float": "8.07M",
+    "price": "9.32",
+    "time": "11:02:19",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:21:43.940Z",
-    "lastSeen": "2024-12-20T14:31:19.895Z",
+    "firstSeen": "2024-12-23T10:02:31.322Z",
+    "lastSeen": "2024-12-23T10:02:31.322Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 24180,
-      "Avg. Daily Volume": 620000,
-      "Short Float": 91840,
-      "Short Ratio": "3.90%"
+      "Short Interest": 17810,
+      "Avg. Daily Volume": 8070000,
+      "Short Float": 8690,
+      "Short Ratio": "0.22%"
+    }
+  },
+  "AMPG": {
+    "ticker": "AMPG",
+    "news": [],
+    "hod": false,
+    "float": "11.86M",
+    "price": "2.4",
+    "time": "11:09:54",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:09:58.380Z",
+    "lastSeen": "2024-12-23T10:09:58.380Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 114350,
+      "Avg. Daily Volume": 9160000,
+      "Short Float": 98330,
+      "Short Ratio": "1.25%"
+    }
+  },
+  "ONDS": {
+    "ticker": "ONDS",
+    "news": [],
+    "hod": false,
+    "float": "72.20M",
+    "price": "1.7",
+    "time": "11:14:23",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:14:36.598Z",
+    "lastSeen": "2024-12-23T10:14:36.598Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 1890000,
+      "Avg. Daily Volume": 69380000,
+      "Short Float": 669000,
+      "Short Ratio": "2.72%"
     }
   },
   "MYSZ": {
@@ -58,18 +136,11 @@
     "news": [],
     "hod": false,
     "float": "1.13M",
-    "price": "5.37",
-    "time": "14:20:12",
+    "price": "4.4",
+    "time": "11:19:52",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:21:43.940Z",
-    "lastSeen": "2024-12-20T14:34:55.551Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 48550,
-      "Avg. Daily Volume": 560000,
-      "Short Float": 70380,
-      "Short Ratio": "8.67%"
-    },
+    "firstSeen": "2024-12-23T10:19:58.978Z",
+    "lastSeen": "2024-12-23T10:21:32.345Z",
     "filings": [
       {
         "formType": "S-3",
@@ -81,195 +152,366 @@
         "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-23-045926 (33 Act)  Size: 587 KB",
         "date": "2023-12-22"
       }
-    ]
+    ],
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 48550,
+      "Avg. Daily Volume": 560000,
+      "Short Float": 70380,
+      "Short Ratio": "8.67%"
+    }
   },
-  "GALT": {
-    "ticker": "GALT",
+  "MRSN": {
+    "ticker": "MRSN",
+    "news": [],
+    "hod": false,
+    "float": "86.56M",
+    "price": "1.8",
+    "time": "11:22:01",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:22:13.223Z",
+    "lastSeen": "2024-12-23T10:22:13.223Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 8750000,
+      "Avg. Daily Volume": 86300000,
+      "Short Float": 1050000,
+      "Short Ratio": "10.14%"
+    }
+  },
+  "ADGM": {
+    "ticker": "ADGM",
+    "news": [],
+    "hod": false,
+    "float": "14.26M",
+    "price": "1.97",
+    "time": "11:23:41",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:23:45.368Z",
+    "lastSeen": "2024-12-23T12:01:51.392Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 88080,
+      "Avg. Daily Volume": 14230000,
+      "Short Float": 77610,
+      "Short Ratio": "0.62%"
+    }
+  },
+  "RELI": {
+    "ticker": "RELI",
+    "news": [],
+    "hod": false,
+    "float": "1.63M",
+    "price": "4.09",
+    "time": "11:23:17",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:23:45.368Z",
+    "lastSeen": "2024-12-23T13:13:01.946Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 43520,
+      "Avg. Daily Volume": 1590000,
+      "Short Float": 154600,
+      "Short Ratio": "2.74%"
+    }
+  },
+  "ATPC": {
+    "ticker": "ATPC",
+    "news": [],
+    "hod": false,
+    "float": "3.01M",
+    "price": "1.54",
+    "time": "11:50:00",
+    "isActive": true,
+    "firstSeen": "2024-12-23T10:50:18.977Z",
+    "lastSeen": "2024-12-23T11:28:14.735Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 152150,
+      "Avg. Daily Volume": 2970000,
+      "Short Float": 2830000,
+      "Short Ratio": "5.12%"
+    }
+  },
+  "GXAI": {
+    "ticker": "GXAI",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-20T13:03:13Z",
-        "headline": "Galectin Therapeutics Announces Top-Line Results of NAVIGATE Clinical Trial Evaluating Belapectin; Says 'While there was a favorable trend for incidence of varices in the primary end point intent-to-treat population, belapectin did not achieve statistical significance'",
-        "id": 42614697,
+        "created_at": "2024-12-23T12:31:35Z",
+        "headline": "Gaxos Enhances Game Development with Meshy 4 Integration in AI Platform",
+        "id": 42644660,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "GALT"
+          "GXAI"
         ],
-        "updated_at": "2024-12-20T13:03:14Z",
-        "url": "https://www.benzinga.com/general/biotech/24/12/42614697/galectin-therapeutics-announces-top-line-results-of-navigate-clinical-trial-evaluating-belapectin",
-        "added_at": "2024-12-20T13:28:25.091Z"
+        "updated_at": "2024-12-23T12:31:36Z",
+        "url": "https://www.benzinga.com/news/24/12/42644660/gaxos-enhances-game-development-with-meshy-4-integration-in-ai-platform",
+        "added_at": "2024-12-23T12:33:57.036Z"
       }
     ],
     "hod": false,
-    "float": "43.43M",
-    "price": "3.65",
-    "time": "14:23:18",
+    "float": "3.41M",
+    "price": "3.12",
+    "time": "12:02:01",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:23:20.362Z",
-    "lastSeen": "2024-12-20T13:25:53.150Z",
+    "firstSeen": "2024-12-23T11:02:05.216Z",
+    "lastSeen": "2024-12-23T11:02:05.216Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 5860000,
-      "Avg. Daily Volume": 43280000,
-      "Short Float": 143870,
-      "Short Ratio": "13.53%"
+      "Short Interest": 72540,
+      "Avg. Daily Volume": 2530000,
+      "Short Float": 1860000,
+      "Short Ratio": "2.87%"
     }
   },
-  "FRSX": {
-    "ticker": "FRSX",
+  "LYT": {
+    "ticker": "LYT",
+    "news": [],
+    "hod": false,
+    "float": "619.28K",
+    "price": "1.71",
+    "time": "12:39:19",
+    "isActive": true,
+    "firstSeen": "2024-12-23T11:39:55.108Z",
+    "lastSeen": "2024-12-23T13:11:28.583Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 24180,
+      "Avg. Daily Volume": 620000,
+      "Short Float": 91840,
+      "Short Ratio": "3.90%"
+    }
+  },
+  "DESP": {
+    "ticker": "DESP",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-20T11:43:13Z",
-        "headline": "Foresight Autonomous Says That Its Wholly Owned Subsidiary Eye-net Mobile Inked Multi-phase Agreement With Softbank Corp. And A Leading Japanese Vehicle Manufacturer",
-        "id": 42612761,
+        "created_at": "2024-12-23T11:57:02Z",
+        "headline": "Despegar to Be Acquired by Prosus for $1.7B in Cash Deal",
+        "id": 42643806,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "FRSX"
+          "DESP"
         ],
-        "updated_at": "2024-12-20T11:43:14Z",
-        "url": "https://www.benzinga.com/news/24/12/42612761/foresight-autonomous-says-that-its-wholly-owned-subsidiary-eye-net-mobile-inked-multi-phase-agreemen",
-        "added_at": "2024-12-20T13:28:25.224Z"
+        "updated_at": "2024-12-23T11:57:02Z",
+        "url": "https://www.benzinga.com/m-a/24/12/42643806/despegar-to-be-acquired-by-prosus-for-1-7b-in-cash-deal",
+        "added_at": "2024-12-23T11:58:56.716Z"
       }
     ],
     "hod": false,
-    "float": "14.15M",
-    "price": "2.13",
-    "time": "14:23:53",
+    "float": "47.39M",
+    "price": "19.6",
+    "time": "12:40:42",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:24:19.127Z",
-    "lastSeen": "2024-12-20T13:24:19.127Z",
+    "firstSeen": "2024-12-23T11:41:00.474Z",
+    "lastSeen": "2024-12-23T11:41:00.474Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 213860,
-      "Avg. Daily Volume": 10830000,
-      "Short Float": 124900,
-      "Short Ratio": "1.97%"
+      "Short Interest": 5780000,
+      "Avg. Daily Volume": 47390000,
+      "Short Float": 974060,
+      "Short Ratio": "12.19%"
     }
   },
-  "NVNI": {
-    "ticker": "NVNI",
-    "news": [],
-    "hod": true,
-    "float": "8.07M",
-    "price": "6.52",
-    "time": "14:23:51",
-    "isActive": true,
-    "firstSeen": "2024-12-20T13:24:19.127Z",
-    "lastSeen": "2024-12-20T14:30:46.339Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 17810,
-      "Avg. Daily Volume": 8070000,
-      "Short Float": 8690,
-      "Short Ratio": "0.22%"
-    }
-  },
-  "PBM": {
-    "ticker": "PBM",
+  "AGRI": {
+    "ticker": "AGRI",
     "news": [],
     "hod": false,
-    "float": "646.73K",
-    "price": "3.99",
-    "time": "14:25:31",
+    "float": "1.54M",
+    "price": "3",
+    "time": "12:44:42",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:25:53.150Z",
-    "lastSeen": "2024-12-20T14:36:36.291Z",
+    "firstSeen": "2024-12-23T11:44:43.268Z",
+    "lastSeen": "2024-12-23T11:44:43.268Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 10400,
-      "Avg. Daily Volume": 630000,
-      "Short Float": 111020,
-      "Short Ratio": "1.65%"
+      "Short Interest": 57370,
+      "Avg. Daily Volume": 1540000,
+      "Short Float": 294850,
+      "Short Ratio": "3.73%"
     }
   },
-  "HSDT": {
-    "ticker": "HSDT",
+  "PIK": {
+    "ticker": "PIK",
+    "news": [],
+    "hod": false,
+    "float": "185.66K",
+    "price": "3.66",
+    "time": "12:51:24",
     "isActive": true,
+    "firstSeen": "2024-12-23T11:51:37.904Z",
+    "lastSeen": "2024-12-23T13:10:19.630Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 89840,
-      "Avg. Daily Volume": 3670000,
-      "Short Float": 451440,
-      "Short Ratio": "2.45%"
+      "Short Interest": 6450,
+      "Avg. Daily Volume": 180000,
+      "Short Float": 31490,
+      "Short Ratio": "3.58%"
+    }
+  },
+  "TRAW": {
+    "ticker": "TRAW",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-23T12:07:00Z",
+        "headline": "Traws Pharma Advances One-Dose Bird Flu Treatment with Results",
+        "id": 42643986,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "TRAW"
+        ],
+        "updated_at": "2024-12-23T12:07:00Z",
+        "url": "https://www.benzinga.com/news/24/12/42643986/traws-pharma-advances-one-dose-bird-flu-treatment-with-results",
+        "added_at": "2024-12-23T12:08:57.196Z"
+      }
+    ],
+    "hod": false,
+    "float": "2.28M",
+    "price": "9.37",
+    "time": "13:03:18",
+    "isActive": true,
+    "firstSeen": "2024-12-23T12:03:35.041Z",
+    "lastSeen": "2024-12-23T13:11:28.583Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 7710,
+      "Avg. Daily Volume": 2280000,
+      "Short Float": 11200,
+      "Short Ratio": "0.34%"
     }
   },
   "CASK": {
     "ticker": "CASK",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "3.63",
+    "time": "13:02:46",
     "isActive": true,
+    "firstSeen": "2024-12-23T12:03:35.041Z",
+    "lastSeen": "2024-12-23T12:44:25.837Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
       "Short Interest": 31670,
       "Avg. Daily Volume": 3410000,
       "Short Float": 158800,
       "Short Ratio": "0.93%"
-    },
+    }
+  },
+  "RAPT": {
+    "ticker": "RAPT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-23T12:01:35Z",
+        "headline": "RAPT Therapeutics Secures Global Rights to Develop Advanced Allergy Treatment",
+        "id": 42643903,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RAPT"
+        ],
+        "updated_at": "2024-12-23T12:01:36Z",
+        "url": "https://www.benzinga.com/news/24/12/42643903/rapt-therapeutics-secures-global-rights-to-develop-advanced-allergy-treatment",
+        "added_at": "2024-12-23T12:12:42.050Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-23T12:13:45Z",
+        "headline": "RAPT Therapeutics To Raise $150M in Private Placement to Advance Drug Pipeline",
+        "id": 42644215,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RAPT"
+        ],
+        "updated_at": "2024-12-23T12:13:46Z",
+        "url": "https://www.benzinga.com/news/24/12/42644215/rapt-therapeutics-to-raise-150m-in-private-placement-to-advance-drug-pipeline",
+        "added_at": "2024-12-23T12:13:50.308Z"
+      }
+    ],
     "hod": false,
-    "price": "3.04",
-    "lastSeen": "2024-12-20T14:33:35.842Z"
-  },
-  "ELAB": {
-    "ticker": "ELAB",
+    "float": "30.57M",
+    "price": "1.85",
+    "time": "13:12:19",
     "isActive": true,
+    "firstSeen": "2024-12-23T12:12:39.474Z",
+    "lastSeen": "2024-12-23T13:08:20.425Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 48770,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 697190,
-      "Short Ratio": "N/A"
+      "Short Interest": 1370000,
+      "Avg. Daily Volume": 30560000,
+      "Short Float": 531380,
+      "Short Ratio": "4.49%"
     }
   },
-  "AADI": {
-    "ticker": "AADI",
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 224040,
-      "Avg. Daily Volume": 20090000,
-      "Short Float": 133760,
-      "Short Ratio": "1.12%"
-    }
-  },
-  "JZXN": {
-    "ticker": "JZXN",
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 26850,
-      "Avg. Daily Volume": 10360000,
-      "Short Float": 26370,
-      "Short Ratio": "0.26%"
-    }
-  },
-  "SPAI": {
-    "ticker": "SPAI",
-    "isActive": true,
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 41640,
-      "Avg. Daily Volume": 5900000,
-      "Short Float": 1690000,
-      "Short Ratio": "0.71%"
-    },
+  "CREV": {
+    "ticker": "CREV",
+    "news": [],
     "hod": false,
-    "price": "3.99",
-    "lastSeen": "2024-12-20T14:28:27.464Z"
-  },
-  "KXIN": {
-    "ticker": "KXIN",
+    "float": "1.75M",
+    "price": "2.99",
+    "time": "13:18:42",
     "isActive": true,
+    "firstSeen": "2024-12-23T12:19:19.431Z",
+    "lastSeen": "2024-12-23T12:47:12.466Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 422550,
-      "Avg. Daily Volume": 1570000,
-      "Short Float": 1630000,
-      "Short Ratio": "26.91%"
+      "Short Interest": 23500,
+      "Avg. Daily Volume": 1750000,
+      "Short Float": 33580,
+      "Short Ratio": "1.34%"
+    }
+  },
+  "PRZO": {
+    "ticker": "PRZO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2024-12-23T12:23:21Z",
+        "headline": "ParaZero Expands Australian Market with Drone Safety Tech Order",
+        "id": 42644562,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRZO"
+        ],
+        "updated_at": "2024-12-23T12:23:22Z",
+        "url": "https://www.benzinga.com/news/24/12/42644562/parazero-expands-australian-market-with-drone-safety-tech-order",
+        "added_at": "2024-12-23T12:23:56.427Z"
+      }
+    ],
+    "hod": false,
+    "float": "9.01M",
+    "price": "2.05",
+    "time": "13:23:02",
+    "isActive": true,
+    "firstSeen": "2024-12-23T12:23:05.292Z",
+    "lastSeen": "2024-12-23T12:40:42.620Z",
+    "shorts": {
+      "Settlement Date": "Nov 29, 2024",
+      "Short Interest": 701500,
+      "Avg. Daily Volume": 9010000,
+      "Short Float": 3680000,
+      "Short Ratio": "7.79%"
     }
   },
   "SIDU": {
@@ -277,11 +519,11 @@
     "news": [],
     "hod": false,
     "float": "8.37M",
-    "price": "5.28",
-    "time": "14:30:25",
+    "price": "4.29",
+    "time": "13:26:59",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:30:40.657Z",
-    "lastSeen": "2024-12-20T14:05:14.982Z",
+    "firstSeen": "2024-12-23T12:28:01.751Z",
+    "lastSeen": "2024-12-23T12:29:17.518Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
       "Short Interest": 303450,
@@ -290,225 +532,87 @@
       "Short Ratio": "3.63%"
     }
   },
-  "BNZI": {
-    "ticker": "BNZI",
+  "WHLR": {
+    "ticker": "WHLR",
     "news": [],
     "hod": false,
-    "float": "5.33M",
-    "price": "1.97",
-    "time": "14:38:30",
+    "float": "1.31M",
+    "price": "4.69",
+    "time": "13:34:12",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:38:41.378Z",
-    "lastSeen": "2024-12-20T13:40:51.944Z",
+    "firstSeen": "2024-12-23T12:34:54.683Z",
+    "lastSeen": "2024-12-23T12:34:54.683Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 180640,
-      "Avg. Daily Volume": 2710000,
-      "Short Float": 3300000,
-      "Short Ratio": "6.67%"
+      "Short Interest": 80900,
+      "Avg. Daily Volume": 650000,
+      "Short Float": 1040000,
+      "Short Ratio": "12.45%"
     }
   },
-  "LAES": {
-    "ticker": "LAES",
+  "GTBP": {
+    "ticker": "GTBP",
     "news": [],
     "hod": false,
-    "float": "66.50M",
-    "price": "2.36",
-    "time": "14:47:45",
+    "float": "1.96M",
+    "price": "5.52",
+    "time": "13:51:42",
     "isActive": true,
-    "firstSeen": "2024-12-20T13:47:48.935Z",
-    "lastSeen": "2024-12-20T14:10:49.911Z",
+    "firstSeen": "2024-12-23T12:51:44.029Z",
+    "lastSeen": "2024-12-23T13:13:01.946Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 2370000,
-      "Avg. Daily Volume": 22110000,
-      "Short Float": 1210000,
-      "Short Ratio": "10.70%"
+      "Short Interest": 11070,
+      "Avg. Daily Volume": 1960000,
+      "Short Float": 18830,
+      "Short Ratio": "0.56%"
     }
   },
-  "WKEY": {
-    "ticker": "WKEY",
-    "news": [],
-    "hod": true,
-    "float": "3.20M",
-    "price": "7.75",
-    "time": "14:49:11",
-    "isActive": true,
-    "firstSeen": "2024-12-20T13:49:56.546Z",
-    "lastSeen": "2024-12-20T14:36:36.291Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 62440,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 36760,
-      "Short Ratio": "N/A"
-    }
-  },
-  "ADD": {
-    "ticker": "ADD",
-    "news": [],
-    "hod": false,
-    "float": "575.68K",
-    "price": "2.77",
-    "time": "15:01:16",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:01:36.807Z",
-    "lastSeen": "2024-12-20T14:29:56.688Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 61070,
-      "Avg. Daily Volume": 580000,
-      "Short Float": 39480,
-      "Short Ratio": "10.53%"
-    }
-  },
-  "OCTO": {
-    "ticker": "OCTO",
-    "news": [],
-    "hod": false,
-    "float": "2.13M",
-    "price": "1.87",
-    "time": "15:01:08",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:01:36.807Z",
-    "lastSeen": "2024-12-20T14:01:36.807Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 31220,
-      "Avg. Daily Volume": 2130000,
-      "Short Float": 1740000,
-      "Short Ratio": "1.47%"
-    }
-  },
-  "AMOD": {
-    "ticker": "AMOD",
+  "RUMBW": {
+    "ticker": "RUMBW",
     "news": [],
     "hod": false,
     "float": "0",
-    "price": "5.4",
-    "time": "15:12:03",
+    "price": "4.18",
+    "time": "14:00:08",
     "isActive": true,
-    "firstSeen": "2024-12-20T14:12:09.716Z",
-    "lastSeen": "2024-12-20T14:19:38.433Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 13110,
-      "Avg. Daily Volume": 740000,
-      "Short Float": 5870,
-      "Short Ratio": "1.77%"
-    }
+    "firstSeen": "2024-12-23T13:00:13.137Z",
+    "lastSeen": "2024-12-23T13:00:13.137Z"
   },
-  "QUBT": {
-    "ticker": "QUBT",
+  "TZUP": {
+    "ticker": "TZUP",
     "news": [],
     "hod": false,
-    "float": "94.47M",
-    "price": "15.77",
-    "time": "15:15:28",
+    "float": "2.46M",
+    "price": "3.7",
+    "time": "14:02:11",
     "isActive": true,
-    "firstSeen": "2024-12-20T14:16:34.096Z",
-    "lastSeen": "2024-12-20T14:38:37.719Z",
+    "firstSeen": "2024-12-23T13:02:25.896Z",
+    "lastSeen": "2024-12-23T13:02:25.896Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 14600000,
-      "Avg. Daily Volume": 86510000,
-      "Short Float": 17600000,
-      "Short Ratio": "16.87%"
+      "Short Interest": 32950,
+      "Avg. Daily Volume": 1770000,
+      "Short Float": 63350,
+      "Short Ratio": "1.86%"
     }
   },
-  "VFS": {
-    "ticker": "VFS",
+  "WISA": {
+    "ticker": "WISA",
     "news": [],
     "hod": false,
-    "float": "50.06M",
-    "price": "4.28",
-    "time": "15:26:46",
+    "float": "6.37M",
+    "price": "1.82",
+    "time": "14:02:09",
     "isActive": true,
-    "firstSeen": "2024-12-20T14:27:32.650Z",
-    "lastSeen": "2024-12-20T14:27:32.650Z",
+    "firstSeen": "2024-12-23T13:02:25.896Z",
+    "lastSeen": "2024-12-23T13:02:25.896Z",
     "shorts": {
       "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 2960000,
-      "Avg. Daily Volume": 50060000,
-      "Short Float": 791820,
-      "Short Ratio": "5.92%"
+      "Short Interest": 728180,
+      "Avg. Daily Volume": 5620000,
+      "Short Float": 3900000,
+      "Short Ratio": "12.96%"
     }
-  },
-  "QNTM": {
-    "ticker": "QNTM",
-    "news": [],
-    "hod": false,
-    "float": "1.59M",
-    "price": "4",
-    "time": "15:29:31",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:29:56.688Z",
-    "lastSeen": "2024-12-20T14:29:56.688Z"
-  },
-  "SERV": {
-    "ticker": "SERV",
-    "news": [],
-    "hod": false,
-    "float": "27.50M",
-    "price": "13.4",
-    "time": "15:33:05",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:33:35.842Z",
-    "lastSeen": "2024-12-20T14:33:35.842Z",
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 3960000,
-      "Avg. Daily Volume": 26840000,
-      "Short Float": 5140000,
-      "Short Ratio": "14.74%"
-    }
-  },
-  "RCAT": {
-    "ticker": "RCAT",
-    "news": [],
-    "hod": true,
-    "float": "60.57M",
-    "price": "9.42",
-    "time": "15:32:58",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:33:35.842Z",
-    "lastSeen": "2024-12-20T14:34:55.551Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
-        "date": "2024-12-05"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-        "date": "2024-11-14"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Nov 29, 2024",
-      "Short Interest": 6880000,
-      "Avg. Daily Volume": 57090000,
-      "Short Float": 3120000,
-      "Short Ratio": "12.05%"
-    }
-  },
-  "PSNL": {
-    "ticker": "PSNL",
-    "news": [],
-    "hod": false,
-    "float": "48.98M",
-    "price": "6.38",
-    "time": "15:35:32",
-    "isActive": true,
-    "firstSeen": "2024-12-20T14:35:35.506Z",
-    "lastSeen": "2024-12-20T14:37:56.474Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211169 (33 Act)  Size: 243 KB",
-        "date": "2024-08-30"
-      }
-    ]
   }
 }
