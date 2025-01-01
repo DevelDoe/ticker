@@ -148,7 +148,7 @@ const updateTickersWithNews = (ticker, news) => {
         }
 
         // List of unwanted keywords (case insensitive, trimmed)
-        const unwantedKeywords = ["shares resumed trade", "halted", "suspended", "Stock Is Down", "Stock Is Rising", "Rockets Higher", "trading higher", "Shares Are Down", "Shares Resume Trade"];
+        const unwantedKeywords = ["shares resumed trade", "halted", "suspended", "Shares Resume", "Stock Is Down", "Stock Is Rising", "Rockets Higher", "trading higher", "Shares Are Down", "Shares Resume Trade"];
 
         // Skip news items with unwanted keywords in the headline
         if (newsItem.headline && unwantedKeywords.some((keyword) => newsItem.headline.toLowerCase().trim().includes(keyword.toLowerCase().trim()))) {
