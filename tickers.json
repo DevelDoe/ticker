@@ -1,431 +1,14 @@
 {
-  "ASNS": {
-    "ticker": "ASNS",
-    "news": [],
-    "hod": false,
-    "float": "5.43M",
-    "price": "1.78",
-    "time": "14:02:35",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:02:43.772Z",
-    "lastSeen": "2024-12-31T14:29:24.570Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-079911 (33 Act)  Size: 421 KB",
-        "date": "2024-09-18"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 211440,
-      "Avg. Daily Volume": 5430000,
-      "Short Float": 237530,
-      "Short Ratio": "3.89%"
-    }
-  },
-  "ADD": {
-    "ticker": "ADD",
-    "news": [],
-    "hod": true,
-    "float": "575.68K",
-    "price": "2.77",
-    "time": "14:02:26",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:02:43.773Z",
-    "lastSeen": "2024-12-31T15:04:12.490Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 151400,
-      "Avg. Daily Volume": 580000,
-      "Short Float": 191510,
-      "Short Ratio": "26.10%"
-    }
-  },
-  "MULN": {
-    "ticker": "MULN",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-31T14:04:19Z",
-        "headline": "Mullen Announced The Sale Of The Mullen One All-Electric Cargo Van To Mr. Appliance Of Owings Mills, Maryland; Terms Not Disclosed",
-        "id": 42740575,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MULN"
-        ],
-        "updated_at": "2024-12-31T14:04:19Z",
-        "url": "https://www.benzinga.com/news/24/12/42740575/mullen-announced-the-sale-of-the-mullen-one-all-electric-cargo-van-to-mr-appliance-of-owings-mills-m",
-        "added_at": "2024-12-31T14:07:22.499Z"
-      }
-    ],
-    "hod": false,
-    "float": "8.73M",
-    "price": "1.84",
-    "time": "14:02:12",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:02:43.773Z",
-    "lastSeen": "2024-12-31T14:03:09.214Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2350000,
-      "Avg. Daily Volume": 8730000,
-      "Short Float": 3280000,
-      "Short Ratio": "26.92%"
-    }
-  },
-  "VRME": {
-    "ticker": "VRME",
-    "news": [],
-    "hod": false,
-    "float": "8.17M",
-    "price": "2.38",
-    "time": "14:01:58",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:02:43.773Z",
-    "lastSeen": "2024-12-31T14:57:43.948Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25490,
-      "Avg. Daily Volume": 8170000,
-      "Short Float": 77980,
-      "Short Ratio": "0.31%"
-    }
-  },
-  "NXU": {
-    "ticker": "NXU",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-30T15:42:58Z",
-        "headline": "Nxu Shares Resume Trading; Up 360%",
-        "id": 42724904,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NXU"
-        ],
-        "updated_at": "2024-12-30T15:42:58Z",
-        "url": "https://www.benzinga.com/trading-ideas/movers/24/12/42724904/nxu-shares-resume-trading-up-360",
-        "added_at": "2024-12-31T13:05:52.931Z"
-      }
-    ],
-    "hod": false,
-    "float": "14.22M",
-    "price": "1.95",
-    "time": "14:01:53",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:02:43.773Z",
-    "lastSeen": "2024-12-31T14:47:50.873Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 163380,
-      "Avg. Daily Volume": 14220000,
-      "Short Float": 6960000,
-      "Short Ratio": "1.15%"
-    }
-  },
-  "GFAI": {
-    "ticker": "GFAI",
-    "news": [],
-    "hod": false,
-    "float": "8.36M",
-    "price": "1.63",
-    "time": "14:03:58",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:04:04.009Z",
-    "lastSeen": "2024-12-31T13:04:04.009Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 120880,
-      "Avg. Daily Volume": 8359999.999999999,
-      "Short Float": 605210,
-      "Short Ratio": "1.45%"
-    }
-  },
-  "LPSN": {
-    "ticker": "LPSN",
-    "news": [],
-    "hod": false,
-    "float": "73.24M",
-    "price": "1.93",
-    "time": "14:03:55",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:04:04.009Z",
-    "lastSeen": "2024-12-31T14:45:14.269Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 7220000,
-      "Avg. Daily Volume": 73240000,
-      "Short Float": 1840000,
-      "Short Ratio": "9.86%"
-    }
-  },
-  "FFIE": {
-    "ticker": "FFIE",
-    "news": [],
-    "hod": true,
-    "float": "40.99M",
-    "price": "4.44",
-    "time": "14:03:52",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:04:04.009Z",
-    "lastSeen": "2024-12-31T15:01:30.115Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 10980000,
-      "Avg. Daily Volume": 40990000,
-      "Short Float": 6800000,
-      "Short Ratio": "26.80%"
-    }
-  },
-  "APM": {
-    "ticker": "APM",
-    "news": [],
-    "hod": false,
-    "float": "3.49M",
-    "price": "5.97",
-    "time": "14:04:29",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:05:14.360Z",
-    "lastSeen": "2024-12-31T15:04:12.490Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 11110,
-      "Avg. Daily Volume": 2170000,
-      "Short Float": 42660,
-      "Short Ratio": "0.51%"
-    }
-  },
-  "BJDX": {
-    "ticker": "BJDX",
-    "news": [],
-    "hod": true,
-    "float": "551.23K",
-    "price": "5",
-    "time": "14:06:10",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:07:09.613Z",
-    "lastSeen": "2024-12-31T15:03:18.481Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 27100,
-      "Avg. Daily Volume": 550000,
-      "Short Float": 622100,
-      "Short Ratio": "4.93%"
-    }
-  },
-  "HOLO": {
-    "ticker": "HOLO",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2024-12-30T16:31:06Z",
-        "headline": "MicroCloud Hologram Rockets With Quantum Leap: Details",
-        "id": 42726137,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2024/12/30/Businessman-Holding-Growing-Virtual-Holo.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2024/12/30/Businessman-Holding-Growing-Virtual-Holo.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2024/12/30/Businessman-Holding-Growing-Virtual-Holo.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "MicroCloud Hologram Inc. develops advanced fast adiabatic driving protocol for coherent control of heavy-hole spin qubits in double quantum dot system, achieving high-fidelity quantum state transitions and superior quantum gate control.",
-        "symbols": [
-          "HOLO"
-        ],
-        "updated_at": "2024-12-30T16:31:07Z",
-        "url": "https://www.benzinga.com/news/small-cap/24/12/42726137/microcloud-hologram-rockets-with-quantum-leap-details",
-        "added_at": "2024-12-31T13:20:14.506Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-30T14:01:16Z",
-        "headline": "MicroCloud Hologram Announces Development Of Semiconductor Quantum Dot Hole Spin Qubit Technology",
-        "id": 42721842,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "HOLO"
-        ],
-        "updated_at": "2024-12-30T14:01:16Z",
-        "url": "https://www.benzinga.com/tech/24/12/42721842/microcloud-hologram-announces-development-of-semiconductor-quantum-dot-hole-spin-qubit-technology",
-        "added_at": "2024-12-31T13:20:14.512Z"
-      }
-    ],
-    "hod": true,
-    "float": "20.44M",
-    "price": "9.2",
-    "time": "14:19:35",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:20:12.788Z",
-    "lastSeen": "2024-12-31T15:02:16.696Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2760000,
-      "Avg. Daily Volume": 20440000,
-      "Short Float": 4099999.9999999995,
-      "Short Ratio": "13.48%"
-    }
-  },
-  "GDHG": {
-    "ticker": "GDHG",
-    "news": [],
-    "hod": false,
-    "float": "7.26M",
-    "price": "2.16",
-    "time": "14:32:37",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:33:20.004Z",
-    "lastSeen": "2024-12-31T13:33:20.004Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25220,
-      "Avg. Daily Volume": 1970000,
-      "Short Float": 274790,
-      "Short Ratio": "1.28%"
-    }
-  },
-  "PERF": {
-    "ticker": "PERF",
-    "news": [],
-    "hod": false,
-    "float": "30.81M",
-    "price": "3.67",
-    "time": "14:38:17",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:38:22.650Z",
-    "lastSeen": "2024-12-31T13:38:22.650Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 83010,
-      "Avg. Daily Volume": 25730000,
-      "Short Float": 62360,
-      "Short Ratio": "0.32%"
-    }
-  },
-  "NVNI": {
-    "ticker": "NVNI",
-    "news": [],
-    "hod": false,
-    "float": "9.23M",
-    "price": "3.5",
-    "time": "14:37:46",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:38:22.650Z",
-    "lastSeen": "2024-12-31T13:38:22.650Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 17120,
-      "Avg. Daily Volume": 8070000,
-      "Short Float": 9150,
-      "Short Ratio": "0.21%"
-    }
-  },
-  "WLDS": {
-    "ticker": "WLDS",
-    "news": [],
-    "hod": true,
-    "float": "1.97M",
-    "price": "2.38",
-    "time": "14:52:56",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:53:00.101Z",
-    "lastSeen": "2024-12-31T14:34:19.961Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 58060,
-      "Avg. Daily Volume": 1970000,
-      "Short Float": 596100,
-      "Short Ratio": "2.95%"
-    }
-  },
-  "SIDU": {
-    "ticker": "SIDU",
-    "news": [],
-    "hod": false,
-    "float": "8.33M",
-    "price": "6.68",
-    "time": "14:53:29",
-    "isActive": true,
-    "firstSeen": "2024-12-31T13:53:33.511Z",
-    "lastSeen": "2024-12-31T14:38:57.991Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-051868 (33 Act)  Size: 641 KB",
-        "date": "2024-12-23"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 534870,
-      "Avg. Daily Volume": 8330000,
-      "Short Float": 604110,
-      "Short Ratio": "6.42%"
-    }
-  },
-  "MLGO": {
-    "ticker": "MLGO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-31T14:22:08Z",
-        "headline": "Microalgo Announced The Successful Development Of A Groundbreaking Quantum Algorithm Technology, Specifically A Full Adder Operation Based On CPU Registers In Quantum Gate Computers.",
-        "id": 42740838,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "MLGO"
-        ],
-        "updated_at": "2024-12-31T14:22:09Z",
-        "url": "https://www.benzinga.com/news/24/12/42740838/microalgo-announced-the-successful-development-of-a-groundbreaking-quantum-algorithm-technology-spec",
-        "added_at": "2024-12-31T14:22:24.165Z"
-      }
-    ],
-    "hod": false,
-    "float": "9.74M",
-    "price": "6.5",
-    "time": "15:15:38",
-    "isActive": true,
-    "firstSeen": "2024-12-31T14:15:47.924Z",
-    "lastSeen": "2024-12-31T14:55:20.404Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 350660,
-      "Avg. Daily Volume": 9740000,
-      "Short Float": 1760000,
-      "Short Ratio": "3.60%"
-    }
-  },
   "BDMD": {
     "ticker": "BDMD",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "35.39M",
-    "price": "3.84",
-    "time": "15:25:31",
+    "price": "5.3",
+    "time": "23:29:01",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:25:32.167Z",
-    "lastSeen": "2024-12-31T14:57:43.948Z",
+    "firstSeen": "2025-01-02T07:20:34.815Z",
+    "lastSeen": "2025-01-02T07:20:34.815Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
       "Short Interest": 23740,
@@ -434,16 +17,292 @@
       "Short Ratio": "N/A"
     }
   },
+  "LAES": {
+    "ticker": "LAES",
+    "news": [],
+    "hod": true,
+    "float": "76.85M",
+    "price": "7.73",
+    "time": "10:00:46",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:00:55.572Z",
+    "lastSeen": "2025-01-02T14:59:15.166Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 9000000,
+      "Avg. Daily Volume": 22110000,
+      "Short Float": 10650000,
+      "Short Ratio": "40.69%"
+    }
+  },
+  "ORIS": {
+    "ticker": "ORIS",
+    "news": [],
+    "hod": false,
+    "float": "3.21M",
+    "price": "2.13",
+    "time": "10:00:24",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:00:55.572Z",
+    "lastSeen": "2025-01-02T15:08:02.129Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 331950,
+      "Avg. Daily Volume": 3210000,
+      "Short Float": 1370000,
+      "Short Ratio": "10.34%"
+    }
+  },
+  "CRIS": {
+    "ticker": "CRIS",
+    "news": [],
+    "hod": false,
+    "float": "7.77M",
+    "price": "4.04",
+    "time": "10:01:42",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:01:44.114Z",
+    "lastSeen": "2025-01-02T13:05:40.633Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001108205-24-000074 (33 Act)  Size: 444 KB",
+        "date": "2024-12-23"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001108205-24-000014 (33 Act)  Size: 840 KB",
+        "date": "2024-02-08"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 44940,
+      "Avg. Daily Volume": 7770000,
+      "Short Float": 55960,
+      "Short Ratio": "0.58%"
+    }
+  },
+  "FFIE": {
+    "ticker": "FFIE",
+    "news": [],
+    "hod": false,
+    "float": "40.99M",
+    "price": "2.96",
+    "time": "10:01:33",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:01:44.114Z",
+    "lastSeen": "2025-01-02T15:10:43.072Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 10980000,
+      "Avg. Daily Volume": 40990000,
+      "Short Float": 6800000,
+      "Short Ratio": "26.80%"
+    }
+  },
+  "VRAR": {
+    "ticker": "VRAR",
+    "news": [],
+    "hod": true,
+    "float": "12.80M",
+    "price": "3.12",
+    "time": "10:01:31",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:01:44.114Z",
+    "lastSeen": "2025-01-02T14:47:13.061Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 894320,
+      "Avg. Daily Volume": 11480000,
+      "Short Float": 963210,
+      "Short Ratio": "7.79%"
+    }
+  },
+  "RVSN": {
+    "ticker": "RVSN",
+    "news": [],
+    "hod": true,
+    "float": "18.62M",
+    "price": "2.37",
+    "time": "10:01:21",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:01:44.114Z",
+    "lastSeen": "2025-01-02T14:31:32.153Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 319180,
+      "Avg. Daily Volume": 18620000,
+      "Short Float": 420560,
+      "Short Ratio": "1.71%"
+    }
+  },
+  "APM": {
+    "ticker": "APM",
+    "news": [],
+    "hod": true,
+    "float": "1.69M",
+    "price": "4.14",
+    "time": "10:02:31",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:02:35.100Z",
+    "lastSeen": "2025-01-02T15:00:44.049Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 11110,
+      "Avg. Daily Volume": 2170000,
+      "Short Float": 42660,
+      "Short Ratio": "0.51%"
+    }
+  },
+  "HOLO": {
+    "ticker": "HOLO",
+    "news": [],
+    "hod": false,
+    "float": "20.44M",
+    "price": "6.51",
+    "time": "10:02:19",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:02:35.101Z",
+    "lastSeen": "2025-01-02T15:03:05.349Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 2760000,
+      "Avg. Daily Volume": 20440000,
+      "Short Float": 4099999.9999999995,
+      "Short Ratio": "13.48%"
+    }
+  },
+  "INTZ": {
+    "ticker": "INTZ",
+    "news": [],
+    "hod": false,
+    "float": "7.04M",
+    "price": "3.99",
+    "time": "10:03:08",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:03:13.509Z",
+    "lastSeen": "2025-01-02T15:03:05.349Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
+        "date": "2024-12-17"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
+        "date": "2024-08-15"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 248840,
+      "Avg. Daily Volume": 7960000,
+      "Short Float": 191370,
+      "Short Ratio": "3.13%"
+    }
+  },
+  "AEI": {
+    "ticker": "AEI",
+    "news": [],
+    "hod": false,
+    "float": "3.07M",
+    "price": "1.91",
+    "time": "10:03:01",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:03:13.509Z",
+    "lastSeen": "2025-01-02T15:04:10.027Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 8039.999999999999,
+      "Avg. Daily Volume": 3070000,
+      "Short Float": 44510,
+      "Short Ratio": "0.26%"
+    }
+  },
+  "HOOK": {
+    "ticker": "HOOK",
+    "news": [],
+    "hod": false,
+    "float": "7.19M",
+    "price": "2.54",
+    "time": "10:03:29",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:03:58.452Z",
+    "lastSeen": "2025-01-02T13:00:52.140Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 30300,
+      "Avg. Daily Volume": 7190000,
+      "Short Float": 49580,
+      "Short Ratio": "0.42%"
+    }
+  },
+  "LPSN": {
+    "ticker": "LPSN",
+    "news": [],
+    "hod": false,
+    "float": "73.24M",
+    "price": "1.72",
+    "time": "10:04:42",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:04:50.009Z",
+    "lastSeen": "2025-01-02T09:05:41.681Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 7220000,
+      "Avg. Daily Volume": 73240000,
+      "Short Float": 1840000,
+      "Short Ratio": "9.86%"
+    }
+  },
+  "PAVS": {
+    "ticker": "PAVS",
+    "news": [],
+    "hod": false,
+    "float": "5.35M",
+    "price": "1.51",
+    "time": "10:06:39",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:07:08.237Z",
+    "lastSeen": "2025-01-02T09:21:08.086Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 23850,
+      "Avg. Daily Volume": 5350000,
+      "Short Float": 169370,
+      "Short Ratio": "0.45%"
+    }
+  },
+  "VRME": {
+    "ticker": "VRME",
+    "news": [],
+    "hod": false,
+    "float": "8.17M",
+    "price": "1.87",
+    "time": "10:08:34",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:08:39.547Z",
+    "lastSeen": "2025-01-02T15:04:10.027Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 25490,
+      "Avg. Daily Volume": 8170000,
+      "Short Float": 77980,
+      "Short Ratio": "0.31%"
+    }
+  },
   "REKR": {
     "ticker": "REKR",
     "news": [],
-    "hod": false,
+    "hod": true,
     "float": "86.63M",
-    "price": "1.88",
-    "time": "15:25:15",
+    "price": "1.75",
+    "time": "10:11:09",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:25:32.167Z",
-    "lastSeen": "2024-12-31T14:41:45.992Z",
+    "firstSeen": "2025-01-02T09:11:19.339Z",
+    "lastSeen": "2025-01-02T15:10:43.072Z",
     "filings": [
       {
         "formType": "S-3",
@@ -464,22 +323,406 @@
       "Short Ratio": "17.04%"
     }
   },
-  "AMPG": {
-    "ticker": "AMPG",
-    "news": [],
+  "VSME": {
+    "ticker": "VSME",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T11:48:52Z",
+        "headline": "VS Media HK Announced Tuesday, It Will Acquire 100% Of MLINK Limited In Share Purchase Deal, Offering 1.25M Class A Ordinary Shares As Consideration",
+        "id": 42761179,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VSME"
+        ],
+        "updated_at": "2025-01-02T11:48:52Z",
+        "url": "https://www.benzinga.com/m-a/25/01/42761179/vs-media-hk-announced-tuesday-it-will-acquire-100-of-mlink-limited-in-share-purchase-deal-offering-1",
+        "added_at": "2025-01-02T11:53:11.756Z"
+      }
+    ],
     "hod": false,
-    "float": "13.26M",
-    "price": "5.27",
-    "time": "15:24:55",
+    "float": "1.73M",
+    "price": "1.83",
+    "time": "10:11:28",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:25:32.167Z",
-    "lastSeen": "2024-12-31T14:53:07.309Z",
+    "firstSeen": "2025-01-02T09:12:19.559Z",
+    "lastSeen": "2025-01-02T14:51:30.644Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2290000,
-      "Avg. Daily Volume": 11860000,
-      "Short Float": 5150000,
-      "Short Ratio": "19.34%"
+      "Short Interest": 15620,
+      "Avg. Daily Volume": 10650000,
+      "Short Float": 1400000,
+      "Short Ratio": "0.15%"
+    }
+  },
+  "MLGO": {
+    "ticker": "MLGO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T14:05:05Z",
+        "headline": "MicroAlgo Announces Development Of A Hybrid Classical-Quantum Algorithm",
+        "id": 42764207,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MLGO"
+        ],
+        "updated_at": "2025-01-02T14:05:06Z",
+        "url": "https://www.benzinga.com/tech/25/01/42764207/microalgo-announces-development-of-a-hybrid-classical-quantum-algorithm",
+        "added_at": "2025-01-02T14:08:14.838Z"
+      }
+    ],
+    "hod": false,
+    "float": "9.74M",
+    "price": "4.26",
+    "time": "10:17:52",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:18:10.942Z",
+    "lastSeen": "2025-01-02T14:58:09.330Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 350660,
+      "Avg. Daily Volume": 9740000,
+      "Short Float": 1760000,
+      "Short Ratio": "3.60%"
+    }
+  },
+  "LIDR": {
+    "ticker": "LIDR",
+    "news": [],
+    "hod": false,
+    "float": "7.63M",
+    "price": "1.55",
+    "time": "10:35:28",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:35:43.535Z",
+    "lastSeen": "2025-01-02T09:35:43.535Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 253480,
+      "Avg. Daily Volume": 7630000,
+      "Short Float": 164870,
+      "Short Ratio": "3.32%"
+    }
+  },
+  "KITT": {
+    "ticker": "KITT",
+    "news": [],
+    "hod": false,
+    "float": "5.58M",
+    "price": "2.02",
+    "time": "10:40:19",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:40:21.194Z",
+    "lastSeen": "2025-01-02T09:41:34.603Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 448950,
+      "Avg. Daily Volume": 5580000,
+      "Short Float": 1100000,
+      "Short Ratio": "8.05%"
+    }
+  },
+  "ALCE": {
+    "ticker": "ALCE",
+    "news": [],
+    "hod": false,
+    "float": "1.39M",
+    "price": "1.68",
+    "time": "10:48:35",
+    "isActive": true,
+    "firstSeen": "2025-01-02T09:48:44.368Z",
+    "lastSeen": "2025-01-02T12:44:58.758Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 66420,
+      "Avg. Daily Volume": 1390000,
+      "Short Float": 428070,
+      "Short Ratio": "4.78%"
+    }
+  },
+  "CURR": {
+    "ticker": "CURR",
+    "news": [],
+    "hod": false,
+    "float": "18.91M",
+    "price": "2.86",
+    "time": "12:15:44",
+    "isActive": true,
+    "firstSeen": "2025-01-02T11:15:56.714Z",
+    "lastSeen": "2025-01-02T11:18:53.923Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 4840,
+      "Avg. Daily Volume": 18910000,
+      "Short Float": 13800,
+      "Short Ratio": "0.03%"
+    }
+  },
+  "OST": {
+    "ticker": "OST",
+    "news": [],
+    "hod": false,
+    "float": "9.65M",
+    "price": "2.98",
+    "time": "12:58:47",
+    "isActive": true,
+    "firstSeen": "2025-01-02T11:58:51.162Z",
+    "lastSeen": "2025-01-02T15:00:44.049Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 3590,
+      "Avg. Daily Volume": 1030000,
+      "Short Float": 28210,
+      "Short Ratio": "0.35%"
+    }
+  },
+  "XPON": {
+    "ticker": "XPON",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T13:37:38Z",
+        "headline": "Expion360 Sees Q4 Prelim. Revenue $1.8M-$2M vs $1.4M In Q3",
+        "id": 42763656,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "XPON"
+        ],
+        "updated_at": "2025-01-02T13:37:38Z",
+        "url": "https://www.benzinga.com/news/25/01/42763656/expion360-sees-q4-prelim-revenue-1-8m-2m-vs-1-4m-in-q3",
+        "added_at": "2025-01-02T13:38:13.939Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T13:33:43Z",
+        "headline": "Expion360 Begins Fulfilling Purchase Orders For Its e360 Home Energy Storage Solutions To Wellspring Solar",
+        "id": 42763554,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "XPON"
+        ],
+        "updated_at": "2025-01-02T13:33:44Z",
+        "url": "https://www.benzinga.com/news/25/01/42763554/expion360-begins-fulfilling-purchase-orders-for-its-e360-home-energy-storage-solutions-to-wellspring",
+        "added_at": "2025-01-02T13:38:13.945Z"
+      }
+    ],
+    "hod": false,
+    "float": "2.03M",
+    "price": "3.62",
+    "time": "13:03:41",
+    "isActive": true,
+    "firstSeen": "2025-01-02T12:04:07.145Z",
+    "lastSeen": "2025-01-02T15:01:50.651Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 302740,
+      "Avg. Daily Volume": 2029999.9999999998,
+      "Short Float": 2029999.9999999998,
+      "Short Ratio": "14.91%"
+    }
+  },
+  "COEP": {
+    "ticker": "COEP",
+    "news": [],
+    "hod": false,
+    "float": "1.48M",
+    "price": "6.8",
+    "time": "13:20:36",
+    "isActive": true,
+    "firstSeen": "2025-01-02T12:20:44.502Z",
+    "lastSeen": "2025-01-02T12:20:44.502Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 20260,
+      "Avg. Daily Volume": 1480000,
+      "Short Float": 20040,
+      "Short Ratio": "1.37%"
+    }
+  },
+  "TNON": {
+    "ticker": "TNON",
+    "news": [],
+    "hod": false,
+    "float": "3.14M",
+    "price": "2.12",
+    "time": "13:21:58",
+    "isActive": true,
+    "firstSeen": "2025-01-02T12:22:02.612Z",
+    "lastSeen": "2025-01-02T12:22:37.983Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 129410,
+      "Avg. Daily Volume": 3140000,
+      "Short Float": 1630000,
+      "Short Ratio": "4.12%"
+    }
+  },
+  "ADGM": {
+    "ticker": "ADGM",
+    "news": [],
+    "hod": false,
+    "float": "14.26M",
+    "price": "2.14",
+    "time": "13:30:06",
+    "isActive": true,
+    "firstSeen": "2025-01-02T12:31:07.087Z",
+    "lastSeen": "2025-01-02T14:06:37.929Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 67120,
+      "Avg. Daily Volume": 14260000,
+      "Short Float": 80810,
+      "Short Ratio": "0.47%"
+    }
+  },
+  "NLSP": {
+    "ticker": "NLSP",
+    "news": [],
+    "hod": false,
+    "float": "1.63M",
+    "price": "2.38",
+    "time": "13:38:49",
+    "isActive": true,
+    "firstSeen": "2025-01-02T12:39:17.567Z",
+    "lastSeen": "2025-01-02T12:39:17.567Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 132430,
+      "Avg. Daily Volume": 1630000,
+      "Short Float": 344380,
+      "Short Ratio": "8.12%"
+    }
+  },
+  "ELAB": {
+    "ticker": "ELAB",
+    "news": [],
+    "hod": false,
+    "float": "3.02M",
+    "price": "2.54",
+    "time": "14:01:34",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:02:24.181Z",
+    "lastSeen": "2025-01-02T13:05:40.633Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 263030,
+      "Avg. Daily Volume": 3020000,
+      "Short Float": 852690,
+      "Short Ratio": "8.71%"
+    }
+  },
+  "SIGA": {
+    "ticker": "SIGA",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T12:34:40Z",
+        "headline": "SIGA Technologies Says TEPOXX (Tecovirimat 200 Mg Capsules) Has Received Regulatory Approval In Japan",
+        "id": 42762118,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SIGA"
+        ],
+        "updated_at": "2025-01-02T12:34:41Z",
+        "url": "https://www.benzinga.com/news/25/01/42762118/siga-technologies-says-tepoxx-tecovirimat-200-mg-capsules-has-received-regulatory-approval-in-japan",
+        "added_at": "2025-01-02T13:04:13.753Z"
+      }
+    ],
+    "hod": false,
+    "float": "40.55M",
+    "price": "6.5",
+    "time": "14:03:12",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:04:10.182Z",
+    "lastSeen": "2025-01-02T13:04:10.182Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 3520000,
+      "Avg. Daily Volume": 40550000,
+      "Short Float": 550470,
+      "Short Ratio": "8.68%"
+    }
+  },
+  "IVDA": {
+    "ticker": "IVDA",
+    "news": [],
+    "hod": false,
+    "float": "2.53M",
+    "price": "6.3",
+    "time": "14:15:32",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:16:15.801Z",
+    "lastSeen": "2025-01-02T13:16:15.801Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 139430,
+      "Avg. Daily Volume": 2530000,
+      "Short Float": 261250,
+      "Short Ratio": "5.51%"
+    },
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-004530 (33 Act)  Size: 367 KB",
+        "date": "2024-02-01"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-003629 (33 Act)  Size: 1 MB",
+        "date": "2024-01-24"
+      }
+    ]
+  },
+  "PALI": {
+    "ticker": "PALI",
+    "news": [],
+    "hod": false,
+    "float": "2.72M",
+    "price": "1.9",
+    "time": "14:35:58",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:36:24.184Z",
+    "lastSeen": "2025-01-02T13:36:24.184Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 1840000,
+      "Avg. Daily Volume": 2720000,
+      "Short Float": 1200000,
+      "Short Ratio": "67.62%"
+    }
+  },
+  "ABAT": {
+    "ticker": "ABAT",
+    "news": [],
+    "hod": false,
+    "float": "82.24M",
+    "price": "2.62",
+    "time": "14:39:09",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:39:16.262Z",
+    "lastSeen": "2025-01-02T13:49:37.014Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 5330000,
+      "Avg. Daily Volume": 73780000,
+      "Short Float": 675010,
+      "Short Ratio": "7.22%"
     }
   },
   "NEHC": {
@@ -487,11 +730,11 @@
     "news": [],
     "hod": false,
     "float": "0",
-    "price": "7.6",
-    "time": "15:27:27",
+    "price": "7.08",
+    "time": "14:38:25",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:27:43.137Z",
-    "lastSeen": "2024-12-31T14:58:26.311Z",
+    "firstSeen": "2025-01-02T13:39:16.262Z",
+    "lastSeen": "2025-01-02T13:39:16.262Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
       "Short Interest": 55350,
@@ -500,122 +743,199 @@
       "Short Ratio": "1.15%"
     }
   },
-  "HOUR": {
-    "ticker": "HOUR",
+  "ISPC": {
+    "ticker": "ISPC",
     "news": [],
     "hod": false,
-    "float": "1.73M",
-    "price": "2.99",
-    "time": "15:28:40",
+    "float": "823.18K",
+    "price": "3",
+    "time": "14:40:17",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:29:24.570Z",
-    "lastSeen": "2024-12-31T14:30:01.683Z",
+    "firstSeen": "2025-01-02T13:41:02.089Z",
+    "lastSeen": "2025-01-02T13:41:02.089Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 28020,
-      "Avg. Daily Volume": 1730000,
-      "Short Float": 19910,
-      "Short Ratio": "1.62%"
+      "Short Interest": 95320,
+      "Avg. Daily Volume": 820000,
+      "Short Float": 473200,
+      "Short Ratio": "11.62%"
     }
   },
-  "ONCO": {
-    "ticker": "ONCO",
+  "ARBE": {
+    "ticker": "ARBE",
+    "news": [],
+    "hod": false,
+    "float": "55.68M",
+    "price": "2.1",
+    "time": "14:57:56",
+    "isActive": true,
+    "firstSeen": "2025-01-02T13:58:31.623Z",
+    "lastSeen": "2025-01-02T13:58:31.623Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 680480,
+      "Avg. Daily Volume": 55680000,
+      "Short Float": 103600,
+      "Short Ratio": "1.22%"
+    }
+  },
+  "MYSZ": {
+    "ticker": "MYSZ",
+    "news": [],
+    "hod": false,
+    "float": "1.13M",
+    "price": "4.77",
+    "time": "15:01:05",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:02:05.173Z",
+    "lastSeen": "2025-01-02T14:02:05.173Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-022548 (33 Act)  Size: 384 KB",
+        "date": "2024-06-04"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 84360,
+      "Avg. Daily Volume": 570000,
+      "Short Float": 107750,
+      "Short Ratio": "14.80%"
+    }
+  },
+  "BAOS": {
+    "ticker": "BAOS",
+    "news": [],
+    "hod": false,
+    "float": "903.26K",
+    "price": "3.2",
+    "time": "15:08:23",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:08:50.360Z",
+    "lastSeen": "2025-01-02T14:10:03.414Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 21470,
+      "Avg. Daily Volume": 900000,
+      "Short Float": 23730,
+      "Short Ratio": "2.39%"
+    }
+  },
+  "SPCB": {
+    "ticker": "SPCB",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2024-12-31T14:51:34Z",
-        "headline": "Onconetix, Inc Shares Resume Trading",
-        "id": 42741611,
+        "created_at": "2025-01-02T14:18:19Z",
+        "headline": "SuperCom Announces Two Contracts With Agencies In Kentucky, Financial Details Not Disclosed",
+        "id": 42764437,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ONCO"
+          "SPCB"
         ],
-        "updated_at": "2024-12-31T14:51:35Z",
-        "url": "https://www.benzinga.com/news/24/12/42741611/onconetix-inc-shares-resume-trading",
-        "added_at": "2024-12-31T14:52:26.386Z"
+        "updated_at": "2025-01-02T14:18:19Z",
+        "url": "https://www.benzinga.com/news/25/01/42764437/supercom-announces-two-contracts-with-agencies-in-kentucky-financial-details-not-disclosed",
+        "added_at": "2025-01-02T14:23:17.096Z"
       }
     ],
     "hod": true,
-    "float": "3.50M",
-    "price": "1.67",
-    "time": "15:41:43",
+    "float": "1.56M",
+    "price": "9.42",
+    "time": "15:15:37",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:41:45.992Z",
-    "lastSeen": "2024-12-31T14:51:46.696Z",
+    "firstSeen": "2025-01-02T14:15:53.059Z",
+    "lastSeen": "2025-01-02T15:09:28.594Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 57340,
-      "Avg. Daily Volume": 3500000,
-      "Short Float": 750620,
-      "Short Ratio": "1.64%"
+      "Short Interest": 25670,
+      "Avg. Daily Volume": 1560000,
+      "Short Float": 99850,
+      "Short Ratio": "1.65%"
     }
   },
-  "AISP": {
-    "ticker": "AISP",
+  "PONY": {
+    "ticker": "PONY",
     "news": [],
     "hod": false,
-    "float": "14.64M",
-    "price": "7.07",
-    "time": "15:42:33",
+    "float": "0",
+    "price": "15.39",
+    "time": "15:27:50",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:42:36.330Z",
-    "lastSeen": "2024-12-31T14:42:36.330Z",
+    "firstSeen": "2025-01-02T14:28:10.527Z",
+    "lastSeen": "2025-01-02T14:28:10.527Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2430000,
-      "Avg. Daily Volume": 14640000,
-      "Short Float": 1110000,
-      "Short Ratio": "16.62%"
+      "Short Interest": 216560,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 1720000,
+      "Short Ratio": "N/A"
     }
   },
-  "BMR": {
-    "ticker": "BMR",
-    "news": [],
-    "hod": false,
-    "float": "10.76M",
-    "price": "6.14",
-    "time": "15:43:43",
+  "NRXP": {
+    "ticker": "NRXP",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T14:15:50Z",
+        "headline": "D. Boral Capital Maintains Buy on NRX Pharmaceuticals, Maintains $31 Price Target",
+        "id": 42764413,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NRXP"
+        ],
+        "updated_at": "2025-01-02T14:15:50Z",
+        "url": "https://www.benzinga.com/news/25/01/42764413/d-boral-capital-maintains-buy-on-nrx-pharmaceuticals-maintains-31-price-target",
+        "added_at": "2025-01-02T14:32:15.095Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-02T13:08:14Z",
+        "headline": "Hope Therapeutics And NRx Pharmaceuticals Plans Acquisition Of Kadima Neuropsychiatry Institute For Its International Network Of Interventional Psychiatry Clinics",
+        "id": 42762861,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NRXP"
+        ],
+        "updated_at": "2025-01-02T13:08:14Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/42762861/hope-therapeutics-and-nrx-pharmaceuticals-plans-acquisition-of-kadima-neuropsychiatry-institute-f",
+        "added_at": "2025-01-02T14:32:15.098Z"
+      }
+    ],
+    "hod": true,
+    "float": "9.20M",
+    "price": "2.96",
+    "time": "15:31:49",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:43:49.023Z",
-    "lastSeen": "2024-12-31T14:43:49.023Z",
+    "firstSeen": "2025-01-02T14:32:09.943Z",
+    "lastSeen": "2025-01-02T15:10:43.072Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 624300,
-      "Avg. Daily Volume": 10760000,
-      "Short Float": 200620,
-      "Short Ratio": "5.80%"
+      "Short Interest": 599840,
+      "Avg. Daily Volume": 9200000,
+      "Short Float": 142030,
+      "Short Ratio": "6.52%"
     }
   },
   "VSTM": {
     "ticker": "VSTM",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2024-12-30T21:34:10Z",
-        "headline": "Verastem Oncology Says FDA Accepted For Review The NDA Under Accelerated Approval Pathway For Avutometinib In Combination With Defactinib; PDUFA Target Action Date Is June 30, 2025",
-        "id": 42733541,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VSTM"
-        ],
-        "updated_at": "2024-12-30T21:34:10Z",
-        "url": "https://www.benzinga.com/news/24/12/42733541/verastem-oncology-says-fda-accepted-for-review-the-nda-under-accelerated-approval-pathway-for-avutom",
-        "added_at": "2024-12-31T14:53:10.719Z"
-      }
-    ],
-    "hod": false,
+    "news": [],
+    "hod": true,
     "float": "39.64M",
-    "price": "4.99",
-    "time": "15:52:40",
+    "price": "5.75",
+    "time": "15:38:15",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:53:07.309Z",
-    "lastSeen": "2024-12-31T14:53:07.309Z",
+    "firstSeen": "2025-01-02T14:38:21.370Z",
+    "lastSeen": "2025-01-02T14:38:21.370Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
       "Short Interest": 2620000,
@@ -624,22 +944,88 @@
       "Short Ratio": "6.61%"
     }
   },
-  "HKD": {
-    "ticker": "HKD",
+  "BNRG": {
+    "ticker": "BNRG",
     "news": [],
-    "hod": true,
-    "float": "11.31M",
-    "price": "3.35",
-    "time": "15:59:53",
+    "hod": false,
+    "float": "4.87M",
+    "price": "1.54",
+    "time": "15:41:40",
     "isActive": true,
-    "firstSeen": "2024-12-31T14:59:55.038Z",
-    "lastSeen": "2024-12-31T14:59:55.038Z",
+    "firstSeen": "2025-01-02T14:41:42.182Z",
+    "lastSeen": "2025-01-02T15:00:05.431Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 723470,
-      "Avg. Daily Volume": 27300000,
-      "Short Float": 1400000,
-      "Short Ratio": "2.65%"
+      "Short Interest": 391120,
+      "Avg. Daily Volume": 4270000,
+      "Short Float": 386510,
+      "Short Ratio": "9.17%"
     }
+  },
+  "NNOX": {
+    "ticker": "NNOX",
+    "news": [],
+    "hod": true,
+    "float": "53.02M",
+    "price": "8.03",
+    "time": "15:47:44",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:47:51.349Z",
+    "lastSeen": "2025-01-02T14:47:51.349Z"
+  },
+  "LICY": {
+    "ticker": "LICY",
+    "news": [],
+    "hod": true,
+    "float": "16.69M",
+    "price": "2.13",
+    "time": "15:50:03",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:50:05.354Z",
+    "lastSeen": "2025-01-02T14:50:05.354Z"
+  },
+  "SAVA": {
+    "ticker": "SAVA",
+    "news": [],
+    "hod": true,
+    "float": "41.80M",
+    "price": "2.85",
+    "time": "15:49:58",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:50:05.354Z",
+    "lastSeen": "2025-01-02T14:50:05.354Z"
+  },
+  "LUNR": {
+    "ticker": "LUNR",
+    "news": [],
+    "hod": false,
+    "float": "81.61M",
+    "price": "19.89",
+    "time": "15:56:38",
+    "isActive": true,
+    "firstSeen": "2025-01-02T14:56:38.978Z",
+    "lastSeen": "2025-01-02T14:58:09.330Z"
+  },
+  "ASNS": {
+    "ticker": "ASNS",
+    "news": [],
+    "hod": true,
+    "float": "5.03M",
+    "price": "1.64",
+    "time": "15:59:58",
+    "isActive": true,
+    "firstSeen": "2025-01-02T15:00:05.430Z",
+    "lastSeen": "2025-01-02T15:00:44.049Z"
+  },
+  "HSAI": {
+    "ticker": "HSAI",
+    "news": [],
+    "hod": true,
+    "float": "80.47M",
+    "price": "15.65",
+    "time": "16:09:20",
+    "isActive": true,
+    "firstSeen": "2025-01-02T15:09:28.594Z",
+    "lastSeen": "2025-01-02T15:10:43.072Z"
   }
 }

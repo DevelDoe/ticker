@@ -16,7 +16,7 @@ dotenv.config({ path: path.join(process.cwd(), ".env.alpaca") }); // Load enviro
 const tickerFilePath = path.join(process.cwd(), "tickers.json"); // Path for the ticker.json
 
 // Variables
-const CHECK_INTERVAL_MS = 1 * 10 * 1000;
+const CHECK_INTERVAL = 20 * 1000;
 
 // Variables
 let watcher; // Declare watcher globally
@@ -236,13 +236,13 @@ const main = async () => {
         const elapsedTime = currentTime - lastProcessedTime;
 
         // Check if at least 60 seconds have passed since the last run
-        if (elapsedTime >= CHECK_INTERVAL_MS) {
+        if (elapsedTime >= CHECK_INTERVAL) {
             await processTickers(); // Process all tickers regularly at the defined interval
             lastProcessedTime = currentTime; // Update the last processed time
         } else {
             if (verbose) console.log(`Skipping tickers processing; only ${elapsedTime / 1000}s since last run.`);
         }
-    }, CHECK_INTERVAL_MS);
+    }, CHECK_INTERVAL);
 };
 
 // Start the script
