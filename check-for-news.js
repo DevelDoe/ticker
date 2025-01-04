@@ -148,7 +148,20 @@ const updateTickersWithNews = (ticker, news) => {
         }
 
         // List of unwanted keywords (case insensitive, trimmed)
-        const unwantedKeywords = ["shares resumed trade", "halted", "suspended", "Shares Resume", "Stock Is Down", "Stock Is Rising", "Rockets Higher", "trading higher", "Shares Are Down", "Shares Resume Trade"];
+        const unwantedKeywords = [
+            "Why Is",
+            "Stock Soaring",
+            "shares resumed trade",
+            "halted",
+            "suspended",
+            "Shares Resume",
+            "Stock Is Down",
+            "Stock Is Rising",
+            "Rockets Higher",
+            "trading higher",
+            "Shares Are Down",
+            "Shares Resume Trade",
+        ];
 
         // Skip news items with unwanted keywords in the headline
         if (newsItem.headline && unwantedKeywords.some((keyword) => newsItem.headline.toLowerCase().trim().includes(keyword.toLowerCase().trim()))) {
@@ -167,17 +180,11 @@ const updateTickersWithNews = (ticker, news) => {
             console.log(`${ticker}: "${newsItem.headline}"`);
 
             // Highlight specific keywords and play relevant sounds
-            if (newsItem.headline.includes("Offering")) {
-                formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
+            const keywords = ["Offering", "Registered Direct", "Private Placement"];
+            if (keywords.some((keyword) => newsItem.headline.includes(keyword))) {
                 playWav("./sounds/siren.wav"); // Play siren sound
             } else {
-                formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
                 playWav("./sounds/flash.wav"); // Play flash sound
-            }
-
-            // Play sound if the ticker hits High of Day (HOD)
-            if (tickersData[ticker].hod) {
-                playWav("./sounds/hod.wav"); // Play HOD sound
             }
 
             newNewsFound = true; // Mark as new news found
@@ -191,7 +198,6 @@ const updateTickersWithNews = (ticker, news) => {
         console.log(`Ticker ${ticker} is now active due to new news.`);
     }
 };
-
 
 // Collect and process news for tickers
 const collectAllNews = async (tickers) => {

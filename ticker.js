@@ -260,10 +260,7 @@ const displayTickersTable = async () => {
         });
 
         // Filter and sort tickers
-        let filteredTickers = Object.values(tickers).filter((ticker) =>
-            ticker.isActive &&
-            (!filterHeadlinesActive || (Array.isArray(ticker.news) && ticker.news.length > 0))
-        );
+        let filteredTickers = Object.values(tickers).filter((ticker) => ticker.isActive && (!filterHeadlinesActive || (Array.isArray(ticker.news) && ticker.news.length > 0)));
 
         if (filterHeadlinesActive) {
             filteredTickers.sort((a, b) => {
@@ -279,57 +276,41 @@ const displayTickersTable = async () => {
             const timestamp = latestNewsObject?.added_at || null;
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
-            const formattedTime = dateObj
-                ? dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false })
-                : "";
+            const formattedTime = dateObj ? dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false }) : "";
 
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
             const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
 
             const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
-            const coloredTicker = ticker.hod
-                ? formattedTicker + chalk.cyanBright("*")
-                : formattedTicker;
+            const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
 
             // Format the news
-            let formattedNews = latestNews === "No news available"
-                ? latestNews
-                : `${formattedTime} - ${latestNews}`;
+            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
 
-            // // Highlight specific keywords and play relevant sounds
-            // if (latestNews.includes("Offering") && lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-            //     formattedNews = chalk.bgRed.white(formattedNews); // Red background for "Offering"
-            //     playWav("./sounds/siren.wav"); // Play siren sound
-            // } else if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-            //     formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
-            //     playWav("./sounds/flash.wav"); // Play flash sound
-            // } else if (isInWatchlist) {
-            //     formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
-            // }
+            // Define keywords to highlight
+            const keywords = ["Offering", "Registered Direct", "Private Placement"];
 
-            // // Play sound if the ticker hits High of Day (HOD)
-            // if (ticker.hod && !previousHodStatus[ticker.ticker]) {
-            //     playWav("./sounds/hod.wav"); // Play HOD sound
-            // }
+            // Highlight specific keywords 
+            if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
+                if (keywords.some((keyword) => latestNews.includes(keyword))) {
+                    formattedNews = chalk.bgRed.white(formattedNews); // Red background for matching keywords
+                } else {
+                    formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
+                }
+            } else if (isInWatchlist) {
+                formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
+            }
+
             previousHodStatus[ticker.ticker] = ticker.hod; // Update HOD status
 
             // Format the price with color coding
             const previousPrice = previousPrices[ticker.ticker] || 0;
-            const formattedPrice = ticker.price
-                ? previousPrice < ticker.price
-                    ? chalk.green(ticker.price)
-                    : chalk.red(ticker.price)
-                : "N/A";
+            const formattedPrice = ticker.price ? (previousPrice < ticker.price ? chalk.green(ticker.price) : chalk.red(ticker.price)) : "N/A";
             previousPrices[ticker.ticker] = ticker.price || 0;
 
             // Add the row to the table
-            table.push([
-                coloredTicker,
-                formattedNews,
-                filingInfo,
-                ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : "",
-            ]);
+            table.push([coloredTicker, formattedNews, filingInfo, ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : ""]);
 
             // Update the last displayed headline for the ticker
             lastDisplayedHeadlines[ticker.ticker] = latestNews;
@@ -342,7 +323,6 @@ const displayTickersTable = async () => {
         console.error("Error displaying tickers:", err);
     }
 };
-
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
@@ -566,7 +546,6 @@ const startWatchingFile = () => {
         });
 };
 
-
 // Watch for changes in shorts.json and update tickers.json accordingly
 const watchShortsFile = () => {
     const watcher = chokidar.watch(shortsFilePath);
@@ -692,7 +671,6 @@ const startPeriodicRefresh = () => {
         }
     }, 10000); // Refresh every 10 seconds
 };
-
 
 // Initialize the application
 const init = async () => {

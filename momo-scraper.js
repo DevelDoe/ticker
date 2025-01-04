@@ -259,7 +259,7 @@ async function saveToJson(tickersToSave, filteredData) {
                 existingTicker.hod = isHOD;
                 tickerUpdated = true;
                 existingTicker.isActive = true;
-                // playWav('./sounds/addTicker.wav'); 
+                playWav('./sounds/coin.wav'); 
             }
 
             if (existingTicker.price !== newPrice) {
