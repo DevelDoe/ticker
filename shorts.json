@@ -12,5 +12,12 @@
     "Avg. Daily Volume": 21260000,
     "Short Float": 35610,
     "Short Ratio": "0.74%"
+  },
+  "SPPL": {
+    "Settlement Date": "Dec 13, 2024",
+    "Short Interest": 117550,
+    "Avg. Daily Volume": 4860000,
+    "Short Float": 11220000,
+    "Short Ratio": "2.42%"
   }
 }

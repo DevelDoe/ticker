@@ -91,7 +91,14 @@
     "time": "01:02:51",
     "isActive": true,
     "firstSeen": "2025-01-07T08:18:40.155Z",
-    "lastSeen": "2025-01-07T08:18:40.155Z"
+    "lastSeen": "2025-01-07T08:18:40.155Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 117550,
+      "Avg. Daily Volume": 4860000,
+      "Short Float": 11220000,
+      "Short Ratio": "2.42%"
+    }
   },
   "LDTC": {
     "ticker": "LDTC",
