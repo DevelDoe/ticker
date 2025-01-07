@@ -1,45 +1,16 @@
 {
-  "REKR": [
+  "NKLA": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-186200 (33 Act)  Size: 667 KB",
-      "date": "2024-07-26"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-181620 (33 Act)  Size: 244 KB",
-      "date": "2024-07-19"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-272932 (33 Act)  Size: 2 MB",
+      "date": "2024-12-09"
     }
   ],
-  "SIDU": [
+  "CETX": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-051868 (33 Act)  Size: 641 KB",
-      "date": "2024-12-23"
-    }
-  ],
-  "INTZ": [
-    {
-      "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
-      "date": "2024-12-17"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
-      "date": "2024-08-15"
-    }
-  ],
-  "HCTI": [
-    {
-      "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-003800 (33 Act)  Size: 745 KB",
-      "date": "2024-01-16"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001607062-24-000023 (33 Act)  Size: 1 MB",
-      "date": "2024-01-05"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-051084 (33 Act)  Size: 475 KB",
+      "date": "2024-12-20"
     }
   ]
 }

@@ -1,231 +1,296 @@
 {
-  "NITO": {
-    "ticker": "NITO",
+  "GFAI": {
+    "ticker": "GFAI",
+    "news": [],
+    "hod": false,
+    "float": "8.36M",
+    "price": "3.14",
+    "time": "11:57:00",
+    "isActive": true,
+    "firstSeen": "2025-01-06T11:01:30.206Z",
+    "lastSeen": "2025-01-06T14:37:16.463Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 120880,
+      "Avg. Daily Volume": 8359999.999999999,
+      "Short Float": 605210,
+      "Short Ratio": "1.45%"
+    }
+  },
+  "MBOT": {
+    "ticker": "MBOT",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-02T13:07:49Z",
-        "headline": "N2OFF, Inc. Announces Its JV With Soltera Renewable Energy Ltd Obtained Approval Of A 111 MWp Solar PV Project In Meltz Germany",
-        "id": 42762856,
+        "created_at": "2025-01-06T12:12:19Z",
+        "headline": "Microbot Medical Said Sold 4.28M Shares Under ATM Agreement With H.C. Wainwright For $4.82M Gross Proceeds; Company No Longer Selling Shares Under ATM",
+        "id": 42810741,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NITO"
+          "MBOT"
         ],
-        "updated_at": "2025-01-02T13:07:49Z",
-        "url": "https://www.benzinga.com/news/25/01/42762856/n2off-inc-announces-its-jv-with-soltera-renewable-energy-ltd-obtained-approval-of-a-111-mwp-solar-pv",
-        "added_at": "2025-01-03T08:04:37.227Z"
+        "updated_at": "2025-01-06T12:12:20Z",
+        "url": "https://www.benzinga.com/news/25/01/42810741/microbot-medical-said-sold-4-28m-shares-under-atm-agreement-with-h-c-wainwright-for-4-82m-gross-proc",
+        "added_at": "2025-01-06T12:14:33.599Z"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T12:58:14Z",
-        "headline": "N2OFF And Solterra Brand Services Italy Executed Binding LOI To Develop Two 98MWP Battery Storage Projects In Sicily; Company Will Hold Approximately 70% Ownership In Projects Enhancing Presence In European Energy Storage Market",
-        "id": 42783563,
+        "created_at": "2025-01-06T13:05:57Z",
+        "headline": "Microbot Medical Announces $7M Registered Direct Offering Of ~8M Shares Priced At $1.75/Share",
+        "id": 42812083,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NITO"
+          "MBOT"
         ],
-        "updated_at": "2025-01-03T12:58:14Z",
-        "url": "https://www.benzinga.com/news/25/01/42783563/n2off-and-solterra-brand-services-italy-executed-binding-loi-to-develop-two-98mwp-battery-storage-pr",
-        "added_at": "2025-01-03T13:56:37.729Z"
+        "updated_at": "2025-01-06T13:05:58Z",
+        "url": "https://www.benzinga.com/news/25/01/42812083/microbot-medical-announces-7m-registered-direct-offering-of-8m-shares-priced-at-1-75share",
+        "added_at": "2025-01-06T13:09:39.595Z"
       }
     ],
     "hod": false,
-    "float": "15.30M",
-    "price": "2.47",
-    "time": "01:59:50",
+    "float": "16.55M",
+    "price": "2.75",
+    "time": "11:54:34",
     "isActive": true,
-    "firstSeen": "2025-01-03T08:01:50.331Z",
-    "lastSeen": "2025-01-03T14:10:17.995Z",
+    "firstSeen": "2025-01-06T11:01:30.206Z",
+    "lastSeen": "2025-01-06T14:27:57.488Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 136980,
-      "Avg. Daily Volume": 10540000,
-      "Short Float": 2700000,
-      "Short Ratio": "1.30%"
+      "Short Interest": 577720,
+      "Avg. Daily Volume": 16550000,
+      "Short Float": 177100,
+      "Short Ratio": "3.49%"
     }
   },
-  "LIDR": {
-    "ticker": "LIDR",
+  "SPPL": {
+    "ticker": "SPPL",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T12:12:48Z",
-        "headline": "AEye Entered Securities Purchase Agreement With Institutional Investor For $3.24M Financing",
-        "id": 42783080,
+        "created_at": "2025-01-06T13:33:14Z",
+        "headline": "SIMPPLE Regains Compliance With Nasdaq's Minimum Bid Price Requirement",
+        "id": 42812883,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "LIDR"
+          "SPPL"
         ],
-        "updated_at": "2025-01-03T12:12:49Z",
-        "url": "https://www.benzinga.com/news/25/01/42783080/aeye-entered-securities-purchase-agreement-with-institutional-investor-for-3-24m-financing",
-        "added_at": "2025-01-03T12:13:48.377Z"
+        "updated_at": "2025-01-06T13:33:14Z",
+        "url": "https://www.benzinga.com/news/25/01/42812883/simpple-regains-compliance-with-nasdaqs-minimum-bid-price-requirement",
+        "added_at": "2025-01-06T13:34:33.854Z"
       }
     ],
     "hod": true,
-    "float": "7.63M",
-    "price": "2.01",
-    "time": "01:55:23",
+    "float": "4.86M",
+    "price": "1.65",
+    "time": "12:02:36",
     "isActive": true,
-    "firstSeen": "2025-01-03T08:01:50.332Z",
-    "lastSeen": "2025-01-03T08:01:50.332Z",
+    "firstSeen": "2025-01-06T11:03:44.222Z",
+    "lastSeen": "2025-01-06T14:31:14.474Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 253480,
-      "Avg. Daily Volume": 7630000,
-      "Short Float": 164870,
-      "Short Ratio": "3.32%"
+      "Short Interest": 117550,
+      "Avg. Daily Volume": 4860000,
+      "Short Float": 11220000,
+      "Short Ratio": "2.42%"
     }
   },
-  "ONDS": {
-    "ticker": "ONDS",
+  "MEGL": {
+    "ticker": "MEGL",
+    "news": [],
+    "hod": false,
+    "float": "9.64M",
+    "price": "1.65",
+    "time": "12:15:19",
+    "isActive": true,
+    "firstSeen": "2025-01-06T11:16:00.851Z",
+    "lastSeen": "2025-01-06T12:45:19.244Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 93900,
+      "Avg. Daily Volume": 9640000,
+      "Short Float": 287480,
+      "Short Ratio": "0.97%"
+    }
+  },
+  "BAOS": {
+    "ticker": "BAOS",
+    "news": [],
+    "hod": false,
+    "float": "903.26K",
+    "price": "4.8",
+    "time": "12:23:01",
+    "isActive": true,
+    "firstSeen": "2025-01-06T11:23:13.341Z",
+    "lastSeen": "2025-01-06T13:51:01.049Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 21470,
+      "Avg. Daily Volume": 900000,
+      "Short Float": 23730,
+      "Short Ratio": "2.39%"
+    }
+  },
+  "BOSC": {
+    "ticker": "BOSC",
+    "news": [],
+    "hod": false,
+    "float": "4.95M",
+    "price": "4.69",
+    "time": "12:29:04",
+    "isActive": true,
+    "firstSeen": "2025-01-06T11:29:48.896Z",
+    "lastSeen": "2025-01-06T11:29:48.896Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 73280,
+      "Avg. Daily Volume": 4950000,
+      "Short Float": 19830,
+      "Short Ratio": "1.48%"
+    }
+  },
+  "FGL": {
+    "ticker": "FGL",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "2.27",
+    "time": "12:38:14",
+    "isActive": true,
+    "firstSeen": "2025-01-06T11:38:22.695Z",
+    "lastSeen": "2025-01-06T13:59:18.559Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 109970,
+      "Avg. Daily Volume": 3080000,
+      "Short Float": 590340,
+      "Short Ratio": "3.57%"
+    }
+  },
+  "GDTC": {
+    "ticker": "GDTC",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T13:32:44Z",
-        "headline": "Ondas' American Robotics Secures Additional FAA BVLOS Waiver For Expanded Drone Operations Over People And Moving Vehicles From Remote Operations Center",
-        "id": 42784231,
+        "created_at": "2025-01-06T12:05:05Z",
+        "headline": "CytoMed Therapeutics Has Entered Into A Business & Research Collaboration Agreement With Mumbai-Based SunAct Cancer Institute Private",
+        "id": 42810357,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ONDS"
+          "GDTC"
         ],
-        "updated_at": "2025-01-03T13:32:44Z",
-        "url": "https://www.benzinga.com/government/25/01/42784231/ondas-american-robotics-secures-additional-faa-bvlos-waiver-for-expanded-drone-operations-over-peopl",
-        "added_at": "2025-01-03T13:56:37.946Z"
+        "updated_at": "2025-01-06T12:05:05Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/42810357/cytomed-therapeutics-has-entered-into-a-business-research-collaboration-agreement-with-mumbai-bas",
+        "added_at": "2025-01-06T12:09:34.245Z"
       }
     ],
     "hod": false,
-    "float": "72.02M",
-    "price": "3.44",
-    "time": "10:01:11",
+    "float": "4.83M",
+    "price": "7.69",
+    "time": "13:02:04",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:01:17.378Z",
-    "lastSeen": "2025-01-03T09:44:56.885Z",
+    "firstSeen": "2025-01-06T12:02:09.193Z",
+    "lastSeen": "2025-01-06T13:40:45.115Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3830000,
-      "Avg. Daily Volume": 72200000,
-      "Short Float": 1480000,
-      "Short Ratio": "5.31%"
+      "Short Interest": 62690,
+      "Avg. Daily Volume": 4830000,
+      "Short Float": 19320,
+      "Short Ratio": "1.30%"
     }
   },
-  "HOLO": {
-    "ticker": "HOLO",
+  "KITT": {
+    "ticker": "KITT",
     "news": [],
     "hod": false,
-    "float": "20.44M",
-    "price": "6.29",
-    "time": "10:01:03",
+    "float": "5.58M",
+    "price": "6.01",
+    "time": "13:02:49",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:01:17.378Z",
-    "lastSeen": "2025-01-03T09:01:17.378Z",
+    "firstSeen": "2025-01-06T12:03:22.358Z",
+    "lastSeen": "2025-01-06T14:27:57.488Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2760000,
-      "Avg. Daily Volume": 20440000,
-      "Short Float": 4099999.9999999995,
-      "Short Ratio": "13.48%"
+      "Short Interest": 448950,
+      "Avg. Daily Volume": 5580000,
+      "Short Float": 1100000,
+      "Short Ratio": "8.05%"
     }
   },
-  "REKR": {
-    "ticker": "REKR",
+  "RR": {
+    "ticker": "RR",
     "news": [],
     "hod": false,
-    "float": "86.63M",
-    "price": "1.93",
-    "time": "10:01:54",
+    "float": "77.31M",
+    "price": "5.06",
+    "time": "13:06:57",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:01:59.667Z",
-    "lastSeen": "2025-01-03T09:01:59.667Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-186200 (33 Act)  Size: 667 KB",
-        "date": "2024-07-26"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-181620 (33 Act)  Size: 244 KB",
-        "date": "2024-07-19"
-      }
-    ],
+    "firstSeen": "2025-01-06T12:06:58.410Z",
+    "lastSeen": "2025-01-06T13:49:12.611Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 14610000,
-      "Avg. Daily Volume": 85770000,
-      "Short Float": 933200,
-      "Short Ratio": "17.04%"
+      "Short Interest": 2980000,
+      "Avg. Daily Volume": 44950000,
+      "Short Float": 4280000,
+      "Short Ratio": "6.64%"
     }
   },
-  "RVSN": {
-    "ticker": "RVSN",
+  "LDTC": {
+    "ticker": "LDTC",
     "news": [],
     "hod": false,
-    "float": "18.62M",
-    "price": "2.44",
-    "time": "10:01:47",
+    "float": "11.00M",
+    "price": "2.04",
+    "time": "13:09:35",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:01:59.667Z",
-    "lastSeen": "2025-01-03T09:01:59.667Z",
+    "firstSeen": "2025-01-06T12:10:18.626Z",
+    "lastSeen": "2025-01-06T13:28:25.829Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 319180,
-      "Avg. Daily Volume": 18620000,
-      "Short Float": 420560,
-      "Short Ratio": "1.71%"
+      "Short Interest": 2710000,
+      "Avg. Daily Volume": 8400000,
+      "Short Float": 6770000,
+      "Short Ratio": "32.25%"
     }
   },
   "LAES": {
     "ticker": "LAES",
     "news": [
       {
-        "author": "Benzinga Insights",
+        "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-02T19:15:18Z",
-        "headline": "Looking Into SEALSQ's Recent Short Interest",
-        "id": 42773615,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
-          }
-        ],
+        "created_at": "2025-01-06T13:31:43Z",
+        "headline": "SEALSQ To Supply VaultIC 408 Secure Microcontroller To Millions Of Smart Meters In UK; Terms Not Disclosed",
+        "id": 42812849,
+        "images": [],
         "source": "benzinga",
-        "summary": " ",
+        "summary": "",
         "symbols": [
           "LAES"
         ],
-        "updated_at": "2025-01-02T19:15:19Z",
-        "url": "https://www.benzinga.com/insights/short-sellers/25/01/42773615/looking-into-sealsqs-recent-short-interest",
-        "added_at": "2025-01-03T09:03:47.538Z"
+        "updated_at": "2025-01-06T13:31:44Z",
+        "url": "https://www.benzinga.com/news/25/01/42812849/sealsq-to-supply-vaultic-408-secure-microcontroller-to-millions-of-smart-meters-in-uk-terms-not-disc",
+        "added_at": "2025-01-06T13:34:34.829Z"
       }
     ],
     "hod": false,
     "float": "76.85M",
-    "price": "8.77",
-    "time": "10:03:35",
+    "price": "8.99",
+    "time": "13:10:50",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:03:46.068Z",
-    "lastSeen": "2025-01-03T09:03:46.068Z",
+    "firstSeen": "2025-01-06T12:11:09.691Z",
+    "lastSeen": "2025-01-06T14:27:57.488Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
       "Short Interest": 9000000,
@@ -234,368 +299,197 @@
       "Short Ratio": "40.69%"
     }
   },
-  "SPCB": {
-    "ticker": "SPCB",
+  "PWM": {
+    "ticker": "PWM",
+    "news": [],
+    "hod": false,
+    "float": "1.01M",
+    "price": "1.7",
+    "time": "13:12:02",
+    "isActive": true,
+    "firstSeen": "2025-01-06T12:13:08.578Z",
+    "lastSeen": "2025-01-06T12:42:05.826Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 123000,
+      "Avg. Daily Volume": 2300000,
+      "Short Float": 522020,
+      "Short Ratio": "5.35%"
+    }
+  },
+  "DHAI": {
+    "ticker": "DHAI",
+    "news": [],
+    "hod": false,
+    "float": "21.26M",
+    "price": "1.91",
+    "time": "13:20:14",
+    "isActive": true,
+    "firstSeen": "2025-01-06T12:20:43.505Z",
+    "lastSeen": "2025-01-06T12:20:43.505Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 157030,
+      "Avg. Daily Volume": 21260000,
+      "Short Float": 35610,
+      "Short Ratio": "0.74%"
+    }
+  },
+  "FEBO": {
+    "ticker": "FEBO",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-02T14:18:19Z",
-        "headline": "SuperCom Announces Two Contracts With Agencies In Kentucky, Financial Details Not Disclosed",
-        "id": 42764437,
+        "created_at": "2025-01-06T11:23:27Z",
+        "headline": "Fenbo Holdings Limited Filed Form RW; Request For Withdrawal Of Registration Statement On Form F-1",
+        "id": 42809592,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SPCB"
+          "FEBO"
         ],
-        "updated_at": "2025-01-02T14:18:19Z",
-        "url": "https://www.benzinga.com/news/25/01/42764437/supercom-announces-two-contracts-with-agencies-in-kentucky-financial-details-not-disclosed",
-        "added_at": "2025-01-03T11:31:50.867Z"
+        "updated_at": "2025-01-06T11:23:27Z",
+        "url": "https://www.benzinga.com/news/25/01/42809592/fenbo-holdings-limited-filed-form-rw-request-for-withdrawal-of-registration-statement-on-form-f-1",
+        "added_at": "2025-01-06T12:28:31.991Z"
       }
     ],
     "hod": false,
-    "float": "1.56M",
-    "price": "10.24",
-    "time": "10:04:19",
+    "float": "2.06M",
+    "price": "2.62",
+    "time": "13:28:27",
     "isActive": true,
-    "firstSeen": "2025-01-03T09:04:40.823Z",
-    "lastSeen": "2025-01-03T14:04:04.594Z",
+    "firstSeen": "2025-01-06T12:28:29.660Z",
+    "lastSeen": "2025-01-06T14:00:46.732Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25670,
-      "Avg. Daily Volume": 1560000,
-      "Short Float": 99850,
-      "Short Ratio": "1.65%"
+      "Short Interest": 76120,
+      "Avg. Daily Volume": 2060000,
+      "Short Float": 78300,
+      "Short Ratio": "3.70%"
     }
   },
-  "SIDU": {
-    "ticker": "SIDU",
-    "news": [],
-    "hod": false,
-    "float": "8.33M",
-    "price": "3.4",
-    "time": "10:07:15",
-    "isActive": true,
-    "firstSeen": "2025-01-03T09:07:28.137Z",
-    "lastSeen": "2025-01-03T09:23:48.021Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-051868 (33 Act)  Size: 641 KB",
-        "date": "2024-12-23"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 534870,
-      "Avg. Daily Volume": 8330000,
-      "Short Float": 604110,
-      "Short Ratio": "6.42%"
-    }
-  },
-  "NINE": {
-    "ticker": "NINE",
-    "news": [],
-    "hod": false,
-    "float": "30.70M",
-    "price": "1.56",
-    "time": "10:15:48",
-    "isActive": true,
-    "firstSeen": "2025-01-03T09:16:26.026Z",
-    "lastSeen": "2025-01-03T11:50:40.625Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3790000,
-      "Avg. Daily Volume": 30700000,
-      "Short Float": 916400,
-      "Short Ratio": "12.34%"
-    }
-  },
-  "INTZ": {
-    "ticker": "INTZ",
-    "news": [],
-    "hod": false,
-    "float": "7.04M",
-    "price": "4.45",
-    "time": "10:22:50",
-    "isActive": true,
-    "firstSeen": "2025-01-03T09:23:13.801Z",
-    "lastSeen": "2025-01-03T09:23:48.021Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
-        "date": "2024-12-17"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
-        "date": "2024-08-15"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 248840,
-      "Avg. Daily Volume": 7960000,
-      "Short Float": 191370,
-      "Short Ratio": "3.13%"
-    }
-  },
-  "SATL": {
-    "ticker": "SATL",
-    "news": [],
-    "hod": false,
-    "float": "67.36M",
-    "price": "3.9",
-    "time": "10:30:51",
-    "isActive": true,
-    "firstSeen": "2025-01-03T09:30:53.130Z",
-    "lastSeen": "2025-01-03T10:14:59.600Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1620000,
-      "Avg. Daily Volume": 57020000,
-      "Short Float": 538380,
-      "Short Ratio": "2.85%"
-    }
-  },
-  "MFI": {
-    "ticker": "MFI",
-    "news": [],
-    "hod": false,
-    "float": "4.20M",
-    "price": "1.53",
-    "time": "11:02:17",
-    "isActive": true,
-    "firstSeen": "2025-01-03T10:03:22.653Z",
-    "lastSeen": "2025-01-03T14:16:16.760Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25900,
-      "Avg. Daily Volume": 4200000,
-      "Short Float": 262280,
-      "Short Ratio": "0.62%"
-    }
-  },
-  "HCTI": {
-    "ticker": "HCTI",
-    "news": [],
-    "hod": false,
-    "float": "3.02M",
-    "price": "1.65",
-    "time": "11:46:51",
-    "isActive": true,
-    "firstSeen": "2025-01-03T10:47:05.373Z",
-    "lastSeen": "2025-01-03T13:24:03.410Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-003800 (33 Act)  Size: 745 KB",
-        "date": "2024-01-16"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001607062-24-000023 (33 Act)  Size: 1 MB",
-        "date": "2024-01-05"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 169480,
-      "Avg. Daily Volume": 3020000,
-      "Short Float": 3180000,
-      "Short Ratio": "5.61%"
-    }
-  },
-  "NUS": {
-    "ticker": "NUS",
+  "SEDG": {
+    "ticker": "SEDG",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T11:03:39Z",
-        "headline": "Nu Skin Enterprises' Rhyz Subsidiary Sells Mavely Affiliate Marketing Platform To Later For $250M In Cash and Equity, Retains Minority Stake In Combined Later/Mavely Business",
-        "id": 42782103,
+        "created_at": "2025-01-06T12:21:04Z",
+        "headline": "SolarEdge Currently Estimates To Recognize Pre-tax Charges To Its GAAP Results Of Approximately $3M - $5M Consisting Of Severance, Other One-time Termination Benefits, And Other Costs",
+        "id": 42810846,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NUS"
+          "SEDG"
         ],
-        "updated_at": "2025-01-03T11:03:39Z",
-        "url": "https://www.benzinga.com/news/25/01/42782103/nu-skin-enterprises-rhyz-subsidiary-sells-mavely-affiliate-marketing-platform-to-later-for-250m-in-c",
-        "added_at": "2025-01-03T11:08:59.481Z"
-      }
-    ],
-    "hod": false,
-    "float": "48.54M",
-    "price": "8.15",
-    "time": "12:03:52",
-    "isActive": true,
-    "firstSeen": "2025-01-03T11:04:40.510Z",
-    "lastSeen": "2025-01-03T12:36:39.676Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1610000,
-      "Avg. Daily Volume": 48530000,
-      "Short Float": 1050000,
-      "Short Ratio": "3.33%"
-    }
-  },
-  "LICY": {
-    "ticker": "LICY",
-    "news": [],
-    "hod": false,
-    "float": "16.69M",
-    "price": "2.7",
-    "time": "12:49:08",
-    "isActive": true,
-    "firstSeen": "2025-01-03T11:49:50.109Z",
-    "lastSeen": "2025-01-03T11:49:50.109Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1640000,
-      "Avg. Daily Volume": 16690000.000000002,
-      "Short Float": 1310000,
-      "Short Ratio": "9.80%"
-    }
-  },
-  "CHEK": {
-    "ticker": "CHEK",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-02T21:02:08Z",
-        "headline": "Check-Cap Ltd. Receives Decision To Grant European Patent Number EP4087488 titled \"RADIATION CAPSULE FOR BOWEL DISEASE IMAGING AND LOCALIZE DRUG DELIVERY\"",
-        "id": 42775977,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CHEK"
-        ],
-        "updated_at": "2025-01-02T21:02:09Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42775977/check-cap-ltd-receives-decision-to-grant-european-patent-number-ep4087488-titled-radiation-capsul",
-        "added_at": "2025-01-03T11:56:21.372Z"
-      }
-    ],
-    "hod": false,
-    "float": "4.38M",
-    "price": "1.71",
-    "time": "12:56:14",
-    "isActive": true,
-    "firstSeen": "2025-01-03T11:56:18.799Z",
-    "lastSeen": "2025-01-03T13:10:51.507Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 9850,
-      "Avg. Daily Volume": 4380000,
-      "Short Float": 20650,
-      "Short Ratio": "0.22%"
-    }
-  },
-  "XPON": {
-    "ticker": "XPON",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-02T17:58:12Z",
-        "headline": "Expion360 Announces $2.6M Registered Direct And Private Placement",
-        "id": 42771587,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "XPON"
-        ],
-        "updated_at": "2025-01-02T17:58:13Z",
-        "url": "https://www.benzinga.com/news/25/01/42771587/expion360-announces-2-6m-registered-direct-and-private-placement",
-        "added_at": "2025-01-03T12:09:29.140Z"
+        "updated_at": "2025-01-06T12:21:05Z",
+        "url": "https://www.benzinga.com/news/25/01/42810846/solaredge-currently-estimates-to-recognize-pre-tax-charges-to-its-gaap-results-of-approximately-3m-5",
+        "added_at": "2025-01-06T12:42:08.257Z"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-02T13:37:38Z",
-        "headline": "Expion360 Sees Q4 Prelim. Revenue $1.8M-$2M vs $1.4M In Q3",
-        "id": 42763656,
+        "created_at": "2025-01-06T12:18:41Z",
+        "headline": "SolarEdge Reveals Development Of Detailed Plan For 2025; Says Will Need To Separate From Approximately 400 Employees; Plans To Reduce Spend In Order To Reach Targets - Filing",
+        "id": 42810830,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "XPON"
+          "SEDG"
         ],
-        "updated_at": "2025-01-02T13:37:38Z",
-        "url": "https://www.benzinga.com/news/25/01/42763656/expion360-sees-q4-prelim-revenue-1-8m-2m-vs-1-4m-in-q3",
-        "added_at": "2025-01-03T12:09:29.151Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-02T13:33:43Z",
-        "headline": "Expion360 Begins Fulfilling Purchase Orders For Its e360 Home Energy Storage Solutions To Wellspring Solar",
-        "id": 42763554,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "XPON"
-        ],
-        "updated_at": "2025-01-02T13:33:44Z",
-        "url": "https://www.benzinga.com/news/25/01/42763554/expion360-begins-fulfilling-purchase-orders-for-its-e360-home-energy-storage-solutions-to-wellspring",
-        "added_at": "2025-01-03T12:09:29.152Z"
+        "updated_at": "2025-01-06T12:18:42Z",
+        "url": "https://www.benzinga.com/news/25/01/42810830/solaredge-reveals-development-of-detailed-plan-for-2025-says-will-need-to-separate-from-approximatel",
+        "added_at": "2025-01-06T12:42:08.260Z"
       }
     ],
-    "hod": false,
-    "float": "2.03M",
-    "price": "2.19",
-    "time": "13:00:46",
+    "hod": true,
+    "float": "56.85M",
+    "price": "18.77",
+    "time": "13:41:36",
     "isActive": true,
-    "firstSeen": "2025-01-03T12:00:55.987Z",
-    "lastSeen": "2025-01-03T12:00:55.987Z",
+    "firstSeen": "2025-01-06T12:42:05.826Z",
+    "lastSeen": "2025-01-06T14:36:25.614Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 302740,
-      "Avg. Daily Volume": 2029999.9999999998,
-      "Short Float": 2029999.9999999998,
-      "Short Ratio": "14.91%"
+      "Short Interest": 22010000,
+      "Avg. Daily Volume": 56840000,
+      "Short Float": 4790000,
+      "Short Ratio": "38.72%"
     }
   },
-  "CRNC": {
-    "ticker": "CRNC",
+  "LIDR": {
+    "ticker": "LIDR",
+    "news": [],
+    "hod": true,
+    "float": "7.63M",
+    "price": "2.28",
+    "time": "14:01:19",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:01:20.523Z",
+    "lastSeen": "2025-01-06T14:31:14.470Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 253480,
+      "Avg. Daily Volume": 7630000,
+      "Short Float": 164870,
+      "Short Ratio": "3.32%"
+    }
+  },
+  "KSCP": {
+    "ticker": "KSCP",
+    "news": [],
+    "hod": false,
+    "float": "4.18M",
+    "price": "19.95",
+    "time": "14:01:14",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:01:20.523Z",
+    "lastSeen": "2025-01-06T13:01:20.523Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 399790,
+      "Avg. Daily Volume": 3840000,
+      "Short Float": 318880,
+      "Short Ratio": "10.41%"
+    }
+  },
+  "AMPG": {
+    "ticker": "AMPG",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T13:04:00Z",
-        "headline": "Cerence AI Reveals Expanded Collaboration With NVIDIA To Advance  Capabilities Of CaLLM Family Of Language Models",
-        "id": 42783764,
+        "created_at": "2025-01-06T13:36:53Z",
+        "headline": "U.S. Patent And Trademark Office Issued AmpliTech Group Notice Of Allowance For Another Patent For Its LNA Technology",
+        "id": 42813121,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "CRNC"
+          "AMPG"
         ],
-        "updated_at": "2025-01-03T13:04:01Z",
-        "url": "https://www.benzinga.com/news/25/01/42783764/cerence-ai-reveals-expanded-collaboration-with-nvidia-to-advance-capabilities-of-callm-family-of-lan",
-        "added_at": "2025-01-03T13:56:39.667Z"
+        "updated_at": "2025-01-06T13:36:53Z",
+        "url": "https://www.benzinga.com/news/25/01/42813121/u-s-patent-and-trademark-office-issued-amplitech-group-notice-of-allowance-for-another-patent-for-it",
+        "added_at": "2025-01-06T13:39:32.210Z"
       }
     ],
     "hod": false,
-    "float": "39.88M",
-    "price": "11.21",
-    "time": "14:00:34",
+    "float": "14.91M",
+    "price": "4.91",
+    "time": "14:03:29",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:00:49.396Z",
-    "lastSeen": "2025-01-03T13:56:36.904Z",
+    "firstSeen": "2025-01-06T13:03:43.080Z",
+    "lastSeen": "2025-01-06T13:55:49.012Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 7290000,
-      "Avg. Daily Volume": 39880000,
-      "Short Float": 3310000,
-      "Short Ratio": "18.29%"
+      "Short Interest": 2290000,
+      "Avg. Daily Volume": 11860000,
+      "Short Float": 5150000,
+      "Short Ratio": "19.34%"
     }
   },
   "NRXP": {
@@ -604,72 +498,27 @@
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T13:10:56Z",
-        "headline": "NRx Pharmaceuticals Subsidiary, HOPE Therapeutics, To Host Investor Workshop For Qualified Institutional Investors At Mar-A-Lago Club During the Week of January 6, 2025",
-        "id": 42783872,
+        "created_at": "2025-01-06T13:07:57Z",
+        "headline": "HOPE Therapeutics And NRx Pharmaceuticals Announce Dura Medical As Expected Initial Florida Acquisition For Planned International Network Of Interventional Psychiatry Clinics",
+        "id": 42812117,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
           "NRXP"
         ],
-        "updated_at": "2025-01-03T13:10:57Z",
-        "url": "https://www.benzinga.com/news/25/01/42783872/nrx-pharmaceuticals-subsidiary-hope-therapeutics-to-host-investor-workshop-for-qualified-institution",
-        "added_at": "2025-01-03T13:56:37.461Z"
-      },
-      {
-        "author": "Dylan Berman",
-        "content": "",
-        "created_at": "2025-01-02T18:14:29Z",
-        "headline": "What's Going On With NRX Pharmaceuticals Stock Thursday?",
-        "id": 42772187,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/02/pharmaceutical-ai-generated.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/02/pharmaceutical-ai-generated.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/02/pharmaceutical-ai-generated.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": "NRX shares are trading higher on Thursday after the company announced a joint acquisition initiative with Hope Therapeutics to buy Kadima Neuropsychiatry Institute.",
-        "symbols": [
-          "NRXP"
-        ],
-        "updated_at": "2025-01-02T18:14:30Z",
-        "url": "https://www.benzinga.com/25/01/42772187/whats-going-on-with-nrx-pharmaceuticals-stock-on-thursday",
-        "added_at": "2025-01-03T13:56:37.461Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-02T14:15:50Z",
-        "headline": "D. Boral Capital Maintains Buy on NRX Pharmaceuticals, Maintains $31 Price Target",
-        "id": 42764413,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NRXP"
-        ],
-        "updated_at": "2025-01-02T14:15:50Z",
-        "url": "https://www.benzinga.com/news/25/01/42764413/d-boral-capital-maintains-buy-on-nrx-pharmaceuticals-maintains-31-price-target",
-        "added_at": "2025-01-03T13:56:37.461Z"
+        "updated_at": "2025-01-06T13:07:58Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/42812117/hope-therapeutics-and-nrx-pharmaceuticals-announce-dura-medical-as-expected-initial-florida-acqui",
+        "added_at": "2025-01-06T13:09:41.550Z"
       }
     ],
     "hod": false,
     "float": "9.20M",
-    "price": "3.4",
-    "time": "14:04:11",
+    "price": "3.2",
+    "time": "14:05:13",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:04:56.589Z",
-    "lastSeen": "2025-01-03T13:06:04.048Z",
+    "firstSeen": "2025-01-06T13:05:14.370Z",
+    "lastSeen": "2025-01-06T13:06:42.567Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
       "Short Interest": 599840,
@@ -678,197 +527,383 @@
       "Short Ratio": "6.52%"
     }
   },
-  "NMRA": {
-    "ticker": "NMRA",
+  "ARBE": {
+    "ticker": "ARBE",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T10:57:53Z",
-        "headline": "HC Wainwright & Co. Reiterates Buy on Neumora Therapeutics, Maintains $30 Price Target",
-        "id": 42781867,
+        "created_at": "2025-01-06T13:12:01Z",
+        "headline": "Arbe Robotics Announces Upcoming Presentation At CES 2025; Highlights Its Radar Integrating With NVIDIA DRIVE AGX In-Vehicle Computing Platform",
+        "id": 42812198,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "NMRA"
+          "ARBE"
         ],
-        "updated_at": "2025-01-03T10:57:54Z",
-        "url": "https://www.benzinga.com/news/25/01/42781867/hc-wainwright-co-reiterates-buy-on-neumora-therapeutics-maintains-30-price-target",
-        "added_at": "2025-01-03T13:56:37.572Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-02T14:24:10Z",
-        "headline": "Needham Reiterates Buy on Neumora Therapeutics, Maintains $23 Price Target",
-        "id": 42764541,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NMRA"
-        ],
-        "updated_at": "2025-01-02T14:24:10Z",
-        "url": "https://www.benzinga.com/news/25/01/42764541/needham-reiterates-buy-on-neumora-therapeutics-maintains-23-price-target",
-        "added_at": "2025-01-03T13:56:37.573Z"
+        "updated_at": "2025-01-06T13:12:02Z",
+        "url": "https://www.benzinga.com/news/25/01/42812198/arbe-robotics-announces-upcoming-presentation-at-ces-2025-highlights-its-radar-integrating-with-nvid",
+        "added_at": "2025-01-06T13:14:35.723Z"
       }
     ],
-    "hod": false,
-    "float": "55.17M",
-    "price": "2.27",
-    "time": "14:03:30",
+    "hod": true,
+    "float": "55.68M",
+    "price": "4.85",
+    "time": "14:05:02",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:04:56.589Z",
-    "lastSeen": "2025-01-03T13:19:10.305Z",
+    "firstSeen": "2025-01-06T13:05:14.371Z",
+    "lastSeen": "2025-01-06T14:32:36.767Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 10830000,
-      "Avg. Daily Volume": 55350000,
-      "Short Float": 1150000,
-      "Short Ratio": "19.57%"
+      "Short Interest": 680480,
+      "Avg. Daily Volume": 55680000,
+      "Short Float": 103600,
+      "Short Ratio": "1.22%"
     }
   },
-  "TXMD": {
-    "ticker": "TXMD",
+  "LFWD": {
+    "ticker": "LFWD",
     "news": [],
     "hod": false,
-    "float": "11.34M",
-    "price": "1.72",
-    "time": "14:05:57",
+    "float": "6.92M",
+    "price": "3.54",
+    "time": "14:06:28",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:06:04.048Z",
-    "lastSeen": "2025-01-03T14:13:43.784Z",
+    "firstSeen": "2025-01-06T13:06:42.567Z",
+    "lastSeen": "2025-01-06T14:15:17.036Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 21270,
-      "Avg. Daily Volume": 11340000,
-      "Short Float": 16660,
-      "Short Ratio": "0.19%"
+      "Short Interest": 183350,
+      "Avg. Daily Volume": 6920000,
+      "Short Float": 43960,
+      "Short Ratio": "2.65%"
     }
   },
-  "APM": {
-    "ticker": "APM",
+  "WISA": {
+    "ticker": "WISA",
+    "news": [],
+    "hod": false,
+    "float": "6.38M",
+    "price": "2.47",
+    "time": "14:11:12",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:11:23.837Z",
+    "lastSeen": "2025-01-06T13:11:23.837Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 646410,
+      "Avg. Daily Volume": 6370000,
+      "Short Float": 525520,
+      "Short Ratio": "10.15%"
+    }
+  },
+  "STAI": {
+    "ticker": "STAI",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "2.6",
+    "time": "14:11:58",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:12:03.882Z",
+    "lastSeen": "2025-01-06T13:51:01.049Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 3930,
+      "Avg. Daily Volume": 2820000,
+      "Short Float": 16170.000000000002,
+      "Short Ratio": "0.14%"
+    }
+  },
+  "NVNI": {
+    "ticker": "NVNI",
+    "news": [],
+    "hod": false,
+    "float": "9.23M",
+    "price": "3.2",
+    "time": "14:18:10",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:18:14.614Z",
+    "lastSeen": "2025-01-06T13:29:47.506Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 17120,
+      "Avg. Daily Volume": 8070000,
+      "Short Float": 9150,
+      "Short Ratio": "0.21%"
+    }
+  },
+  "OM": {
+    "ticker": "OM",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-02T15:56:23Z",
-        "headline": "Aptorum Group Prices Registered Direct Offering Of 1,535,000 Class A Ordinary Shares At $2/Share",
-        "id": 42767952,
+        "created_at": "2025-01-06T13:30:58Z",
+        "headline": "Outset Medical Announces $169M Private Placement Financing From Leading Mutual Funds And Healthcare Institutional Investors; Reports Unaudited Q4 Revenue Of $29M And 2024 Revenue Of $113M",
+        "id": 42812831,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "APM"
+          "OM"
         ],
-        "updated_at": "2025-01-02T15:56:24Z",
-        "url": "https://www.benzinga.com/news/25/01/42767952/aptorum-group-prices-registered-direct-offering-of-1-535-000-class-a-ordinary-shares-at-2share",
-        "added_at": "2025-01-03T13:56:37.791Z"
+        "updated_at": "2025-01-06T13:30:59Z",
+        "url": "https://www.benzinga.com/news/earnings/25/01/42812831/outset-medical-announces-169m-private-placement-financing-from-leading-mutual-funds-and-healthcare-",
+        "added_at": "2025-01-06T13:34:36.346Z"
       }
     ],
     "hod": false,
-    "float": "3.49M",
-    "price": "2.5",
-    "time": "14:07:24",
+    "float": "48.29M",
+    "price": "1.61",
+    "time": "14:30:16",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:07:32.790Z",
-    "lastSeen": "2025-01-03T13:26:46.031Z",
+    "firstSeen": "2025-01-06T13:31:06.620Z",
+    "lastSeen": "2025-01-06T14:17:42.283Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 11110,
-      "Avg. Daily Volume": 2170000,
-      "Short Float": 42660,
-      "Short Ratio": "0.51%"
+      "Short Interest": 2620000,
+      "Avg. Daily Volume": 48260000,
+      "Short Float": 882450,
+      "Short Ratio": "5.43%"
     }
   },
-  "JFBR": {
-    "ticker": "JFBR",
+  "CMTL": {
+    "ticker": "CMTL",
+    "news": [],
+    "hod": false,
+    "float": "26.06M",
+    "price": "4.55",
+    "time": "14:49:33",
+    "isActive": true,
+    "firstSeen": "2025-01-06T13:51:01.049Z",
+    "lastSeen": "2025-01-06T13:51:01.049Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 1020000,
+      "Avg. Daily Volume": 26060000,
+      "Short Float": 464870,
+      "Short Ratio": "3.91%"
+    }
+  },
+  "WLDS": {
+    "ticker": "WLDS",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-03T13:34:28Z",
-        "headline": "Jeffs' Brands Signs Non-Binding LOI To Merge Fort Products With $12M Publicly Traded Company",
-        "id": 42784384,
+        "created_at": "2025-01-06T14:11:13Z",
+        "headline": "Wearable Devices Files For Offering Of Up To 2.3M Ordinary Shares Together With Accompanying Warrants",
+        "id": 42814568,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "JFBR"
+          "WLDS"
         ],
-        "updated_at": "2025-01-03T13:34:29Z",
-        "url": "https://www.benzinga.com/m-a/25/01/42784384/jeffs-brands-signs-non-binding-loi-to-merge-fort-products-with-12m-publicly-traded-company",
-        "added_at": "2025-01-03T13:56:40.205Z"
+        "updated_at": "2025-01-06T14:11:14Z",
+        "url": "https://www.benzinga.com/news/25/01/42814568/wearable-devices-files-for-offering-of-up-to-2-3m-ordinary-shares-together-with-accompanying-warrant",
+        "added_at": "2025-01-06T14:14:36.684Z"
       }
     ],
     "hod": false,
-    "float": "489.40K",
-    "price": "3.08",
-    "time": "14:55:56",
+    "float": "1.97M",
+    "price": "2.62",
+    "time": "14:58:31",
     "isActive": true,
-    "firstSeen": "2025-01-03T13:56:36.904Z",
-    "lastSeen": "2025-01-03T13:56:36.904Z",
+    "firstSeen": "2025-01-06T13:59:18.559Z",
+    "lastSeen": "2025-01-06T13:59:18.559Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 225260,
-      "Avg. Daily Volume": 490000,
-      "Short Float": 809130,
-      "Short Ratio": "45.97%"
+      "Short Interest": 58060,
+      "Avg. Daily Volume": 1970000,
+      "Short Float": 596100,
+      "Short Ratio": "2.95%"
     }
   },
-  "GMM": {
-    "ticker": "GMM",
+  "NKLA": {
+    "ticker": "NKLA",
     "news": [],
     "hod": false,
-    "float": "1.42M",
-    "price": "4.75",
-    "time": "15:08:17",
-    "isActive": true,
-    "firstSeen": "2025-01-03T14:08:25.742Z",
-    "lastSeen": "2025-01-03T14:08:25.742Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 85430,
-      "Avg. Daily Volume": 11040000,
-      "Short Float": 256930,
-      "Short Ratio": "0.77%"
-    }
-  },
-  "DRCT": {
-    "ticker": "DRCT",
-    "news": [],
-    "hod": false,
-    "float": "4.12M",
+    "float": "80.99M",
     "price": "1.78",
-    "time": "15:10:39",
+    "time": "14:59:59",
     "isActive": true,
-    "firstSeen": "2025-01-03T14:11:11.200Z",
-    "lastSeen": "2025-01-03T14:12:28.768Z",
+    "firstSeen": "2025-01-06T14:00:46.732Z",
+    "lastSeen": "2025-01-06T14:25:19.091Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-272932 (33 Act)  Size: 2 MB",
+        "date": "2024-12-09"
+      }
+    ],
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 224620,
-      "Avg. Daily Volume": 3460000,
-      "Short Float": 137050,
-      "Short Ratio": "6.49%"
+      "Short Interest": 20840000,
+      "Avg. Daily Volume": 80990000,
+      "Short Float": 6100000,
+      "Short Ratio": "25.74%"
     }
   },
-  "LDTC": {
-    "ticker": "LDTC",
+  "RENB": {
+    "ticker": "RENB",
     "news": [],
     "hod": false,
-    "float": "11.00M",
-    "price": "1.52",
-    "time": "15:13:20",
+    "float": "77.15M",
+    "price": "1.57",
+    "time": "15:12:17",
     "isActive": true,
-    "firstSeen": "2025-01-03T14:13:43.784Z",
-    "lastSeen": "2025-01-03T14:13:43.784Z",
+    "firstSeen": "2025-01-06T14:12:54.181Z",
+    "lastSeen": "2025-01-06T14:18:59.537Z",
     "shorts": {
       "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2710000,
-      "Avg. Daily Volume": 8400000,
-      "Short Float": 6770000,
-      "Short Ratio": "32.25%"
+      "Short Interest": 3870000,
+      "Avg. Daily Volume": 77150000,
+      "Short Float": 658240,
+      "Short Ratio": "5.01%"
     }
+  },
+  "CETX": {
+    "ticker": "CETX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-06T14:20:53Z",
+        "headline": "Cemtrex Regains Compliance With NASDAQ Qualifications",
+        "id": 42814788,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CETX"
+        ],
+        "updated_at": "2025-01-06T14:20:53Z",
+        "url": "https://www.benzinga.com/news/25/01/42814788/cemtrex-regains-compliance-with-nasdaq-qualifications",
+        "added_at": "2025-01-06T14:24:36.975Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.72M",
+    "price": "3.44",
+    "time": "15:21:07",
+    "isActive": true,
+    "firstSeen": "2025-01-06T14:21:11.917Z",
+    "lastSeen": "2025-01-06T14:21:11.917Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-051084 (33 Act)  Size: 475 KB",
+        "date": "2024-12-20"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 377300,
+      "Avg. Daily Volume": 1340000,
+      "Short Float": 350710,
+      "Short Ratio": "28.16%"
+    }
+  },
+  "LNKS": {
+    "ticker": "LNKS",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "1.78",
+    "time": "15:25:04",
+    "isActive": true,
+    "firstSeen": "2025-01-06T14:25:19.091Z",
+    "lastSeen": "2025-01-06T14:25:19.091Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 7170,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 628800,
+      "Short Ratio": "N/A"
+    }
+  },
+  "AMOD": {
+    "ticker": "AMOD",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-06T14:05:09Z",
+        "headline": "Alpha Modus Announces On December 24, 2024, The U.S. Patent And Trademark Office Issued Alpha Modus, Corp., The Wholly Owned Subsidiary Of The Company, Its Latest Patent, United States Patent Number 12,175,484, Titled \"Methods For Personalized Marketing And Advertising.\"",
+        "id": 42814045,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AMOD"
+        ],
+        "updated_at": "2025-01-06T14:05:10Z",
+        "url": "https://www.benzinga.com/news/25/01/42814045/alpha-modus-announces-on-december-24-2024-the-u-s-patent-and-trademark-office-issued-alpha-modus-cor",
+        "added_at": "2025-01-06T14:25:23.220Z"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "3.39",
+    "time": "15:24:02",
+    "isActive": true,
+    "firstSeen": "2025-01-06T14:25:19.091Z",
+    "lastSeen": "2025-01-06T14:25:19.091Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 13110,
+      "Avg. Daily Volume": 740000,
+      "Short Float": 5480,
+      "Short Ratio": "1.77%"
+    }
+  },
+  "IRBT": {
+    "ticker": "IRBT",
+    "news": [],
+    "hod": false,
+    "float": "28.61M",
+    "price": "11.5",
+    "time": "15:30:14",
+    "isActive": true,
+    "firstSeen": "2025-01-06T14:30:40.761Z",
+    "lastSeen": "2025-01-06T14:30:40.761Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 2990000,
+      "Avg. Daily Volume": 28610000,
+      "Short Float": 1060000,
+      "Short Ratio": "10.46%"
+    }
+  },
+  "NNOX": {
+    "ticker": "NNOX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-06T12:17:36Z",
+        "headline": "D. Boral Capital Initiates Coverage On Nano X Imaging with Buy Rating, Announces Price Target of $23",
+        "id": 42810826,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NNOX"
+        ],
+        "updated_at": "2025-01-06T12:17:36Z",
+        "url": "https://www.benzinga.com/news/25/01/42810826/d-boral-capital-initiates-coverage-on-nano-x-imaging-with-buy-rating-announces-price-target-of-23",
+        "added_at": "2025-01-06T14:36:30.183Z"
+      }
+    ],
+    "hod": true,
+    "float": "53.02M",
+    "price": "10.13",
+    "time": "15:36:00",
+    "isActive": true,
+    "firstSeen": "2025-01-06T14:36:25.619Z",
+    "lastSeen": "2025-01-06T14:36:25.619Z"
   }
 }
