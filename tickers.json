@@ -1,1 +1,46 @@
-{}
+{
+  "BOXL": {
+    "ticker": "BOXL",
+    "news": [],
+    "hod": false,
+    "float": "9.21M",
+    "price": "1.59",
+    "time": "01:13:04",
+    "isActive": true,
+    "firstSeen": "2025-01-07T08:18:40.154Z",
+    "lastSeen": "2025-01-07T08:18:40.155Z"
+  },
+  "DHAI": {
+    "ticker": "DHAI",
+    "news": [],
+    "hod": true,
+    "float": "21.26M",
+    "price": "3.37",
+    "time": "01:09:46",
+    "isActive": true,
+    "firstSeen": "2025-01-07T08:18:40.155Z",
+    "lastSeen": "2025-01-07T08:18:40.155Z"
+  },
+  "SPPL": {
+    "ticker": "SPPL",
+    "news": [],
+    "hod": false,
+    "float": "4.86M",
+    "price": "1.56",
+    "time": "01:02:51",
+    "isActive": true,
+    "firstSeen": "2025-01-07T08:18:40.155Z",
+    "lastSeen": "2025-01-07T08:18:40.155Z"
+  },
+  "LDTC": {
+    "ticker": "LDTC",
+    "news": [],
+    "hod": false,
+    "float": "10.96M",
+    "price": "1.87",
+    "time": "00:22:53",
+    "isActive": true,
+    "firstSeen": "2025-01-07T08:18:40.155Z",
+    "lastSeen": "2025-01-07T08:18:40.155Z"
+  }
+}
