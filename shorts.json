@@ -5,5 +5,12 @@
     "Avg. Daily Volume": 9210000,
     "Short Float": 67640,
     "Short Ratio": "0.88%"
+  },
+  "DHAI": {
+    "Settlement Date": "Dec 13, 2024",
+    "Short Interest": 157030,
+    "Avg. Daily Volume": 21260000,
+    "Short Float": 35610,
+    "Short Ratio": "0.74%"
   }
 }

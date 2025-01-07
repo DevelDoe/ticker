@@ -56,7 +56,14 @@
     "time": "01:09:46",
     "isActive": true,
     "firstSeen": "2025-01-07T08:18:40.155Z",
-    "lastSeen": "2025-01-07T08:18:40.155Z"
+    "lastSeen": "2025-01-07T08:18:40.155Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 157030,
+      "Avg. Daily Volume": 21260000,
+      "Short Float": 35610,
+      "Short Ratio": "0.74%"
+    }
   },
   "SPPL": {
     "ticker": "SPPL",
