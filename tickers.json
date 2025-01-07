@@ -109,6 +109,13 @@
     "time": "00:22:53",
     "isActive": true,
     "firstSeen": "2025-01-07T08:18:40.155Z",
-    "lastSeen": "2025-01-07T08:18:40.155Z"
+    "lastSeen": "2025-01-07T08:18:40.155Z",
+    "shorts": {
+      "Settlement Date": "Dec 13, 2024",
+      "Short Interest": 2710000,
+      "Avg. Daily Volume": 8400000,
+      "Short Float": 6770000,
+      "Short Ratio": "32.25%"
+    }
   }
 }

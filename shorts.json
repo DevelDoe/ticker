@@ -19,5 +19,12 @@
     "Avg. Daily Volume": 4860000,
     "Short Float": 11220000,
     "Short Ratio": "2.42%"
+  },
+  "LDTC": {
+    "Settlement Date": "Dec 13, 2024",
+    "Short Interest": 2710000,
+    "Avg. Daily Volume": 8400000,
+    "Short Float": 6770000,
+    "Short Ratio": "32.25%"
   }
 }
