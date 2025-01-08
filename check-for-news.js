@@ -161,6 +161,7 @@ const updateTickersWithNews = (ticker, news) => {
             "trading higher",
             "Shares Are Down",
             "Shares Resume Trade",
+            "What's Going On"
         ];
 
         // Skip news items with unwanted keywords in the headline
