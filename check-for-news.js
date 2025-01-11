@@ -162,7 +162,8 @@ const updateTickersWithNews = (ticker, news) => {
             "Shares Are Down",
             "Shares Resume Trade",
             "What's Going On",
-            "Stock Is Trading Lower"
+            "Stock Is Trading Lower",
+            "Shares Are Skyrocketing"
         ];
 
         // Skip news items with unwanted keywords in the headline
@@ -181,13 +182,13 @@ const updateTickersWithNews = (ticker, news) => {
             });
             console.log(`${ticker}: "${newsItem.headline}"`);
 
-            // Highlight specific keywords and play relevant sounds
-            const keywords = ["Offering", "Registered Direct", "Private Placement"];
-            if (keywords.some((keyword) => newsItem.headline.includes(keyword))) {
-                playWav("./sounds/siren.wav"); // Play siren sound
-            } else {
-                playWav("./sounds/flash.wav"); // Play flash sound
-            }
+            // // Highlight specific keywords and play relevant sounds
+            // const keywords = ["Offering", "Registered Direct", "Private Placement"];
+            // if (keywords.some((keyword) => newsItem.headline.includes(keyword))) {
+            //     playWav("./sounds/siren.wav"); // Play siren sound
+            // } else {
+            //     playWav("./sounds/flash.wav"); // Play flash sound
+            // }
 
             newNewsFound = true; // Mark as new news found
             console.log(`Added news for ${ticker}: ${newsItem.headline}`);

@@ -1,1129 +1,200 @@
 {
-  "DATS": {
-    "ticker": "DATS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:42:33Z",
-        "headline": "DatChat Announces $5.1M Registered Direct Offering Priced At-The-Market, Issuing 1.2M Shares At $4.25 Each; Proceeds To Support Working Capital And Corporate Expenses",
-        "id": 42873097,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DATS"
-        ],
-        "updated_at": "2025-01-08T13:42:34Z",
-        "url": "https://www.benzinga.com/news/25/01/42873097/datchat-announces-5-1m-registered-direct-offering-priced-at-the-market-issuing-1-2m-shares-at-4-25-e",
-        "added_at": "2025-01-08T13:45:35.979Z"
-      }
-    ],
-    "hod": false,
-    "float": "2.73M",
-    "price": "8.15",
-    "time": "01:29:51",
-    "isActive": true,
-    "firstSeen": "2025-01-08T08:29:07.179Z",
-    "lastSeen": "2025-01-08T08:29:07.180Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 273230,
-      "Avg. Daily Volume": 2730000,
-      "Short Float": 1260000,
-      "Short Ratio": "10.01%"
-    }
-  },
-  "WKEY": {
-    "ticker": "WKEY",
+  "BAER": {
+    "ticker": "BAER",
     "news": [],
     "hod": false,
-    "float": "3.20M",
-    "price": "9.31",
-    "time": "10:01:45",
+    "float": "13.99M",
+    "price": "3.3",
+    "time": "19:11:08",
     "isActive": true,
-    "firstSeen": "2025-01-08T09:02:35.607Z",
-    "lastSeen": "2025-01-08T09:02:35.607Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 373260,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 1380000,
-      "Short Ratio": "N/A"
-    }
+    "firstSeen": "2025-01-10T18:11:25.313Z",
+    "lastSeen": "2025-01-10T20:58:48.445Z"
   },
-  "ARBE": {
-    "ticker": "ARBE",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-07T20:46:36Z",
-        "headline": "Arbe Robotics Announces $29M Underwritten Registered Direct Offering Of 8,984,375 Ordinary Shares At A Purchase Price Of $3.20 Per Share",
-        "id": 42860554,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ARBE"
-        ],
-        "updated_at": "2025-01-07T20:46:36Z",
-        "url": "https://www.benzinga.com/news/25/01/42860554/arbe-robotics-announces-29m-underwritten-registered-direct-offering-of-8-984-375-ordinary-shares-at",
-        "added_at": "2025-01-08T09:04:03.828Z"
-      }
-    ],
+  "MSW": {
+    "ticker": "MSW",
+    "news": [],
     "hod": false,
-    "float": "55.68M",
-    "price": "4.37",
-    "time": "10:04:01",
+    "float": "0",
+    "price": "7.8",
+    "time": "19:09:59",
     "isActive": true,
-    "firstSeen": "2025-01-08T09:04:02.952Z",
-    "lastSeen": "2025-01-08T09:10:27.635Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 680480,
-      "Avg. Daily Volume": 55680000,
-      "Short Float": 103600,
-      "Short Ratio": "1.22%"
-    }
+    "firstSeen": "2025-01-10T18:11:25.314Z",
+    "lastSeen": "2025-01-10T20:44:20.761Z"
   },
-  "SLDB": {
-    "ticker": "SLDB",
+  "DRCT": {
+    "ticker": "DRCT",
+    "news": [],
+    "hod": false,
+    "float": "4.12M",
+    "price": "1.69",
+    "time": "19:09:21",
+    "isActive": true,
+    "firstSeen": "2025-01-10T18:11:25.314Z",
+    "lastSeen": "2025-01-10T21:00:03.001Z"
+  },
+  "DATS": {
+    "ticker": "DATS",
+    "news": [],
+    "hod": false,
+    "float": "2.73M",
+    "price": "4.9",
+    "time": "19:24:25",
+    "isActive": true,
+    "firstSeen": "2025-01-10T18:24:29.068Z",
+    "lastSeen": "2025-01-10T21:00:03.001Z"
+  },
+  "VMAR": {
+    "ticker": "VMAR",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-07T21:17:00Z",
-        "headline": "Solid Biosciences Receives FDA IND Clearance For Dual Route Of Administration Gene Therapy To Treat Neurologic And Cardiac Manifestations Of Friedreich's Ataxia",
-        "id": 42861572,
+        "created_at": "2025-01-10T06:58:57Z",
+        "headline": "Reported Earlier, Vision Marine Partners with Calip Group to Produce Advanced Cooling Plates for Electric Boat Batteries",
+        "id": 42905522,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SLDB"
+          "VMAR"
         ],
-        "updated_at": "2025-01-07T21:17:01Z",
-        "url": "https://www.benzinga.com/news/25/01/42861572/solid-biosciences-receives-fda-ind-clearance-for-dual-route-of-administration-gene-therapy-to-treat",
-        "added_at": "2025-01-08T09:04:03.945Z"
+        "updated_at": "2025-01-10T06:58:57Z",
+        "url": "https://www.benzinga.com/news/25/01/42905522/reported-earlier-vision-marine-partners-with-calip-group-to-produce-advanced-cooling-plates-for-elec",
+        "added_at": "2025-01-10T18:36:45.094Z"
       },
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-08T12:16:12Z",
-        "headline": "Truist Securities Initiates Coverage On Solid Biosciences with Buy Rating, Announces Price Target of $16",
-        "id": 42870320,
+        "created_at": "2025-01-10T20:47:35Z",
+        "headline": "Vision Marine Technologies Secures Over $11.7M Through At-the-Market Offering, Aiming To Accelerate Growth Trajectory And Solidify Leadership In The Electric Marine Propulsion Sector.",
+        "id": 42927173,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SLDB"
+          "VMAR"
         ],
-        "updated_at": "2025-01-08T12:16:13Z",
-        "url": "https://www.benzinga.com/news/25/01/42870320/truist-securities-initiates-coverage-on-solid-biosciences-with-buy-rating-announces-price-target-of",
-        "added_at": "2025-01-08T12:20:40.466Z"
+        "updated_at": "2025-01-10T20:47:35Z",
+        "url": "https://www.benzinga.com/news/25/01/42927173/vision-marine-technologies-secures-over-11-7m-through-at-the-market-offering-aiming-to-accelerate-gr",
+        "added_at": "2025-01-10T20:51:45.738Z"
       }
     ],
     "hod": false,
-    "float": "32.78M",
-    "price": "4.2",
-    "time": "10:03:41",
+    "float": "2.50M",
+    "price": "2.48",
+    "time": "19:34:17",
     "isActive": true,
-    "firstSeen": "2025-01-08T09:04:02.952Z",
-    "lastSeen": "2025-01-08T14:59:02.062Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-138930 (33 Act)  Size: 687 KB",
-        "date": "2024-05-15"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1760000,
-      "Avg. Daily Volume": 32780000,
-      "Short Float": 297960,
-      "Short Ratio": "5.36%"
-    }
+    "firstSeen": "2025-01-10T18:34:24.319Z",
+    "lastSeen": "2025-01-10T20:46:52.745Z"
+  },
+  "BKYI": {
+    "ticker": "BKYI",
+    "news": [],
+    "hod": false,
+    "float": "2.33M",
+    "price": "1.64",
+    "time": "19:35:08",
+    "isActive": true,
+    "firstSeen": "2025-01-10T18:35:45.432Z",
+    "lastSeen": "2025-01-10T18:35:45.432Z"
+  },
+  "RLAY": {
+    "ticker": "RLAY",
+    "news": [],
+    "hod": true,
+    "float": "123.37M",
+    "price": "5.99",
+    "time": "19:42:31",
+    "isActive": true,
+    "firstSeen": "2025-01-10T18:48:42.831Z",
+    "lastSeen": "2025-01-10T18:48:42.832Z"
   },
   "VRME": {
     "ticker": "VRME",
     "news": [],
     "hod": false,
-    "float": "8.14M",
-    "price": "1.75",
-    "time": "10:06:14",
+    "float": "8.11M",
+    "price": "2.83",
+    "time": "20:06:06",
     "isActive": true,
-    "firstSeen": "2025-01-08T09:06:39.629Z",
-    "lastSeen": "2025-01-08T09:06:39.630Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25490,
-      "Avg. Daily Volume": 8170000,
-      "Short Float": 77980,
-      "Short Ratio": "0.31%"
-    }
+    "firstSeen": "2025-01-10T19:06:15.186Z",
+    "lastSeen": "2025-01-10T20:34:15.736Z"
   },
-  "MCVT": {
-    "ticker": "MCVT",
+  "INTZ": {
+    "ticker": "INTZ",
     "news": [],
     "hod": false,
-    "float": "1.79M",
-    "price": "3.44",
-    "time": "10:07:52",
+    "float": "13.02M",
+    "price": "3.08",
+    "time": "20:16:49",
     "isActive": true,
-    "firstSeen": "2025-01-08T09:08:44.245Z",
-    "lastSeen": "2025-01-08T14:10:55.392Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 7290,
-      "Avg. Daily Volume": 1790000,
-      "Short Float": 45030,
-      "Short Ratio": "0.41%"
-    }
-  },
-  "SERV": {
-    "ticker": "SERV",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-07T14:02:49Z",
-        "headline": "Serve Robotics Announces Registered Direct Offering Of 4,210,525 Shares, Expects Gross Proceeds Of $80M",
-        "id": 42844627,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SERV"
-        ],
-        "updated_at": "2025-01-07T14:02:50Z",
-        "url": "https://www.benzinga.com/news/25/01/42844627/serve-robotics-announces-registered-direct-offering-of-4-210-525-shares-expects-gross-proceeds-of-80",
-        "added_at": "2025-01-08T09:11:59.513Z"
-      }
-    ],
-    "hod": false,
-    "float": "27.55M",
-    "price": "19.58",
-    "time": "10:09:43",
-    "isActive": true,
-    "firstSeen": "2025-01-08T09:09:53.950Z",
-    "lastSeen": "2025-01-08T09:09:53.950Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2490000,
-      "Avg. Daily Volume": 27530000,
-      "Short Float": 6220000,
-      "Short Ratio": "9.04%"
-    }
-  },
-  "RR": {
-    "ticker": "RR",
-    "news": [],
-    "hod": false,
-    "float": "77.31M",
-    "price": "4.38",
-    "time": "10:22:59",
-    "isActive": true,
-    "firstSeen": "2025-01-08T09:23:45.173Z",
-    "lastSeen": "2025-01-08T09:26:37.747Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2980000,
-      "Avg. Daily Volume": 44950000,
-      "Short Float": 4280000,
-      "Short Ratio": "6.64%"
-    }
+    "firstSeen": "2025-01-10T19:16:53.699Z",
+    "lastSeen": "2025-01-10T20:41:53.288Z"
   },
   "KITT": {
     "ticker": "KITT",
     "news": [],
     "hod": false,
     "float": "5.58M",
-    "price": "4.64",
-    "time": "10:24:10",
-    "isActive": true,
-    "firstSeen": "2025-01-08T09:25:10.512Z",
-    "lastSeen": "2025-01-08T09:56:45.302Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 448950,
-      "Avg. Daily Volume": 5580000,
-      "Short Float": 1100000,
-      "Short Ratio": "8.05%"
-    }
-  },
-  "SUNE": {
-    "ticker": "SUNE",
-    "news": [],
-    "hod": false,
-    "float": "1.74M",
-    "price": "2.68",
-    "time": "10:58:44",
-    "isActive": true,
-    "firstSeen": "2025-01-08T09:58:49.172Z",
-    "lastSeen": "2025-01-08T10:11:32.722Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 75090,
-      "Avg. Daily Volume": 1740000,
-      "Short Float": 908920,
-      "Short Ratio": "4.32%"
-    }
-  },
-  "JBDI": {
-    "ticker": "JBDI",
-    "news": [],
-    "hod": false,
-    "float": "3.66M",
-    "price": "1.65",
-    "time": "11:19:45",
-    "isActive": true,
-    "firstSeen": "2025-01-08T10:19:48.743Z",
-    "lastSeen": "2025-01-08T10:36:22.939Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 63650,
-      "Avg. Daily Volume": 4019999.9999999995,
-      "Short Float": 1880000,
-      "Short Ratio": "1.58%"
-    }
-  },
-  "OST": {
-    "ticker": "OST",
-    "news": [],
-    "hod": true,
-    "float": "1.02M",
-    "price": "2.68",
-    "time": "12:11:28",
-    "isActive": true,
-    "firstSeen": "2025-01-08T11:11:33.071Z",
-    "lastSeen": "2025-01-08T14:38:30.938Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3590,
-      "Avg. Daily Volume": 1030000,
-      "Short Float": 28210,
-      "Short Ratio": "0.35%"
-    }
-  },
-  "NITO": {
-    "ticker": "NITO",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2025-01-08T11:02:50Z",
-        "headline": "N2OFF Received Formal Notification From NASDAQ Stock Market That It Has Been Granted An Additional 180-day Compliance Period, Or Until July 7, 2025, To Regain Compliance With Nasdaq's Minimum $1.00 Bid Price Per Share Requirement",
-        "id": 42868752,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NITO"
-        ],
-        "updated_at": "2025-01-08T11:02:51Z",
-        "url": "https://www.benzinga.com/news/25/01/42868752/n2off-received-formal-notification-from-nasdaq-stock-market-that-it-has-been-granted-an-additional-1",
-        "added_at": "2025-01-08T11:11:35.273Z"
-      }
-    ],
-    "hod": false,
-    "float": "15.30M",
-    "price": "1.64",
-    "time": "12:11:27",
-    "isActive": true,
-    "firstSeen": "2025-01-08T11:11:33.071Z",
-    "lastSeen": "2025-01-08T14:34:42.013Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 136980,
-      "Avg. Daily Volume": 10540000,
-      "Short Float": 2700000,
-      "Short Ratio": "1.30%"
-    }
-  },
-  "ABSI": {
-    "ticker": "ABSI",
-    "news": [],
-    "hod": false,
-    "float": "92.27M",
-    "price": "3.67",
-    "time": "12:30:28",
-    "isActive": true,
-    "firstSeen": "2025-01-08T11:31:08.680Z",
-    "lastSeen": "2025-01-08T15:08:19.529Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 14020000,
-      "Avg. Daily Volume": 92270000,
-      "Short Float": 1360000,
-      "Short Ratio": "15.19%"
-    }
-  },
-  "CURR": {
-    "ticker": "CURR",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2025-01-08T12:13:15Z",
-        "headline": "Currenc Group Announced The Launch Of Its Seamless Ai Call Centre Solutions, A Suite Of AI-powered Tools Designed To Reduce Costs, Increase Efficiency And Boost Customer Satisfaction",
-        "id": 42870240,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CURR"
-        ],
-        "updated_at": "2025-01-08T12:13:16Z",
-        "url": "https://www.benzinga.com/news/25/01/42870240/currenc-group-announced-the-launch-of-its-seamless-ai-call-centre-solutions-a-suite-of-ai-powered-to",
-        "added_at": "2025-01-08T12:16:01.653Z"
-      }
-    ],
-    "hod": false,
-    "float": "18.91M",
-    "price": "4.29",
-    "time": "13:01:49",
-    "isActive": true,
-    "firstSeen": "2025-01-08T12:02:29.371Z",
-    "lastSeen": "2025-01-08T15:02:21.587Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 4840,
-      "Avg. Daily Volume": 18910000,
-      "Short Float": 13800,
-      "Short Ratio": "0.03%"
-    }
-  },
-  "VIR": {
-    "ticker": "VIR",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2025-01-08T12:46:44Z",
-        "headline": "Vir Biotechnology Is Presenting Initial Phase 1 Data From Two Of Its Dual-masked T-cell Engagers (TCEs): VIR-5818, Targeting A Variety Of HER2-expressing Solid Tumors; And VIR-5500, Targeting PSMA In Metastatic Castration-resistant Prostate Cancer",
-        "id": 42871019,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VIR"
-        ],
-        "updated_at": "2025-01-08T12:46:44Z",
-        "url": "https://www.benzinga.com/news/25/01/42871019/vir-biotechnology-is-presenting-initial-phase-1-data-from-two-of-its-dual-masked-t-cell-engagers-tce",
-        "added_at": "2025-01-08T12:50:41.813Z"
-      }
-    ],
-    "hod": false,
-    "float": "87.70M",
-    "price": "12.95",
-    "time": "13:24:58",
-    "isActive": true,
-    "firstSeen": "2025-01-08T12:25:02.187Z",
-    "lastSeen": "2025-01-08T15:06:31.598Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 6080000,
-      "Avg. Daily Volume": 87700000,
-      "Short Float": 1220000,
-      "Short Ratio": "6.93%"
-    }
-  },
-  "NLSP": {
-    "ticker": "NLSP",
-    "news": [
-      {
-        "author": "Lekha Gupta",
-        "content": "",
-        "created_at": "2025-01-08T12:45:20Z",
-        "headline": "NLS Pharmaceutics And Kadimastem Announce The Successful Completion Of The Initial Closing Of $500,000 Of The Previously Announced $1M Financing Between NLS And An Accredited Investor Under A Securities Purchase Agreement",
-        "id": 42871007,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "NLSP"
-        ],
-        "updated_at": "2025-01-08T12:45:21Z",
-        "url": "https://www.benzinga.com/news/25/01/42871007/nls-pharmaceutics-and-kadimastem-announce-the-successful-completion-of-the-initial-closing-of-500-00",
-        "added_at": "2025-01-08T12:45:36.248Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.63M",
-    "price": "2.35",
-    "time": "13:43:10",
-    "isActive": true,
-    "firstSeen": "2025-01-08T12:43:50.694Z",
-    "lastSeen": "2025-01-08T15:05:39.547Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 132430,
-      "Avg. Daily Volume": 1630000,
-      "Short Float": 344380,
-      "Short Ratio": "8.12%"
-    }
-  },
-  "GDHG": {
-    "ticker": "GDHG",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:13:38Z",
-        "headline": "Golden Heaven Group Holdings Enters Into ~$2.1M Long Term Service Agreement For Management Solutions With Fuzhou Yibang Amusement Park Co.",
-        "id": 42872058,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "GDHG"
-        ],
-        "updated_at": "2025-01-08T13:13:39Z",
-        "url": "https://www.benzinga.com/news/25/01/42872058/golden-heaven-group-holdings-enters-into-2-1m-long-term-service-agreement-for-management-solutions-w",
-        "added_at": "2025-01-08T13:15:27.585Z"
-      }
-    ],
-    "hod": false,
-    "float": "7.26M",
-    "price": "2.92",
-    "time": "14:02:38",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:03:00.342Z",
-    "lastSeen": "2025-01-08T13:03:00.342Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 25220,
-      "Avg. Daily Volume": 1970000,
-      "Short Float": 274790,
-      "Short Ratio": "1.28%"
-    }
-  },
-  "SXTP": {
-    "ticker": "SXTP",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:06:18Z",
-        "headline": "60 Degrees Pharmaceuticals Enrolls First Patient In Tafenoquine Expanded Access Study For Persistent Babesiosis",
-        "id": 42871754,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SXTP"
-        ],
-        "updated_at": "2025-01-08T13:06:19Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42871754/60-degrees-pharmaceuticals-enrolls-first-patient-in-tafenoquine-expanded-access-study-for-persist",
-        "added_at": "2025-01-08T13:10:42.230Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.86M",
-    "price": "1.58",
-    "time": "14:02:26",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:03:00.342Z",
-    "lastSeen": "2025-01-08T14:28:26.686Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 257700,
-      "Avg. Daily Volume": 1860000,
-      "Short Float": 271330,
-      "Short Ratio": "13.85%"
-    }
-  },
-  "OTRK": {
-    "ticker": "OTRK",
-    "news": [],
-    "hod": false,
-    "float": "2.28M",
-    "price": "2.27",
-    "time": "14:10:10",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:10:40.542Z",
-    "lastSeen": "2025-01-08T13:10:40.542Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 77540,
-      "Avg. Daily Volume": 2280000,
-      "Short Float": 1690000,
-      "Short Ratio": "3.40%"
-    }
-  },
-  "CMPX": {
-    "ticker": "CMPX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:10:46Z",
-        "headline": "Compass Therapeutics Provides Corporate Update And Announces Advancement Of A New Drug Candidate; Tovecimig Phase 2/3 Data For BTC On Track By Q1 2025, CTX-10726 IND Expected YE 2025; CTX-471, Tovecimig Phase 2 Trials Mid-2025. CTX-8371 Phase 1 Enrollment Completed, Estimated $127M Cash To Sustain Operations Into Q1 2027",
-        "id": 42872011,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CMPX"
-        ],
-        "updated_at": "2025-01-08T13:10:47Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42872011/compass-therapeutics-provides-corporate-update-and-announces-advancement-of-a-new-drug-candidate-",
-        "added_at": "2025-01-08T13:15:27.932Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T14:09:42Z",
-        "headline": "D. Boral Capital Maintains Buy on Compass Therapeutics, Maintains $32 Price Target",
-        "id": 42874202,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "CMPX"
-        ],
-        "updated_at": "2025-01-08T14:09:42Z",
-        "url": "https://www.benzinga.com/news/25/01/42874202/d-boral-capital-maintains-buy-on-compass-therapeutics-maintains-32-price-target",
-        "added_at": "2025-01-08T14:10:58.385Z"
-      }
-    ],
-    "hod": false,
-    "float": "84.48M",
-    "price": "1.77",
-    "time": "14:11:45",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:11:51.639Z",
-    "lastSeen": "2025-01-08T14:14:23.508Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-211242 (33 Act)  Size: 864 KB",
-        "date": "2024-08-30"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2100000,
-      "Avg. Daily Volume": 84480000,
-      "Short Float": 500240,
-      "Short Ratio": "2.49%"
-    }
-  },
-  "SKYQ": {
-    "ticker": "SKYQ",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:23:56Z",
-        "headline": "Sky Quarry Receives Permission To Operate Fractionation Facility At Eagle Springs Refinery Site In Nevada",
-        "id": 42872522,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SKYQ"
-        ],
-        "updated_at": "2025-01-08T13:23:57Z",
-        "url": "https://www.benzinga.com/news/25/01/42872522/sky-quarry-receives-permission-to-operate-fractionation-facility-at-eagle-springs-refinery-site-in-n",
-        "added_at": "2025-01-08T13:25:42.659Z"
-      }
-    ],
-    "hod": false,
-    "float": "17.51M",
-    "price": "1.51",
-    "time": "14:14:07",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:14:16.246Z",
-    "lastSeen": "2025-01-08T14:54:16.387Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 72380,
-      "Avg. Daily Volume": 17510000,
-      "Short Float": 193760,
-      "Short Ratio": "0.41%"
-    }
-  },
-  "ALUR": {
-    "ticker": "ALUR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:04:09Z",
-        "headline": "Allurion Announces Positive Topline Results From AUDACITY Trial; At 48 Weeks, Allurion Balloon Subjects Had A Greater Than 50% Responder Rate And Substantially Greater Weight Loss Than Control Subjects",
-        "id": 42871698,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ALUR"
-        ],
-        "updated_at": "2025-01-08T13:04:10Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42871698/allurion-announces-positive-topline-results-from-audacity-trial-at-48-weeks-allurion-balloon-subj",
-        "added_at": "2025-01-08T13:15:00.746Z"
-      }
-    ],
-    "hod": false,
-    "float": "2.71M",
-    "price": "8.98",
-    "time": "14:14:21",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:14:57.531Z",
-    "lastSeen": "2025-01-08T13:14:57.531Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 42230,
-      "Avg. Daily Volume": 1880000,
-      "Short Float": 15450,
-      "Short Ratio": "2.24%"
-    }
-  },
-  "SILO": {
-    "ticker": "SILO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:30:08Z",
-        "headline": "Silo Pharma Awarded US Patent For PTSD Treatment Titled 'Pharmacological Prophylactics Against Stress-Induced Affective Disorders in Females.' And Prepares For SPC-15 Clinical Trial",
-        "id": 42872665,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SILO"
-        ],
-        "updated_at": "2025-01-08T13:30:09Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42872665/silo-pharma-awarded-us-patent-for-ptsd-treatment-titled-pharmacological-prophylactics-against-str",
-        "added_at": "2025-01-08T13:30:42.912Z"
-      }
-    ],
-    "hod": false,
-    "float": "4.29M",
     "price": "3.29",
-    "time": "14:29:42",
+    "time": "20:39:23",
     "isActive": true,
-    "firstSeen": "2025-01-08T13:29:45.546Z",
-    "lastSeen": "2025-01-08T15:05:39.547Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 272100,
-      "Avg. Daily Volume": 4290000,
-      "Short Float": 267310,
-      "Short Ratio": "6.34%"
-    }
+    "firstSeen": "2025-01-10T19:39:25.639Z",
+    "lastSeen": "2025-01-10T19:40:47.188Z"
   },
-  "XHG": {
-    "ticker": "XHG",
+  "ZVSA": {
+    "ticker": "ZVSA",
+    "news": [],
+    "hod": false,
+    "float": "2.50M",
+    "price": "1.56",
+    "time": "20:46:36",
+    "isActive": true,
+    "firstSeen": "2025-01-10T19:47:02.128Z",
+    "lastSeen": "2025-01-10T20:51:44.479Z"
+  },
+  "WKEY": {
+    "ticker": "WKEY",
+    "news": [],
+    "hod": false,
+    "float": "3.20M",
+    "price": "10.58",
+    "time": "20:46:34",
+    "isActive": true,
+    "firstSeen": "2025-01-10T19:47:02.128Z",
+    "lastSeen": "2025-01-10T20:29:59.978Z"
+  },
+  "GRNQ": {
+    "ticker": "GRNQ",
     "news": [],
     "hod": true,
-    "float": "215.08K",
-    "price": "2.22",
-    "time": "14:38:10",
+    "float": "4.14M",
+    "price": "1.94",
+    "time": "21:41:44",
     "isActive": true,
-    "firstSeen": "2025-01-08T13:38:29.797Z",
-    "lastSeen": "2025-01-08T15:00:03.244Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3010,
-      "Avg. Daily Volume": 220000,
-      "Short Float": 486740,
-      "Short Ratio": "1.37%"
-    }
+    "firstSeen": "2025-01-10T20:41:53.288Z",
+    "lastSeen": "2025-01-10T20:46:52.745Z"
   },
-  "NRXP": {
-    "ticker": "NRXP",
+  "CLEU": {
+    "ticker": "CLEU",
     "news": [],
-    "hod": false,
-    "float": "9.20M",
-    "price": "5.32",
-    "time": "14:39:38",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:40:01.448Z",
-    "lastSeen": "2025-01-08T13:47:53.714Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 599840,
-      "Avg. Daily Volume": 9200000,
-      "Short Float": 142030,
-      "Short Ratio": "6.52%"
-    }
-  },
-  "WLDS": {
-    "ticker": "WLDS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:46:47Z",
-        "headline": "Wearable Devices And RayNeo To Launch Gesture-Controlled RayNeo X3 Pro AR Glasses At CES 2025, Featuring Mudra Neural Wristband And Snapdragon XR Platform For Enhanced Intuitive Interaction And Immersive Experience",
-        "id": 42873196,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "WLDS"
-        ],
-        "updated_at": "2025-01-08T13:46:48Z",
-        "url": "https://www.benzinga.com/news/25/01/42873196/wearable-devices-and-rayneo-to-launch-gesture-controlled-rayneo-x3-pro-ar-glasses-at-ces-2025-featur",
-        "added_at": "2025-01-08T13:51:03.298Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.97M",
-    "price": "2.26",
-    "time": "14:45:34",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:45:35.150Z",
-    "lastSeen": "2025-01-08T13:53:57.411Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 58060,
-      "Avg. Daily Volume": 1970000,
-      "Short Float": 596100,
-      "Short Ratio": "2.95%"
-    }
-  },
-  "ONDS": {
-    "ticker": "ONDS",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:36:24Z",
-        "headline": "Ondas Secures Order From Major Defense Company For AI-Driven Iron Drone Raider System, Expanding Capabilities To Address Ground Threats And Increase TAM; Expects Additional Orders To Support Defense And Homeland Security Applications; Financial Terms Not Disclosed",
-        "id": 42872865,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ONDS"
-        ],
-        "updated_at": "2025-01-08T13:36:25Z",
-        "url": "https://www.benzinga.com/news/25/01/42872865/ondas-secures-order-from-major-defense-company-for-ai-driven-iron-drone-raider-system-expanding-capa",
-        "added_at": "2025-01-08T13:51:59.319Z"
-      }
-    ],
-    "hod": false,
-    "float": "76.97M",
-    "price": "2.98",
-    "time": "14:51:29",
-    "isActive": true,
-    "firstSeen": "2025-01-08T13:51:55.568Z",
-    "lastSeen": "2025-01-08T14:06:35.963Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3830000,
-      "Avg. Daily Volume": 72200000,
-      "Short Float": 1480000,
-      "Short Ratio": "5.31%"
-    }
-  },
-  "STBX": {
-    "ticker": "STBX",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T14:03:59Z",
-        "headline": "Starbox Launches AI-Driven StarboxAI-IntelliDistribute System To Transform Advertising For 180 Degrees Brandcom With Smart Distribution, Real-Time Analytics, And Personalized Content",
-        "id": 42874038,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "STBX"
-        ],
-        "updated_at": "2025-01-08T14:03:59Z",
-        "url": "https://www.benzinga.com/news/25/01/42874038/starbox-launches-ai-driven-starboxai-intellidistribute-system-to-transform-advertising-for-180-degre",
-        "added_at": "2025-01-08T14:05:34.840Z"
-      }
-    ],
-    "hod": false,
-    "float": "46.64M",
-    "price": "2.49",
-    "time": "15:00:41",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:00:52.318Z",
-    "lastSeen": "2025-01-08T14:03:48.124Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 44000,
-      "Avg. Daily Volume": 46640000,
-      "Short Float": 141450,
-      "Short Ratio": "0.09%"
-    }
-  },
-  "ACCD": {
-    "ticker": "ACCD",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:55:04Z",
-        "headline": "Trading Halt: Halt status updated at 8:55:00 AM ET: Quotation Resumption: News and Resumption Times",
-        "id": 42873633,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ACCD"
-        ],
-        "updated_at": "2025-01-08T13:55:04Z",
-        "url": "https://www.benzinga.com/25/01/42873633/trading-halt-halt-status-updated-at-8-55-00-am-et-quotation-resumption-news-and-resumption-times",
-        "added_at": "2025-01-08T14:00:56.286Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:33:41Z",
-        "headline": "Transcarent To Acquire Accolade For $7.03 Per Share In Cash",
-        "id": 42872796,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ACCD"
-        ],
-        "updated_at": "2025-01-08T13:33:41Z",
-        "url": "https://www.benzinga.com/m-a/25/01/42872796/transcarent-to-acquire-accolade-for-7-03-per-share-in-cash",
-        "added_at": "2025-01-08T14:00:56.289Z"
-      }
-    ],
-    "hod": false,
-    "float": "69.11M",
-    "price": "6.96",
-    "time": "15:00:16",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:00:52.318Z",
-    "lastSeen": "2025-01-08T14:02:18.772Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 3110000,
-      "Avg. Daily Volume": 69110000,
-      "Short Float": 1290000,
-      "Short Ratio": "4.49%"
-    }
-  },
-  "FRGT": {
-    "ticker": "FRGT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T14:03:16Z",
-        "headline": "Freight Technologies Signs New Logistics Services Contract With A Toy Industry Brand, Terms Not Disclosed",
-        "id": 42874028,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "FRGT"
-        ],
-        "updated_at": "2025-01-08T14:03:17Z",
-        "url": "https://www.benzinga.com/news/25/01/42874028/freight-technologies-signs-new-logistics-services-contract-with-a-toy-industry-brand-terms-not-discl",
-        "added_at": "2025-01-08T14:05:35.059Z"
-      }
-    ],
-    "hod": false,
-    "float": "1.99M",
-    "price": "2.95",
-    "time": "15:01:33",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:02:18.772Z",
-    "lastSeen": "2025-01-08T14:02:18.772Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 130120,
-      "Avg. Daily Volume": 1990000,
-      "Short Float": 526380,
-      "Short Ratio": "6.54%"
-    }
-  },
-  "BIVI": {
-    "ticker": "BIVI",
-    "news": [],
-    "hod": false,
-    "float": "15.95M",
-    "price": "2.6",
-    "time": "15:28:21",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:28:26.685Z",
-    "lastSeen": "2025-01-08T14:28:26.685Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 2089999.9999999998,
-      "Avg. Daily Volume": 15360000,
-      "Short Float": 5960000,
-      "Short Ratio": "13.60%"
-    }
-  },
-  "ANGO": {
-    "ticker": "ANGO",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T11:39:06Z",
-        "headline": "AngioDynamics Expects 2025 Adjusted EPS Loss Of $0.34 to $0.38 Compared To Prior Guidance Of $0.38-$0.42 And Consensus Of $0.40",
-        "id": 42869386,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ANGO"
-        ],
-        "updated_at": "2025-01-08T11:39:06Z",
-        "url": "https://www.benzinga.com/news/earnings/25/01/42869386/angiodynamics-expects-2025-adjusted-eps-loss-of-0-34-to-0-38-compared-to-prior-guidance-of-0-38-0-4",
-        "added_at": "2025-01-08T14:28:30.779Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T11:37:32Z",
-        "headline": "AngioDynamics Continues To Expect 2025 Net Sales Of $282M-$288M, Representing Growth Of Between 4.2%–6.4% Over Fiscal 2024 Pro Forma Revenue Of $270.7M Versus Consensus Of $283.86M",
-        "id": 42869381,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ANGO"
-        ],
-        "updated_at": "2025-01-08T11:37:33Z",
-        "url": "https://www.benzinga.com/news/earnings/25/01/42869381/angiodynamics-continues-to-expect-2025-net-sales-of-282m-288m-representing-growth-of-between-4-2-6-",
-        "added_at": "2025-01-08T14:28:30.782Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T11:32:04Z",
-        "headline": "AngioDynamics Q2 2025 Adj EPS $(0.04) Beats $(0.11) Estimate, Sales $73.02M Beat $70.93M Estimate",
-        "id": 42869327,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "ANGO"
-        ],
-        "updated_at": "2025-01-08T11:32:05Z",
-        "url": "https://www.benzinga.com/news/earnings/25/01/42869327/angiodynamics-q2-2025-adj-eps-0-04-beats-0-11-estimate-sales-73-02m-beat-70-93m-estimate",
-        "added_at": "2025-01-08T14:28:30.783Z"
-      }
-    ],
-    "hod": false,
-    "float": "38.70M",
-    "price": "11.96",
-    "time": "15:28:00",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:28:26.685Z",
-    "lastSeen": "2025-01-08T14:43:49.669Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1000000,
-      "Avg. Daily Volume": 38700000,
-      "Short Float": 566620,
-      "Short Ratio": "2.59%"
-    }
-  },
-  "GRRR": {
-    "ticker": "GRRR",
-    "news": [],
-    "hod": false,
-    "float": "9.49M",
-    "price": "18.65",
-    "time": "15:34:40",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:34:42.009Z",
-    "lastSeen": "2025-01-08T15:04:16.229Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 1560000,
-      "Avg. Daily Volume": 9490000,
-      "Short Float": 1020000,
-      "Short Ratio": "16.41%"
-    }
-  },
-  "BTDR": {
-    "ticker": "BTDR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T13:02:16Z",
-        "headline": "Bitdeer Announces December 2024 Production And Operations Update; 145 Bitcoins Mined; 594 Bitcoins Held; Production Of ~35 EH/s Of SEALMINER A2s Through Q3 2025 Remains On Track",
-        "id": 42871665,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BTDR"
-        ],
-        "updated_at": "2025-01-08T13:02:17Z",
-        "url": "https://www.benzinga.com/news/25/01/42871665/bitdeer-announces-december-2024-production-and-operations-update-145-bitcoins-mined-594-bitcoins-hel",
-        "added_at": "2025-01-08T14:35:49.745Z"
-      }
-    ],
     "hod": true,
-    "float": "51.87M",
-    "price": "19.9",
-    "time": "15:35:42",
+    "float": "22.93M",
+    "price": "3.85",
+    "time": "21:49:43",
     "isActive": true,
-    "firstSeen": "2025-01-08T14:35:45.452Z",
-    "lastSeen": "2025-01-08T14:37:06.110Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 12450000,
-      "Avg. Daily Volume": 33910000,
-      "Short Float": 5260000,
-      "Short Ratio": "36.72%"
-    }
+    "firstSeen": "2025-01-10T20:49:49.448Z",
+    "lastSeen": "2025-01-10T20:50:41.622Z"
   },
-  "WNW": {
-    "ticker": "WNW",
+  "STAI": {
+    "ticker": "STAI",
     "news": [],
     "hod": false,
-    "float": "39.61M",
-    "price": "3.23",
-    "time": "15:40:30",
+    "float": "0",
+    "price": "2.29",
+    "time": "21:53:26",
     "isActive": true,
-    "firstSeen": "2025-01-08T14:40:36.077Z",
-    "lastSeen": "2025-01-08T14:41:10.005Z",
-    "shorts": {
-      "Settlement Date": "Dec 13, 2024",
-      "Short Interest": 18790,
-      "Avg. Daily Volume": 39610000,
-      "Short Float": 181700,
-      "Short Ratio": "0.05%"
-    }
-  },
-  "BFRI": {
-    "ticker": "BFRI",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-08T14:51:25Z",
-        "headline": "Biofrontera Announces Achievement Of Key Milestone In Phase 3 Study Of Ameluz-Photodynamic Therapy In The Treatment Of Superficial Basal Cell Carcinoma Was Met With The Last Patient Completing The 1 Year Follow-Up Visit In December Of 2024",
-        "id": 42876362,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "BFRI"
-        ],
-        "updated_at": "2025-01-08T14:51:25Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/42876362/biofrontera-announces-achievement-of-key-milestone-in-phase-3-study-of-ameluz-photodynamic-therap",
-        "added_at": "2025-01-08T14:56:41.529Z"
-      }
-    ],
-    "hod": true,
-    "float": "6.21M",
-    "price": "1.86",
-    "time": "15:56:32",
-    "isActive": true,
-    "firstSeen": "2025-01-08T14:56:36.793Z",
-    "lastSeen": "2025-01-08T15:03:04.222Z"
+    "firstSeen": "2025-01-10T20:53:40.643Z",
+    "lastSeen": "2025-01-10T20:53:40.643Z"
   }
 }

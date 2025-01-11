@@ -295,8 +295,10 @@ const displayTickersTable = async () => {
             if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
                 if (keywords.some((keyword) => latestNews.includes(keyword))) {
                     formattedNews = chalk.bgRed.white(formattedNews); // Red background for matching keywords
+                    playWav("./sounds/siren.wav"); // Play siren sound
                 } else {
                     formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
+                    playWav("./sounds/flash.wav"); // Play flash sound
                 }
             } else if (isInWatchlist) {
                 formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
