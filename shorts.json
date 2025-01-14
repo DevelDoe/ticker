@@ -1,338 +1,233 @@
 {
-  "ZVSA": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 25640,
-    "Avg. Daily Volume": 2340000,
-    "Short Float": 1240000,
-    "Short Ratio": "1.10%"
-  },
-  "STAI": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 3930,
-    "Avg. Daily Volume": 2820000,
-    "Short Float": 16170.000000000002,
-    "Short Ratio": "0.14%"
-  },
-  "VMAR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 318280,
-    "Avg. Daily Volume": 1200000,
-    "Short Float": 743310,
-    "Short Ratio": "26.52%"
-  },
-  "BAER": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 600800,
-    "Avg. Daily Volume": 13990000,
-    "Short Float": 175590,
-    "Short Ratio": "4.29%"
-  },
-  "AKYA": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 1810000,
-    "Avg. Daily Volume": 20010000,
-    "Short Float": 230300,
-    "Short Ratio": "9.02%"
-  },
-  "ZCAR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 105480,
-    "Avg. Daily Volume": 2110000,
-    "Short Float": 724940,
-    "Short Ratio": "5.00%"
-  },
-  "ARTW": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 8000,
-    "Avg. Daily Volume": 2340000,
-    "Short Float": 21200,
-    "Short Ratio": "0.34%"
-  },
-  "LAES": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 9000000,
-    "Avg. Daily Volume": 22110000,
-    "Short Float": 10650000,
-    "Short Ratio": "40.69%"
-  },
-  "ZENA": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 846260,
-    "Avg. Daily Volume": "N/A",
-    "Short Float": 7030000,
-    "Short Ratio": "N/A"
-  },
-  "ZNTL": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 5500000,
-    "Avg. Daily Volume": 57600000,
-    "Short Float": 2110000,
-    "Short Ratio": "9.55%"
-  },
-  "DTIL": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 274490,
-    "Avg. Daily Volume": 3730000,
-    "Short Float": 86210,
-    "Short Ratio": "7.36%"
-  },
-  "JFBR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 225260,
-    "Avg. Daily Volume": 490000,
-    "Short Float": 809130,
-    "Short Ratio": "45.97%"
-  },
-  "INTZ": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 248840,
-    "Avg. Daily Volume": 7960000,
-    "Short Float": 191370,
-    "Short Ratio": "3.13%"
-  },
-  "REKR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 14610000,
-    "Avg. Daily Volume": 85770000,
-    "Short Float": 933200,
-    "Short Ratio": "17.04%"
-  },
-  "AIFF": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 224410,
-    "Avg. Daily Volume": 4690000,
-    "Short Float": 210480,
-    "Short Ratio": "4.78%"
-  },
-  "NRXP": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 599840,
-    "Avg. Daily Volume": 9200000,
-    "Short Float": 142030,
-    "Short Ratio": "6.52%"
-  },
-  "CMPX": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 2100000,
-    "Avg. Daily Volume": 84480000,
-    "Short Float": 500240,
-    "Short Ratio": "2.49%"
-  },
-  "DATS": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 273230,
-    "Avg. Daily Volume": 2730000,
-    "Short Float": 1260000,
-    "Short Ratio": "10.01%"
-  },
-  "MCVT": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 7290,
-    "Avg. Daily Volume": 1790000,
-    "Short Float": 45030,
-    "Short Ratio": "0.41%"
-  },
-  "MASS": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 1420000,
-    "Avg. Daily Volume": 25440000,
-    "Short Float": 229330,
-    "Short Ratio": "5.59%"
-  },
-  "IINN": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 279880,
-    "Avg. Daily Volume": 16719999.999999998,
-    "Short Float": 136460,
-    "Short Ratio": "1.67%"
-  },
-  "RVSN": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 319180,
-    "Avg. Daily Volume": 18620000,
-    "Short Float": 420560,
-    "Short Ratio": "1.71%"
-  },
-  "INTS": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 62210,
-    "Avg. Daily Volume": 7580000,
-    "Short Float": 22800,
-    "Short Ratio": "0.82%"
-  },
-  "BKYI": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 76000,
-    "Avg. Daily Volume": 2330000,
-    "Short Float": 2120000,
-    "Short Ratio": "3.26%"
-  },
-  "AREB": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 38330,
-    "Avg. Daily Volume": 1070000,
-    "Short Float": 733380,
-    "Short Ratio": "3.58%"
-  },
-  "VSEE": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 386980,
-    "Avg. Daily Volume": 6260000,
-    "Short Float": 2260000,
-    "Short Ratio": "6.18%"
-  },
-  "VRME": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 25490,
-    "Avg. Daily Volume": 8170000,
-    "Short Float": 77980,
-    "Short Ratio": "0.31%"
-  },
-  "KITT": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 448950,
-    "Avg. Daily Volume": 5580000,
-    "Short Float": 1100000,
-    "Short Ratio": "8.05%"
-  },
-  "XHG": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 3010,
-    "Avg. Daily Volume": 220000,
-    "Short Float": 486740,
-    "Short Ratio": "1.37%"
-  },
-  "PRZO": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 312750,
-    "Avg. Daily Volume": 9010000,
-    "Short Float": 5750000,
-    "Short Ratio": "3.47%"
-  },
-  "XCUR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 61220,
-    "Avg. Daily Volume": 1100000,
-    "Short Float": 1490000,
-    "Short Ratio": "5.57%"
-  },
-  "HOLO": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 2760000,
-    "Avg. Daily Volume": 20440000,
-    "Short Float": 4099999.9999999995,
-    "Short Ratio": "13.48%"
-  },
-  "MLGO": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 350660,
-    "Avg. Daily Volume": 9740000,
-    "Short Float": 1760000,
-    "Short Ratio": "3.60%"
-  },
-  "RVPH": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 8800000,
-    "Avg. Daily Volume": 39690000,
-    "Short Float": 1170000,
-    "Short Ratio": "22.16%"
+  "TIRX": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 211070,
+    "Avg. Daily Volume": 310000,
+    "Short Float": 131170,
+    "Short Ratio": "68.09%"
   },
   "WKEY": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 373260,
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 254100,
     "Avg. Daily Volume": "N/A",
-    "Short Float": 1380000,
+    "Short Float": 2820000,
     "Short Ratio": "N/A"
   },
-  "PDYN": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 1180000,
-    "Avg. Daily Volume": 17090000,
-    "Short Float": 3700000,
-    "Short Ratio": "6.92%"
+  "HOTH": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 633380,
+    "Avg. Daily Volume": 6840000,
+    "Short Float": 1090000,
+    "Short Ratio": "9.26%"
+  },
+  "BAER": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 685800,
+    "Avg. Daily Volume": 13990000,
+    "Short Float": 173610,
+    "Short Ratio": "4.90%"
+  },
+  "ATPC": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 248760,
+    "Avg. Daily Volume": 3010000,
+    "Short Float": 176830,
+    "Short Ratio": "8.26%"
+  },
+  "RVSN": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 2850000,
+    "Avg. Daily Volume": 18620000,
+    "Short Float": 4520000,
+    "Short Ratio": "15.30%"
+  },
+  "INTZ": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 3240000,
+    "Avg. Daily Volume": 13020000,
+    "Short Float": 5560000,
+    "Short Ratio": "24.91%"
+  },
+  "VRME": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 7900,
+    "Avg. Daily Volume": 8109999.999999999,
+    "Short Float": 1590000,
+    "Short Ratio": "0.10%"
+  },
+  "SAGE": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 4830000,
+    "Avg. Daily Volume": 53880000,
+    "Short Float": 976250,
+    "Short Ratio": "8.97%"
+  },
+  "DATS": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 146580,
+    "Avg. Daily Volume": 2730000,
+    "Short Float": 1280000,
+    "Short Ratio": "5.37%"
+  },
+  "ZCAR": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 173150,
+    "Avg. Daily Volume": 2069999.9999999998,
+    "Short Float": 2120000,
+    "Short Ratio": "8.36%"
+  },
+  "BDTX": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 6360000,
+    "Avg. Daily Volume": 42910000,
+    "Short Float": 595290,
+    "Short Ratio": "14.82%"
+  },
+  "XHG": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 2360,
+    "Avg. Daily Volume": 220000,
+    "Short Float": 858540,
+    "Short Ratio": "1.07%"
+  },
+  "GTBP": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 89990,
+    "Avg. Daily Volume": 1960000,
+    "Short Float": 367670,
+    "Short Ratio": "4.59%"
+  },
+  "GRNQ": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 11770,
+    "Avg. Daily Volume": 4139999.9999999995,
+    "Short Float": 46630,
+    "Short Ratio": "0.28%"
+  },
+  "TRAW": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 141920,
+    "Avg. Daily Volume": 2740000,
+    "Short Float": 497270,
+    "Short Ratio": "5.18%"
+  },
+  "XXII": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 91480,
+    "Avg. Daily Volume": 470000,
+    "Short Float": 77120,
+    "Short Ratio": "19.46%"
+  },
+  "PHIO": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 66700,
+    "Avg. Daily Volume": 1680000,
+    "Short Float": 354260,
+    "Short Ratio": "3.97%"
+  },
+  "SLXN": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 38190,
+    "Avg. Daily Volume": 1020000,
+    "Short Float": 880440,
+    "Short Ratio": "3.74%"
+  },
+  "VVPR": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 366550,
+    "Avg. Daily Volume": 1780000,
+    "Short Float": 683460,
+    "Short Ratio": "20.59%"
+  },
+  "CRBU": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 9540000,
+    "Avg. Daily Volume": 79180000,
+    "Short Float": 1410000,
+    "Short Ratio": "12.04%"
+  },
+  "AMST": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 13890,
+    "Avg. Daily Volume": 2830000,
+    "Short Float": 42540,
+    "Short Ratio": "0.49%"
   },
   "OPFI": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 2020000,
-    "Avg. Daily Volume": 19590000,
-    "Short Float": 402750,
-    "Short Ratio": "10.31%"
-  },
-  "SERV": {
-    "Settlement Date": "Dec 13, 2024",
+    "Settlement Date": "Dec 31, 2024",
     "Short Interest": 2490000,
-    "Avg. Daily Volume": 27530000,
-    "Short Float": 6220000,
-    "Short Ratio": "9.04%"
+    "Avg. Daily Volume": 19590000,
+    "Short Float": 454190,
+    "Short Ratio": "12.71%"
   },
-  "CRNC": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 7290000,
-    "Avg. Daily Volume": 39880000,
-    "Short Float": 3310000,
-    "Short Ratio": "18.29%"
+  "GRRR": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 2350000,
+    "Avg. Daily Volume": 9490000,
+    "Short Float": 1610000,
+    "Short Ratio": "24.77%"
   },
-  "MBOT": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 577720,
-    "Avg. Daily Volume": 16550000,
-    "Short Float": 177100,
-    "Short Ratio": "3.49%"
+  "ARQT": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 20970000,
+    "Avg. Daily Volume": 102980000,
+    "Short Float": 2040000,
+    "Short Ratio": "20.36%"
   },
-  "ARBE": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 680480,
-    "Avg. Daily Volume": 55680000,
-    "Short Float": 103600,
-    "Short Ratio": "1.22%"
+  "SLRX": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 31110,
+    "Avg. Daily Volume": 1400000,
+    "Short Float": 333900,
+    "Short Ratio": "2.22%"
   },
-  "AMPX": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 3660000,
-    "Avg. Daily Volume": 76140000,
-    "Short Float": 2410000,
-    "Short Ratio": "4.81%"
-  },
-  "HOTH": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 291320,
-    "Avg. Daily Volume": 6840000,
-    "Short Float": 1140000,
-    "Short Ratio": "4.26%"
-  },
-  "RR": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 2980000,
-    "Avg. Daily Volume": 44950000,
-    "Short Float": 4280000,
-    "Short Ratio": "6.64%"
-  },
-  "SILO": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 272100,
+  "ICU": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 375150,
     "Avg. Daily Volume": 4290000,
-    "Short Float": 267310,
-    "Short Ratio": "6.34%"
+    "Short Float": 211900,
+    "Short Ratio": "8.74%"
   },
-  "AMPG": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 2290000,
-    "Avg. Daily Volume": 11860000,
-    "Short Float": 5150000,
-    "Short Ratio": "19.34%"
+  "HOLO": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 5640000,
+    "Avg. Daily Volume": 20440000,
+    "Short Float": 11190000,
+    "Short Ratio": "27.60%"
   },
-  "ABAT": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 5330000,
-    "Avg. Daily Volume": 73780000,
-    "Short Float": 675010,
-    "Short Ratio": "7.22%"
+  "MCVT": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 4730,
+    "Avg. Daily Volume": 1790000,
+    "Short Float": 9940,
+    "Short Ratio": "0.26%"
   },
-  "GFAI": {
-    "Settlement Date": "Dec 13, 2024",
-    "Short Interest": 120880,
-    "Avg. Daily Volume": 8359999.999999999,
-    "Short Float": 605210,
-    "Short Ratio": "1.45%"
+  "GUTS": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 2570000,
+    "Avg. Daily Volume": 20640000,
+    "Short Float": 326010,
+    "Short Ratio": "12.46%"
+  },
+  "STIM": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 312930,
+    "Avg. Daily Volume": 15660000,
+    "Short Float": 407990,
+    "Short Ratio": "2.00%"
+  },
+  "NITO": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 985740,
+    "Avg. Daily Volume": 15300000,
+    "Short Float": 3090000,
+    "Short Ratio": "6.44%"
+  },
+  "FRGT": {
+    "Settlement Date": "Dec 31, 2024",
+    "Short Interest": 88830,
+    "Avg. Daily Volume": 1990000,
+    "Short Float": 170330,
+    "Short Ratio": "4.46%"
   }
 }

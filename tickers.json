@@ -1,200 +1,921 @@
 {
-  "BAER": {
-    "ticker": "BAER",
+  "TIRX": {
+    "ticker": "TIRX",
     "news": [],
     "hod": false,
-    "float": "13.99M",
-    "price": "3.3",
-    "time": "19:11:08",
+    "float": "1.22M",
+    "price": "2.16",
+    "time": "01:57:06",
     "isActive": true,
-    "firstSeen": "2025-01-10T18:11:25.313Z",
-    "lastSeen": "2025-01-10T20:58:48.445Z"
-  },
-  "MSW": {
-    "ticker": "MSW",
-    "news": [],
-    "hod": false,
-    "float": "0",
-    "price": "7.8",
-    "time": "19:09:59",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:11:25.314Z",
-    "lastSeen": "2025-01-10T20:44:20.761Z"
-  },
-  "DRCT": {
-    "ticker": "DRCT",
-    "news": [],
-    "hod": false,
-    "float": "4.12M",
-    "price": "1.69",
-    "time": "19:09:21",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:11:25.314Z",
-    "lastSeen": "2025-01-10T21:00:03.001Z"
-  },
-  "DATS": {
-    "ticker": "DATS",
-    "news": [],
-    "hod": false,
-    "float": "2.73M",
-    "price": "4.9",
-    "time": "19:24:25",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:24:29.068Z",
-    "lastSeen": "2025-01-10T21:00:03.001Z"
-  },
-  "VMAR": {
-    "ticker": "VMAR",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-10T06:58:57Z",
-        "headline": "Reported Earlier, Vision Marine Partners with Calip Group to Produce Advanced Cooling Plates for Electric Boat Batteries",
-        "id": 42905522,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VMAR"
-        ],
-        "updated_at": "2025-01-10T06:58:57Z",
-        "url": "https://www.benzinga.com/news/25/01/42905522/reported-earlier-vision-marine-partners-with-calip-group-to-produce-advanced-cooling-plates-for-elec",
-        "added_at": "2025-01-10T18:36:45.094Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-10T20:47:35Z",
-        "headline": "Vision Marine Technologies Secures Over $11.7M Through At-the-Market Offering, Aiming To Accelerate Growth Trajectory And Solidify Leadership In The Electric Marine Propulsion Sector.",
-        "id": 42927173,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "VMAR"
-        ],
-        "updated_at": "2025-01-10T20:47:35Z",
-        "url": "https://www.benzinga.com/news/25/01/42927173/vision-marine-technologies-secures-over-11-7m-through-at-the-market-offering-aiming-to-accelerate-gr",
-        "added_at": "2025-01-10T20:51:45.738Z"
-      }
-    ],
-    "hod": false,
-    "float": "2.50M",
-    "price": "2.48",
-    "time": "19:34:17",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:34:24.319Z",
-    "lastSeen": "2025-01-10T20:46:52.745Z"
-  },
-  "BKYI": {
-    "ticker": "BKYI",
-    "news": [],
-    "hod": false,
-    "float": "2.33M",
-    "price": "1.64",
-    "time": "19:35:08",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:35:45.432Z",
-    "lastSeen": "2025-01-10T18:35:45.432Z"
-  },
-  "RLAY": {
-    "ticker": "RLAY",
-    "news": [],
-    "hod": true,
-    "float": "123.37M",
-    "price": "5.99",
-    "time": "19:42:31",
-    "isActive": true,
-    "firstSeen": "2025-01-10T18:48:42.831Z",
-    "lastSeen": "2025-01-10T18:48:42.832Z"
-  },
-  "VRME": {
-    "ticker": "VRME",
-    "news": [],
-    "hod": false,
-    "float": "8.11M",
-    "price": "2.83",
-    "time": "20:06:06",
-    "isActive": true,
-    "firstSeen": "2025-01-10T19:06:15.186Z",
-    "lastSeen": "2025-01-10T20:34:15.736Z"
-  },
-  "INTZ": {
-    "ticker": "INTZ",
-    "news": [],
-    "hod": false,
-    "float": "13.02M",
-    "price": "3.08",
-    "time": "20:16:49",
-    "isActive": true,
-    "firstSeen": "2025-01-10T19:16:53.699Z",
-    "lastSeen": "2025-01-10T20:41:53.288Z"
-  },
-  "KITT": {
-    "ticker": "KITT",
-    "news": [],
-    "hod": false,
-    "float": "5.58M",
-    "price": "3.29",
-    "time": "20:39:23",
-    "isActive": true,
-    "firstSeen": "2025-01-10T19:39:25.639Z",
-    "lastSeen": "2025-01-10T19:40:47.188Z"
-  },
-  "ZVSA": {
-    "ticker": "ZVSA",
-    "news": [],
-    "hod": false,
-    "float": "2.50M",
-    "price": "1.56",
-    "time": "20:46:36",
-    "isActive": true,
-    "firstSeen": "2025-01-10T19:47:02.128Z",
-    "lastSeen": "2025-01-10T20:51:44.479Z"
+    "firstSeen": "2025-01-13T07:58:53.064Z",
+    "lastSeen": "2025-01-13T09:21:34.773Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 211070,
+      "Avg. Daily Volume": 310000,
+      "Short Float": 131170,
+      "Short Ratio": "68.09%"
+    }
   },
   "WKEY": {
     "ticker": "WKEY",
     "news": [],
     "hod": false,
     "float": "3.20M",
-    "price": "10.58",
-    "time": "20:46:34",
+    "price": "10.36",
+    "time": "23:48:46",
     "isActive": true,
-    "firstSeen": "2025-01-10T19:47:02.128Z",
-    "lastSeen": "2025-01-10T20:29:59.978Z"
+    "firstSeen": "2025-01-13T07:58:53.065Z",
+    "lastSeen": "2025-01-13T13:27:17.065Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 254100,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 2820000,
+      "Short Ratio": "N/A"
+    }
+  },
+  "HOTH": {
+    "ticker": "HOTH",
+    "news": [],
+    "hod": false,
+    "float": "6.84M",
+    "price": "2.18",
+    "time": "23:33:01",
+    "isActive": true,
+    "firstSeen": "2025-01-13T07:58:53.065Z",
+    "lastSeen": "2025-01-13T07:58:53.065Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 633380,
+      "Avg. Daily Volume": 6840000,
+      "Short Float": 1090000,
+      "Short Ratio": "9.26%"
+    }
+  },
+  "BAER": {
+    "ticker": "BAER",
+    "news": [],
+    "hod": false,
+    "float": "13.99M",
+    "price": "3.83",
+    "time": "10:00:40",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:00:57.583Z",
+    "lastSeen": "2025-01-13T13:03:59.067Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008574 (33 Act)  Size: 631 KB",
+        "date": "2024-12-09"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 685800,
+      "Avg. Daily Volume": 13990000,
+      "Short Float": 173610,
+      "Short Ratio": "4.90%"
+    }
+  },
+  "ATPC": {
+    "ticker": "ATPC",
+    "news": [],
+    "hod": false,
+    "float": "3.01M",
+    "price": "2.3",
+    "time": "10:00:29",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:00:57.583Z",
+    "lastSeen": "2025-01-13T13:49:11.212Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 248760,
+      "Avg. Daily Volume": 3010000,
+      "Short Float": 176830,
+      "Short Ratio": "8.26%"
+    }
+  },
+  "RVSN": {
+    "ticker": "RVSN",
+    "news": [],
+    "hod": false,
+    "float": "18.62M",
+    "price": "1.86",
+    "time": "10:00:17",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:00:57.583Z",
+    "lastSeen": "2025-01-13T09:00:57.583Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2850000,
+      "Avg. Daily Volume": 18620000,
+      "Short Float": 4520000,
+      "Short Ratio": "15.30%"
+    }
+  },
+  "INTZ": {
+    "ticker": "INTZ",
+    "news": [],
+    "hod": false,
+    "float": "13.02M",
+    "price": "3.49",
+    "time": "10:02:03",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:02:07.071Z",
+    "lastSeen": "2025-01-13T13:03:59.067Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
+        "date": "2024-12-17"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
+        "date": "2024-08-15"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 3240000,
+      "Avg. Daily Volume": 13020000,
+      "Short Float": 5560000,
+      "Short Ratio": "24.91%"
+    }
+  },
+  "VRME": {
+    "ticker": "VRME",
+    "news": [],
+    "hod": false,
+    "float": "8.11M",
+    "price": "3.03",
+    "time": "10:03:33",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:03:34.469Z",
+    "lastSeen": "2025-01-13T13:58:04.170Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 7900,
+      "Avg. Daily Volume": 8109999.999999999,
+      "Short Float": 1590000,
+      "Short Ratio": "0.10%"
+    }
+  },
+  "SAGE": {
+    "ticker": "SAGE",
+    "news": [],
+    "hod": false,
+    "float": "53.88M",
+    "price": "7.75",
+    "time": "10:08:43",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:08:48.558Z",
+    "lastSeen": "2025-01-13T09:09:54.186Z",
+    "filings": [
+      {
+        "formType": "S-3ASR",
+        "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-219846 (33 Act)  Size: 1 MB",
+        "date": "2024-09-17"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 4830000,
+      "Avg. Daily Volume": 53880000,
+      "Short Float": 976250,
+      "Short Ratio": "8.97%"
+    }
+  },
+  "DATS": {
+    "ticker": "DATS",
+    "news": [],
+    "hod": false,
+    "float": "2.73M",
+    "price": "5.57",
+    "time": "10:19:19",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:19:20.697Z",
+    "lastSeen": "2025-01-13T13:20:45.329Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 146580,
+      "Avg. Daily Volume": 2730000,
+      "Short Float": 1280000,
+      "Short Ratio": "5.37%"
+    }
+  },
+  "ZCAR": {
+    "ticker": "ZCAR",
+    "news": [],
+    "hod": false,
+    "float": "2.07M",
+    "price": "2.3",
+    "time": "10:29:31",
+    "isActive": true,
+    "firstSeen": "2025-01-13T09:29:33.307Z",
+    "lastSeen": "2025-01-13T09:32:46.758Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 173150,
+      "Avg. Daily Volume": 2069999.9999999998,
+      "Short Float": 2120000,
+      "Short Ratio": "8.36%"
+    }
+  },
+  "BDTX": {
+    "ticker": "BDTX",
+    "news": [],
+    "hod": false,
+    "float": "42.91M",
+    "price": "2.41",
+    "time": "11:40:05",
+    "isActive": true,
+    "firstSeen": "2025-01-13T10:40:23.397Z",
+    "lastSeen": "2025-01-13T14:07:21.167Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 6360000,
+      "Avg. Daily Volume": 42910000,
+      "Short Float": 595290,
+      "Short Ratio": "14.82%"
+    }
+  },
+  "XHG": {
+    "ticker": "XHG",
+    "news": [],
+    "hod": false,
+    "float": "215.08K",
+    "price": "1.56",
+    "time": "11:52:48",
+    "isActive": true,
+    "firstSeen": "2025-01-13T10:52:50.906Z",
+    "lastSeen": "2025-01-13T13:06:57.919Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2360,
+      "Avg. Daily Volume": 220000,
+      "Short Float": 858540,
+      "Short Ratio": "1.07%"
+    }
+  },
+  "GTBP": {
+    "ticker": "GTBP",
+    "news": [],
+    "hod": false,
+    "float": "1.96M",
+    "price": "4.21",
+    "time": "12:58:37",
+    "isActive": true,
+    "firstSeen": "2025-01-13T11:59:01.544Z",
+    "lastSeen": "2025-01-13T12:01:38.890Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 89990,
+      "Avg. Daily Volume": 1960000,
+      "Short Float": 367670,
+      "Short Ratio": "4.59%"
+    }
   },
   "GRNQ": {
     "ticker": "GRNQ",
     "news": [],
-    "hod": true,
+    "hod": false,
     "float": "4.14M",
-    "price": "1.94",
-    "time": "21:41:44",
+    "price": "2.18",
+    "time": "13:02:31",
     "isActive": true,
-    "firstSeen": "2025-01-10T20:41:53.288Z",
-    "lastSeen": "2025-01-10T20:46:52.745Z"
+    "firstSeen": "2025-01-13T12:03:00.807Z",
+    "lastSeen": "2025-01-13T13:51:30.748Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 11770,
+      "Avg. Daily Volume": 4139999.9999999995,
+      "Short Float": 46630,
+      "Short Ratio": "0.28%"
+    }
   },
-  "CLEU": {
-    "ticker": "CLEU",
-    "news": [],
-    "hod": true,
-    "float": "22.93M",
-    "price": "3.85",
-    "time": "21:49:43",
-    "isActive": true,
-    "firstSeen": "2025-01-10T20:49:49.448Z",
-    "lastSeen": "2025-01-10T20:50:41.622Z"
-  },
-  "STAI": {
-    "ticker": "STAI",
+  "TRAW": {
+    "ticker": "TRAW",
     "news": [],
     "hod": false,
-    "float": "0",
-    "price": "2.29",
-    "time": "21:53:26",
+    "float": "2.74M",
+    "price": "10.57",
+    "time": "13:06:30",
     "isActive": true,
-    "firstSeen": "2025-01-10T20:53:40.643Z",
-    "lastSeen": "2025-01-10T20:53:40.643Z"
+    "firstSeen": "2025-01-13T12:06:42.664Z",
+    "lastSeen": "2025-01-13T13:01:40.519Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 141920,
+      "Avg. Daily Volume": 2740000,
+      "Short Float": 497270,
+      "Short Ratio": "5.18%"
+    }
+  },
+  "XXII": {
+    "ticker": "XXII",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T12:35:25Z",
+        "headline": "22nd Century Prepares To Scale VLN Cigarettes As FDA Nears Reduced Nicotine Mandate",
+        "id": 42941985,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "XXII"
+        ],
+        "updated_at": "2025-01-13T12:35:25Z",
+        "url": "https://www.benzinga.com/news/25/01/42941985/22nd-century-prepares-to-scale-vln-cigarettes-as-fda-nears-reduced-nicotine-mandate",
+        "added_at": "2025-01-13T12:37:20.213Z"
+      }
+    ],
+    "hod": false,
+    "float": "470.13K",
+    "price": "6.09",
+    "time": "13:31:18",
+    "isActive": true,
+    "firstSeen": "2025-01-13T12:31:42.582Z",
+    "lastSeen": "2025-01-13T14:00:06.281Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-113547 (33 Act)  Size: 298 KB",
+        "date": "2024-11-01"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-100290 (33 Act)  Size: 227 KB",
+        "date": "2024-09-16"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 91480,
+      "Avg. Daily Volume": 470000,
+      "Short Float": 77120,
+      "Short Ratio": "19.46%"
+    }
+  },
+  "PHIO": {
+    "ticker": "PHIO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T12:53:52Z",
+        "headline": "Phio Pharmaceuticals Reports 100% Tumor Clearance in Two Patients Using PH-762 in Phase 1b Cancer Study",
+        "id": 42942530,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PHIO"
+        ],
+        "updated_at": "2025-01-13T12:53:53Z",
+        "url": "https://www.benzinga.com/news/25/01/42942530/phio-pharmaceuticals-reports-100-tumor-clearance-in-two-patients-using-ph-762-in-phase-1b-cancer-stu",
+        "added_at": "2025-01-13T12:57:20.420Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.68M",
+    "price": "3.84",
+    "time": "13:47:13",
+    "isActive": true,
+    "firstSeen": "2025-01-13T12:47:23.905Z",
+    "lastSeen": "2025-01-13T14:01:11.566Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 66700,
+      "Avg. Daily Volume": 1680000,
+      "Short Float": 354260,
+      "Short Ratio": "3.97%"
+    }
+  },
+  "SLXN": {
+    "ticker": "SLXN",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T12:58:44Z",
+        "headline": "Silexion Therapeutics To Present SIL-204 Data In KRAS-Driven Pancreatic Cancer At The 2025 ASCO Gastrointestinal Cancers Symposium",
+        "id": 42942571,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SLXN"
+        ],
+        "updated_at": "2025-01-13T12:58:44Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/42942571/silexion-therapeutics-to-present-sil-204-data-in-kras-driven-pancreatic-cancer-at-the-2025-asco-g",
+        "added_at": "2025-01-13T13:02:20.556Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.02M",
+    "price": "2.4",
+    "time": "13:51:10",
+    "isActive": true,
+    "firstSeen": "2025-01-13T12:51:14.782Z",
+    "lastSeen": "2025-01-13T13:29:12.886Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 38190,
+      "Avg. Daily Volume": 1020000,
+      "Short Float": 880440,
+      "Short Ratio": "3.74%"
+    }
+  },
+  "VVPR": {
+    "ticker": "VVPR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T13:00:30Z",
+        "headline": "VivoPower's Caret Digital Secures CAD$140 Million Definitive Binding Investment Commitment From Global Alternative Investment Group, GEM Global Yield LLC SCS; DOGE Coin Mining Is Consistent With Caret Digital's Power-To-X Strategy That Seeks To Activate The Highest And Best Use Cases For Renewable Power Capacity",
+        "id": 42942777,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VVPR"
+        ],
+        "updated_at": "2025-01-13T13:00:31Z",
+        "url": "https://www.benzinga.com/news/25/01/42942777/vivopowers-caret-digital-secures-cad-140-million-definitive-binding-investment-commitment-from-globa",
+        "added_at": "2025-01-13T13:02:20.669Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.78M",
+    "price": "1.61",
+    "time": "13:59:10",
+    "isActive": true,
+    "firstSeen": "2025-01-13T12:59:14.841Z",
+    "lastSeen": "2025-01-13T13:58:04.170Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 366550,
+      "Avg. Daily Volume": 1780000,
+      "Short Float": 683460,
+      "Short Ratio": "20.59%"
+    }
+  },
+  "CRBU": {
+    "ticker": "CRBU",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T07:33:53Z",
+        "headline": "Reported Earlier, Caribou Biosciences Advances CB-010, CB-011, And CB-012 Programs With Key Clinical Updates Expected In 2025; Cash Position $281M",
+        "id": 42938082,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "CRBU"
+        ],
+        "updated_at": "2025-01-13T07:33:54Z",
+        "url": "https://www.benzinga.com/news/25/01/42938082/reported-earlier-caribou-biosciences-advances-cb-010-cb-011-and-cb-012-programs-with-key-clinical-up",
+        "added_at": "2025-01-13T13:00:48.910Z"
+      }
+    ],
+    "hod": false,
+    "float": "79.18M",
+    "price": "1.81",
+    "time": "14:00:16",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:00:45.937Z",
+    "lastSeen": "2025-01-13T13:00:45.937Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 9540000,
+      "Avg. Daily Volume": 79180000,
+      "Short Float": 1410000,
+      "Short Ratio": "12.04%"
+    }
+  },
+  "HITI": {
+    "ticker": "HITI",
+    "news": [],
+    "hod": false,
+    "float": "73.39M",
+    "price": "3.33",
+    "time": "14:01:16",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:01:40.519Z",
+    "lastSeen": "2025-01-13T13:01:40.519Z"
+  },
+  "AMST": {
+    "ticker": "AMST",
+    "news": [],
+    "hod": false,
+    "float": "2.83M",
+    "price": "3.83",
+    "time": "14:01:06",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:01:40.519Z",
+    "lastSeen": "2025-01-13T13:01:40.519Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-108483 (33 Act)  Size: 1 MB",
+        "date": "2024-12-13"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-094581 (33 Act)  Size: 515 KB",
+        "date": "2024-11-05"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 13890,
+      "Avg. Daily Volume": 2830000,
+      "Short Float": 42540,
+      "Short Ratio": "0.49%"
+    }
+  },
+  "OPFI": {
+    "ticker": "OPFI",
+    "news": [],
+    "hod": false,
+    "float": "79.61M",
+    "price": "9.85",
+    "time": "14:01:57",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:02:54.197Z",
+    "lastSeen": "2025-01-13T13:02:54.197Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2490000,
+      "Avg. Daily Volume": 19590000,
+      "Short Float": 454190,
+      "Short Ratio": "12.71%"
+    }
+  },
+  "GRRR": {
+    "ticker": "GRRR",
+    "news": [],
+    "hod": false,
+    "float": "15.77M",
+    "price": "14.6",
+    "time": "14:08:07",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:08:15.927Z",
+    "lastSeen": "2025-01-13T13:55:49.882Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2350000,
+      "Avg. Daily Volume": 9490000,
+      "Short Float": 1610000,
+      "Short Ratio": "24.77%"
+    }
+  },
+  "ARQT": {
+    "ticker": "ARQT",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2025-01-13T13:01:05Z",
+        "headline": "Demystifying Arcutis Biotherapeutics: Insights From 5 Analyst Reviews",
+        "id": 42942799,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_3.png"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_3.png"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_3.png"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "ARQT"
+        ],
+        "updated_at": "2025-01-13T13:01:05Z",
+        "url": "https://www.benzinga.com/insights/analyst-ratings/25/01/42942799/demystifying-arcutis-biotherapeutics-insights-from-5-analyst-reviews",
+        "added_at": "2025-01-13T13:16:10.921Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T11:45:46Z",
+        "headline": "HC Wainwright & Co. Reiterates Buy on Arcutis Biotherapeutics, Maintains $19 Price Target",
+        "id": 42940384,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ARQT"
+        ],
+        "updated_at": "2025-01-13T11:45:47Z",
+        "url": "https://www.benzinga.com/news/25/01/42940384/hc-wainwright-co-reiterates-buy-on-arcutis-biotherapeutics-maintains-19-price-target",
+        "added_at": "2025-01-13T13:16:10.923Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T10:30:25Z",
+        "headline": "Needham Maintains Buy on Arcutis Biotherapeutics, Raises Price Target to $20",
+        "id": 42939240,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ARQT"
+        ],
+        "updated_at": "2025-01-13T10:30:26Z",
+        "url": "https://www.benzinga.com/news/25/01/42939240/needham-maintains-buy-on-arcutis-biotherapeutics-raises-price-target-to-20",
+        "added_at": "2025-01-13T13:16:10.923Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-12T21:26:02Z",
+        "headline": "Arcutis Biotherapeutics Reported Sunday, Preliminary Unaudited Product Revenue For Q4 2024 Expected To Be ~$63M, Up ~366% Vs. Q4 2023; For FY 2024 Expected To Be ~$160M, Up ~449% Vs. 2023",
+        "id": 42935803,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ARQT"
+        ],
+        "updated_at": "2025-01-12T21:26:02Z",
+        "url": "https://www.benzinga.com/news/25/01/42935803/arcutis-biotherapeutics-reported-sunday-preliminary-unaudited-product-revenue-for-q4-2024-expected-t",
+        "added_at": "2025-01-13T13:16:10.924Z"
+      }
+    ],
+    "hod": false,
+    "float": "102.98M",
+    "price": "15",
+    "time": "14:15:29",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:16:06.977Z",
+    "lastSeen": "2025-01-13T13:16:06.977Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 20970000,
+      "Avg. Daily Volume": 102980000,
+      "Short Float": 2040000,
+      "Short Ratio": "20.36%"
+    }
+  },
+  "SLRX": {
+    "ticker": "SLRX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T13:25:45Z",
+        "headline": "Salarius And Decoy Announces Merger, Decoy To Hold 86% Post-Conversion; Lead Asset To File IND With FDA; Advancements In Broad-Acting Antiviral And Peptide Drug Conjugate; Data Expected From MDACC Trial",
+        "id": 42943765,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SLRX"
+        ],
+        "updated_at": "2025-01-13T13:25:46Z",
+        "url": "https://www.benzinga.com/m-a/25/01/42943765/salarius-and-decoy-announces-merger-decoy-to-hold-86-post-conversion-lead-asset-to-file-ind-with-fda",
+        "added_at": "2025-01-13T13:30:26.801Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T13:25:36Z",
+        "headline": "Trading Halt: Halt status updated at 8:25:00 AM ET: Quotation Resumption: News and Resumption Times",
+        "id": 42943764,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "SLRX"
+        ],
+        "updated_at": "2025-01-13T13:25:36Z",
+        "url": "https://www.benzinga.com/25/01/42943764/trading-halt-halt-status-updated-at-8-25-00-am-et-quotation-resumption-news-and-resumption-times",
+        "added_at": "2025-01-13T13:30:26.803Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.40M",
+    "price": "5.19",
+    "time": "14:30:13",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:30:23.396Z",
+    "lastSeen": "2025-01-13T14:06:02.037Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 31110,
+      "Avg. Daily Volume": 1400000,
+      "Short Float": 333900,
+      "Short Ratio": "2.22%"
+    }
+  },
+  "ICU": {
+    "ticker": "ICU",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T14:06:35Z",
+        "headline": "SeaStar Medical Announces FDA Approval For IDE Application To Study SCD-ADULT With $3.6M NIH Grant; Study Targets Inflammation In Acute Heart Failure Patients With Worsening Renal Function; 20 Patients To Be Enrolled; Breakthrough Device Designation Granted September 2023",
+        "id": 42945430,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ICU"
+        ],
+        "updated_at": "2025-01-13T14:06:36Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/42945430/seastar-medical-announces-fda-approval-for-ide-application-to-study-scd-adult-with-3-6m-nih-grant",
+        "added_at": "2025-01-13T14:07:21.680Z"
+      }
+    ],
+    "hod": false,
+    "float": "4.29M",
+    "price": "2.19",
+    "time": "14:30:14",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:30:23.396Z",
+    "lastSeen": "2025-01-13T13:31:50.904Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 375150,
+      "Avg. Daily Volume": 4290000,
+      "Short Float": 211900,
+      "Short Ratio": "8.74%"
+    }
+  },
+  "HOLO": {
+    "ticker": "HOLO",
+    "news": [],
+    "hod": false,
+    "float": "20.44M",
+    "price": "2.52",
+    "time": "14:31:42",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:31:50.904Z",
+    "lastSeen": "2025-01-13T13:55:12.834Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 5640000,
+      "Avg. Daily Volume": 20440000,
+      "Short Float": 11190000,
+      "Short Ratio": "27.60%"
+    }
+  },
+  "MCVT": {
+    "ticker": "MCVT",
+    "news": [],
+    "hod": false,
+    "float": "1.79M",
+    "price": "3.6",
+    "time": "14:32:25",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:33:17.432Z",
+    "lastSeen": "2025-01-13T13:33:17.432Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 4730,
+      "Avg. Daily Volume": 1790000,
+      "Short Float": 9940,
+      "Short Ratio": "0.26%"
+    }
+  },
+  "GUTS": {
+    "ticker": "GUTS",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T12:11:45Z",
+        "headline": "Fractyl Health Reports Initial Results Showing Sustained Weight Maintenance After GLP-1 Discontinuation And Revita Treatment In First REVEAL-1 Cohort Patient",
+        "id": 42941160,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GUTS"
+        ],
+        "updated_at": "2025-01-13T12:11:46Z",
+        "url": "https://www.benzinga.com/news/25/01/42941160/fractyl-health-reports-initial-results-showing-sustained-weight-maintenance-after-glp-1-discontinuat",
+        "added_at": "2025-01-13T13:35:28.906Z"
+      }
+    ],
+    "hod": false,
+    "float": "20.64M",
+    "price": "2.19",
+    "time": "14:35:09",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:35:25.076Z",
+    "lastSeen": "2025-01-13T13:36:10.250Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2570000,
+      "Avg. Daily Volume": 20640000,
+      "Short Float": 326010,
+      "Short Ratio": "12.46%"
+    }
+  },
+  "STIM": {
+    "ticker": "STIM",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T13:09:45Z",
+        "headline": "Neuronetics Announces Q4 Revenue Of $22.1M And FY24 Revenue Of $74.5M; Projects 12%-19% Revenue Growth And $22M In Synergies For 2025; Aims For Cash Flow Breakeven In Q3 2025",
+        "id": 42943139,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "STIM"
+        ],
+        "updated_at": "2025-01-13T13:09:45Z",
+        "url": "https://www.benzinga.com/news/25/01/42943139/neuronetics-announces-q4-revenue-of-22-1m-and-fy24-revenue-of-74-5m-projects-12-19-revenue-growth-an",
+        "added_at": "2025-01-13T13:50:02.701Z"
+      }
+    ],
+    "hod": false,
+    "float": "15.66M",
+    "price": "1.83",
+    "time": "14:49:19",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:49:58.537Z",
+    "lastSeen": "2025-01-13T13:49:58.537Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 312930,
+      "Avg. Daily Volume": 15660000,
+      "Short Float": 407990,
+      "Short Ratio": "2.00%"
+    }
+  },
+  "NITO": {
+    "ticker": "NITO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-13T13:53:32Z",
+        "headline": "N2OFF, Inc. Announces Germany Regulatory Approval Of Its 111 MWp Solar PV Project",
+        "id": 42944804,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NITO"
+        ],
+        "updated_at": "2025-01-13T13:53:32Z",
+        "url": "https://www.benzinga.com/news/25/01/42944804/n2off-inc-announces-germany-regulatory-approval-of-its-111-mwp-solar-pv-project",
+        "added_at": "2025-01-13T13:57:22.157Z"
+      }
+    ],
+    "hod": false,
+    "float": "15.30M",
+    "price": "1.7",
+    "time": "14:53:20",
+    "isActive": true,
+    "firstSeen": "2025-01-13T13:53:23.686Z",
+    "lastSeen": "2025-01-13T14:08:37.599Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 985740,
+      "Avg. Daily Volume": 15300000,
+      "Short Float": 3090000,
+      "Short Ratio": "6.44%"
+    }
+  },
+  "FRGT": {
+    "ticker": "FRGT",
+    "news": [],
+    "hod": false,
+    "float": "1.99M",
+    "price": "1.7",
+    "time": "15:01:15",
+    "isActive": true,
+    "firstSeen": "2025-01-13T14:01:48.425Z",
+    "lastSeen": "2025-01-13T14:01:48.425Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 88830,
+      "Avg. Daily Volume": 1990000,
+      "Short Float": 170330,
+      "Short Ratio": "4.46%"
+    }
   }
 }
