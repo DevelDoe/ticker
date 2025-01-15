@@ -276,7 +276,14 @@ const displayTickersTable = async () => {
             const timestamp = latestNewsObject?.added_at || null;
             const latestNews = latestNewsObject?.headline || "No news available";
             const dateObj = timestamp ? new Date(timestamp) : null;
-            const formattedTime = dateObj ? dateObj.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", hour12: false }) : "";
+            const formattedTime = dateObj
+                ? dateObj.toLocaleTimeString("en-US", {
+                      hour: "2-digit",
+                      minute: "2-digit",
+                      hour12: true,
+                      timeZone: "America/New_York", // Set timezone to EST
+                  })
+                : "";
 
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
             const latestFiling = ticker.filings?.[0];
@@ -291,7 +298,7 @@ const displayTickersTable = async () => {
             // Define keywords to highlight
             const keywords = ["Offering", "Registered Direct", "Private Placement"];
 
-            // Highlight specific keywords 
+            // Highlight specific keywords
             if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
                 if (keywords.some((keyword) => latestNews.includes(keyword))) {
                     formattedNews = chalk.bgRed.white(formattedNews); // Red background for matching keywords
