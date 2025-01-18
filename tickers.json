@@ -1,243 +1,125 @@
 {
-  "PMAX": {
-    "ticker": "PMAX",
+  "ISPC": {
+    "ticker": "ISPC",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-15T21:01:23Z",
-        "headline": "Powell Max Announced Acquisition Plans Targeting $1.5M-$5M Revenue Firms To Expand In Hong Kong And Asia Financial Communications Market",
-        "id": 43014913,
+        "created_at": "2025-01-16T21:09:02Z",
+        "headline": "iSpecimen Secures Suppliers For hMPV Biospecimens Amid Rising Concerns Of COVID-Style Pandemic In China; Leverages Global Network For Anticipated Vaccine Development Amid Growing Specimen Demand",
+        "id": 43040622,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PMAX"
+          "ISPC"
         ],
-        "updated_at": "2025-01-15T21:01:24Z",
-        "url": "https://www.benzinga.com/m-a/25/01/43014913/powell-max-announced-acquisition-plans-targeting-1-5m-5m-revenue-firms-to-expand-in-hong-kong-and-as",
-        "added_at": "2025-01-16T07:53:03.855Z"
+        "updated_at": "2025-01-16T21:09:02Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/43040622/ispecimen-secures-suppliers-for-hmpv-biospecimens-amid-rising-concerns-of-covid-style-pandemic-in",
+        "added_at": "2025-01-17T05:32:21.593Z"
       }
     ],
     "hod": false,
-    "float": "2.59M",
-    "price": "3",
-    "time": "01:57:07",
+    "float": "823.18K",
+    "price": "4.27",
+    "time": "01:42:07",
     "isActive": true,
-    "firstSeen": "2025-01-16T07:53:02.882Z",
-    "lastSeen": "2025-01-16T13:09:11.269Z",
+    "firstSeen": "2025-01-17T05:32:20.446Z",
+    "lastSeen": "2025-01-17T13:03:56.576Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 3140,
-      "Avg. Daily Volume": "N/A",
-      "Short Float": 36660,
-      "Short Ratio": "N/A"
+      "Short Interest": 71670,
+      "Avg. Daily Volume": 820000,
+      "Short Float": 472430,
+      "Short Ratio": "8.74%"
     }
   },
-  "SLXN": {
-    "ticker": "SLXN",
+  "TMC": {
+    "ticker": "TMC",
+    "news": [],
+    "hod": false,
+    "float": "141.82M",
+    "price": "1.78",
+    "time": "00:54:50",
+    "isActive": true,
+    "firstSeen": "2025-01-17T05:32:20.447Z",
+    "lastSeen": "2025-01-17T10:11:39.072Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 9660000,
+      "Avg. Daily Volume": 141820000,
+      "Short Float": 1290000,
+      "Short Ratio": "6.81%"
+    }
+  },
+  "VS": {
+    "ticker": "VS",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-15T21:02:00Z",
-        "headline": "Silexion Therapeutics Reports Additional Preclinical Data For SIL-204, Demonstrating Synergy With First-Line Pancreatic Cancer Chemotherapies",
-        "id": 43014935,
+        "created_at": "2025-01-16T21:17:39Z",
+        "headline": "Versus Systems Announces Its Expansion Into Brazil; Expansion Marks A Significant Milestone As The Co Continues Growing Its International Footprint And Leveraging Its Gamification Platform To Transform Audience Engagement Across Industries",
+        "id": 43040950,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "SLXN"
+          "VS"
         ],
-        "updated_at": "2025-01-15T21:06:35Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/43014935/silexion-therapeutics-reports-additional-preclinical-data-for-sil-204-demonstrating-impressive-sy",
-        "added_at": "2025-01-16T07:53:03.967Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-16T07:59:40Z",
-        "headline": "Reported Earlier, Silexion Therapeutics Prices Public Offering Of 3,703,703 Shares And Warrants At $1.35, Raising $5M",
-        "id": 43021362,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "SLXN"
-        ],
-        "updated_at": "2025-01-16T07:59:40Z",
-        "url": "https://www.benzinga.com/news/25/01/43021362/reported-earlier-silexion-therapeutics-prices-public-offering-of-3-703-703-shares-and-warrants-at-1",
-        "added_at": "2025-01-16T08:03:53.209Z"
+        "updated_at": "2025-01-16T21:17:39Z",
+        "url": "https://www.benzinga.com/news/25/01/43040950/versus-systems-announces-its-expansion-into-brazil-expansion-marks-a-significant-milestone-as-the-co",
+        "added_at": "2025-01-17T05:32:21.813Z"
       }
     ],
-    "hod": true,
-    "float": "1.04M",
-    "price": "2.9",
-    "time": "01:56:40",
+    "hod": false,
+    "float": "1.75M",
+    "price": "3.3",
+    "time": "00:09:09",
     "isActive": true,
-    "firstSeen": "2025-01-16T07:53:02.883Z",
-    "lastSeen": "2025-01-16T09:00:21.165Z",
+    "firstSeen": "2025-01-17T05:32:20.447Z",
+    "lastSeen": "2025-01-17T13:18:15.464Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 38190,
-      "Avg. Daily Volume": 1020000,
-      "Short Float": 880440,
-      "Short Ratio": "3.74%"
+      "Short Interest": 29200,
+      "Avg. Daily Volume": 430000,
+      "Short Float": 1930000,
+      "Short Ratio": "6.79%"
     }
   },
-  "BKYI": {
-    "ticker": "BKYI",
+  "HOLO": {
+    "ticker": "HOLO",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-15T13:11:06Z",
-        "headline": "National Bank Of Egypt Is Deploying BIO-key's PortalGuard Platform",
-        "id": 43000352,
+        "created_at": "2025-01-16T14:11:18Z",
+        "headline": "MicroCloud Hologram Announces Groundbreaking Quantum Bit Rotation-Based Quantum Homomorphic Encryption Protocol, Enhancing Data Security and Flexibility; Proposed Quantum Privacy Query Protocol For Efficient Privacy Query Needs",
+        "id": 43028389,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "BKYI"
+          "HOLO"
         ],
-        "updated_at": "2025-01-15T13:11:06Z",
-        "url": "https://www.benzinga.com/news/25/01/43000352/national-bank-of-egypt-is-deploying-bio-keys-portalguard-platform",
-        "added_at": "2025-01-16T07:53:04.078Z"
+        "updated_at": "2025-01-16T14:11:18Z",
+        "url": "https://www.benzinga.com/news/25/01/43028389/microcloud-hologram-announces-groundbreaking-quantum-bit-rotation-based-quantum-homomorphic-encrypti",
+        "added_at": "2025-01-17T09:02:42.034Z"
       }
     ],
     "hod": false,
-    "float": "2.33M",
-    "price": "2.33",
-    "time": "01:55:07",
+    "float": "20.44M",
+    "price": "1.91",
+    "time": "10:01:59",
     "isActive": true,
-    "firstSeen": "2025-01-16T07:53:02.883Z",
-    "lastSeen": "2025-01-16T12:00:47.966Z",
+    "firstSeen": "2025-01-17T09:02:40.874Z",
+    "lastSeen": "2025-01-17T13:09:31.941Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 300420,
-      "Avg. Daily Volume": 2330000,
-      "Short Float": 2240000,
-      "Short Ratio": "12.89%"
-    }
-  },
-  "AMPG": {
-    "ticker": "AMPG",
-    "news": [],
-    "hod": false,
-    "float": "16.63M",
-    "price": "2.27",
-    "time": "01:49:25",
-    "isActive": true,
-    "firstSeen": "2025-01-16T07:53:02.883Z",
-    "lastSeen": "2025-01-16T09:00:21.177Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 896400,
-      "Avg. Daily Volume": 14910000,
-      "Short Float": 7000000,
-      "Short Ratio": "6.01%"
-    }
-  },
-  "QSI": {
-    "ticker": "QSI",
-    "news": [
-      {
-        "author": "Benzinga Insights",
-        "content": "",
-        "created_at": "2025-01-15T15:30:26Z",
-        "headline": "(QSI) - Analyzing Quantum-Si's Short Interest",
-        "id": 43006669,
-        "images": [
-          {
-            "size": "large",
-            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_1.jpeg"
-          },
-          {
-            "size": "small",
-            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_1.jpeg"
-          },
-          {
-            "size": "thumb",
-            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_1.jpeg"
-          }
-        ],
-        "source": "benzinga",
-        "summary": " ",
-        "symbols": [
-          "QSI"
-        ],
-        "updated_at": "2025-01-15T15:30:27Z",
-        "url": "https://www.benzinga.com/insights/short-sellers/25/01/43006669/qsi-analyzing-quantum-sis-short-interest",
-        "added_at": "2025-01-16T07:53:04.299Z"
-      }
-    ],
-    "hod": false,
-    "float": "109.95M",
-    "price": "2.6",
-    "time": "01:26:07",
-    "isActive": true,
-    "firstSeen": "2025-01-16T07:53:02.893Z",
-    "lastSeen": "2025-01-16T09:05:28.420Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 23650000,
-      "Avg. Daily Volume": 109950000,
-      "Short Float": 18400000,
-      "Short Ratio": "21.51%"
-    }
-  },
-  "RZLV": {
-    "ticker": "RZLV",
-    "news": [],
-    "hod": false,
-    "float": "46.37M",
-    "price": "2.74",
-    "time": "10:01:09",
-    "isActive": true,
-    "firstSeen": "2025-01-16T09:01:33.378Z",
-    "lastSeen": "2025-01-16T09:11:17.206Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 3870000,
-      "Avg. Daily Volume": 46370000,
-      "Short Float": 6850000,
-      "Short Ratio": "8.35%"
-    }
-  },
-  "SOBR": {
-    "ticker": "SOBR",
-    "news": [],
-    "hod": false,
-    "float": "689.04K",
-    "price": "1.79",
-    "time": "10:01:08",
-    "isActive": true,
-    "firstSeen": "2025-01-16T09:01:33.379Z",
-    "lastSeen": "2025-01-16T13:07:48.873Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 673230,
-      "Avg. Daily Volume": 690000,
-      "Short Float": 1780000,
-      "Short Ratio": "97.57%"
-    }
-  },
-  "KITT": {
-    "ticker": "KITT",
-    "news": [],
-    "hod": false,
-    "float": "5.56M",
-    "price": "3.22",
-    "time": "10:00:53",
-    "isActive": true,
-    "firstSeen": "2025-01-16T09:01:33.379Z",
-    "lastSeen": "2025-01-16T09:14:08.819Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 943770,
-      "Avg. Daily Volume": 5580000,
-      "Short Float": 1760000,
-      "Short Ratio": "16.91%"
+      "Short Interest": 5640000,
+      "Avg. Daily Volume": 20440000,
+      "Short Float": 11190000,
+      "Short Ratio": "27.60%"
     }
   },
   "VRME": {
@@ -245,11 +127,11 @@
     "news": [],
     "hod": false,
     "float": "8.11M",
-    "price": "4.37",
-    "time": "10:01:51",
+    "price": "4.46",
+    "time": "10:03:24",
     "isActive": true,
-    "firstSeen": "2025-01-16T09:02:29.163Z",
-    "lastSeen": "2025-01-16T09:02:29.163Z",
+    "firstSeen": "2025-01-17T09:04:44.049Z",
+    "lastSeen": "2025-01-17T09:04:44.049Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
       "Short Interest": 7900,
@@ -258,69 +140,16 @@
       "Short Ratio": "0.10%"
     }
   },
-  "WHLR": {
-    "ticker": "WHLR",
-    "news": [],
-    "hod": false,
-    "float": "2.40M",
-    "price": "4.81",
-    "time": "10:02:46",
-    "isActive": true,
-    "firstSeen": "2025-01-16T09:03:16.742Z",
-    "lastSeen": "2025-01-16T13:25:44.052Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 178470,
-      "Avg. Daily Volume": 1310000,
-      "Short Float": 675040,
-      "Short Ratio": "13.62%"
-    }
-  },
-  "QUBT": {
-    "ticker": "QUBT",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-15T13:34:27Z",
-        "headline": "Quantum Computing Collaborates With Sanders Tri-Institutional Therapeutics Discovery Institute To Support Research Using Dirac-3 Systems",
-        "id": 43001253,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "QUBT"
-        ],
-        "updated_at": "2025-01-15T13:34:28Z",
-        "url": "https://www.benzinga.com/news/25/01/43001253/quantum-computing-collaborates-with-sanders-tri-institutional-therapeutics-discovery-institute-to-su",
-        "added_at": "2025-01-16T09:04:10.257Z"
-      }
-    ],
-    "hod": false,
-    "float": "101.12M",
-    "price": "13.36",
-    "time": "10:03:37",
-    "isActive": true,
-    "firstSeen": "2025-01-16T09:04:08.349Z",
-    "lastSeen": "2025-01-16T09:08:37.365Z",
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 16070000,
-      "Avg. Daily Volume": 101120000,
-      "Short Float": 36830000,
-      "Short Ratio": "15.90%"
-    }
-  },
   "INTZ": {
     "ticker": "INTZ",
     "news": [],
     "hod": false,
-    "float": "13.02M",
-    "price": "3.23",
-    "time": "10:07:11",
+    "float": "13.36M",
+    "price": "2.91",
+    "time": "10:07:41",
     "isActive": true,
-    "firstSeen": "2025-01-16T09:07:23.301Z",
-    "lastSeen": "2025-01-16T09:37:43.510Z",
+    "firstSeen": "2025-01-17T09:07:43.452Z",
+    "lastSeen": "2025-01-17T09:07:43.452Z",
     "filings": [
       {
         "formType": "S-3/A",
@@ -341,197 +170,339 @@
       "Short Ratio": "24.91%"
     }
   },
-  "DOYU": {
-    "ticker": "DOYU",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-16T09:14:45Z",
-        "headline": "DouYu International Tapped Ms. Simin Ren As Co-CEO, Effective Today",
-        "id": 43021948,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DOYU"
-        ],
-        "updated_at": "2025-01-16T09:14:45Z",
-        "url": "https://www.benzinga.com/news/25/01/43021948/douyu-international-tapped-ms-simin-ren-as-co-ceo-effective-today",
-        "added_at": "2025-01-16T09:19:24.832Z"
-      },
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-16T09:13:22Z",
-        "headline": "DouYu International Board Approved A Special Cash Dividend Of $9.94/ADS",
-        "id": 43021943,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "DOYU"
-        ],
-        "updated_at": "2025-01-16T09:13:22Z",
-        "url": "https://www.benzinga.com/news/25/01/43021943/douyu-international-board-approved-a-special-cash-dividend-of-9-94ads",
-        "added_at": "2025-01-16T09:19:24.833Z"
-      }
-    ],
+  "KITT": {
+    "ticker": "KITT",
+    "news": [],
     "hod": false,
-    "float": "31.63M",
-    "price": "16.74",
-    "time": "10:19:01",
+    "float": "5.56M",
+    "price": "2.44",
+    "time": "10:10:16",
     "isActive": true,
-    "firstSeen": "2025-01-16T09:19:22.706Z",
-    "lastSeen": "2025-01-16T12:24:42.891Z",
+    "firstSeen": "2025-01-17T09:10:53.441Z",
+    "lastSeen": "2025-01-17T13:02:34.006Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 712320,
-      "Avg. Daily Volume": 31630000,
-      "Short Float": 131480,
-      "Short Ratio": "2.25%"
-    }
-  },
-  "OTLK": {
-    "ticker": "OTLK",
-    "news": [
-      {
-        "author": "Benzinga Newsdesk",
-        "content": "",
-        "created_at": "2025-01-16T11:04:30Z",
-        "headline": "Outlook Therapeutics Completed The Analysis Of The Complete 12-Week Safety And Efficacy Results For NORSE EIGHT Trial Of ONS-5010 In Wet Age-related Macular Degeneration Patients, Demonstrating Noninferiority To Ranibizumab, Plans To Resubmit The Biologics License Application In Q1 Of Calendar 2025.",
-        "id": 43023087,
-        "images": [],
-        "source": "benzinga",
-        "summary": "",
-        "symbols": [
-          "OTLK"
-        ],
-        "updated_at": "2025-01-16T11:04:31Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/43023087/outlook-therapeutics-completed-the-analysis-of-the-complete-12-week-safety-and-efficacy-results-f",
-        "added_at": "2025-01-16T11:08:53.505Z"
-      }
-    ],
-    "hod": false,
-    "float": "16.48M",
-    "price": "2.8",
-    "time": "12:02:43",
-    "isActive": true,
-    "firstSeen": "2025-01-16T11:02:47.288Z",
-    "lastSeen": "2025-01-16T11:03:25.356Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-052965 (33 Act)  Size: 229 KB",
-        "date": "2024-04-26"
-      }
-    ],
-    "shorts": {
-      "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 2890000,
-      "Avg. Daily Volume": 16040000,
+      "Short Interest": 943770,
+      "Avg. Daily Volume": 5580000,
       "Short Float": 1760000,
-      "Short Ratio": "18.02%"
+      "Short Ratio": "16.91%"
     }
   },
-  "ZENA": {
-    "ticker": "ZENA",
+  "VCIG": {
+    "ticker": "VCIG",
+    "news": [],
+    "hod": false,
+    "float": "20.04M",
+    "price": "1.69",
+    "time": "10:15:10",
+    "isActive": true,
+    "firstSeen": "2025-01-17T09:16:06.024Z",
+    "lastSeen": "2025-01-17T09:16:47.826Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 984490,
+      "Avg. Daily Volume": 7600000,
+      "Short Float": 6680000,
+      "Short Ratio": "12.95%"
+    }
+  },
+  "UCL": {
+    "ticker": "UCL",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-16T12:32:16Z",
-        "headline": "ZenaTech Completes Acquisition Of Weddle Surveying Inc.",
-        "id": 43025275,
+        "created_at": "2025-01-17T09:06:09Z",
+        "headline": "UCloudlink Expands Mobile Data Solutions with WHSmith Partnership, Eyeing European Rollout",
+        "id": 43049843,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "ZENA"
+          "UCL"
         ],
-        "updated_at": "2025-01-16T12:32:16Z",
-        "url": "https://www.benzinga.com/m-a/25/01/43025275/zenatech-completes-acquisition-of-weddle-surveying-inc",
-        "added_at": "2025-01-16T12:34:13.940Z"
+        "updated_at": "2025-01-17T09:06:10Z",
+        "url": "https://www.benzinga.com/news/25/01/43049843/ucloudlink-expands-mobile-data-solutions-with-whsmith-partnership-eyeing-european-rollout",
+        "added_at": "2025-01-17T09:44:00.580Z"
       }
     ],
     "hod": false,
-    "float": "6.60M",
-    "price": "7.08",
-    "time": "13:30:41",
+    "float": "147.19M",
+    "price": "1.62",
+    "time": "10:43:56",
     "isActive": true,
-    "firstSeen": "2025-01-16T12:30:44.028Z",
-    "lastSeen": "2025-01-16T12:31:40.331Z",
+    "firstSeen": "2025-01-17T09:43:58.863Z",
+    "lastSeen": "2025-01-17T13:00:54.268Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 454430,
+      "Short Interest": 118410,
       "Avg. Daily Volume": "N/A",
-      "Short Float": 6210000,
+      "Short Float": 175560,
       "Short Ratio": "N/A"
     }
   },
-  "XXII": {
-    "ticker": "XXII",
+  "LIDR": {
+    "ticker": "LIDR",
     "news": [],
     "hod": false,
-    "float": "501.79K",
-    "price": "8.29",
-    "time": "13:55:22",
+    "float": "12.38M",
+    "price": "1.53",
+    "time": "10:45:13",
     "isActive": true,
-    "firstSeen": "2025-01-16T12:55:31.190Z",
-    "lastSeen": "2025-01-16T12:55:31.190Z",
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-113547 (33 Act)  Size: 298 KB",
-        "date": "2024-11-01"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-100290 (33 Act)  Size: 227 KB",
-        "date": "2024-09-16"
-      }
-    ],
+    "firstSeen": "2025-01-17T09:45:25.550Z",
+    "lastSeen": "2025-01-17T09:45:25.550Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 91480,
-      "Avg. Daily Volume": 470000,
-      "Short Float": 77120,
-      "Short Ratio": "19.46%"
+      "Short Interest": 1170000,
+      "Avg. Daily Volume": 12400000,
+      "Short Float": 904820,
+      "Short Ratio": "9.42%"
     }
   },
-  "PALI": {
-    "ticker": "PALI",
+  "ZEO": {
+    "ticker": "ZEO",
+    "news": [],
+    "hod": false,
+    "float": "7.58M",
+    "price": "4.35",
+    "time": "12:33:03",
+    "isActive": true,
+    "firstSeen": "2025-01-17T11:40:55.820Z",
+    "lastSeen": "2025-01-17T13:03:56.576Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 94510,
+      "Avg. Daily Volume": 1360000,
+      "Short Float": 916620,
+      "Short Ratio": "6.95%"
+    }
+  },
+  "XHG": {
+    "ticker": "XHG",
+    "news": [],
+    "hod": false,
+    "float": "215.08K",
+    "price": "1.52",
+    "time": "12:27:58",
+    "isActive": true,
+    "firstSeen": "2025-01-17T11:40:55.821Z",
+    "lastSeen": "2025-01-17T11:40:55.821Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2360,
+      "Avg. Daily Volume": 220000,
+      "Short Float": 858540,
+      "Short Ratio": "1.07%"
+    }
+  },
+  "SMX": {
+    "ticker": "SMX",
+    "news": [],
+    "hod": false,
+    "float": "2.27M",
+    "price": "6.24",
+    "time": "13:03:27",
+    "isActive": true,
+    "firstSeen": "2025-01-17T12:04:17.931Z",
+    "lastSeen": "2025-01-17T12:41:26.017Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 307160,
+      "Avg. Daily Volume": 301050,
+      "Short Float": 1170000,
+      "Short Ratio": "102.03%"
+    }
+  },
+  "FRSX": {
+    "ticker": "FRSX",
     "news": [
       {
         "author": "Benzinga Newsdesk",
         "content": "",
-        "created_at": "2025-01-16T13:05:03Z",
-        "headline": "Palisade Bio Completes All Five Single Ascending Dose Cohorts And Commences Multiple Ascending Dose Cohorts In Phase 1a/b Trial Of PALI-2108 For Ulcerative Colitis; Co. On Track To Report Topline Data In 1H 2025",
-        "id": 43026095,
+        "created_at": "2025-01-16T13:45:51Z",
+        "headline": "Foresight Delivers First Batch Of Commercial Mass Production Systems To SUNWAY-AI In China",
+        "id": 43027593,
         "images": [],
         "source": "benzinga",
         "summary": "",
         "symbols": [
-          "PALI"
+          "FRSX"
         ],
-        "updated_at": "2025-01-16T13:05:04Z",
-        "url": "https://www.benzinga.com/general/biotech/25/01/43026095/palisade-bio-completes-all-five-single-ascending-dose-cohorts-and-commences-multiple-ascending-do",
-        "added_at": "2025-01-16T13:08:54.369Z"
+        "updated_at": "2025-01-16T13:45:51Z",
+        "url": "https://www.benzinga.com/news/25/01/43027593/foresight-delivers-first-batch-of-commercial-mass-production-systems-to-sunway-ai-in-china",
+        "added_at": "2025-01-17T12:07:23.678Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-17T12:08:07Z",
+        "headline": "Foresight Autonomous Holdings Says Its Unit Eye-net Mobile Has Successfully Passed Rigorous Field Tests Conducted By UTAC, A French Organization Specializing In Vehicle Testing, Certification, And Safety Solutions",
+        "id": 43052523,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "FRSX"
+        ],
+        "updated_at": "2025-01-17T12:08:08Z",
+        "url": "https://www.benzinga.com/news/25/01/43052523/foresight-autonomous-holdings-says-its-unit-eye-net-mobile-has-successfully-passed-rigorous-field-te",
+        "added_at": "2025-01-17T12:09:24.839Z"
       }
     ],
     "hod": false,
-    "float": "2.74M",
-    "price": "1.95",
-    "time": "14:01:24",
+    "float": "13.09M",
+    "price": "1.67",
+    "time": "13:06:50",
     "isActive": true,
-    "firstSeen": "2025-01-16T13:02:45.943Z",
-    "lastSeen": "2025-01-16T13:27:10.782Z",
+    "firstSeen": "2025-01-17T12:07:21.450Z",
+    "lastSeen": "2025-01-17T12:07:21.450Z",
     "shorts": {
       "Settlement Date": "Dec 31, 2024",
-      "Short Interest": 66280,
-      "Avg. Daily Volume": 2720000,
-      "Short Float": 1250000,
-      "Short Ratio": "2.44%"
+      "Short Interest": 640110,
+      "Avg. Daily Volume": 10830000,
+      "Short Float": 704520,
+      "Short Ratio": "5.91%"
+    }
+  },
+  "PRZO": {
+    "ticker": "PRZO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-17T12:56:56Z",
+        "headline": "Parazero Technologies Received Official Approval From the Israeli Defense Export Controls Agency Under The Ministry Of Defense For The Marketing Of Its Halo Precision Airdrop System",
+        "id": 43053527,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PRZO"
+        ],
+        "updated_at": "2025-01-17T12:56:57Z",
+        "url": "https://www.benzinga.com/news/25/01/43053527/parazero-technologies-received-official-approval-from-the-israeli-defense-export-controls-agency-und",
+        "added_at": "2025-01-17T12:59:25.149Z"
+      }
+    ],
+    "hod": false,
+    "float": "9.01M",
+    "price": "2.57",
+    "time": "13:56:16",
+    "isActive": true,
+    "firstSeen": "2025-01-17T12:56:19.852Z",
+    "lastSeen": "2025-01-17T13:16:58.211Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 482990,
+      "Avg. Daily Volume": 9010000,
+      "Short Float": 7270000,
+      "Short Ratio": "5.36%"
+    }
+  },
+  "AMIX": {
+    "ticker": "AMIX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-17T13:02:24Z",
+        "headline": "Autonomix Medical Finalizes The Design For Its ASIC Microchip For Sensing Technology Catheter",
+        "id": 43053694,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "AMIX"
+        ],
+        "updated_at": "2025-01-17T13:02:24Z",
+        "url": "https://www.benzinga.com/news/25/01/43053694/autonomix-medical-finalizes-the-design-for-its-asic-microchip-for-sensing-technology-catheter",
+        "added_at": "2025-01-17T13:04:25.339Z"
+      }
+    ],
+    "hod": false,
+    "float": "1.24M",
+    "price": "3.48",
+    "time": "14:01:13",
+    "isActive": true,
+    "firstSeen": "2025-01-17T13:01:44.815Z",
+    "lastSeen": "2025-01-17T13:13:19.530Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 283580,
+      "Avg. Daily Volume": 1190000,
+      "Short Float": 739440,
+      "Short Ratio": "23.83%"
+    }
+  },
+  "GSIT": {
+    "ticker": "GSIT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-17T13:02:02Z",
+        "headline": "Gsi Technology Has Been Selected By The U.S. Army For A Potential Contract Award Of Up To $250,000 Under The DOD Small Business Innovation Research Program",
+        "id": 43053687,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "GSIT"
+        ],
+        "updated_at": "2025-01-17T13:02:03Z",
+        "url": "https://www.benzinga.com/news/25/01/43053687/gsi-technology-has-been-selected-by-the-u-s-army-for-a-potential-contract-award-of-up-to-250-000-und",
+        "added_at": "2025-01-17T13:09:34.510Z"
+      }
+    ],
+    "hod": false,
+    "float": "18.98M",
+    "price": "3.25",
+    "time": "14:08:40",
+    "isActive": true,
+    "firstSeen": "2025-01-17T13:09:31.941Z",
+    "lastSeen": "2025-01-17T13:09:31.941Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 369040,
+      "Avg. Daily Volume": 18980000,
+      "Short Float": 173320,
+      "Short Ratio": "1.94%"
+    }
+  },
+  "BTCT": {
+    "ticker": "BTCT",
+    "news": [],
+    "hod": false,
+    "float": "4.39M",
+    "price": "6.86",
+    "time": "14:17:56",
+    "isActive": true,
+    "firstSeen": "2025-01-17T13:18:15.464Z",
+    "lastSeen": "2025-01-17T13:25:20.900Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 132790,
+      "Avg. Daily Volume": 4250000,
+      "Short Float": 3870000,
+      "Short Ratio": "3.12%"
+    }
+  },
+  "RVNC": {
+    "ticker": "RVNC",
+    "news": [],
+    "hod": false,
+    "float": "95.25M",
+    "price": "3.69",
+    "time": "14:17:16",
+    "isActive": true,
+    "firstSeen": "2025-01-17T13:18:15.464Z",
+    "lastSeen": "2025-01-17T13:18:15.464Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 8340000,
+      "Avg. Daily Volume": 95290000,
+      "Short Float": 2490000,
+      "Short Ratio": "8.75%"
     }
   }
 }
