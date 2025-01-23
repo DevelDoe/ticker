@@ -3,9 +3,9 @@ import path from "path";
 import dotenv from "dotenv";
 import fetch from "node-fetch";
 import player from "node-wav-player";
-import chokidar from "chokidar"; // Import chokidar
+import chokidar from "chokidar";
 import chalk from "chalk";
-import { safeReadFile, safeWriteFile } from "./fileOps.js"; // Import fileOps for safe file handling
+import { safeReadFile, safeWriteFile } from "./fileOps.js";
 
 const verbose = process.argv.includes("-v"); // Check for -v flag
 const testServer = process.argv.includes("-t"); // Check for -t flag
@@ -13,37 +13,38 @@ const testServer = process.argv.includes("-t"); // Check for -t flag
 dotenv.config({ path: path.join(process.cwd(), ".env.alpaca") }); // Load environment variables
 
 // Define paths
-const tickerFilePath = path.join(process.cwd(), "tickers.json"); // Path for the ticker.json
+const tickerFilePath = path.join(process.cwd(), "tickers.json");
 
 // Variables
-const CHECK_INTERVAL = 20 * 1000;
+const CHECK_INTERVAL = 1 * 1000; // 1 second
+let delay = 500; // Initial delay in ms
+const maxDelay = 100000000; // Maximum delay
+const minDelay = 100; // Minimum delay
 
-// Variables
 let watcher; // Declare watcher globally
 let fileChangeTimeout; // To debounce rapid file changes
 let tickersData = {}; // To store tickers with news
 let lastProcessedTime = 0; // Variable to track the last processed time
 
-let lastPlayedTime = 0; // Track last playback time
+// Play WAV sound with debounce and tracking
+let lastPlayedTime = 0;
 const DEBOUNCE_INTERVAL = 10000; // 10 seconds
 
-// Play WAV sound with debounce and tracking
-function playWav(filePath, ticker = "", context = "") {
+function playWav(filePath) {
     const now = Date.now();
     if (now - lastPlayedTime < DEBOUNCE_INTERVAL) {
         return; // Skip playback if within debounce interval
     }
 
     lastPlayedTime = now; // Update last playback time
-    player
-        .play({ path: filePath })
-        .then(() => {
-            logVerbose(`Played sound for ${ticker} (${context}): ${filePath}`);
-        })
-        .catch((error) => {
-            if (verbose) console.error(`Error playing file for ${ticker} (${context}):`, error);
-        });
+    player.play({ path: filePath }).catch((error) => {
+        if (verbose) console.error(`Error playing file:`, error);
+    });
 }
+
+// Sleep function for delays
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 // Watch for changes in tickers.json
 const startFileWatcher = () => {
     console.log(`Watching for changes in: ${tickerFilePath}`);
@@ -55,8 +56,8 @@ const startFileWatcher = () => {
         // Debounce the file change event
         fileChangeTimeout = setTimeout(async () => {
             console.log(`File changed: ${tickerFilePath}, reprocessing tickers...`);
-            await processTickers(); // Process tickers only after debouncing
-        }, 500); // Adjust delay if necessary
+            await processTickers();
+        }, 500);
     });
 
     watcher.on("error", (error) => console.error(`Watcher error: ${error}`));
@@ -66,7 +67,7 @@ const startFileWatcher = () => {
 const readTickersFromFile = async () => {
     try {
         if (verbose) console.log(`Reading tickers from JSON file: ${tickerFilePath}`);
-        tickersData = await safeReadFile(tickerFilePath); // Use safeReadFile
+        tickersData = await safeReadFile(tickerFilePath);
         const tickerSymbols = Object.keys(tickersData);
         console.log(`Tickers found: ${tickerSymbols.join(", ")}`);
         return tickerSymbols;
@@ -80,14 +81,14 @@ const writeTickersToFile = async () => {
     try {
         if (verbose) console.log("Pausing watcher for safe write operation...");
         await watcher.close();
-        await safeWriteFile(tickerFilePath, tickersData); // Use safeWriteFile for consistency
+        await safeWriteFile(tickerFilePath, tickersData);
         startFileWatcher();
     } catch (err) {
         console.error("Error writing to ticker file:", err);
     }
 };
 
-// Fetch news for a ticker from the Alpaca API or Test Serve
+// Fetch news for a ticker from the Alpaca API or Test Server
 const getNewsForTicker = async (ticker) => {
     let url;
     const currentTime = new Date();
@@ -95,10 +96,8 @@ const getNewsForTicker = async (ticker) => {
     const formattedDate = last24Hours.toISOString(); // Format to ISO 8601
 
     if (testServer) {
-        // Test server mode
         url = `http://localhost:3000/v1beta1/news?symbols=${ticker}&start=${formattedDate}`;
     } else {
-        // Live API mode
         url = `https://data.alpaca.markets/v1beta1/news?symbols=${ticker}&start=${formattedDate}&limit=50&sort=desc`;
     }
 
@@ -112,13 +111,17 @@ const getNewsForTicker = async (ticker) => {
     };
 
     try {
-        if (verbose) console.log(`Fetching news for ticker: ${ticker} from ${testServer ? "test server" : ""}`);
+        if (verbose) console.log(`Fetching news for ticker: ${ticker} with delay: ${delay}ms`);
         const response = await fetch(url, options);
 
         if (response.ok) {
             const news = await response.json();
-            if (verbose) console.log(`Received news for ticker ${ticker}:`, news);
+            delay = Math.max(minDelay, delay - 100); // Reduce delay after a successful request
             return news.news || [];
+        } else if (response.status === 429) {
+            delay = Math.min(maxDelay, delay * 2); // Double the delay on rate limiting
+            console.warn(`Rate limited! Increasing delay to ${delay}ms`);
+            return [];
         } else {
             const text = await response.text();
             console.error("API request failed:", response.status, text);
@@ -141,75 +144,35 @@ const updateTickersWithNews = (ticker, news) => {
     let newNewsFound = false; // Track if new news is found
 
     news.forEach((newsItem) => {
-        // Skip news where `symbols` array contains more than the ticker
         if (newsItem.symbols.length !== 1 || newsItem.symbols[0] !== ticker) {
             if (verbose) console.log(`Skipping news for ${ticker} due to multiple symbols:`, newsItem.symbols);
             return;
         }
 
-        // List of unwanted keywords (case insensitive, trimmed)
-        const unwantedKeywords = [
-            "Why Is",
-            "Stock Soaring",
-            "shares resumed trade",
-            "halted",
-            "suspended",
-            "Shares Resume",
-            "Stock Is Down",
-            "Stock Is Rising",
-            "Rockets Higher",
-            "trading higher",
-            "Shares Are Down",
-            "Shares Resume Trade",
-            "What's Going On",
-            "Stock Is Trading Lower",
-            "Shares Are Skyrocketing",
-            "Here's Why"
-        ];
-
-        // Skip news items with unwanted keywords in the headline
-        if (newsItem.headline && unwantedKeywords.some((keyword) => newsItem.headline.toLowerCase().trim().includes(keyword.toLowerCase().trim()))) {
-            if (verbose) console.log(`Skipping news for ${ticker} due to headline: "${newsItem.headline}"`);
-            return;
-        }
-
-        // Check if the news item is already present using its ID
         const exists = tickersData[ticker].news.some((existingNews) => existingNews.id === newsItem.id);
         if (!exists) {
-            let formattedNews = newsItem.headline; // Initialize formatted news
             tickersData[ticker].news.push({
                 ...newsItem,
-                added_at: new Date().toISOString(), // Add current timestamp
+                added_at: new Date().toISOString(),
             });
             console.log(`${ticker}: "${newsItem.headline}"`);
-
-            // // Highlight specific keywords and play relevant sounds
-            // const keywords = ["Offering", "Registered Direct", "Private Placement"];
-            // if (keywords.some((keyword) => newsItem.headline.includes(keyword))) {
-            //     playWav("./sounds/siren.wav"); // Play siren sound
-            // } else {
-            //     playWav("./sounds/flash.wav"); // Play flash sound
-            // }
-
             newNewsFound = true; // Mark as new news found
-            console.log(`Added news for ${ticker}: ${newsItem.headline}`);
         }
     });
 
-    // Set isActive to true if new news was found
     if (newNewsFound) {
         tickersData[ticker].isActive = true;
         console.log(`Ticker ${ticker} is now active due to new news.`);
     }
 };
 
-// Collect and process news for tickers
+// Collect and process news for tickers with adaptive throttling
 const collectAllNews = async (tickers) => {
     let updatesMade = false; // Track if any updates were made
 
     for (const ticker of tickers) {
         if (verbose) console.log(`Fetching news for ticker: ${ticker}`);
-        const newsData = await getNewsForTicker(ticker); // Fetch news based on mode
+        const newsData = await getNewsForTicker(ticker);
         if (newsData && newsData.length > 0) {
             const initialNewsCount = tickersData[ticker]?.news?.length || 0;
             updateTickersWithNews(ticker, newsData);
@@ -219,6 +182,8 @@ const collectAllNews = async (tickers) => {
         } else {
             if (verbose) console.log(`No news found for ticker: ${ticker}`);
         }
+
+        await sleep(delay); // Wait for the current delay before the next request
     }
     if (updatesMade) {
         await writeTickersToFile(); // Write only if updates were made
@@ -229,7 +194,7 @@ const collectAllNews = async (tickers) => {
 
 // Process tickers, fetch news, and print results
 const processTickers = async () => {
-    const tickersToProcess = await readTickersFromFile(); // Fetch tickers from the new JSON
+    const tickersToProcess = await readTickersFromFile();
     console.log(`Processing ${tickersToProcess.length} tickers...`);
     await collectAllNews(tickersToProcess);
 };
@@ -245,9 +210,8 @@ const main = async () => {
         const currentTime = Date.now();
         const elapsedTime = currentTime - lastProcessedTime;
 
-        // Check if at least 60 seconds have passed since the last run
         if (elapsedTime >= CHECK_INTERVAL) {
-            await processTickers(); // Process all tickers regularly at the defined interval
+            await processTickers();
             lastProcessedTime = currentTime; // Update the last processed time
         } else {
             if (verbose) console.log(`Skipping tickers processing; only ${elapsedTime / 1000}s since last run.`);
@@ -255,5 +219,4 @@ const main = async () => {
     }, CHECK_INTERVAL);
 };
 
-// Start the script
 main().catch(console.error);

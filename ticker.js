@@ -17,6 +17,7 @@ const lastWipeFilePath = "last-wipe.txt";
 const watchlistFilePath = "watchlist.json"; // Path for the watchlist
 const shortsFilePath = "shorts.json"; // Declare shortsFilePath
 const filingsFilePath = "filings.json"; // Path for filings
+const financialsFilePath = "financials.json"; // Path for financials.json
 
 let filterHeadlinesActive = true; // State for filtering headlines
 const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
@@ -245,6 +246,8 @@ const formatShortInterest = (value) => {
     return value.toString();
 };
 
+let lastPlayedHeadlines = {}; // Track played headlines for each ticker
+
 const displayTickersTable = async () => {
     logVerbose("Displaying tickers in table format...");
     try {
@@ -255,8 +258,8 @@ const displayTickersTable = async () => {
 
         // Initialize the table with headers
         const table = new Table({
-            head: ["Ticker", "News", "S-3", "Short Interest"],
-            colWidths: [10, 128, 14, 10],
+            head: ["Ticker", "News"],
+            colWidths: [20, 145], // Adjusted width
         });
 
         // Filter and sort tickers
@@ -281,48 +284,76 @@ const displayTickersTable = async () => {
                       hour: "2-digit",
                       minute: "2-digit",
                       hour12: true,
-                      timeZone: "America/New_York", // Set timezone to EST
+                      timeZone: "America/New_York",
                   })
                 : "";
 
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
-            const latestFiling = ticker.filings?.[0];
-            const filingInfo = latestFiling ? ` ${latestFiling.date}` : "";
 
-            const formattedTicker = isInWatchlist ? chalk.black.yellow(ticker.ticker) : ticker.ticker;
-            const coloredTicker = ticker.hod ? formattedTicker + chalk.cyanBright("*") : formattedTicker;
+// Check for S-3 filing and running at a loss
+const hasS3Filing = ticker.filings?.some((filing) => filing.formType === "S-3");
+const isRunningAtLoss = ticker.financials?.netIncome < 0;
+const flag = hasS3Filing && isRunningAtLoss;
 
-            // Format the news
-            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
+let formattedTicker = ticker.ticker; // Start with the base ticker
 
-            // Define keywords to highlight
+if (ticker.shorts?.["Short Interest"]) {
+    const shortInterestValue = ticker.shorts["Short Interest"];
+    const shortInterest = formatShortInterest(shortInterestValue);
+
+    // Apply color coding based on the short interest value
+    const coloredShortInterest =
+        shortInterestValue < 1e6
+            ? chalk.green(shortInterest) // Green if < 1M
+            : shortInterestValue < 5e6
+            ? chalk.yellow(shortInterest) // Yellow if >= 1M and < 5M
+            : chalk.redBright(shortInterest); // Red if >= 5M
+
+    formattedTicker += `(${coloredShortInterest})`; // Add colored short interest in parentheses
+}
+
+// Add HOD indicator if applicable
+if (ticker.hod) {
+    formattedTicker += chalk.cyanBright("HOD"); // Add "HOD" indicator
+}
+
+// Add "POTSELL" indicator if flagged
+if (flag) {
+    formattedTicker += chalk.red("POTSELL");
+}
+
+// Highlight in yellow if in watchlist
+if (isInWatchlist) {
+    formattedTicker = chalk.black.yellow(formattedTicker);
+}
+
+
+            // Highlight news keywords and add "#" if matched
             const keywords = ["Offering", "Registered Direct", "Private Placement"];
+            let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
+            const matchedKeyword = keywords.some((keyword) => latestNews.includes(keyword));
 
-            // Highlight specific keywords
-            if (lastDisplayedHeadlines[ticker.ticker] !== latestNews) {
-                if (keywords.some((keyword) => latestNews.includes(keyword))) {
-                    formattedNews = chalk.bgRed.white(formattedNews); // Red background for matching keywords
-                    playWav("./sounds/siren.wav"); // Play siren sound
-                } else {
-                    formattedNews = chalk.black.yellow(formattedNews); // Yellow highlight for new news
-                    playWav("./sounds/flash.wav"); // Play flash sound
+            if (matchedKeyword) {
+                formattedNews = chalk.bgRed.white(formattedNews); // Red background for keywords
+                formattedTicker += chalk.redBright("SELLING"); // Add magenta "#" if not already matched
+
+                // Play siren.wav only if not played before
+                if (!lastPlayedHeadlines[ticker.ticker]?.includes(latestNews)) {
+                    playWav("./sounds/siren.wav");
+                    lastPlayedHeadlines[ticker.ticker] = latestNews; // Mark this headline as played
                 }
+            } else if (!lastPlayedHeadlines[ticker.ticker]?.includes(latestNews)) {
+                formattedNews = chalk.black.yellowBright(formattedNews); // Highlight for new news
+                playWav("./sounds/flash.wav");
+                lastPlayedHeadlines[ticker.ticker] = latestNews; // Mark this headline as played
             } else if (isInWatchlist) {
-                formattedNews = chalk.yellow(formattedNews); // Highlight watchlist tickers
+                formattedNews = chalk.yellow(formattedNews); // Highlight for watchlist
+            } else {
+                formattedNews = chalk.white(formattedNews);
             }
 
-            previousHodStatus[ticker.ticker] = ticker.hod; // Update HOD status
-
-            // Format the price with color coding
-            const previousPrice = previousPrices[ticker.ticker] || 0;
-            const formattedPrice = ticker.price ? (previousPrice < ticker.price ? chalk.green(ticker.price) : chalk.red(ticker.price)) : "N/A";
-            previousPrices[ticker.ticker] = ticker.price || 0;
-
             // Add the row to the table
-            table.push([coloredTicker, formattedNews, filingInfo, ticker.shorts ? formatShortInterest(ticker.shorts["Short Interest"]) : ""]);
-
-            // Update the last displayed headline for the ticker
-            lastDisplayedHeadlines[ticker.ticker] = latestNews;
+            table.push([formattedTicker, formattedNews]);
         });
 
         // Clear the console and display the table
@@ -388,10 +419,6 @@ const appendTicker = async (sanitizedTicker) => {
 
         await safeWriteFile(tickerFilePath, tickers);
         await displayTickersTable(); // Display the updated tickers table
-
-        // Copy ticker to clipboard and inform the user
-        clipboardy.writeSync(sanitizedTicker); // Copy to clipboard
-        console.log(`Ticker ${sanitizedTicker} has been copied to the clipboard.`); // Inform the user
     } catch (err) {
         console.error("Error appending ticker:", err);
     }
@@ -533,7 +560,7 @@ const startWatchingFile = () => {
             Object.keys(currentTickers).forEach((ticker) => {
                 if (!previousTickers[ticker]) {
                     clipboardy.writeSync(ticker);
-                    console.log(`New ticker ${ticker} detected and copied to clipboard.`);
+                    // console.log(`New ticker ${ticker} detected and copied to clipboard.`);
                 }
             });
 
@@ -641,6 +668,49 @@ const watchFilingsFile = () => {
     });
 };
 
+// Watch for changes in financials.json and update tickers.json accordingly
+const watchFinancialsFile = () => {
+    const watcher = chokidar.watch(financialsFilePath);
+
+    watcher.on("change", async () => {
+        logVerbose("financials.json changed.");
+
+        try {
+            // Read financials.json data
+            const financialsData = await fsPromises.readFile(financialsFilePath, "utf8");
+            const parsedFinancialsData = JSON.parse(financialsData);
+            const tickersData = await safeReadFile(tickerFilePath);
+
+            let updated = false;
+
+            // Merge financials data into tickers.json only if there's new data
+            for (const ticker in parsedFinancialsData) {
+                if (parsedFinancialsData[ticker] && Object.keys(parsedFinancialsData[ticker]).length > 0) {
+                    if (!tickersData[ticker]) {
+                        tickersData[ticker] = { ticker, isActive: true };
+                    }
+                    tickersData[ticker].financials = parsedFinancialsData[ticker];
+                    updated = true;
+                }
+            }
+
+            if (updated) {
+                await safeWriteFile(tickerFilePath, tickersData);
+                logVerbose("tickers.json updated with new financials data.");
+                await displayTickersTable(); // Refresh display
+            } else {
+                logVerbose("No new data found in financials.json to update tickers.json.");
+            }
+        } catch (error) {
+            console.error("Error updating tickers.json from financials.json:", error);
+        }
+    });
+
+    watcher.on("error", (error) => {
+        console.error("Error watching financials.json:", error);
+    });
+};
+
 const checkAndCreateWatchlist = async () => {
     try {
         await fsPromises.readFile(watchlistFilePath, "utf8"); // Change here
@@ -681,7 +751,7 @@ const startPeriodicRefresh = () => {
     }, 10000); // Refresh every 10 seconds
 };
 
-// Initialize the application
+// Modify init() to include watchFinancialsFile
 const init = async () => {
     await checkAndWipeIfNeeded();
     await checkAndCreateWatchlist();
@@ -691,6 +761,7 @@ const init = async () => {
     startTickerClearSchedule(); // Schedule clear checks
     watchShortsFile(); // Watch shorts.json for updates
     watchFilingsFile(); // Watch filings.json for updates
+    watchFinancialsFile(); // Watch financials.json for updates
     startPeriodicRefresh(); // Safeguard to refresh table every minute
 };
 
