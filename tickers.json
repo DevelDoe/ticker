@@ -1,1 +1,977 @@
-{}
+{
+  "NTRB": {
+    "ticker": "NTRB",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T15:59:12Z",
+        "headline": "Noble Capital Markets Initiates Coverage On Nutriband with Outperform Rating, Announces Price Target of $13",
+        "id": 43133558,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "NTRB"
+        ],
+        "updated_at": "2025-01-22T15:59:12Z",
+        "url": "https://www.benzinga.com/news/25/01/43133558/noble-capital-markets-initiates-coverage-on-nutriband-with-outperform-rating-announces-price-target",
+        "added_at": "2025-01-23T08:55:14.953Z"
+      }
+    ],
+    "hod": false,
+    "float": "4.54M",
+    "price": "7.95",
+    "time": "01:24:51",
+    "isActive": true,
+    "firstSeen": "2025-01-23T08:54:51.484Z",
+    "lastSeen": "2025-01-23T08:54:51.484Z",
+    "financials": {
+      "netIncome": -1362637,
+      "netCashFlow": -1061780,
+      "cash": 12543202
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 72610,
+      "Avg. Daily Volume": 4540000,
+      "Short Float": 26390,
+      "Short Ratio": "1.60%"
+    }
+  },
+  "VTYX": {
+    "ticker": "VTYX",
+    "news": [],
+    "hod": true,
+    "float": "52.89M",
+    "price": "2.36",
+    "time": "00:50:26",
+    "isActive": true,
+    "firstSeen": "2025-01-23T08:54:51.485Z",
+    "lastSeen": "2025-01-23T08:54:51.485Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-253293 (33 Act)  Size: 503 KB",
+        "date": "2024-11-07"
+      }
+    ],
+    "financials": {
+      "netIncome": -35249000,
+      "netCashFlow": 20648000,
+      "cash": 301100000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 9600000,
+      "Avg. Daily Volume": 52890000,
+      "Short Float": 1420000,
+      "Short Ratio": "18.14%"
+    }
+  },
+  "KOPN": {
+    "ticker": "KOPN",
+    "news": [],
+    "hod": false,
+    "float": "148.67M",
+    "price": "2.14",
+    "time": "00:36:03",
+    "isActive": true,
+    "firstSeen": "2025-01-23T08:54:51.485Z",
+    "lastSeen": "2025-01-23T13:01:00.117Z",
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-021994 (33 Act)  Size: 64 KB",
+        "date": "2024-05-30"
+      }
+    ],
+    "financials": {
+      "netIncome": -48419527,
+      "netCashFlow": -7764478,
+      "cash": 70579507
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 1900000,
+      "Avg. Daily Volume": 148670000,
+      "Short Float": 1330000,
+      "Short Ratio": "1.28%"
+    }
+  },
+  "LAES": {
+    "ticker": "LAES",
+    "news": [
+      {
+        "author": "Benzinga Insights",
+        "content": "",
+        "created_at": "2025-01-22T18:45:25Z",
+        "headline": "(LAES) - Analyzing SEALSQ's Short Interest",
+        "id": 43139379,
+        "images": [
+          {
+            "size": "large",
+            "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "small",
+            "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
+          },
+          {
+            "size": "thumb",
+            "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
+          }
+        ],
+        "source": "benzinga",
+        "summary": " ",
+        "symbols": [
+          "LAES"
+        ],
+        "updated_at": "2025-01-22T18:45:25Z",
+        "url": "https://www.benzinga.com/insights/short-sellers/25/01/43139379/laes-analyzing-sealsqs-short-interest",
+        "added_at": "2025-01-23T11:33:21.999Z"
+      }
+    ],
+    "hod": false,
+    "float": "91.21M",
+    "price": "4.7",
+    "time": "10:00:25",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:01:02.987Z",
+    "lastSeen": "2025-01-23T09:01:02.987Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 13140000,
+      "Avg. Daily Volume": 22110000,
+      "Short Float": 28120000,
+      "Short Ratio": "59.44%"
+    }
+  },
+  "DGNX": {
+    "ticker": "DGNX",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T17:03:11Z",
+        "headline": "Diginex IPO Shares Open For Trade AT $4.26/Share; IPO Priced At $4.10/Share On 2.25M Shares",
+        "id": 43136264,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DGNX"
+        ],
+        "updated_at": "2025-01-22T17:03:12Z",
+        "url": "https://www.benzinga.com/news/25/01/43136264/diginex-ipo-shares-open-for-trade-at-4-26share-ipo-priced-at-4-10share-on-2-25m-shares",
+        "added_at": "2025-01-23T09:06:19.940Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T16:02:50Z",
+        "headline": "Diginex Limited Announces Pricing Of $9.225M Initial Public Offering Of 2.25M Shares At A Price Of $4.10/Share",
+        "id": 43133784,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DGNX"
+        ],
+        "updated_at": "2025-01-22T16:02:51Z",
+        "url": "https://www.benzinga.com/news/25/01/43133784/diginex-limited-announces-pricing-of-9-225m-initial-public-offering-of-2-25m-shares-at-a-price-of-4",
+        "added_at": "2025-01-23T09:06:19.941Z"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "19.5",
+    "time": "10:04:22",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:04:26.632Z",
+    "lastSeen": "2025-01-23T13:08:45.723Z"
+  },
+  "XCUR": {
+    "ticker": "XCUR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T21:03:06Z",
+        "headline": "Exicure Enters Share Purchase Agreement With GPCR Therapeutics",
+        "id": 43143765,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "XCUR"
+        ],
+        "updated_at": "2025-01-22T21:03:07Z",
+        "url": "https://www.benzinga.com/news/25/01/43143765/exicure-enters-share-purchase-agreement-with-gpcr-therapeutics",
+        "added_at": "2025-01-23T10:36:53.261Z"
+      }
+    ],
+    "hod": false,
+    "float": "235.79K",
+    "price": "14.36",
+    "time": "10:09:48",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:10:20.789Z",
+    "lastSeen": "2025-01-23T13:02:13.312Z",
+    "financials": {
+      "netIncome": -4007000,
+      "netCashFlow": -106000,
+      "cash": 10631000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 50570,
+      "Avg. Daily Volume": 240000,
+      "Short Float": 734840,
+      "Short Ratio": "21.07%"
+    }
+  },
+  "MCTR": {
+    "ticker": "MCTR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T15:48:53Z",
+        "headline": "CTRL Group IPO Shares Open For Trade At $4/Share; IPO Priced At $4/Share",
+        "id": 43133060,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MCTR"
+        ],
+        "updated_at": "2025-01-22T15:48:53Z",
+        "url": "https://www.benzinga.com/news/25/01/43133060/ctrl-group-ipo-shares-open-for-trade-at-4share-ipo-priced-at-4share",
+        "added_at": "2025-01-23T10:36:52.758Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T15:35:06Z",
+        "headline": "Trading Halt: Halt status updated at 10:35:00 AM ET: Quotation Resumption: IPO Security - Released for Quotation",
+        "id": 43132571,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MCTR"
+        ],
+        "updated_at": "2025-01-22T15:35:06Z",
+        "url": "https://www.benzinga.com/25/01/43132571/trading-halt-halt-status-updated-at-10-35-00-am-et-quotation-resumption-ipo-security-released-for-qu",
+        "added_at": "2025-01-23T10:36:52.758Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T12:50:14Z",
+        "headline": "CTRL Group Prices $8M Initial Public Offering Of 2M Common Shares At $4/Share",
+        "id": 43124798,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "MCTR"
+        ],
+        "updated_at": "2025-01-22T12:50:14Z",
+        "url": "https://www.benzinga.com/news/25/01/43124798/ctrl-group-prices-8m-initial-public-offering-of-2m-common-shares-at-4share",
+        "added_at": "2025-01-23T10:36:52.758Z"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "5.6",
+    "time": "10:14:31",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:14:51.612Z",
+    "lastSeen": "2025-01-23T13:11:52.489Z"
+  },
+  "VNCE": {
+    "ticker": "VNCE",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T21:27:25Z",
+        "headline": "CORRECTION: P180 Acquires Majority Stake In Vince Holding; Terms Not Disclosed; David Stefko To Step Down As Interim CEO; Matthew Garff Resigns From Board",
+        "id": 43145127,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VNCE"
+        ],
+        "updated_at": "2025-01-22T21:27:25Z",
+        "url": "https://www.benzinga.com/m-a/25/01/43145127/correction-p180-acquires-majority-stake-in-vince-holding-terms-not-disclosed-david-stefko-to-step-do",
+        "added_at": "2025-01-23T10:36:52.829Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T21:25:32Z",
+        "headline": "Brendan Hoffman Expected To Become CEO Of Vince Holding Corp.",
+        "id": 43145016,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VNCE"
+        ],
+        "updated_at": "2025-01-22T21:25:33Z",
+        "url": "https://www.benzinga.com/news/25/01/43145016/brendan-hoffman-expected-to-become-ceo-of-vince-holding-corp",
+        "added_at": "2025-01-23T10:36:52.830Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T21:22:55Z",
+        "headline": "Vince Holding Corp Acquired a Majority Stake In VNCE From Affiliates Of Sun Capital Partners",
+        "id": 43144851,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VNCE"
+        ],
+        "updated_at": "2025-01-22T21:22:55Z",
+        "url": "https://www.benzinga.com/news/25/01/43144851/vince-holding-corp-acquired-a-majority-stake-in-vnce-from-affiliates-of-sun-capital-partners",
+        "added_at": "2025-01-23T10:36:52.830Z"
+      }
+    ],
+    "hod": false,
+    "float": "3.23M",
+    "price": "3.58",
+    "time": "10:16:54",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:17:29.504Z",
+    "lastSeen": "2025-01-23T12:38:42.196Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-108501 (33 Act)  Size: 563 KB",
+        "date": "2024-09-23"
+      }
+    ],
+    "financials": {
+      "netIncome": 0,
+      "netCashFlow": 0,
+      "cash": 253623000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 53480,
+      "Avg. Daily Volume": 3220000,
+      "Short Float": 133190,
+      "Short Ratio": "1.66%"
+    }
+  },
+  "DXST": {
+    "ticker": "DXST",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T17:03:49Z",
+        "headline": "Decent IPO Shares Open For Trade At $4/Share; IPO Priced At $4/Share On 1.25M Shares",
+        "id": 43136280,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DXST"
+        ],
+        "updated_at": "2025-01-22T17:03:49Z",
+        "url": "https://www.benzinga.com/news/25/01/43136280/decent-ipo-shares-open-for-trade-at-4share-ipo-priced-at-4share-on-1-25m-shares",
+        "added_at": "2025-01-23T10:36:53.040Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T16:50:03Z",
+        "headline": "Trading Halt: Halt status updated at 11:50:00 AM ET: Quotation Resumption: IPO Security - Released for Quotation",
+        "id": 43135750,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DXST"
+        ],
+        "updated_at": "2025-01-22T16:50:04Z",
+        "url": "https://www.benzinga.com/25/01/43135750/trading-halt-halt-status-updated-at-11-50-00-am-et-quotation-resumption-ipo-security-released-for-qu",
+        "added_at": "2025-01-23T10:36:53.040Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T13:33:56Z",
+        "headline": "Decent Holding Inc. Announces Pricing Of $5M Initial Public Offering Of 1.25M Shares At A Price Of $4/Share",
+        "id": 43126406,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "DXST"
+        ],
+        "updated_at": "2025-01-22T13:33:56Z",
+        "url": "https://www.benzinga.com/news/25/01/43126406/decent-holding-inc-announces-pricing-of-5m-initial-public-offering-of-1-25m-shares-at-a-price-of-4sh",
+        "added_at": "2025-01-23T10:36:53.041Z"
+      }
+    ],
+    "hod": false,
+    "float": "0",
+    "price": "12.7",
+    "time": "10:22:49",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:22:52.188Z",
+    "lastSeen": "2025-01-23T13:05:44.864Z"
+  },
+  "BTCT": {
+    "ticker": "BTCT",
+    "news": [],
+    "hod": false,
+    "float": "4.39M",
+    "price": "6.58",
+    "time": "10:27:04",
+    "isActive": true,
+    "firstSeen": "2025-01-23T09:27:16.231Z",
+    "lastSeen": "2025-01-23T09:27:16.231Z",
+    "financials": {
+      "netIncome": -2708000,
+      "netCashFlow": -2877000,
+      "cash": 25063000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 132790,
+      "Avg. Daily Volume": 4250000,
+      "Short Float": 3870000,
+      "Short Ratio": "3.12%"
+    }
+  },
+  "HKPD": {
+    "ticker": "HKPD",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "4.47",
+    "time": "11:06:42",
+    "isActive": true,
+    "firstSeen": "2025-01-23T10:06:58.604Z",
+    "lastSeen": "2025-01-23T13:08:45.723Z"
+  },
+  "MBOT": {
+    "ticker": "MBOT",
+    "news": [],
+    "hod": false,
+    "float": "22.98M",
+    "price": "2.24",
+    "time": "11:50:43",
+    "isActive": true,
+    "firstSeen": "2025-01-23T10:50:58.802Z",
+    "lastSeen": "2025-01-23T12:06:04.713Z",
+    "financials": {
+      "netIncome": -3215000,
+      "netCashFlow": -1986000,
+      "cash": 5208000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 1040000,
+      "Avg. Daily Volume": 23700000,
+      "Short Float": 323210,
+      "Short Ratio": "4.37%"
+    }
+  },
+  "BEEM": {
+    "ticker": "BEEM",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T11:04:40Z",
+        "headline": "Beam Global Secures New Patent For High-Volume Battery Assembly And Safety Technology",
+        "id": 43154592,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "BEEM"
+        ],
+        "updated_at": "2025-01-23T11:04:41Z",
+        "url": "https://www.benzinga.com/news/25/01/43154592/beam-global-secures-new-patent-for-high-volume-battery-assembly-and-safety-technology",
+        "added_at": "2025-01-23T11:07:06.092Z"
+      }
+    ],
+    "hod": false,
+    "float": "13.75M",
+    "price": "3.45",
+    "time": "12:05:52",
+    "isActive": true,
+    "firstSeen": "2025-01-23T11:06:15.247Z",
+    "lastSeen": "2025-01-23T11:08:33.808Z",
+    "financials": {
+      "netIncome": 1297000,
+      "netCashFlow": -3875000,
+      "cash": 67262000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 1210000,
+      "Avg. Daily Volume": 13750000,
+      "Short Float": 199170,
+      "Short Ratio": "8.80%"
+    }
+  },
+  "LITM": {
+    "ticker": "LITM",
+    "news": [],
+    "hod": false,
+    "float": "75.53M",
+    "price": "1.61",
+    "time": "12:20:25",
+    "isActive": true,
+    "firstSeen": "2025-01-23T11:21:01.084Z",
+    "lastSeen": "2025-01-23T11:22:46.345Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 2240000,
+      "Avg. Daily Volume": 27720000,
+      "Short Float": 30620000,
+      "Short Ratio": "8.07%"
+    }
+  },
+  "PLRZ": {
+    "ticker": "PLRZ",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T11:43:51Z",
+        "headline": "Polyrizon Has Commenced Preliminary Work Related To The Good Manufacturing Practice Manufacturing Process For Its PL-14 Allergy Blocker In Preparation For Its Planned 2025 Clinical Trial",
+        "id": 43155307,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLRZ"
+        ],
+        "updated_at": "2025-01-23T11:43:51Z",
+        "url": "https://www.benzinga.com/news/25/01/43155307/polyrizon-has-commenced-preliminary-work-related-to-the-good-manufacturing-practice-manufacturing-pr",
+        "added_at": "2025-01-23T11:47:30.885Z"
+      }
+    ],
+    "hod": false,
+    "float": "429.91K",
+    "price": "2.15",
+    "time": "12:41:29",
+    "isActive": true,
+    "firstSeen": "2025-01-23T11:41:30.265Z",
+    "lastSeen": "2025-01-23T11:42:17.558Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 447540,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 4120000,
+      "Short Ratio": "N/A"
+    }
+  },
+  "PLUR": {
+    "ticker": "PLUR",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T12:16:14Z",
+        "headline": "Pluri Announces $6.5M Private Placement With Investor Alejandro Weinstein; Co. Will Purchase ~71% Of Kokomodo's Shares",
+        "id": 43156300,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "PLUR"
+        ],
+        "updated_at": "2025-01-23T12:16:15Z",
+        "url": "https://www.benzinga.com/news/25/01/43156300/pluri-announces-6-5m-private-placement-with-investor-alejandro-weinstein-co-will-purchase-71-of-koko",
+        "added_at": "2025-01-23T12:46:41.296Z"
+      }
+    ],
+    "hod": false,
+    "float": "3.71M",
+    "price": "4.6",
+    "time": "13:16:03",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:16:33.872Z",
+    "lastSeen": "2025-01-23T12:51:48.907Z",
+    "financials": {
+      "netIncome": -6036000,
+      "netCashFlow": -24000,
+      "cash": 35442000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 22750,
+      "Avg. Daily Volume": 3710000,
+      "Short Float": 25910,
+      "Short Ratio": "0.61%"
+    }
+  },
+  "VIGL": {
+    "ticker": "VIGL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T12:05:32Z",
+        "headline": "Vigil Neuroscience Reports Data From Its Completed Phase 1 Clinical Trial Evaluating VG-3927 For Potential Treatment Of Alzheimer's Disease; Says Candidate Demonstrated Favorable Safety And Tolerability Profile",
+        "id": 43156014,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "VIGL"
+        ],
+        "updated_at": "2025-01-23T12:05:33Z",
+        "url": "https://www.benzinga.com/news/25/01/43156014/vigil-neuroscience-reports-data-from-its-completed-phase-1-clinical-trial-evaluating-vg-3927-for-pot",
+        "added_at": "2025-01-23T12:31:11.666Z"
+      }
+    ],
+    "hod": false,
+    "float": "19.36M",
+    "price": "2.6",
+    "time": "13:18:24",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:18:40.976Z",
+    "lastSeen": "2025-01-23T13:08:45.723Z",
+    "financials": {
+      "netIncome": -82599000,
+      "netCashFlow": -11898000,
+      "cash": 131273000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 696860,
+      "Avg. Daily Volume": 19360000,
+      "Short Float": 206250,
+      "Short Ratio": "3.60%"
+    }
+  },
+  "ASST": {
+    "ticker": "ASST",
+    "isActive": true,
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 55270,
+      "Avg. Daily Volume": 4010000,
+      "Short Float": 3670000,
+      "Short Ratio": "1.38%"
+    },
+    "financials": {
+      "netIncome": -1315369,
+      "netCashFlow": 171518,
+      "cash": 2553092
+    },
+    "news": []
+  },
+  "IXHL": {
+    "ticker": "IXHL",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T12:31:53Z",
+        "headline": "Incannex Healthcare Announced Topline Results From A Completed Pharmacokinetics And Safety Study Of IHL-42X For Obstructive Sleep Apnea",
+        "id": 43156787,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "IXHL"
+        ],
+        "updated_at": "2025-01-23T12:31:54Z",
+        "url": "https://www.benzinga.com/news/25/01/43156787/incannex-healthcare-announced-topline-results-from-a-completed-pharmacokinetics-and-safety-study-of",
+        "added_at": "2025-01-23T12:37:44.843Z"
+      }
+    ],
+    "hod": false,
+    "float": "13.10M",
+    "price": "2.78",
+    "time": "13:30:39",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:30:43.426Z",
+    "lastSeen": "2025-01-23T12:31:25.927Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-094998 (33 Act)  Size: 747 KB",
+        "date": "2024-11-06"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-094985 (33 Act)  Size: 1 MB",
+        "date": "2024-11-06"
+      }
+    ],
+    "financials": {
+      "netIncome": -23153000,
+      "netCashFlow": 140000,
+      "cash": 16048000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 62360,
+      "Avg. Daily Volume": 13100000,
+      "Short Float": 31940,
+      "Short Ratio": "0.48%"
+    }
+  },
+  "RCAT": {
+    "ticker": "RCAT",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T12:33:04Z",
+        "headline": "Red Cat Secures New Orders For Its Edge 130 Drone From The Army National Guard And Another U.S. Government Agency, Totaling $518K",
+        "id": 43156825,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "RCAT"
+        ],
+        "updated_at": "2025-01-23T12:33:04Z",
+        "url": "https://www.benzinga.com/news/25/01/43156825/red-cat-secures-new-orders-for-its-edge-130-drone-from-the-army-national-guard-and-another-u-s-gover",
+        "added_at": "2025-01-23T12:37:44.966Z"
+      }
+    ],
+    "hod": false,
+    "float": "61.99M",
+    "price": "8.98",
+    "time": "13:31:19",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:31:25.927Z",
+    "lastSeen": "2025-01-23T12:31:25.927Z",
+    "financials": {
+      "netIncome": -38311947,
+      "netCashFlow": 2811711,
+      "cash": 51092388
+    },
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
+        "date": "2024-12-05"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
+        "date": "2024-11-14"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 8450000,
+      "Avg. Daily Volume": 60860000,
+      "Short Float": 6910000,
+      "Short Ratio": "13.89%"
+    }
+  },
+  "SDST": {
+    "ticker": "SDST",
+    "news": [],
+    "hod": false,
+    "float": "11.36M",
+    "price": "2.1",
+    "time": "13:35:53",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:35:55.152Z",
+    "lastSeen": "2025-01-23T13:01:00.117Z",
+    "financials": {
+      "netIncome": -10092312,
+      "netCashFlow": 337262,
+      "cash": 5376936
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 161080,
+      "Avg. Daily Volume": 11480000,
+      "Short Float": 49490,
+      "Short Ratio": "1.40%"
+    }
+  },
+  "MIMI": {
+    "ticker": "MIMI",
+    "news": [],
+    "hod": false,
+    "float": "0",
+    "price": "7.49",
+    "time": "13:37:40",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:38:42.196Z",
+    "lastSeen": "2025-01-23T12:38:42.196Z"
+  },
+  "VRME": {
+    "ticker": "VRME",
+    "news": [],
+    "hod": false,
+    "float": "8.11M",
+    "price": "2.68",
+    "time": "13:47:59",
+    "isActive": true,
+    "firstSeen": "2025-01-23T12:48:08.661Z",
+    "lastSeen": "2025-01-23T13:05:01.708Z",
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 7900,
+      "Avg. Daily Volume": 8109999.999999999,
+      "Short Float": 1590000,
+      "Short Ratio": "0.10%"
+    },
+    "financials": {
+      "netIncome": -2424000,
+      "netCashFlow": -290000,
+      "cash": 14829000
+    }
+  },
+  "INTZ": {
+    "ticker": "INTZ",
+    "news": [],
+    "hod": false,
+    "float": "13.36M",
+    "price": "2.3",
+    "time": "14:00:12",
+    "isActive": true,
+    "firstSeen": "2025-01-23T13:01:00.117Z",
+    "lastSeen": "2025-01-23T13:01:00.117Z",
+    "financials": {
+      "netIncome": -2050000,
+      "netCashFlow": -455000,
+      "cash": 7414000
+    },
+    "filings": [
+      {
+        "formType": "S-3/A",
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
+        "date": "2024-12-17"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
+        "date": "2024-08-15"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 3240000,
+      "Avg. Daily Volume": 13020000,
+      "Short Float": 5560000,
+      "Short Ratio": "24.91%"
+    }
+  },
+  "ALXO": {
+    "ticker": "ALXO",
+    "news": [
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-22T13:09:51Z",
+        "headline": "ALX Oncology Announced New Appointments: Harish Shantharam as CFO, Dr. Barbara Klencke and Dr. Chris H. Takimoto to Board of Directors",
+        "id": 43125421,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALXO"
+        ],
+        "updated_at": "2025-01-22T13:09:52Z",
+        "url": "https://www.benzinga.com/news/25/01/43125421/alx-oncology-announced-new-appointments-harish-shantharam-as-cfo-dr-barbara-klencke-and-dr-chris-h-t",
+        "added_at": "2025-01-23T13:03:37.706Z"
+      },
+      {
+        "author": "Benzinga Newsdesk",
+        "content": "",
+        "created_at": "2025-01-23T13:04:59Z",
+        "headline": "ALX Oncology Announces Oral Presentation At 2025 ASCO Gastrointestinal Cancers Symposium Today",
+        "id": 43157638,
+        "images": [],
+        "source": "benzinga",
+        "summary": "",
+        "symbols": [
+          "ALXO"
+        ],
+        "updated_at": "2025-01-23T13:04:59Z",
+        "url": "https://www.benzinga.com/general/biotech/25/01/43157638/alx-oncology-announces-oral-presentation-at-2025-asco-gastrointestinal-cancers-symposium-today",
+        "added_at": "2025-01-23T13:07:04.388Z"
+      }
+    ],
+    "hod": false,
+    "float": "30.92M",
+    "price": "2.44",
+    "time": "14:03:32",
+    "isActive": true,
+    "firstSeen": "2025-01-23T13:03:34.495Z",
+    "lastSeen": "2025-01-23T13:05:01.708Z",
+    "financials": {
+      "netIncome": -30707000,
+      "netCashFlow": 568000,
+      "cash": 185715000
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 7600000,
+      "Avg. Daily Volume": 30910000,
+      "Short Float": 952050,
+      "Short Ratio": "24.59%"
+    }
+  },
+  "AREB": {
+    "ticker": "AREB",
+    "news": [],
+    "hod": false,
+    "float": "1.98M",
+    "price": "1.85",
+    "time": "14:05:21",
+    "isActive": true,
+    "firstSeen": "2025-01-23T13:05:44.864Z",
+    "lastSeen": "2025-01-23T13:05:44.864Z",
+    "financials": {
+      "netIncome": -5253004,
+      "netCashFlow": -694911,
+      "cash": 13162961
+    },
+    "shorts": {
+      "Settlement Date": "Dec 31, 2024",
+      "Short Interest": 54080,
+      "Avg. Daily Volume": 1070000,
+      "Short Float": 742270,
+      "Short Ratio": "5.05%"
+    }
+  },
+  "SLS": {
+    "ticker": "SLS",
+    "news": [],
+    "hod": false,
+    "float": "68.75M",
+    "price": "1.7",
+    "time": "14:11:51",
+    "isActive": true,
+    "firstSeen": "2025-01-23T13:11:52.489Z",
+    "lastSeen": "2025-01-23T13:11:52.489Z"
+  },
+  "LSH": {
+    "ticker": "LSH",
+    "news": [],
+    "hod": false,
+    "float": "1.80M",
+    "price": "2.56",
+    "time": "14:11:16",
+    "isActive": true,
+    "firstSeen": "2025-01-23T13:11:52.489Z",
+    "lastSeen": "2025-01-23T13:11:52.489Z"
+  }
+}

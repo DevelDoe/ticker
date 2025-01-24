@@ -292,7 +292,7 @@ const displayTickersTable = async () => {
 
 // Check for S-3 filing and running at a loss
 const hasS3Filing = ticker.filings?.some((filing) => filing.formType === "S-3");
-const isRunningAtLoss = ticker.financials?.netIncome < 0;
+const isRunningAtLoss = ticker.financials?.netCashFlow < 0;
 const flag = hasS3Filing && isRunningAtLoss;
 
 let formattedTicker = ticker.ticker; // Start with the base ticker
@@ -329,7 +329,7 @@ if (isInWatchlist) {
 
 
             // Highlight news keywords and add "#" if matched
-            const keywords = ["Offering", "Registered Direct", "Private Placement"];
+            const keywords = ["Offering", "Registered Direct", "Private Placement", "Shares Open For Trade"];
             let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
             const matchedKeyword = keywords.some((keyword) => latestNews.includes(keyword));
 

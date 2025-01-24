@@ -1,172 +1,92 @@
 {
-  "NVTS": {
-    "netIncome": -18730000,
-    "netCashFlow": -13381000,
-    "cash": 419409000
-  },
-  "USEG": {
-    "netIncome": -33564000,
-    "netCashFlow": -819000,
-    "cash": 64076000
-  },
-  "PDYN": {
-    "netIncome": -7096000,
-    "netCashFlow": -4503000,
-    "cash": 38738000
-  },
-  "QSI": {
-    "netIncome": -25313000,
-    "netCashFlow": -17284000,
-    "cash": 236454000
-  },
-  "CNET": {
-    "netIncome": -4895000,
-    "netCashFlow": 293000,
-    "cash": 11007000
-  },
-  "MDAI": {
-    "netIncome": -1504000,
-    "netCashFlow": -15000,
-    "cash": 11602000
-  },
-  "QUBT": {
-    "netIncome": -26640672,
-    "netCashFlow": -4315181,
-    "cash": 76810000
-  },
-  "BLBX": {
-    "netIncome": -3190335,
-    "netCashFlow": -3615553,
-    "cash": 9955223
-  },
   "ASST": {
     "netIncome": -1315369,
     "netCashFlow": 171518,
     "cash": 2553092
-  },
-  "MGX": {
-    "netIncome": 0,
-    "netCashFlow": 0,
-    "cash": 358348000
-  },
-  "NINE": {
-    "netIncome": -42544000,
-    "netCashFlow": 3557000,
-    "cash": 353232000
-  },
-  "SONM": {
-    "netIncome": -13387000,
-    "netCashFlow": -737000,
-    "cash": 49147000
-  },
-  "LNZA": {
-    "netIncome": -57431000,
-    "netCashFlow": -1924000,
-    "cash": 216216000
-  },
-  "SILO": {
-    "netIncome": -928814,
-    "netCashFlow": 107190,
-    "cash": 8566699
-  },
-  "MOBX": {
-    "netIncome": -20034000,
-    "netCashFlow": 177000,
-    "cash": 39088000
-  },
-  "CRNC": {
-    "netIncome": -579214000,
-    "netCashFlow": 30680000,
-    "cash": 673981000
-  },
-  "FCEL": {
-    "netIncome": -146636000,
-    "netCashFlow": -118241000,
-    "cash": 948910000
-  },
-  "ENSC": {
-    "netIncome": 661769,
-    "netCashFlow": 0,
-    "cash": 9384724
-  },
-  "WISA": {
-    "netIncome": -51413000,
-    "netCashFlow": 3709000,
-    "cash": 8017000
   },
   "NTRB": {
     "netIncome": -1362637,
     "netCashFlow": -1061780,
     "cash": 12543202
   },
-  "POAI": {
-    "netIncome": -3094690,
-    "netCashFlow": -2252815,
-    "cash": 7498234
+  "VTYX": {
+    "netIncome": -35249000,
+    "netCashFlow": 20648000,
+    "cash": 301100000
   },
-  "CXAI": {
+  "KOPN": {
+    "netIncome": -48419527,
+    "netCashFlow": -7764478,
+    "cash": 70579507
+  },
+  "XCUR": {
+    "netIncome": -4007000,
+    "netCashFlow": -106000,
+    "cash": 10631000
+  },
+  "VNCE": {
     "netIncome": 0,
     "netCashFlow": 0,
-    "cash": 36581000
+    "cash": 253623000
   },
-  "ABSI": {
-    "netIncome": -97668000,
-    "netCashFlow": -31717000,
-    "cash": 235231000
-  },
-  "KITT": {
-    "netIncome": -11356956,
-    "netCashFlow": -5180203,
-    "cash": 24987925
-  },
-  "BFRG": {
-    "netIncome": -1763464,
-    "netCashFlow": 0,
-    "cash": 4602206
+  "BTCT": {
+    "netIncome": -2708000,
+    "netCashFlow": -2877000,
+    "cash": 25063000
   },
   "MBOT": {
     "netIncome": -3215000,
     "netCashFlow": -1986000,
     "cash": 5208000
   },
-  "NOTE": {
-    "netIncome": -27848000,
-    "netCashFlow": 8957000,
-    "cash": 337949000
+  "BEEM": {
+    "netIncome": 1297000,
+    "netCashFlow": -3875000,
+    "cash": 67262000
   },
-  "RR": {
-    "netIncome": -8140000,
-    "netCashFlow": 14133000,
-    "cash": 42651000
+  "PLUR": {
+    "netIncome": -6036000,
+    "netCashFlow": -24000,
+    "cash": 35442000
   },
-  "REKR": {
-    "netIncome": -12646000,
-    "netCashFlow": 7550000,
-    "cash": 101195000
+  "VIGL": {
+    "netIncome": -82599000,
+    "netCashFlow": -11898000,
+    "cash": 131273000
   },
-  "HOLO": {
-    "netIncome": -3614638,
-    "netCashFlow": -1581432,
-    "cash": 37094775
+  "IXHL": {
+    "netIncome": -23153000,
+    "netCashFlow": 140000,
+    "cash": 16048000
   },
-  "VATE": {
-    "netIncome": -16200000,
-    "netCashFlow": 0,
-    "cash": 897200000
+  "RCAT": {
+    "netIncome": -38311947,
+    "netCashFlow": 2811711,
+    "cash": 51092388
   },
-  "DATS": {
-    "netIncome": -1183458,
-    "netCashFlow": 44979,
-    "cash": 4816258
+  "SDST": {
+    "netIncome": -10092312,
+    "netCashFlow": 337262,
+    "cash": 5376936
   },
-  "SANA": {
-    "netIncome": -305807000,
-    "netCashFlow": -41452000,
-    "cash": 559392000
+  "VRME": {
+    "netIncome": -2424000,
+    "netCashFlow": -290000,
+    "cash": 14829000
   },
-  "BYON": {
-    "netIncome": -61030000,
-    "netCashFlow": -44845000,
-    "cash": 428338000
+  "INTZ": {
+    "netIncome": -2050000,
+    "netCashFlow": -455000,
+    "cash": 7414000
+  },
+  "ALXO": {
+    "netIncome": -30707000,
+    "netCashFlow": 568000,
+    "cash": 185715000
+  },
+  "AREB": {
+    "netIncome": -5253004,
+    "netCashFlow": -694911,
+    "cash": 13162961
   }
 }
