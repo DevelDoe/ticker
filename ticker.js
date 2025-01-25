@@ -1,3 +1,5 @@
+// ticker.js 
+
 import fs from "fs"; // Import regular fs for synchronous checks
 import fsPromises from "fs/promises"; // Import fs/promises for async operations
 import readline from "readline";
@@ -15,9 +17,11 @@ const verbose = process.argv.includes("-v"); // Check for verbose flag (-v)
 const tickerFilePath = "tickers.json";
 const lastWipeFilePath = "last-wipe.txt";
 const watchlistFilePath = "watchlist.json"; // Path for the watchlist
-const shortsFilePath = "shorts.json"; // Declare shortsFilePath
-const filingsFilePath = "filings.json"; // Path for filings
-const financialsFilePath = "financials.json"; // Path for financials.json
+const shortsFilePath = "shorts.json"; 
+const filingsFilePath = "filings.json"; 
+const financialsFilePath = "financials.json"; 
+const newsFilePath = "news.json"; // Path for news.json
+
 
 let filterHeadlinesActive = true; // State for filtering headlines
 const lastDisplayedHeadlines = {}; // Initialize an object to keep track of the last displayed headlines
@@ -290,43 +294,42 @@ const displayTickersTable = async () => {
 
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
 
-// Check for S-3 filing and running at a loss
-const hasS3Filing = ticker.filings?.some((filing) => filing.formType === "S-3");
-const isRunningAtLoss = ticker.financials?.netCashFlow < 0;
-const flag = hasS3Filing && isRunningAtLoss;
+            // Check for S-3 filing and running at a loss
+            const hasS3Filing = ticker.filings?.some((filing) => filing.formType === "S-3");
+            const isRunningAtLoss = ticker.financials?.netCashFlow < 1;
+            const flag = hasS3Filing && isRunningAtLoss;
 
-let formattedTicker = ticker.ticker; // Start with the base ticker
+            let formattedTicker = ticker.ticker; // Start with the base ticker
 
-if (ticker.shorts?.["Short Interest"]) {
-    const shortInterestValue = ticker.shorts["Short Interest"];
-    const shortInterest = formatShortInterest(shortInterestValue);
+            if (ticker.shorts?.["Short Interest"]) {
+                const shortInterestValue = ticker.shorts["Short Interest"];
+                const shortInterest = formatShortInterest(shortInterestValue);
 
-    // Apply color coding based on the short interest value
-    const coloredShortInterest =
-        shortInterestValue < 1e6
-            ? chalk.green(shortInterest) // Green if < 1M
-            : shortInterestValue < 5e6
-            ? chalk.yellow(shortInterest) // Yellow if >= 1M and < 5M
-            : chalk.redBright(shortInterest); // Red if >= 5M
+                // Apply color coding based on the short interest value
+                const coloredShortInterest =
+                    shortInterestValue < 1e6
+                        ? chalk.green(shortInterest) // Green if < 1M
+                        : shortInterestValue < 5e6
+                        ? chalk.yellow(shortInterest) // Yellow if >= 1M and < 5M
+                        : chalk.redBright(shortInterest); // Red if >= 5M
 
-    formattedTicker += `(${coloredShortInterest})`; // Add colored short interest in parentheses
-}
+                formattedTicker += `(${coloredShortInterest})`; // Add colored short interest in parentheses
+            }
 
-// Add HOD indicator if applicable
-if (ticker.hod) {
-    formattedTicker += chalk.cyanBright("HOD"); // Add "HOD" indicator
-}
+            // Add HOD indicator if applicable
+            if (ticker.hod) {
+                formattedTicker += chalk.cyanBright("HOD"); // Add "HOD" indicator
+            }
 
-// Add "POTSELL" indicator if flagged
-if (flag) {
-    formattedTicker += chalk.red("POTSELL");
-}
+            // Add "POTSELL" indicator if flagged
+            if (flag) {
+                formattedTicker += chalk.red("POTSELL");
+            }
 
-// Highlight in yellow if in watchlist
-if (isInWatchlist) {
-    formattedTicker = chalk.black.yellow(formattedTicker);
-}
-
+            // Highlight in yellow if in watchlist
+            if (isInWatchlist) {
+                formattedTicker = chalk.black.yellow(formattedTicker);
+            }
 
             // Highlight news keywords and add "#" if matched
             const keywords = ["Offering", "Registered Direct", "Private Placement", "Shares Open For Trade"];
@@ -725,6 +728,48 @@ const checkAndCreateWatchlist = async () => {
     }
 };
 
+const watchNewsFile = () => {
+    const watcher = chokidar.watch(newsFilePath);
+
+    watcher.on("change", async () => {
+        logVerbose("news.json changed.");
+
+        try {
+            // Read news.json data
+            const newsData = await safeReadFile(newsFilePath);
+            const tickersData = await safeReadFile(tickerFilePath);
+
+            let updated = false;
+
+            // Merge news data into tickers.json
+            for (const ticker in newsData) {
+                if (newsData[ticker] && Array.isArray(newsData[ticker])) {
+                    if (!tickersData[ticker]) {
+                        tickersData[ticker] = { ticker, isActive: true };
+                    }
+                    tickersData[ticker].news = newsData[ticker];
+                    updated = true;
+                }
+            }
+
+            if (updated) {
+                await safeWriteFile(tickerFilePath, tickersData);
+                logVerbose("tickers.json updated with new news data.");
+                await displayTickersTable(); // Refresh display
+            } else {
+                logVerbose("No new data found in news.json to update tickers.json.");
+            }
+        } catch (error) {
+            console.error("Error updating tickers.json from news.json:", error);
+        }
+    });
+
+    watcher.on("error", (error) => {
+        console.error("Error watching news.json:", error);
+    });
+};
+
+
 // Function to periodically refresh the table
 const startPeriodicRefresh = () => {
     logVerbose("Starting periodic table refresh...");
@@ -762,6 +807,7 @@ const init = async () => {
     watchShortsFile(); // Watch shorts.json for updates
     watchFilingsFile(); // Watch filings.json for updates
     watchFinancialsFile(); // Watch financials.json for updates
+    watchNewsFile(); // Watch news.json for updates
     startPeriodicRefresh(); // Safeguard to refresh table every minute
 };
 

@@ -1,9 +1,14 @@
 {
-  "VTYX": [
+  "ATXI": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-253293 (33 Act)  Size: 503 KB",
-      "date": "2024-11-07"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-125586 (33 Act)  Size: 702 KB",
+      "date": "2024-12-04"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001437749-24-014693 (33 Act)  Size: 356 KB",
+      "date": "2024-05-06"
     }
   ],
   "KOPN": [
@@ -13,47 +18,11 @@
       "date": "2024-05-30"
     }
   ],
-  "VNCE": [
+  "ALLR": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-108501 (33 Act)  Size: 563 KB",
-      "date": "2024-09-23"
-    }
-  ],
-  "IXHL": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-094998 (33 Act)  Size: 747 KB",
-      "date": "2024-11-06"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-094985 (33 Act)  Size: 1 MB",
-      "date": "2024-11-06"
-    }
-  ],
-  "RCAT": [
-    {
-      "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
-      "date": "2024-12-05"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-      "date": "2024-11-14"
-    }
-  ],
-  "INTZ": [
-    {
-      "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008792 (33 Act)  Size: 988 KB",
-      "date": "2024-12-17"
-    },
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-005726 (33 Act)  Size: 1 MB",
-      "date": "2024-08-15"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-074515 (33 Act)  Size: 182 KB",
+      "date": "2024-08-30"
     }
   ]
 }
