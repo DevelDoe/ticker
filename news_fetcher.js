@@ -15,18 +15,63 @@ dotenv.config({ path: path.join(process.cwd(), ".env.alpaca") });
 const tickersFilePath = path.join(process.cwd(), "tickers.json");
 const newsFilePath = path.join(process.cwd(), "news.json");
 
-const MIN_DELAY = 2000; // Minimum delay between requests (in ms)
-const MAX_DELAY = 5000; // Maximum delay (in ms)
-const BACKOFF_MULTIPLIER = 2; // Multiply delay on 429 errors
-const RECOVERY_STEP = 100; // Decrease delay on successful responses
+let MIN_DELAY = 10; // Minimum delay between requests (in ms)
+const MAX_DELAY = 10000; // Maximum delay (in ms)
+const BACKOFF_MULTIPLIER = 2; // Aggressive backoff multiplier
+const RECOVERY_STEP = 50; // Decrease delay on multiple successful responses
+const SUCCESS_THRESHOLD = 5; // Number of consecutive successes to reduce delay
+const MIN_DELAY_INCREMENT = 10; // Increment to MIN_DELAY on throttle
+const MAX_MIN_DELAY = 2000; // Maximum value for MIN_DELAY to prevent runaway growth
 
-let throttleDelay = 500; // Initial delay
+let throttleDelay = 10; // Initial delay
+let consecutiveSuccesses = 0; // Tracks the number of successful requests in a row
+
+
 let tickerPool = []; // Pool of tickers
 let newsData = {}; // Loaded news data
 
 // Performance monitoring variables
 let tickersProcessed = 0; // Count of tickers processed
 let newsAdded = 0; // Count of news items added
+
+// Global object to track ticker statuses
+const tickerStatus = {};
+let isLogging = false; // To prevent overlapping logs
+
+// Function to initialize ticker statuses
+const initializeTickerStatus = async () => {
+    const tickers = await safeReadFile(tickersFilePath);
+    Object.keys(tickers).forEach((ticker) => {
+        tickerStatus[ticker] = "waiting"; // Set default status
+    });
+};
+
+// Function to update a ticker's status
+const updateTickerStatus = (ticker, status, responseCode = null) => {
+    tickerStatus[ticker] = {
+        status,
+        responseCode: responseCode !== null ? `(${responseCode})` : "",
+    };
+    logTickerStatuses(); // Refresh log immediately
+};
+
+// Function to log ticker statuses (the only visible output)
+const logTickerStatuses = (responseCode = "") => {
+    if (isLogging) return; // Prevent overlapping logs
+    isLogging = true;
+
+    console.clear(); // Clear the console for clean output
+    console.log(`Throttle delay (real-time): ${throttleDelay}ms`);
+    console.log(`Last fetch: ${responseCode || "N/A"}`);
+    console.log("Tickers:");
+
+    const tickerList = Object.keys(tickerStatus);
+    const statuses = tickerList.map((ticker) => ticker);
+
+    console.log(statuses.join("\n")); // Print tickers on separate lines
+
+    isLogging = false;
+};
 
 // Play WAV sound with debounce
 let lastPlayedTime = 100;
@@ -46,12 +91,15 @@ function playWav(filePath, ticker = "", context = "") {
 }
 
 // Fetch news for a ticker with throttling logic
-const fetchTickerNews = async (ticker) => {
+const fetchNewsForTickers = async (tickers) => {
     const currentTime = new Date();
     const last24Hours = new Date(currentTime - 24 * 60 * 60 * 1000); // 24 hours ago
     const formattedDate = last24Hours.toISOString();
 
-    let url = `https://data.alpaca.markets/v1beta1/news?symbols=${ticker}&start=${formattedDate}&limit=50&sort=desc`;
+    // Join tickers into a comma-separated string
+    const symbols = tickers.join(",");
+
+    let url = `https://data.alpaca.markets/v1beta1/news?symbols=${symbols}&start=${formattedDate}&limit=50&sort=desc`;
 
     const options = {
         method: "GET",
@@ -64,29 +112,46 @@ const fetchTickerNews = async (ticker) => {
 
     try {
         const response = await fetch(url, options);
+        const responseStatus = response.status;
+
+        // Log the response in verbose mode
+        if (verbose) {
+            console.log(`Fetched news for tickers: ${symbols}`);
+            console.log(`Response Status: ${responseStatus}`);
+            console.log("Response Headers:", response.headers.raw());
+        }
+
         if (response.ok) {
             const news = await response.json();
-            const previousThrottle = throttleDelay; // Capture previous delay
-            throttleDelay = Math.max(throttleDelay - RECOVERY_STEP, MIN_DELAY); // Decrease delay on success
-            if (throttleDelay !== previousThrottle) {
-                console.log(`Throttle delay decreased to ${throttleDelay}ms (API success).`);
+            if (verbose) {
+                console.log("Response Data:", JSON.stringify(news, null, 2));
             }
-            return news.news || [];
-        } else if (response.status === 429) {
-            const previousThrottle = throttleDelay; // Capture previous delay
-            throttleDelay = Math.min(throttleDelay * BACKOFF_MULTIPLIER, MAX_DELAY); // Exponential backoff
-            if (throttleDelay !== previousThrottle) {
-                console.error(`Throttle delay increased to ${throttleDelay}ms due to API rate limit (429).`);
+
+            // Successful response: Adjust throttle and MIN_DELAY
+            consecutiveSuccesses += 1;
+            if (consecutiveSuccesses >= SUCCESS_THRESHOLD) {
+                throttleDelay = Math.max(throttleDelay - RECOVERY_STEP, MIN_DELAY);
+                consecutiveSuccesses = 0; // Reset successes after reducing delay
+                console.log(`Throttle delay decreased to ${throttleDelay}ms (after ${SUCCESS_THRESHOLD} successes).`);
             }
+
+            return { news: news.news || [], responseStatus };
+        } else if (responseStatus === 429) {
+            // Too many requests: Aggressive backoff and increase MIN_DELAY
+            throttleDelay = Math.min(throttleDelay * BACKOFF_MULTIPLIER, MAX_DELAY);
+            MIN_DELAY = Math.min(MIN_DELAY + MIN_DELAY_INCREMENT, MAX_MIN_DELAY); // Increase MIN_DELAY
+            console.warn(`Throttle delay increased to ${throttleDelay}ms due to 429 rate limit. MIN_DELAY is now ${MIN_DELAY}ms.`);
+            consecutiveSuccesses = 0; // Reset consecutive successes on error
+            return { news: [], responseStatus };
         } else {
-            console.error(`API request failed: ${response.status} ${await response.text()}`);
+            console.error(`API request failed: ${responseStatus} ${await response.text()}`);
+            return { news: [], responseStatus };
         }
     } catch (error) {
-        console.error(`Error fetching news for ${ticker}: ${error.message}`);
+        console.error(`Error fetching news for tickers: ${error.message}`);
+        return { news: [], responseStatus: "Error" };
     }
-    return [];
 };
-
 
 
 // Filter news and remove duplicates/unwanted keywords
@@ -110,7 +175,9 @@ const filterNews = (newsItems, existingNews) => {
         "Here's Why",
         "Moving In",
         "Market-Moving News",
-        "US Stocks Set To Open"
+        "US Stocks Set To Open",
+        "Nasdaq Dips",
+        "Here Are Top"
     ];
 
     return newsItems.filter((newsItem) => {
@@ -120,12 +187,12 @@ const filterNews = (newsItems, existingNews) => {
                 newsItem.headline.toLowerCase().includes(keyword.toLowerCase())
             )
         ) {
-            if (verbose) console.log(`Skipping news due to unwanted keyword`);
+            // if (verbose) console.log(`Skipping news due to unwanted keyword`);
             return false;
         }
 
         if (existingNews.some((item) => item.id === newsItem.id)) {
-            if (verbose) console.log(`Skipping duplicate news`);
+            // if (verbose) console.log(`Skipping duplicate news`);
             return false;
         }
 
@@ -133,43 +200,69 @@ const filterNews = (newsItems, existingNews) => {
     });
 };
 
-// Process a single ticker
-const processTicker = async (ticker) => {
-    const news = await fetchTickerNews(ticker);
 
-    if (news.length > 0) {
-        const filteredNews = filterNews(news, newsData[ticker] || []);
-        if (filteredNews.length > 0) {
-            filteredNews.forEach((newsItem) => {
-                newsItem.added_at = new Date().toISOString();
-            });
-            newsData[ticker] = [...(newsData[ticker] || []), ...filteredNews];
-            await writeNewsToFile(newsData);
-
-            console.log(`Added ${filteredNews.length} news items for ticker: ${ticker}`);
-            newsAdded += filteredNews.length; // Increment news items added
-        }
-    } else {
-        console.log(`No news found for ticker: ${ticker}`);
-    }
-
-    tickersProcessed++; // Increment tickers processed
-};
 
 // Write news to file
 const writeNewsToFile = async (data) => {
     try {
         await safeWriteFile(newsFilePath, data);
-        console.log("News data saved to news.json.");
+        // console.log("News data saved to news.json.");
     } catch (err) {
         console.error("Error writing to news.json:", err);
     }
 };
 
+// Process a batch of tickers
+const processTickerBatch = async (batch) => {
+    const { news, responseStatus } = await fetchNewsForTickers(batch);
+
+    if (news.length > 0) {
+        // Iterate over each news item
+        news.forEach((newsItem) => {
+            // Check all symbols associated with the news item
+            newsItem.symbols.forEach((symbol) => {
+                if (batch.includes(symbol)) {
+                    // Initialize the array for the ticker if it doesn't exist
+                    if (!newsData[symbol]) {
+                        newsData[symbol] = [];
+                    }
+
+                    // Filter out unwanted news and duplicates
+                    const filteredNews = filterNews([newsItem], newsData[symbol]);
+
+                    if (filteredNews.length > 0) {
+                        // Add the 'added_at' timestamp
+                        filteredNews.forEach((filteredItem) => {
+                            filteredItem.added_at = new Date().toISOString();
+                            newsData[symbol].push(filteredItem);
+                        });
+                    }
+                }
+            });
+        });
+
+        // Write updated newsData to file
+        await writeNewsToFile(newsData);
+        newsAdded += news.length; // Increment the count of news items added
+    }
+
+    // Update all ticker statuses to "waiting" and pass response code to logging
+    batch.forEach((ticker) => {
+        tickerStatus[ticker] = "waiting";
+    });
+
+    logTickerStatuses(responseStatus); // Updated logging here
+};
+
+
+
+
 // Ticker processing loop
 let poolEmptyLogged = false; // Tracks whether the empty pool message was logged
 
+// Updated processing loop with batching
 const processTickerPool = async () => {
+    const batchSize = 10; // Number of tickers to process in one API call
     try {
         while (true) {
             if (tickerPool.length === 0) {
@@ -182,7 +275,6 @@ const processTickerPool = async () => {
                 const tickers = await safeReadFile(tickersFilePath);
                 if (tickers && Object.keys(tickers).length > 0) {
                     tickerPool = Object.keys(tickers);
-                    console.log(`Refreshed ticker pool with ${tickerPool.length} tickers.`);
                 }
 
                 await new Promise((resolve) => setTimeout(resolve, 1000)); // Wait 1 second
@@ -190,11 +282,15 @@ const processTickerPool = async () => {
             }
 
             poolEmptyLogged = false; // Reset the empty pool log flag
-            const ticker = tickerPool.shift();
-            await processTicker(ticker);
-            tickerPool.push(ticker);
 
-            console.log(`Waiting for ${throttleDelay}ms before the next ticker...`);
+            // Take a batch of tickers from the pool
+            const batch = tickerPool.splice(0, batchSize);
+            await processTickerBatch(batch);
+
+            // Add batch back to pool for continuous processing
+            tickerPool.push(...batch);
+
+            // Wait before the next batch
             await new Promise((resolve) => setTimeout(resolve, throttleDelay));
         }
     } catch (error) {
@@ -218,17 +314,17 @@ const initializeTickerPool = async () => {
 // Watch tickers.json for changes
 const watchTickersFile = () => {
     chokidar.watch(tickersFilePath, { persistent: true }).on("change", async () => {
-        console.log("tickers.json updated. Refreshing ticker pool...");
+        // console.log("tickers.json updated. Refreshing ticker pool...");
         await initializeTickerPool();
     });
 };
 
 const logPerformanceSummary = () => {
     setInterval(() => {
-        console.log(`\nPerformance Summary (last minute):`);
-        console.log(`- Tickers processed: ${tickersProcessed}`);
-        console.log(`- News items added: ${newsAdded}`);
-        console.log(`- Current throttle delay: ${throttleDelay}ms\n`);
+        // console.log(`\nPerformance Summary (last minute):`);
+        // console.log(`- Tickers processed: ${tickersProcessed}`);
+        // console.log(`- News items added: ${newsAdded}`);
+        // console.log(`- Current throttle delay: ${throttleDelay}ms\n`);
 
         // Reset metrics for the next interval
         tickersProcessed = 0;
@@ -241,6 +337,7 @@ const logPerformanceSummary = () => {
 const main = async () => {
     try {
         newsData = (await safeReadFile(newsFilePath)) || {};
+        await initializeTickerStatus();
         await initializeTickerPool();
         watchTickersFile();
         logPerformanceSummary(); // Start performance summaries

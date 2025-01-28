@@ -1,29 +1,57 @@
 {
-  "RR": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-23T14:30:25Z",
-      "headline": "White Diamond Research Posts On X \"We hired an investigator to check out $RR's bartender robot at the Walmart in Rockford, IL to see if it works. Seems clunky but functional for what it is. Disclosure: We don't have a position in RR right now.\"",
-      "id": 43161075,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "RR"
-      ],
-      "updated_at": "2025-01-23T14:30:25Z",
-      "url": "https://www.benzinga.com/news/25/01/43161075/white-diamond-research-posts-on-x-we-hired-an-investigator-to-check-out-rrs-bartender-robot-at-the-w",
-      "added_at": "2025-01-24T12:45:10.998Z"
-    }
-  ],
   "TVGN": [
     {
+      "author": "Rishabh Mishra",
+      "content": "",
+      "created_at": "2025-01-27T11:44:36Z",
+      "headline": "US Stock Futures Tumble As DeepSeek Buzz Jolts Big Tech: Expert Says The Chinese AI Model Is Yet To Prove Its Viability At Lower Cost In Long Term",
+      "id": 43223697,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Closeup-Of-Wall-St--Street-Sign-And-Larg.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Closeup-Of-Wall-St--Street-Sign-And-Larg.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Closeup-Of-Wall-St--Street-Sign-And-Larg.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": "U.S. stock futures dropped sharply on Monday after China released DeepSeek, an AI model that demonstrates high performance at a lower cost.",
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "BRO",
+        "GOOG",
+        "GOOGL",
+        "HWH",
+        "LGTY",
+        "META",
+        "MSFT",
+        "NUE",
+        "NVDA",
+        "QQQ",
+        "SANM",
+        "SPY",
+        "T",
+        "TSLA",
+        "TVGN",
+        "TWLO"
+      ],
+      "updated_at": "2025-01-27T11:44:36Z",
+      "url": "https://www.benzinga.com/25/01/43223697/us-stock-futures-tumble-as-deepseek-buzz-jolts-big-tech-expert-says-the-ai-model-is-yet-to-prove-its-viability-at-lower-cost-in-long-term",
+      "added_at": "2025-01-27T16:32:08.420Z"
+    },
+    {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-24T10:10:59Z",
-      "headline": "Tevogen Bio On Thursday Reported On Its Recent Fireside Chat With Microsoft Discussing The  Future Of AI-Driven Drug Development During the J.P. Morgan Healthcare Conference",
-      "id": 43185624,
+      "created_at": "2025-01-27T08:19:33Z",
+      "headline": "Reported Friday, Tevogen Bio Expands Collaboration With Microsoft To Advance AI-Powered PredicTcell Technology On Azure",
+      "id": 43221450,
       "images": [],
       "source": "benzinga",
       "summary": "",
@@ -31,272 +59,519 @@
         "MSFT",
         "TVGN"
       ],
-      "updated_at": "2025-01-24T10:11:00Z",
-      "url": "https://www.benzinga.com/news/25/01/43185624/tevogen-bio-on-thursday-reported-on-its-recent-fireside-chat-with-microsoft-discussing-the-future-of",
-      "added_at": "2025-01-24T12:45:13.545Z"
+      "updated_at": "2025-01-27T08:19:33Z",
+      "url": "https://www.benzinga.com/news/25/01/43221450/reported-friday-tevogen-bio-expands-collaboration-with-microsoft-to-advance-ai-powered-predictcell-t",
+      "added_at": "2025-01-27T16:32:08.420Z"
     }
   ],
-  "NVNI": [
+  "NVNI": [],
+  "ALUR": [],
+  "HOLO": [
     {
-      "author": "Benzinga Newsdesk",
+      "author": "Shivani Kumaresan",
       "content": "",
-      "created_at": "2025-01-23T21:02:59Z",
-      "headline": "Nuvini Receives Written Notice That It Regained Compliance With Nasdaq Minimum Bid Price Listing Requirements",
-      "id": 43176317,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "NVNI"
-      ],
-      "updated_at": "2025-01-23T21:03:00Z",
-      "url": "https://www.benzinga.com/news/25/01/43176317/nuvini-receives-written-notice-that-it-regained-compliance-with-nasdaq-minimum-bid-price-listing-req",
-      "added_at": "2025-01-24T12:45:17.050Z"
-    }
-  ],
-  "ELAB": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T13:07:48Z",
-      "headline": "PMGC Subsidiary Northstrive Biosciences  To Present At Anti-Obesity Treatments Subsidiary",
-      "id": 43189030,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ELAB"
-      ],
-      "updated_at": "2025-01-24T13:16:43Z",
-      "url": "https://www.benzinga.com/general/biotech/25/01/43189030/pmgc-subsidiary-northstrive-biosciences-to-present-at-aanti-obesity-treatments-subsidiary",
-      "added_at": "2025-01-24T13:25:37.106Z"
-    }
-  ],
-  "HOTH": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T13:30:15Z",
-      "headline": "Hoth Therapeutics Regains Compliance With Nasdaq Minimum Bid Price Requirement",
-      "id": 43189483,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "HOTH"
-      ],
-      "updated_at": "2025-01-24T13:30:16Z",
-      "url": "https://www.benzinga.com/general/25/01/43189483/hoth-therapeutics-regains-compliance-with-nasdaq-minimum-bid-price-requirement",
-      "added_at": "2025-01-24T13:32:28.788Z"
-    }
-  ],
-  "FPH": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-23T21:12:05Z",
-      "headline": "Five Point Holdings Q4 2024 GAAP EPS $0.65 Up From $0.39 YoY, Sales $159.786M Up From $118.759M YoY",
-      "id": 43176805,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "FPH"
-      ],
-      "updated_at": "2025-01-23T21:12:06Z",
-      "url": "https://www.benzinga.com/news/earnings/25/01/43176805/five-point-holdings-q4-2024-gaap-eps-0-65-up-from-0-39-yoy-sales-159-786m-up-from-118-759m-yoy",
-      "added_at": "2025-01-24T14:12:14.291Z"
-    }
-  ],
-  "AIFF": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T14:07:49Z",
-      "headline": "Firefly Neuroscience Presents Studies Supporting FDA-Cleared BNA Platform For Drug Efficacy And Cognitive Change In Neuropharmacology And Psychiatry; Highlights Role In Brain Health Innovation.",
-      "id": 43190535,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "AIFF"
-      ],
-      "updated_at": "2025-01-24T14:07:49Z",
-      "url": "https://www.benzinga.com/general/biotech/25/01/43190535/firefly-neuroscience-presents-studies-supporting-fda-cleared-bna-platform-for-drug-efficacy-and-c",
-      "added_at": "2025-01-24T14:14:11.474Z"
-    }
-  ],
-  "NISN": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T14:16:12Z",
-      "headline": "Nisun International Projects 2024 Revenue Of $300M-$350M, Net Income $11M-$15M, EPS $2.60-$3.60",
-      "id": 43190738,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "NISN"
-      ],
-      "updated_at": "2025-01-24T14:16:12Z",
-      "url": "https://www.benzinga.com/news/earnings/25/01/43190738/nisun-international-projects-2024-revenue-of-300m-350m-net-income-11m-15m-eps-2-60-3-60",
-      "added_at": "2025-01-24T14:18:29.530Z"
-    }
-  ],
-  "WKEY": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T14:21:26Z",
-      "headline": "WISeKey And SEALSQ Announce AI Platform HUMAN-AI-T; Aims To Consolidate Global Human Wisdom And Preserve Knowledge; To Include Diverse Sources Like Religious, Legal, And Philosophical Texts",
-      "id": 43190846,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "LAES",
-        "WKEY"
-      ],
-      "updated_at": "2025-01-24T14:21:26Z",
-      "url": "https://www.benzinga.com/news/25/01/43190846/wisekey-and-sealsq-announce-ai-platform-human-ai-t-aims-to-consolidate-global-human-wisdom-and-prese",
-      "added_at": "2025-01-24T14:23:00.710Z"
-    }
-  ],
-  "ALUR": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-23T20:50:13Z",
-      "headline": "Allurion Announces Clinical Study Combining Allurion Program And GLP-1 Agonists To Improve Muscle Mass, Studies Show 5.6% Muscle Gain And 14% Weight Loss Over 4 Months With Allurion Balloon; In Another Study Of 167 Patients, Patients Treated With The Allurion Balloon Experienced A Weight Reduction Of 15.7% With No Change In Muscle Mass.",
-      "id": 43175835,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ALUR"
-      ],
-      "updated_at": "2025-01-23T20:50:13Z",
-      "url": "https://www.benzinga.com/general/biotech/25/01/43175835/allurion-announces-clinical-study-combining-allurion-program-and-glp-1-agonists-to-improve-muscle",
-      "added_at": "2025-01-24T14:29:09.201Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-24T14:31:25Z",
-      "headline": "Allurion Announces Securities Purchase Agreement For 1.24M Shares At $6 Each And Warrants For 1.24M Shares; Plans To Reprice July 2024 Warrants To $6 After Shareholder Approval, Raising ~$7.4M Of Gross Proceeds",
-      "id": 43191194,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ALUR"
-      ],
-      "updated_at": "2025-01-24T14:32:02Z",
-      "url": "https://www.benzinga.com/news/25/01/43191194/allurion-announces-securities-purchase-agreement-for-1-24m-shares-at-6-each-and-warrants-for-1-24m-s",
-      "added_at": "2025-01-24T14:32:43.411Z"
-    }
-  ],
-  "VIGL": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-23T17:46:19Z",
-      "headline": "HC Wainwright & Co. Reiterates Buy on Vigil Neuroscience, Maintains $17 Price Target",
-      "id": 43169950,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIGL"
-      ],
-      "updated_at": "2025-01-23T17:46:19Z",
-      "url": "https://www.benzinga.com/news/25/01/43169950/hc-wainwright-co-reiterates-buy-on-vigil-neuroscience-maintains-17-price-target",
-      "added_at": "2025-01-24T14:50:11.126Z"
-    },
-    {
-      "author": "Vandana Singh",
-      "content": "",
-      "created_at": "2025-01-23T16:33:18Z",
-      "headline": "Vigil Neuroscience's Alzheimer's Candidate Shows Encouraging Safety Profile, Plans To Start Mid-Stage Study In Q3",
-      "id": 43167375,
+      "created_at": "2025-01-27T14:20:26Z",
+      "headline": "MicroCloud Hologram Joins With DeepSeek For Holographic AI Facilities",
+      "id": 43232559,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/23/VIGL.png"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/MicroCloud-Hologram-Inc--HOLO.jpeg"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/23/VIGL.png"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/MicroCloud-Hologram-Inc--HOLO.jpeg"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/23/VIGL.png"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/MicroCloud-Hologram-Inc--HOLO.jpeg"
         }
       ],
       "source": "benzinga",
-      "summary": "Vigil Neuroscience&#39;s VG-3927 Phase 1 trial shows strong safety, 50% sTREM2 reduction, and potential Alzheimer&#39;s treatment; Phase 2 begins Q3 2025.",
+      "summary": "MicroCloud wants to utilize DeepSeek&#39;s R1 model to enhance the compan y&#39;s ability to generate advanced and intelligent holographic content.",
       "symbols": [
-        "VIGL"
+        "HOLO"
       ],
-      "updated_at": "2025-01-23T16:33:18Z",
-      "url": "https://www.benzinga.com/25/01/43167375/vigil-neurosciences-alzheimers-candidate-shows-encouraging-safety-profile-plans-to-start-mid-stage-study-in-q3",
-      "added_at": "2025-01-24T14:50:11.126Z"
-    }
-  ],
-  "DDD": [
+      "updated_at": "2025-01-27T14:20:26Z",
+      "url": "https://www.benzinga.com/trading-ideas/movers/25/01/43232559/microcloud-hologram-joins-with-deepseek-for-holographic-ai-facilities",
+      "added_at": "2025-01-27T16:32:08.420Z"
+    },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-23T21:20:17Z",
-      "headline": "3D Systems And Daimler Buses Announce Solution For Remote Spare Part Printing",
-      "id": 43177257,
+      "created_at": "2025-01-27T13:04:47Z",
+      "headline": "MicroCloud Hologram Inc. Plans To Adopt DeepSeek's R1 Model As The Basis For Its Holographic AI Application",
+      "id": 43225787,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "DDD"
+        "HOLO"
       ],
-      "updated_at": "2025-01-23T21:20:17Z",
-      "url": "https://www.benzinga.com/news/25/01/43177257/3d-systems-and-daimler-buses-announce-solution-for-remote-spare-part-printing",
-      "added_at": "2025-01-24T14:55:54.782Z"
+      "updated_at": "2025-01-27T13:04:48Z",
+      "url": "https://www.benzinga.com/news/25/01/43225787/microcloud-hologram-inc-plans-to-adopt-deepseeks-r1-model-as-the-basis-for-its-holographic-ai-applic",
+      "added_at": "2025-01-27T16:32:08.420Z"
     }
   ],
-  "EVTL": [
+  "ASST": [],
+  "IPHA": [
     {
-      "author": "Avi Kapoor",
+      "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-23T17:06:44Z",
-      "headline": "Dow Jumps 250 Points; American Airlines Issues Weak Outlook",
-      "id": 43168544,
+      "created_at": "2025-01-27T06:34:45Z",
+      "headline": "Innate Pharma Doses First Patient In Phase 1 Study Of IPH4502, A Targeted ADC For Difficult-To-Treat Advanced Solid Tumors",
+      "id": 43220670,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "IPHA"
+      ],
+      "updated_at": "2025-01-27T06:34:46Z",
+      "url": "https://www.benzinga.com/news/25/01/43220670/innate-pharma-doses-first-patient-in-phase-1-study-of-iph4502-a-targeted-adc-for-difficult-to-treat",
+      "added_at": "2025-01-27T16:32:08.420Z"
+    }
+  ],
+  "JG": [
+    {
+      "author": "Shivani Kumaresan",
+      "content": "",
+      "created_at": "2025-01-27T11:11:44Z",
+      "headline": "Aurora Mobile Partners With China's DeepSeek To Boost AI Capabilities",
+      "id": 43223106,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/23/2K4A2912.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/This-AI-Artist-Generates-5M-Through-Digi.jpeg"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/23/2K4A2912.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/This-AI-Artist-Generates-5M-Through-Digi.jpeg"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/23/2K4A2912.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/This-AI-Artist-Generates-5M-Through-Digi.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": "Aurora Mobile Limited (NASDAQ: JG) sees a surge in premarket trading after announcing the integration of the DeepSeek R1 large language model (LLM) into its enterprise AI platform, GPTBots.ai. ",
+      "symbols": [
+        "GOOGL",
+        "JG",
+        "META",
+        "MSFT"
+      ],
+      "updated_at": "2025-01-27T11:11:45Z",
+      "url": "https://www.benzinga.com/25/01/43223106/aurora-mobile-partners-with-deepseek-to-boost-ai-capabilities",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T10:07:02Z",
+      "headline": "Aurora Mobile Enhances GPTBots.ai with DeepSeek R1 Integration, Expanding Its AI Ecosystem",
+      "id": 43222226,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "JG"
+      ],
+      "updated_at": "2025-01-27T10:07:02Z",
+      "url": "https://www.benzinga.com/news/25/01/43222226/aurora-mobile-enhances-gptbots-ai-with-deepseek-r1-integration-expanding-its-ai-ecosystem",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    },
+    {
+      "author": "Avi Kapoor",
+      "content": "",
+      "created_at": "2025-01-27T17:05:38Z",
+      "headline": "Dow Edges Higher; AT&T Posts Upbeat Earnings",
+      "id": 43241775,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
         }
       ],
       "source": "benzinga",
       "summary": " ",
       "symbols": [
-        "AAL",
-        "EA",
-        "EVTL",
-        "ICON",
-        "LYTS",
-        "TAL",
-        "VNCE"
+        "AKRO",
+        "ALLK",
+        "DADA",
+        "ELAB",
+        "JD",
+        "JG",
+        "T",
+        "VERU"
       ],
-      "updated_at": "2025-01-23T17:06:45Z",
-      "url": "https://www.benzinga.com/news/earnings/25/01/43168544/dow-jumps-250-points-american-airlines-issues-weak-outlook",
-      "added_at": "2025-01-24T14:58:08.605Z"
+      "updated_at": "2025-01-27T17:05:38Z",
+      "url": "https://www.benzinga.com/25/01/43241775/dow-falls-over-100-points-att-posts-upbeat-earnings",
+      "added_at": "2025-01-27T17:08:55.566Z"
+    }
+  ],
+  "DADA": [
+    {
+      "author": "Avi Kapoor",
+      "content": "",
+      "created_at": "2025-01-27T15:02:05Z",
+      "headline": "Dada Nexus, Titan Machinery, AT&T And Other Big Stocks Moving Higher On Monday",
+      "id": 43235301,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "AKRO",
+        "DADA",
+        "ETNB",
+        "EVER",
+        "HAIN",
+        "JD",
+        "KC",
+        "LGIH",
+        "LGTY",
+        "PTLO",
+        "SVC",
+        "T",
+        "TITN",
+        "TKNO",
+        "TREE"
+      ],
+      "updated_at": "2025-01-27T15:02:06Z",
+      "url": "https://www.benzinga.com/25/01/43235301/dada-nexus-titan-machinery-att-and-other-big-stocks-moving-higher-on-monday",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    },
+    {
+      "author": "Lekha Gupta",
+      "content": "",
+      "created_at": "2025-01-27T12:49:36Z",
+      "headline": "JD.com Eyes Full Control Of Dada Nexus With Premium Cash Offer: Details",
+      "id": 43225209,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Internal-Documents-Offer-Insight.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Internal-Documents-Offer-Insight.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Internal-Documents-Offer-Insight.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": "Dada Nexus received a proposal from JD.com to acquire all shares at $2 per ADS ($0.50 per Ordinary Share) in cash, representing a 42% premium. Board forming committee to evaluate. No guarantee of offer or completion. ",
+      "symbols": [
+        "DADA",
+        "JD"
+      ],
+      "updated_at": "2025-01-27T12:49:37Z",
+      "url": "https://www.benzinga.com/news/large-cap/25/01/43225209/jd-com-eyes-full-control-of-dada-nexus-with-premium-cash-offer-details",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T11:11:56Z",
+      "headline": "JD.com Proposes to Acquire Dada Nexus for $2.0 Per ADS, Offering a 42% Premium",
+      "id": 43223109,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "DADA",
+        "JD"
+      ],
+      "updated_at": "2025-01-27T11:11:57Z",
+      "url": "https://www.benzinga.com/m-a/25/01/43223109/jd-com-proposes-to-acquire-dada-nexus-for-2-0-per-ads-offering-a-42-premium",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    },
+    {
+      "author": "Avi Kapoor",
+      "content": "",
+      "created_at": "2025-01-27T17:05:38Z",
+      "headline": "Dow Edges Higher; AT&T Posts Upbeat Earnings",
+      "id": 43241775,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Wall-Street-Dow.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "AKRO",
+        "ALLK",
+        "DADA",
+        "ELAB",
+        "JD",
+        "JG",
+        "T",
+        "VERU"
+      ],
+      "updated_at": "2025-01-27T17:05:38Z",
+      "url": "https://www.benzinga.com/25/01/43241775/dow-falls-over-100-points-att-posts-upbeat-earnings",
+      "added_at": "2025-01-27T17:08:55.566Z"
+    }
+  ],
+  "ETNB": [
+    {
+      "author": "Avi Kapoor",
+      "content": "",
+      "created_at": "2025-01-27T15:02:05Z",
+      "headline": "Dada Nexus, Titan Machinery, AT&T And Other Big Stocks Moving Higher On Monday",
+      "id": 43235301,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/Stock-Movers.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "AKRO",
+        "DADA",
+        "ETNB",
+        "EVER",
+        "HAIN",
+        "JD",
+        "KC",
+        "LGIH",
+        "LGTY",
+        "PTLO",
+        "SVC",
+        "T",
+        "TITN",
+        "TKNO",
+        "TREE"
+      ],
+      "updated_at": "2025-01-27T15:02:06Z",
+      "url": "https://www.benzinga.com/25/01/43235301/dada-nexus-titan-machinery-att-and-other-big-stocks-moving-higher-on-monday",
+      "added_at": "2025-01-27T16:32:08.642Z"
+    }
+  ],
+  "AIXI": [],
+  "MLGO": [],
+  "VCIG": [
+    {
+      "author": "Shivani Kumaresan",
+      "content": "",
+      "created_at": "2025-01-27T15:40:51Z",
+      "headline": "VCI Global Expands AI Infrastructure With $25M Investment",
+      "id": 43237896,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/27/VCI-Global-Ltd.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/27/VCI-Global-Ltd.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/27/VCI-Global-Ltd.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": "VCI Global Limited (NASDAQ: VCIG) is making waves as its subsidiary, AI Computing Center Malaysia (AICC), secures advanced AI infrastructure from Super Micro Computer, Inc. (NASDAQ: SMCI). This $25 million investment includes 64 Supermicro servers with NVIDIA H200 GPUs.",
+      "symbols": [
+        "NVDA",
+        "SMCI",
+        "VCIG"
+      ],
+      "updated_at": "2025-01-27T15:40:52Z",
+      "url": "https://www.benzinga.com/25/01/43237896/vci-global-expands-ai-infrastructure-with-25m-investment",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T13:36:37Z",
+      "headline": "CORRECTION: VCI Global's AICC Announces $25M Acquisition Of 64 Supermicro Servers With NVIDIA H200 GPUs For AI Cloud Business; Projected To Generate $6M Annual Revenue, 20% Increase By 2026; Launch Planned In Cyberjaya, Malaysia, Q2 2025",
+      "id": 43230830,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "SMCI",
+        "VCIG"
+      ],
+      "updated_at": "2025-01-27T13:45:35Z",
+      "url": "https://www.benzinga.com/news/25/01/43230830/vci-global-limited-announces-a-major-ai-asset-acquisition-through-super-micro-computer-of-state-of-t",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    }
+  ],
+  "DWTX": [],
+  "SAGE": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T14:21:09Z",
+      "headline": "Sage Therapeutics Initiates Review Of Strategic Alternatives; Rejects Biogen's Unsolicited Acquisition Proposal",
+      "id": 43232573,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "BIIB",
+        "SAGE"
+      ],
+      "updated_at": "2025-01-27T14:21:10Z",
+      "url": "https://www.benzinga.com/m-a/25/01/43232573/sage-therapeutics-initiates-review-of-strategic-alternatives-rejects-biogens-unsolicited-acquisition",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    }
+  ],
+  "HKD": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T13:50:27Z",
+      "headline": "World Media And Entertainment Universal To Go Public Through Business Combination With Black Spade Acquisition II Co; The Business Combination Values WME At An Equity Value Of ~$488M",
+      "id": 43231315,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "AMTD",
+        "BSII",
+        "HKD"
+      ],
+      "updated_at": "2025-01-27T14:17:23Z",
+      "url": "https://www.benzinga.com/m-a/25/01/43231315/world-media-and-entertainment-universal-to-go-public-through-business-combination-with-black-spade-a",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    }
+  ],
+  "WIMI": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T14:12:53Z",
+      "headline": "WiMi Hologram Cloud Announces They Are Developing A Series Of AI Applications Based On The Advanced AI Open-Source Model Deepseek",
+      "id": 43232031,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "WIMI"
+      ],
+      "updated_at": "2025-01-27T14:12:54Z",
+      "url": "https://www.benzinga.com/news/25/01/43232031/wimi-hologram-cloud-announces-they-are-developing-a-series-of-ai-applications-based-on-the-advanced",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    }
+  ],
+  "SGMT": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T13:14:54Z",
+      "headline": "Jones Trading Initiates Coverage On Sagimet Biosciences with Buy Rating, Announces Price Target of $42",
+      "id": 43229146,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "SGMT"
+      ],
+      "updated_at": "2025-01-27T13:14:55Z",
+      "url": "https://www.benzinga.com/news/25/01/43229146/jones-trading-initiates-coverage-on-sagimet-biosciences-with-buy-rating-announces-price-target-of-42",
+      "added_at": "2025-01-27T16:32:08.863Z"
+    }
+  ],
+  "EVAX": [],
+  "YIBO": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T15:55:42Z",
+      "headline": "CORRECTION: Planet Image H1 Financial Results Was Reported On Sept. 13",
+      "id": 43238556,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "YIBO"
+      ],
+      "updated_at": "2025-01-27T16:04:18Z",
+      "url": "https://www.benzinga.com/general/25/01/43238556/correction-h1-financial-results-was-reported-on-sept-13",
+      "added_at": "2025-01-27T16:32:09.076Z"
+    }
+  ],
+  "PDYN": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T13:04:47Z",
+      "headline": "Alliance Global Partners Initiates Coverage On Palladyne AI with Buy Rating, Announces Price Target of $15",
+      "id": 43225788,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "PDYN"
+      ],
+      "updated_at": "2025-01-27T13:04:48Z",
+      "url": "https://www.benzinga.com/news/25/01/43225788/alliance-global-partners-initiates-coverage-on-palladyne-ai-with-buy-rating-announces-price-target-o",
+      "added_at": "2025-01-27T16:32:09.076Z"
+    }
+  ],
+  "ICAD": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-01-27T13:07:32Z",
+      "headline": "ICAD Expects Q4 2024 Revenue Between $5.1M-$5.3M; Total Annual Recurring Revenue Reaches $9.8M, Up 11% YoY; Closed 106 Deals, Including 19 Cloud Deals",
+      "id": 43227008,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "ICAD"
+      ],
+      "updated_at": "2025-01-27T13:07:33Z",
+      "url": "https://www.benzinga.com/news/earnings/25/01/43227008/icad-expects-q4-2024-revenue-between-5-1m-5-3m-total-annual-recurring-revenue-reaches-9-8m-up-11-yo",
+      "added_at": "2025-01-27T16:32:17.837Z"
     }
   ]
 }
