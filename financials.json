@@ -1,82 +1,27 @@
 {
-  "ALUR": {
-    "netIncome": -9004000,
-    "netCashFlow": 9399000,
-    "cash": 50699000
-  },
-  "TVGN": {
-    "netIncome": -5884223,
+  "SLXN": {
+    "netIncome": 0,
     "netCashFlow": 0,
-    "cash": 4289472
+    "cash": 3087000
   },
-  "ASST": {
-    "netIncome": -1315369,
-    "netCashFlow": 171518,
-    "cash": 2553092
-  },
-  "ALLR": {
-    "netIncome": -11590000,
-    "netCashFlow": 195000,
-    "cash": 20378000
-  },
-  "HOLO": {
-    "netIncome": -3614638,
-    "netCashFlow": -1581432,
-    "cash": 37094775
-  },
-  "MLGO": {
-    "netIncome": -1264983,
-    "netCashFlow": -21468125,
-    "cash": 75636007
-  },
-  "ETNB": {
-    "netIncome": -288960000,
-    "netCashFlow": -160515000,
-    "cash": 458297000
-  },
-  "ICCT": {
-    "netIncome": -6660327,
-    "netCashFlow": -34848,
-    "cash": 14220659
-  },
-  "DTSS": {
-    "netIncome": -8680,
-    "netCashFlow": 756344,
-    "cash": 7956650
+  "SHCO": {
+    "netIncome": 718000,
+    "netCashFlow": -5263000,
+    "cash": 2578794000
   },
   "BNZI": {
     "netIncome": -15413927,
     "netCashFlow": 0,
     "cash": 7311910
   },
-  "SAGE": {
-    "netIncome": -337594000,
-    "netCashFlow": -47585000,
-    "cash": 622432000
+  "ALUR": {
+    "netIncome": -9004000,
+    "netCashFlow": 9399000,
+    "cash": 50699000
   },
-  "SGMT": {
-    "netIncome": -37517000,
-    "netCashFlow": -24828000,
-    "cash": 174775000
-  },
-  "VRME": {
-    "netIncome": -3321000,
-    "netCashFlow": -398000,
-    "cash": 14829000
-  },
-  "PDYN": {
-    "netIncome": -7096000,
-    "netCashFlow": -4503000,
-    "cash": 38738000
-  },
-  "HOUR": {
-    "netIncome": 469647,
+  "REBN": {
+    "netIncome": -719748,
     "netCashFlow": 0,
-    "cash": 32404374
-  },
-  "ICAD": {
-    "netIncome": -2707000,
-    "netCashFlow": 2624000,
-    "cash": 37107000
+    "cash": 9641267
   }
 }

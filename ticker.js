@@ -10,6 +10,8 @@ import chalk from "chalk";
 import player from "node-wav-player";
 import clipboardy from "clipboardy";
 import { safeReadFile, safeWriteFile } from "./fileOps.js";
+import { checkAndResetJsonFiles } from "./wipeUtil.js";
+
 
 const verbose = process.argv.includes("-v"); // Check for verbose flag (-v)
 
@@ -81,53 +83,6 @@ const sanitizeTicker = (ticker) => {
 const setToMidnight = (date) => {
     const localMidnight = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 0, 0, 0, 0);
     return localMidnight;
-};
-
-// Function to check if the ticker files need to be wiped
-const checkAndWipeIfNeeded = async () => {
-    logVerbose("Checking if the ticker files need to be wiped...");
-    try {
-        const lastWipeDateStr = await fsPromises.readFile(lastWipeFilePath, "utf8");
-        const lastWipeDate = new Date(lastWipeDateStr);
-        const lastWipeAtMidnight = setToMidnight(lastWipeDate);
-        const currentDateAtMidnight = setToMidnight(new Date());
-
-        console.log("Last wipe date:", lastWipeAtMidnight);
-        console.log("Current date:", currentDateAtMidnight);
-
-        if (currentDateAtMidnight > lastWipeAtMidnight) {
-            console.log("Wiping ticker, filings, and shorts files for a new day...");
-
-            // Wipe each of the files by resetting their contents to empty objects
-            await fsPromises.writeFile(tickerFilePath, JSON.stringify({}, null, 2));
-            console.log("tickerFilePath wiped successfully.");
-
-            await fsPromises.writeFile(filingsFilePath, JSON.stringify({}, null, 2));
-            console.log("filingsFilePath wiped successfully.");
-
-            await fsPromises.writeFile(shortsFilePath, JSON.stringify({}, null, 2));
-            console.log("shortsFilePath wiped successfully.");
-
-            console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
-            await fsPromises.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
-            console.log("All data files wiped for the new day.");
-        } else {
-            logVerbose("No need to wipe ticker files today.");
-        }
-    } catch (err) {
-        if (err.code === "ENOENT") {
-            const currentDateAtMidnight = setToMidnight(new Date());
-            await safeWriteFile(tickerFilePath, {});
-            await safeWriteFile(filingsFilePath, {});
-            await safeWriteFile(shortsFilePath, {});
-
-            console.log(`Updating last wipe date to: ${currentDateAtMidnight.toISOString()}`);
-            await fsPromises.writeFile(lastWipeFilePath, currentDateAtMidnight.toISOString());
-            console.log("Data files created and wiped. Last wipe date set.");
-        } else {
-            console.error("Error checking wipe status:", err);
-        }
-    }
 };
 
 // Function to check if it's 15:30
@@ -269,10 +224,7 @@ const displayTickersTable = async () => {
         // Filter and sort tickers
         let filteredTickers = Object.values(tickers).filter((ticker) => {
             const newsForTicker = newsData[ticker.ticker] || [];
-            return (
-                ticker.isActive &&
-                (!filterHeadlinesActive || (Array.isArray(newsForTicker) && newsForTicker.length > 0))
-            );
+            return ticker.isActive && (!filterHeadlinesActive || (Array.isArray(newsForTicker) && newsForTicker.length > 0));
         });
 
         if (filterHeadlinesActive) {
@@ -298,20 +250,20 @@ const displayTickersTable = async () => {
                       timeZone: "America/New_York",
                   })
                 : "";
-        
+
             const isInWatchlist = watchlist[ticker.ticker] !== undefined;
-        
+
             // Check for S-3 filing and running at a loss
             const hasS3Filing = ticker.filings?.some((filing) => filing.formType === "S-3");
             const isRunningAtLoss = ticker.financials?.netCashFlow < 1;
             const flag = hasS3Filing && isRunningAtLoss;
-        
+
             let formattedTicker = ticker.ticker; // Start with the base ticker
-        
+
             if (ticker.shorts?.["Short Interest"]) {
                 const shortInterestValue = ticker.shorts["Short Interest"];
                 const shortInterest = formatShortInterest(shortInterestValue);
-        
+
                 // Apply color coding based on the short interest value
                 const coloredShortInterest =
                     shortInterestValue < 1e6
@@ -319,34 +271,34 @@ const displayTickersTable = async () => {
                         : shortInterestValue < 5e6
                         ? chalk.yellow(shortInterest) // Yellow if >= 1M and < 5M
                         : chalk.redBright(shortInterest); // Red if >= 5M
-        
+
                 formattedTicker += `(${coloredShortInterest})`; // Add colored short interest in parentheses
             }
-        
+
             // Add HOD indicator if applicable
             if (ticker.hod) {
                 formattedTicker += chalk.cyanBright("HOD"); // Add "HOD" indicator
             }
-        
+
             // Add "POTSELL" indicator if flagged
             if (flag) {
                 formattedTicker += chalk.red("POTSELL");
             }
-        
+
             // Highlight in yellow if in watchlist
             if (isInWatchlist) {
                 formattedTicker = chalk.black.yellow(formattedTicker);
             }
-        
+
             // Highlight news keywords and add "#" if matched
             const keywords = ["Offering", "Registered Direct", "Private Placement", "Shares Open For Trade"];
             let formattedNews = latestNews === "No news available" ? latestNews : `${formattedTime} - ${latestNews}`;
             const matchedKeyword = keywords.some((keyword) => latestNews.includes(keyword));
-        
+
             if (matchedKeyword) {
                 formattedNews = chalk.bgRed.white(formattedNews); // Red background for keywords
                 formattedTicker += chalk.redBright("SELLING");
-        
+
                 // Play siren.wav only if not played before
                 if (!lastPlayedHeadlines[ticker.ticker]?.includes(latestNews)) {
                     playWav("./sounds/siren.wav");
@@ -361,21 +313,19 @@ const displayTickersTable = async () => {
             } else {
                 formattedNews = chalk.white(formattedNews);
             }
-        
+
             // Add the row to the table
             table.push([formattedTicker, formattedNews]);
         });
-        
 
         // Clear the console and display the table
         if (!verbose) console.clear();
-        process.stdout.write('\x1Bc'); // Clear the console
+        process.stdout.write("\x1Bc"); // Clear the console
         console.log(table.toString());
     } catch (err) {
         console.error("Error displaying tickers:", err);
     }
 };
-
 
 // Function to clear all tickers from both tickers.json and ticker.txt
 const clearTickers = async () => {
@@ -739,17 +689,19 @@ const checkAndCreateWatchlist = async () => {
 };
 
 const watchNewsFile = () => {
-    chokidar.watch(newsFilePath, {
-        persistent: true,
-        awaitWriteFinish: { stabilityThreshold: 2000, pollInterval: 100 },
-    }).on("change", async () => {
-        logVerbose("Detected changes in news.json...");
-        await displayTickersTable(); // Refresh the table
-    }).on("error", (error) => {
-        console.error("Error watching news.json:", error);
-    });
+    chokidar
+        .watch(newsFilePath, {
+            persistent: true,
+            awaitWriteFinish: { stabilityThreshold: 2000, pollInterval: 100 },
+        })
+        .on("change", async () => {
+            logVerbose("Detected changes in news.json...");
+            await displayTickersTable(); // Refresh the table
+        })
+        .on("error", (error) => {
+            console.error("Error watching news.json:", error);
+        });
 };
-
 
 // Function to periodically refresh the table
 const startPeriodicRefresh = () => {
@@ -779,7 +731,23 @@ const startPeriodicRefresh = () => {
 
 // Modify init() to include watchFinancialsFile
 const init = async () => {
-    await checkAndWipeIfNeeded();
+    console.log("Starting file reset process...");
+
+    const filesToReset = [
+        tickerFilePath,
+        filingsFilePath,
+        shortsFilePath,
+        newsFilePath,
+        financialsFilePath,
+    ];
+
+    try {
+        await checkAndResetJsonFiles(lastWipeFilePath, filesToReset);
+        console.log("File reset process completed.");
+    } catch (err) {
+        console.error("Error during file reset:", err.message);
+    }
+
     await checkAndCreateWatchlist();
     await displayTickersTable(); // Initial display
     startListening(); // Start listening for user commands

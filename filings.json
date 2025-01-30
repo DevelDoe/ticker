@@ -1,16 +1,1 @@
-{
-  "ALLR": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-074515 (33 Act)  Size: 182 KB",
-      "date": "2024-08-30"
-    }
-  ],
-  "SAGE": [
-    {
-      "formType": "S-3ASR",
-      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-219846 (33 Act)  Size: 1 MB",
-      "date": "2024-09-17"
-    }
-  ]
-}
+{}

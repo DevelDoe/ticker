@@ -15,7 +15,7 @@ dotenv.config({ path: path.join(process.cwd(), ".env.alpaca") });
 const tickersFilePath = path.join(process.cwd(), "tickers.json");
 const newsFilePath = path.join(process.cwd(), "news.json");
 
-let MIN_DELAY = 10; // Minimum delay between requests (in ms)
+let MIN_DELAY = 100; // Minimum delay between requests (in ms)
 const MAX_DELAY = 10000; // Maximum delay (in ms)
 const BACKOFF_MULTIPLIER = 2; // Aggressive backoff multiplier
 const RECOVERY_STEP = 50; // Decrease delay on multiple successful responses
@@ -23,7 +23,7 @@ const SUCCESS_THRESHOLD = 5; // Number of consecutive successes to reduce delay
 const MIN_DELAY_INCREMENT = 10; // Increment to MIN_DELAY on throttle
 const MAX_MIN_DELAY = 2000; // Maximum value for MIN_DELAY to prevent runaway growth
 
-let throttleDelay = 10; // Initial delay
+let throttleDelay = 100; // Initial delay
 let consecutiveSuccesses = 0; // Tracks the number of successful requests in a row
 
 
@@ -61,7 +61,7 @@ const logTickerStatuses = (responseCode = "") => {
     isLogging = true;
 
     console.clear(); // Clear the console for clean output
-    console.log(`Throttle delay (real-time): ${throttleDelay}ms`);
+    console.log(`Throttle: ${throttleDelay}ms`);
     console.log(`Last fetch: ${responseCode || "N/A"}`);
     console.log("Tickers:");
 
@@ -177,7 +177,12 @@ const filterNews = (newsItems, existingNews) => {
         "Market-Moving News",
         "US Stocks Set To Open",
         "Nasdaq Dips",
-        "Here Are Top"
+        "Here Are Top",
+        "S&P 500 Falls Over",
+        "Trading Halt",
+        "Gold Gains 1%",
+        "Nasdaq Surges",
+        "Dow Gains"
     ];
 
     return newsItems.filter((newsItem) => {
@@ -219,26 +224,34 @@ const processTickerBatch = async (batch) => {
     if (news.length > 0) {
         // Iterate over each news item
         news.forEach((newsItem) => {
-            // Check all symbols associated with the news item
-            newsItem.symbols.forEach((symbol) => {
-                if (batch.includes(symbol)) {
-                    // Initialize the array for the ticker if it doesn't exist
-                    if (!newsData[symbol]) {
-                        newsData[symbol] = [];
-                    }
+            // Filter out news that contains more than one symbol
+            if (newsItem.symbols.length !== 1) {
+                if (verbose) console.log(`Skipping news item with multiple symbols: ${newsItem.symbols.join(", ")}`);
+                return; // Skip this news item
+            }
 
-                    // Filter out unwanted news and duplicates
-                    const filteredNews = filterNews([newsItem], newsData[symbol]);
+            const symbol = newsItem.symbols[0]; // The only symbol in the news item
 
-                    if (filteredNews.length > 0) {
-                        // Add the 'added_at' timestamp
-                        filteredNews.forEach((filteredItem) => {
-                            filteredItem.added_at = new Date().toISOString();
-                            newsData[symbol].push(filteredItem);
-                        });
-                    }
-                }
-            });
+            if (!batch.includes(symbol)) {
+                if (verbose) console.log(`Skipping news item as ${symbol} is not in the current batch.`);
+                return;
+            }
+
+            // Initialize the array for the ticker if it doesn't exist
+            if (!newsData[symbol]) {
+                newsData[symbol] = [];
+            }
+
+            // Filter out unwanted news and duplicates
+            const filteredNews = filterNews([newsItem], newsData[symbol]);
+
+            if (filteredNews.length > 0) {
+                // Add the 'added_at' timestamp
+                filteredNews.forEach((filteredItem) => {
+                    filteredItem.added_at = new Date().toISOString();
+                    newsData[symbol].push(filteredItem);
+                });
+            }
         });
 
         // Write updated newsData to file
@@ -253,6 +266,7 @@ const processTickerBatch = async (batch) => {
 
     logTickerStatuses(responseStatus); // Updated logging here
 };
+
 
 
 
