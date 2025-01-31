@@ -149,7 +149,10 @@ async function scrapeData(page) {
  * @returns {Array} - An array of filtered data objects that meet the criteria.
  */
 function filterData(scrapedData) {
-    if (verbose) console.log("Filtering data...");
+    if (verbose) {
+        console.log("Filtering data...");
+        console.log("Scraped Data:", JSON.stringify(scrapedData, null, 2));
+    }
 
     const filteredData = scrapedData.filter((data) => {
         // Check if we already have processed this data in the past
@@ -185,13 +188,17 @@ function filterData(scrapedData) {
             float = parseFloat(floatString); // Assume it's already in a numeric format
         }
 
-        if (isNaN(float) || float > 150) {
-            // Skip if the float is invalid or greater than 50 million
+        if (isNaN(float) || float > 300) {
+            // Skip if the float is invalid or greater than 150 million
             return false;
         }
 
         return true;
     });
+
+    if (verbose) {
+        console.log("Filtered Data:", JSON.stringify(filteredData, null, 2));
+    }
 
     return filteredData;
 }
@@ -273,6 +280,10 @@ async function saveToJson(tickersToSave, filteredData) {
             existingTicker.lastSeen = new Date().toISOString();
         }
     });
+
+    if (verbose) {
+        console.log("Tickers to Save:", JSON.stringify(tickersToSave, null, 2));
+    }
 
     if (newData || tickerUpdated) {
         try {

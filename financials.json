@@ -4,24 +4,104 @@
     "netCashFlow": 0,
     "cash": 3087000
   },
-  "SHCO": {
-    "netIncome": 718000,
-    "netCashFlow": -5263000,
-    "cash": 2578794000
-  },
   "BNZI": {
     "netIncome": -15413927,
     "netCashFlow": 0,
     "cash": 7311910
   },
-  "ALUR": {
-    "netIncome": -9004000,
-    "netCashFlow": 9399000,
-    "cash": 50699000
+  "ELAB": {
+    "netIncome": -5468914,
+    "netCashFlow": 5948815,
+    "cash": 11205355
   },
-  "REBN": {
-    "netIncome": -719748,
+  "SPAI": {
+    "netIncome": -3685456,
+    "netCashFlow": 1631347,
+    "cash": 5476549
+  },
+  "USEG": {
+    "netIncome": -33564000,
+    "netCashFlow": -819000,
+    "cash": 64076000
+  },
+  "REKR": {
+    "netIncome": -12646000,
+    "netCashFlow": 7550000,
+    "cash": 101195000
+  },
+  "AMPG": {
+    "netIncome": -1189683,
+    "netCashFlow": 62333,
+    "cash": 27546349
+  },
+  "ACMR": {
+    "netIncome": 115461000,
+    "netCashFlow": 127593000,
+    "cash": 1794175000
+  },
+  "SGD": {
+    "netIncome": -8963040,
+    "netCashFlow": -19658,
+    "cash": 13036558
+  },
+  "BBAI": {
+    "netIncome": -170316000,
+    "netCashFlow": 33400000,
+    "cash": 354083000
+  },
+  "XERS": {
+    "netIncome": -15738000,
+    "netCashFlow": 1526000,
+    "cash": 321104000
+  },
+  "CELZ": {
+    "netIncome": -5317981,
+    "netCashFlow": 1753330,
+    "cash": 6887919
+  },
+  "WOLF": {
+    "netIncome": 0,
     "netCashFlow": 0,
-    "cash": 9641267
+    "cash": 7857800000
+  },
+  "BFLY": {
+    "netIncome": -16924000,
+    "netCashFlow": 0,
+    "cash": 265272000
+  },
+  "PL": {
+    "netIncome": -118128000,
+    "netCashFlow": 30183000,
+    "cash": 630764000
+  },
+  "RCAT": {
+    "netIncome": -13334618,
+    "netCashFlow": -3121671,
+    "cash": 51092388
+  },
+  "RGTI": {
+    "netIncome": -14833000,
+    "netCashFlow": -398000,
+    "cash": 157250000
+  },
+  "NUWE": {
+    "netIncome": 2358000,
+    "netCashFlow": 884000,
+    "cash": 6728000
+  },
+  "LTBR": {
+    "netIncome": -9404060,
+    "netCashFlow": -301552,
+    "cash": 27954822
+  },
+  "FOXX": {
+    "netIncome": -5150600,
+    "netCashFlow": 28364769,
+    "cash": 49547691
+  },
+  "CERO": {
+    "netIncome": -2448654,
+    "netCashFlow": 0,
+    "cash": 7370765
   }
 }
