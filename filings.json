@@ -1,4 +1,30 @@
 {
+  "CIFR": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-212171 (33 Act)  Size: 1 MB",
+      "date": "2024-09-03"
+    }
+  ],
+  "WOLF": [
+    {
+      "formType": "S-3ASR",
+      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-272827 (33 Act)  Size: 860 KB",
+      "date": "2024-12-09"
+    }
+  ],
+  "MVIS": [
+    {
+      "formType": "S-3/A",
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-046284 (33 Act)  Size: 264 KB",
+      "date": "2024-11-15"
+    },
+    {
+      "formType": "S-3",
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-042542 (33 Act)  Size: 432 KB",
+      "date": "2024-10-25"
+    }
+  ],
   "REKR": [
     {
       "formType": "S-3",
@@ -11,44 +37,23 @@
       "date": "2024-07-19"
     }
   ],
-  "BBAI": [
+  "LVO": [
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-25-007111 (33 Act)  Size: 266 KB",
-      "date": "2025-01-15"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001213900-24-057961 (33 Act)  Size: 426 KB",
+      "date": "2024-07-01"
     }
   ],
-  "CELZ": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001477932-24-006211 (33 Act)  Size: 401 KB",
-      "date": "2024-10-04"
-    }
-  ],
-  "WOLF": [
-    {
-      "formType": "S-3ASR",
-      "description": "Automatic shelf registration statement of securities of well-known seasoned issuers\nAcc-no: 0001193125-24-272827 (33 Act)  Size: 860 KB",
-      "date": "2024-12-09"
-    }
-  ],
-  "RCAT": [
+  "FCUV": [
     {
       "formType": "S-3/A",
-      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
-      "date": "2024-12-05"
+      "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001683168-25-000110 (33 Act)  Size: 266 KB",
+      "date": "2025-01-06"
     },
     {
       "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-      "date": "2024-11-14"
-    }
-  ],
-  "NUWE": [
-    {
-      "formType": "S-3",
-      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001140361-24-032001 (33 Act)  Size: 1 MB",
-      "date": "2024-07-01"
+      "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-008976 (33 Act)  Size: 1 MB",
+      "date": "2024-12-26"
     }
   ]
 }
