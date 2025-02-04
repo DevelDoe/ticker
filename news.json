@@ -1,642 +1,245 @@
 {
-  "ATHE": [
+  "GHRS": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T22:51:00Z",
-      "headline": "Maxim Group Maintains Buy on Alterity Therapeutics, Raises Price Target to $12",
-      "id": 43366528,
+      "created_at": "2025-02-03T12:06:34Z",
+      "headline": "GH Research's Inhalable Depression Treatment GH001 Hits Primary Endpoint in Phase 2b Trial, Showing Symptom Reduction",
+      "id": 43430217,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "ATHE"
+        "GHRS"
       ],
-      "updated_at": "2025-01-30T22:51:00Z",
-      "url": "https://www.benzinga.com/news/25/01/43366528/maxim-group-maintains-buy-on-alterity-therapeutics-raises-price-target-to-12",
-      "added_at": "2025-01-31T08:34:44.953Z"
+      "updated_at": "2025-02-03T12:06:35Z",
+      "url": "https://www.benzinga.com/news/25/02/43430217/gh-researchs-inhalable-depression-treatment-gh001-hits-primary-endpoint-in-phase-2b-trial-showing-sy",
+      "added_at": "2025-02-03T12:06:49.490Z"
+    }
+  ],
+  "CJJD": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-03T13:04:55Z",
+      "headline": "China Jo-Jo Drugstores Enters Restructuring Including Acquisition Of Allright Internet Technology Co. And Divestiture Of Its Retail Business To Directors Lei Liu And Li Qi",
+      "id": 43431950,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "CJJD"
+      ],
+      "updated_at": "2025-02-03T13:04:55Z",
+      "url": "https://www.benzinga.com/m-a/25/02/43431950/china-jo-jo-drugstores-enters-restructuring-including-acquisition-of-allright-internet-technology-co",
+      "added_at": "2025-02-03T13:06:51.007Z"
+    }
+  ],
+  "BYON": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-03T13:29:40Z",
+      "headline": "Beyond Entered Asset Purchase Agreement With BBBY Acquisition Co. To Acquire Global Rights Of Buy Buy Baby Brand; Purchase Price Of $5M Includes Assets And Intellectual Property",
+      "id": 43432737,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "BYON"
+      ],
+      "updated_at": "2025-02-03T13:29:40Z",
+      "url": "https://www.benzinga.com/m-a/25/02/43432737/beyond-entered-asset-purchase-agreement-with-bbby-acquisition-co-to-acquire-global-rights-of-buy-buy",
+      "added_at": "2025-02-03T13:31:51.616Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T12:38:26Z",
-      "headline": "Alterity Therapeutics Reveals Topline Results From ATH434-201 Randomized, Double-blind, Placebo-controlled Phase 2 Clinical Trial In Patients With Early-stage Multiple System Atrophy; Says Clinically Meaningful Benefit Observed At Both ATH434 Doses Studied",
-      "id": 43333419,
+      "created_at": "2025-02-03T13:28:26Z",
+      "headline": "After The Close Of Business On January 31, 2025, Beyond, Inc. Terminated The Agreements It Entered Into With The Container Store Group, Inc. On October 15, 2024",
+      "id": 43432704,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "ATHE"
+        "BYON"
       ],
-      "updated_at": "2025-01-30T12:38:27Z",
-      "url": "https://www.benzinga.com/news/25/01/43333419/alterity-therapeutics-reveals-topline-results-from-ath434-201-randomized-double-blind-placebo-contro",
-      "added_at": "2025-01-31T08:34:44.953Z"
-    }
-  ],
-  "BHIL": [],
-  "ORKT": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-30T22:39:34Z",
-      "headline": "Maxim Group Initiates Coverage On Orangekloud Technology with Buy Rating, Announces Price Target of $5",
-      "id": 43357980,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ORKT"
-      ],
-      "updated_at": "2025-01-30T22:39:35Z",
-      "url": "https://www.benzinga.com/news/25/01/43357980/maxim-group-initiates-coverage-on-orangekloud-technology-with-buy-rating-announces-price-target-of-5",
-      "added_at": "2025-01-31T09:37:24.597Z"
-    }
-  ],
-  "ZAPP": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T11:27:33Z",
-      "headline": "Zapp Electric Vehicles FY EPS $(2.56), Sales $17.340M",
-      "id": 43380301,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ZAPP"
-      ],
-      "updated_at": "2025-01-31T11:27:34Z",
-      "url": "https://www.benzinga.com/news/earnings/25/01/43380301/zapp-electric-vehicles-fy-eps-2-56-sales-17-340m",
-      "added_at": "2025-01-31T11:30:48.140Z"
-    }
-  ],
-  "NLSP": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T12:34:16Z",
-      "headline": "NLS Pharmaceutics And Kadimastem Says Shareholders Approved Their Merger, Bringing Companies One Step Closer To Creating A Combined Nasdaq-traded Biotechnology Company With Portfolio Of Advanced Therapies For Neurodegenerative Diseases And Diabetes",
-      "id": 43381999,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "NLSP"
-      ],
-      "updated_at": "2025-01-31T12:34:17Z",
-      "url": "https://www.benzinga.com/news/25/01/43381999/nls-pharmaceutics-and-kadimastem-says-shareholders-approved-their-merger-bringing-companies-one-step",
-      "added_at": "2025-01-31T12:35:49.482Z"
-    }
-  ],
-  "GUTS": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T13:09:50Z",
-      "headline": "Fractyl Health Announces Focus On Weight Maintenance Post-GLP-1 In REMAIN-1 Study; Midpoint Data In Q2 2025; First-In-Human Gene Therapy Study In H1 2025; Cash Runway Extended To 2026",
-      "id": 43382839,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "GUTS"
-      ],
-      "updated_at": "2025-01-31T13:09:51Z",
-      "url": "https://www.benzinga.com/general/biotech/25/01/43382839/fractyl-health-announces-focus-on-weight-maintenance-post-glp-1-in-remain-1-study-midpoint-data-i",
-      "added_at": "2025-01-31T13:10:50.701Z"
-    }
-  ],
-  "CIFR": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T13:13:14Z",
-      "headline": "Needham Reiterates Buy on Cipher Mining, Maintains $7.5 Price Target",
-      "id": 43384008,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CIFR"
-      ],
-      "updated_at": "2025-01-31T13:13:14Z",
-      "url": "https://www.benzinga.com/news/25/01/43384008/needham-reiterates-buy-on-cipher-mining-maintains-7-5-price-target",
-      "added_at": "2025-01-31T13:15:50.623Z"
-    }
-  ],
-  "AISP": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T13:32:23Z",
-      "headline": "Airship AI Awarded Additional One Year system Maintenance And sustainment Contract Worth Seven Figures; Specific Size Not Disclosed",
-      "id": 43389004,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "AISP"
-      ],
-      "updated_at": "2025-01-31T13:32:23Z",
-      "url": "https://www.benzinga.com/news/25/01/43389004/airship-ai-awarded-additional-one-year-system-maintenance-and-sustainment-contract-worth-seven-figur",
-      "added_at": "2025-01-31T13:35:51.249Z"
-    }
-  ],
-  "ZKIN": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T14:03:56Z",
-      "headline": "ZK International's xSigma Corp. Will Launch Its 'xSigma Wallet' Crypto Platform",
-      "id": 43390514,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ZKIN"
-      ],
-      "updated_at": "2025-01-31T14:03:57Z",
-      "url": "https://www.benzinga.com/markets/cryptocurrency/25/01/43390514/zk-internationals-xsigma-corp-will-launch-its-xsigma-wallet-crypto-platform",
-      "added_at": "2025-01-31T14:05:51.619Z"
-    }
-  ],
-  "VIAV": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T13:22:18Z",
-      "headline": "Needham Upgrades Viavi Solutions to Buy, Announces $15 Price Target",
-      "id": 43388145,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T13:22:19Z",
-      "url": "https://www.benzinga.com/news/25/01/43388145/needham-upgrades-viavi-solutions-to-buy-announces-15-price-target",
-      "added_at": "2025-01-31T14:30:23.901Z"
+      "updated_at": "2025-02-03T13:28:26Z",
+      "url": "https://www.benzinga.com/news/25/02/43432704/after-the-close-of-business-on-january-31-2025-beyond-inc-terminated-the-agreements-it-entered-into",
+      "added_at": "2025-02-03T13:31:51.616Z"
     },
     {
-      "author": "Benzinga Insights",
+      "author": "Shivani Kumaresan",
       "content": "",
-      "created_at": "2025-01-31T13:01:38Z",
-      "headline": "Forecasting The Future: 4 Analyst Projections For Viavi Solutions",
-      "id": 43382620,
+      "created_at": "2025-02-03T16:13:04Z",
+      "headline": "Beyond Snaps Up Buy Buy Baby Brand For $5 Million: Details",
+      "id": 43439786,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_1.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/03/Businessmen-Making-Handshake-With-Partne_0.jpeg"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_1.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/03/Businessmen-Making-Handshake-With-Partne_0.jpeg"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_1.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/03/Businessmen-Making-Handshake-With-Partne_0.jpeg"
         }
       ],
       "source": "benzinga",
-      "summary": " ",
+      "summary": "Beyond, Inc., parent company of Bed Bath &amp; Beyond and Overstock, has secured global rights to Buy Buy Baby for $5 million. The deal includes intellectual property, vendor relationships, and domain names.",
       "symbols": [
-        "VIAV"
+        "BYON"
       ],
-      "updated_at": "2025-01-31T13:01:38Z",
-      "url": "https://www.benzinga.com/insights/analyst-ratings/25/01/43382620/forecasting-the-future-4-analyst-projections-for-viavi-solutions",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T12:29:58Z",
-      "headline": "Northland Capital Markets Reiterates Outperform on Viavi Solutions, Raises Price Target to $14",
-      "id": 43381917,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T12:29:59Z",
-      "url": "https://www.benzinga.com/news/25/01/43381917/northland-capital-markets-reiterates-outperform-on-viavi-solutions-raises-price-target-to-14",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-01-30T21:45:37Z",
-      "headline": "Viavi Solutions Earnings Analysis: Q2 Recap",
-      "id": 43355264,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_2.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-30T21:45:37Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/01/43355264/viavi-solutions-earnings-analysis-q2-recap",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-01-30T21:40:53Z",
-      "headline": "Insights into Viavi Solutions Q2 Earnings",
-      "id": 43355040,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-30T21:40:54Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/01/43355040/insights-into-viavi-solutions-q2-earnings",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-30T21:21:56Z",
-      "headline": "VIAVI Expects Q3 Net Revenue Of $276M - $288M (Est $255.53M) And Adj EPS Of $0.10 - $0.13 (Est $0.09)",
-      "id": 43353514,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-30T21:21:57Z",
-      "url": "https://www.benzinga.com/news/25/01/43353514/viavi-expects-q3-net-revenue-of-276m-288m-est-255-53m-and-adj-eps-of-0-10-0-13-est-0-09",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-01-30T21:20:59Z",
-      "headline": "Recap: Viavi Solutions Q2 Earnings",
-      "id": 43353419,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_1.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_1.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_1.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-30T21:20:59Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/01/43353419/recap-viavi-solutions-q2-earnings",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-30T21:10:25Z",
-      "headline": "Viavi Solutions Q2 2025 Adj EPS $0.13 Beats $0.10 Estimate, Sales $270.80M Beat $259.99M Estimate",
-      "id": 43352767,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-30T21:10:26Z",
-      "url": "https://www.benzinga.com/news/earnings/25/01/43352767/viavi-solutions-q2-2025-adj-eps-0-13-beats-0-10-estimate-sales-270-80m-beat-259-99m-estimate",
-      "added_at": "2025-01-31T14:30:23.901Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T14:33:31Z",
-      "headline": "Morgan Stanley Maintains Underweight on Viavi Solutions, Raises Price Target to $10",
-      "id": 43391376,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T14:33:32Z",
-      "url": "https://www.benzinga.com/news/25/01/43391376/morgan-stanley-maintains-underweight-on-viavi-solutions-raises-price-target-to-10",
-      "added_at": "2025-01-31T14:35:53.396Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T16:56:35Z",
-      "headline": "Stifel Reiterates Buy on Viavi Solutions, Raises Price Target to $13",
-      "id": 43397927,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T16:56:36Z",
-      "url": "https://www.benzinga.com/news/25/01/43397927/stifel-reiterates-buy-on-viavi-solutions-raises-price-target-to-13",
-      "added_at": "2025-01-31T17:00:55.658Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T17:22:42Z",
-      "headline": "B. Riley Securities Maintains Neutral on Viavi Solutions, Raises Price Target to $12",
-      "id": 43398985,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T17:22:43Z",
-      "url": "https://www.benzinga.com/news/25/01/43398985/b-riley-securities-maintains-neutral-on-viavi-solutions-raises-price-target-to-12",
-      "added_at": "2025-01-31T17:25:56.426Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-01-31T19:22:30Z",
-      "headline": "UBS Maintains Neutral on Viavi Solutions, Raises Price Target to $11.5",
-      "id": 43402073,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T19:22:30Z",
-      "url": "https://www.benzinga.com/news/25/01/43402073/ubs-maintains-neutral-on-viavi-solutions-raises-price-target-to-11-5",
-      "added_at": "2025-01-31T19:26:00.022Z"
-    },
-    {
-      "author": "Anusuya Lahiri",
-      "content": "",
-      "created_at": "2025-01-31T19:46:28Z",
-      "headline": "Viavi Solutions Recovery Well Underway, Analyst Upgrades Stock, Forecasts Stronger 2025",
-      "id": 43402493,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/01/31/Business-Professional-Using-Smartphone-W.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/01/31/Business-Professional-Using-Smartphone-W.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/01/31/Business-Professional-Using-Smartphone-W.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": "Needham analyst upgrades Viavi Solutions to Buy with $15 price target after strong quarterly results. Fiscal Q3 revenue and margin outlook also raised.",
-      "symbols": [
-        "VIAV"
-      ],
-      "updated_at": "2025-01-31T19:46:29Z",
-      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/01/43402493/viavi-solutions-recovery-well-underway-analyst-upgrades-stock-forecasts-stronger-2025",
-      "added_at": "2025-01-31T19:50:45.099Z"
+      "updated_at": "2025-02-03T16:13:04Z",
+      "url": "https://www.benzinga.com/trading-ideas/movers/25/02/43439786/beyond-snaps-up-buy-buy-baby-brand-for-5-million-details",
+      "added_at": "2025-02-03T16:16:46.088Z"
     }
   ],
-  "WOLF": [
+  "DRTS": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T21:19:12Z",
-      "headline": "Canaccord Genuity Maintains Buy on Wolfspeed, Lowers Price Target to $10",
-      "id": 43353340,
+      "created_at": "2025-02-03T13:32:05Z",
+      "headline": "Alpha Tau Receives FDA Approval For IDE Supplement, Expanding Clinical Trial Of Alpha DaRT With Chemotherapy In Metastatic Pancreatic Cancer Patients",
+      "id": 43432859,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "WOLF"
+        "DRTS"
       ],
-      "updated_at": "2025-01-30T21:19:13Z",
-      "url": "https://www.benzinga.com/news/25/01/43353340/canaccord-genuity-maintains-buy-on-wolfspeed-lowers-price-target-to-10",
-      "added_at": "2025-01-31T14:31:27.971Z"
-    },
+      "updated_at": "2025-02-03T13:32:05Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43432859/alpha-tau-receives-fda-approval-for-ide-supplement-expanding-clinical-trial-of-alpha-dart-with-ch",
+      "added_at": "2025-02-03T13:36:51.379Z"
+    }
+  ],
+  "MGRX": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T17:34:13Z",
-      "headline": "B of A Securities Maintains Underperform on Wolfspeed, Lowers Price Target to $6",
-      "id": 43347069,
+      "created_at": "2025-02-03T13:37:52Z",
+      "headline": "Mangoceuticals Announces Exclusive Distribution Agreement With Propre Energie For Dermytol, Plant-Based Skincare Proven To Address Hyperpigmentation And Acne Scars",
+      "id": 43432948,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "WOLF"
+        "MGRX"
       ],
-      "updated_at": "2025-01-30T17:34:14Z",
-      "url": "https://www.benzinga.com/news/25/01/43347069/b-of-a-securities-maintains-underperform-on-wolfspeed-lowers-price-target-to-6",
-      "added_at": "2025-01-31T14:31:27.971Z"
-    },
+      "updated_at": "2025-02-03T13:37:52Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43432948/mangoceuticals-announces-exclusive-distribution-agreement-with-propre-energie-for-dermytol-plant-",
+      "added_at": "2025-02-03T13:41:51.827Z"
+    }
+  ],
+  "RSLS": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T16:02:16Z",
-      "headline": "Goldman Sachs Maintains Buy on Wolfspeed, Lowers Price Target to $15",
-      "id": 43343534,
+      "created_at": "2025-02-03T13:37:14Z",
+      "headline": "ReShape Lifesciences Granted International Patent For Diabetes Neuromodulation Technology In Israel; Protection Until 2039, Terms Not Disclosed",
+      "id": 43432947,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "WOLF"
+        "RSLS"
       ],
-      "updated_at": "2025-01-30T16:02:16Z",
-      "url": "https://www.benzinga.com/news/25/01/43343534/goldman-sachs-maintains-buy-on-wolfspeed-lowers-price-target-to-15",
-      "added_at": "2025-01-31T14:31:27.971Z"
+      "updated_at": "2025-02-03T13:37:14Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43432947/reshape-lifesciences-granted-international-patent-for-diabetes-neuromodulation-technology-in-isra",
+      "added_at": "2025-02-03T13:41:51.827Z"
     }
   ],
-  "ASTS": [
+  "NVNI": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-31T06:39:05Z",
-      "headline": "Reported Earlier, FCC Grants AST SpaceMobile Special Temporary Authority For Direct-To-Device Cellular Broadband With AT&T And Verizon",
-      "id": 43376298,
+      "created_at": "2025-02-03T11:42:18Z",
+      "headline": "Nuvini Group Reported First Half Net Revenue Of R$92.2M Vs R$81.9M YoY, Operating Profit Of R$14.2M Vs R$0.3M YoY",
+      "id": 43429686,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "ASTS"
+        "NVNI"
       ],
-      "updated_at": "2025-01-31T06:39:05Z",
-      "url": "https://www.benzinga.com/news/25/01/43376298/reported-earlier-fcc-grants-ast-spacemobile-special-temporary-authority-for-direct-to-device-cellula",
-      "added_at": "2025-01-31T14:37:11.102Z"
+      "updated_at": "2025-02-03T11:42:18Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43429686/nuvini-group-reported-first-half-net-revenue-of-r-92-2m-vs-r-81-9m-yoy-operating-profit-of-r-14-2m-",
+      "added_at": "2025-02-03T13:56:56.964Z"
     }
   ],
-  "PLBY": [
+  "GOVX": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-31T13:05:19Z",
-      "headline": "PLBY Group Converts 7K Shares Of Its 28,000.00001 Series B Stock Into 3,784,688 Shares Of The Company's Common Stock At A Conversion Price Of $1.85 Per Share",
-      "id": 43382731,
+      "created_at": "2025-02-03T15:37:05Z",
+      "headline": "GeoVax Announces Strategic Integration Of AI In Support Of President Trump's Stargate Initiative; Harnessing AI To Revolutionize Vaccine And Therapy Development",
+      "id": 43438319,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "PLBY"
+        "GOVX"
       ],
-      "updated_at": "2025-01-31T13:05:19Z",
-      "url": "https://www.benzinga.com/news/25/01/43382731/plby-group-converts-7k-shares-of-its-28-000-00001-series-b-stock-into-3-784-688-shares-of-the-compan",
-      "added_at": "2025-01-31T14:40:38.315Z"
+      "updated_at": "2025-02-03T15:37:06Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43438319/geovax-announces-strategic-integration-of-ai-in-support-of-president-trumps-stargate-initiative-h",
+      "added_at": "2025-02-03T15:41:53.651Z"
     }
   ],
-  "CRGX": [
+  "BCTX": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-30T15:50:51Z",
-      "headline": "Truist Securities Downgrades Cargo Therapeutics to Hold, Lowers Price Target to $7",
-      "id": 43342964,
+      "created_at": "2025-02-03T17:06:56Z",
+      "headline": "HC Wainwright & Co. Maintains Buy on BriaCell Therapeutics, Raises Price Target to $32",
+      "id": 43441761,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "CRGX"
+        "BCTX"
       ],
-      "updated_at": "2025-01-30T15:50:51Z",
-      "url": "https://www.benzinga.com/news/25/01/43342964/truist-securities-downgrades-cargo-therapeutics-to-hold-lowers-price-target-to-7",
-      "added_at": "2025-01-31T15:05:13.870Z"
+      "updated_at": "2025-02-03T17:06:56Z",
+      "url": "https://www.benzinga.com/news/25/02/43441761/hc-wainwright-co-maintains-buy-on-briacell-therapeutics-raises-price-target-to-32",
+      "added_at": "2025-02-03T17:11:55.422Z"
     }
   ],
-  "BAOS": [],
-  "UPWK": [
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-01-30T22:01:09Z",
-      "headline": "Breaking Down Upwork: 11 Analysts Share Their Views",
-      "id": 43356071,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "UPWK"
-      ],
-      "updated_at": "2025-01-30T22:01:09Z",
-      "url": "https://www.benzinga.com/insights/analyst-ratings/25/01/43356071/breaking-down-upwork-11-analysts-share-their-views",
-      "added_at": "2025-01-31T17:25:38.007Z"
-    }
-  ],
-  "DGHI": [
+  "VUZI": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-31T13:31:27Z",
-      "headline": "Digihost Announces $5.35M Private Placement",
-      "id": 43388976,
+      "created_at": "2025-02-03T16:24:48Z",
+      "headline": "Vuzix Announces The Launch Of Their AugmentOS, A Universal Operating System Designed For Smart Glasses, Including The Vuzix Z100",
+      "id": 43440466,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "DGHI"
+        "VUZI"
       ],
-      "updated_at": "2025-01-31T13:31:27Z",
-      "url": "https://www.benzinga.com/news/25/01/43388976/digihost-announces-5-35m-private-placement",
-      "added_at": "2025-01-31T17:49:27.853Z"
+      "updated_at": "2025-02-03T16:24:48Z",
+      "url": "https://www.benzinga.com/news/25/02/43440466/vuzix-announces-the-launch-of-their-augmentos-a-universal-operating-system-designed-for-smart-glasse",
+      "added_at": "2025-02-03T16:26:54.642Z"
     }
   ],
-  "RGTI": [
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-01-31T18:00:29Z",
-      "headline": "Rigetti Computing Unusual Options Activity",
-      "id": 43400210,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_18.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_18.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_18.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "RGTI"
-      ],
-      "updated_at": "2025-01-31T18:00:30Z",
-      "url": "https://www.benzinga.com/insights/options/25/01/43400210/rigetti-computing-unusual-options-activity",
-      "added_at": "2025-01-31T18:00:44.046Z"
-    }
-  ],
-  "ICU": [
+  "RCAT": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-01-31T13:01:18Z",
-      "headline": "SeaStar Medical Announces $6 Million Registered Direct Offering With A Single Institutional Investor For The Issuance And Sale Of An Aggregate Of 3,529,412 Shares Of Its Common Stock; In A Concurrent Private Placement, The Company Also Agreed To Issue And Sell To The Investor Warrants To Purchase Up To An Aggregate Of 3,529,412 Shares Common Stock. The Combined Offering Price For Each Share Of Common Stock And Accompanying Warrants Is $1.70",
-      "id": 43382609,
+      "created_at": "2025-02-03T18:18:46Z",
+      "headline": "Red Cat Holdings To Host Investor And Analyst Day On February 27, 2025 From 11:00 a.m. - 1:00 p.m. ET, In New York City",
+      "id": 43444384,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "ICU"
+        "RCAT"
       ],
-      "updated_at": "2025-01-31T13:01:18Z",
-      "url": "https://www.benzinga.com/news/25/01/43382609/seastar-medical-announces-6-million-registered-direct-offering-with-a-single-institutional-investor",
-      "added_at": "2025-01-31T18:49:24.085Z"
+      "updated_at": "2025-02-03T18:18:47Z",
+      "url": "https://www.benzinga.com/news/25/02/43444384/red-cat-holdings-to-host-investor-and-analyst-day-on-february-27-2025-from-11-00-a-m-1-00-p-m-et-in",
+      "added_at": "2025-02-03T18:21:56.868Z"
     }
-  ],
-  "FCUV": []
+  ]
 }
