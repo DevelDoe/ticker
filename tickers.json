@@ -1,55 +1,14 @@
 {
-  "SOPA": {
-    "ticker": "SOPA",
-    "news": [],
-    "hod": false,
-    "float": "2.77M",
-    "price": "2.74",
-    "time": "11:25:42",
-    "isActive": true,
-    "firstSeen": "2025-02-03T11:25:12.492Z",
-    "lastSeen": "2025-02-03T18:51:20.034Z",
-    "financials": {
-      "netIncome": -1380578,
-      "netCashFlow": 0,
-      "cash": 16984381
-    },
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 15550,
-      "Avg. Daily Volume": 2770000,
-      "Short Float": 51860,
-      "Short Ratio": "0.56%"
-    }
-  },
-  "SNTG": {
-    "ticker": "SNTG",
-    "news": [],
-    "hod": false,
-    "float": "1.06M",
-    "price": "2.1",
-    "time": "11:14:17",
-    "isActive": true,
-    "firstSeen": "2025-02-03T11:25:12.493Z",
-    "lastSeen": "2025-02-03T11:25:12.493Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 43560,
-      "Avg. Daily Volume": 1060000,
-      "Short Float": 59500,
-      "Short Ratio": "4.11%"
-    }
-  },
   "REBN": {
     "ticker": "REBN",
     "news": [],
     "hod": false,
     "float": "2.52M",
-    "price": "5.79",
-    "time": "11:06:35",
+    "price": "5.45",
+    "time": "12:09:35",
     "isActive": true,
-    "firstSeen": "2025-02-03T11:25:12.493Z",
-    "lastSeen": "2025-02-03T17:23:54.339Z",
+    "firstSeen": "2025-02-04T11:12:31.159Z",
+    "lastSeen": "2025-02-04T13:00:23.731Z",
     "financials": {
       "netIncome": -719748,
       "netCashFlow": 0,
@@ -63,412 +22,646 @@
       "Short Ratio": "13.63%"
     }
   },
-  "BYON": {
-    "ticker": "BYON",
+  "RZLV": {
+    "ticker": "RZLV",
     "news": [],
     "hod": true,
-    "float": "45.14M",
-    "price": "8.75",
-    "time": "12:51:43",
+    "float": "46.37M",
+    "price": "2.62",
+    "time": "12:28:56",
     "isActive": true,
-    "firstSeen": "2025-02-03T11:52:44.586Z",
-    "lastSeen": "2025-02-03T14:37:07.735Z",
+    "firstSeen": "2025-02-04T11:29:29.355Z",
+    "lastSeen": "2025-02-04T15:52:21.118Z",
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 917700,
+      "Avg. Daily Volume": 46370000,
+      "Short Float": 8369999.999999999,
+      "Short Ratio": "1.98%"
+    }
+  },
+  "RGLS": {
+    "ticker": "RGLS",
+    "news": [],
+    "hod": true,
+    "float": "52.66M",
+    "price": "1.58",
+    "time": "12:45:10",
+    "isActive": true,
+    "firstSeen": "2025-02-04T11:45:15.532Z",
+    "lastSeen": "2025-02-04T14:48:34.195Z",
     "financials": {
-      "netIncome": -338529000,
-      "netCashFlow": -183976000,
-      "cash": 428338000
+      "netIncome": -41628000,
+      "netCashFlow": 540000,
+      "cash": 93763000
     },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 8770000,
-      "Avg. Daily Volume": 45140000,
-      "Short Float": 2820000,
-      "Short Ratio": "19.44%"
+      "Short Interest": 1760000,
+      "Avg. Daily Volume": 52660000,
+      "Short Float": 354320,
+      "Short Ratio": "3.34%"
     }
   },
-  "PRTG": {
-    "ticker": "PRTG",
+  "EVAX": {
+    "ticker": "EVAX",
     "news": [],
     "hod": false,
-    "float": "737.10K",
-    "price": "4.67",
-    "time": "12:55:29",
+    "float": "35.89M",
+    "price": "3.12",
+    "time": "12:47:29",
     "isActive": true,
-    "firstSeen": "2025-02-03T11:55:45.174Z",
-    "lastSeen": "2025-02-03T11:55:45.174Z",
+    "firstSeen": "2025-02-04T11:47:31.815Z",
+    "lastSeen": "2025-02-04T17:20:17.639Z",
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 19780,
-      "Avg. Daily Volume": 440000,
-      "Short Float": 660160,
-      "Short Ratio": "4.49%"
+      "Short Interest": 102320,
+      "Avg. Daily Volume": "N/A",
+      "Short Float": 79020,
+      "Short Ratio": "N/A"
     }
   },
-  "GHRS": {
-    "ticker": "GHRS",
+  "DBVT": {
+    "ticker": "DBVT",
     "news": [],
     "hod": false,
-    "float": "30.44M",
-    "price": "19.68",
-    "time": "13:04:40",
+    "float": "20.44M",
+    "price": "4.6",
+    "time": "12:54:02",
     "isActive": true,
-    "firstSeen": "2025-02-03T12:05:01.932Z",
-    "lastSeen": "2025-02-03T16:02:25.962Z",
+    "firstSeen": "2025-02-04T11:55:04.267Z",
+    "lastSeen": "2025-02-04T12:04:22.571Z",
+    "financials": {
+      "netIncome": -102089000,
+      "netCashFlow": -107922000,
+      "cash": 93055000
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 2410000,
-      "Avg. Daily Volume": 30440000,
-      "Short Float": 73550,
-      "Short Ratio": "7.92%"
+      "Short Interest": 446300,
+      "Avg. Daily Volume": 20440000,
+      "Short Float": 294650,
+      "Short Ratio": "2.18%"
     }
   },
-  "BCTX": {
-    "ticker": "BCTX",
+  "QNTM": {
+    "ticker": "QNTM",
     "news": [],
     "hod": false,
-    "float": "2.71M",
-    "price": "5.1",
-    "time": "13:31:07",
+    "float": "1.59M",
+    "price": "5.59",
+    "time": "13:04:11",
     "isActive": true,
-    "firstSeen": "2025-02-03T12:31:11.291Z",
-    "lastSeen": "2025-02-03T17:18:35.589Z",
+    "firstSeen": "2025-02-04T12:04:22.571Z",
+    "lastSeen": "2025-02-04T18:42:05.646Z"
+  },
+  "ACON": {
+    "ticker": "ACON",
+    "news": [],
+    "hod": false,
+    "float": "914.32K",
+    "price": "7.3",
+    "time": "13:24:07",
+    "isActive": true,
+    "firstSeen": "2025-02-04T12:24:10.501Z",
+    "lastSeen": "2025-02-04T16:34:27.106Z",
     "filings": [
       {
         "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-003291 (33 Act)  Size: 485 KB",
-        "date": "2024-01-22"
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001683168-24-007558 (33 Act)  Size: 535 KB",
+        "date": "2024-11-04"
       }
     ],
     "financials": {
-      "netIncome": -16719696,
-      "netCashFlow": 650169,
-      "cash": 10414330
-    }
-  },
-  "INM": {
-    "ticker": "INM",
-    "news": [],
-    "hod": false,
-    "float": "719.43K",
-    "price": "4.07",
-    "time": "13:34:11",
-    "isActive": true,
-    "firstSeen": "2025-02-03T12:35:15.166Z",
-    "lastSeen": "2025-02-03T12:35:15.166Z",
+      "netIncome": -1378318,
+      "netCashFlow": 139410,
+      "cash": 3188052
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 2650,
-      "Avg. Daily Volume": 170000,
-      "Short Float": 43260,
-      "Short Ratio": "1.56%"
-    },
-    "financials": {
-      "netIncome": -6816590,
-      "netCashFlow": -166694,
-      "cash": 10465106
+      "Short Interest": 23130,
+      "Avg. Daily Volume": 31100,
+      "Short Float": 28460,
+      "Short Ratio": "74.36%"
     }
   },
-  "MX": {
-    "ticker": "MX",
+  "ZENA": {
+    "ticker": "ZENA",
     "news": [],
     "hod": false,
-    "float": "32.12M",
-    "price": "4.74",
+    "float": "6.60M",
+    "price": "5.2",
+    "time": "13:32:21",
+    "isActive": true,
+    "firstSeen": "2025-02-04T12:32:29.553Z",
+    "lastSeen": "2025-02-04T12:33:40.142Z",
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 568470,
+      "Avg. Daily Volume": 6600000,
+      "Short Float": 5710000,
+      "Short Ratio": "8.61%"
+    }
+  },
+  "CPIX": {
+    "ticker": "CPIX",
+    "news": [],
+    "hod": true,
+    "float": "7.84M",
+    "price": "2.67",
+    "time": "13:31:44",
+    "isActive": true,
+    "firstSeen": "2025-02-04T12:32:29.553Z",
+    "lastSeen": "2025-02-04T17:42:40.479Z",
+    "financials": {
+      "netIncome": -10844065,
+      "netCashFlow": -1043211,
+      "cash": 76747513
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 438810,
+      "Avg. Daily Volume": 7840000,
+      "Short Float": 1980000,
+      "Short Ratio": "5.60%"
+    }
+  },
+  "HOLO": {
+    "ticker": "HOLO",
+    "news": [],
+    "hod": true,
+    "float": "20.44M",
+    "price": "1.64",
+    "time": "14:00:22",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:00:23.731Z",
+    "lastSeen": "2025-02-04T15:57:36.825Z",
+    "financials": {
+      "netIncome": -3614638,
+      "netCashFlow": -1581432,
+      "cash": 37094775
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 3040000,
+      "Avg. Daily Volume": 20440000,
+      "Short Float": 14600000,
+      "Short Ratio": "14.85%"
+    }
+  },
+  "ANIX": {
+    "ticker": "ANIX",
+    "news": [],
+    "hod": false,
+    "float": "30.49M",
+    "price": "3.18",
+    "time": "14:00:19",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:00:23.731Z",
+    "lastSeen": "2025-02-04T13:00:23.731Z",
+    "financials": {
+      "netIncome": -12698000,
+      "netCashFlow": 356000,
+      "cash": 21591000
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 354510,
+      "Avg. Daily Volume": 30500000,
+      "Short Float": 111540,
+      "Short Ratio": "1.16%"
+    }
+  },
+  "LAES": {
+    "ticker": "LAES",
+    "news": [],
+    "hod": false,
+    "float": "91.21M",
+    "price": "3.23",
     "time": "14:00:18",
     "isActive": true,
-    "firstSeen": "2025-02-03T13:00:20.157Z",
-    "lastSeen": "2025-02-03T13:07:35.413Z",
+    "firstSeen": "2025-02-04T13:00:23.731Z",
+    "lastSeen": "2025-02-04T13:00:23.731Z",
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 579320,
-      "Avg. Daily Volume": 32119999.999999996,
-      "Short Float": 281810,
-      "Short Ratio": "1.80%"
-    },
+      "Short Interest": 10280000,
+      "Avg. Daily Volume": 26240000,
+      "Short Float": 39930000,
+      "Short Ratio": "39.17%"
+    }
+  },
+  "ALUR": {
+    "ticker": "ALUR",
+    "news": [],
+    "hod": false,
+    "float": "3.36M",
+    "price": "7.07",
+    "time": "14:00:15",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:00:23.731Z",
+    "lastSeen": "2025-02-04T13:00:23.731Z",
     "financials": {
-      "netIncome": -44071000,
-      "netCashFlow": -45549000,
-      "cash": 411355000
-    }
-  },
-  "CJJD": {
-    "ticker": "CJJD",
-    "news": [],
-    "hod": false,
-    "float": "4.08M",
-    "price": "1.9",
-    "time": "14:00:39",
-    "isActive": true,
-    "firstSeen": "2025-02-03T13:00:53.201Z",
-    "lastSeen": "2025-02-03T13:13:10.768Z",
+      "netIncome": -9004000,
+      "netCashFlow": 9399000,
+      "cash": 50699000
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 20660,
-      "Avg. Daily Volume": 4080000,
-      "Short Float": 11490,
-      "Short Ratio": "0.51%"
-    },
+      "Short Interest": 82100,
+      "Avg. Daily Volume": 1900000,
+      "Short Float": 41050,
+      "Short Ratio": "4.32%"
+    }
+  },
+  "ELAB": {
+    "ticker": "ELAB",
+    "news": [],
+    "hod": false,
+    "float": "3.04M",
+    "price": "1.85",
+    "time": "14:00:43",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:01:08.816Z",
+    "lastSeen": "2025-02-04T13:31:37.537Z",
     "financials": {
-      "netIncome": -8375578,
-      "netCashFlow": 3690038,
-      "cash": 106310631
-    }
-  },
-  "SILO": {
-    "ticker": "SILO",
-    "news": [],
-    "hod": false,
-    "float": "4.29M",
-    "price": "1.77",
-    "time": "14:02:00",
-    "isActive": true,
-    "firstSeen": "2025-02-03T13:02:10.232Z",
-    "lastSeen": "2025-02-03T13:02:10.232Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 1030000,
-      "Avg. Daily Volume": 4290000,
-      "Short Float": 3150000,
-      "Short Ratio": "23.90%"
+      "netIncome": -1501257,
+      "netCashFlow": 3098239,
+      "cash": 11205355
     },
-    "financials": {
-      "netIncome": -3783436,
-      "netCashFlow": 4661051,
-      "cash": 8566699
-    }
-  },
-  "USEG": {
-    "ticker": "USEG",
-    "news": [],
-    "hod": false,
-    "float": "3.47M",
-    "price": "2.81",
-    "time": "14:01:06",
-    "isActive": true,
-    "firstSeen": "2025-02-03T13:02:10.232Z",
-    "lastSeen": "2025-02-03T16:23:03.173Z",
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 84870,
-      "Avg. Daily Volume": 3430000,
-      "Short Float": 116110,
-      "Short Ratio": "2.47%"
-    },
-    "financials": {
-      "netIncome": -33564000,
-      "netCashFlow": -819000,
-      "cash": 64076000
+      "Short Interest": 304300,
+      "Avg. Daily Volume": 3040000,
+      "Short Float": 1310000,
+      "Short Ratio": "10.01%"
     }
   },
-  "CYCN": {
-    "ticker": "CYCN",
+  "AMOD": {
+    "ticker": "AMOD",
     "news": [],
     "hod": false,
-    "float": "1.96M",
-    "price": "5.32",
-    "time": "14:23:29",
+    "float": "8.23M",
+    "price": "2.95",
+    "time": "14:01:21",
     "isActive": true,
-    "firstSeen": "2025-02-03T13:23:31.069Z",
-    "lastSeen": "2025-02-03T18:59:18.093Z",
+    "firstSeen": "2025-02-04T13:02:39.207Z",
+    "lastSeen": "2025-02-04T14:57:00.517Z",
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 30530,
-      "Avg. Daily Volume": 1960000,
-      "Short Float": 3190000,
-      "Short Ratio": "1.56%"
-    },
-    "financials": {
-      "netIncome": -5281000,
-      "netCashFlow": -6236000,
-      "cash": 8898000
+      "Short Interest": 21280,
+      "Avg. Daily Volume": 3410000,
+      "Short Float": 43730,
+      "Short Ratio": "0.62%"
     }
   },
-  "DRTS": {
-    "ticker": "DRTS",
+  "ENVB": {
+    "ticker": "ENVB",
     "news": [],
     "hod": false,
-    "float": "51.62M",
-    "price": "4.25",
-    "time": "14:34:13",
+    "float": "633.09K",
+    "price": "2.27",
+    "time": "14:01:12",
     "isActive": true,
-    "firstSeen": "2025-02-03T13:34:21.017Z",
-    "lastSeen": "2025-02-03T13:34:21.017Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 129979.99999999999,
-      "Avg. Daily Volume": 51620000,
-      "Short Float": 57600,
-      "Short Ratio": "0.25%"
-    }
-  },
-  "RSLS": {
-    "ticker": "RSLS",
-    "news": [],
-    "hod": false,
-    "float": "691.36K",
-    "price": "4.47",
-    "time": "14:34:11",
-    "isActive": true,
-    "firstSeen": "2025-02-03T13:34:21.017Z",
-    "lastSeen": "2025-02-03T13:44:59.328Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 16140,
-      "Avg. Daily Volume": 690000,
-      "Short Float": 86920,
-      "Short Ratio": "2.34%"
-    },
+    "firstSeen": "2025-02-04T13:02:39.207Z",
+    "lastSeen": "2025-02-04T13:04:37.459Z",
     "filings": [
       {
         "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001544784-24-000045 (33 Act)  Size: 287 KB",
-        "date": "2024-05-09"
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001493152-24-026498 (33 Act)  Size: 530 KB",
+        "date": "2024-07-08"
       }
     ],
     "financials": {
-      "netIncome": -1581000,
-      "netCashFlow": 0,
-      "cash": 5615000
+      "netIncome": -9856277,
+      "netCashFlow": -15425885,
+      "cash": 4790316
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 27160,
+      "Avg. Daily Volume": 633330,
+      "Short Float": 25990,
+      "Short Ratio": "4.29%"
     }
   },
-  "MGRX": {
-    "ticker": "MGRX",
+  "REVB": {
+    "ticker": "REVB",
     "news": [],
     "hod": false,
-    "float": "1.74M",
-    "price": "3.39",
-    "time": "14:34:10",
+    "float": "522.10K",
+    "price": "4.59",
+    "time": "14:29:27",
     "isActive": true,
-    "firstSeen": "2025-02-03T13:34:21.017Z",
-    "lastSeen": "2025-02-03T13:34:21.017Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 22770,
-      "Avg. Daily Volume": 1220000,
-      "Short Float": 167140,
-      "Short Ratio": "1.87%"
-    },
-    "financials": {
-      "netIncome": -9326677,
-      "netCashFlow": -1161172,
-      "cash": 14792041
-    }
-  },
-  "NVNI": {
-    "ticker": "NVNI",
-    "news": [],
-    "hod": false,
-    "float": "3.47M",
-    "price": "5.9",
-    "time": "14:56:53",
-    "isActive": true,
-    "firstSeen": "2025-02-03T13:56:56.359Z",
-    "lastSeen": "2025-02-03T14:23:38.061Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 128770.00000000001,
-      "Avg. Daily Volume": 10630000,
-      "Short Float": 2040000,
-      "Short Ratio": "1.21%"
-    }
-  },
-  "RELI": {
-    "ticker": "RELI",
-    "news": [],
-    "hod": false,
-    "float": "2.15M",
-    "price": "2.25",
-    "time": "15:16:59",
-    "isActive": true,
-    "firstSeen": "2025-02-03T14:17:10.207Z",
-    "lastSeen": "2025-02-03T14:17:10.207Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 85190,
-      "Avg. Daily Volume": 2150000,
-      "Short Float": 1920000,
-      "Short Ratio": "3.96%"
-    },
-    "financials": {
-      "netIncome": -837314,
-      "netCashFlow": -461919,
-      "cash": 17419767
-    }
-  },
-  "SLS": {
-    "ticker": "SLS",
-    "news": [],
-    "hod": true,
-    "float": "68.75M",
-    "price": "1.84",
-    "time": "15:26:56",
-    "isActive": true,
-    "firstSeen": "2025-02-03T14:27:21.381Z",
-    "lastSeen": "2025-02-03T14:50:13.103Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 9000000,
-      "Avg. Daily Volume": 68750000,
-      "Short Float": 1180000,
-      "Short Ratio": "13.09%"
-    },
+    "firstSeen": "2025-02-04T13:29:36.247Z",
+    "lastSeen": "2025-02-04T13:29:36.247Z",
     "filings": [
       {
         "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-054040 (33 Act)  Size: 670 KB",
-        "date": "2024-04-29"
+        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-138462 (33 Act)  Size: 280 KB",
+        "date": "2024-12-19"
       },
       {
         "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-040589 (33 Act)  Size: 257 KB",
-        "date": "2024-03-28"
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-135845 (33 Act)  Size: 360 KB",
+        "date": "2024-12-12"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-102912 (33 Act)  Size: 329 KB",
+        "date": "2024-09-03"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0000950170-24-084922 (33 Act)  Size: 356 KB",
+        "date": "2024-07-19"
       }
     ],
     "financials": {
-      "netIncome": -7108000,
-      "netCashFlow": 0,
-      "cash": 26505000
-    }
-  },
-  "KC": {
-    "ticker": "KC",
-    "news": [],
-    "hod": true,
-    "float": "231.08M",
-    "price": "15.78",
-    "time": "15:35:31",
-    "isActive": true,
-    "firstSeen": "2025-02-03T14:35:40.570Z",
-    "lastSeen": "2025-02-03T14:38:42.507Z",
+      "netIncome": -2241565,
+      "netCashFlow": -5532006,
+      "cash": 6740140
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 10410000,
-      "Avg. Daily Volume": 253530000,
-      "Short Float": 3570000,
-      "Short Ratio": "4.11%"
+      "Short Interest": "58.68",
+      "Avg. Daily Volume": 521880,
+      "Short Float": 196380,
+      "Short Ratio": "0.01%"
     }
   },
-  "ICU": {
-    "ticker": "ICU",
+  "AMPG": {
+    "ticker": "AMPG",
     "news": [],
     "hod": false,
-    "float": "4.29M",
-    "price": "2.6",
-    "time": "15:41:04",
+    "float": "16.63M",
+    "price": "1.96",
+    "time": "14:30:32",
     "isActive": true,
-    "firstSeen": "2025-02-03T14:41:14.790Z",
-    "lastSeen": "2025-02-03T17:11:03.223Z",
+    "firstSeen": "2025-02-04T13:31:01.112Z",
+    "lastSeen": "2025-02-04T13:31:01.112Z",
+    "financials": {
+      "netIncome": -7944121,
+      "netCashFlow": -4381169,
+      "cash": 27546349
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 416650,
-      "Avg. Daily Volume": 4290000,
-      "Short Float": 244680,
-      "Short Ratio": "9.71%"
-    },
+      "Short Interest": 508870,
+      "Avg. Daily Volume": 16629999.999999998,
+      "Short Float": 8029999.999999999,
+      "Short Ratio": "3.06%"
+    }
+  },
+  "BNRG": {
+    "ticker": "BNRG",
+    "news": [],
+    "hod": false,
+    "float": "5.27M",
+    "price": "1.55",
+    "time": "14:30:09",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:31:01.112Z",
+    "lastSeen": "2025-02-04T15:42:06.503Z",
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 106630,
+      "Avg. Daily Volume": 4270000,
+      "Short Float": 1730000,
+      "Short Ratio": "2.50%"
+    }
+  },
+  "CMND": {
+    "ticker": "CMND",
+    "news": [],
+    "hod": false,
+    "float": "4.12M",
+    "price": "1.53",
+    "time": "14:36:46",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:37:25.193Z",
+    "lastSeen": "2025-02-04T13:37:25.193Z",
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 410380,
+      "Avg. Daily Volume": 2980000,
+      "Short Float": 1070000,
+      "Short Ratio": "13.77%"
+    }
+  },
+  "JG": {
+    "ticker": "JG",
+    "news": [],
+    "hod": false,
+    "float": "4.72M",
+    "price": "10.18",
+    "time": "14:38:28",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:38:33.777Z",
+    "lastSeen": "2025-02-04T13:39:29.475Z",
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 11000,
+      "Avg. Daily Volume": 4200000,
+      "Short Float": 16100.000000000002,
+      "Short Ratio": "0.26%"
+    }
+  },
+  "VLCN": {
+    "ticker": "VLCN",
+    "news": [],
+    "hod": false,
+    "float": "560.89K",
+    "price": "3.88",
+    "time": "14:43:46",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:43:47.414Z",
+    "lastSeen": "2025-02-04T18:05:04.856Z",
     "financials": {
-      "netIncome": -29868000,
+      "netIncome": -13638478,
+      "netCashFlow": 3755456,
+      "cash": 10006579
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 76760,
+      "Avg. Daily Volume": 560000,
+      "Short Float": 43030,
+      "Short Ratio": "13.71%"
+    }
+  },
+  "MNTS": {
+    "ticker": "MNTS",
+    "news": [],
+    "hod": false,
+    "float": "2.64M",
+    "price": "7.16",
+    "time": "14:45:18",
+    "isActive": true,
+    "firstSeen": "2025-02-04T13:45:53.754Z",
+    "lastSeen": "2025-02-04T13:45:53.754Z",
+    "financials": {
+      "netIncome": 0,
       "netCashFlow": 0,
-      "cash": 4586000
+      "cash": 14105000
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 86310,
+      "Avg. Daily Volume": 2640000,
+      "Short Float": 250540,
+      "Short Ratio": "3.27%"
+    }
+  },
+  "SGD": {
+    "ticker": "SGD",
+    "news": [],
+    "hod": false,
+    "float": "1.08M",
+    "price": "1.7",
+    "time": "15:01:21",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:01:38.648Z",
+    "lastSeen": "2025-02-04T14:02:15.846Z",
+    "financials": {
+      "netIncome": -8963040,
+      "netCashFlow": -19658,
+      "cash": 13036558
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 75230,
+      "Avg. Daily Volume": 1080000,
+      "Short Float": 500770,
+      "Short Ratio": "6.97%"
+    }
+  },
+  "RGTI": {
+    "ticker": "RGTI",
+    "news": [],
+    "hod": true,
+    "float": "214.94M",
+    "price": "14.79",
+    "time": "15:31:20",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:31:29.417Z",
+    "lastSeen": "2025-02-04T14:31:29.417Z",
+    "financials": {
+      "netIncome": -14833000,
+      "netCashFlow": -398000,
+      "cash": 157250000
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 47120000,
+      "Avg. Daily Volume": 215180000,
+      "Short Float": 109120000,
+      "Short Ratio": "21.90%"
+    }
+  },
+  "BBAI": {
+    "ticker": "BBAI",
+    "news": [],
+    "hod": true,
+    "float": "173.04M",
+    "price": "4.88",
+    "time": "15:32:38",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:32:39.457Z",
+    "lastSeen": "2025-02-04T15:04:40.983Z",
+    "financials": {
+      "netIncome": -170316000,
+      "netCashFlow": 33400000,
+      "cash": 354083000
+    },
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-25-007111 (33 Act)  Size: 266 KB",
+        "date": "2025-01-15"
+      }
+    ],
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 37420000,
+      "Avg. Daily Volume": 178920000,
+      "Short Float": 29660000,
+      "Short Ratio": "20.92%"
+    }
+  },
+  "QBTS": {
+    "ticker": "QBTS",
+    "news": [],
+    "hod": true,
+    "float": "298.40M",
+    "price": "6.14",
+    "time": "15:33:44",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:33:46.664Z",
+    "lastSeen": "2025-02-04T14:33:46.664Z",
+    "filings": [
+      {
+        "formType": "S-3MEF",
+        "description": "Registration adding securities to prior Form S-3 registration [Rule 462(b)]\nAcc-no: 0001628280-25-001183 (33 Act)  Size: 457 KB",
+        "date": "2025-01-10"
+      },
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001628280-24-052336 (33 Act)  Size: 1 MB",
+        "date": "2024-12-23"
+      }
+    ],
+    "financials": {
+      "netIncome": -22712000,
+      "netCashFlow": -11436000,
+      "cash": 49561000
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 39220000,
+      "Avg. Daily Volume": 122870000,
+      "Short Float": 56850000,
+      "Short Ratio": "31.92%"
+    }
+  },
+  "LGO": {
+    "ticker": "LGO",
+    "news": [],
+    "hod": true,
+    "float": "35.86M",
+    "price": "2.25",
+    "time": "15:37:39",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:37:53.480Z",
+    "lastSeen": "2025-02-04T14:37:53.480Z"
+  },
+  "KITT": {
+    "ticker": "KITT",
+    "news": [],
+    "hod": true,
+    "float": "5.56M",
+    "price": "1.69",
+    "time": "15:41:51",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:42:07.676Z",
+    "lastSeen": "2025-02-04T14:42:07.676Z",
+    "filings": [
+      {
+        "formType": "S-3",
+        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001849820-25-000045 (33 Act)  Size: 3 MB",
+        "date": "2025-02-03"
+      }
+    ],
+    "financials": {
+      "netIncome": -11356956,
+      "netCashFlow": -5180203,
+      "cash": 24987925
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 1960000,
+      "Avg. Daily Volume": 5430000,
+      "Short Float": 6160000,
+      "Short Ratio": "36.09%"
     }
   },
   "ATAI": {
@@ -476,57 +669,68 @@
     "news": [],
     "hod": true,
     "float": "117.03M",
-    "price": "1.78",
-    "time": "15:51:10",
+    "price": "2.23",
+    "time": "15:43:08",
     "isActive": true,
-    "firstSeen": "2025-02-03T14:51:43.817Z",
-    "lastSeen": "2025-02-03T15:45:19.877Z",
+    "firstSeen": "2025-02-04T14:43:26.540Z",
+    "lastSeen": "2025-02-04T15:24:18.216Z",
+    "financials": {
+      "netIncome": -130200000,
+      "netCashFlow": -31556000,
+      "cash": 197519000
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
       "Short Interest": 11550000,
       "Avg. Daily Volume": 117030000,
       "Short Float": 1720000,
       "Short Ratio": "9.87%"
-    },
-    "financials": {
-      "netIncome": -130200000,
-      "netCashFlow": -31556000,
-      "cash": 197519000
     }
   },
-  "VUZI": {
-    "ticker": "VUZI",
+  "RR": {
+    "ticker": "RR",
     "news": [],
     "hod": true,
-    "float": "60.87M",
-    "price": "4.46",
-    "time": "15:56:51",
+    "float": "90.80M",
+    "price": "2.53",
+    "time": "15:45:46",
     "isActive": true,
-    "firstSeen": "2025-02-03T14:56:54.617Z",
-    "lastSeen": "2025-02-03T14:58:16.153Z",
+    "firstSeen": "2025-02-04T14:46:37.288Z",
+    "lastSeen": "2025-02-04T14:46:37.288Z",
+    "financials": {
+      "netIncome": -8140000,
+      "netCashFlow": 14133000,
+      "cash": 42651000
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 11250000,
-      "Avg. Daily Volume": 60890000,
-      "Short Float": 2310000,
-      "Short Ratio": "18.47%"
-    },
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-112266 (33 Act)  Size: 243 KB",
-        "date": "2024-10-29"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001104659-24-104914 (33 Act)  Size: 238 KB",
-        "date": "2024-10-01"
-      }
-    ],
+      "Short Interest": 8570000,
+      "Avg. Daily Volume": 44950000,
+      "Short Float": 14050000,
+      "Short Ratio": "19.07%"
+    }
+  },
+  "BKSY": {
+    "ticker": "BKSY",
+    "news": [],
+    "hod": false,
+    "float": "23.90M",
+    "price": "17.25",
+    "time": "15:54:19",
+    "isActive": true,
+    "firstSeen": "2025-02-04T14:55:03.635Z",
+    "lastSeen": "2025-02-04T14:55:03.635Z",
     "financials": {
-      "netIncome": -9222279,
-      "netCashFlow": -12283926,
-      "cash": 41846666
+      "netIncome": -12591000,
+      "netCashFlow": 30657000,
+      "cash": 245455000
+    },
+    "shorts": {
+      "Settlement Date": "Jan 15, 2025",
+      "Short Interest": 2330000,
+      "Avg. Daily Volume": 23900000,
+      "Short Float": 989250,
+      "Short Ratio": "9.73%"
     }
   },
   "REKR": {
@@ -535,109 +739,62 @@
     "hod": true,
     "float": "86.67M",
     "price": "2.1",
-    "time": "16:09:42",
+    "time": "15:54:17",
     "isActive": true,
-    "firstSeen": "2025-02-03T15:10:18.668Z",
-    "lastSeen": "2025-02-03T15:10:18.668Z",
+    "firstSeen": "2025-02-04T14:55:03.635Z",
+    "lastSeen": "2025-02-04T14:55:03.635Z",
+    "financials": {
+      "netIncome": -52379000,
+      "netCashFlow": -42713000,
+      "cash": 101195000
+    },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
       "Short Interest": 17380000,
       "Avg. Daily Volume": 86670000,
       "Short Float": 4410000,
       "Short Ratio": "20.05%"
-    },
-    "filings": [
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-186200 (33 Act)  Size: 667 KB",
-        "date": "2024-07-26"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001193125-24-181620 (33 Act)  Size: 244 KB",
-        "date": "2024-07-19"
-      }
-    ],
-    "financials": {
-      "netIncome": -52379000,
-      "netCashFlow": -42713000,
-      "cash": 101195000
     }
   },
-  "GOVX": {
-    "ticker": "GOVX",
+  "CAPT": {
+    "ticker": "CAPT",
     "news": [],
     "hod": false,
-    "float": "9.39M",
-    "price": "2.03",
-    "time": "16:39:48",
+    "float": "29.39M",
+    "price": "1.64",
+    "time": "17:06:55",
     "isActive": true,
-    "firstSeen": "2025-02-03T15:40:12.167Z",
-    "lastSeen": "2025-02-03T15:40:12.167Z",
+    "firstSeen": "2025-02-04T16:06:59.818Z",
+    "lastSeen": "2025-02-04T16:59:57.612Z",
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 519960.00000000006,
-      "Avg. Daily Volume": 9390000,
-      "Short Float": 1700000,
-      "Short Ratio": "5.54%"
-    },
-    "financials": {
-      "netIncome": -5815468,
-      "netCashFlow": 2139934,
-      "cash": 11112048
+      "Short Interest": 175820,
+      "Avg. Daily Volume": 27790000,
+      "Short Float": 232930,
+      "Short Ratio": "0.63%"
     }
   },
-  "ZBAI": {
-    "ticker": "ZBAI",
+  "NVVE": {
+    "ticker": "NVVE",
     "news": [],
     "hod": false,
-    "float": "8.75M",
-    "price": "1.8",
-    "time": "16:48:46",
+    "float": "724.32K",
+    "price": "4.75",
+    "time": "18:52:25",
     "isActive": true,
-    "firstSeen": "2025-02-03T15:48:50.057Z",
-    "lastSeen": "2025-02-03T18:00:46.836Z",
-    "shorts": {
-      "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 84290,
-      "Avg. Daily Volume": 8750000,
-      "Short Float": 163270,
-      "Short Ratio": "0.96%"
-    }
-  },
-  "RCAT": {
-    "ticker": "RCAT",
-    "news": [],
-    "hod": true,
-    "float": "61.99M",
-    "price": "8.9",
-    "time": "19:14:15",
-    "isActive": true,
-    "firstSeen": "2025-02-03T18:14:53.081Z",
-    "lastSeen": "2025-02-03T18:14:53.081Z",
-    "filings": [
-      {
-        "formType": "S-3/A",
-        "description": "[Amend] Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000331 (33 Act)  Size: 309 KB",
-        "date": "2024-12-05"
-      },
-      {
-        "formType": "S-3",
-        "description": "Registration statement under Securities Act of 1933\nAcc-no: 0001554795-24-000288 (33 Act)  Size: 302 KB",
-        "date": "2024-11-14"
-      }
-    ],
+    "firstSeen": "2025-02-04T17:52:55.062Z",
+    "lastSeen": "2025-02-04T18:31:13.217Z",
     "financials": {
-      "netIncome": -13334618,
-      "netCashFlow": -3121671,
-      "cash": 51092388
+      "netIncome": -19646835,
+      "netCashFlow": -20620165,
+      "cash": 18335147
     },
     "shorts": {
       "Settlement Date": "Jan 15, 2025",
-      "Short Interest": 12330000,
-      "Avg. Daily Volume": 61990000,
-      "Short Float": 8320000,
-      "Short Ratio": "19.89%"
+      "Short Interest": 6460,
+      "Avg. Daily Volume": 810000,
+      "Short Float": 20460,
+      "Short Ratio": "0.80%"
     }
   }
 }

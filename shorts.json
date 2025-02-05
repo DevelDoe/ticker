@@ -1,18 +1,4 @@
 {
-  "SOPA": {
-    "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 15550,
-    "Avg. Daily Volume": 2770000,
-    "Short Float": 51860,
-    "Short Ratio": "0.56%"
-  },
-  "SNTG": {
-    "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 43560,
-    "Avg. Daily Volume": 1060000,
-    "Short Float": 59500,
-    "Short Ratio": "4.11%"
-  },
   "REBN": {
     "Settlement Date": "Jan 15, 2025",
     "Short Interest": 343410,
@@ -20,124 +6,187 @@
     "Short Float": 108120,
     "Short Ratio": "13.63%"
   },
-  "BYON": {
+  "RZLV": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 8770000,
-    "Avg. Daily Volume": 45140000,
-    "Short Float": 2820000,
-    "Short Ratio": "19.44%"
+    "Short Interest": 917700,
+    "Avg. Daily Volume": 46370000,
+    "Short Float": 8369999.999999999,
+    "Short Ratio": "1.98%"
   },
-  "PRTG": {
+  "RGLS": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 19780,
-    "Avg. Daily Volume": 440000,
-    "Short Float": 660160,
-    "Short Ratio": "4.49%"
+    "Short Interest": 1760000,
+    "Avg. Daily Volume": 52660000,
+    "Short Float": 354320,
+    "Short Ratio": "3.34%"
   },
-  "GHRS": {
+  "EVAX": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 2410000,
-    "Avg. Daily Volume": 30440000,
-    "Short Float": 73550,
-    "Short Ratio": "7.92%"
+    "Short Interest": 102320,
+    "Avg. Daily Volume": "N/A",
+    "Short Float": 79020,
+    "Short Ratio": "N/A"
   },
-  "INM": {
+  "DBVT": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 2650,
-    "Avg. Daily Volume": 170000,
-    "Short Float": 43260,
-    "Short Ratio": "1.56%"
+    "Short Interest": 446300,
+    "Avg. Daily Volume": 20440000,
+    "Short Float": 294650,
+    "Short Ratio": "2.18%"
   },
-  "MX": {
+  "ACON": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 579320,
-    "Avg. Daily Volume": 32119999.999999996,
-    "Short Float": 281810,
-    "Short Ratio": "1.80%"
+    "Short Interest": 23130,
+    "Avg. Daily Volume": 31100,
+    "Short Float": 28460,
+    "Short Ratio": "74.36%"
   },
-  "CJJD": {
+  "ZENA": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 20660,
-    "Avg. Daily Volume": 4080000,
-    "Short Float": 11490,
-    "Short Ratio": "0.51%"
+    "Short Interest": 568470,
+    "Avg. Daily Volume": 6600000,
+    "Short Float": 5710000,
+    "Short Ratio": "8.61%"
   },
-  "SILO": {
+  "CPIX": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 1030000,
-    "Avg. Daily Volume": 4290000,
-    "Short Float": 3150000,
-    "Short Ratio": "23.90%"
+    "Short Interest": 438810,
+    "Avg. Daily Volume": 7840000,
+    "Short Float": 1980000,
+    "Short Ratio": "5.60%"
   },
-  "USEG": {
+  "HOLO": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 84870,
-    "Avg. Daily Volume": 3430000,
-    "Short Float": 116110,
-    "Short Ratio": "2.47%"
+    "Short Interest": 3040000,
+    "Avg. Daily Volume": 20440000,
+    "Short Float": 14600000,
+    "Short Ratio": "14.85%"
   },
-  "CYCN": {
+  "ANIX": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 30530,
-    "Avg. Daily Volume": 1960000,
-    "Short Float": 3190000,
-    "Short Ratio": "1.56%"
+    "Short Interest": 354510,
+    "Avg. Daily Volume": 30500000,
+    "Short Float": 111540,
+    "Short Ratio": "1.16%"
   },
-  "DRTS": {
+  "LAES": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 129979.99999999999,
-    "Avg. Daily Volume": 51620000,
-    "Short Float": 57600,
-    "Short Ratio": "0.25%"
+    "Short Interest": 10280000,
+    "Avg. Daily Volume": 26240000,
+    "Short Float": 39930000,
+    "Short Ratio": "39.17%"
   },
-  "RSLS": {
+  "ALUR": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 16140,
-    "Avg. Daily Volume": 690000,
-    "Short Float": 86920,
-    "Short Ratio": "2.34%"
+    "Short Interest": 82100,
+    "Avg. Daily Volume": 1900000,
+    "Short Float": 41050,
+    "Short Ratio": "4.32%"
   },
-  "MGRX": {
+  "ELAB": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 22770,
-    "Avg. Daily Volume": 1220000,
-    "Short Float": 167140,
-    "Short Ratio": "1.87%"
+    "Short Interest": 304300,
+    "Avg. Daily Volume": 3040000,
+    "Short Float": 1310000,
+    "Short Ratio": "10.01%"
   },
-  "NVNI": {
+  "AMOD": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 128770.00000000001,
-    "Avg. Daily Volume": 10630000,
-    "Short Float": 2040000,
-    "Short Ratio": "1.21%"
+    "Short Interest": 21280,
+    "Avg. Daily Volume": 3410000,
+    "Short Float": 43730,
+    "Short Ratio": "0.62%"
   },
-  "RELI": {
+  "ENVB": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 85190,
-    "Avg. Daily Volume": 2150000,
-    "Short Float": 1920000,
-    "Short Ratio": "3.96%"
+    "Short Interest": 27160,
+    "Avg. Daily Volume": 633330,
+    "Short Float": 25990,
+    "Short Ratio": "4.29%"
   },
-  "SLS": {
+  "REVB": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 9000000,
-    "Avg. Daily Volume": 68750000,
-    "Short Float": 1180000,
-    "Short Ratio": "13.09%"
+    "Short Interest": "58.68",
+    "Avg. Daily Volume": 521880,
+    "Short Float": 196380,
+    "Short Ratio": "0.01%"
   },
-  "KC": {
+  "AMPG": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 10410000,
-    "Avg. Daily Volume": 253530000,
-    "Short Float": 3570000,
-    "Short Ratio": "4.11%"
+    "Short Interest": 508870,
+    "Avg. Daily Volume": 16629999.999999998,
+    "Short Float": 8029999.999999999,
+    "Short Ratio": "3.06%"
   },
-  "ICU": {
+  "BNRG": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 416650,
-    "Avg. Daily Volume": 4290000,
-    "Short Float": 244680,
-    "Short Ratio": "9.71%"
+    "Short Interest": 106630,
+    "Avg. Daily Volume": 4270000,
+    "Short Float": 1730000,
+    "Short Ratio": "2.50%"
+  },
+  "CMND": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 410380,
+    "Avg. Daily Volume": 2980000,
+    "Short Float": 1070000,
+    "Short Ratio": "13.77%"
+  },
+  "JG": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 11000,
+    "Avg. Daily Volume": 4200000,
+    "Short Float": 16100.000000000002,
+    "Short Ratio": "0.26%"
+  },
+  "VLCN": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 76760,
+    "Avg. Daily Volume": 560000,
+    "Short Float": 43030,
+    "Short Ratio": "13.71%"
+  },
+  "MNTS": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 86310,
+    "Avg. Daily Volume": 2640000,
+    "Short Float": 250540,
+    "Short Ratio": "3.27%"
+  },
+  "SGD": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 75230,
+    "Avg. Daily Volume": 1080000,
+    "Short Float": 500770,
+    "Short Ratio": "6.97%"
+  },
+  "RGTI": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 47120000,
+    "Avg. Daily Volume": 215180000,
+    "Short Float": 109120000,
+    "Short Ratio": "21.90%"
+  },
+  "BBAI": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 37420000,
+    "Avg. Daily Volume": 178920000,
+    "Short Float": 29660000,
+    "Short Ratio": "20.92%"
+  },
+  "QBTS": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 39220000,
+    "Avg. Daily Volume": 122870000,
+    "Short Float": 56850000,
+    "Short Ratio": "31.92%"
+  },
+  "KITT": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 1960000,
+    "Avg. Daily Volume": 5430000,
+    "Short Float": 6160000,
+    "Short Ratio": "36.09%"
   },
   "ATAI": {
     "Settlement Date": "Jan 15, 2025",
@@ -146,12 +195,19 @@
     "Short Float": 1720000,
     "Short Ratio": "9.87%"
   },
-  "VUZI": {
+  "RR": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 11250000,
-    "Avg. Daily Volume": 60890000,
-    "Short Float": 2310000,
-    "Short Ratio": "18.47%"
+    "Short Interest": 8570000,
+    "Avg. Daily Volume": 44950000,
+    "Short Float": 14050000,
+    "Short Ratio": "19.07%"
+  },
+  "BKSY": {
+    "Settlement Date": "Jan 15, 2025",
+    "Short Interest": 2330000,
+    "Avg. Daily Volume": 23900000,
+    "Short Float": 989250,
+    "Short Ratio": "9.73%"
   },
   "REKR": {
     "Settlement Date": "Jan 15, 2025",
@@ -160,25 +216,18 @@
     "Short Float": 4410000,
     "Short Ratio": "20.05%"
   },
-  "GOVX": {
+  "CAPT": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 519960.00000000006,
-    "Avg. Daily Volume": 9390000,
-    "Short Float": 1700000,
-    "Short Ratio": "5.54%"
+    "Short Interest": 175820,
+    "Avg. Daily Volume": 27790000,
+    "Short Float": 232930,
+    "Short Ratio": "0.63%"
   },
-  "ZBAI": {
+  "NVVE": {
     "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 84290,
-    "Avg. Daily Volume": 8750000,
-    "Short Float": 163270,
-    "Short Ratio": "0.96%"
-  },
-  "RCAT": {
-    "Settlement Date": "Jan 15, 2025",
-    "Short Interest": 12330000,
-    "Avg. Daily Volume": 61990000,
-    "Short Float": 8320000,
-    "Short Ratio": "19.89%"
+    "Short Interest": 6460,
+    "Avg. Daily Volume": 810000,
+    "Short Float": 20460,
+    "Short Ratio": "0.80%"
   }
 }
