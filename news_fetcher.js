@@ -61,9 +61,9 @@ const logTickerStatuses = (responseCode = "") => {
     isLogging = true;
 
     console.clear(); // Clear the console for clean output
-    console.log(`Throttle: ${throttleDelay}ms`);
-    console.log(`Last fetch: ${responseCode || "N/A"}`);
-    console.log("Tickers:");
+    console.log(`${throttleDelay}ms`);
+    console.log(`${responseCode || "N/A"}`);
+    console.log("-----");
 
     const tickerList = Object.keys(tickerStatus);
     const statuses = tickerList.map((ticker) => ticker);
