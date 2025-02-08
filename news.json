@@ -1,164 +1,31 @@
 {
   "QNTM": [],
-  "IVVD": [
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T20:45:20Z",
-      "headline": "(IVVD) - Analyzing Invivyd's Short Interest",
-      "id": 43508638,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_1.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_1.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_1.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "IVVD"
-      ],
-      "updated_at": "2025-02-05T20:45:21Z",
-      "url": "https://www.benzinga.com/insights/short-sellers/25/02/43508638/ivvd-analyzing-invivyds-short-interest",
-      "added_at": "2025-02-06T16:09:07.502Z"
-    }
-  ],
-  "RNAZ": [
+  "LTRY": [],
+  "LIPO": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T13:10:27Z",
-      "headline": "TransCode Therapeutics Completes Cohort 3 Initial Dosing With Lead Candidate TTX-MC138 In Phase 1 Trial",
-      "id": 43526261,
+      "created_at": "2025-02-06T11:02:46Z",
+      "headline": "Lipella Pharmaceuticals Receives FDA Approval For Expanded Access Program For LP-310 In Oral Lichen Planus",
+      "id": 43522325,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "RNAZ"
+        "LIPO"
       ],
-      "updated_at": "2025-02-06T13:10:27Z",
-      "url": "https://www.benzinga.com/general/biotech/25/02/43526261/transcode-therapeutics-completes-cohort-3-initial-dosing-with-lead-candidate-ttx-mc138-in-phase-1",
-      "added_at": "2025-02-06T16:14:19.095Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-06T18:03:51Z",
-      "headline": "HC Wainwright & Co. Reiterates Buy on TransCode Therapeutics, Maintains $20 Price Target",
-      "id": 43539113,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "RNAZ"
-      ],
-      "updated_at": "2025-02-06T18:03:52Z",
-      "url": "https://www.benzinga.com/news/25/02/43539113/hc-wainwright-co-reiterates-buy-on-transcode-therapeutics-maintains-20-price-target",
-      "added_at": "2025-02-06T18:08:22.175Z"
+      "updated_at": "2025-02-06T11:02:46Z",
+      "url": "https://www.benzinga.com/news/25/02/43522325/lipella-pharmaceuticals-receives-fda-approval-for-expanded-access-program-for-lp-310-in-oral-lichen",
+      "added_at": "2025-02-07T08:35:45.884Z"
     }
   ],
-  "APPS": [
-    {
-      "author": "Erica Kollmann",
-      "content": "",
-      "created_at": "2025-02-05T21:50:01Z",
-      "headline": "Digital Turbine Shares Soar After Q3 Results, Raised FY25 Revenue Outlook",
-      "id": 43512566,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/05/APPS-Logo.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/05/APPS-Logo.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/05/APPS-Logo.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": "Digital Turbine announces its third-quarter financial results after Wednesday&#39;s closing bell. Here&#39;s a look at the details from the report.",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:50:01Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43512566/digital-turbine-shares-soar-after-q3-results-raised-fy25-revenue-outlook",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
+  "FARM": [
     {
       "author": "Benzinga Insights",
       "content": "",
-      "created_at": "2025-02-05T21:39:17Z",
-      "headline": "Digital Turbine Earnings Report: Q3 Overview",
-      "id": 43511771,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_3.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_3.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_3.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:39:18Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43511771/digital-turbine-earnings-report-q3-overview",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T21:32:35Z",
-      "headline": "Insights into Digital Turbine Q3 Earnings",
-      "id": 43511340,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_3.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_3.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_3.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:32:35Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43511340/insights-into-digital-turbine-q3-earnings",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T21:27:34Z",
-      "headline": "Digital Turbine Q3 Earnings Report: What Investors Need to Know",
-      "id": 43510952,
+      "created_at": "2025-02-06T21:41:18Z",
+      "headline": "Farmer Bros: Q2 Earnings Insights",
+      "id": 43546460,
       "images": [
         {
           "size": "large",
@@ -176,202 +43,362 @@
       "source": "benzinga",
       "summary": " ",
       "symbols": [
-        "APPS"
+        "FARM"
       ],
-      "updated_at": "2025-02-05T21:27:35Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43510952/digital-turbine-q3-earnings-report-what-investors-need-to-know",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T21:21:48Z",
-      "headline": "Digital Turbine Q3 Earnings Assessment",
-      "id": 43510371,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:21:49Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43510371/digital-turbine-q3-earnings-assessment",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T21:16:32Z",
-      "headline": "Digital Turbine Q3 Earnings Summary & Key Takeaways",
-      "id": 43510056,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_1.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:16:32Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43510056/digital-turbine-q3-earnings-summary-key-takeaways",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-05T21:11:24Z",
-      "headline": "Digital Turbine: Q3 Earnings Insights",
-      "id": 43509705,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:11:25Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43509705/digital-turbine-q3-earnings-insights",
-      "added_at": "2025-02-06T16:18:10.808Z"
+      "updated_at": "2025-02-06T21:41:18Z",
+      "url": "https://www.benzinga.com/insights/earnings/25/02/43546460/farmer-bros-q2-earnings-insights",
+      "added_at": "2025-02-07T09:26:12.680Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-05T21:07:55Z",
-      "headline": "Digital Turbine Raises FY2025 Sales Guidance from $475.00M-485.00M to $485.00M-490.00M vs $477.04M Est",
-      "id": 43509586,
+      "created_at": "2025-02-06T21:25:31Z",
+      "headline": "Farmer Bros Q2 EPS $0.01 Beats $(0.06) Estimate, Sales $90.02M Miss $91.16M Estimate",
+      "id": 43545589,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "APPS"
+        "FARM"
       ],
-      "updated_at": "2025-02-05T21:07:56Z",
-      "url": "https://www.benzinga.com/news/25/02/43509586/digital-turbine-raises-fy2025-sales-guidance-from-475-00m-485-00m-to-485-00m-490-00m-vs-477-04m-est",
-      "added_at": "2025-02-06T16:18:10.808Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-05T21:06:51Z",
-      "headline": "Digital Turbine Q3 Adj $0.13 Beats $(0.01) Estimate, Sales $134.64M Beat $123.68M Estimate",
-      "id": 43509533,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "APPS"
-      ],
-      "updated_at": "2025-02-05T21:06:52Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43509533/digital-turbine-q3-adj-0-13-beats-0-01-estimate-sales-134-64m-beat-123-68m-estimate",
-      "added_at": "2025-02-06T16:18:10.808Z"
+      "updated_at": "2025-02-06T21:25:31Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43545589/farmer-bros-q2-eps-0-01-beats-0-06-estimate-sales-90-02m-miss-91-16m-estimate",
+      "added_at": "2025-02-07T09:26:12.681Z"
     }
   ],
-  "LIPO": [
+  "PGY": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T11:02:46Z",
-      "headline": "Lipella Pharmaceuticals Receives FDA Approval For Expanded Access Program For LP-310 In Oral Lichen Planus",
-      "id": 43522325,
+      "created_at": "2025-02-07T11:30:05Z",
+      "headline": "Citigroup Upgrades Pagaya Techs to Buy, Raises Price Target to $14.5",
+      "id": 43555944,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "LIPO"
+        "PGY"
       ],
-      "updated_at": "2025-02-06T11:02:46Z",
-      "url": "https://www.benzinga.com/news/25/02/43522325/lipella-pharmaceuticals-receives-fda-approval-for-expanded-access-program-for-lp-310-in-oral-lichen",
-      "added_at": "2025-02-06T16:42:18.056Z"
+      "updated_at": "2025-02-07T11:30:06Z",
+      "url": "https://www.benzinga.com/news/25/02/43555944/citigroup-upgrades-pagaya-techs-to-buy-raises-price-target-to-14-5",
+      "added_at": "2025-02-07T11:33:35.045Z"
+    }
+  ],
+  "ITRM": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T12:02:51Z",
+      "headline": "Iterum Therapeutics Expects Its Available Cash To Be Sufficient To Fund Its Operations Into H2 Of 2025",
+      "id": 43556552,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "ITRM"
+      ],
+      "updated_at": "2025-02-07T12:02:52Z",
+      "url": "https://www.benzinga.com/news/25/02/43556552/iterum-therapeutics-expects-its-available-cash-to-be-sufficient-to-fund-its-operations-into-h2-of-20",
+      "added_at": "2025-02-07T12:20:03.339Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T12:00:49Z",
+      "headline": "Iterum Therapeutics Q4 2024 Adj EPS $(0.12) Beats $(0.21) Estimate",
+      "id": 43556513,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "ITRM"
+      ],
+      "updated_at": "2025-02-07T12:00:50Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43556513/iterum-therapeutics-q4-2024-adj-eps-0-12-beats-0-21-estimate",
+      "added_at": "2025-02-07T12:20:03.339Z"
     }
   ],
   "RANI": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-05T21:06:24Z",
-      "headline": "Rani Therapeutics Announces Preclinical Data Demonstrating Oral Delivery Of Semaglutide Via RaniPill HC",
-      "id": 43509511,
+      "created_at": "2025-02-07T12:30:50Z",
+      "headline": "HC Wainwright & Co. Reiterates Buy on Rani Therapeutics Hldgs, Maintains $9 Price Target",
+      "id": 43557453,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
         "RANI"
       ],
-      "updated_at": "2025-02-05T21:06:24Z",
-      "url": "https://www.benzinga.com/general/biotech/25/02/43509511/rani-therapeutics-announces-preclinical-data-demonstrating-oral-delivery-of-semaglutide-via-ranip",
-      "added_at": "2025-02-06T17:07:41.166Z"
+      "updated_at": "2025-02-07T12:30:51Z",
+      "url": "https://www.benzinga.com/news/25/02/43557453/hc-wainwright-co-reiterates-buy-on-rani-therapeutics-hldgs-maintains-9-price-target",
+      "added_at": "2025-02-07T12:33:36.287Z"
     }
   ],
-  "CJMB": [],
-  "LTRY": [],
-  "CRNC": [
+  "CDT": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:08:04Z",
-      "headline": "Cerence Q1 2025 Adj EPS $(0.03) Beats $(0.26) Estimate, Sales $50.90M Beat $50.84M Estimate",
-      "id": 43544877,
+      "created_at": "2025-02-07T13:03:09Z",
+      "headline": "Conduit Pharmaceuticals Transitions To Phase II In Sarborg Collaboration For AI-Driven Drug Development; Phase II To Focus On Personalized Software Dashboards To Enhance Efficiency And Decision-Making",
+      "id": 43558146,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "CRNC"
+        "CDT"
       ],
-      "updated_at": "2025-02-06T21:08:05Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43544877/cerence-q1-2025-adj-eps-0-03-beats-0-26-estimate-sales-50-90m-beat-50-84m-estimate",
-      "added_at": "2025-02-06T21:08:25.591Z"
+      "updated_at": "2025-02-07T13:03:10Z",
+      "url": "https://www.benzinga.com/news/25/02/43558146/conduit-pharmaceuticals-transitions-to-phase-ii-in-sarborg-collaboration-for-ai-driven-drug-developm",
+      "added_at": "2025-02-07T13:03:36.756Z"
+    }
+  ],
+  "MDAI": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:24:41Z",
+      "headline": "Spectral AI Announces Completion Of Its Data Analytics For Its U.S. Burn Study",
+      "id": 43558829,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "MDAI"
+      ],
+      "updated_at": "2025-02-07T13:24:42Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43558829/spectral-ai-announces-completion-of-its-data-analytics-for-its-u-s-burn-study",
+      "added_at": "2025-02-07T13:28:36.941Z"
+    }
+  ],
+  "REBN": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:33:21Z",
+      "headline": "Reborn Coffee Enters Securities Purchase Agreement And Common Stock Purchase Agreement For Up to $60M In Financing Commitments With Arena Investors, LP And Arena Business Solutions Global SPC II, Ltd.",
+      "id": 43559031,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "REBN"
+      ],
+      "updated_at": "2025-02-07T13:33:22Z",
+      "url": "https://www.benzinga.com/news/25/02/43559031/reborn-coffee-enters-securities-purchase-agreement-and-common-stock-purchase-agreement-for-up-to-60m",
+      "added_at": "2025-02-07T13:33:36.917Z"
+    }
+  ],
+  "CYTH": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:09:55Z",
+      "headline": "Cyclo Therapeutics Presents Preliminary Data From Phase 3 TransportNPC Study Of Trappsol With 6 Of 7 Patients Showing Stabilization Or Improvement In Clinical Global Impression Over 48 Weeks; Topline 48-Week Interim Data Expected in H1 2025",
+      "id": 43558384,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "CYTH"
+      ],
+      "updated_at": "2025-02-07T13:09:56Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43558384/cyclo-therapeutics-presents-preliminary-data-from-phase-3-transportnpc-study-of-trappsol-with-6-o",
+      "added_at": "2025-02-07T13:46:46.477Z"
+    }
+  ],
+  "SWI": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:43:52Z",
+      "headline": "SolarWinds To Be Acquired By Turn/River Capital; Shareholders To Receive $18.50/Share With Total Enterprise Value Of $4.4B",
+      "id": 43559354,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "SWI"
+      ],
+      "updated_at": "2025-02-07T13:43:53Z",
+      "url": "https://www.benzinga.com/m-a/25/02/43559354/solarwinds-to-be-acquired-by-turnriver-capital-shareholders-to-receive-18-50share-with-total-enterpr",
+      "added_at": "2025-02-07T13:58:06.080Z"
+    },
+    {
+      "author": "Shivani Kumaresan",
+      "content": "",
+      "created_at": "2025-02-07T15:18:29Z",
+      "headline": "Software Company SolarWinds Agrees To Go Private In $4.4B Deal; Stock Skyrockets",
+      "id": 43563232,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": "SolarWinds is set to be acquired by Turn/River Capital for $4.4 billion. Shareholders will get $18.50 per share.",
+      "symbols": [
+        "SWI"
+      ],
+      "updated_at": "2025-02-07T15:18:29Z",
+      "url": "https://www.benzinga.com/25/02/43563232/software-company-solarwinds-to-go-private-in-44b-deal-stocks-skyrocket",
+      "added_at": "2025-02-07T15:18:34.836Z"
+    }
+  ],
+  "TNXP": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:33:40Z",
+      "headline": "Tonix Pharmaceuticals Reports FY24 Preliminary Financials: $98.8M In Cash And Cash Equivalents As Of December 31, 2024, Revenue Hits ~$10.1M Vs $7.8M YoY",
+      "id": 43559033,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "TNXP"
+      ],
+      "updated_at": "2025-02-07T13:33:40Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43559033/tonix-pharmaceuticals-reports-fy24-preliminary-financials-98-8m-in-cash-and-cash-equivalents-as-of-",
+      "added_at": "2025-02-07T14:00:18.356Z"
+    }
+  ],
+  "ULCC": [
+    {
+      "author": "Benzinga Insights",
+      "content": "",
+      "created_at": "2025-02-07T13:20:06Z",
+      "headline": "Frontier Group Holdings Earnings Review: Q4 Summary",
+      "id": 43558691,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "ULCC"
+      ],
+      "updated_at": "2025-02-07T13:20:07Z",
+      "url": "https://www.benzinga.com/insights/earnings/25/02/43558691/frontier-group-holdings-earnings-review-q4-summary",
+      "added_at": "2025-02-07T14:29:44.945Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:23:28Z",
-      "headline": "Cerence Expects Q2 Revenue Of $74M - $77M, Est $61.184M; FY25 Guidance Remains Unchanged",
-      "id": 43545519,
+      "created_at": "2025-02-07T13:04:25Z",
+      "headline": "Frontier Group Holdings Q4 2024 Adj. EPS $0.23 Beats $0.12 Estimate, Sales $1.002B Beat $984.071M Estimate",
+      "id": 43558190,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "ULCC"
+      ],
+      "updated_at": "2025-02-07T13:04:25Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43558190/frontier-group-holdings-q4-2024-adj-eps-0-23-beats-0-12-estimate-sales-1-002b-beat-984-071m-estimat",
+      "added_at": "2025-02-07T14:29:44.945Z"
+    }
+  ],
+  "CLSK": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T13:11:12Z",
+      "headline": "HC Wainwright & Co. Reiterates Buy on Cleanspark, Maintains $27 Price Target",
+      "id": 43558533,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "CLSK"
+      ],
+      "updated_at": "2025-02-07T13:11:13Z",
+      "url": "https://www.benzinga.com/news/25/02/43558533/hc-wainwright-co-reiterates-buy-on-cleanspark-maintains-27-price-target",
+      "added_at": "2025-02-07T14:32:56.596Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-06T21:18:28Z",
+      "headline": "Cleanspark Q1 2025 GAAP EPS $0.85 Beats $0.09 Estimate, Sales $162.300M Beat $150.874M Estimate",
+      "id": 43545239,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "CLSK"
+      ],
+      "updated_at": "2025-02-06T21:18:29Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43545239/cleanspark-q1-2025-gaap-eps-0-85-beats-0-09-estimate-sales-162-300m-beat-150-874m-estimate",
+      "added_at": "2025-02-07T14:32:56.596Z"
+    }
+  ],
+  "CRNC": [
+    {
+      "author": "Benzinga Insights",
+      "content": "",
+      "created_at": "2025-02-07T12:00:37Z",
+      "headline": "4 Analysts Assess Cerence: What You Need To Know",
+      "id": 43556500,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "CRNC"
+      ],
+      "updated_at": "2025-02-07T12:00:38Z",
+      "url": "https://www.benzinga.com/insights/analyst-ratings/25/02/43556500/4-analysts-assess-cerence-what-you-need-to-know",
+      "added_at": "2025-02-07T14:33:58.672Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T11:36:11Z",
+      "headline": "Needham Reiterates Buy on Cerence, Maintains $16 Price Target",
+      "id": 43555994,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
         "CRNC"
       ],
-      "updated_at": "2025-02-06T21:23:29Z",
-      "url": "https://www.benzinga.com/news/25/02/43545519/cerence-expects-q2-revenue-of-74m-77m-est-61-184m-fy25-guidance-remains-unchanged",
-      "added_at": "2025-02-06T21:28:26.074Z"
+      "updated_at": "2025-02-07T11:36:12Z",
+      "url": "https://www.benzinga.com/news/25/02/43555994/needham-reiterates-buy-on-cerence-maintains-16-price-target",
+      "added_at": "2025-02-07T14:33:58.672Z"
     },
     {
       "author": "Benzinga Insights",
@@ -400,25 +427,39 @@
       ],
       "updated_at": "2025-02-06T21:42:15Z",
       "url": "https://www.benzinga.com/insights/earnings/25/02/43546520/earnings-summary-cerence-q1",
-      "added_at": "2025-02-06T21:43:17.272Z"
-    }
-  ],
-  "CLSK": [
+      "added_at": "2025-02-07T14:33:58.672Z"
+    },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:18:28Z",
-      "headline": "Cleanspark Q1 2025 GAAP EPS $0.85 Beats $0.09 Estimate, Sales $162.300M Beat $150.874M Estimate",
-      "id": 43545239,
+      "created_at": "2025-02-06T21:23:28Z",
+      "headline": "Cerence Expects Q2 Revenue Of $74M - $77M, Est $61.184M; FY25 Guidance Remains Unchanged",
+      "id": 43545519,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "CLSK"
+        "CRNC"
       ],
-      "updated_at": "2025-02-06T21:18:29Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43545239/cleanspark-q1-2025-gaap-eps-0-85-beats-0-09-estimate-sales-162-300m-beat-150-874m-estimate",
-      "added_at": "2025-02-06T21:23:25.775Z"
+      "updated_at": "2025-02-06T21:23:29Z",
+      "url": "https://www.benzinga.com/news/25/02/43545519/cerence-expects-q2-revenue-of-74m-77m-est-61-184m-fy25-guidance-remains-unchanged",
+      "added_at": "2025-02-07T14:33:58.672Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-06T21:08:04Z",
+      "headline": "Cerence Q1 2025 Adj EPS $(0.03) Beats $(0.26) Estimate, Sales $50.90M Beat $50.84M Estimate",
+      "id": 43544877,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "CRNC"
+      ],
+      "updated_at": "2025-02-06T21:08:05Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43544877/cerence-q1-2025-adj-eps-0-03-beats-0-26-estimate-sales-50-90m-beat-50-84m-estimate",
+      "added_at": "2025-02-07T14:33:58.672Z"
     }
   ],
   "VSAT": [
@@ -436,7 +477,7 @@
       ],
       "updated_at": "2025-02-06T21:36:12Z",
       "url": "https://www.benzinga.com/news/25/02/43546163/viasat-sees-fy25-communication-services-revenue-unchanged-sees-fy25-capital-expenditures-around-1-1b",
-      "added_at": "2025-02-06T21:40:08.135Z"
+      "added_at": "2025-02-07T14:45:10.703Z"
     },
     {
       "author": "Benzinga Newsdesk",
@@ -452,23 +493,107 @@
       ],
       "updated_at": "2025-02-06T21:34:33Z",
       "url": "https://www.benzinga.com/news/earnings/25/02/43546046/viasat-q3-2025-adj-eps-0-11-beats-0-58-estimate-sales-1-124b-beat-1-122b-estimate",
-      "added_at": "2025-02-06T21:40:08.135Z"
-    },
+      "added_at": "2025-02-07T14:45:10.703Z"
+    }
+  ],
+  "IREN": [
+    {
+      "author": "Benzinga Insights",
+      "content": "",
+      "created_at": "2025-02-07T14:45:29Z",
+      "headline": "Looking At IREN's Recent Unusual Options Activity",
+      "id": 43561509,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "IREN"
+      ],
+      "updated_at": "2025-02-07T14:45:30Z",
+      "url": "https://www.benzinga.com/insights/options/25/02/43561509/looking-at-irens-recent-unusual-options-activity",
+      "added_at": "2025-02-07T14:48:33.424Z"
+    }
+  ],
+  "SERV": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T12:12:09Z",
-      "headline": "A.P. Moller - Maersk And Inmarsat Maritime, A Viasat Company, Have Signed An Agreement To Upgrade Inmarsat Satellite Communications Services Across Maersk's Global Fleet Of Approximately 340 Container Ships. The Agreement Will See Bandwidth Enhancements Rolled Out Across Maersk's Entire Fleet Of Owned Container Ships Between 2025 And 2026.",
-      "id": 43524325,
+      "created_at": "2025-02-07T14:58:23Z",
+      "headline": "Watching Serve Robotics; Hearing Zacks Newsletter Picks Stock",
+      "id": 43562012,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "VSAT"
+        "SERV"
       ],
-      "updated_at": "2025-02-06T12:12:10Z",
-      "url": "https://www.benzinga.com/news/25/02/43524325/a-p-moller-maersk-and-inmarsat-maritime-a-viasat-company-have-signed-an-agreement-to-upgrade-inmarsa",
-      "added_at": "2025-02-06T21:40:08.135Z"
+      "updated_at": "2025-02-07T14:58:24Z",
+      "url": "https://www.benzinga.com/news/25/02/43562012/watching-serve-robotics-hearing-zacks-newsletter-picks-stock",
+      "added_at": "2025-02-07T14:58:39.673Z"
+    }
+  ],
+  "SLRN": [],
+  "QSI": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-07T15:20:56Z",
+      "headline": "Alliance Global Partners Initiates Coverage On Quantum-Si with Buy Rating, Announces Price Target of $3.75",
+      "id": 43563365,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "QSI"
+      ],
+      "updated_at": "2025-02-07T15:20:56Z",
+      "url": "https://www.benzinga.com/news/25/02/43563365/alliance-global-partners-initiates-coverage-on-quantum-si-with-buy-rating-announces-price-target-of",
+      "added_at": "2025-02-07T15:23:39.431Z"
+    }
+  ],
+  "APPS": [],
+  "BBAI": [
+    {
+      "author": "Benzinga Insights",
+      "content": "",
+      "created_at": "2025-02-07T15:45:32Z",
+      "headline": "What the Options Market Tells Us About BigBear.ai Hldgs",
+      "id": 43564299,
+      "images": [
+        {
+          "size": "large",
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+        },
+        {
+          "size": "small",
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+        },
+        {
+          "size": "thumb",
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+        }
+      ],
+      "source": "benzinga",
+      "summary": " ",
+      "symbols": [
+        "BBAI"
+      ],
+      "updated_at": "2025-02-07T15:45:32Z",
+      "url": "https://www.benzinga.com/insights/options/25/02/43564299/what-the-options-market-tells-us-about-bigbear-ai-hldgs",
+      "added_at": "2025-02-07T15:48:36.572Z"
     }
   ]
 }

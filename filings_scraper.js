@@ -146,7 +146,6 @@ const retryFailedTickers = async () => {
 
 const main = async () => {
     if (verbose) logVerbose("Starting filings scraper...");
-    logStatus("Starting filings processing...");
     await processNewTickers();
     await retryFailedTickers();
     logStatus("Filings processing completed.");
