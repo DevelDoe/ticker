@@ -1,411 +1,191 @@
 {
-  "QNTM": [],
-  "LTRY": [],
-  "LIPO": [
+  "NLSP": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T11:02:46Z",
-      "headline": "Lipella Pharmaceuticals Receives FDA Approval For Expanded Access Program For LP-310 In Oral Lichen Planus",
-      "id": 43522325,
+      "created_at": "2025-02-10T12:32:46Z",
+      "headline": "NLS Pharmaceutics And Kadimastem Join Forces To Revolutionize Diabetes Treatment With Multi-Target Approach Beyond GLP-1",
+      "id": 43589518,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "LIPO"
+        "NLSP"
       ],
-      "updated_at": "2025-02-06T11:02:46Z",
-      "url": "https://www.benzinga.com/news/25/02/43522325/lipella-pharmaceuticals-receives-fda-approval-for-expanded-access-program-for-lp-310-in-oral-lichen",
-      "added_at": "2025-02-07T08:35:45.884Z"
+      "updated_at": "2025-02-10T12:32:47Z",
+      "url": "https://www.benzinga.com/news/25/02/43589518/nls-pharmaceutics-and-kadimastem-join-forces-to-revolutionize-diabetes-treatment-with-multi-target-a",
+      "added_at": "2025-02-10T12:34:46.954Z"
     }
   ],
-  "FARM": [
+  "LFWD": [
     {
-      "author": "Benzinga Insights",
+      "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:41:18Z",
-      "headline": "Farmer Bros: Q2 Earnings Insights",
-      "id": 43546460,
+      "created_at": "2025-02-10T12:21:11Z",
+      "headline": "Laidlaw & Co. Initiates Coverage On Lifeward with Buy Rating, Announces Price Target of $10",
+      "id": 43589224,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "LFWD"
+      ],
+      "updated_at": "2025-02-10T12:21:12Z",
+      "url": "https://www.benzinga.com/news/25/02/43589224/laidlaw-co-initiates-coverage-on-lifeward-with-buy-rating-announces-price-target-of-10",
+      "added_at": "2025-02-10T12:38:33.879Z"
+    }
+  ],
+  "GRCE": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-10T13:02:04Z",
+      "headline": "Grace Therapeutics Announces Phase 3 STRIVE-ON Safety Trial Of GTx-104 In aSAH Met the Primary Endpoint",
+      "id": 43590324,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "GRCE"
+      ],
+      "updated_at": "2025-02-10T13:02:05Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43590324/grace-therapeutics-announces-phase-3-strive-on-safety-trial-of-gtx-104-in-asah-met-the-primary-en",
+      "added_at": "2025-02-10T13:04:47.735Z"
+    },
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-10T13:11:06Z",
+      "headline": "Grace Therapeutics Announces Up To $30M Private Placement With  Institutional Investors; Initial Upfront Funding ~$15M And Up To $15M Upon Exercise Of Accompanying Warrants",
+      "id": 43590559,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "GRCE"
+      ],
+      "updated_at": "2025-02-10T13:11:07Z",
+      "url": "https://www.benzinga.com/news/25/02/43590559/grace-therapeutics-announces-up-to-30m-private-placement-with-institutional-investors-initial-upfron",
+      "added_at": "2025-02-10T13:14:48.203Z"
+    },
+    {
+      "author": "Vandana Singh",
+      "content": "",
+      "created_at": "2025-02-10T17:05:59Z",
+      "headline": "Small-Cap Grace Therapeutics Touts Positive Data From Brain Hemorrhage Study",
+      "id": 43600505,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/10/GRCE.png"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/10/GRCE.png"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/10/GRCE.png"
         }
       ],
       "source": "benzinga",
-      "summary": " ",
+      "summary": "Grace Therapeutics&#39; GTx-104 met its Phase 3 trial endpoint, showing clinical benefits over oral nimodipine. US NDA submission is expected in early 2025.",
       "symbols": [
-        "FARM"
+        "GRCE"
       ],
-      "updated_at": "2025-02-06T21:41:18Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43546460/farmer-bros-q2-earnings-insights",
-      "added_at": "2025-02-07T09:26:12.680Z"
+      "updated_at": "2025-02-10T17:06:00Z",
+      "url": "https://www.benzinga.com/general/biotech/25/02/43600505/small-cap-grace-therapeutics-touts-positive-data-from-brain-hemorrhage-study",
+      "added_at": "2025-02-10T17:09:53.237Z"
+    }
+  ],
+  "FTEL": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-10T13:48:58Z",
+      "headline": "Fitell Updated Registered Direct Offering For Up To $10.0M To Purchase Up To 1,195,220 Shares In The Form Of Warrants At $5.02/Share",
+      "id": 43592000,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "FTEL"
+      ],
+      "updated_at": "2025-02-10T13:48:59Z",
+      "url": "https://www.benzinga.com/news/25/02/43592000/fitell-updated-registered-direct-offering-for-up-to-10-0m-to-purchase-up-to-1-195-220-shares-in-the",
+      "added_at": "2025-02-10T13:49:48.799Z"
+    }
+  ],
+  "MNTS": [
+    {
+      "author": "Benzinga Newsdesk",
+      "content": "",
+      "created_at": "2025-02-10T14:03:38Z",
+      "headline": "Momentus Has Been Awarded A Contract Expansion By The U.S. Department Of Defense Organization, DARPA, To Conduct An In-Orbit Demonstration Of The Assembly Of Large Scale Structures",
+      "id": 43592416,
+      "images": [],
+      "source": "benzinga",
+      "summary": "",
+      "symbols": [
+        "MNTS"
+      ],
+      "updated_at": "2025-02-10T14:04:26Z",
+      "url": "https://www.benzinga.com/news/25/02/43592416/momentus-has-been-awarded-a-contract-expansion-by-the-u-s-department-of-defense-organization-the-def",
+      "added_at": "2025-02-10T14:04:49.296Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:25:31Z",
-      "headline": "Farmer Bros Q2 EPS $0.01 Beats $(0.06) Estimate, Sales $90.02M Miss $91.16M Estimate",
-      "id": 43545589,
+      "created_at": "2025-02-10T16:31:06Z",
+      "headline": "Momentus Announces Pricing Of Its \"Reasonable Best Efforts\" Offering With A Single Institutional Investor For The Purchase And Sale Of 1,273,886 Shares Of Its Common Stock And Warrants To Purchase Up To 1,273,886 Shares Of Common Stock At A Combined Purchase Price Of $3.925",
+      "id": 43599453,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "FARM"
+        "MNTS"
       ],
-      "updated_at": "2025-02-06T21:25:31Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43545589/farmer-bros-q2-eps-0-01-beats-0-06-estimate-sales-90-02m-miss-91-16m-estimate",
-      "added_at": "2025-02-07T09:26:12.681Z"
-    }
-  ],
-  "PGY": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T11:30:05Z",
-      "headline": "Citigroup Upgrades Pagaya Techs to Buy, Raises Price Target to $14.5",
-      "id": 43555944,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "PGY"
-      ],
-      "updated_at": "2025-02-07T11:30:06Z",
-      "url": "https://www.benzinga.com/news/25/02/43555944/citigroup-upgrades-pagaya-techs-to-buy-raises-price-target-to-14-5",
-      "added_at": "2025-02-07T11:33:35.045Z"
-    }
-  ],
-  "ITRM": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T12:02:51Z",
-      "headline": "Iterum Therapeutics Expects Its Available Cash To Be Sufficient To Fund Its Operations Into H2 Of 2025",
-      "id": 43556552,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ITRM"
-      ],
-      "updated_at": "2025-02-07T12:02:52Z",
-      "url": "https://www.benzinga.com/news/25/02/43556552/iterum-therapeutics-expects-its-available-cash-to-be-sufficient-to-fund-its-operations-into-h2-of-20",
-      "added_at": "2025-02-07T12:20:03.339Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T12:00:49Z",
-      "headline": "Iterum Therapeutics Q4 2024 Adj EPS $(0.12) Beats $(0.21) Estimate",
-      "id": 43556513,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ITRM"
-      ],
-      "updated_at": "2025-02-07T12:00:50Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43556513/iterum-therapeutics-q4-2024-adj-eps-0-12-beats-0-21-estimate",
-      "added_at": "2025-02-07T12:20:03.339Z"
-    }
-  ],
-  "RANI": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T12:30:50Z",
-      "headline": "HC Wainwright & Co. Reiterates Buy on Rani Therapeutics Hldgs, Maintains $9 Price Target",
-      "id": 43557453,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "RANI"
-      ],
-      "updated_at": "2025-02-07T12:30:51Z",
-      "url": "https://www.benzinga.com/news/25/02/43557453/hc-wainwright-co-reiterates-buy-on-rani-therapeutics-hldgs-maintains-9-price-target",
-      "added_at": "2025-02-07T12:33:36.287Z"
-    }
-  ],
-  "CDT": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:03:09Z",
-      "headline": "Conduit Pharmaceuticals Transitions To Phase II In Sarborg Collaboration For AI-Driven Drug Development; Phase II To Focus On Personalized Software Dashboards To Enhance Efficiency And Decision-Making",
-      "id": 43558146,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CDT"
-      ],
-      "updated_at": "2025-02-07T13:03:10Z",
-      "url": "https://www.benzinga.com/news/25/02/43558146/conduit-pharmaceuticals-transitions-to-phase-ii-in-sarborg-collaboration-for-ai-driven-drug-developm",
-      "added_at": "2025-02-07T13:03:36.756Z"
-    }
-  ],
-  "MDAI": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:24:41Z",
-      "headline": "Spectral AI Announces Completion Of Its Data Analytics For Its U.S. Burn Study",
-      "id": 43558829,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "MDAI"
-      ],
-      "updated_at": "2025-02-07T13:24:42Z",
-      "url": "https://www.benzinga.com/general/biotech/25/02/43558829/spectral-ai-announces-completion-of-its-data-analytics-for-its-u-s-burn-study",
-      "added_at": "2025-02-07T13:28:36.941Z"
-    }
-  ],
-  "REBN": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:33:21Z",
-      "headline": "Reborn Coffee Enters Securities Purchase Agreement And Common Stock Purchase Agreement For Up to $60M In Financing Commitments With Arena Investors, LP And Arena Business Solutions Global SPC II, Ltd.",
-      "id": 43559031,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "REBN"
-      ],
-      "updated_at": "2025-02-07T13:33:22Z",
-      "url": "https://www.benzinga.com/news/25/02/43559031/reborn-coffee-enters-securities-purchase-agreement-and-common-stock-purchase-agreement-for-up-to-60m",
-      "added_at": "2025-02-07T13:33:36.917Z"
-    }
-  ],
-  "CYTH": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:09:55Z",
-      "headline": "Cyclo Therapeutics Presents Preliminary Data From Phase 3 TransportNPC Study Of Trappsol With 6 Of 7 Patients Showing Stabilization Or Improvement In Clinical Global Impression Over 48 Weeks; Topline 48-Week Interim Data Expected in H1 2025",
-      "id": 43558384,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CYTH"
-      ],
-      "updated_at": "2025-02-07T13:09:56Z",
-      "url": "https://www.benzinga.com/general/biotech/25/02/43558384/cyclo-therapeutics-presents-preliminary-data-from-phase-3-transportnpc-study-of-trappsol-with-6-o",
-      "added_at": "2025-02-07T13:46:46.477Z"
-    }
-  ],
-  "SWI": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:43:52Z",
-      "headline": "SolarWinds To Be Acquired By Turn/River Capital; Shareholders To Receive $18.50/Share With Total Enterprise Value Of $4.4B",
-      "id": 43559354,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "SWI"
-      ],
-      "updated_at": "2025-02-07T13:43:53Z",
-      "url": "https://www.benzinga.com/m-a/25/02/43559354/solarwinds-to-be-acquired-by-turnriver-capital-shareholders-to-receive-18-50share-with-total-enterpr",
-      "added_at": "2025-02-07T13:58:06.080Z"
+      "updated_at": "2025-02-10T16:31:06Z",
+      "url": "https://www.benzinga.com/news/25/02/43599453/momentus-announces-pricing-of-its-reasonable-best-efforts-offering-with-a-single-institutional-inves",
+      "added_at": "2025-02-10T16:34:52.157Z"
     },
     {
       "author": "Shivani Kumaresan",
       "content": "",
-      "created_at": "2025-02-07T15:18:29Z",
-      "headline": "Software Company SolarWinds Agrees To Go Private In $4.4B Deal; Stock Skyrockets",
-      "id": 43563232,
+      "created_at": "2025-02-10T17:47:41Z",
+      "headline": "Momentus Wins Defense Department Contract Expansion, Stock Skyrockets",
+      "id": 43601884,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2025/02/10/What-Consultants-Do.jpeg"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2025/02/10/What-Consultants-Do.jpeg"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/07/Businessmen-Making-Handshake-With-Partne.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2025/02/10/What-Consultants-Do.jpeg"
         }
       ],
       "source": "benzinga",
-      "summary": "SolarWinds is set to be acquired by Turn/River Capital for $4.4 billion. Shareholders will get $18.50 per share.",
+      "summary": "Shares of Momentus are soaring after the company secured an expanded contract with DARPA for an in-orbit demonstration of large-scale structure assembly. ",
       "symbols": [
-        "SWI"
+        "MNTS"
       ],
-      "updated_at": "2025-02-07T15:18:29Z",
-      "url": "https://www.benzinga.com/25/02/43563232/software-company-solarwinds-to-go-private-in-44b-deal-stocks-skyrocket",
-      "added_at": "2025-02-07T15:18:34.836Z"
+      "updated_at": "2025-02-10T17:47:41Z",
+      "url": "https://www.benzinga.com/news/contracts/25/02/43601884/momentus-wins-defense-department-contract-expansion-stock-skyrockets",
+      "added_at": "2025-02-10T17:49:53.765Z"
     }
   ],
-  "TNXP": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:33:40Z",
-      "headline": "Tonix Pharmaceuticals Reports FY24 Preliminary Financials: $98.8M In Cash And Cash Equivalents As Of December 31, 2024, Revenue Hits ~$10.1M Vs $7.8M YoY",
-      "id": 43559033,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "TNXP"
-      ],
-      "updated_at": "2025-02-07T13:33:40Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43559033/tonix-pharmaceuticals-reports-fy24-preliminary-financials-98-8m-in-cash-and-cash-equivalents-as-of-",
-      "added_at": "2025-02-07T14:00:18.356Z"
-    }
-  ],
-  "ULCC": [
+  "MPAA": [
     {
       "author": "Benzinga Insights",
       "content": "",
-      "created_at": "2025-02-07T13:20:06Z",
-      "headline": "Frontier Group Holdings Earnings Review: Q4 Summary",
-      "id": 43558691,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_4.png"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_4.png"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "ULCC"
-      ],
-      "updated_at": "2025-02-07T13:20:07Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43558691/frontier-group-holdings-earnings-review-q4-summary",
-      "added_at": "2025-02-07T14:29:44.945Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:04:25Z",
-      "headline": "Frontier Group Holdings Q4 2024 Adj. EPS $0.23 Beats $0.12 Estimate, Sales $1.002B Beat $984.071M Estimate",
-      "id": 43558190,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "ULCC"
-      ],
-      "updated_at": "2025-02-07T13:04:25Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43558190/frontier-group-holdings-q4-2024-adj-eps-0-23-beats-0-12-estimate-sales-1-002b-beat-984-071m-estimat",
-      "added_at": "2025-02-07T14:29:44.945Z"
-    }
-  ],
-  "CLSK": [
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T13:11:12Z",
-      "headline": "HC Wainwright & Co. Reiterates Buy on Cleanspark, Maintains $27 Price Target",
-      "id": 43558533,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CLSK"
-      ],
-      "updated_at": "2025-02-07T13:11:13Z",
-      "url": "https://www.benzinga.com/news/25/02/43558533/hc-wainwright-co-reiterates-buy-on-cleanspark-maintains-27-price-target",
-      "added_at": "2025-02-07T14:32:56.596Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-06T21:18:28Z",
-      "headline": "Cleanspark Q1 2025 GAAP EPS $0.85 Beats $0.09 Estimate, Sales $162.300M Beat $150.874M Estimate",
-      "id": 43545239,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CLSK"
-      ],
-      "updated_at": "2025-02-06T21:18:29Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43545239/cleanspark-q1-2025-gaap-eps-0-85-beats-0-09-estimate-sales-162-300m-beat-150-874m-estimate",
-      "added_at": "2025-02-07T14:32:56.596Z"
-    }
-  ],
-  "CRNC": [
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-07T12:00:37Z",
-      "headline": "4 Analysts Assess Cerence: What You Need To Know",
-      "id": 43556500,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "CRNC"
-      ],
-      "updated_at": "2025-02-07T12:00:38Z",
-      "url": "https://www.benzinga.com/insights/analyst-ratings/25/02/43556500/4-analysts-assess-cerence-what-you-need-to-know",
-      "added_at": "2025-02-07T14:33:58.672Z"
-    },
-    {
-      "author": "Benzinga Newsdesk",
-      "content": "",
-      "created_at": "2025-02-07T11:36:11Z",
-      "headline": "Needham Reiterates Buy on Cerence, Maintains $16 Price Target",
-      "id": 43555994,
-      "images": [],
-      "source": "benzinga",
-      "summary": "",
-      "symbols": [
-        "CRNC"
-      ],
-      "updated_at": "2025-02-07T11:36:12Z",
-      "url": "https://www.benzinga.com/news/25/02/43555994/needham-reiterates-buy-on-cerence-maintains-16-price-target",
-      "added_at": "2025-02-07T14:33:58.672Z"
-    },
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-06T21:42:14Z",
-      "headline": "Earnings Summary: Cerence Q1",
-      "id": 43546520,
+      "created_at": "2025-02-10T13:20:07Z",
+      "headline": "Earnings Summary: Motorcar Parts of America Q3",
+      "id": 43591076,
       "images": [
         {
           "size": "large",
@@ -423,177 +203,141 @@
       "source": "benzinga",
       "summary": " ",
       "symbols": [
-        "CRNC"
+        "MPAA"
       ],
-      "updated_at": "2025-02-06T21:42:15Z",
-      "url": "https://www.benzinga.com/insights/earnings/25/02/43546520/earnings-summary-cerence-q1",
-      "added_at": "2025-02-07T14:33:58.672Z"
+      "updated_at": "2025-02-10T13:20:08Z",
+      "url": "https://www.benzinga.com/insights/earnings/25/02/43591076/earnings-summary-motorcar-parts-of-america-q3",
+      "added_at": "2025-02-10T14:18:41.541Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:23:28Z",
-      "headline": "Cerence Expects Q2 Revenue Of $74M - $77M, Est $61.184M; FY25 Guidance Remains Unchanged",
-      "id": 43545519,
+      "created_at": "2025-02-10T13:06:25Z",
+      "headline": "Motorcar Parts of America Q3 2025 Adj EPS $0.35 Misses $0.43 Estimate",
+      "id": 43590467,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "CRNC"
+        "MPAA"
       ],
-      "updated_at": "2025-02-06T21:23:29Z",
-      "url": "https://www.benzinga.com/news/25/02/43545519/cerence-expects-q2-revenue-of-74m-77m-est-61-184m-fy25-guidance-remains-unchanged",
-      "added_at": "2025-02-07T14:33:58.672Z"
+      "updated_at": "2025-02-10T13:06:26Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43590467/motorcar-parts-of-america-q3-2025-adj-eps-0-35-misses-0-43-estimate",
+      "added_at": "2025-02-10T14:18:41.541Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:08:04Z",
-      "headline": "Cerence Q1 2025 Adj EPS $(0.03) Beats $(0.26) Estimate, Sales $50.90M Beat $50.84M Estimate",
-      "id": 43544877,
+      "created_at": "2025-02-10T13:00:42Z",
+      "headline": "Motorcar Parts of America Q3 Sales $186.18M Beat $179.50M Estimate",
+      "id": 43590271,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "CRNC"
+        "MPAA"
       ],
-      "updated_at": "2025-02-06T21:08:05Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43544877/cerence-q1-2025-adj-eps-0-03-beats-0-26-estimate-sales-50-90m-beat-50-84m-estimate",
-      "added_at": "2025-02-07T14:33:58.672Z"
+      "updated_at": "2025-02-10T13:00:43Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43590271/motorcar-parts-of-america-q3-sales-186-18m-beat-179-50m-estimate",
+      "added_at": "2025-02-10T14:18:41.541Z"
     }
   ],
-  "VSAT": [
+  "AIOT": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:36:11Z",
-      "headline": "Viasat Sees FY25 Communication Services Revenue Unchanged, Sees FY25 Capital Expenditures Around $1.1B, FY25 DAT Revenue Growth in Mid-Teens",
-      "id": 43546163,
+      "created_at": "2025-02-10T12:25:44Z",
+      "headline": "Powerfleet Raised Its 2025 Outlook: Now Expects Revenue To Exceed $362.5M, Up $10M From Prior $352.5M Guidance And Adjusted EBITDA To Exceed $75M, Up $2.5M From Prior",
+      "id": 43589310,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "VSAT"
+        "AIOT"
       ],
-      "updated_at": "2025-02-06T21:36:12Z",
-      "url": "https://www.benzinga.com/news/25/02/43546163/viasat-sees-fy25-communication-services-revenue-unchanged-sees-fy25-capital-expenditures-around-1-1b",
-      "added_at": "2025-02-07T14:45:10.703Z"
+      "updated_at": "2025-02-10T12:25:45Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43589310/powerfleet-raised-its-2025-outlook-now-expects-revenue-to-exceed-362-5m-up-10m-from-prior-352-5m-gu",
+      "added_at": "2025-02-10T14:36:22.145Z"
     },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-06T21:34:32Z",
-      "headline": "Viasat Q3 2025 Adj. EPS $0.11 Beats $(0.58) Estimate, Sales $1.124B Beat $1.122B Estimate",
-      "id": 43546046,
+      "created_at": "2025-02-10T12:22:33Z",
+      "headline": "PowerFleet Q3 2024 Adj. EPS $0.01, Inline, Sales $106.429M Beat $99.426M Estimate",
+      "id": 43589231,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "VSAT"
+        "AIOT"
       ],
-      "updated_at": "2025-02-06T21:34:33Z",
-      "url": "https://www.benzinga.com/news/earnings/25/02/43546046/viasat-q3-2025-adj-eps-0-11-beats-0-58-estimate-sales-1-124b-beat-1-122b-estimate",
-      "added_at": "2025-02-07T14:45:10.703Z"
-    }
-  ],
-  "IREN": [
+      "updated_at": "2025-02-10T12:22:33Z",
+      "url": "https://www.benzinga.com/news/earnings/25/02/43589231/powerfleet-q3-2024-adj-eps-0-01-inline-sales-106-429m-beat-99-426m-estimate",
+      "added_at": "2025-02-10T14:36:22.145Z"
+    },
     {
       "author": "Benzinga Insights",
       "content": "",
-      "created_at": "2025-02-07T14:45:29Z",
-      "headline": "Looking At IREN's Recent Unusual Options Activity",
-      "id": 43561509,
+      "created_at": "2025-02-10T12:20:13Z",
+      "headline": "Earnings Summary: PowerFleet Q3",
+      "id": 43589163,
       "images": [
         {
           "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/analyst_ratings_image_0.png"
         },
         {
           "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/analyst_ratings_image_0.png"
         },
         {
           "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
+          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/analyst_ratings_image_0.png"
         }
       ],
       "source": "benzinga",
       "summary": " ",
       "symbols": [
-        "IREN"
+        "AIOT"
       ],
-      "updated_at": "2025-02-07T14:45:30Z",
-      "url": "https://www.benzinga.com/insights/options/25/02/43561509/looking-at-irens-recent-unusual-options-activity",
-      "added_at": "2025-02-07T14:48:33.424Z"
-    }
-  ],
-  "SERV": [
+      "updated_at": "2025-02-10T12:20:13Z",
+      "url": "https://www.benzinga.com/insights/earnings/25/02/43589163/earnings-summary-powerfleet-q3",
+      "added_at": "2025-02-10T14:36:22.145Z"
+    },
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-07T14:58:23Z",
-      "headline": "Watching Serve Robotics; Hearing Zacks Newsletter Picks Stock",
-      "id": 43562012,
+      "created_at": "2025-02-10T16:40:59Z",
+      "headline": "Barrington Research Maintains Outperform on PowerFleet, Maintains $15 Price Target",
+      "id": 43599699,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "SERV"
+        "AIOT"
       ],
-      "updated_at": "2025-02-07T14:58:24Z",
-      "url": "https://www.benzinga.com/news/25/02/43562012/watching-serve-robotics-hearing-zacks-newsletter-picks-stock",
-      "added_at": "2025-02-07T14:58:39.673Z"
+      "updated_at": "2025-02-10T16:41:00Z",
+      "url": "https://www.benzinga.com/news/25/02/43599699/barrington-research-maintains-outperform-on-powerfleet-maintains-15-price-target",
+      "added_at": "2025-02-10T16:44:52.919Z"
     }
   ],
-  "SLRN": [],
-  "QSI": [
+  "MVIS": [
     {
       "author": "Benzinga Newsdesk",
       "content": "",
-      "created_at": "2025-02-07T15:20:56Z",
-      "headline": "Alliance Global Partners Initiates Coverage On Quantum-Si with Buy Rating, Announces Price Target of $3.75",
-      "id": 43563365,
+      "created_at": "2025-02-10T12:14:51Z",
+      "headline": "D. Boral Capital Initiates Coverage On Microvision with Buy Rating, Announces Price Target of $3",
+      "id": 43588906,
       "images": [],
       "source": "benzinga",
       "summary": "",
       "symbols": [
-        "QSI"
+        "MVIS"
       ],
-      "updated_at": "2025-02-07T15:20:56Z",
-      "url": "https://www.benzinga.com/news/25/02/43563365/alliance-global-partners-initiates-coverage-on-quantum-si-with-buy-rating-announces-price-target-of",
-      "added_at": "2025-02-07T15:23:39.431Z"
+      "updated_at": "2025-02-10T12:14:52Z",
+      "url": "https://www.benzinga.com/news/25/02/43588906/d-boral-capital-initiates-coverage-on-microvision-with-buy-rating-announces-price-target-of-3",
+      "added_at": "2025-02-10T14:39:55.298Z"
     }
   ],
-  "APPS": [],
-  "BBAI": [
-    {
-      "author": "Benzinga Insights",
-      "content": "",
-      "created_at": "2025-02-07T15:45:32Z",
-      "headline": "What the Options Market Tells Us About BigBear.ai Hldgs",
-      "id": 43564299,
-      "images": [
-        {
-          "size": "large",
-          "url": "https://cdn.benzinga.com/files/imagecache/2048x1536xUP/images/story/2023/movers_image_5.jpeg"
-        },
-        {
-          "size": "small",
-          "url": "https://cdn.benzinga.com/files/imagecache/1024x768xUP/images/story/2023/movers_image_5.jpeg"
-        },
-        {
-          "size": "thumb",
-          "url": "https://cdn.benzinga.com/files/imagecache/250x187xUP/images/story/2023/movers_image_5.jpeg"
-        }
-      ],
-      "source": "benzinga",
-      "summary": " ",
-      "symbols": [
-        "BBAI"
-      ],
-      "updated_at": "2025-02-07T15:45:32Z",
-      "url": "https://www.benzinga.com/insights/options/25/02/43564299/what-the-options-market-tells-us-about-bigbear-ai-hldgs",
-      "added_at": "2025-02-07T15:48:36.572Z"
-    }
-  ]
+  "DOMH": []
 }
