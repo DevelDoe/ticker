@@ -1,97 +1,132 @@
 {
-  "PNBK": {
-    "netIncome": -29429000,
-    "netCashFlow": -6156000,
-    "cash": 974083000
+  "LIXT": {
+    "netIncome": -986030,
+    "netCashFlow": -957595,
+    "cash": 1695892
   },
-  "DOMH": {
-    "netIncome": -4211000,
+  "SLXN": {
+    "netIncome": 0,
     "netCashFlow": 0,
-    "cash": 43431000
+    "cash": 3087000
   },
-  "LFWD": {
-    "netIncome": -3084000,
-    "netCashFlow": -4473000,
-    "cash": 45770000
+  "SLQT": {
+    "netIncome": -47620000,
+    "netCashFlow": -38042000,
+    "cash": 1146871000
   },
-  "GXAI": {
-    "netIncome": -3386756,
-    "netCashFlow": 4462917,
-    "cash": 7119474
+  "LIPO": {
+    "netIncome": -4263476,
+    "netCashFlow": -1828005,
+    "cash": 2160105
   },
-  "TNXP": {
-    "netIncome": -14213000,
-    "netCashFlow": 24078000,
-    "cash": 94989000
+  "RIME": {
+    "netIncome": 974000,
+    "netCashFlow": 0,
+    "cash": 19612000
   },
-  "POAI": {
-    "netIncome": -3094690,
-    "netCashFlow": -2252815,
-    "cash": 7498234
+  "KPRX": {
+    "netIncome": 5549629,
+    "netCashFlow": 3060404,
+    "cash": 38509354
+  },
+  "RAIN": {
+    "netIncome": -7034000,
+    "netCashFlow": -2764000,
+    "cash": 82060000
+  },
+  "SILO": {
+    "netIncome": -928814,
+    "netCashFlow": 107190,
+    "cash": 8566699
+  },
+  "AIFF": {
+    "netIncome": -4289000,
+    "netCashFlow": 0,
+    "cash": 5311000
+  },
+  "ACON": {
+    "netIncome": -6280844,
+    "netCashFlow": 1150647,
+    "cash": 3188052
+  },
+  "SOPA": {
+    "netIncome": -1380578,
+    "netCashFlow": 0,
+    "cash": 16984381
+  },
+  "TRNR": {
+    "netIncome": -7141000,
+    "netCashFlow": 2525000,
+    "cash": 37753000
   },
   "CDT": {
     "netIncome": -6461000,
     "netCashFlow": -159000,
     "cash": 2993000
   },
-  "AISP": {
-    "netIncome": 6213956,
-    "netCashFlow": -9338,
-    "cash": 9096370
+  "DOMH": {
+    "netIncome": -4211000,
+    "netCashFlow": 0,
+    "cash": 43431000
   },
-  "MNTS": {
-    "netIncome": -7758000,
-    "netCashFlow": 21000,
-    "cash": 14105000
+  "ORMP": {
+    "netIncome": 4392000,
+    "netCashFlow": 36636000,
+    "cash": 165081000
   },
-  "MPAA": {
-    "netIncome": -66915000,
-    "netCashFlow": 120000,
-    "cash": 986242000
+  "REKR": {
+    "netIncome": -52379000,
+    "netCashFlow": -42713000,
+    "cash": 101195000
   },
-  "FHTX": {
-    "netIncome": -19122000,
-    "netCashFlow": -81269000,
-    "cash": 308372000
-  },
-  "SLDB": {
-    "netIncome": -102436000,
-    "netCashFlow": 15455000,
-    "cash": 211826000
-  },
-  "LUNR": {
-    "netIncome": -80411000,
-    "netCashFlow": 57974000,
-    "cash": 224798000
-  },
-  "ATAI": {
-    "netIncome": -130200000,
-    "netCashFlow": -31556000,
-    "cash": 197519000
-  },
-  "PDYN": {
-    "netIncome": -7096000,
-    "netCashFlow": -4503000,
-    "cash": 38738000
+  "LFWD": {
+    "netIncome": -3084000,
+    "netCashFlow": -4473000,
+    "cash": 45770000
   },
   "AIOT": {
     "netIncome": -1883000,
     "netCashFlow": 0,
     "cash": 748335000
   },
+  "NOTE": {
+    "netIncome": -14935000,
+    "netCashFlow": -5153000,
+    "cash": 337949000
+  },
+  "SIDU": {
+    "netIncome": -15152796,
+    "netCashFlow": -365930,
+    "cash": 23096815
+  },
+  "APPS": {
+    "netIncome": -24986000,
+    "netCashFlow": -2964000,
+    "cash": 844486000
+  },
+  "BBAI": {
+    "netIncome": -12176000,
+    "netCashFlow": -6682000,
+    "cash": 354083000
+  },
   "BFRG": {
     "netIncome": -1763464,
     "netCashFlow": 0,
     "cash": 4602206
   },
-  "TDOC": {
-    "netIncome": -33276000,
-    "netCashFlow": 81483000,
-    "cash": 3528581000
+  "ABSI": {
+    "netIncome": -27398000,
+    "netCashFlow": -5436000,
+    "cash": 235231000
   },
-  "MVIS": {
-    "netIncome": -85497000,
-    "netCashFlow": -35625000,
-    "cash": 88262000
+  "LTRY": {
+    "netIncome": -8046754,
+    "netCashFlow": 0,
+    "cash": 58403889
+  },
+  "IVVD": {
+    "netIncome": -60739000,
+    "netCashFlow": -41012000,
+    "cash": 161922000
   }
 }
